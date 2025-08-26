@@ -2,7 +2,19 @@ export const applyPatches = (G, patches = []) => {
   for (const p of patches) {
     switch (p.type) {
       case 'set': {
-        setAtPath(G, p.path, p.value)
+        if (p.value === undefined) {
+          // Remove the property if value is undefined
+          const keys = p.path.split('.')
+          let ref = G
+          for (let i = 0; i < keys.length - 1; i++) {
+            const k = keys[i]
+            ref[k] = ref[k] ?? {}
+            ref = ref[k]
+          }
+          delete ref[keys[keys.length - 1]]
+        } else {
+          setAtPath(G, p.path, p.value)
+        }
         break
       }
       case 'inc': {

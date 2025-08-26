@@ -18,11 +18,11 @@ export const initialState = (seed = 42) => {
     board: { 
       w: 20, 
       h: 20, 
-      blockers: new Set(), 
-      difficult: new Set(), 
+      blockers: [], 
+      difficult: [], 
       positions: {} 
     },
-    effects: new Map(),
+    effects: {},
     queue: [],
     prompts: { current: null },
     log: [],
@@ -76,22 +76,24 @@ export const onTurnBegin = (G, actorId) => {
     immediateUsedThisRound: false 
   }})
   
-  // Apply dazed/stunned effects (simplified)
-  const actor = G.actors[actorId]
-  if (actor?.conditions?.includes('dazed')) {
-    patches.push({ type: 'set', path: 'actions', value: { 
-      standard: 1, 
-      move: 0, 
-      minor: 0, 
-      free: 'unbounded', 
-      immediateUsedThisRound: false 
-    }})
+  // Apply dazed/stunned effects (simplified) - only if actorId exists
+  if (actorId && G.actors[actorId]) {
+    const actor = G.actors[actorId]
+    if (actor.conditions && actor.conditions.includes('dazed')) {
+      patches.push({ type: 'set', path: 'actions', value: { 
+        standard: 1, 
+        move: 0, 
+        minor: 0, 
+        free: 'unbounded', 
+        immediateUsedThisRound: false 
+      }})
+    }
+    
+    patches.push({ 
+      type: 'log', 
+      value: { type: 'turn-begin', actorId, msg: `${actorId}'s turn begins` }
+    })
   }
-  
-  patches.push({ 
-    type: 'log', 
-    value: { type: 'turn-begin', actorId, msg: `${actorId}'s turn begins` }
-  })
   
   return patches
 }
@@ -116,7 +118,7 @@ export const runEndOfTurnSaves = (G, targetId) => {
   const patches = []
   
   // Find all save-ends effects on this target
-  for (const [instanceId, effect] of G.effects) {
+  for (const [instanceId, effect] of Object.entries(G.effects)) {
     if (effect.target === targetId && effect.duration === 'saveEnds') {
       const { result } = roll(G, 'd20')
       const success = result >= 10
@@ -132,7 +134,7 @@ export const runEndOfTurnSaves = (G, targetId) => {
       })
       
       if (success) {
-        patches.push({ type: 'remove', path: 'effects', value: instanceId })
+        patches.push({ type: 'set', path: `effects.${instanceId}`, value: undefined })
       }
     }
   }

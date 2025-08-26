@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>4e VTT Debug</title>
+    <style>
+        body { font-family: monospace; margin: 20px; }
+        .section { margin: 20px 0; padding: 10px; border: 1px solid #ccc; }
+        button { margin: 5px; padding: 5px 10px; }
+        pre { background: #f5f5f5; padding: 10px; overflow-x: auto; }
+        .log-entry { margin: 2px 0; padding: 2px 5px; background: #f0f0f0; }
+        .log-turn-begin { background: #e8f5e8; }
+        .log-turn-end { background: #ffe8e8; }
+        .log-save { background: #e8f0ff; }
+        .log-roll { background: #fff8e8; }
+    </style>
+</head>
+<body>
+    <h1>4e VTT Engine Debug</h1>
+    
+    <div class="section">
+        <h3>Test Results</h3>
+        <div id="results"></div>
+    </div>
+
+    <div class="section">
+        <h3>Manual Testing</h3>
+        <p>Run this in the browser console to test the engine:</p>
+        <pre>
+// Test the engine via API calls
+async function testEngine() {
+  try {
+    // Create a match
+    console.log('Creating match...');
+    const createResponse = await fetch('/games/4e/create', { 
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' }
+    });
+    const match = await createResponse.json();
+    console.log('Match created:', match);
+    
+    // Join the match
+    console.log('Joining match...');
+    const joinResponse = await fetch(`/games/4e/${match.matchID}/join`, { 
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ playerID: '0', playerName: 'Player1' })
+    });
+    console.log('Join response:', joinResponse.status);
+    if (joinResponse.ok) {
+      const joinResult = await joinResponse.json();
+      console.log('Join result:', joinResult);
+    }
+    
+    // Set initiative
+    console.log('Setting initiative...');
+    const initiativeResponse = await fetch(`/games/4e/${match.matchID}/moves/setInitiative`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ order: ['A1', 'A2', 'A3'] })
+    });
+    console.log('Initiative response:', initiativeResponse.status);
+    if (initiativeResponse.ok) {
+      const initiativeResult = await initiativeResponse.json();
+      console.log('Initiative result:', initiativeResult);
+    }
+    
+    // End turn
+    console.log('Ending turn...');
+    const endTurnResponse = await fetch(`/games/4e/${match.matchID}/moves/endTurn`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' }
+    });
+    console.log('End turn response:', endTurnResponse.status);
+    if (endTurnResponse.ok) {
+      const endTurnResult = await endTurnResponse.json();
+      console.log('End turn result:', endTurnResult);
+    }
+    
+    console.log('Test completed!');
+  } catch (error) {
+    console.error('Test failed:', error);
+  }
+}
+
+testEngine();
+        </pre>
+    </div>
+
+    <script>
+        // Simple test to verify the server is working
+        async function testServer() {
+            const results = document.getElementById('results');
+            
+            try {
+                // Test health endpoint
+                const healthResponse = await fetch('/health');
+                const healthText = await healthResponse.text();
+                results.innerHTML += `<div>✅ Health check: ${healthText}</div>`;
+                
+                // Test games endpoint
+                const gamesResponse = await fetch('/games');
+                const games = await gamesResponse.json();
+                results.innerHTML += `<div>✅ Games available: ${games.join(', ')}</div>`;
+                
+                // Test create endpoint
+                const createResponse = await fetch('/games/4e/create', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' }
+                });
+                const createResult = await createResponse.json();
+                results.innerHTML += `<div>✅ Create match: ${createResult.matchID}</div>`;
+                
+                // Test move endpoints
+                const moveResponse = await fetch(`/games/4e/${createResult.matchID}/moves/setInitiative`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ order: ['A1', 'A2', 'A3'] })
+                });
+                const moveResult = await moveResponse.json();
+                results.innerHTML += `<div>✅ Move endpoint: ${moveResult.success ? 'Working' : 'Failed'}</div>`;
+                
+                results.innerHTML += `<div>✅ Server is running correctly!</div>`;
+                results.innerHTML += `<div>💡 Open browser console and run the test code above to test the engine.</div>`;
+                
+            } catch (error) {
+                results.innerHTML += `<div>❌ Error: ${error.message}</div>`;
+            }
+        }
+        
+        testServer();
+    </script>
+</body>
+</html>

@@ -11,12 +11,18 @@ export const FourEGame = {
       next: (G, ctx) => Rules.nextPlayer(G, ctx)
     },
     onBegin: (G, ctx) => {
-      const patches = Rules.onTurnBegin(G, ctx)
-      applyPatches(G, patches)
+      if (G.turn && G.turn.order && G.turn.order.length > 0) {
+        const actorId = G.turn.order[ctx.playOrderPos]
+        const patches = Rules.onTurnBegin(G, actorId)
+        applyPatches(G, patches)
+      }
     },
     onEnd: (G, ctx) => {
-      const patches = Rules.onTurnEnd(G, ctx)
-      applyPatches(G, patches)
+      if (G.turn && G.turn.order && G.turn.order.length > 0) {
+        const actorId = G.turn.order[ctx.playOrderPos]
+        const patches = Rules.onTurnEnd(G, actorId)
+        applyPatches(G, patches)
+      }
     }
   },
   moves: {
