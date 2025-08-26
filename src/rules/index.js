@@ -1,5 +1,6 @@
 import { roll } from '../engine/rng.js'
 import { applyPatches } from '../engine/patches.js'
+import { tickStartOfTurn, tickEndOfTurn, computeActionMaskForActor } from './effects.js'
 
 export const initialState = (seed = 42) => {
   return {
@@ -105,6 +106,7 @@ export const onTurnBegin = (G, actorId) => {
   }
   
   // Expire effects that last until the start of this actor's turn
+  patches.push(...tickStartOfTurn(G, effectiveActorId))
   for (const [instanceId, effect] of Object.entries(G.effects || {})) {
     const duration = effect.duration
     const matchesString = duration === 'untilStartOfTurn' && (effect.target === effectiveActorId || effect.owner === effectiveActorId)
@@ -127,15 +129,14 @@ export const onTurnBegin = (G, actorId) => {
   // Apply dazed/stunned effects (simplified) - only if actorId exists
   if (effectiveActorId && G.actors[effectiveActorId]) {
     const actor = G.actors[effectiveActorId]
-    if (actor.conditions && actor.conditions.includes('dazed')) {
-      patches.push({ type: 'set', path: 'actions', value: { 
-        standard: 1, 
-        move: 0, 
-        minor: 0, 
-        free: 'unbounded', 
-        immediateUsedThisRound: false 
-      }})
-    }
+    const mask = computeActionMaskForActor(G, effectiveActorId)
+    patches.push({ type: 'set', path: 'actions', value: { 
+      standard: mask.standard, 
+      move: mask.move, 
+      minor: mask.minor, 
+      free: 'unbounded', 
+      immediateUsedThisRound: false 
+    }})
     
     patches.push({ 
       type: 'log', 
@@ -152,6 +153,7 @@ export const onTurnEnd = (G, actorId) => {
   // Run save-ends for this actor
   const savePatches = runEndOfTurnSaves(G, actorId)
   patches.push(...savePatches)
+  patches.push(...tickEndOfTurn(G, actorId))
   
   // Expire effects that last until the end of this actor's turn
   for (const [instanceId, effect] of Object.entries(G.effects || {})) {
@@ -323,17 +325,24 @@ import { findPath as _findPath } from '../tactics/pathing.js'
 import { neighbors8 as _neighbors8, toId as _gridToId, inBounds as _inBounds, chebyshev as _chebyshev } from '../tactics/grid.js'
 import { toId as _toId, detectOAFromMovement as _detectOA } from '../tactics/grid.js'
 import { normalizeTemplateSpec as _normTemplate, normalizeTargetingSpec as _normTarget } from '../tactics/specs.js'
+import { computeFlagsForActor as _computeFlagsForActor } from './effects.js'
 
 export const previewMove = (G, actorId, toCell, mode = 'walk', opts = {}) => {
   const from = G.board.positions[actorId]
   if (!from) return { ok: false, reason: 'no-position' }
   const baseSpeed = (G.actors[actorId] && G.actors[actorId].speed) || 6
   const speedBonus = mode === 'run' ? (opts.speedBonus ?? 2) : 0
-  const maxBudget = baseSpeed + speedBonus
+  const flags = _computeFlagsForActor(G, actorId)
+  if (flags.speed0) {
+    if (mode === 'shift' || mode === 'walk' || mode === 'run') return { ok: false, reason: 'speed0' }
+  }
+  let maxBudget = baseSpeed + speedBonus
+  if (flags.slowCap2) maxBudget = Math.min(maxBudget, 2)
   if (mode === 'shift') {
     // Exactly 1 step and not into difficult terrain
     const dx = Math.abs(toCell.x - from.x), dy = Math.abs(toCell.y - from.y)
     if (Math.max(dx, dy) !== 1) return { ok: false, reason: 'shift-distance' }
+    if (flags.cannotShift) return { ok: false, reason: 'cannot-shift' }
     const toId = _toId(toCell)
     if ((G.board.difficult || []).includes(toId)) return { ok: false, reason: 'difficult' }
   }

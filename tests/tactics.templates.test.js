@@ -3,6 +3,7 @@ import { chebyshev, neighbors4, neighbors8, toId, fromId, inBounds, actorAt, isO
 import { initialState, move, previewMove, commitMove, forced, buildMovePreviewLog, buildTargetPreviewLog, stageTargetingSelection } from '../src/rules/index.js'
 import { detectOAFromMovement } from '../src/tactics/grid.js'
 import { cellsForSingle, cellsForBurst, cellsForTemplate, cellsForBlast, facingFromVector, areaBurstCentersWithin } from '../src/tactics/templates.js'
+import { applyPatches } from '../src/engine/patches.js'
 import { hasLoE } from '../src/tactics/los.js'
 import { previewTargeting, validateTargeting } from '../src/tactics/targeting.js'
 import { normalizeTemplateSpec, validateTemplateSpec, normalizeTargetingSpec, validateTargetingSpec } from '../src/tactics/specs.js'
@@ -266,6 +267,36 @@ test("B6: walk/run/standUp patches", () => {
   patches = move.standUp(G, 'A1')
   applyPatches(G, patches)
   expect(G.actors.A1.conditions.includes('prone')).toBe(false)
+})
+
+test("E7: immobilized blocks walk/shift; slowed caps budget to 2", () => {
+  const G = initialState(42)
+  G.board.w = 10; G.board.h = 10
+  G.board.positions = { A1: { x: 0, y: 0 } }
+  G.actors = { A1: { speed: 6 } }
+  const { applyCondition } = require('../src/rules/effects.js')
+  // immobilized
+  let r = applyCondition(G, { conditionId: 'immobilized', source: 'SRC', target: 'A1', duration: 'saveEnds' })
+  applyPatches(G, r.patches)
+  let pv = previewMove(G, 'A1', { x: 1, y: 0 }, 'walk')
+  expect(pv.ok).toBe(false)
+  // clear effects quickly
+  G.effects = {}
+  // slowed caps range to 2
+  r = applyCondition(G, { conditionId: 'slowed', source: 'SRC', target: 'A1', duration: 'saveEnds' })
+  applyPatches(G, r.patches)
+  pv = previewMove(G, 'A1', { x: 3, y: 0 }, 'walk')
+  const hasRange = (pv.warns || []).some(w => w.type === 'range' && w.max === 2)
+  expect(hasRange).toBe(true)
+})
+
+test("E9: mark flag presence via applyMark", () => {
+  const G = initialState(42)
+  const { applyMark } = require('../src/rules/effects.js')
+  const res = applyMark(G, 'A1', 'D1', 'saveEnds')
+  applyPatches(G, res.patches)
+  const exists = Object.values(G.effects || {}).some(e => e && e.conditionId === 'marked' && e.target === 'D1')
+  expect(exists).toBe(true)
 })
 
 test("B8: preview vs commit logs are structured", () => {

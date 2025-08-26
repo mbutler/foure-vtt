@@ -1,4 +1,5 @@
 import { roll } from '../engine/rng.js'
+import { computeFlagsForActor } from './effects.js'
 
 // D1: Spec normalization (minimal)
 export const normalizeAttackSpec = (spec = {}) => {
@@ -88,7 +89,8 @@ export const resolveAttack = (G, ctxIn, specIn, options = {}) => {
   // Damage (minimal): use spec.hit.damage or spec.miss.damage
   const damageSpec = outcome === 'hit' || outcome === 'crit' ? spec.hit && spec.hit.damage : spec.miss && spec.miss.damage
   if (damageSpec) {
-    const dmg = evaluateDamage(G, ctx, damageSpec, { crit: outcome === 'crit', onMiss: outcome === 'miss' })
+    const flags = computeFlagsForActor(G, ctx.attackerId)
+    const dmg = evaluateDamage(G, ctx, damageSpec, { crit: outcome === 'crit', onMiss: outcome === 'miss', weakened: flags.weakened })
     patches.push(...dmg.patches)
     const applied = applyDamage(G, ctx.defenderId, dmg.total, damageSpec.type)
     patches.push(...applied.patches)
@@ -169,6 +171,7 @@ export const evaluateDamage = (G, ctx, damageSpec = {}, options = {}) => {
     staticTotal += mod
   }
   let total = diceTotal + staticTotal
+  if (options.weakened) total = Math.floor(total / 2)
   if (options.onMiss && damageSpec.halfOnMiss) {
     total = Math.floor(total / 2)
   }

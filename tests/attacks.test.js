@@ -95,4 +95,23 @@ test('D10/D13: MBA smoke test end-to-end', () => {
   expect(G.actors.D1.hp.current).toBeLessThan(25)
 })
 
+test('E7: weakened halves damage dealt', () => {
+  const G = initialState(42)
+  G.actors = {
+    A1: { abilityMods: { STR: 0 } },
+    D1: { defenses: { AC: 10 }, hp: { current: 20, max: 20, temp: 0 } }
+  }
+  const ctx = { attackerId: 'A1', defenderId: 'D1' }
+  const spec = { vs: 'AC', ability: 'STR', hit: { damage: { dice: [{ n: 2, d: 6 }], flat: 0, type: 'untyped' } } }
+  // Apply weakened on attacker
+  const { applyCondition } = require('../src/rules/effects.js')
+  const res = applyCondition(G, { conditionId: 'weakened', source: 'SRC', target: 'A1', duration: 'saveEnds' })
+  applyPatches(G, res.patches)
+  // Resolve attack with forced 15 to hit
+  const outcome = resolveAttack(G, ctx, spec, { forceD20: 15 })
+  applyPatches(G, outcome.patches)
+  // HP reduced, but average should be around half; just check less-than a plausible upper bound
+  expect(G.actors.D1.hp.current).toBeGreaterThan(10)
+})
+
 

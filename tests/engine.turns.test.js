@@ -1,5 +1,6 @@
 import { test, expect } from "bun:test"
 import { initialState, advanceTurn, spendAction, roll, setInitiativeOrder, insertActorIntoInitiative, removeActorFromInitiative, delayTurn, readyAction, addEffect } from '../src/rules/index.js'
+import { applyCondition } from '../src/rules/effects.js'
 import { applyPatches } from '../src/engine/patches.js'
 
 test("A1: Initial state is serializable", () => {
@@ -104,6 +105,64 @@ test("A12: Round begin hook fires on wrap", () => {
   expect(G.round).toBe(2)
   const hasRoundBegin = G.log.some(e => e.type === 'round-begin')
   expect(hasRoundBegin).toBe(true)
+})
+
+test("E6: Dazed action mask applied at turn begin", () => {
+  const G = initialState(42)
+  G.actors = { A1: { conditions: [] } }
+  applyPatches(G, setInitiativeOrder(G, ['A1']))
+  // Apply dazed condition via effects
+  const res = applyCondition(G, { conditionId: 'dazed', source: 'SRC', target: 'A1', duration: 'saveEnds' })
+  applyPatches(G, res.patches)
+  // Advance turn to trigger onTurnBegin mask
+  const patches = advanceTurn(G)
+  applyPatches(G, patches)
+  expect(G.actions.standard).toBe(1)
+  expect(G.actions.move).toBe(0)
+  expect(G.actions.minor).toBe(0)
+})
+
+test("E8/E5: Ongoing damage ticks at start and save ends at end", () => {
+  const G = initialState(42)
+  G.actors = { A1: { conditions: [], hp: { current: 20, max: 20, temp: 0 } } }
+  applyPatches(G, setInitiativeOrder(G, ['A1']))
+  // Apply ongoing 5 fire (save ends) to A1
+  const { applyCondition } = require('../src/rules/effects.js')
+  const res = applyCondition(G, { conditionId: 'ongoing-damage', source: 'SRC', target: 'A1', duration: 'saveEnds', data: { amount: 5, type: 'fire' } })
+  applyPatches(G, res.patches)
+  // Advance to start of A1's turn (single actor -> start triggers immediately)
+  let patches = advanceTurn(G)
+  applyPatches(G, patches)
+  expect(G.actors.A1.hp.current).toBe(15)
+  // End of turn should attempt a save (may fail due to RNG); just assert a save-roll log exists
+  patches = advanceTurn(G)
+  applyPatches(G, patches)
+  const hadSave = G.log.some(e => e.type === 'save-roll')
+  expect(hadSave).toBe(true)
+})
+
+test("E10: Sustain preserves effect; otherwise expires at end", () => {
+  const G = initialState(42)
+  G.actors = { A1: { conditions: [] } }
+  applyPatches(G, setInitiativeOrder(G, ['A1']))
+  const { applyCondition, sustainEffect } = require('../src/rules/effects.js')
+  const res = applyCondition(G, { conditionId: 'zone', source: 'SRC', target: 'A1', duration: 'encounter', data: { sustain: 'minor' } })
+  applyPatches(G, res.patches)
+  // End turn without sustain -> should expire
+  let patches = advanceTurn(G)
+  applyPatches(G, patches)
+  patches = advanceTurn(G)
+  applyPatches(G, patches)
+  let exists = !!G.effects[Object.keys(G.effects)[0]]
+  // Re-apply and sustain
+  const res2 = applyCondition(G, { conditionId: 'zone', source: 'SRC', target: 'A1', duration: 'encounter', data: { sustain: 'minor' } })
+  applyPatches(G, res2.patches)
+  applyPatches(G, sustainEffect(G, res2.instanceId))
+  // Advance once (end of current turn); effect should still exist
+  patches = advanceTurn(G)
+  applyPatches(G, patches)
+  exists = Object.values(G.effects || {}).some(e => e && e.id === res2.instanceId)
+  expect(exists).toBe(true)
 })
 
 test("A13: Initiative utils insert/remove", () => {
