@@ -25,6 +25,7 @@ export const initialState = (seed = 42) => {
     },
     effects: {},
     queue: [],
+    flags: { usage: {} },
     prompts: { current: null },
     log: [],
     _ts: 0
@@ -49,6 +50,10 @@ export const advanceTurn = (G) => {
   // Increment round if we wrapped
   if (nextIndex === 0 && G.turn.order.length > 0) {
     patches.push({ type: 'inc', path: 'round', value: 1 })
+    // Reset immediate usage each new round for all actors in play order
+    for (const id of G.turn.order) {
+      patches.push({ type: 'merge', path: `flags.usage.${id}`, value: { immediateUsedThisRound: false } })
+    }
     patches.push({ 
       type: 'log', 
       value: { type: 'round-begin', msg: `Round ${G.round + 1} begins` }
@@ -107,6 +112,8 @@ export const onTurnBegin = (G, actorId) => {
   
   // Expire effects that last until the start of this actor's turn
   patches.push(...tickStartOfTurn(G, effectiveActorId))
+  // Reset OA usage flags at start of each actor's turn
+  patches.push({ type: 'merge', path: `flags.usage.${effectiveActorId}`, value: { opportunityUsedThisTurn: false } })
   for (const [instanceId, effect] of Object.entries(G.effects || {})) {
     const duration = effect.duration
     const matchesString = duration === 'untilStartOfTurn' && (effect.target === effectiveActorId || effect.owner === effectiveActorId)

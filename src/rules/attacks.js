@@ -1,5 +1,6 @@
 import { roll } from '../engine/rng.js'
 import { computeFlagsForActor } from './effects.js'
+import { openOA, openInterrupt, openReaction } from './reactive.js'
 
 // D1: Spec normalization (minimal)
 export const normalizeAttackSpec = (spec = {}) => {
@@ -86,6 +87,25 @@ export const resolveAttack = (G, ctxIn, specIn, options = {}) => {
 
   patches.push({ type: 'log', value: { type: 'attack-result', msg: `${outcome.toUpperCase()} vs ${spec.vs}`, data: { attackerId: ctx.attackerId, defenderId: ctx.defenderId, outcome, reason } } })
 
+  // F3: OA for ranged/area in melee (adjacent enemy gets OA)
+  if ((spec.kind === 'ranged' || spec.origin === 'ranged' || spec.origin === 'area') && outcome !== 'miss') {
+    // find adjacent enemies
+    const attPos = G.board.positions[ctx.attackerId]
+    if (attPos) {
+      const provokers = Object.entries(G.board.positions || {})
+        .filter(([id, pos]) => id !== ctx.attackerId && Math.max(Math.abs(pos.x - attPos.x), Math.abs(pos.y - attPos.y)) === 1)
+        .map(([id]) => id)
+      if (provokers.length > 0) {
+        patches.push(...openOA(G, { type: 'ranged-in-melee', data: { moverId: ctx.attackerId }, provokers }))
+      }
+    }
+  }
+
+  // F5/F6: Interrupt (post-hit, pre-damage) and Reaction (after damage)
+  if (outcome === 'hit' || outcome === 'crit') {
+    patches.push(...openInterrupt(G, { type: 'attack-hit', data: { attackerId: ctx.attackerId, defenderId: ctx.defenderId } }))
+  }
+
   // Damage (minimal): use spec.hit.damage or spec.miss.damage
   const damageSpec = outcome === 'hit' || outcome === 'crit' ? spec.hit && spec.hit.damage : spec.miss && spec.miss.damage
   if (damageSpec) {
@@ -94,6 +114,8 @@ export const resolveAttack = (G, ctxIn, specIn, options = {}) => {
     patches.push(...dmg.patches)
     const applied = applyDamage(G, ctx.defenderId, dmg.total, damageSpec.type)
     patches.push(...applied.patches)
+    // F6: after-damage reaction window for defender
+    patches.push(...openReaction(G, { type: 'after-damage', data: { attackerId: ctx.attackerId, defenderId: ctx.defenderId }, eligible: [ctx.defenderId] }))
   }
 
   return { patches }

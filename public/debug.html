@@ -43,6 +43,23 @@
     </div>
 
     <div class="section">
+      <h3>Reactive (F) Demo</h3>
+      <div style="display:flex; gap: 10px; align-items: center; flex-wrap: wrap;">
+        <div>
+          <button id="btn-open-oa">Open OA (E1 vs A1)</button>
+          <button id="btn-resolve-oa">Resolve OA (demo)</button>
+        </div>
+        <div>
+          <button id="btn-open-int">Open Interrupt (A1)</button>
+          <button id="btn-resolve-int">Resolve Interrupt (demo)</button>
+        </div>
+        <div>
+          <button id="btn-open-react">Open Reaction (A1)</button>
+          <button id="btn-resolve-react">Resolve Reaction (demo)</button>
+        </div>
+      </div>
+    </div>
+    <div class="section">
         <h3>Grid & Movement (B)</h3>
         <div style="display:flex; gap: 20px; flex-wrap: wrap; align-items: center;">
             <div>
@@ -449,6 +466,40 @@
         document.getElementById('btn-commit').onclick = () => { if(!lastPreview || !lastPreview.ok){ alert('No valid preview'); return; } const actor=document.getElementById('mv-actor').value; applyPatches(G, commitMoveLocal(G, actor, lastPreview)); render(); };
         document.getElementById('btn-reachable').onclick = () => { const actor=document.getElementById('rch-actor').value; const speed=Number(document.getElementById('rch-speed').value)||6; const set=reachable(G, actor, speed); document.getElementById('reachable-out').textContent = `Count ${set.size}: ${Array.from(set).slice(0,100).join(', ')}${set.size>100?' ...':''}`; };
         document.getElementById('btn-forced').onclick = () => { const kind=document.getElementById('fm-kind').value; const src=document.getElementById('fm-src').value; const tgt=document.getElementById('fm-tgt').value; const n=Number(document.getElementById('fm-n').value)||1; const patches = kind==='push'? forcedLocal.push(G, src, tgt, n) : kind==='pull'? forcedLocal.pull(G, src, tgt, n) : forcedLocal.slide(G, src, tgt, n); applyPatches(G, patches); render(); };
+
+        // Reactive (F) enqueue/resolve demo (no full resolution here)
+        document.getElementById('btn-open-oa').onclick = () => { applyPatches(G, [ { type:'add', path:'queue', value:{ id:`ev_${(G._ts||0)+(G.queue?G.queue.length:0)+1}`, kind:'OA', trigger:{ type:'movement', data:{ moverId:'A1' } }, eligible:['E1'], status:'open' } }, { type:'log', value:{ type:'oa-open', msg:'OA open (demo)' } } ]); render(); };
+        document.getElementById('btn-resolve-oa').onclick = () => {
+          const ev = (G.queue||[]).find(e => e.kind === 'OA')
+          if (!ev) { applyPatches(G, [{ type:'log', value:{ type:'info', msg:'No OA event' } }]); return }
+          const attacker = 'E1'
+          const target = ev.trigger && ev.trigger.data && ev.trigger.data.moverId || 'A1'
+          // roll to hit: d20 + 4 vs AC 10
+          const r = (function(){ const spec = { kind:'sum', terms:['d20'] }; const { result, patches } = (function(spec){ const { nextFloat, cursor } = (function(seed,cursor){ let t=(seed+cursor)>>>0; const nextFloat=()=>{ t+=0x6d2b79f5; let x=Math.imul(t^(t>>>15),1|t); x^=x+Math.imul(x^(x>>>7),61|x); return ((x^(x>>>14))>>>0)/4294967296 }; return { nextFloat, cursor: cursor+1 } })(G.rng.seed, G.rng.cursor); let res, parts; if(spec.kind==='sum'){ parts=spec.terms.map(term => term==='d20'? Math.floor(nextFloat()*20)+1 : 0); res=parts.reduce((a,b)=>a+b,0) } else { res=1; parts=[1] } const patches=[ { type:'set', path:'rng.cursor', value: cursor }, { type:'log', value:{ type:'roll', msg:`Rolled ${'d20'}`, data:{ spec:'d20', result: res, parts }, rng:{ seed:G.rng.seed, idx:G.rng.cursor } } } ]; return { result: res, parts, patches } })(spec); return { d20: result, patches } })()
+          applyPatches(G, r.patches)
+          const toHit = r.d20 + 4
+          const defense = 10
+          const hit = r.d20 !== 1 && (r.d20 === 20 || toHit >= defense)
+          applyPatches(G, [{ type:'log', value:{ type:'attack-roll', msg:`OA roll (demo)`, data:{ d20:r.d20, toHit, defense } } }])
+          if (hit) {
+            // damage 1d6
+            const dr = (function(){ const spec = { kind:'sum', terms:['d6'] }; const { result, patches } = (function(spec){ const { nextFloat, cursor } = (function(seed,cursor){ let t=(seed+cursor)>>>0; const nextFloat=()=>{ t+=0x6d2b79f5; let x=Math.imul(t^(t>>>15),1|t); x^=x+Math.imul(x^(x>>>7),61|x); return ((x^(x>>>14))>>>0)/4294967296 }; return { nextFloat, cursor: cursor+1 } })(G.rng.seed, G.rng.cursor); let res, parts; if(spec.kind==='sum'){ parts=spec.terms.map(term => term==='d6'? Math.floor(nextFloat()*6)+1 : 0); res=parts.reduce((a,b)=>a+b,0) } else { res=1; parts=[1] } const patches=[ { type:'set', path:'rng.cursor', value: cursor }, { type:'log', value:{ type:'roll', msg:`Rolled ${'d6'}`, data:{ spec:'d6', result: res, parts }, rng:{ seed:G.rng.seed, idx:G.rng.cursor } } } ]; return { result: res, parts, patches } })(spec); return { dmg: result, patches } })()
+            applyPatches(G, dr.patches)
+            // ensure hp field
+            const hp = (((G.actors||{})[target] = (G.actors||{})[target] || {}), G.actors[target].hp = G.actors[target].hp || { current: 10, max: 10, temp: 0 }, G.actors[target].hp)
+            const before = { hp: hp.current, temp: hp.temp }
+            const afterTemp = Math.max(0, hp.temp - dr.dmg)
+            const remaining = Math.max(0, dr.dmg - hp.temp)
+            const afterHp = Math.max(0, hp.current - remaining)
+            applyPatches(G, [ { type:'set', path:`actors.${target}.hp.temp`, value: afterTemp }, { type:'set', path:`actors.${target}.hp.current`, value: afterHp }, { type:'log', value:{ type:'damage-apply', msg:`OA damage to ${target} (demo)`, data:{ before, after:{ hp: afterHp, temp: afterTemp }, final: remaining } } } ])
+          }
+          applyPatches(G, [ { type:'log', value:{ type:'oa-resolve', msg:'OA resolved (demo)' } } ])
+          render();
+        };
+        document.getElementById('btn-open-int').onclick = () => { applyPatches(G, [ { type:'add', path:'queue', value:{ id:`ev_${(G._ts||0)+(G.queue?G.queue.length:0)+1}`, kind:'INTERRUPT', trigger:{ type:'attack-hit', data:{} }, eligible:['A1'], status:'open' } }, { type:'log', value:{ type:'int-open', msg:'Interrupt open (demo)' } } ]); render(); };
+        document.getElementById('btn-resolve-int').onclick = () => { applyPatches(G, [ { type:'log', value:{ type:'int-resolve', msg:'Interrupt resolved (demo)' } } ]); render(); };
+        document.getElementById('btn-open-react').onclick = () => { applyPatches(G, [ { type:'add', path:'queue', value:{ id:`ev_${(G._ts||0)+(G.queue?G.queue.length:0)+1}`, kind:'REACTION', trigger:{ type:'after-damage', data:{} }, eligible:['A1'], status:'open' } }, { type:'log', value:{ type:'react-open', msg:'Reaction open (demo)' } } ]); render(); };
+        document.getElementById('btn-resolve-react').onclick = () => { applyPatches(G, [ { type:'log', value:{ type:'react-resolve', msg:'Reaction resolved (demo)' } } ]); render(); };
 
         // --- Targeting (C) helpers ---
         function cellsForBurstLocal(center, radius){

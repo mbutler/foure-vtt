@@ -1,6 +1,7 @@
 import { test, expect } from "bun:test"
 import { initialState } from '../src/rules/index.js'
 import { computeAttackBonus, rollToHit, resolveAttack, resolveAttackMulti, evaluateDamage, applyDamage, buildAttackPreview } from '../src/rules/attacks.js'
+import { openOA, resolveOA } from '../src/rules/reactive.js'
 import { applyPatches } from '../src/engine/patches.js'
 
 test('D3: computeAttackBonus with CA and cover', () => {
@@ -36,7 +37,8 @@ test('D5: resolveAttack logs and outcomes', () => {
   // Force d20 = 20 -> crit
   ;({ patches } = resolveAttack(G, ctx, spec, { forceD20: 20 }))
   applyPatches(G, patches)
-  last = G.log[G.log.length - 1]
+  const results = G.log.filter(e => e.type === 'attack-result')
+  last = results[results.length - 1]
   expect(last.data.outcome).toBe('crit')
 })
 
@@ -76,6 +78,48 @@ test('D8: multi-target rolls per defender', () => {
   expect(attackResults.length).toBeGreaterThanOrEqual(2)
 })
 
+test('F4: OA enqueue and resolve as MBA', () => {
+  const G = initialState(42)
+  G.board.w = 10; G.board.h = 10
+  G.board.positions = { A1: { x: 1, y: 1 }, E1: { x: 1, y: 2 } }
+  G.actors = { A1: { abilityMods: { STR: 0 }, defenses: { AC: 10 }, hp: { current: 10, max: 10, temp: 0 } }, E1: { abilityMods: { STR: 4 }, defenses: { AC: 10 } } }
+  // Enqueue OA event for E1 against A1 mover
+  const patches = openOA(G, { type: 'movement', data: { moverId: 'A1' }, provokers: ['E1'] })
+  applyPatches(G, patches)
+  const ev = G.queue.find(e => e.kind === 'OA')
+  const before = G.actors.A1.hp.current
+  const res = resolveOA(G, 'E1', ev.id, { forceD20: 15 })
+  applyPatches(G, res.patches)
+  const after = G.actors.A1.hp.current
+  expect(after).toBeLessThan(before)
+})
+
+test('F3: Ranged attack in melee enqueues OA', () => {
+  const G = initialState(42)
+  G.board.w = 10; G.board.h = 10
+  G.board.positions = { A1: { x: 1, y: 1 }, E1: { x: 1, y: 2 } }
+  G.actors = { A1: { abilityMods: { DEX: 4 }, defenses: { AC: 10 } }, E1: { defenses: { AC: 10 } } }
+  const spec = { kind: 'ranged', origin: 'ranged', vs: 'AC', ability: 'DEX', hit: { damage: { dice: [{ n: 1, d: 6 }], ability: 'DEX', type: 'untyped' } } }
+  const ctx = { attackerId: 'A1', defenderId: 'E1' }
+  const res = resolveAttack(G, ctx, spec, { forceD20: 15 })
+  applyPatches(G, res.patches)
+  const hasOAOpen = G.log.some(e => e.type === 'oa-open')
+  expect(hasOAOpen).toBe(true)
+})
+
+test('F5: Interrupt window opens on hit', () => {
+  const G = initialState(42)
+  G.board.w = 10; G.board.h = 10
+  G.board.positions = { A1: { x: 1, y: 1 }, D1: { x: 5, y: 5 } }
+  G.actors = { A1: { abilityMods: { DEX: 4 }, defenses: { AC: 10 } }, D1: { defenses: { AC: 10 } } }
+  const spec = { kind: 'ranged', origin: 'ranged', vs: 'AC', ability: 'DEX', hit: { damage: { dice: [{ n: 1, d: 6 }], ability: 'DEX', type: 'untyped' } } }
+  const ctx = { attackerId: 'A1', defenderId: 'D1' }
+  const res = resolveAttack(G, ctx, spec, { forceD20: 15 })
+  applyPatches(G, res.patches)
+  const hasInt = G.log.some(e => e.type === 'int-open')
+  expect(hasInt).toBe(true)
+})
+
 test('D10/D13: MBA smoke test end-to-end', () => {
   const G = initialState(42)
   G.actors = {
@@ -90,8 +134,8 @@ test('D10/D13: MBA smoke test end-to-end', () => {
   // Resolve with forced 15 -> total >= defense
   const res = resolveAttack(G, ctx, spec, { forceD20: 15 })
   applyPatches(G, res.patches)
-  const last = G.log[G.log.length - 1]
-  expect(last.type).toBe('damage-apply')
+  const dmgApplied = G.log.some(e => e.type === 'damage-apply')
+  expect(dmgApplied).toBe(true)
   expect(G.actors.D1.hp.current).toBeLessThan(25)
 })
 
