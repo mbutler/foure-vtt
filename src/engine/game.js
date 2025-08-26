@@ -1,6 +1,5 @@
 import { INVALID_MOVE } from 'boardgame.io/core'
 import * as Rules from '../rules/index.js'
-import { applyPatches } from './patches.js'
 
 export const FourEGame = {
   name: '4e',
@@ -14,14 +13,14 @@ export const FourEGame = {
       if (G.turn && G.turn.order && G.turn.order.length > 0) {
         const actorId = G.turn.order[ctx.playOrderPos]
         const patches = Rules.onTurnBegin(G, actorId)
-        applyPatches(G, patches)
+        Rules.applyPatches(G, patches)
       }
     },
     onEnd: (G, ctx) => {
       if (G.turn && G.turn.order && G.turn.order.length > 0) {
         const actorId = G.turn.order[ctx.playOrderPos]
         const patches = Rules.onTurnEnd(G, actorId)
-        applyPatches(G, patches)
+        Rules.applyPatches(G, patches)
       }
     }
   },

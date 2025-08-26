@@ -16,118 +16,229 @@
 </head>
 <body>
     <h1>4e VTT Engine Debug</h1>
-    
     <div class="section">
-        <h3>Test Results</h3>
-        <div id="results"></div>
-    </div>
-
-    <div class="section">
-        <h3>Manual Testing</h3>
-        <p>Run this in the browser console to test the engine:</p>
-        <pre>
-// Test the engine via API calls
-async function testEngine() {
-  try {
-    // Create a match
-    console.log('Creating match...');
-    const createResponse = await fetch('/games/4e/create', { 
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' }
-    });
-    const match = await createResponse.json();
-    console.log('Match created:', match);
-    
-    // Join the match
-    console.log('Joining match...');
-    const joinResponse = await fetch(`/games/4e/${match.matchID}/join`, { 
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ playerID: '0', playerName: 'Player1' })
-    });
-    console.log('Join response:', joinResponse.status);
-    if (joinResponse.ok) {
-      const joinResult = await joinResponse.json();
-      console.log('Join result:', joinResult);
-    }
-    
-    // Set initiative
-    console.log('Setting initiative...');
-    const initiativeResponse = await fetch(`/games/4e/${match.matchID}/moves/setInitiative`, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ order: ['A1', 'A2', 'A3'] })
-    });
-    console.log('Initiative response:', initiativeResponse.status);
-    if (initiativeResponse.ok) {
-      const initiativeResult = await initiativeResponse.json();
-      console.log('Initiative result:', initiativeResult);
-    }
-    
-    // End turn
-    console.log('Ending turn...');
-    const endTurnResponse = await fetch(`/games/4e/${match.matchID}/moves/endTurn`, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' }
-    });
-    console.log('End turn response:', endTurnResponse.status);
-    if (endTurnResponse.ok) {
-      const endTurnResult = await endTurnResponse.json();
-      console.log('End turn result:', endTurnResult);
-    }
-    
-    console.log('Test completed!');
-  } catch (error) {
-    console.error('Test failed:', error);
-  }
-}
-
-testEngine();
-        </pre>
+        <h3>Local Engine Demo (no server required)</h3>
+        <div style="margin-bottom: 8px;">
+            <label>Seed: <input id="seed" type="number" value="42" style="width: 80px;" /></label>
+            <button id="btn-init">Init Game</button>
+            <button id="btn-set-init">Set Initiative A1,A2,A3</button>
+            <button id="btn-advance">Advance Turn</button>
+            <button id="btn-spend-standard">Spend Standard</button>
+            <button id="btn-spend-move">Spend Move</button>
+            <button id="btn-spend-minor">Spend Minor</button>
+            <button id="btn-roll">Roll d20</button>
+            <button id="btn-delay">Delay</button>
+            <button id="btn-ready">Ready</button>
+        </div>
+        <div style="display:flex; gap: 20px;">
+            <div style="flex:1;">
+                <h4>State</h4>
+                <pre id="state"></pre>
+            </div>
+            <div style="flex:1;">
+                <h4>Log</h4>
+                <div id="log"></div>
+            </div>
+        </div>
     </div>
 
     <script>
-        // Simple test to verify the server is working
-        async function testServer() {
-            const results = document.getElementById('results');
-            
-            try {
-                // Test health endpoint
-                const healthResponse = await fetch('/health');
-                const healthText = await healthResponse.text();
-                results.innerHTML += `<div>✅ Health check: ${healthText}</div>`;
-                
-                // Test games endpoint
-                const gamesResponse = await fetch('/games');
-                const games = await gamesResponse.json();
-                results.innerHTML += `<div>✅ Games available: ${games.join(', ')}</div>`;
-                
-                // Test create endpoint
-                const createResponse = await fetch('/games/4e/create', {
-                    method: 'POST',
-                    headers: { 'Content-Type': 'application/json' }
-                });
-                const createResult = await createResponse.json();
-                results.innerHTML += `<div>✅ Create match: ${createResult.matchID}</div>`;
-                
-                // Test move endpoints
-                const moveResponse = await fetch(`/games/4e/${createResult.matchID}/moves/setInitiative`, {
-                    method: 'POST',
-                    headers: { 'Content-Type': 'application/json' },
-                    body: JSON.stringify({ order: ['A1', 'A2', 'A3'] })
-                });
-                const moveResult = await moveResponse.json();
-                results.innerHTML += `<div>✅ Move endpoint: ${moveResult.success ? 'Working' : 'Failed'}</div>`;
-                
-                results.innerHTML += `<div>✅ Server is running correctly!</div>`;
-                results.innerHTML += `<div>💡 Open browser console and run the test code above to test the engine.</div>`;
-                
-            } catch (error) {
-                results.innerHTML += `<div>❌ Error: ${error.message}</div>`;
+        // --- Minimal local engine (mirrors src/engine + src/rules) ---
+        const getAtPath = (obj, path) => path.split('.').reduce((acc, k) => acc ? acc[k] : undefined, obj);
+        const setAtPath = (obj, path, value) => {
+          const keys = path.split('.');
+          let ref = obj;
+          for (let i = 0; i < keys.length - 1; i++) {
+            const k = keys[i];
+            ref[k] = ref[k] ?? {};
+            ref = ref[k];
+          }
+          ref[keys[keys.length - 1]] = value;
+        };
+        function applyPatches(G, patches = []) {
+          for (const p of patches) {
+            switch (p.type) {
+              case 'set': {
+                if (p.value === undefined) {
+                  const keys = p.path.split('.');
+                  let ref = G;
+                  for (let i = 0; i < keys.length - 1; i++) {
+                    const k = keys[i];
+                    ref[k] = ref[k] ?? {};
+                    ref = ref[k];
+                  }
+                  delete ref[keys[keys.length - 1]];
+                } else {
+                  setAtPath(G, p.path, p.value);
+                }
+                break;
+              }
+              case 'inc': {
+                const current = getAtPath(G, p.path) || 0;
+                setAtPath(G, p.path, current + p.value);
+                break;
+              }
+              case 'merge': {
+                const target = getAtPath(G, p.path) ?? {};
+                setAtPath(G, p.path, { ...target, ...p.value });
+                break;
+              }
+              case 'add': {
+                const array = getAtPath(G, p.path) || [];
+                setAtPath(G, p.path, [...array, p.value]);
+                break;
+              }
+              case 'remove': {
+                const arr = getAtPath(G, p.path) || [];
+                setAtPath(G, p.path, arr.filter(item => item !== p.value));
+                break;
+              }
+              case 'log': {
+                const log = getAtPath(G, 'log') || [];
+                setAtPath(G, 'log', [...log, { ts: G._ts + 1, ...p.value }]);
+                setAtPath(G, '_ts', G._ts + 1);
+                break;
+              }
             }
+          }
         }
-        
-        testServer();
+        function prng(seed, cursor) {
+          let t = (seed + cursor) >>> 0;
+          const nextFloat = () => {
+            t += 0x6d2b79f5;
+            let x = Math.imul(t ^ (t >>> 15), 1 | t);
+            x ^= x + Math.imul(x ^ (x >>> 7), 61 | x);
+            return ((x ^ (x >>> 14)) >>> 0) / 4294967296;
+          };
+          return { nextFloat, cursor: cursor + 1 };
+        }
+        function roll(G, spec) {
+          const { nextFloat, cursor } = prng(G.rng.seed, G.rng.cursor);
+          let result = Math.floor(nextFloat() * 20) + 1;
+          const parts = [result];
+          const patches = [
+            { type: 'set', path: 'rng.cursor', value: cursor },
+            { type: 'log', value: { type: 'roll', msg: `Rolled ${spec}`, data: { spec, result, parts }, rng: { seed: G.rng.seed, idx: G.rng.cursor } } }
+          ];
+          return { result, parts, patches };
+        }
+        function initialState(seed = 42) {
+          return {
+            matchId: `match_${Date.now()}_${seed}`,
+            rng: { seed, cursor: 0 },
+            round: 1,
+            turn: { order: [], index: 0 },
+            actions: { standard: 1, move: 1, minor: 1, free: 'unbounded', immediateUsedThisRound: false },
+            actors: {},
+            board: { w: 20, h: 20, blockers: [], difficult: [], positions: {} },
+            effects: {},
+            queue: [],
+            prompts: { current: null },
+            log: [],
+            _ts: 0
+          };
+        }
+        function setInitiativeOrder(_G, order) {
+          return [
+            { type: 'set', path: 'turn.order', value: order },
+            { type: 'set', path: 'turn.index', value: 0 },
+            { type: 'log', value: { type: 'info', msg: `Initiative set: ${order.join(', ')}` } }
+          ];
+        }
+        function onTurnBegin(G, actorId) {
+          const patches = [];
+          patches.push({ type: 'set', path: 'actions', value: { standard: 1, move: 1, minor: 1, free: 'unbounded', immediateUsedThisRound: false } });
+          patches.push({ type: 'log', value: { type: 'turn-begin', actorId, msg: `${actorId}'s turn begins` } });
+          return patches;
+        }
+        function onTurnEnd(G, actorId) {
+          const patches = [];
+          patches.push({ type: 'log', value: { type: 'turn-end', actorId, msg: `${actorId}'s turn ends` } });
+          return patches;
+        }
+        function advanceTurn(G) {
+          const patches = [];
+          if (G.turn.order.length > 0) {
+            const currentActorId = G.turn.order[G.turn.index];
+            patches.push(...onTurnEnd(G, currentActorId));
+          }
+          const nextIndex = (G.turn.index + 1) % Math.max(G.turn.order.length, 1);
+          patches.push({ type: 'set', path: 'turn.index', value: nextIndex });
+          if (nextIndex === 0 && G.turn.order.length > 0) {
+            patches.push({ type: 'inc', path: 'round', value: 1 });
+            patches.push({ type: 'log', value: { type: 'round-begin', msg: `Round ${G.round + 1} begins` } });
+          }
+          if (G.turn.order.length > 0) {
+            const nextActorId = G.turn.order[nextIndex];
+            patches.push(...onTurnBegin(G, nextActorId));
+          }
+          return patches;
+        }
+        function canSpendAction(G, kind) {
+          const a = G.actions;
+          if (kind === 'standard' && a.standard > 0) return { ok: true };
+          if (kind === 'move') {
+            if (a.move > 0) return { ok: true };
+            if (a.standard > 0) return { ok: true, swap: { from: 'standard', to: 'move' } };
+            return { ok: false, reason: 'No move or standard action available' };
+          }
+          if (kind === 'minor') {
+            if (a.minor > 0) return { ok: true };
+            if (a.move > 0) return { ok: true, swap: { from: 'move', to: 'minor' } };
+            if (a.standard > 0) return { ok: true, swap: { from: 'standard', to: 'minor' } };
+            return { ok: false, reason: 'No minor, move, or standard action available' };
+          }
+          if (kind === 'free') return { ok: true };
+          return { ok: false, reason: `No ${kind} action available` };
+        }
+        function spendAction(G, kind) {
+          const { ok, reason, swap } = canSpendAction(G, kind);
+          if (!ok) return [{ type: 'log', value: { type: 'info', msg: `Warning: ${reason}` } }];
+          const patches = [];
+          if (kind === 'standard') patches.push({ type: 'inc', path: 'actions.standard', value: -1 });
+          else if (kind === 'move') patches.push({ type: 'inc', path: swap && swap.from === 'standard' ? 'actions.standard' : 'actions.move', value: -1 });
+          else if (kind === 'minor') {
+            if (swap && swap.from === 'move') patches.push({ type: 'inc', path: 'actions.move', value: -1 });
+            else if (swap && swap.from === 'standard') patches.push({ type: 'inc', path: 'actions.standard', value: -1 });
+            else patches.push({ type: 'inc', path: 'actions.minor', value: -1 });
+          }
+          patches.push({ type: 'log', value: { type: 'info', msg: swap ? `Spent ${swap.from} as ${kind}` : `Spent ${kind} action` } });
+          return patches;
+        }
+
+        // --- UI wiring ---
+        let G = initialState(Number(document.getElementById('seed').value));
+        const stateEl = document.getElementById('state');
+        const logEl = document.getElementById('log');
+        function render() {
+          stateEl.textContent = JSON.stringify(G, null, 2);
+          logEl.innerHTML = '';
+          for (const e of G.log.slice(-200)) {
+            const div = document.createElement('div');
+            const cls = e.type ? `log-${e.type.replace(/_/g,'-')}` : '';
+            div.className = `log-entry ${cls}`;
+            div.textContent = `[${e.ts}] ${e.type || 'info'}: ${e.msg || ''}`;
+            logEl.appendChild(div);
+          }
+        }
+        render();
+        document.getElementById('btn-init').onclick = () => {
+          const seed = Number(document.getElementById('seed').value) || 42;
+          G = initialState(seed);
+          applyPatches(G, [{ type: 'log', value: { type: 'info', msg: `Game initialized with seed ${seed}` } }]);
+          render();
+        };
+        document.getElementById('btn-set-init').onclick = () => {
+          applyPatches(G, setInitiativeOrder(G, ['A1','A2','A3']));
+          render();
+        };
+        document.getElementById('btn-advance').onclick = () => { applyPatches(G, advanceTurn(G)); render(); };
+        document.getElementById('btn-spend-standard').onclick = () => { applyPatches(G, spendAction(G, 'standard')); render(); };
+        document.getElementById('btn-spend-move').onclick = () => { applyPatches(G, spendAction(G, 'move')); render(); };
+        document.getElementById('btn-spend-minor').onclick = () => { applyPatches(G, spendAction(G, 'minor')); render(); };
+        document.getElementById('btn-roll').onclick = () => { const r = roll(G, 'd20'); applyPatches(G, r.patches); render(); };
+        document.getElementById('btn-delay').onclick = () => { applyPatches(G, [{ type: 'add', path: 'queue', value: { type: 'delay', actorId: G.turn.order[G.turn.index], round: G.round } }, { type: 'log', value: { type: 'delay', msg: `${G.turn.order[G.turn.index]} delays` } }]); render(); };
+        document.getElementById('btn-ready').onclick = () => { applyPatches(G, [...spendAction(G, 'standard'), { type: 'add', path: 'queue', value: { type: 'ready', actorId: G.turn.order[G.turn.index], round: G.round } }, { type: 'log', value: { type: 'ready', msg: `${G.turn.order[G.turn.index]} readies` } }]); render(); };
     </script>
 </body>
 </html>

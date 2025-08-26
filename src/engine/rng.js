@@ -40,14 +40,12 @@ export const roll = (G, spec) => {
   
   const patches = [
     { type: 'set', path: 'rng.cursor', value: cursor },
-    { type: 'add', path: 'log', value: { 
-      ts: G._ts + 1, 
+    { type: 'log', value: { 
       type: 'roll', 
       msg: `Rolled ${spec}`, 
       data: { spec, result, parts },
       rng: { seed: G.rng.seed, idx: G.rng.cursor }
-    }},
-    { type: 'inc', path: '_ts', value: 1 }
+    }}
   ]
   
   return { result, parts, patches }
