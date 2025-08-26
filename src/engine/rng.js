@@ -15,34 +15,38 @@ export const prng = (seed, cursor) => {
 
 // Roll dice and return result with patches
 export const roll = (G, spec) => {
-  const { nextFloat, cursor } = prng(G.rng.seed, G.rng.cursor)
+  const { nextFloat } = prng(G.rng.seed, G.rng.cursor)
   
   let result, parts
+  let drawsUsed = 0
   
   if (spec === 'd20') {
     result = Math.floor(nextFloat() * 20) + 1
     parts = [result]
+    drawsUsed = 1
   } else if (spec === 'd6') {
     result = Math.floor(nextFloat() * 6) + 1
     parts = [result]
-  } else if (spec.kind === 'sum') {
+    drawsUsed = 1
+  } else if (spec && spec.kind === 'sum') {
     parts = spec.terms.map(term => {
       if (typeof term === 'number') return term
-      if (term === 'd20') return Math.floor(nextFloat() * 20) + 1
-      if (term === 'd6') return Math.floor(nextFloat() * 6) + 1
+      if (term === 'd20') { drawsUsed += 1; return Math.floor(nextFloat() * 20) + 1 }
+      if (term === 'd6') { drawsUsed += 1; return Math.floor(nextFloat() * 6) + 1 }
       return 0
     })
     result = parts.reduce((sum, part) => sum + part, 0)
   } else {
     result = 1
     parts = [1]
+    drawsUsed = 0
   }
   
   const patches = [
-    { type: 'set', path: 'rng.cursor', value: cursor },
+    { type: 'set', path: 'rng.cursor', value: G.rng.cursor + drawsUsed },
     { type: 'log', value: { 
       type: 'roll', 
-      msg: `Rolled ${spec}`, 
+      msg: `Rolled ${typeof spec === 'string' ? spec : spec && spec.kind ? spec.kind : 'unknown'}`,
       data: { spec, result, parts },
       rng: { seed: G.rng.seed, idx: G.rng.cursor }
     }}

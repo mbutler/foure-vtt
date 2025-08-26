@@ -1,6 +1,7 @@
 import { roll } from '../engine/rng.js'
 import { applyPatches } from '../engine/patches.js'
 import { tickStartOfTurn, tickEndOfTurn, computeActionMaskForActor } from './effects.js'
+import { applyHealing, spendSurge, secondWind, gainTempHP, deathSave, stabilize } from './healing.js'
 
 export const initialState = (seed = 42) => {
   return {
@@ -161,6 +162,14 @@ export const onTurnEnd = (G, actorId) => {
   const savePatches = runEndOfTurnSaves(G, actorId)
   patches.push(...savePatches)
   patches.push(...tickEndOfTurn(G, actorId))
+  // G7: Death save at end of target's turn if dying and not stabilized
+  const actor = G.actors && G.actors[actorId]
+  const dying = actor && actor.flags && actor.flags.dying
+  const stabilized = actor && actor.death && actor.death.stabilized
+  if (dying && !stabilized) {
+    const res = deathSave(G, actorId)
+    patches.push(...res.patches)
+  }
   
   // Expire effects that last until the end of this actor's turn
   for (const [instanceId, effect] of Object.entries(G.effects || {})) {
@@ -283,6 +292,7 @@ export const canEndTurn = (G, _ctx) => !G.prompts.current
 
 // Re-export for boardgame.io integration
 export { applyPatches, roll }
+export { applyHealing, spendSurge, secondWind, gainTempHP, deathSave, stabilize }
 
 // Initiative utilities
 export const setInitiativeOrder = (_G, order) => ([

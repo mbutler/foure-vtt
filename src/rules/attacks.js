@@ -206,6 +206,9 @@ export const applyDamage = (G, defenderId, amount, type) => {
   const defender = (G.actors && G.actors[defenderId]) || {}
   const hp = defender.hp || { current: 1, max: 1, temp: 0 }
   const before = { hp: hp.current ?? 0, temp: hp.temp ?? 0 }
+  const wasBloodied = (hp.current || 0) <= Math.floor((hp.max || 1) / 2)
+  const wasStabilized = defender && defender.death && defender.death.stabilized
+  const wasDying = !!(defender && defender.flags && defender.flags.dying)
   let adjusted = amount
   const immune = defender.immune && type && defender.immune[type]
   const resistVal = (defender.resist && type && defender.resist[type]) || 0
@@ -227,7 +230,49 @@ export const applyDamage = (G, defenderId, amount, type) => {
   // bloodied flag
   const max = hp.max || 1
   const bloodied = afterHp <= Math.floor(max / 2)
+  // Maintain existing field for compatibility
   patches.push({ type: 'merge', path: `actors.${defenderId}`, value: { bloodied } })
+  // Mirror under flags as well (G5 compatibility)
+  patches.push({ type: 'merge', path: `actors.${defenderId}.flags`, value: { bloodied } })
+  // Bloodied transition logs
+  if (!wasBloodied && bloodied) {
+    patches.push({ type: 'log', value: { type: 'bloodied-enter', msg: `${defenderId} becomes bloodied`, data: { max, hp: afterHp } } })
+  } else if (wasBloodied && !bloodied) {
+    patches.push({ type: 'log', value: { type: 'bloodied-exit', msg: `${defenderId} is no longer bloodied`, data: { max, hp: afterHp } } })
+  }
+  // G5/G6: defeat transitions
+  if (afterHp <= 0) {
+    patches.push({ type: 'merge', path: `actors.${defenderId}.flags`, value: { dying: true } })
+    patches.push({ type: 'log', value: { type: 'drop-to-0', msg: `${defenderId} drops to 0 or fewer HP`, data: { before, after: { hp: afterHp, temp: afterTemp } } } })
+  }
+  // Instant death: current <= -bloodied value
+  const negativeBloodied = -Math.floor(max / 2)
+  if ((hp.current || 0) - remaining <= negativeBloodied) {
+    patches.push({ type: 'merge', path: `actors.${defenderId}.flags`, value: { dead: true, dying: false } })
+    patches.push({ type: 'log', value: { type: 'die', msg: `${defenderId} dies (instant death)`, data: { threshold: negativeBloodied } } })
+    // Clear effects and prompts related to actor (minimal)
+    const effectIds = Object.entries(G.effects || {}).filter(([_, e]) => e && (e.target === defenderId || e.source === defenderId)).map(([id]) => id)
+    for (const id of effectIds) {
+      patches.push({ type: 'set', path: `effects.${id}`, value: undefined })
+    }
+    patches.push({ type: 'set', path: `actors.${defenderId}.conditions`, value: [] })
+    // Clear prompts and filter queue
+    patches.push({ type: 'set', path: `prompts.current`, value: null })
+    const filteredQueue = (G.queue || []).filter(ev => !(Array.isArray(ev.eligible) && ev.eligible.includes(defenderId)))
+    patches.push({ type: 'set', path: `queue`, value: filteredQueue })
+  }
+  if (wasStabilized && remaining > 0) {
+    patches.push({ type: 'set', path: `actors.${defenderId}.death.stabilized`, value: false })
+    // Resume dying only if still at 0 or less
+    if (afterHp <= 0) {
+      patches.push({ type: 'merge', path: `actors.${defenderId}.flags`, value: { dying: true } })
+    }
+  }
+  // If target was dying and took real damage (not fully absorbed by THP), add a failed death save
+  if (wasDying && remaining > 0) {
+    patches.push({ type: 'inc', path: `actors.${defenderId}.death.failures`, value: 1 })
+    patches.push({ type: 'log', value: { type: 'death-save', msg: `${defenderId} accrues a failed death save from damage`, data: { added: 1 } } })
+  }
   patches.push({ type: 'log', value: { type: 'damage-apply', msg: `Damage applied to ${defenderId}`, data: { before, after: { hp: afterHp, temp: afterTemp }, resist: resistVal, vuln: vulnVal, immune: !!immune, final: remaining } } })
   return { final: remaining, consumedTemp, resisted: resistVal, vulnerable: vulnVal, patches }
 }

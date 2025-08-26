@@ -9,20 +9,9 @@ export const FourEGame = {
       first: (G, ctx) => Rules.firstPlayer(G, ctx),
       next: (G, ctx) => Rules.nextPlayer(G, ctx)
     },
-    onBegin: (G, ctx) => {
-      if (G.turn && G.turn.order && G.turn.order.length > 0) {
-        const actorId = G.turn.order[ctx.playOrderPos]
-        const patches = Rules.onTurnBegin(G, actorId)
-        Rules.applyPatches(G, patches)
-      }
-    },
-    onEnd: (G, ctx) => {
-      if (G.turn && G.turn.order && G.turn.order.length > 0) {
-        const actorId = G.turn.order[ctx.playOrderPos]
-        const patches = Rules.onTurnEnd(G, actorId)
-        Rules.applyPatches(G, patches)
-      }
-    }
+    // Avoid duplicating turn-begin/end logic; handled by Rules.advanceTurn
+    onBegin: (_G, _ctx) => {},
+    onEnd: (_G, _ctx) => {}
   },
   moves: {
     setInitiative: (G, ctx, order) => {
