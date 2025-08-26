@@ -1,0 +1,26 @@
+{
+  "name": "foure-vtt",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "bun src/server/index.js",
+    "test": "bun test",
+    "lint": "eslint ."
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.34.0",
+    "@types/bun": "latest",
+    "eslint": "^9.34.0",
+    "prettier": "^3.6.2"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "boardgame.io": "^0.50.2",
+    "koa-static": "^5.0.0",
+    "nanoid": "^5.1.5",
+    "zod": "^4.1.3"
+  }
+}
