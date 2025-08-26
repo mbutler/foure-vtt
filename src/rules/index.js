@@ -318,6 +318,208 @@ export const addEffect = (G, effect) => {
   ]
 }
 
+// Movement preview/commit
+import { findPath as _findPath } from '../tactics/pathing.js'
+import { neighbors8 as _neighbors8, toId as _gridToId, inBounds as _inBounds, chebyshev as _chebyshev } from '../tactics/grid.js'
+import { toId as _toId, detectOAFromMovement as _detectOA } from '../tactics/grid.js'
+
+export const previewMove = (G, actorId, toCell, mode = 'walk', opts = {}) => {
+  const from = G.board.positions[actorId]
+  if (!from) return { ok: false, reason: 'no-position' }
+  const baseSpeed = (G.actors[actorId] && G.actors[actorId].speed) || 6
+  const speedBonus = mode === 'run' ? (opts.speedBonus ?? 2) : 0
+  const maxBudget = baseSpeed + speedBonus
+  if (mode === 'shift') {
+    // Exactly 1 step and not into difficult terrain
+    const dx = Math.abs(toCell.x - from.x), dy = Math.abs(toCell.y - from.y)
+    if (Math.max(dx, dy) !== 1) return { ok: false, reason: 'shift-distance' }
+    const toId = _toId(toCell)
+    if ((G.board.difficult || []).includes(toId)) return { ok: false, reason: 'difficult' }
+  }
+  const res = _findPath(G, from, toCell)
+  if (!res) return { ok: false, reason: 'blocked' }
+  if (mode === 'shift' && res.path.length !== 2) return { ok: false, reason: 'shift-path' }
+  const warns = []
+  if (res.cost > maxBudget) {
+    warns.push({ type: 'range', cost: res.cost, max: maxBudget })
+  }
+  const oa = _detectOA(G, actorId, res.path)
+  if (oa.provokers.length > 0 && mode !== 'shift') {
+    warns.push({ type: 'oa', provokers: oa.provokers, cells: oa.cells })
+  }
+  return { ok: true, path: res.path, cost: res.cost, warns }
+}
+
+export const commitMove = (G, actorId, preview) => {
+  if (!preview || !preview.ok) return [{ type: 'log', value: { type: 'info', msg: 'Invalid move commit' } }]
+  const to = preview.path[preview.path.length - 1]
+  return [
+    { type: 'set', path: `board.positions.${actorId}`, value: to },
+    { type: 'inc', path: 'actions.move', value: -1 },
+    { type: 'log', value: { type: 'move-commit', msg: `Moved ${actorId} to ${to.x},${to.y}`, data: { actorId, from: preview.path[0], to, path: preview.path, cost: preview.cost } } }
+  ]
+}
+
+export const buildMovePreviewLog = (actorId, preview, mode = 'walk') => {
+  if (!preview || !preview.path) return [{ type: 'log', value: { type: 'move-preview', msg: `Preview invalid for ${actorId}`, data: { actorId, ok: false } } }]
+  return [{ type: 'log', value: { type: 'move-preview', msg: `Preview ${mode} for ${actorId}`, data: { actorId, mode, from: preview.path[0], to: preview.path[preview.path.length - 1], path: preview.path, cost: preview.cost, warns: preview.warns || [] } } }]
+}
+
+export const move = {
+  walk(G, actorId, toCell) {
+    const pv = previewMove(G, actorId, toCell, 'walk')
+    if (!pv.ok) return [{ type: 'log', value: { type: 'info', msg: `Walk blocked: ${pv.reason}` } }]
+    return [
+      ...buildMovePreviewLog(actorId, pv, 'walk'),
+      ...commitMove(G, actorId, pv)
+    ]
+  },
+  shift(G, actorId, toCell) {
+    const pv = previewMove(G, actorId, toCell, 'shift')
+    if (!pv.ok) return [{ type: 'log', value: { type: 'info', msg: `Shift blocked: ${pv.reason}` } }]
+    return [
+      ...buildMovePreviewLog(actorId, pv, 'shift'),
+      ...commitMove(G, actorId, pv)
+    ]
+  },
+  run(G, actorId, toCell, speedBonus = 2) {
+    const pv = previewMove(G, actorId, toCell, 'run', { speedBonus })
+    if (!pv.ok) return [{ type: 'log', value: { type: 'info', msg: `Run blocked: ${pv.reason}` } }]
+    return [
+      ...buildMovePreviewLog(actorId, pv, 'run'),
+      ...commitMove(G, actorId, pv),
+      { type: 'merge', path: 'flags', value: { ranThisTurn: true } },
+      { type: 'log', value: { type: 'run-flag', msg: `${actorId} ran`, data: { bonus: speedBonus } } }
+    ]
+  },
+  standUp(G, actorId) {
+    const actor = G.actors[actorId] || {}
+    if (!actor.conditions || !actor.conditions.includes('prone')) {
+      return [{ type: 'log', value: { type: 'info', msg: `${actorId} is not prone` } }]
+    }
+    const newConds = actor.conditions.filter(c => c !== 'prone')
+    return [
+      { type: 'set', path: `actors.${actorId}.conditions`, value: newConds },
+      { type: 'inc', path: 'actions.move', value: -1 },
+      { type: 'log', value: { type: 'stand', msg: `${actorId} stands up` } }
+    ]
+  }
+}
+
+// B7: Forced movement (push/pull/slide)
+const _isBlockedCell = (G, cell) => {
+  const id = _gridToId(cell)
+  const blockers = new Set(G.board.blockers || [])
+  return blockers.has(id)
+}
+
+const _isOccupied = (G, cell) => {
+  const id = _gridToId(cell)
+  for (const pos of Object.values(G.board.positions || {})) {
+    if (_gridToId(pos) === id) return true
+  }
+  return false
+}
+
+const _forcedLegal = (G, cell, isFinal) => {
+  if (!_inBounds(cell, G.board)) return false
+  if (_isBlockedCell(G, cell)) return false
+  if (isFinal && _isOccupied(G, cell)) return false
+  // Passing through occupied cells is allowed for MVP (treat as ally pass-through)
+  return true
+}
+
+export const forced = {
+  push(G, sourceId, targetId, n) {
+    const source = G.board.positions[sourceId]
+    const start = G.board.positions[targetId]
+    if (!source || !start) return [{ type: 'log', value: { type: 'info', msg: 'Invalid push: missing positions' } }]
+    let current = start
+    const path = [current]
+    for (let i = 0; i < n; i++) {
+      const step = {
+        x: Math.sign(current.x - source.x),
+        y: Math.sign(current.y - source.y)
+      }
+      const next = { x: current.x + step.x, y: current.y + step.y }
+      if (!_forcedLegal(G, next, i === n - 1)) break
+      current = next
+      path.push(current)
+    }
+    const final = path[path.length - 1]
+    const patches = []
+    if (final.x !== start.x || final.y !== start.y) {
+      patches.push({ type: 'set', path: `board.positions.${targetId}`, value: final })
+    }
+    patches.push({ type: 'log', value: { type: 'forced-move', msg: `${targetId} pushed`, data: { kind: 'push', sourceId, targetId, n, path } } })
+    return patches
+  },
+  pull(G, sourceId, targetId, n) {
+    const source = G.board.positions[sourceId]
+    const start = G.board.positions[targetId]
+    if (!source || !start) return [{ type: 'log', value: { type: 'info', msg: 'Invalid pull: missing positions' } }]
+    let current = start
+    const path = [current]
+    for (let i = 0; i < n; i++) {
+      if (_chebyshev(current, source) <= 1) break
+      const neigh = _neighbors8(current)
+      const curD = _chebyshev(current, source)
+      const candidates = neigh
+        .filter(c => _chebyshev(c, source) < curD)
+        .sort((a, b) => _chebyshev(a, source) - _chebyshev(b, source))
+      let moved = false
+      for (const c of candidates) {
+        if (_forcedLegal(G, c, i === n - 1)) {
+          current = c
+          path.push(current)
+          moved = true
+          break
+        }
+      }
+      if (!moved) break
+    }
+    const final = path[path.length - 1]
+    const patches = []
+    if (final.x !== start.x || final.y !== start.y) {
+      patches.push({ type: 'set', path: `board.positions.${targetId}`, value: final })
+    }
+    patches.push({ type: 'log', value: { type: 'forced-move', msg: `${targetId} pulled`, data: { kind: 'pull', sourceId, targetId, n, path } } })
+    return patches
+  },
+  slide(G, _sourceId, targetId, n, chooser) {
+    const start = G.board.positions[targetId]
+    if (!start) return [{ type: 'log', value: { type: 'info', msg: 'Invalid slide: missing position' } }]
+    let current = start
+    const path = [current]
+    for (let i = 0; i < n; i++) {
+      const neigh = _neighbors8(current)
+      let next = null
+      if (typeof chooser === 'function') {
+        next = chooser(current, neigh)
+      }
+      // Fallback: try neighbors in order
+      const options = next ? [next, ...neigh.filter(c => c.x !== next.x || c.y !== next.y)] : neigh
+      let moved = false
+      for (const c of options) {
+        if (_forcedLegal(G, c, i === n - 1)) {
+          current = c
+          path.push(current)
+          moved = true
+          break
+        }
+      }
+      if (!moved) break
+    }
+    const final = path[path.length - 1]
+    const patches = []
+    if (final.x !== start.x || final.y !== start.y) {
+      patches.push({ type: 'set', path: `board.positions.${targetId}`, value: final })
+    }
+    patches.push({ type: 'log', value: { type: 'forced-move', msg: `${targetId} slid`, data: { kind: 'slide', targetId, n, path } } })
+    return patches
+  }
+}
+
 // Delay/Ready scaffolds
 export const delayTurn = (G) => {
   const actorId = G.turn.order[G.turn.index]

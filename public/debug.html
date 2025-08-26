@@ -42,6 +42,66 @@
         </div>
     </div>
 
+    <div class="section">
+        <h3>Grid & Movement (B)</h3>
+        <div style="display:flex; gap: 20px; flex-wrap: wrap; align-items: center;">
+            <div>
+                <div><b>Board</b></div>
+                <label>W <input id="b-w" type="number" value="10" style="width:60px"/></label>
+                <label>H <input id="b-h" type="number" value="10" style="width:60px"/></label>
+                <button id="btn-board-size">Set Size</button>
+            </div>
+            <div>
+                <div><b>Actors</b></div>
+                <div>
+                  A1: x <input id="a1-x" type="number" value="1" style="width:50px"/> y <input id="a1-y" type="number" value="1" style="width:50px"/>
+                  team <select id="a1-team"><option>A</option><option>B</option></select>
+                  speed <input id="a1-speed" type="number" value="6" style="width:60px"/>
+                  <button id="btn-set-a1">Place A1</button>
+                </div>
+                <div>
+                  E1: x <input id="e1-x" type="number" value="3" style="width:50px"/> y <input id="e1-y" type="number" value="3" style="width:50px"/>
+                  team <select id="e1-team"><option>A</option><option selected>B</option></select>
+                  speed <input id="e1-speed" type="number" value="6" style="width:60px"/>
+                  <button id="btn-set-e1">Place E1</button>
+                </div>
+            </div>
+            <div>
+                <div><b>Terrain</b></div>
+                <div>Blocker x <input id="blk-x" type="number" value="5" style="width:50px"/> y <input id="blk-y" type="number" value="5" style="width:50px"/> <button id="btn-add-blocker">Add</button></div>
+                <div>Difficult x <input id="dif-x" type="number" value="2" style="width:50px"/> y <input id="dif-y" type="number" value="2" style="width:50px"/> <button id="btn-add-difficult">Add</button></div>
+            </div>
+            <div>
+                <div><b>Preview / Move</b></div>
+                <div>Actor <select id="mv-actor"><option>A1</option><option>E1</option></select>
+                Mode <select id="mv-mode"><option>walk</option><option>shift</option><option>run</option></select>
+                to x <input id="mv-x" type="number" value="4" style="width:50px"/> y <input id="mv-y" type="number" value="4" style="width:50px"/>
+                <button id="btn-preview">Preview</button>
+                <button id="btn-commit">Commit</button></div>
+                <div id="preview-out" style="font-size:12px; color:#333; margin-top:4px;"></div>
+            </div>
+            <div>
+                <div><b>Reachable</b></div>
+                <div>Actor <select id="rch-actor"><option>A1</option><option>E1</option></select>
+                Speed <input id="rch-speed" type="number" value="6" style="width:60px"/>
+                <button id="btn-reachable">Compute</button></div>
+                <div id="reachable-out" style="font-size:12px; max-width:320px; white-space:normal;"></div>
+            </div>
+            <div>
+                <div><b>Forced</b></div>
+                <div>Kind <select id="fm-kind"><option>push</option><option>pull</option><option>slide</option></select>
+                Src <select id="fm-src"><option>A1</option><option>E1</option></select>
+                Tgt <select id="fm-tgt"><option>E1</option><option>A1</option></select>
+                n <input id="fm-n" type="number" value="2" style="width:60px"/>
+                <button id="btn-forced">Apply</button></div>
+            </div>
+        </div>
+        <div style="margin-top:10px">
+          <h4>Grid</h4>
+          <pre id="grid"></pre>
+        </div>
+    </div>
+
     <script>
         // --- Minimal local engine (mirrors src/engine + src/rules) ---
         const getAtPath = (obj, path) => path.split('.').reduce((acc, k) => acc ? acc[k] : undefined, obj);
@@ -208,8 +268,10 @@
 
         // --- UI wiring ---
         let G = initialState(Number(document.getElementById('seed').value));
+        let lastPreview = null;
         const stateEl = document.getElementById('state');
         const logEl = document.getElementById('log');
+        const gridEl = document.getElementById('grid');
         function render() {
           stateEl.textContent = JSON.stringify(G, null, 2);
           logEl.innerHTML = '';
@@ -220,6 +282,26 @@
             div.textContent = `[${e.ts}] ${e.type || 'info'}: ${e.msg || ''}`;
             logEl.appendChild(div);
           }
+          // Simple ascii grid
+          const { w, h } = G.board;
+          let out = '';
+          const blockers = new Set(G.board.blockers || []);
+          const difficult = new Set(G.board.difficult || []);
+          const posToActor = new Map(Object.entries(G.board.positions || {}).map(([id, p]) => [ `${p.x},${p.y}`, id ]));
+          for (let y = 0; y < h; y++) {
+            let row = '';
+            for (let x = 0; x < w; x++) {
+              const id = `${x},${y}`;
+              if (posToActor.has(id)) {
+                const aid = posToActor.get(id);
+                row += aid === 'A1' ? 'A' : 'E';
+              } else if (blockers.has(id)) row += '#';
+              else if (difficult.has(id)) row += '~';
+              else row += '.';
+            }
+            out += row + "\n";
+          }
+          gridEl.textContent = out;
         }
         render();
         document.getElementById('btn-init').onclick = () => {
@@ -239,6 +321,108 @@
         document.getElementById('btn-roll').onclick = () => { const r = roll(G, 'd20'); applyPatches(G, r.patches); render(); };
         document.getElementById('btn-delay').onclick = () => { applyPatches(G, [{ type: 'add', path: 'queue', value: { type: 'delay', actorId: G.turn.order[G.turn.index], round: G.round } }, { type: 'log', value: { type: 'delay', msg: `${G.turn.order[G.turn.index]} delays` } }]); render(); };
         document.getElementById('btn-ready').onclick = () => { applyPatches(G, [...spendAction(G, 'standard'), { type: 'add', path: 'queue', value: { type: 'ready', actorId: G.turn.order[G.turn.index], round: G.round } }, { type: 'log', value: { type: 'ready', msg: `${G.turn.order[G.turn.index]} readies` } }]); render(); };
+
+        // --- Grid & movement (B) helpers ---
+        const chebyshev = (a,b) => Math.max(Math.abs(a.x-b.x), Math.abs(a.y-b.y));
+        const toId = ({x,y}) => `${x},${y}`;
+        const inBounds = ({x,y},{w,h}) => x>=0 && y>=0 && x<w && y<h;
+        const neighbors8 = p => [
+          { x: p.x + 1, y: p.y },
+          { x: p.x - 1, y: p.y },
+          { x: p.x, y: p.y + 1 },
+          { x: p.x, y: p.y - 1 },
+          { x: p.x + 1, y: p.y + 1 },
+          { x: p.x - 1, y: p.y + 1 },
+          { x: p.x + 1, y: p.y - 1 },
+          { x: p.x - 1, y: p.y - 1 }
+        ];
+        const actorAt = (G, cell) => {
+          const id = toId(cell);
+          for (const [aid, pos] of Object.entries(G.board.positions || {})) {
+            if (toId(pos) === id) return aid;
+          }
+          return null;
+        };
+        const isBlocker = (id, set) => set.has(id);
+        const isDifficult = (id, set) => set.has(id);
+        const stepCost = (id, difficult) => isDifficult(id, difficult) ? 2 : 1;
+        const areEnemies = (G, aId, bId) => {
+          if (!aId || !bId) return false;
+          const a = (G.actors && G.actors[aId]) || {}; const b = (G.actors && G.actors[bId]) || {};
+          return a.team && b.team ? a.team !== b.team : false;
+        };
+        function findPath(G, start, goal, options={}) {
+          const opts = { difficult: new Set(G.board.difficult || []), blockers: new Set(G.board.blockers || []), board: G.board, allowAllyPassThrough: true, ...options };
+          if (!inBounds(start, opts.board) || !inBounds(goal, opts.board)) return null;
+          const startId = toId(start); const goalId = toId(goal);
+          if (isBlocker(goalId, opts.blockers)) return null;
+          const open = new Map([[startId,0]]);
+          const cameFrom = new Map();
+          const gScore = new Map([[startId,0]]);
+          const heuristic = (a,b) => chebyshev(a,b);
+          const getLowestF = () => { let best=null,score=Infinity; for (const [id] of open){ const [xs,ys]=id.split(','); const p={x:Number(xs),y:Number(ys)}; const g=gScore.get(id)??Infinity; const f=g+heuristic(p,goal); if(f<score){score=f;best=id} } return best; };
+          while (open.size>0){
+            const currentId = getLowestF(); const [cx,cy] = currentId.split(',').map(Number); const current = {x:cx,y:cy};
+            if (currentId === goalId){
+              const path=[]; let cur=currentId; while(cur){ const [px,py]=cur.split(',').map(Number); path.push({x:px,y:py}); cur=cameFrom.get(cur);} path.reverse();
+              let cost=0; for(let i=1;i<path.length;i++){ cost+=stepCost(toId(path[i]), opts.difficult) }
+              return { path, cost };
+            }
+            open.delete(currentId);
+            for (const n of neighbors8(current)){
+              if (!inBounds(n, opts.board)) continue; const nid = toId(n); if (isBlocker(nid, opts.blockers)) continue;
+              const occ = actorAt(G, n); const isEnd = nid===goalId;
+              if (occ){ if (opts.moverId && areEnemies(G, opts.moverId, occ)) continue; if (isEnd) continue; if (!opts.allowAllyPassThrough) continue; }
+              const tentative = (gScore.get(currentId)??Infinity) + stepCost(nid, opts.difficult);
+              const existing = gScore.get(nid);
+              if (existing===undefined || tentative<existing){ cameFrom.set(nid, currentId); gScore.set(nid, tentative); open.set(nid, tentative); }
+            }
+          }
+          return null;
+        }
+        function reachable(G, actorId, speed){
+          const opts = { difficult: new Set(G.board.difficult || []), blockers: new Set(G.board.blockers || []) };
+          const start = G.board.positions[actorId]; if (!start) return new Set(); const startId = toId(start);
+          const visited=new Map([[startId,0]]); const q=[start];
+          while(q.length){ const cur=q.shift(); const cid=toId(cur); const curCost=visited.get(cid)??0; for(const n of neighbors8(cur)){ if(!inBounds(n,G.board)) continue; const nid=toId(n); if(isBlocker(nid, opts.blockers)) continue; const step=stepCost(nid, opts.difficult); const newCost=curCost+step; if(newCost>speed) continue; const occ=actorAt(G,n); if (occ && areEnemies(G, actorId, occ)) continue; if(!visited.has(nid) || newCost<(visited.get(nid)??Infinity)){ visited.set(nid,newCost); q.push(n);} } }
+          const res=new Set(); for(const [id] of visited.entries()){ if(id===startId){res.add(id); continue;} const [x,y]=id.split(',').map(Number); if(!actorAt(G,{x,y})) res.add(id);} return res;
+        }
+        function detectOAFromMovement(G, moverId, path){
+          const prov=new Set(); const cells=[]; if(!Array.isArray(path)||path.length<2) return {provokers:[],cells:[]};
+          for(let i=0;i<path.length-1;i++){ const from=path[i]; for(const [otherId,pos] of Object.entries(G.board.positions||{})){ if(otherId===moverId) continue; if (chebyshev(pos, from) <= 1){ prov.add(otherId); cells.push(toId(from)); } } }
+          return { provokers: Array.from(prov), cells };
+        }
+        function buildMovePreviewLogLocal(actorId, preview, mode){
+          return [{ type: 'log', value: { type: 'move-preview', msg: `Preview ${mode} for ${actorId}`, data: { actorId, mode, from: preview.path[0], to: preview.path[preview.path.length-1], path: preview.path, cost: preview.cost, warns: preview.warns||[] } } }];
+        }
+        function commitMoveLocal(G, actorId, preview){
+          const to = preview.path[preview.path.length-1];
+          return [ { type: 'set', path: `board.positions.${actorId}`, value: to }, { type: 'inc', path: 'actions.move', value: -1 }, { type: 'log', value: { type: 'move-commit', msg: `Moved ${actorId} to ${to.x},${to.y}`, data: { actorId, from: preview.path[0], to, path: preview.path, cost: preview.cost } } } ];
+        }
+        function previewMoveLocal(G, actorId, toCell, mode){
+          const from = G.board.positions[actorId]; if(!from) return { ok:false, reason:'no-position' };
+          const baseSpeed = (G.actors[actorId] && G.actors[actorId].speed) || 6; const speedBonus = mode==='run'?2:0; const maxBudget = baseSpeed + speedBonus;
+          if(mode==='shift'){ const dx=Math.abs(toCell.x-from.x),dy=Math.abs(toCell.y-from.y); if(Math.max(dx,dy)!==1) return {ok:false, reason:'shift-distance'}; const to = toId(toCell); if((G.board.difficult||[]).includes(to)) return { ok:false, reason:'difficult' }; }
+          const res = findPath(G, from, toCell, { moverId: actorId }); if(!res) return { ok:false, reason:'blocked' }; if (mode==='shift' && res.path.length!==2) return { ok:false, reason:'shift-path' };
+          const warns=[]; if(res.cost>maxBudget) warns.push({ type:'range', cost: res.cost, max: maxBudget }); const oa=detectOAFromMovement(G, actorId, res.path); if(oa.provokers.length>0 && mode!=='shift') warns.push({ type:'oa', provokers: oa.provokers, cells: oa.cells });
+          return { ok:true, path: res.path, cost: res.cost, warns };
+        }
+        const forcedLocal = {
+          push(G, sourceId, targetId, n){ const src=G.board.positions[sourceId], start=G.board.positions[targetId]; if(!src||!start) return []; let cur=start; const path=[cur]; for(let i=0;i<n;i++){ const step={ x: Math.sign(cur.x-src.x), y: Math.sign(cur.y-src.y) }; const next={ x: cur.x+step.x, y: cur.y+step.y }; const id=toId(next); if(!inBounds(next,G.board) || (G.board.blockers||[]).includes(id)) break; cur=next; path.push(cur);} const patches=[]; const fin=path[path.length-1]; if(fin.x!==start.x||fin.y!==start.y) patches.push({ type:'set', path:`board.positions.${targetId}`, value: fin }); patches.push({ type:'log', value:{ type:'forced-move', msg:`${targetId} pushed`, data:{ kind:'push', sourceId, targetId, n, path } } }); return patches; },
+          pull(G, sourceId, targetId, n){ const src=G.board.positions[sourceId], start=G.board.positions[targetId]; if(!src||!start) return []; let cur=start; const path=[cur]; for(let i=0;i<n;i++){ if(chebyshev(cur,src)<=1) break; const neigh=neighbors8(cur).filter(c=>chebyshev(c,src)<chebyshev(cur,src)); let moved=false; for(const c of neigh){ const id=toId(c); if(!inBounds(c,G.board) || (G.board.blockers||[]).includes(id)) continue; cur=c; path.push(cur); moved=true; break; } if(!moved) break; } const patches=[]; const fin=path[path.length-1]; if(fin.x!==start.x||fin.y!==start.y) patches.push({ type:'set', path:`board.positions.${targetId}`, value: fin }); patches.push({ type:'log', value:{ type:'forced-move', msg:`${targetId} pulled`, data:{ kind:'pull', sourceId, targetId, n, path } } }); return patches; },
+          slide(G, _sourceId, targetId, n){ const start=G.board.positions[targetId]; if(!start) return []; let cur=start; const path=[cur]; for(let i=0;i<n;i++){ const neigh=neighbors8(cur); const c=neigh[0]; if(!c) break; const id=toId(c); if(!inBounds(c,G.board) || (G.board.blockers||[]).includes(id)) break; cur=c; path.push(cur);} const patches=[]; const fin=path[path.length-1]; if(fin.x!==start.x||fin.y!==start.y) patches.push({ type:'set', path:`board.positions.${targetId}`, value: fin }); patches.push({ type:'log', value:{ type:'forced-move', msg:`${targetId} slid`, data:{ kind:'slide', targetId, n, path } } }); return patches; }
+        };
+
+        // B controls wiring
+        document.getElementById('btn-board-size').onclick = () => { const w=Number(document.getElementById('b-w').value)||10; const h=Number(document.getElementById('b-h').value)||10; applyPatches(G, [{ type:'set', path:'board.w', value:w }, { type:'set', path:'board.h', value:h }, { type:'log', value:{ type:'info', msg:`Board size set to ${w}x${h}` } }]); render(); };
+        document.getElementById('btn-set-a1').onclick = () => { const x=Number(document.getElementById('a1-x').value)||0; const y=Number(document.getElementById('a1-y').value)||0; const team=document.getElementById('a1-team').value; const speed=Number(document.getElementById('a1-speed').value)||6; applyPatches(G, [{ type:'set', path:'board.positions.A1', value:{x,y} }, { type:'merge', path:'actors.A1', value:{ team, speed } }, { type:'log', value:{ type:'info', msg:`A1 at ${x},${y} (team ${team})` } }]); render(); };
+        document.getElementById('btn-set-e1').onclick = () => { const x=Number(document.getElementById('e1-x').value)||0; const y=Number(document.getElementById('e1-y').value)||0; const team=document.getElementById('e1-team').value; const speed=Number(document.getElementById('e1-speed').value)||6; applyPatches(G, [{ type:'set', path:'board.positions.E1', value:{x,y} }, { type:'merge', path:'actors.E1', value:{ team, speed } }, { type:'log', value:{ type:'info', msg:`E1 at ${x},${y} (team ${team})` } }]); render(); };
+        document.getElementById('btn-add-blocker').onclick = () => { const x=Number(document.getElementById('blk-x').value)||0; const y=Number(document.getElementById('blk-y').value)||0; const id=`${x},${y}`; const cur=G.board.blockers||[]; if(!cur.includes(id)) applyPatches(G, [{ type:'set', path:'board.blockers', value:[...cur,id] }, { type:'log', value:{ type:'info', msg:`Blocker ${id}` } }]); render(); };
+        document.getElementById('btn-add-difficult').onclick = () => { const x=Number(document.getElementById('dif-x').value)||0; const y=Number(document.getElementById('dif-y').value)||0; const id=`${x},${y}`; const cur=G.board.difficult||[]; if(!cur.includes(id)) applyPatches(G, [{ type:'set', path:'board.difficult', value:[...cur,id] }, { type:'log', value:{ type:'info', msg:`Difficult ${id}` } }]); render(); };
+        document.getElementById('btn-preview').onclick = () => { const actor=document.getElementById('mv-actor').value; const mode=document.getElementById('mv-mode').value; const x=Number(document.getElementById('mv-x').value)||0; const y=Number(document.getElementById('mv-y').value)||0; lastPreview = previewMoveLocal(G, actor, {x,y}, mode); if(lastPreview.ok){ applyPatches(G, buildMovePreviewLogLocal(actor, lastPreview, mode)); document.getElementById('preview-out').textContent = `OK: cost=${lastPreview.cost}, path=${lastPreview.path.map(p=>`${p.x},${p.y}`).join(' -> ')}, warns=${JSON.stringify(lastPreview.warns)}`; } else { document.getElementById('preview-out').textContent = `Blocked: ${lastPreview.reason}`; } render(); };
+        document.getElementById('btn-commit').onclick = () => { if(!lastPreview || !lastPreview.ok){ alert('No valid preview'); return; } const actor=document.getElementById('mv-actor').value; applyPatches(G, commitMoveLocal(G, actor, lastPreview)); render(); };
+        document.getElementById('btn-reachable').onclick = () => { const actor=document.getElementById('rch-actor').value; const speed=Number(document.getElementById('rch-speed').value)||6; const set=reachable(G, actor, speed); document.getElementById('reachable-out').textContent = `Count ${set.size}: ${Array.from(set).slice(0,100).join(', ')}${set.size>100?' ...':''}`; };
+        document.getElementById('btn-forced').onclick = () => { const kind=document.getElementById('fm-kind').value; const src=document.getElementById('fm-src').value; const tgt=document.getElementById('fm-tgt').value; const n=Number(document.getElementById('fm-n').value)||1; const patches = kind==='push'? forcedLocal.push(G, src, tgt, n) : kind==='pull'? forcedLocal.pull(G, src, tgt, n) : forcedLocal.slide(G, src, tgt, n); applyPatches(G, patches); render(); };
     </script>
 </body>
 </html>
