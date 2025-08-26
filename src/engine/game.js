@@ -4,7 +4,7 @@ import { applyPatches } from './patches.js'
 
 export const FourEGame = {
   name: '4e',
-  setup: () => Rules.initialState(),
+  setup: () => Rules.initialState(42),
   turn: {
     order: {
       first: (G, ctx) => Rules.firstPlayer(G, ctx),
@@ -20,9 +20,29 @@ export const FourEGame = {
     }
   },
   moves: {
+    setInitiative: (G, ctx, order) => {
+      const patches = [
+        { type: 'set', path: 'turn.order', value: order },
+        { type: 'set', path: 'turn.index', value: 0 },
+        { type: 'log', value: { type: 'info', msg: `Initiative set: ${order.join(', ')}` }}
+      ]
+      Rules.applyPatches(G, patches)
+    },
+    
     endTurn: (G, ctx) => {
       if (!Rules.canEndTurn(G, ctx)) return INVALID_MOVE
+      const patches = Rules.advanceTurn(G)
+      Rules.applyPatches(G, patches)
       ctx.events.endTurn()
+    },
+    
+    spendAction: (G, ctx, kind) => {
+      const patches = Rules.spendAction(G, kind)
+      Rules.applyPatches(G, patches)
+    },
+    
+    applyManualPatch: (G, ctx, patch) => {
+      Rules.applyPatches(G, [patch])
     }
   }
 }

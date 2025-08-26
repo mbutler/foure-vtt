@@ -1,11 +1,65 @@
-// Mulberry32 — tiny, good enough for deterministic tests
-export const makeRng = (seed) => {
-  let t = seed >>> 0
-  return () => {
+// Deterministic PRNG for boardgame.io state
+// Returns { nextFloat, cursor } from (seed, cursor)
+
+export const prng = (seed, cursor) => {
+  let t = (seed + cursor) >>> 0
+  const nextFloat = () => {
     t += 0x6d2b79f5
     let x = Math.imul(t ^ (t >>> 15), 1 | t)
     x ^= x + Math.imul(x ^ (x >>> 7), 61 | x)
     return ((x ^ (x >>> 14)) >>> 0) / 4294967296
+  }
+  
+  return { nextFloat, cursor: cursor + 1 }
+}
+
+// Roll dice and return result with patches
+export const roll = (G, spec) => {
+  const { nextFloat, cursor } = prng(G.rng.seed, G.rng.cursor)
+  
+  let result, parts
+  
+  if (spec === 'd20') {
+    result = Math.floor(nextFloat() * 20) + 1
+    parts = [result]
+  } else if (spec === 'd6') {
+    result = Math.floor(nextFloat() * 6) + 1
+    parts = [result]
+  } else if (spec.kind === 'sum') {
+    parts = spec.terms.map(term => {
+      if (typeof term === 'number') return term
+      if (term === 'd20') return Math.floor(nextFloat() * 20) + 1
+      if (term === 'd6') return Math.floor(nextFloat() * 6) + 1
+      return 0
+    })
+    result = parts.reduce((sum, part) => sum + part, 0)
+  } else {
+    result = 1
+    parts = [1]
+  }
+  
+  const patches = [
+    { type: 'set', path: 'rng.cursor', value: cursor },
+    { type: 'add', path: 'log', value: { 
+      ts: G._ts + 1, 
+      type: 'roll', 
+      msg: `Rolled ${spec}`, 
+      data: { spec, result, parts },
+      rng: { seed: G.rng.seed, idx: G.rng.cursor }
+    }},
+    { type: 'inc', path: '_ts', value: 1 }
+  ]
+  
+  return { result, parts, patches }
+}
+
+// Legacy function for backward compatibility
+export const makeRng = (seed) => {
+  let cursor = 0
+  return () => {
+    const { nextFloat, cursor: newCursor } = prng(seed, cursor)
+    cursor = newCursor
+    return nextFloat()
   }
 }
 
