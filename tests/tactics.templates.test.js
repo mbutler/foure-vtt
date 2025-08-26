@@ -1,11 +1,147 @@
 import { test, expect } from "bun:test"
 import { chebyshev, neighbors4, neighbors8, toId, fromId, inBounds, actorAt, isOccupied } from '../src/tactics/grid.js'
-import { initialState, move, previewMove, commitMove, forced, buildMovePreviewLog } from '../src/rules/index.js'
+import { initialState, move, previewMove, commitMove, forced, buildMovePreviewLog, buildTargetPreviewLog, stageTargetingSelection } from '../src/rules/index.js'
 import { detectOAFromMovement } from '../src/tactics/grid.js'
+import { cellsForSingle, cellsForBurst, cellsForTemplate, cellsForBlast, facingFromVector, areaBurstCentersWithin } from '../src/tactics/templates.js'
+import { hasLoE } from '../src/tactics/los.js'
+import { previewTargeting, validateTargeting } from '../src/tactics/targeting.js'
+import { normalizeTemplateSpec, validateTemplateSpec, normalizeTargetingSpec, validateTargetingSpec } from '../src/tactics/specs.js'
 import { findPath } from '../src/tactics/pathing.js'
 
 test("T1: Template math placeholder", () => {
   expect(true).toBe(true)
+})
+
+test("C3: cellsForSingle returns anchor", () => {
+  const s = cellsForSingle({ x: 2, y: 3 })
+  expect(s.has('2,3')).toBe(true)
+  expect(s.size).toBe(1)
+})
+
+test("C3: cellsForBurst radius and clipping", () => {
+  const board = { w: 5, h: 5 }
+  const b1 = cellsForBurst({ x: 2, y: 2 }, 1, board)
+  expect(b1.size).toBe(9)
+  const b2 = cellsForBurst({ x: 0, y: 0 }, 2, board)
+  // clipped to board; top-left corner burst 2 gives 9 cells (0..2 x 0..2)
+  expect(b2.size).toBe(9)
+})
+
+test("C3: cellsForTemplate single/burst", () => {
+  const board = { w: 5, h: 5 }
+  const single = cellsForTemplate({ kind: 'single', origin: 'melee' }, { x: 1, y: 1 }, board)
+  expect(single.has('1,1')).toBe(true)
+  const burst = cellsForTemplate({ kind: 'burst', radius: 1, origin: 'close' }, { x: 1, y: 1 }, board)
+  expect(burst.has('1,1')).toBe(true)
+  expect(burst.size).toBe(9)
+})
+
+test("C4: facingFromVector and blast footprints", () => {
+  const board = { w: 10, h: 10 }
+  const origin = { x: 5, y: 5 }
+  const east = facingFromVector(1, 0)
+  const blast3E = cellsForBlast(origin, east, 3, board)
+  // Expect three columns east of origin, 3-wide
+  expect(blast3E.size).toBe(9)
+  expect(Array.from(blast3E).some(id => id === '6,5')).toBe(true)
+  const north = facingFromVector(0, -1)
+  const blast3N = cellsForBlast(origin, north, 3, board)
+  expect(blast3N.size).toBe(9)
+  expect(Array.from(blast3N).some(id => id === '5,4')).toBe(true)
+})
+
+test("C2/C3/C4: Blast requires facing and integrates with cellsForTemplate", () => {
+  const board = { w: 10, h: 10 }
+  const origin = { x: 5, y: 5 }
+  const east = facingFromVector(1, 0)
+  const cells = cellsForTemplate({ kind: 'blast', size: 3 }, origin, board, { facing: east })
+  expect(cells.size).toBe(9)
+})
+
+test("C2: Melee/Close require LoE to targets", () => {
+  const G = initialState(42)
+  G.board.w = 5; G.board.h = 5
+  G.board.positions = { A1: { x: 1, y: 2 }, E1: { x: 3, y: 2 } }
+  // Block LoE
+  G.board.blockers = [ '2,0','2,1','2,2','2,3','2,4' ]
+  const spec = { kind: 'single', origin: 'melee', reach: 3 }
+  const pv = previewTargeting(G, 'A1', spec, {})
+  // No candidates because LoE blocked
+  expect(pv.errors).toContain('NO_CANDIDATES')
+})
+
+test("C3/C2: area burst centers within range and burst cells", () => {
+  const board = { w: 5, h: 5 }
+  const attacker = { x: 2, y: 2 }
+  const centers = areaBurstCentersWithin(attacker, 1, board)
+  expect(centers.has('2,2')).toBe(true)
+  expect(centers.has('3,2')).toBe(true)
+  const spec = { kind: 'burst', origin: 'area', radius: 1, center: { x: 3, y: 2 } }
+  const cells = cellsForTemplate(spec, attacker, board)
+  expect(cells.has('3,2')).toBe(true)
+  expect(cells.size).toBe(9)
+})
+
+test("C5: LoE blocked by wall, allowed through doorway", () => {
+  const G = initialState(42)
+  G.board.w = 5; G.board.h = 5
+  // Vertical wall at x=2 blocks straight LoE from (1,2) to (3,2)
+  G.board.blockers = [ '2,0','2,1','2,2','2,3','2,4' ]
+  expect(hasLoE(G, { x:1,y:2 }, { x:3,y:2 })).toBe(false)
+  // Create a doorway at (2,2)
+  G.board.blockers = [ '2,0','2,1','2,3','2,4' ]
+  expect(hasLoE(G, { x:1,y:2 }, { x:3,y:2 })).toBe(true)
+})
+
+test("C7/C9/C10: Target filters and error codes", () => {
+  const G = initialState(42)
+  G.board.w = 5; G.board.h = 5
+  G.board.positions = { A1: { x: 1, y: 1 }, E1: { x: 2, y: 1 }, E2: { x: 3, y: 1 } }
+  G.actors = { A1: { team: 'A' }, E1: { team: 'B' }, E2: { team: 'B' } }
+  // Ranged single enemies only, range 2
+  const spec = { kind: 'single', origin: 'ranged', range: 2, targeting: { who: 'enemies', maxTargets: 2 } }
+  const pv = previewTargeting(G, 'A1', spec, {})
+  expect(pv.errors.length).toBe(0)
+  // Should include E1, E2 if within range; E2 at x=3 from x=1 is range 2 -> included
+  expect(pv.targets.length).toBeGreaterThan(0)
+})
+
+test("C11/C12: Target preview log and staging patches", () => {
+  const { applyPatches } = require('../src/engine/patches.js')
+  const G = initialState(42)
+  G.board.w = 5; G.board.h = 5
+  G.board.positions = { A1: { x: 1, y: 1 }, E1: { x: 2, y: 1 } }
+  G.actors = { A1: { team: 'A' }, E1: { team: 'B' } }
+  const spec = { kind: 'single', origin: 'ranged', range: 5, targeting: { who: 'enemies', maxTargets: 1 } }
+  const pv = previewTargeting(G, 'A1', spec, {})
+  applyPatches(G, buildTargetPreviewLog('A1', spec, pv, {}))
+  let last = G.log[G.log.length - 1]
+  expect(last.type).toBe('target-preview')
+  const patches = stageTargetingSelection(G, 'A1', spec, {}, pv.targets)
+  applyPatches(G, patches)
+  expect(G.staging && G.staging.targeting && Array.isArray(G.staging.targeting.targets)).toBe(true)
+})
+
+test("C9: Area burst center required and range errors", () => {
+  const G = initialState(42)
+  G.board.w = 5; G.board.h = 5
+  G.board.positions = { A1: { x: 0, y: 0 } }
+  let spec = { kind: 'burst', origin: 'area', radius: 1, range: 2, requiresLoEToOrigin: true }
+  let pv = previewTargeting(G, 'A1', spec, {})
+  expect(pv.errors).toContain('CENTER_REQUIRED')
+  pv = previewTargeting(G, 'A1', spec, { center: { x: 4, y: 4 } })
+  expect(pv.errors).toContain('OUT_OF_RANGE')
+})
+
+test("C1: Spec normalize/validate", () => {
+  const t = normalizeTemplateSpec({ kind: 'burst', origin: 'area', radius: '2', range: '10' })
+  expect(t.radius).toBe(2)
+  expect(t.range).toBe(10)
+  const v = validateTemplateSpec(t)
+  expect(v.ok).toBe(true)
+  const tg = normalizeTargetingSpec({ who: 'enemies', minTargets: 1, maxTargets: 2 })
+  const vg = validateTargetingSpec(tg)
+  expect(vg.ok).toBe(true)
 })
 
 test("B1: cell id round-trip and bounds", () => {

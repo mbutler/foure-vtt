@@ -322,6 +322,7 @@ export const addEffect = (G, effect) => {
 import { findPath as _findPath } from '../tactics/pathing.js'
 import { neighbors8 as _neighbors8, toId as _gridToId, inBounds as _inBounds, chebyshev as _chebyshev } from '../tactics/grid.js'
 import { toId as _toId, detectOAFromMovement as _detectOA } from '../tactics/grid.js'
+import { normalizeTemplateSpec as _normTemplate, normalizeTargetingSpec as _normTarget } from '../tactics/specs.js'
 
 export const previewMove = (G, actorId, toCell, mode = 'walk', opts = {}) => {
   const from = G.board.positions[actorId]
@@ -363,6 +364,36 @@ export const commitMove = (G, actorId, preview) => {
 export const buildMovePreviewLog = (actorId, preview, mode = 'walk') => {
   if (!preview || !preview.path) return [{ type: 'log', value: { type: 'move-preview', msg: `Preview invalid for ${actorId}`, data: { actorId, ok: false } } }]
   return [{ type: 'log', value: { type: 'move-preview', msg: `Preview ${mode} for ${actorId}`, data: { actorId, mode, from: preview.path[0], to: preview.path[preview.path.length - 1], path: preview.path, cost: preview.cost, warns: preview.warns || [] } } }]
+}
+
+// C10–C12: Targeting preview logs and staging patches
+export const buildTargetPreviewLog = (attackerId, spec, preview, choices = {}) => {
+  const tSpec = _normTemplate(spec)
+  const data = {
+    attackerId,
+    spec: { kind: tSpec.kind, origin: tSpec.origin, radius: tSpec.radius, size: tSpec.size, range: tSpec.range },
+    center: choices.center || null,
+    facing: choices.facing || null,
+    templateCellsCount: preview && preview.templateCells ? preview.templateCells.size : 0,
+    candidateCount: preview && preview.targets ? preview.targets.length : 0,
+    errors: preview && preview.errors || [],
+    warnings: preview && preview.warnings || []
+  }
+  return [{ type: 'log', value: { type: 'target-preview', msg: `Target preview by ${attackerId}`, data } }]
+}
+
+export const stageTargetingSelection = (G, attackerId, spec, choices = {}, selectedTargets = []) => {
+  const tSpec = _normTemplate(spec)
+  const patches = []
+  patches.push({ type: 'set', path: 'staging.targeting', value: {
+    attackerId,
+    spec: { kind: tSpec.kind, origin: tSpec.origin, radius: tSpec.radius, size: tSpec.size, range: tSpec.range },
+    center: choices.center || null,
+    facing: choices.facing || null,
+    targets: selectedTargets
+  }})
+  patches.push({ type: 'log', value: { type: 'template-choose', msg: `${attackerId} staged targeting`, data: { attackerId, targets: selectedTargets, center: choices.center || null, facing: choices.facing || null } } })
+  return patches
 }
 
 export const move = {

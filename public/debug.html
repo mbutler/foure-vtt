@@ -102,6 +102,31 @@
         </div>
     </div>
 
+    <div class="section">
+      <h3>Targeting (C)</h3>
+      <div style="display:flex; gap: 20px; flex-wrap: wrap; align-items: center;">
+        <div>
+          <div><b>Spec</b></div>
+          Kind <select id="tg-kind"><option>single</option><option>burst</option></select>
+          Origin <select id="tg-origin"><option>ranged</option><option>area</option><option>melee</option><option>close</option></select>
+          Radius <input id="tg-radius" type="number" value="1" style="width:60px"/>
+          Range <input id="tg-range" type="number" value="6" style="width:60px"/>
+        </div>
+        <div>
+          <div><b>Choices</b></div>
+          Center x <input id="tg-cx" type="number" value="2" style="width:50px"/> y <input id="tg-cy" type="number" value="2" style="width:50px"/>
+          Facing dx <input id="tg-fdx" type="number" value="1" style="width:50px"/> dy <input id="tg-fdy" type="number" value="0" style="width:50px"/>
+        </div>
+        <div>
+          <div><b>Actions</b></div>
+          Attacker <select id="tg-attacker"><option>A1</option><option>E1</option></select>
+          <button id="btn-target-preview">Preview Targeting</button>
+          <button id="btn-target-stage">Stage Selection</button>
+        </div>
+      </div>
+      <div id="target-out" style="font-size:12px; margin-top:6px;"></div>
+    </div>
+
     <script>
         // --- Minimal local engine (mirrors src/engine + src/rules) ---
         const getAtPath = (obj, path) => path.split('.').reduce((acc, k) => acc ? acc[k] : undefined, obj);
@@ -269,6 +294,7 @@
         // --- UI wiring ---
         let G = initialState(Number(document.getElementById('seed').value));
         let lastPreview = null;
+        let lastTargetPreview = null;
         const stateEl = document.getElementById('state');
         const logEl = document.getElementById('log');
         const gridEl = document.getElementById('grid');
@@ -423,6 +449,98 @@
         document.getElementById('btn-commit').onclick = () => { if(!lastPreview || !lastPreview.ok){ alert('No valid preview'); return; } const actor=document.getElementById('mv-actor').value; applyPatches(G, commitMoveLocal(G, actor, lastPreview)); render(); };
         document.getElementById('btn-reachable').onclick = () => { const actor=document.getElementById('rch-actor').value; const speed=Number(document.getElementById('rch-speed').value)||6; const set=reachable(G, actor, speed); document.getElementById('reachable-out').textContent = `Count ${set.size}: ${Array.from(set).slice(0,100).join(', ')}${set.size>100?' ...':''}`; };
         document.getElementById('btn-forced').onclick = () => { const kind=document.getElementById('fm-kind').value; const src=document.getElementById('fm-src').value; const tgt=document.getElementById('fm-tgt').value; const n=Number(document.getElementById('fm-n').value)||1; const patches = kind==='push'? forcedLocal.push(G, src, tgt, n) : kind==='pull'? forcedLocal.pull(G, src, tgt, n) : forcedLocal.slide(G, src, tgt, n); applyPatches(G, patches); render(); };
+
+        // --- Targeting (C) helpers ---
+        function cellsForBurstLocal(center, radius){
+          const cells = new Set();
+          for(let dx=-radius; dx<=radius; dx++){
+            for(let dy=-radius; dy<=radius; dy++){
+              const cell={ x:center.x+dx, y:center.y+dy };
+              if(Math.max(Math.abs(dx),Math.abs(dy))<=radius && inBounds(cell,G.board)) cells.add(toId(cell));
+            }
+          }
+          return cells;
+        }
+        function supercoverCells(x0,y0,x1,y1){
+          const cells=new Set(); const dx=x1-x0, dy=y1-y0; const steps=Math.max(Math.abs(dx),Math.abs(dy))*4+1;
+          for(let i=0;i<=steps;i++){ const t=i/steps; const x=x0+dx*t, y=y0+dy*t; const cx=Math.floor(x), cy=Math.floor(y); cells.add(`${cx},${cy}`); }
+          return cells;
+        }
+        function hasLoELocal(fromCell,toCell){
+          if(fromCell.x===toCell.x && fromCell.y===toCell.y) return true;
+          const blockers=new Set(G.board.blockers||[]);
+          const fromId=toId(fromCell); const toIdStr=toId(toCell);
+          const corners = c => [{x:c.x+0,y:c.y+0},{x:c.x+1,y:c.y+0},{x:c.x+0,y:c.y+1},{x:c.x+1,y:c.y+1}];
+          for(const a of corners(fromCell)){
+            for(const b of corners(toCell)){
+              const cells=supercoverCells(a.x,a.y,b.x,b.y);
+              let blocked=false; for(const cid of cells){ if(cid===fromId||cid===toIdStr) continue; if(blockers.has(cid)){ blocked=true; break; } }
+              if(!blocked) return true;
+            }
+          }
+          return false;
+        }
+        function buildTargetPreviewLogLocal(attackerId, spec, preview, choices){
+          const data={ attackerId, spec, center: choices.center||null, facing: choices.facing||null, templateCellsCount: preview&&preview.templateCells?preview.templateCells.size:0, candidateCount: preview&&preview.targets?preview.targets.length:0, errors: preview&&preview.errors||[], warnings: preview&&preview.warnings||[] };
+          return [{ type:'log', value:{ type:'target-preview', msg:`Target preview by ${attackerId}`, data } }];
+        }
+        function stageTargetingSelectionLocal(G, attackerId, spec, choices, targets){
+          return [ { type:'set', path:'staging.targeting', value:{ attackerId, spec, center: choices.center||null, facing: choices.facing||null, targets } }, { type:'log', value:{ type:'template-choose', msg:`${attackerId} staged targeting`, data:{ attackerId, targets, center:choices.center||null, facing:choices.facing||null } } } ];
+        }
+        function previewTargetingLocal(G, attackerId, spec, choices){
+          const attackerCell=G.board.positions[attackerId]; const res={ templateCells:new Set(), targets:[], errors:[], warnings:[] };
+          if(!attackerCell){ res.errors.push('NO_ATTACKER_POSITION'); return res; }
+          if(spec.kind==='burst'){
+            if(spec.origin==='area'){
+              const center=choices.center; if(!center){ res.errors.push('CENTER_REQUIRED'); return res; }
+              if(spec.range!=null && chebyshev(attackerCell, center) > spec.range) res.errors.push('OUT_OF_RANGE');
+              if(spec.requiresLoEToOrigin && !hasLoELocal(attackerCell, center)) res.errors.push('NO_LOE_TO_ORIGIN');
+              res.templateCells=cellsForBurstLocal(center, spec.radius||1);
+            } else {
+              res.templateCells=cellsForBurstLocal(attackerCell, spec.radius||1);
+            }
+          } else if (spec.kind==='single'){
+            const range = spec.origin==='melee' ? (spec.reach||1) : (spec.range||6);
+            for(let x=0;x<G.board.w;x++){ for(let y=0;y<G.board.h;y++){ const cell={x,y}; if(chebyshev(attackerCell, cell)<=range) res.templateCells.add(toId(cell)); }}
+          }
+          if(res.errors.length>0) return res;
+          const candidates=[]; for(const [aid,pos] of Object.entries(G.board.positions||{})){ const id=toId(pos); if(res.templateCells.has(id)) candidates.push(aid); }
+          const originCell = (spec.origin==='area' && choices.center)? choices.center : attackerCell;
+          const requiresLoE = spec.origin==='ranged' || spec.origin==='area' || spec.requiresLoEToOrigin;
+          const filtered = candidates.filter(tid => !requiresLoE || hasLoELocal(originCell, G.board.positions[tid]));
+          res.targets = filtered;
+          return res;
+        }
+        document.getElementById('btn-target-preview').onclick = () => {
+          const attacker = document.getElementById('tg-attacker').value;
+          const kind = document.getElementById('tg-kind').value;
+          const origin = document.getElementById('tg-origin').value;
+          const radius = Number(document.getElementById('tg-radius').value)||1;
+          const range = Number(document.getElementById('tg-range').value)||6;
+          const center = { x: Number(document.getElementById('tg-cx').value)||0, y: Number(document.getElementById('tg-cy').value)||0 };
+          const facing = { x: Number(document.getElementById('tg-fdx').value)||1, y: Number(document.getElementById('tg-fdy').value)||0 };
+          const spec = { kind, origin, radius, range, requiresLoEToOrigin: origin!=='close' && origin!=='melee' };
+          const choices = { center, facing };
+          lastTargetPreview = previewTargetingLocal(G, attacker, spec, choices);
+          applyPatches(G, buildTargetPreviewLogLocal(attacker, spec, lastTargetPreview, choices));
+          const cells = Array.from(lastTargetPreview.templateCells||[]);
+          document.getElementById('target-out').textContent = `Errors: ${JSON.stringify(lastTargetPreview.errors)}; Warnings: ${JSON.stringify(lastTargetPreview.warnings)}; TemplateCells(${cells.length}): ${cells.slice(0,80).join(', ')}`;
+          render();
+        };
+        document.getElementById('btn-target-stage').onclick = () => {
+          if(!lastTargetPreview || (lastTargetPreview.errors||[]).length>0){ alert('No valid preview'); return; }
+          const attacker = document.getElementById('tg-attacker').value;
+          const kind = document.getElementById('tg-kind').value;
+          const origin = document.getElementById('tg-origin').value;
+          const radius = Number(document.getElementById('tg-radius').value)||1;
+          const range = Number(document.getElementById('tg-range').value)||6;
+          const center = { x: Number(document.getElementById('tg-cx').value)||0, y: Number(document.getElementById('tg-cy').value)||0 };
+          const facing = { x: Number(document.getElementById('tg-fdx').value)||1, y: Number(document.getElementById('tg-fdy').value)||0 };
+          const spec = { kind, origin, radius, range };
+          const targets = lastTargetPreview.targets||[];
+          applyPatches(G, stageTargetingSelectionLocal(G, attacker, spec, { center, facing }, targets));
+          render();
+        };
     </script>
 </body>
 </html>
