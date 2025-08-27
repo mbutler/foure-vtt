@@ -1,6 +1,7 @@
 import { PixiStage } from './stage.js'
 // Boardgame.io client glue (minimal)
 import { Client } from 'https://esm.sh/boardgame.io@0.50.2/client'
+import { SocketIO } from 'https://esm.sh/boardgame.io@0.50.2/multiplayer'
 // Fallback shim for local UI without bundling
 import * as Rules from './rules-shim.js'
 
@@ -82,39 +83,61 @@ let facingIdx = 0
 let measureStart = null
 let currentPower = null // 'MBA' | 'BURST1' | 'BLAST3'
 
-// Minimal local state until bgio client wiring (H13)
 let G
-const ClientGame = {
-  name: '4e-client',
-  setup: () => Rules.initialState(42),
+let bgioClient
+
+// Shadow client game (no local state changes); server is authoritative
+const ClientShadowGame = {
+  name: '4e',
+  setup: () => ({}),
   moves: {
-    applyManualPatch(G, ctx, patch) {
-      Rules.applyPatches(G, [patch])
-    },
-    spendAction(G, ctx, kind) {
-      const patches = Rules.spendAction(G, kind)
-      Rules.applyPatches(G, patches)
-    },
-    endTurn(G, ctx) {
-      if (!Rules.canEndTurn(G, ctx)) return
-      const patches = Rules.advanceTurn(G)
-      Rules.applyPatches(G, patches)
-      ctx?.events?.endTurn && ctx.events.endTurn()
-    }
+    moveToken() {},
+    useSecondWind() {},
+    setInitiative() {},
+    endTurn() {},
+    applyManualPatch() {},
+    spendAction() {}
   }
 }
-const bgioClient = Client({ game: ClientGame, debug: false })
-bgioClient.start()
-const syncFromStore = () => {
-  const s = bgioClient.store?.getState?.()
-  if (s && s.G) G = s.G
+
+async function createMatch() {
+  const gameName = '4e'
+  const res = await fetch(`/games/${gameName}/create`, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ numPlayers: 1 }) })
+  const data = await res.json().catch(() => ({}))
+  return data.matchID || 'local'
 }
-syncFromStore()
-bgioClient.store.subscribe(() => { syncFromStore(); renderAll() })
+
+async function startClient() {
+  const matchID = await createMatch()
+  bgioClient = Client({ game: ClientShadowGame, multiplayer: SocketIO({ server: window.location.origin }), matchID, playerID: '0', debug: false })
+  bgioClient.start()
+  let bootstrapped = false
+  const maybeBootstrap = () => {
+    try {
+      const actors = (G && G.actors) || {}
+      const hasAny = Object.keys(actors).length > 0
+      if (!hasAny && !bootstrapped) {
+        // Ask server to bootstrap in a single authoritative move
+        bgioClient.moves && bgioClient.moves.bootstrapDemo && bgioClient.moves.bootstrapDemo()
+        bootstrapped = true
+      }
+    } catch (_) {}
+  }
+  const sync = () => {
+    const s = bgioClient.store?.getState?.()
+    if (s && s.G) { G = s.G; maybeBootstrap(); renderAll() }
+  }
+  sync()
+  bgioClient.store.subscribe(sync)
+}
+
+startClient()
 
 const stage = new PixiStage(elStage)
-stage.drawGrid(G.board)
-stage.drawTokens(G)
+if (G && G.board) {
+  stage.drawGrid(G.board)
+  stage.drawTokens(G)
+}
 
 function appendLog(type, msg){
   const div = document.createElement('div')
@@ -133,6 +156,7 @@ function appendLog(type, msg){
 }
 
 function renderPanel(){
+  if (!G || !G.turn || !Array.isArray(G.turn.order)) return
   // initiative list
   elInit.innerHTML = ''
   const order = G.turn.order || []
@@ -146,17 +170,19 @@ function renderPanel(){
     btn.onclick = () => { selected = id; renderPanel() }
     elInit.appendChild(btn)
   })
-  const id = selected || G.turn.order[G.turn.index]
-  const actor = G.actors[id] || {}
+  const idx = Math.min(G.turn.index || 0, Math.max(order.length - 1, 0))
+  const id = selected || (order.length ? order[idx] : null)
+  const actor = (id && G.actors && G.actors[id]) || {}
   elSel.textContent = id || '—'
   const hp = actor.hp || { current:0, max:0, temp:0 }
   elHp.textContent = `${hp.current}/${hp.max}`
   elThp.textContent = `${hp.temp}`
   const surges = actor.surges || { remaining:0, value:0 }
   elSurges.textContent = `${surges.remaining} (${surges.value})`
-  elStd.textContent = G.actions.standard
-  elMov.textContent = G.actions.move
-  elMin.textContent = G.actions.minor
+  const actions = G.actions || { standard:0, move:0, minor:0 }
+  elStd.textContent = actions.standard
+  elMov.textContent = actions.move
+  elMin.textContent = actions.minor
   // simple powers list
   const powersDivId = 'powers'
   let powersDiv = document.getElementById(powersDivId)
@@ -187,12 +213,7 @@ window.addEventListener('keydown', (e) => { if (e.key.toLowerCase() === 'g') set
 btnSecondWind.onclick = () => {
   const id = selected || (G && G.turn && G.turn.order[G.turn.index])
   if (!id) return
-  const patches = Rules.secondWind(G, id)
-  if (Array.isArray(patches)) {
-    for (const p of patches) {
-      bgioClient && bgioClient.moves && bgioClient.moves.applyManualPatch && bgioClient.moves.applyManualPatch(p)
-    }
-  }
+  bgioClient && bgioClient.moves && bgioClient.moves.useSecondWind && bgioClient.moves.useSecondWind(id)
 }
 
 elEnd.onclick = () => {
@@ -219,6 +240,7 @@ stage.tokenLayer && stage.tokenLayer.on('click', (e) => {
 
 // Move/Measure previews: hover shows path; click commits (move) or sets endpoints (measure)
 stage.app.view.addEventListener('mousemove', (e) => {
+  if (!G || !G.board) return
   if (!selected) return
   const rect = stage.app.view.getBoundingClientRect()
   const pt = { x: e.clientX - rect.left, y: e.clientY - rect.top }
@@ -239,6 +261,7 @@ stage.app.view.addEventListener('mousemove', (e) => {
 
 // Move/Measure previews on left click
 stage.app.view.addEventListener('click', (e) => {
+  if (!G || !G.board) return
   if (!selected) return
   if (mode === 'measure') {
     const rect = stage.app.view.getBoundingClientRect()
@@ -265,10 +288,8 @@ stage.app.view.addEventListener('click', (e) => {
     if (!res) { appendLog('warn', 'Path blocked'); return }
     // commit immediately for simplicity
     const to = res.path[res.path.length - 1]
-    // Apply patches locally via rules shim to avoid async store lag
-    G = Rules.applyPatches(G, [ { type:'set', path:`board.positions.${selected}`, value: to } ])
-    const actP = Rules.spendAction(G, 'move')
-    G = Rules.applyPatches(G, actP)
+    // Server-authoritative: call moveToken move
+    bgioClient && bgioClient.moves && bgioClient.moves.moveToken && bgioClient.moves.moveToken(selected, to, 'walk')
     appendLog('move-commit', `${selected} -> ${to.x},${to.y} (cost ${res.cost})`)
     stage.drawPathHighlight(null)
     renderAll()
@@ -333,6 +354,6 @@ window.findPath = Pathing.findPath
 import * as Templates from './templates.js'
 window.__Templates__ = Templates
 
-renderPanel()
+// initial render waits for store sync
 
 

@@ -1,0 +1,564 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>4e VTT - Multiplayer Demo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      html, body { margin: 0; padding: 0; height: 100%; background: #0f1115; color: #e6e6e6; font-family: Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Helvetica Neue, Arial, "Apple Color Emoji", "Segoe UI Emoji"; }
+      #app { display: grid; grid-template-columns: 1fr 320px; grid-template-rows: auto 1fr auto; height: 100%; }
+      header { grid-column: 1 / span 2; padding: 8px 12px; border-bottom: 1px solid #1a1d25; display:flex; align-items:center; justify-content:space-between; }
+      .title { font-weight: 600; letter-spacing: .5px; }
+      .actionbar { display:flex; gap:8px; align-items:center; }
+      .slot { font-size:12px; padding:4px 8px; border:1px solid #2a2f3a; border-radius:6px; background:#151923; color:#cfd3da; }
+      .slot.disabled { opacity:.5 }
+      .slot .count { color:#8ba3c7; margin-left:6px }
+      #stage { grid-row: 2; grid-column: 1; position: relative; overflow:hidden; background: #0b0d12; }
+      #sidebar { grid-row: 2; grid-column: 2; border-left:1px solid #1a1d25; display:flex; flex-direction:column; }
+      #panel { flex:1; padding:12px; overflow:auto; }
+      #log { grid-column: 1 / span 2; grid-row: 3; border-top:1px solid #1a1d25; height: 120px; overflow:auto; font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; font-size: 12px; background:#0b0d12; padding:8px 12px; }
+      #logbar { grid-column: 1 / span 2; grid-row: 3; display:flex; gap:8px; align-items:center; padding:4px 8px; color:#98a1b3 }
+      #log .entry { margin:2px 0; display:flex; gap:8px; align-items:center }
+      #log .icon { width:16px; text-align:center }
+      #log .msg { white-space:nowrap; overflow:hidden; text-overflow:ellipsis }
+      #log .roll .icon { color:#eccc68 }
+      #log .attack-roll .icon { color:#eccc68 }
+      #log .damage-apply .icon { color:#ff6b81 }
+      #log .save .icon { color:#70a1ff }
+      #log .info .icon { color:#a4b0be }
+      .btn { background:#1a1f2b; color:#e6e6e6; border:1px solid #2a2f3a; border-radius:6px; padding:6px 10px; cursor:pointer; }
+      .btn:disabled { opacity:.5; cursor:not-allowed }
+      .row { display:flex; align-items:center; gap:8px; margin-bottom:8px }
+      .muted { color:#98a1b3 }
+      #prompt { position: fixed; right: 16px; bottom: 150px; background:#151923; border:1px solid #2a2f3a; border-radius:8px; padding:10px 12px; max-width: 360px; display:none; box-shadow: 0 6px 24px rgba(0,0,0,0.35); }
+      #prompt .title { font-weight:600; margin-bottom:6px }
+      #prompt .actions { margin-top:8px; display:flex; gap:8px; justify-content:flex-end }
+      #override { position: fixed; left: 16px; bottom: 150px; background:#151923; border:1px solid #2a2f3a; border-radius:8px; padding:10px 12px; max-width: 420px; width: 420px; display:none; box-shadow: 0 6px 24px rgba(0,0,0,0.35); }
+      #override textarea { width:100%; height:120px; background:#0b0d12; color:#e6e6e6; border:1px solid #2a2f3a; border-radius:6px; padding:6px; font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; font-size:12px }
+      #override .row { justify-content:flex-end }
+      #help { position: fixed; left: 50%; top: 15%; transform: translateX(-50%); background:#151923; border:1px solid #2a2f3a; border-radius:8px; padding:12px 14px; width: 520px; display:none; box-shadow: 0 6px 24px rgba(0,0,0,0.35); }
+      #help .title { font-weight:600; margin-bottom:8px }
+      #help ul { margin:6px 0 0 18px; padding:0 }
+      #help .row { justify-content:flex-end; margin-top:10px }
+      .connection-status { 
+        padding: 4px 8px; 
+        border-radius: 4px; 
+        font-size: 12px; 
+        margin-left: 8px;
+      }
+      .connected { background: #1a4d2e; color: #4ade80; }
+      .disconnected { background: #4d1a1a; color: #f87171; }
+    </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/7.4.0/pixi.min.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <header>
+        <div class="title">4e VTT - Multiplayer Demo</div>
+        <div class="actionbar">
+          <span id="connection-status" class="connection-status disconnected">Disconnected</span>
+          <button id="btn-mode-move" class="btn">Move (M)</button>
+          <button id="btn-mode-measure" class="btn">Measure (G)</button>
+          <div class="slot" id="slot-standard">Std <span class="count" id="cnt-standard">1</span></div>
+          <div class="slot" id="slot-move">Move <span class="count" id="cnt-move">1</span></div>
+          <div class="slot" id="slot-minor">Minor <span class="count" id="cnt-minor">1</span></div>
+          <button id="btn-end-turn" class="btn">End Turn (.)</button>
+          <button id="btn-override" class="btn">Manual Override</button>
+          <button id="btn-help" class="btn">Help</button>
+        </div>
+      </header>
+      <div id="stage"></div>
+      <aside id="sidebar">
+        <div id="panel">
+          <div class="row"><b>Initiative</b></div>
+          <div id="init" class="muted" style="margin-bottom:12px"></div>
+          <div class="row"><b>Selected</b> <span id="sel-actor" class="muted">—</span></div>
+          <div class="row"><b>HP</b> <span id="hp" class="muted">—</span> • <b>THP</b> <span id="thp" class="muted">—</span></div>
+          <div class="row"><b>Surges</b> <span id="surges" class="muted">—</span></div>
+          <div class="row"><button id="btn-second-wind" class="btn">Second Wind</button></div>
+        </div>
+      </aside>
+      <div id="log"></div>
+    </div>
+    <div id="prompt">
+      <div class="title" id="prompt-title"></div>
+      <div class="muted" id="prompt-body"></div>
+      <div class="actions">
+        <button class="btn" id="prompt-use">Use</button>
+        <button class="btn" id="prompt-skip">Skip</button>
+      </div>
+    </div>
+    <div id="override">
+      <div class="title">Manual Override</div>
+      <textarea id="override-json" placeholder='{"type":"set","path":"actors.A1.hp.current","value":15}'></textarea>
+      <div class="row">
+        <button class="btn" id="override-apply">Apply</button>
+        <button class="btn" id="override-close">Close</button>
+      </div>
+    </div>
+    <div id="help">
+      <div class="title">Shortcuts</div>
+      <ul>
+        <li>M: Move mode</li>
+        <li>G: Measure mode</li>
+        <li>T: Target mode</li>
+        <li>Q/E: Rotate blast facing</li>
+        <li>Enter: Commit preview</li>
+        <li>Esc: Cancel preview</li>
+        <li>.: End Turn</li>
+      </ul>
+      <div class="row">
+        <button class="btn" id="help-close">Close</button>
+      </div>
+    </div>
+    <script type="module">
+      import { PixiStage } from '/ui/stage.js'
+      import * as Pathing from '/ui/pathing.js'
+      import * as Templates from '/ui/templates.js'
+
+      const elStage = document.getElementById('stage')
+      const elLog = document.getElementById('log')
+      const elSel = document.getElementById('sel-actor')
+      const elHp = document.getElementById('hp')
+      const elThp = document.getElementById('thp')
+      const elSurges = document.getElementById('surges')
+      const elInit = document.getElementById('init')
+      const elStd = document.getElementById('cnt-standard')
+      const elMov = document.getElementById('cnt-move')
+      const elMin = document.getElementById('cnt-minor')
+      const elEnd = document.getElementById('btn-end-turn')
+      const btnOverride = document.getElementById('btn-override')
+      const btnHelp = document.getElementById('btn-help')
+      const elPrompt = document.getElementById('prompt')
+      const elOverride = document.getElementById('override')
+      const elOverrideJson = document.getElementById('override-json')
+      const elOverrideApply = document.getElementById('override-apply')
+      const elOverrideClose = document.getElementById('override-close')
+      const elHelp = document.getElementById('help')
+      const elHelpClose = document.getElementById('help-close')
+      const elPromptTitle = document.getElementById('prompt-title')
+      const elPromptBody = document.getElementById('prompt-body')
+      const elPromptUse = document.getElementById('prompt-use')
+      const elPromptSkip = document.getElementById('prompt-skip')
+      const connectionStatus = document.getElementById('connection-status')
+
+      let openPrompt = null
+
+      function openOAPrompt(moverId, provokers) {
+        openPrompt = { kind: 'OA', moverId, provokers }
+        elPromptTitle.textContent = 'Opportunity Attack'
+        elPromptBody.textContent = `${provokers.join(', ')} can OA ${moverId}`
+        elPrompt.style.display = 'block'
+        elEnd.disabled = true
+      }
+      function closePrompt() {
+        openPrompt = null
+        elPrompt.style.display = 'none'
+        elEnd.disabled = false
+      }
+      elPromptUse.onclick = () => {
+        if (!openPrompt) return
+        appendLog('oa-resolve', `OA used by ${openPrompt.provokers[0]} on ${openPrompt.moverId}`)
+        closePrompt()
+      }
+      elPromptSkip.onclick = () => {
+        if (!openPrompt) return
+        appendLog('oa-skip', `OA skipped by ${openPrompt.provokers.join(', ')}`)
+        closePrompt()
+      }
+
+      btnOverride.onclick = () => {
+        elOverride.style.display = 'block'
+      }
+      elOverrideClose.onclick = () => { elOverride.style.display = 'none' }
+      elOverrideApply.onclick = () => {
+        try {
+          const patch = JSON.parse(elOverrideJson.value || '{}')
+          if (patch && patch.type === 'set' && patch.path) {
+            // Apply patch through boardgame.io client
+            if (client && client.moves && client.moves.applyManualPatch) {
+              try {
+                client.moves.applyManualPatch(patch)
+                appendLog('manual-override', `Applied ${patch.type} ${patch.path}`)
+              } catch (error) {
+                appendLog('error', `Manual patch failed: ${error.message}`)
+              }
+            } else {
+              appendLog('warn', 'applyManualPatch not available')
+            }
+          } else {
+            appendLog('error', 'Invalid patch format')
+          }
+        } catch (e) { 
+          appendLog('error', `Invalid JSON: ${e.message}`) 
+        }
+      }
+
+      btnHelp.onclick = () => { elHelp.style.display = 'block' }
+      elHelpClose.onclick = () => { elHelp.style.display = 'none' }
+      const btnMove = document.getElementById('btn-mode-move')
+      const btnMeasure = document.getElementById('btn-mode-measure')
+      const btnSecondWind = document.getElementById('btn-second-wind')
+
+      let mode = 'move' // 'move' | 'measure' | 'target'
+      let selected = null
+      let preview = null
+      let facingIdx = 0
+      let measureStart = null
+      let currentPower = null // 'MBA' | 'BURST1' | 'BLAST3'
+
+      let G = null
+      let client = null
+
+      // Client game definition - this should match the server's game
+      const ClientGame = {
+        name: '4e',
+        setup: () => ({ /* setup handled by server */ }),
+        moves: {
+          setInitiative: (G, ctx, order) => {
+            // This will be handled by the server
+          },
+          moveToken: (G, ctx, params) => {
+            // This will be handled by the server
+          },
+          useSecondWind: (G, ctx, actorId) => {
+            // This will be handled by the server
+          },
+          bootstrapDemo: (G, ctx) => {
+            // This will be handled by the server
+          },
+          endTurn: (G, ctx) => {
+            // This will be handled by the server
+          },
+          spendAction: (G, ctx, kind) => {
+            // This will be handled by the server
+          },
+          applyManualPatch: (G, ctx, patch) => {
+            // This will be handled by the server
+          }
+        }
+      }
+
+      async function createMatch() {
+        try {
+          const res = await fetch('/games/4e/create', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ numPlayers: 1 })
+          })
+          const data = await res.json()
+          return data.matchID
+        } catch (error) {
+          console.error('Error creating match:', error)
+          return null
+        }
+      }
+
+      async function startClient() {
+        try {
+          const matchID = await createMatch()
+          if (!matchID) {
+            appendLog('error', 'Failed to create match')
+            return
+          }
+
+          appendLog('info', `Created match: ${matchID}`)
+
+          // Import boardgame.io client dynamically
+          const { Client } = await import('https://esm.sh/boardgame.io@0.50.2/client')
+          const { SocketIO } = await import('https://esm.sh/boardgame.io@0.50.2/multiplayer')
+
+          client = Client({
+            game: ClientGame,
+            multiplayer: SocketIO({ server: window.location.origin }),
+            matchID,
+            playerID: '0',
+            debug: false
+          })
+
+          // Subscribe to state changes
+          client.subscribe((state) => {
+            console.log('State received:', state ? Object.keys(state) : 'null')
+            if (state && state.G) {
+              G = state.G
+              console.log('Game state: actors=' + (G.actors ? Object.keys(G.actors).length : 0) + ', board=' + (G.board ? 'yes' : 'no'))
+              console.log('Board positions:', G.board?.positions)
+              console.log('Actors:', G.actors)
+              renderAll()
+              updateConnectionStatus(true)
+              appendLog('info', 'Game state updated')
+            } else {
+              console.log('No game state received')
+            }
+          })
+
+          client.start()
+          appendLog('info', 'Client started')
+          
+          // Debug: check available moves
+          setTimeout(() => {
+            console.log('Client moves available:', Object.keys(client.moves || {}))
+            console.log('bootstrapDemo move not available:', !client.moves || !client.moves.bootstrapDemo)
+            console.log('applyManualPatch not available:', !client.moves || !client.moves.applyManualPatch)
+          }, 1000)
+
+          // Bootstrap demo data if needed
+          setTimeout(() => {
+            if (client && client.moves && client.moves.bootstrapDemo) {
+              try {
+                client.moves.bootstrapDemo()
+                appendLog('info', 'Demo data bootstrapped')
+              } catch (error) {
+                appendLog('error', `Bootstrap failed: ${error.message}`)
+              }
+            } else {
+              appendLog('warn', 'bootstrapDemo move not available')
+            }
+          }, 1000)
+        } catch (error) {
+          appendLog('error', `Client startup failed: ${error.message}`)
+          updateConnectionStatus(false)
+        }
+      }
+
+      const stage = new PixiStage(elStage)
+      console.log('Stage created:', stage)
+      console.log('Stage methods:', Object.getOwnPropertyNames(Object.getPrototypeOf(stage)))
+
+      function updateConnectionStatus(connected) {
+        connectionStatus.textContent = connected ? 'Connected' : 'Disconnected'
+        connectionStatus.className = `connection-status ${connected ? 'connected' : 'disconnected'}`
+      }
+
+      function appendLog(type, msg){
+        const div = document.createElement('div')
+        div.className = `entry ${type}`
+        const icon = document.createElement('span')
+        icon.className = 'icon'
+        icon.textContent = type === 'attack-roll' ? '🎲' : type === 'damage-apply' ? '💥' : type === 'save' ? '🛡' : type === 'manual-override' ? '✏️' : '•'
+        const msgEl = document.createElement('span')
+        msgEl.className = 'msg'
+        const ts = ((G && G._ts) ? (G._ts + 1) : 1)
+        msgEl.textContent = `[${ts}] ${msg}`
+        div.appendChild(icon)
+        div.appendChild(msgEl)
+        elLog.appendChild(div)
+        elLog.scrollTop = elLog.scrollHeight
+      }
+
+      function renderPanel(){
+        if (!G || !G.turn || !Array.isArray(G.turn.order)) return
+        // initiative list
+        elInit.innerHTML = ''
+        const order = G.turn.order || []
+        order.forEach((id, idx) => {
+          const btn = document.createElement('button')
+          btn.className = 'btn'
+          btn.style.padding = '3px 6px'
+          btn.style.marginRight = '6px'
+          btn.textContent = id + (idx === G.turn.index ? ' *' : '')
+          if (idx === G.turn.index) btn.style.background = '#243049'
+          btn.onclick = () => { selected = id; renderPanel() }
+          elInit.appendChild(btn)
+        })
+        const idx = Math.min(G.turn.index || 0, Math.max(order.length - 1, 0))
+        const id = selected || (order.length ? order[idx] : null)
+        const actor = (id && G.actors && G.actors[id]) || {}
+        elSel.textContent = id || '—'
+        const hp = actor.hp || { current:0, max:0, temp:0 }
+        elHp.textContent = `${hp.current}/${hp.max}`
+        elThp.textContent = `${hp.temp}`
+        const surges = actor.surges || { remaining:0, value:0 }
+        elSurges.textContent = `${surges.remaining} (${surges.value})`
+        const actions = G.actions || { standard:0, move:0, minor:0 }
+        elStd.textContent = actions.standard
+        elMov.textContent = actions.move
+        elMin.textContent = actions.minor
+        // simple powers list
+        const powersDivId = 'powers'
+        let powersDiv = document.getElementById(powersDivId)
+        if (!powersDiv) { powersDiv = document.createElement('div'); powersDiv.id = powersDivId; document.getElementById('panel').appendChild(powersDiv) }
+        powersDiv.innerHTML = ''
+        const p1 = document.createElement('button'); p1.className = 'btn'; p1.style.marginRight = '6px'; p1.textContent = 'MBA'; p1.onclick = () => { currentPower = 'MBA'; setMode('target'); appendLog('info', 'Target mode for MBA') }
+        const p2 = document.createElement('button'); p2.className = 'btn'; p2.textContent = 'Burst 1'; p2.onclick = () => { currentPower = 'BURST1'; setMode('target'); appendLog('info', 'Target mode for Burst 1') }
+        powersDiv.appendChild(p1); powersDiv.appendChild(p2)
+      }
+
+      function renderAll(){
+        console.log('renderAll called: G=' + (G ? 'yes' : 'no') + ', board=' + (G && G.board ? 'yes' : 'no'))
+        if (!G) return
+        stage.drawGrid(G.board)
+        console.log('About to call stage.drawTokens with G:', G)
+        stage.drawTokens(G)
+        renderPanel()
+      }
+
+      function updateTokens(){ stage.drawTokens(G) }
+
+      function setMode(m){ mode = m; appendLog('mode', `Mode: ${m}`) }
+
+      btnMove.onclick = () => setMode('move')
+      btnMeasure.onclick = () => setMode('measure')
+      window.addEventListener('keydown', (e) => { if (e.key.toLowerCase() === 't') setMode('target') })
+      window.addEventListener('keydown', (e) => { if (e.key.toLowerCase() === 'm') setMode('move') })
+      window.addEventListener('keydown', (e) => { if (e.key.toLowerCase() === 'g') setMode('measure') })
+      btnSecondWind.onclick = () => {
+        const id = selected || (G && G.turn && G.turn.order[G.turn.index])
+        if (!id) return
+        appendLog('info', `${id} uses Second Wind`)
+      }
+
+      elEnd.onclick = () => {
+        if (client && client.moves && client.moves.endTurn) {
+          try {
+            client.moves.endTurn()
+            appendLog('info', 'Turn ended')
+          } catch (error) {
+            appendLog('error', `End turn failed: ${error.message}`)
+          }
+        } else {
+          appendLog('warn', 'endTurn not available')
+        }
+      }
+
+      // Click to select token
+      stage.tokenLayer && (stage.tokenLayer.eventMode = 'static')
+      stage.tokenLayer && stage.tokenLayer.on('click', (e) => {
+        const tgt = e.target
+        if (tgt && typeof tgt.name === 'string' && tgt.name.startsWith('token:')) {
+          selected = tgt.name.slice('token:'.length)
+          renderPanel()
+        }
+      })
+
+      // Move/Measure previews: hover shows path; click commits (move) or sets endpoints (measure)
+      stage.app.view.addEventListener('mousemove', (e) => {
+        if (!G || !G.board) return
+        if (!selected) return
+        const rect = stage.app.view.getBoundingClientRect()
+        const pt = { x: e.clientX - rect.left, y: e.clientY - rect.top }
+        const cell = stage.worldToCell(pt)
+        if (mode === 'move') {
+          const from = G.board.positions[selected]
+          if (!from) return
+          const res = Pathing.findPath(G, from, cell)
+          if (res && res.path && res.path.length > 1) stage.drawPathHighlight(res.path)
+          else stage.drawPathHighlight(null)
+        } else if (mode === 'measure') {
+          if (measureStart) {
+            stage.drawPathHighlight([measureStart, cell])
+          }
+        }
+      })
+
+      // Move/Measure previews on left click
+      stage.app.view.addEventListener('click', (e) => {
+        if (!G || !G.board) return
+        if (!selected) return
+        if (mode === 'measure') {
+          const rect = stage.app.view.getBoundingClientRect()
+          const pt = { x: e.clientX - rect.left, y: e.clientY - rect.top }
+          const cell = stage.worldToCell(pt)
+          if (!measureStart) {
+            measureStart = cell
+            stage.drawPathHighlight([measureStart, cell])
+          } else {
+            const dist = Math.max(Math.abs(cell.x - measureStart.x), Math.abs(cell.y - measureStart.y))
+            appendLog('measure', `${measureStart.x},${measureStart.y} → ${cell.x},${cell.y} = ${dist}`)
+            measureStart = null
+            stage.drawPathHighlight(null)
+          }
+          return
+        }
+        if (mode !== 'move' && mode !== 'target') return
+        const rect = stage.app.view.getBoundingClientRect()
+        const pt = { x: e.clientX - rect.left, y: e.clientY - rect.top }
+        const cell = stage.worldToCell(pt)
+        if (mode === 'move') {
+          const res = Pathing.findPath(G, G.board.positions[selected], cell)
+          if (!res) { appendLog('warn', 'Path blocked'); return }
+          // commit through boardgame.io client
+          const to = res.path[res.path.length - 1]
+          if (client && client.moves && client.moves.moveToken) {
+            try {
+              console.log('About to call moveToken:')
+              console.log('  selected:', selected, 'type:', typeof selected)
+              console.log('  to:', to, 'type:', typeof to)
+              console.log('  mode:', 'walk')
+              console.log('  G.board.positions[selected]:', G.board.positions[selected])
+              client.moves.applyManualPatch({ type: 'set', path: `board.positions.${selected}`, value: { x: to.x, y: to.y } })
+              appendLog('info', `Moving ${selected} to ${to.x},${to.y}`)
+            } catch (error) {
+              appendLog('error', `Move failed: ${error.message}`)
+            }
+          } else {
+            appendLog('warn', 'moveToken not available')
+          }
+          stage.drawPathHighlight(null)
+        } else if (mode === 'target') {
+          const attacker = G.board.positions[selected]
+          if (!attacker) return
+          if (currentPower === 'BURST1') {
+            const center = cell
+            const burst = Templates.cellsForBurst(center, 1, G.board)
+            stage.drawTemplateCells(burst, G.board)
+            preview = { template: 'burst1', cells: burst, center }
+          } else if (currentPower === 'MBA') {
+            const dx = Math.max(Math.abs(cell.x - attacker.x), Math.abs(cell.y - attacker.y))
+            if (dx <= 1) {
+              const ids = new Set([`${cell.x},${cell.y}`])
+              stage.drawTemplateCells(ids, G.board)
+              preview = { template: 'single', cells: ids, center: cell }
+            } else {
+              stage.drawTemplateCells(null, G.board)
+              preview = null
+            }
+          } else {
+            stage.drawTemplateCells(null, G.board)
+            preview = null
+          }
+        }
+      })
+
+      // Confirm move with Enter
+      window.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter' && preview && selected && mode === 'move') {
+          const to = preview.path[preview.path.length - 1]
+          if (client && client.moves && client.moves.moveToken) {
+            try {
+              console.log('Calling moveToken with Enter key:', { selected, to, mode: 'walk' })
+              client.moves.applyManualPatch({ type: 'set', path: `board.positions.${selected}`, value: { x: to.x, y: to.y } })
+              appendLog('info', `Moving ${selected} to ${to.x},${to.y}`)
+            } catch (error) {
+              appendLog('error', `Move failed: ${error.message}`)
+            }
+          } else {
+            appendLog('warn', 'moveToken not available')
+          }
+          stage.drawPathHighlight(null)
+          updateTokens()
+          preview = null
+        }
+        if (e.key === 'Escape') {
+          stage.drawPathHighlight(null)
+          preview = null
+          measureStart = null
+        }
+        if (mode === 'target' && (e.key.toLowerCase() === 'q' || e.key.toLowerCase() === 'e')) {
+          const dir = e.key.toLowerCase() === 'q' ? -1 : 1
+          facingIdx = (facingIdx + dir + 8) % 8
+          const attacker = G.board.positions[selected]
+          const facing = Templates.FACINGS8[facingIdx]
+          const cells = Templates.cellsForBlast(attacker, facing, 3, G.board)
+          stage.drawTemplateCells(cells, G.board)
+        }
+      })
+
+      // Initialize
+      startClient()
+
+      // Initial render
+      renderAll()
+    </script>
+  </body>
+  </html>

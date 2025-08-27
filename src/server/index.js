@@ -18,56 +18,6 @@ server.app.use(async (ctx, next) => {
   await next()
 })
 
-// Custom middleware to handle move endpoints
-server.app.use(async (ctx, next) => {
-  // Handle move endpoints like /games/4e/{matchID}/moves/{moveName}
-  const moveMatch = ctx.path.match(/^\/games\/4e\/([^\/]+)\/moves\/(.+)$/)
-  if (moveMatch && ctx.method === 'POST') {
-    const [, matchID, moveName] = moveMatch
-    
-    // Parse JSON body for move endpoints only
-    let body = {}
-    if (ctx.request.headers['content-type'] === 'application/json' && ctx.request.headers['content-length'] && parseInt(ctx.request.headers['content-length']) > 0) {
-      try {
-        body = await new Promise((resolve, reject) => {
-          let data = ''
-          ctx.req.on('data', chunk => data += chunk)
-          ctx.req.on('end', () => {
-            try {
-              resolve(data ? JSON.parse(data) : {})
-            } catch (e) {
-              reject(e)
-            }
-          })
-          ctx.req.on('error', reject)
-        })
-      } catch (error) {
-        ctx.status = 400
-        ctx.body = { error: 'Invalid JSON' }
-        return
-      }
-    }
-    
-    try {
-      // For now, just return success - we'll implement proper move handling later
-      ctx.body = { 
-        success: true, 
-        message: `Move ${moveName} would be executed with args: ${JSON.stringify(body)}`,
-        matchID,
-        moveName,
-        args: body
-      }
-      return
-    } catch (error) {
-      ctx.status = 500
-      ctx.body = { error: error.message }
-      return
-    }
-  }
-  
-  await next()
-})
-
 // serve debug page
 server.app.use(async (ctx, next) => {
   if (ctx.path === '/debug.html') {

@@ -1,0 +1,192 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>4e VTT - Simple Demo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      html, body { margin: 0; padding: 0; height: 100%; background: #0f1115; color: #e6e6e6; font-family: Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Helvetica Neue, Arial, "Apple Color Emoji", "Segoe UI Emoji"; }
+      #app { display: grid; grid-template-columns: 1fr 320px; grid-template-rows: auto 1fr auto; height: 100%; }
+      header { grid-column: 1 / span 2; padding: 8px 12px; border-bottom: 1px solid #1a1d25; display:flex; align-items:center; justify-content:space-between; }
+      .title { font-weight: 600; letter-spacing: .5px; }
+      .actionbar { display:flex; gap:8px; align-items:center; }
+      .slot { font-size:12px; padding:4px 8px; border:1px solid #2a2f3a; border-radius:6px; background:#151923; color:#cfd3da; }
+      .slot.disabled { opacity:.5 }
+      .slot .count { color:#8ba3c7; margin-left:6px }
+      #stage { grid-row: 2; grid-column: 1; position: relative; overflow:hidden; background: #0b0d12; }
+      #sidebar { grid-row: 2; grid-column: 2; border-left:1px solid #1a1d25; display:flex; flex-direction:column; }
+      #panel { flex:1; padding:12px; overflow:auto; }
+      #log { grid-column: 1 / span 2; grid-row: 3; border-top:1px solid #1a1d25; height: 120px; overflow:auto; font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; font-size: 12px; background:#0b0d12; padding:8px 12px; }
+      .btn { background:#1a1f2b; color:#e6e6e6; border:1px solid #2a2f3a; border-radius:6px; padding:6px 10px; cursor:pointer; }
+      .btn:disabled { opacity:.5; cursor:not-allowed }
+      .row { display:flex; align-items:center; gap:8px; margin-bottom:8px }
+      .muted { color:#98a1b3 }
+      #log .entry { margin:2px 0; display:flex; gap:8px; align-items:center }
+      #log .icon { width:16px; text-align:center }
+      #log .msg { white-space:nowrap; overflow:hidden; text-overflow:ellipsis }
+      #log .info .icon { color:#a4b0be }
+    </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/7.4.0/pixi.min.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <header>
+        <div class="title">4e VTT - Simple Demo</div>
+        <div class="actionbar">
+          <button id="btn-mode-move" class="btn">Move (M)</button>
+          <button id="btn-mode-measure" class="btn">Measure (G)</button>
+          <div class="slot" id="slot-standard">Std <span class="count" id="cnt-standard">1</span></div>
+          <div class="slot" id="slot-move">Move <span class="count" id="cnt-move">1</span></div>
+          <div class="slot" id="slot-minor">Minor <span class="count" id="cnt-minor">1</span></div>
+        </div>
+      </header>
+      <div id="stage"></div>
+      <aside id="sidebar">
+        <div id="panel">
+          <div class="row"><b>Selected</b> <span id="sel-actor" class="muted">—</span></div>
+          <div class="row"><b>HP</b> <span id="hp" class="muted">—</span></div>
+          <div class="row"><b>Position</b> <span id="position" class="muted">—</span></div>
+        </div>
+      </aside>
+      <div id="log"></div>
+    </div>
+
+    <script type="module">
+      import { PixiStage } from '/ui/stage.js'
+      import * as Pathing from '/ui/pathing.js'
+
+      const elStage = document.getElementById('stage')
+      const elLog = document.getElementById('log')
+      const elSel = document.getElementById('sel-actor')
+      const elHp = document.getElementById('hp')
+      const elPosition = document.getElementById('position')
+      const btnMove = document.getElementById('btn-mode-move')
+      const btnMeasure = document.getElementById('btn-mode-measure')
+
+      let mode = 'move'
+      let selected = null
+      let measureStart = null
+
+      // Simple game state
+      let G = {
+        board: { 
+          w: 20, 
+          h: 20, 
+          blockers: [], 
+          difficult: [], 
+          positions: {
+            A1: { x: 2, y: 2 },
+            E1: { x: 8, y: 4 }
+          }
+        },
+        actors: {
+          A1: { team: 'A', hp: { current: 24, max: 30, temp: 0 } },
+          E1: { team: 'B', hp: { current: 30, max: 30, temp: 0 } }
+        }
+      }
+
+      const stage = new PixiStage(elStage)
+
+      function appendLog(type, msg) {
+        const entry = document.createElement('div')
+        entry.className = `entry ${type}`
+        entry.innerHTML = `<span class="icon">•</span><span class="msg">${msg}</span>`
+        elLog.appendChild(entry)
+        elLog.scrollTop = elLog.scrollHeight
+      }
+
+      function renderAll() {
+        console.log('Rendering with G:', G)
+        stage.drawGrid(G.board)
+        stage.drawTokens(G)
+        renderPanel()
+      }
+
+      function renderPanel() {
+        if (selected && G.actors[selected]) {
+          const actor = G.actors[selected]
+          const pos = G.board.positions[selected]
+          elSel.textContent = selected
+          elHp.textContent = `${actor.hp.current}/${actor.hp.max}`
+          elPosition.textContent = pos ? `${pos.x}, ${pos.y}` : '—'
+        } else {
+          elSel.textContent = '—'
+          elHp.textContent = '—'
+          elPosition.textContent = '—'
+        }
+      }
+
+      function setMode(m) { 
+        mode = m
+        appendLog('info', `Mode: ${m}`)
+      }
+
+      // Event handlers
+      btnMove.onclick = () => setMode('move')
+      btnMeasure.onclick = () => setMode('measure')
+
+      // Click to select token
+      stage.tokenLayer && (stage.tokenLayer.eventMode = 'static')
+      stage.tokenLayer && stage.tokenLayer.on('click', (e) => {
+        const tgt = e.target
+        if (tgt && typeof tgt.name === 'string' && tgt.name.startsWith('token:')) {
+          selected = tgt.name.slice('token:'.length)
+          renderPanel()
+          appendLog('info', `Selected ${selected}`)
+        }
+      })
+
+      // Move/Measure on click
+      stage.app.view.addEventListener('click', (e) => {
+        if (!G || !G.board) return
+        if (!selected) return
+
+        const rect = stage.app.view.getBoundingClientRect()
+        const pt = { x: e.clientX - rect.left, y: e.clientY - rect.top }
+        const cell = stage.worldToCell(pt)
+
+        if (mode === 'measure') {
+          if (!measureStart) {
+            measureStart = cell
+            appendLog('info', `Measure start: ${cell.x}, ${cell.y}`)
+          } else {
+            const dist = Math.max(Math.abs(cell.x - measureStart.x), Math.abs(cell.y - measureStart.y))
+            appendLog('info', `Distance: ${measureStart.x},${measureStart.y} → ${cell.x},${cell.y} = ${dist}`)
+            measureStart = null
+          }
+          return
+        }
+
+        if (mode === 'move') {
+          const from = G.board.positions[selected]
+          if (!from) return
+
+          const res = Pathing.findPath(G, from, cell)
+          if (!res) { 
+            appendLog('warn', 'Path blocked')
+            return 
+          }
+
+          const to = res.path[res.path.length - 1]
+          G.board.positions[selected] = to
+          appendLog('info', `Moved ${selected} to ${to.x}, ${to.y}`)
+          renderAll()
+        }
+      })
+
+      // Keyboard shortcuts
+      window.addEventListener('keydown', (e) => {
+        if (e.key.toLowerCase() === 'm') setMode('move')
+        if (e.key.toLowerCase() === 'g') setMode('measure')
+        if (e.key === 'Escape') {
+          measureStart = null
+          appendLog('info', 'Cancelled measurement')
+        }
+      })
+
+      // Initialize
+      appendLog('info', 'Simple demo loaded')
+      renderAll()
+    </script>
+  </body>
+</html>
