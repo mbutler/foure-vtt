@@ -41,6 +41,12 @@ export const FourEGame = {
         { type: 'log', value: { type: 'info', msg: `Initiative set: ${order.join(', ')}` }}
       ]
       applyPatches(G, patches)
+      // Publish new state to Firebase (best-effort)
+      try {
+        const { publishMatchState } = await import('../server/firebase.js')
+        const matchID = G.matchId || 'local'
+        publishMatchState(matchID, G).catch(()=>{})
+      } catch {}
     },
     moveToken: (G, ctx, a, b, c) => {
       // Normalize arguments: support object payload and legacy tuple
@@ -92,10 +98,20 @@ export const FourEGame = {
         ...Rules.commitMove(G, actorId, pv)
       ]
       applyPatches(G, patches)
+      try {
+        const { publishMatchState } = await import('../server/firebase.js')
+        const matchID = G.matchId || 'local'
+        publishMatchState(matchID, G).catch(()=>{})
+      } catch {}
     },
     useSecondWind: (G, ctx, actorId) => {
       const patches = Rules.secondWind(G, actorId)
       applyPatches(G, patches)
+      try {
+        const { publishMatchState } = await import('../server/firebase.js')
+        const matchID = G.matchId || 'local'
+        publishMatchState(matchID, G).catch(()=>{})
+      } catch {}
     },
     bootstrapDemo: (G, ctx) => {
       console.log('bootstrapDemo called - starting...')

@@ -3,6 +3,7 @@ import path from 'path'
 import { fileURLToPath } from 'url'
 import { FourEGame } from '../engine/game.js'
 import serve from 'koa-static'
+import { initFirebaseAdmin, publishMatchState } from './firebase.js'
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const PORT = Number(process.env.PORT || 8000)
@@ -71,3 +72,6 @@ server.app.use(async (ctx, next) => {
 server.run(PORT)
 console.log(`4e VTT server on http://localhost:${PORT}`)
 console.log(`Games API available at http://localhost:${PORT}/games`)
+
+// Initialize Firebase Admin when server starts
+try { initFirebaseAdmin() } catch {}
