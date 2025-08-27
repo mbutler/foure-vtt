@@ -106,6 +106,7 @@
       import { PixiStage } from '/ui/stage.js'
       window.__PixiStage__ = PixiStage
     </script>
-    <script type="module" src="/ui/app.js"></script>
+    <!-- Vite will bundle modules; no shim needed -->
+    <script type="module" src="/dist/app.v2.js"></script>
   </body>
   </html>

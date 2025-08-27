@@ -2,8 +2,8 @@ import { PixiStage } from './stage.js'
 // Boardgame.io client glue (minimal)
 import { Client } from 'https://esm.sh/boardgame.io@0.50.2/client'
 import { SocketIO } from 'https://esm.sh/boardgame.io@0.50.2/multiplayer'
+import { FourEGame } from '../../src/engine/game.js'
 // Fallback shim for local UI without bundling
-import * as Rules from './rules-shim.js'
 
 const elStage = document.getElementById('stage')
 const elLog = document.getElementById('log')
@@ -31,14 +31,6 @@ const elPromptUse = document.getElementById('prompt-use')
 const elPromptSkip = document.getElementById('prompt-skip')
 
 let openPrompt = null
-
-function openOAPrompt(moverId, provokers) {
-  openPrompt = { kind: 'OA', moverId, provokers }
-  elPromptTitle.textContent = 'Opportunity Attack'
-  elPromptBody.textContent = `${provokers.join(', ')} can OA ${moverId}`
-  elPrompt.style.display = 'block'
-  elEnd.disabled = true
-}
 function closePrompt() {
   openPrompt = null
   elPrompt.style.display = 'none'
@@ -62,11 +54,9 @@ elOverrideClose.onclick = () => { elOverride.style.display = 'none' }
 elOverrideApply.onclick = () => {
   try {
     const patch = JSON.parse(elOverrideJson.value || '{}')
-    // minimal patch applier for demo
-    const setAtPath = (obj, path, value) => { const keys = path.split('.'); let ref = obj; for (let i=0;i<keys.length-1;i++){ const k=keys[i]; ref[k] = ref[k] ?? {}; ref = ref[k] } ref[keys[keys.length-1]] = value }
-    if (patch && patch.type === 'set' && patch.path) { setAtPath(G, patch.path, patch.value) }
+    // dispatch to server-authoritative move
+    bgioClient && bgioClient.moves && bgioClient.moves.applyManualPatch && bgioClient.moves.applyManualPatch(patch)
     appendLog('manual-override', `Applied ${patch.type} ${patch.path}`)
-    renderPanel(); updateTokens()
   } catch (e) { appendLog('error', `Invalid JSON`) }
 }
 
@@ -86,49 +76,55 @@ let currentPower = null // 'MBA' | 'BURST1' | 'BLAST3'
 let G
 let bgioClient
 
-// Shadow client game (no local state changes); server is authoritative
-const ClientShadowGame = {
-  name: '4e',
-  setup: () => ({}),
-  moves: {
-    moveToken() {},
-    useSecondWind() {},
-    setInitiative() {},
-    endTurn() {},
-    applyManualPatch() {},
-    spendAction() {}
-  }
-}
+// Use real game so client reducer matches server (stateID, move args)
 
-async function createMatch() {
+async function createMatchAndJoin() {
   const gameName = '4e'
+  // Create match
   const res = await fetch(`/games/${gameName}/create`, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ numPlayers: 1 }) })
   const data = await res.json().catch(() => ({}))
-  return data.matchID || 'local'
+  const matchID = data.matchID || 'local'
+  // Join as player 0 to get credentials
+  let credentials = undefined
+  try {
+    const joinRes = await fetch(`/games/${gameName}/${matchID}/join`, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ playerID: '0', playerName: 'Player' }) })
+    if (!joinRes.ok) {
+      const txt = await joinRes.text().catch(() => '')
+      console.warn('Join failed:', joinRes.status, txt)
+    } else {
+      const joinData = await joinRes.json().catch(() => ({}))
+      credentials = joinData.playerCredentials
+    }
+  } catch (e) { console.warn('Join error:', e) }
+  return { matchID, credentials }
 }
 
 async function startClient() {
-  const matchID = await createMatch()
-  bgioClient = Client({ game: ClientShadowGame, multiplayer: SocketIO({ server: window.location.origin }), matchID, playerID: '0', debug: false })
+  const { matchID, credentials } = await createMatchAndJoin()
+  bgioClient = Client({
+    game: FourEGame,
+    multiplayer: SocketIO({ server: window.location.origin }),
+    matchID,
+    playerID: '0',
+    credentials,
+    debug: false,
+    // Ensure client starts from server state to avoid stateID mismatch on first move
+    // sync: 'always' mode is not exposed here; relying on initial store state before enabling moves
+  })
   bgioClient.start()
-  let bootstrapped = false
-  const maybeBootstrap = () => {
-    try {
-      const actors = (G && G.actors) || {}
-      const hasAny = Object.keys(actors).length > 0
-      if (!hasAny && !bootstrapped) {
-        // Ask server to bootstrap in a single authoritative move
-        bgioClient.moves && bgioClient.moves.bootstrapDemo && bgioClient.moves.bootstrapDemo()
-        bootstrapped = true
-      }
-    } catch (_) {}
-  }
+  let isReady = false
   const sync = () => {
     const s = bgioClient.store?.getState?.()
-    if (s && s.G) { G = s.G; maybeBootstrap(); renderAll() }
+    if (s && s.G) { G = s.G; renderAll() }
+    // Only ready after initial sync with stateID 0 and positions present
+    if (!isReady && s && typeof s._stateID === 'number' && s._stateID === 0 && s.G && s.G.board && s.G.board.positions && Object.keys(s.G.board.positions).length > 0) {
+      isReady = true
+    }
   }
   sync()
   bgioClient.store.subscribe(sync)
+  // expose readiness for guards
+  window.__BGIO_READY__ = () => isReady
 }
 
 startClient()
@@ -217,15 +213,8 @@ btnSecondWind.onclick = () => {
 }
 
 elEnd.onclick = () => {
-  // End turn: log end, advance index, reset actions, log begin, select new actor
-  const actor = G.turn.order[G.turn.index]
-  appendLog('turn-end', `${actor} ends turn`)
-  G.turn.index = (G.turn.index + 1) % Math.max(G.turn.order.length, 1)
-  G.actions = { standard: 1, move: 1, minor: 1, free: 'unbounded', immediateUsedThisRound: false }
-  const next = G.turn.order[G.turn.index]
-  selected = next
-  appendLog('turn-begin', `${next} begins turn`)
-  renderPanel()
+  // Server-authoritative end turn
+  bgioClient && bgioClient.moves && bgioClient.moves.endTurn && bgioClient.moves.endTurn()
 }
 
 // Click to select token
@@ -246,6 +235,7 @@ stage.app.view.addEventListener('mousemove', (e) => {
   const pt = { x: e.clientX - rect.left, y: e.clientY - rect.top }
   const cell = stage.worldToCell(pt)
   if (mode === 'move') {
+    if (!(window.__BGIO_READY__ && window.__BGIO_READY__())) return
     const { findPath } = window
     const from = G.board.positions[selected]
     if (!from) return
@@ -283,16 +273,17 @@ stage.app.view.addEventListener('click', (e) => {
   const pt = { x: e.clientX - rect.left, y: e.clientY - rect.top }
   const cell = stage.worldToCell(pt)
   if (mode === 'move') {
+    if (!(window.__BGIO_READY__ && window.__BGIO_READY__())) return
     const { findPath } = window
     const res = findPath(G, G.board.positions[selected], cell)
     if (!res) { appendLog('warn', 'Path blocked'); return }
     // commit immediately for simplicity
     const to = res.path[res.path.length - 1]
-    // Server-authoritative: call moveToken move
-    bgioClient && bgioClient.moves && bgioClient.moves.moveToken && bgioClient.moves.moveToken(selected, to, 'walk')
+    console.log('dispatch moveToken (click)', { actorId: selected, toX: to.x, toY: to.y, mode: 'walk' })
+    // Server-authoritative: call move with object payload to avoid signature drift
+    bgioClient && bgioClient.moves && bgioClient.moves.moveToken && bgioClient.moves.moveToken({ actorId: selected, toX: to.x, toY: to.y, mode: 'walk' })
     appendLog('move-commit', `${selected} -> ${to.x},${to.y} (cost ${res.cost})`)
     stage.drawPathHighlight(null)
-    renderAll()
   } else if (mode === 'target') {
     const attacker = G.board.positions[selected]
     if (!attacker) return
@@ -324,11 +315,12 @@ stage.app.view.addEventListener('click', (e) => {
 // Confirm move with Enter
 window.addEventListener('keydown', (e) => {
   if (e.key === 'Enter' && preview && selected && mode === 'move') {
+    if (!(window.__BGIO_READY__ && window.__BGIO_READY__())) return
     const to = preview.path[preview.path.length - 1]
-    G.board.positions[selected] = to
-    appendLog('move-commit', `${selected} -> ${to.x},${to.y} (cost ${preview.cost})`)
+    console.log('dispatch moveToken (enter)', { actorId: selected, toX: to.x, toY: to.y, mode: 'walk' })
+    // Dispatch object payload
+    bgioClient && bgioClient.moves && bgioClient.moves.moveToken && bgioClient.moves.moveToken({ actorId: selected, toX: to.x, toY: to.y, mode: 'walk' })
     stage.drawPathHighlight(null)
-    updateTokens()
     preview = null
   }
   if (e.key === 'Escape') {

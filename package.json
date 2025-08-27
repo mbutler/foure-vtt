@@ -5,14 +5,18 @@
   "private": true,
   "scripts": {
     "dev": "bun src/server/index.js",
+    "client:build": "bun build public/ui/app.js --outdir=public/dist --splitting --minify --format=esm",
+    "client:watch": "bun build public/ui/app.js --outdir=public/dist --splitting --format=esm --watch",
     "test": "bun test",
     "lint": "eslint ."
   },
   "devDependencies": {
     "@eslint/js": "^9.34.0",
     "@types/bun": "latest",
+    "@vitejs/plugin-legacy": "^7.2.1",
     "eslint": "^9.34.0",
-    "prettier": "^3.6.2"
+    "prettier": "^3.6.2",
+    "vite": "4"
   },
   "peerDependencies": {
     "typescript": "^5"
