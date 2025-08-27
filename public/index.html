@@ -1,5 +1,111 @@
 <!doctype html>
-<meta charset="utf-8">
-<title>4e VTT</title>
-<h1>4e VTT server is running</h1>
-<p>API: <a href="/games">/games</a></p>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>4e VTT</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      html, body { margin: 0; padding: 0; height: 100%; background: #0f1115; color: #e6e6e6; font-family: Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Helvetica Neue, Arial, "Apple Color Emoji", "Segoe UI Emoji"; }
+      #app { display: grid; grid-template-columns: 1fr 320px; grid-template-rows: auto 1fr auto; height: 100%; }
+      header { grid-column: 1 / span 2; padding: 8px 12px; border-bottom: 1px solid #1a1d25; display:flex; align-items:center; justify-content:space-between; }
+      .title { font-weight: 600; letter-spacing: .5px; }
+      .actionbar { display:flex; gap:8px; align-items:center; }
+      .slot { font-size:12px; padding:4px 8px; border:1px solid #2a2f3a; border-radius:6px; background:#151923; color:#cfd3da; }
+      .slot.disabled { opacity:.5 }
+      .slot .count { color:#8ba3c7; margin-left:6px }
+      #stage { grid-row: 2; grid-column: 1; position: relative; overflow:hidden; background: #0b0d12; }
+      #sidebar { grid-row: 2; grid-column: 2; border-left:1px solid #1a1d25; display:flex; flex-direction:column; }
+      #panel { flex:1; padding:12px; overflow:auto; }
+      #log { grid-column: 1 / span 2; grid-row: 3; border-top:1px solid #1a1d25; height: 120px; overflow:auto; font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; font-size: 12px; background:#0b0d12; padding:8px 12px; }
+      #logbar { grid-column: 1 / span 2; grid-row: 3; display:flex; gap:8px; align-items:center; padding:4px 8px; color:#98a1b3 }
+      #log .entry { margin:2px 0; display:flex; gap:8px; align-items:center }
+      #log .icon { width:16px; text-align:center }
+      #log .msg { white-space:nowrap; overflow:hidden; text-overflow:ellipsis }
+      #log .roll .icon { color:#eccc68 }
+      #log .attack-roll .icon { color:#eccc68 }
+      #log .damage-apply .icon { color:#ff6b81 }
+      #log .save .icon { color:#70a1ff }
+      #log .info .icon { color:#a4b0be }
+      .btn { background:#1a1f2b; color:#e6e6e6; border:1px solid #2a2f3a; border-radius:6px; padding:6px 10px; cursor:pointer; }
+      .btn:disabled { opacity:.5; cursor:not-allowed }
+      .row { display:flex; align-items:center; gap:8px; margin-bottom:8px }
+      .muted { color:#98a1b3 }
+      #prompt { position: fixed; right: 16px; bottom: 150px; background:#151923; border:1px solid #2a2f3a; border-radius:8px; padding:10px 12px; max-width: 360px; display:none; box-shadow: 0 6px 24px rgba(0,0,0,0.35); }
+      #prompt .title { font-weight:600; margin-bottom:6px }
+      #prompt .actions { margin-top:8px; display:flex; gap:8px; justify-content:flex-end }
+      #override { position: fixed; left: 16px; bottom: 150px; background:#151923; border:1px solid #2a2f3a; border-radius:8px; padding:10px 12px; max-width: 420px; width: 420px; display:none; box-shadow: 0 6px 24px rgba(0,0,0,0.35); }
+      #override textarea { width:100%; height:120px; background:#0b0d12; color:#e6e6e6; border:1px solid #2a2f3a; border-radius:6px; padding:6px; font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; font-size:12px }
+      #override .row { justify-content:flex-end }
+      #help { position: fixed; left: 50%; top: 15%; transform: translateX(-50%); background:#151923; border:1px solid #2a2f3a; border-radius:8px; padding:12px 14px; width: 520px; display:none; box-shadow: 0 6px 24px rgba(0,0,0,0.35); }
+      #help .title { font-weight:600; margin-bottom:8px }
+      #help ul { margin:6px 0 0 18px; padding:0 }
+      #help .row { justify-content:flex-end; margin-top:10px }
+    </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/7.4.0/pixi.min.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <header>
+        <div class="title">4e VTT</div>
+        <div class="actionbar">
+          <button id="btn-mode-move" class="btn">Move (M)</button>
+          <button id="btn-mode-measure" class="btn">Measure (G)</button>
+          <div class="slot" id="slot-standard">Std <span class="count" id="cnt-standard">1</span></div>
+          <div class="slot" id="slot-move">Move <span class="count" id="cnt-move">1</span></div>
+          <div class="slot" id="slot-minor">Minor <span class="count" id="cnt-minor">1</span></div>
+          <button id="btn-end-turn" class="btn">End Turn (.)</button>
+          <button id="btn-override" class="btn">Manual Override</button>
+          <button id="btn-help" class="btn">Help</button>
+        </div>
+      </header>
+      <div id="stage"></div>
+      <aside id="sidebar">
+        <div id="panel">
+          <div class="row"><b>Initiative</b></div>
+          <div id="init" class="muted" style="margin-bottom:12px"></div>
+          <div class="row"><b>Selected</b> <span id="sel-actor" class="muted">—</span></div>
+          <div class="row"><b>HP</b> <span id="hp" class="muted">—</span> • <b>THP</b> <span id="thp" class="muted">—</span></div>
+          <div class="row"><b>Surges</b> <span id="surges" class="muted">—</span></div>
+          <div class="row"><button id="btn-second-wind" class="btn">Second Wind</button></div>
+        </div>
+      </aside>
+      <div id="log"></div>
+    </div>
+    <div id="prompt">
+      <div class="title" id="prompt-title"></div>
+      <div class="muted" id="prompt-body"></div>
+      <div class="actions">
+        <button class="btn" id="prompt-use">Use</button>
+        <button class="btn" id="prompt-skip">Skip</button>
+      </div>
+    </div>
+    <div id="override">
+      <div class="title">Manual Override</div>
+      <textarea id="override-json" placeholder='{"type":"set","path":"actors.A1.hp.current","value":15}'></textarea>
+      <div class="row">
+        <button class="btn" id="override-apply">Apply</button>
+        <button class="btn" id="override-close">Close</button>
+      </div>
+    </div>
+    <div id="help">
+      <div class="title">Shortcuts</div>
+      <ul>
+        <li>M: Move mode</li>
+        <li>G: Measure mode</li>
+        <li>T: Target mode</li>
+        <li>Q/E: Rotate blast facing</li>
+        <li>Enter: Commit preview</li>
+        <li>Esc: Cancel preview</li>
+        <li>.: End Turn</li>
+      </ul>
+      <div class="row">
+        <button class="btn" id="help-close">Close</button>
+      </div>
+    </div>
+    <script type="module">
+      import { PixiStage } from '/ui/stage.js'
+      window.__PixiStage__ = PixiStage
+    </script>
+    <script type="module" src="/ui/app.js"></script>
+  </body>
+  </html>

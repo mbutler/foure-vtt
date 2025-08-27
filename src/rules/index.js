@@ -136,7 +136,6 @@ export const onTurnBegin = (G, actorId) => {
   
   // Apply dazed/stunned effects (simplified) - only if actorId exists
   if (effectiveActorId && G.actors[effectiveActorId]) {
-    const actor = G.actors[effectiveActorId]
     const mask = computeActionMaskForActor(G, effectiveActorId)
     patches.push({ type: 'set', path: 'actions', value: { 
       standard: mask.standard, 
@@ -341,7 +340,7 @@ export const addEffect = (G, effect) => {
 import { findPath as _findPath } from '../tactics/pathing.js'
 import { neighbors8 as _neighbors8, toId as _gridToId, inBounds as _inBounds, chebyshev as _chebyshev } from '../tactics/grid.js'
 import { toId as _toId, detectOAFromMovement as _detectOA } from '../tactics/grid.js'
-import { normalizeTemplateSpec as _normTemplate, normalizeTargetingSpec as _normTarget } from '../tactics/specs.js'
+import { normalizeTemplateSpec as _normTemplate } from '../tactics/specs.js'
 import { computeFlagsForActor as _computeFlagsForActor } from './effects.js'
 
 export const previewMove = (G, actorId, toCell, mode = 'walk', opts = {}) => {
