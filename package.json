@@ -4,26 +4,24 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "dev": "bun src/server/index.js",
-    "client:build": "bun build public/ui/app.js --outdir=public/dist --splitting --minify --format=esm",
-    "client:watch": "bun build public/ui/app.js --outdir=public/dist --splitting --format=esm --watch",
+    "dev": "bun simple-server.js",
+    "start": "bun simple-server.js",
     "test": "bun test",
     "lint": "eslint ."
   },
   "devDependencies": {
     "@eslint/js": "^9.34.0",
     "@types/bun": "latest",
-    "@vitejs/plugin-legacy": "^7.2.1",
     "eslint": "^9.34.0",
-    "prettier": "^3.6.2",
-    "vite": "4"
+    "prettier": "^3.6.2"
   },
   "peerDependencies": {
     "typescript": "^5"
   },
   "dependencies": {
-    "boardgame.io": "^0.50.2",
-    "koa-static": "^5.0.0",
+    "express": "^5.1.0",
+    "firebase": "^12.2.0",
+    "firebase-admin": "^13.5.0",
     "nanoid": "^5.1.5",
     "pixi.js": "^8.12.0",
     "zod": "^4.1.3"
