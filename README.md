@@ -83,12 +83,34 @@ A virtual tabletop for Dungeons & Dragons 4th Edition, built with a simple Expre
 
 ## Development
 
-The project uses a simple REST API approach:
+The project uses a simple REST API approach with session management:
 
-- `GET /api/state` - Get current game state
-- `POST /api/move` - Move a token
-- `POST /api/end-turn` - End current turn
-- `POST /api/second-wind` - Use Second Wind
+- `GET /api/state?sessionId=default` - Get current game state
+- `POST /api/move` - Move a token (include `sessionId` in body)
+- `POST /api/end-turn` - End current turn (include `sessionId` in body)
+- `POST /api/second-wind` - Use Second Wind (include `sessionId` in body)
+- `POST /api/sessions` - Create a new game session
 
 All game logic is contained in the `src/rules/` directory, making it easy to extend and modify the 4e rules implementation.
+
+### Session Management
+
+The server supports multiple game sessions:
+- Each session has a unique ID
+- Default session is always available
+- Sessions are stored in memory for local development
+- Firebase integration available for production (set NODE_ENV=production)
+
+### Firebase Integration
+
+The project includes Firebase integration for real-time multiplayer:
+- **Local Development**: Uses in-memory storage (no Firebase required)
+- **Production**: Uses Firestore for persistent, real-time game state
+- **Client**: Real-time updates via Firebase listeners
+- **Server**: Automatic sync to Firestore on all state changes
+
+To enable Firebase in production:
+```bash
+NODE_ENV=production bun dev
+```
 

@@ -3,15 +3,20 @@ export class PixiStage {
   constructor(rootEl, opts = {}) {
     this.rootEl = rootEl
     this.size = { w: rootEl.clientWidth, h: rootEl.clientHeight }
-    const { Application, Container, Renderer } = PIXI
-    // For Pixi v7 compatibility
+    const { Application, Container } = PIXI
+    
+    // Create canvas element first
+    const canvas = document.createElement('canvas')
+    rootEl.appendChild(canvas)
+    
+    // Initialize PIXI Application
     this.app = new Application({
       width: this.size.w,
       height: this.size.h,
       antialias: true,
       backgroundAlpha: 1,
       backgroundColor: 0x0b0d12,
-      view: (function(){ const c = document.createElement('canvas'); rootEl.appendChild(c); return c })()
+      view: canvas
     })
 
     this.gridLayer = new Container()

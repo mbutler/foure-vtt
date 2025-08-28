@@ -1,283 +1,364 @@
 import { PixiStage } from './ui/stage.js'
-import * as Pathing from './ui/pathing.js'
-import * as Templates from './ui/templates.js'
-
-// DOM elements
-const elStage = document.getElementById('stage')
-const elLog = document.getElementById('log')
-const elSel = document.getElementById('sel-actor')
-const elHp = document.getElementById('hp')
-const elThp = document.getElementById('thp')
-const elSurges = document.getElementById('surges')
-const elInit = document.getElementById('init')
-const elStd = document.getElementById('cnt-standard')
-const elMov = document.getElementById('cnt-move')
-const elMin = document.getElementById('cnt-minor')
-const elEnd = document.getElementById('btn-end-turn')
-const btnMove = document.getElementById('btn-mode-move')
-const btnMeasure = document.getElementById('btn-mode-measure')
-const btnSecondWind = document.getElementById('btn-second-wind')
+import { findPath, toId, inBounds, actorAt } from './ui/pathing.js'
 
 // Game state
 let G = null
 let selected = null
 let mode = 'move'
 let preview = null
-let measureStart = null
-let currentPower = null
+let stage = null
 
-// Initialize stage
-const stage = new PixiStage(elStage)
+// UI elements
+const logEl = document.getElementById('log')
+const currentTurnEl = document.getElementById('current-turn')
+const teamAActionsEl = document.getElementById('team-a-actions')
+const teamBActionsEl = document.getElementById('team-b-actions')
+const currentRoundEl = document.getElementById('current-round')
+const endTurnBtn = document.getElementById('end-turn')
+const secondWindBtn = document.getElementById('second-wind')
+const modeMoveBtn = document.getElementById('mode-move')
+const modeMeasureBtn = document.getElementById('mode-measure')
+const modeTargetBtn = document.getElementById('mode-target')
+const previewInfoEl = document.getElementById('preview-info')
+const previewDetailsEl = document.getElementById('preview-details')
+const commitPreviewBtn = document.getElementById('commit-preview')
+const cancelPreviewBtn = document.getElementById('cancel-preview')
 
-// Load initial game state
-async function loadGameState() {
+// Initialize
+async function init() {
   try {
-    const response = await fetch('/api/state')
-    G = await response.json()
-    console.log('Loaded game state:', G)
+    console.log('Initializing app...')
+    
+    // Load initial game state
+    await loadGameState()
+    
+    // Initialize stage
+    const stageElement = document.getElementById('stage')
+    if (!stageElement) {
+      throw new Error('Stage element not found')
+    }
+    stage = new PixiStage(stageElement)
+    console.log('Stage initialized')
+    
+    // Set up event listeners on the stage canvas
+    stage.app.view.addEventListener('click', handleStageClick)
+    stage.app.view.addEventListener('mousemove', handleStageMouseMove)
+    
+    // Set up event listeners
+    if (endTurnBtn) endTurnBtn.onclick = handleEndTurn
+    if (secondWindBtn) secondWindBtn.onclick = handleSecondWind
+    if (modeMoveBtn) modeMoveBtn.onclick = () => setMode('move')
+    if (modeMeasureBtn) modeMeasureBtn.onclick = () => setMode('measure')
+    if (modeTargetBtn) modeTargetBtn.onclick = () => setMode('target')
+    if (commitPreviewBtn) commitPreviewBtn.onclick = handleCommitPreview
+    if (cancelPreviewBtn) cancelPreviewBtn.onclick = handleCancelPreview
+    
+    // Keyboard shortcuts
+    document.addEventListener('keydown', handleKeyDown)
+    
+    // Initial render
     renderAll()
+    console.log('App initialization complete')
   } catch (error) {
-    console.error('Failed to load game state:', error)
+    console.error('App initialization failed:', error)
   }
 }
 
-// Move token via REST API
-async function moveToken(actorId, toX, toY, mode = 'walk') {
-  console.log('Moving token:', { actorId, toX, toY, mode })
-  
+// Load game state from server
+async function loadGameState() {
   try {
+    const sessionId = window.firebase ? window.firebase.currentSessionId() : 'default'
+    const response = await fetch(`/api/state?sessionId=${sessionId}`)
+    if (!response.ok) throw new Error('Failed to load game state')
+    G = await response.json()
+    console.log('Game state loaded:', G)
+  } catch (error) {
+    console.error('Error loading game state:', error)
+    // Fallback to empty state
+    G = {
+      board: { positions: {}, w: 20, h: 20 },
+      turn: { order: [], index: 0 },
+      actions: { standard: 0, move: 0, minor: 0 },
+      actors: {},
+      round: 1
+    }
+  }
+}
+
+// Update game state from Firebase
+window.updateGameState = function(newGameState) {
+  G = newGameState
+  renderAll()
+}
+
+// Move token
+async function moveToken(actorId, toX, toY, mode = 'walk') {
+  try {
+    const sessionId = window.firebase ? window.firebase.currentSessionId() : 'default'
     const response = await fetch('/api/move', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ actorId, toX, toY, mode })
+      body: JSON.stringify({ actorId, toX, toY, mode, sessionId })
     })
     
-    const data = await response.json()
-    if (data.success) {
-      console.log('Move successful:', data.positions)
-      G.board.positions = data.positions
-      renderAll()
-      appendLog('move-commit', `${actorId} -> ${toX},${toY}`)
-    } else {
-      console.error('Move failed:', data.error)
-      appendLog('error', `Move failed: ${data.error}`)
+    if (!response.ok) {
+      const error = await response.json()
+      throw new Error(error.error || 'Move failed')
     }
+    
+    const result = await response.json()
+    G = result.gameState
+    renderAll()
+    appendLog(`Moved ${actorId} to (${toX}, ${toY})`)
   } catch (error) {
     console.error('Move error:', error)
-    appendLog('error', `Move error: ${error.message}`)
+    appendLog(`Move failed: ${error.message}`)
   }
 }
 
-// UI functions
-function appendLog(type, msg) {
-  const div = document.createElement('div')
-  div.className = `entry ${type}`
-  const icon = document.createElement('span')
-  icon.className = 'icon'
-  icon.textContent = type === 'attack-roll' ? '🎲' : type === 'damage-apply' ? '💥' : type === 'save' ? '🛡' : type === 'manual-override' ? '✏️' : '•'
-  const msgEl = document.createElement('span')
-  msgEl.className = 'msg'
-  msgEl.textContent = `[${Date.now()}] ${msg}`
-  div.appendChild(icon)
-  div.appendChild(msgEl)
-  elLog.appendChild(div)
-  elLog.scrollTop = elLog.scrollHeight
-}
-
-function renderPanel() {
-  if (!G || !G.turn || !Array.isArray(G.turn.order)) return
-  
-  // Initiative list
-  elInit.innerHTML = ''
-  const order = G.turn.order || []
-  order.forEach((id, idx) => {
-    const btn = document.createElement('button')
-    btn.className = 'btn'
-    btn.style.padding = '3px 6px'
-    btn.style.marginRight = '6px'
-    btn.textContent = id + (idx === G.turn.index ? ' *' : '')
-    if (idx === G.turn.index) btn.style.background = '#243049'
-    btn.onclick = () => { selected = id; renderPanel() }
-    elInit.appendChild(btn)
-  })
-  
-  const idx = Math.min(G.turn.index || 0, Math.max(order.length - 1, 0))
-  const id = selected || (order.length ? order[idx] : null)
-  const actor = (id && G.actors && G.actors[id]) || {}
-  
-  elSel.textContent = id || '—'
-  const hp = actor.hp || { current: 0, max: 0, temp: 0 }
-  elHp.textContent = `${hp.current}/${hp.max}`
-  elThp.textContent = `${hp.temp}`
-  const surges = actor.surges || { remaining: 0, value: 0 }
-  elSurges.textContent = `${surges.remaining} (${surges.value})`
-  const actions = G.actions || { standard: 0, move: 0, minor: 0 }
-  elStd.textContent = actions.standard
-  elMov.textContent = actions.move
-  elMin.textContent = actions.minor
-}
-
-function renderAll() {
-  if (!G) return
-  stage.drawGrid(G.board)
-  stage.drawTokens(G)
-  renderPanel()
-}
-
-function setMode(m) { 
-  mode = m; 
-  appendLog('mode', `Mode: ${m}`) 
-}
-
-// Event handlers
-btnMove.onclick = () => setMode('move')
-btnMeasure.onclick = () => setMode('measure')
-btnSecondWind.onclick = async () => {
-  const id = selected || (G && G.turn && G.turn.order[G.turn.index])
-  if (!id) return
-  
+// End turn
+async function handleEndTurn() {
   try {
-    const response = await fetch('/api/second-wind', {
+    const sessionId = window.firebase ? window.firebase.currentSessionId() : 'default'
+    const response = await fetch('/api/end-turn', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ actorId: id })
+      body: JSON.stringify({ sessionId })
     })
-    const data = await response.json()
-    if (data.success) {
-      G = data.gameState
-      renderAll()
-      appendLog('info', `${id} uses Second Wind`)
+    
+    if (!response.ok) {
+      const error = await response.json()
+      throw new Error(error.error || 'End turn failed')
     }
-  } catch (error) {
-    console.error('Second Wind error:', error)
-    appendLog('error', 'Failed to use Second Wind')
-  }
-}
-
-elEnd.onclick = async () => {
-  try {
-    const response = await fetch('/api/end-turn', { method: 'POST' })
-    const data = await response.json()
-    if (data.success) {
-      G = data.gameState
-      renderAll()
-      appendLog('info', 'Turn ended')
-    }
+    
+    const result = await response.json()
+    G = result.gameState
+    renderAll()
+    appendLog('Turn ended')
   } catch (error) {
     console.error('End turn error:', error)
-    appendLog('error', 'Failed to end turn')
+    appendLog(`End turn failed: ${error.message}`)
   }
 }
 
-// Click to select token
-stage.tokenLayer && (stage.tokenLayer.eventMode = 'static')
-stage.tokenLayer && stage.tokenLayer.on('click', (e) => {
-  const tgt = e.target
-  if (tgt && typeof tgt.name === 'string' && tgt.name.startsWith('token:')) {
-    selected = tgt.name.slice('token:'.length)
-    renderPanel()
-  }
-})
-
-// Move/Measure previews: hover shows path; click commits (move) or sets endpoints (measure)
-stage.app.view.addEventListener('mousemove', (e) => {
-  if (!G || !G.board) return
-  if (!selected) return
-  const rect = stage.app.view.getBoundingClientRect()
-  const pt = { x: e.clientX - rect.left, y: e.clientY - rect.top }
-  const cell = stage.worldToCell(pt)
-  
-  if (mode === 'move') {
-    const from = G.board.positions[selected]
-    if (!from) return
-    const res = Pathing.findPath(G, from, cell)
-    if (res && res.path && res.path.length > 1) {
-      stage.drawPathHighlight(res.path)
-    } else {
-      stage.drawPathHighlight(null)
-    }
-  } else if (mode === 'measure') {
-    if (measureStart) {
-      stage.drawPathHighlight([measureStart, cell])
-    }
-  }
-})
-
-// Move/Measure previews on left click
-stage.app.view.addEventListener('click', (e) => {
-  if (!G || !G.board) return
-  if (!selected) return
-  
-  if (mode === 'measure') {
-    const rect = stage.app.view.getBoundingClientRect()
-    const pt = { x: e.clientX - rect.left, y: e.clientY - rect.top }
-    const cell = stage.worldToCell(pt)
-    if (!measureStart) {
-      measureStart = cell
-      stage.drawPathHighlight([measureStart, cell])
-    } else {
-      const dist = Math.max(Math.abs(cell.x - measureStart.x), Math.abs(cell.y - measureStart.y))
-      appendLog('measure', `${measureStart.x},${measureStart.y} → ${cell.x},${cell.y} = ${dist}`)
-      measureStart = null
-      stage.drawPathHighlight(null)
-    }
+// Second Wind
+async function handleSecondWind() {
+  if (!selected) {
+    appendLog('No actor selected for Second Wind')
     return
   }
   
-  if (mode !== 'move' && mode !== 'target') return
-  const rect = stage.app.view.getBoundingClientRect()
-  const pt = { x: e.clientX - rect.left, y: e.clientY - rect.top }
-  const cell = stage.worldToCell(pt)
+  try {
+    const sessionId = window.firebase ? window.firebase.currentSessionId() : 'default'
+    const response = await fetch('/api/second-wind', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ actorId: selected, sessionId })
+    })
+    
+    if (!response.ok) {
+      const error = await response.json()
+      throw new Error(error.error || 'Second Wind failed')
+    }
+    
+    const result = await response.json()
+    G = result.gameState
+    renderAll()
+    appendLog(`${selected} used Second Wind`)
+  } catch (error) {
+    console.error('Second Wind error:', error)
+    appendLog(`Second Wind failed: ${error.message}`)
+  }
+}
+
+// Stage click handler
+function handleStageClick(event) {
+  const rect = event.target.getBoundingClientRect()
+  const x = event.clientX - rect.left
+  const y = event.clientY - rect.top
+  const pos = stage.worldToCell({ x, y })
   
-  if (mode === 'move') {
-    const res = Pathing.findPath(G, G.board.positions[selected], cell)
-    if (!res) { 
-      appendLog('warn', 'Path blocked'); 
-      return 
+  if (mode === 'move' && selected) {
+    moveToken(selected, pos.x, pos.y, 'walk')
+  } else if (mode === 'move') {
+    // Select token
+    const actorId = findActorAt(pos.x, pos.y)
+    if (actorId) {
+      selected = actorId
+      renderAll()
     }
-    const to = res.path[res.path.length - 1]
-    moveToken(selected, to.x, to.y, 'walk')
-    stage.drawPathHighlight(null)
+  } else if (mode === 'target' && selected) {
+    // Target mode - show targeting preview
+    preview = { x: pos.x, y: pos.y }
+    renderAll()
   } else if (mode === 'target') {
-    const attacker = G.board.positions[selected]
-    if (!attacker) return
-    if (currentPower === 'BURST1') {
-      const center = cell
-      const burst = Templates.cellsForBurst(center, 1, G.board)
-      stage.drawTemplateCells(burst, G.board)
-      preview = { template: 'burst1', cells: burst, center }
-    } else if (currentPower === 'MBA') {
-      const dx = Math.max(Math.abs(cell.x - attacker.x), Math.abs(cell.y - attacker.y))
-      if (dx <= 1) {
-        const ids = new Set([`${cell.x},${cell.y}`])
-        stage.drawTemplateCells(ids, G.board)
-        preview = { template: 'single', cells: ids, center: cell }
-      } else {
-        stage.drawTemplateCells(null, G.board)
-        preview = null
-      }
-    } else {
-      stage.drawTemplateCells(null, G.board)
-      preview = null
+    // Select token for targeting
+    const actorId = findActorAt(pos.x, pos.y)
+    if (actorId) {
+      selected = actorId
+      renderAll()
     }
   }
-})
+}
 
-// Keyboard shortcuts
-window.addEventListener('keydown', (e) => {
-  if (e.key.toLowerCase() === 't') setMode('target')
-  if (e.key.toLowerCase() === 'm') setMode('move')
-  if (e.key.toLowerCase() === 'g') setMode('measure')
-  if (e.key === 'Escape') {
-    stage.drawPathHighlight(null)
-    preview = null
-    measureStart = null
+// Stage mouse move handler
+function handleStageMouseMove(event) {
+  const rect = event.target.getBoundingClientRect()
+  const x = event.clientX - rect.left
+  const y = event.clientY - rect.top
+  const pos = stage.worldToCell({ x, y })
+  
+  if (mode === 'move' && selected) {
+    preview = { x: pos.x, y: pos.y }
+    renderAll()
+  } else if (mode === 'target' && selected) {
+    preview = { x: pos.x, y: pos.y }
+    renderAll()
   }
-})
+}
 
-// Expose helpers globally
-window.findPath = Pathing.findPath
-window.__Templates__ = Templates
+// Find actor at position
+function findActorAt(x, y) {
+  for (const [actorId, position] of Object.entries(G.board.positions)) {
+    if (position.x === x && position.y === y) {
+      return actorId
+    }
+  }
+  return null
+}
 
-// Initialize
-loadGameState()
+// Set mode
+function setMode(newMode) {
+  mode = newMode
+  selected = null
+  preview = null
+  
+  // Update UI
+  modeMoveBtn.classList.toggle('active', mode === 'move')
+  modeMeasureBtn.classList.toggle('active', mode === 'measure')
+  modeTargetBtn.classList.toggle('active', mode === 'target')
+  
+  renderAll()
+}
+
+// Handle keyboard shortcuts
+function handleKeyDown(event) {
+  switch (event.key.toLowerCase()) {
+    case 'm':
+      setMode('move')
+      break
+    case 'g':
+      setMode('measure')
+      break
+    case 't':
+      setMode('target')
+      break
+    case '.':
+      handleEndTurn()
+      break
+    case 'escape':
+      handleCancelPreview()
+      break
+  }
+}
+
+// Handle commit preview
+function handleCommitPreview() {
+  if (preview && selected) {
+    moveToken(selected, preview.x, preview.y, 'walk')
+    preview = null
+    previewInfoEl.style.display = 'none'
+  }
+}
+
+// Handle cancel preview
+function handleCancelPreview() {
+  preview = null
+  previewInfoEl.style.display = 'none'
+  renderAll()
+}
+
+// Append to log
+function appendLog(message) {
+  const entry = document.createElement('div')
+  entry.textContent = `[${new Date().toLocaleTimeString()}] ${message}`
+  logEl.appendChild(entry)
+  logEl.scrollTop = logEl.scrollHeight
+}
+
+// Render panel
+function renderPanel() {
+  try {
+    if (!G) {
+      console.log('No game state to render')
+      return
+    }
+    
+    console.log('Rendering panel with game state:', G)
+    
+    // Update turn info
+    const currentActor = G.turn.order[G.turn.index]
+    if (currentTurnEl) currentTurnEl.textContent = currentActor || '-'
+    if (currentRoundEl) currentRoundEl.textContent = G.round || 1
+    
+    // Update action counts
+    const actions = G.actions || {}
+    if (teamAActionsEl) teamAActionsEl.textContent = `${actions.standard || 0}/${actions.move || 0}/${actions.minor || 0}`
+    if (teamBActionsEl) teamBActionsEl.textContent = `${actions.standard || 0}/${actions.move || 0}/${actions.minor || 0}`
+    
+    // Update preview info
+    if (preview && selected) {
+      if (previewInfoEl) previewInfoEl.style.display = 'block'
+      if (previewDetailsEl) previewDetailsEl.textContent = `Move ${selected} to (${preview.x}, ${preview.y})`
+    } else {
+      if (previewInfoEl) previewInfoEl.style.display = 'none'
+    }
+  } catch (error) {
+    console.error('Error rendering panel:', error)
+  }
+}
+
+// Render stage
+function renderStage() {
+  if (!G || !stage) return
+  
+  // Render grid
+  stage.drawGrid(G.board)
+  
+  // Render tokens
+  stage.drawTokens(G)
+  
+  // Render preview path if available
+  if (preview && selected) {
+    const start = G.board.positions[selected]
+    if (start) {
+      if (mode === 'move') {
+        const pathResult = findPath(G, start, preview)
+        if (pathResult) {
+          stage.drawPathHighlight(pathResult.path, 0x3182ce)
+        }
+      } else if (mode === 'target') {
+        // Show targeting preview - burst 1 around the preview point
+        const targetCells = new Set()
+        for (let dx = -1; dx <= 1; dx++) {
+          for (let dy = -1; dy <= 1; dy++) {
+            const cell = { x: preview.x + dx, y: preview.y + dy }
+            if (cell.x >= 0 && cell.y >= 0 && cell.x < G.board.w && cell.y < G.board.h) {
+              targetCells.add(`${cell.x},${cell.y}`)
+            }
+          }
+        }
+        stage.drawTemplateCells(targetCells, G.board, 0x38a169) // Green color
+      }
+    }
+  }
+}
+
+// Render everything
+function renderAll() {
+  renderPanel()
+  renderStage()
+}
+
+// Start the app
+init()

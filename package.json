@@ -7,7 +7,10 @@
     "dev": "bun simple-server.js",
     "start": "bun simple-server.js",
     "test": "bun test",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "setup-firebase": "bun setup-firebase.js",
+    "test-firebase": "bun test-firebase.js",
+    "test-firebase-detailed": "bun test-firebase-detailed.js"
   },
   "devDependencies": {
     "@eslint/js": "^9.34.0",

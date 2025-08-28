@@ -1,0 +1,14 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Allow anonymous users to read and write game sessions
+    match /games/{sessionId} {
+      allow read, write: if true;
+    }
+    
+    // Allow anonymous users to read and write any document
+    match /{document=**} {
+      allow read, write: if true;
+    }
+  }
+}
