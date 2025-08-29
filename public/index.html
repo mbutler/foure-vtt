@@ -228,6 +228,89 @@
         letter-spacing: 0.05em;
       }
 
+      /* Character Import */
+      .character-import {
+        margin-bottom: var(--space-sm);
+      }
+      
+      .import-details {
+        background: var(--bg-tertiary);
+        border: 1px solid var(--border-subtle);
+        border-radius: 6px;
+        overflow: hidden;
+      }
+      
+      .import-summary {
+        padding: var(--space-sm) var(--space-md);
+        background: var(--bg-secondary);
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        gap: var(--space-sm);
+        font-size: var(--font-size-sm);
+        font-weight: 500;
+        color: var(--text-primary);
+        transition: background-color 0.15s ease;
+      }
+      
+      .import-summary:hover {
+        background: var(--bg-hover);
+      }
+      
+      .import-icon {
+        font-size: 14px;
+      }
+      
+      .import-content {
+        padding: var(--space-md);
+      }
+      
+      .import-button {
+        background: var(--bg-secondary);
+        border: 1px solid var(--border-medium);
+        border-radius: 4px;
+        color: var(--text-primary);
+        padding: var(--space-sm) var(--space-md);
+        font-size: var(--font-size-sm);
+        cursor: pointer;
+        transition: all 0.15s ease;
+        width: 100%;
+      }
+      
+      .import-button:hover {
+        background: var(--bg-hover);
+        border-color: var(--border-strong);
+      }
+      
+      .import-success {
+        margin-top: var(--space-sm);
+        padding: var(--space-sm);
+        background: rgba(16, 185, 129, 0.1);
+        border: 1px solid var(--status-success);
+        border-radius: 4px;
+      }
+      
+      .imported-character {
+        font-size: var(--font-size-sm);
+        color: var(--text-primary);
+        margin-bottom: 2px;
+      }
+      
+      .imported-powers {
+        font-size: var(--font-size-xs);
+        color: var(--text-secondary);
+      }
+      
+      .import-error {
+        margin-top: var(--space-sm);
+        padding: var(--space-sm);
+        background: rgba(239, 68, 68, 0.1);
+        border: 1px solid var(--status-error);
+        border-radius: 4px;
+        color: var(--status-error);
+        font-size: var(--font-size-xs);
+      }
+
       /* Character Info */
       .character-info {
         background: var(--bg-tertiary);
@@ -1212,6 +1295,7 @@
       };
     </script>
 
+    <script src="/ui/character-import.js"></script>
     <script type="module" src="/simple-app.js"></script>
   </body>
 </html>

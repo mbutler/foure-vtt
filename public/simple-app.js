@@ -2,8 +2,6 @@ import { PixiStage } from './ui/stage.js'
 import { findPath, toId, inBounds, actorAt } from './ui/pathing.js'
 import { PowersPanel } from './ui/powers-panel.js'
 import { GameLog } from './ui/log.js'
-import { CharacterImport } from './ui/character-import.js'
-import { characterParser } from '../src/content/character-parser.js'
 
 // Game state
 let G = null
@@ -83,25 +81,13 @@ async function init() {
     
     // Initialize character import
     const characterImportContainer = document.getElementById('character-import-container')
-    if (characterImportContainer) {
-      characterImport = new CharacterImport(characterImportContainer)
-      
-      // Listen for character import events
-      characterImportContainer.addEventListener('characterImported', (event) => {
-        const character = event.detail.character
-        updateCharacterDisplay(character)
-        updatePowersFromCharacter(character)
+    if (characterImportContainer && window.CharacterImport) {
+      characterImport = new window.CharacterImport(characterImportContainer, (characterData) => {
+        updateCharacterDisplay(characterData)
+        updatePowersFromCharacter(characterData)
         
         if (gameLog) {
-          gameLog.addSystemEntry(`Character "${character.details.name}" imported successfully`, 'success')
-        }
-      })
-      
-      characterImportContainer.addEventListener('characterCleared', () => {
-        resetCharacterDisplay()
-        
-        if (gameLog) {
-          gameLog.addSystemEntry('Character cleared', 'info')
+          gameLog.addSystemEntry(`Character "${characterData.name}" imported successfully`, 'success')
         }
       })
     }
@@ -109,7 +95,12 @@ async function init() {
     // Initialize powers panel
     const powersContainer = document.getElementById('powers-container')
     if (powersContainer) {
-      powersPanel = new PowersPanel(powersContainer, G, handlePowerUse)
+      // Create a compatible game state for the powers panel
+      const compatibleGameState = {
+        ...G,
+        actors: new Map(Object.entries(G.actors || {}))
+      }
+      powersPanel = new PowersPanel(powersContainer, compatibleGameState, handlePowerUse)
     }
     
     // Initialize game log
@@ -574,7 +565,12 @@ function renderPanel() {
     
     // Update powers panel
     if (powersPanel) {
-      powersPanel.update(G)
+      // Create a compatible game state for the powers panel
+      const compatibleGameState = {
+        ...G,
+        actors: new Map(Object.entries(G.actors || {}))
+      }
+      powersPanel.update(compatibleGameState)
     }
   } catch (error) {
     console.error('Error rendering panel:', error)
@@ -627,23 +623,12 @@ function renderAll() {
 }
 
 // Update character display with imported data
-function updateCharacterDisplay(character) {
-  if (!character) return
-  
-  const summary = characterParser.createCharacterSummary(character)
+function updateCharacterDisplay(characterData) {
+  if (!characterData) return
   
   // Update character info
-  if (characterNameEl) characterNameEl.textContent = summary.name
-  if (characterLevelEl) characterLevelEl.textContent = `Level ${summary.level}`
-  
-  // Update stats
-  if (hpEl) {
-    hpEl.textContent = `${summary.hp}/${summary.maxHP}`
-    hpEl.className = 'stat-value' + (summary.hp < summary.maxHP * 0.5 ? ' damaged' : '')
-  }
-  
-  if (surgesEl) surgesEl.textContent = `${summary.healingSurges}/${summary.maxSurges}`
-  if (acEl) acEl.textContent = summary.ac
+  if (characterNameEl) characterNameEl.textContent = characterData.name
+  if (characterLevelEl) characterLevelEl.textContent = `Level ${characterData.level}`
   
   // Update character info section with imported data
   const characterInfo = document.querySelector('.character-info')
@@ -653,34 +638,15 @@ function updateCharacterDisplay(character) {
       const nameEl = characterHeader.querySelector('.character-name')
       const levelEl = characterHeader.querySelector('.character-level')
       
-      if (nameEl) nameEl.textContent = summary.name
-      if (levelEl) levelEl.textContent = `Level ${summary.level}`
-    }
-    
-    // Update stats grid
-    const statsGrid = characterInfo.querySelector('.character-stats')
-    if (statsGrid) {
-      statsGrid.innerHTML = `
-        <div class="stat-item">
-          <div class="stat-label">HP</div>
-          <div class="stat-value ${summary.hp < summary.maxHP * 0.5 ? 'damaged' : ''}">${summary.hp}/${summary.maxHP}</div>
-        </div>
-        <div class="stat-item">
-          <div class="stat-label">Surges</div>
-          <div class="stat-value">${summary.healingSurges}/${summary.maxSurges}</div>
-        </div>
-        <div class="stat-item">
-          <div class="stat-label">AC</div>
-          <div class="stat-value">${summary.ac}</div>
-        </div>
-      `
+      if (nameEl) nameEl.textContent = characterData.name
+      if (levelEl) levelEl.textContent = `Level ${characterData.level}`
     }
   }
 }
 
 // Update powers panel with character powers
-function updatePowersFromCharacter(character) {
-  if (!character || !powersPanel) return
+function updatePowersFromCharacter(characterData) {
+  if (!characterData || !powersPanel) return
   
   // Convert character powers to the format expected by PowersPanel
   const characterPowers = new Map()
@@ -688,19 +654,18 @@ function updatePowersFromCharacter(character) {
   
   const allPowers = []
   
-  // Flatten powers from all types
-  Object.entries(character.powers).forEach(([type, powers]) => {
-    powers.forEach(power => {
-      allPowers.push({
-        ...power,
-        powerType: type,
-        id: power.internalId || power.name,
-        name: power.name,
-        action: power.action || 'Standard',
-        target: power.target || 'One creature',
-        range: power.range || 'Melee',
-        description: power.description || power.flavor || ''
-      })
+  // Process powers from the new format
+  characterData.powers.forEach(power => {
+    const powerData = power.data || {}
+    allPowers.push({
+      ...powerData,
+      powerType: power.usage.toLowerCase(),
+      id: power.name,
+      name: power.name,
+      action: powerData.action || 'Standard',
+      target: powerData.target || 'One creature',
+      range: powerData.range || 'Melee',
+      description: powerData.description || powerData.flavor || ''
     })
   })
   
@@ -708,7 +673,14 @@ function updatePowersFromCharacter(character) {
   
   // Update the powers panel
   powersPanel.actorPowers = characterPowers
-  powersPanel.update(G)
+  
+  // Create a compatible game state for the powers panel
+  const compatibleGameState = {
+    ...G,
+    actors: new Map(Object.entries(G.actors || {}))
+  }
+  
+  powersPanel.update(compatibleGameState)
 }
 
 // Reset character display to defaults

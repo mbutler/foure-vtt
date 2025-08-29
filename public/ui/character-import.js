@@ -3,510 +3,242 @@
  * Handles .dnd4e file uploads and displays parsed character data
  */
 
-import { characterParser } from '../../src/content/character-parser.js'
-
-export class CharacterImport {
-  constructor(container) {
-    this.container = container
-    this.character = null
-    this.init()
-  }
-
-  init() {
-    this.render()
-    this.setupEventListeners()
-  }
-
-  render() {
-    this.container.innerHTML = `
-      <div class="character-import">
-        <div class="import-header">
-          <h3>Character Import</h3>
-          <div class="import-controls">
-            <input type="file" id="character-file" accept=".dnd4e" style="display: none;">
-            <button id="upload-character" class="upload-btn">
-              <span class="upload-icon">📁</span>
-              Upload .dnd4e
-            </button>
-            <button id="clear-character" class="clear-btn" style="display: none;">
-              Clear
-            </button>
-          </div>
-        </div>
-        
-        <div id="character-preview" class="character-preview" style="display: none;">
-          <!-- Character data will be populated here -->
-        </div>
-        
-        <div id="import-status" class="import-status" style="display: none;">
-          <!-- Import status messages -->
-        </div>
-      </div>
-    `
-  }
-
-  setupEventListeners() {
-    const uploadBtn = this.container.querySelector('#upload-character')
-    const fileInput = this.container.querySelector('#character-file')
-    const clearBtn = this.container.querySelector('#clear-character')
-
-    uploadBtn.addEventListener('click', () => {
-      fileInput.click()
-    })
-
-    fileInput.addEventListener('change', (event) => {
-      this.handleFileUpload(event.target.files[0])
-    })
-
-    clearBtn.addEventListener('click', () => {
-      this.clearCharacter()
-    })
-  }
-
-  async handleFileUpload(file) {
-    if (!file) return
-
-    this.showStatus('Parsing character file...', 'info')
-
-    try {
-      const xmlContent = await this.readFileAsText(file)
-      this.character = await characterParser.parseCharacterFile(xmlContent)
-      
-      this.showCharacterPreview()
-      this.showStatus('Character imported successfully!', 'success')
-      
-      // Dispatch custom event for other components
-      this.container.dispatchEvent(new CustomEvent('characterImported', {
-        detail: { character: this.character }
-      }))
-      
-    } catch (error) {
-      console.error('Error importing character:', error)
-      this.showStatus(`Import failed: ${error.message}`, 'error')
+// Simple character parser for .dnd4e XML files
+class SimpleCharacterParser {
+    constructor() {
+        this.powerCache = new Map();
     }
-  }
 
-  readFileAsText(file) {
-    return new Promise((resolve, reject) => {
-      const reader = new FileReader()
-      reader.onload = (e) => resolve(e.target.result)
-      reader.onerror = (e) => reject(new Error('Failed to read file'))
-      reader.readAsText(file)
-    })
-  }
+    async parseCharacterFile(xmlContent) {
+        try {
+            const parser = new DOMParser();
+            const xmlDoc = parser.parseFromString(xmlContent, 'text/xml');
+            
+            if (xmlDoc.getElementsByTagName('parsererror').length > 0) {
+                throw new Error('Invalid XML format');
+            }
 
-  showCharacterPreview() {
-    if (!this.character) return
+            const character = {
+                name: this.getTextContent(xmlDoc, 'Details name'),
+                level: parseInt(this.getTextContent(xmlDoc, 'Details Level')) || 1,
+                powers: await this.parsePowers(xmlDoc)
+            };
 
-    const preview = this.container.querySelector('#character-preview')
-    const clearBtn = this.container.querySelector('#clear-character')
-    
-    const summary = characterParser.createCharacterSummary(this.character)
-    
-    preview.innerHTML = `
-      <div class="character-summary">
-        <div class="character-header">
-          <div class="character-name">${summary.name}</div>
-          <div class="character-level">Level ${summary.level}</div>
-        </div>
-        
-        <div class="character-basics">
-          <div class="basic-info">
-            <span class="race">${summary.race || 'Unknown Race'}</span>
-            <span class="classes">${summary.classes || 'Unknown Class'}</span>
-            ${summary.theme ? `<span class="theme">${summary.theme}</span>` : ''}
-            ${summary.background ? `<span class="background">${summary.background}</span>` : ''}
-          </div>
-          ${summary.paragonPath ? `<div class="paragon-path">${summary.paragonPath}</div>` : ''}
-          ${summary.epicDestiny ? `<div class="epic-destiny">${summary.epicDestiny}</div>` : ''}
-        </div>
-        
-        <div class="character-stats">
-          <div class="stat-grid">
-            <div class="stat-item">
-              <div class="stat-label">HP</div>
-              <div class="stat-value">${summary.hp}/${summary.maxHP}</div>
-            </div>
-            <div class="stat-item">
-              <div class="stat-label">Surges</div>
-              <div class="stat-value">${summary.healingSurges}/${summary.maxSurges}</div>
-            </div>
-            <div class="stat-item">
-              <div class="stat-label">AC</div>
-              <div class="stat-value">${summary.ac}</div>
-            </div>
-            <div class="stat-item">
-              <div class="stat-label">Fort</div>
-              <div class="stat-value">${summary.fortitude}</div>
-            </div>
-            <div class="stat-item">
-              <div class="stat-label">Ref</div>
-              <div class="stat-value">${summary.reflex}</div>
-            </div>
-            <div class="stat-item">
-              <div class="stat-label">Will</div>
-              <div class="stat-value">${summary.will}</div>
-            </div>
-          </div>
-        </div>
-        
-        <div class="character-details">
-          <div class="detail-section">
-            <div class="section-header">Abilities</div>
-            <div class="ability-scores">
-              <span class="ability">Str ${summary.abilities.strength}</span>
-              <span class="ability">Con ${summary.abilities.constitution}</span>
-              <span class="ability">Dex ${summary.abilities.dexterity}</span>
-              <span class="ability">Int ${summary.abilities.intelligence}</span>
-              <span class="ability">Wis ${summary.abilities.wisdom}</span>
-              <span class="ability">Cha ${summary.abilities.charisma}</span>
-            </div>
-          </div>
-          
-          <div class="detail-section">
-            <div class="section-header">Top Skills</div>
-            <div class="skill-list">
-              ${summary.topSkills.map(skill => 
-                `<span class="skill ${skill.trained ? 'trained' : ''}">${skill.name} ${skill.total}</span>`
-              ).join('')}
-            </div>
-          </div>
-          
-          <div class="detail-section">
-            <div class="section-header">Powers</div>
-            <div class="power-summary">
-              <span class="power-type at-will">At-Will: ${summary.powers['at-will']}</span>
-              <span class="power-type encounter">Encounter: ${summary.powers['encounter']}</span>
-              <span class="power-type daily">Daily: ${summary.powers['daily']}</span>
-              <span class="power-type utility">Utility: ${summary.powers['utility']}</span>
-            </div>
-          </div>
-          
-          <div class="detail-section">
-            <div class="section-header">Equipment</div>
-            <div class="equipment-summary">
-              <span class="equipped">${summary.equippedItems.length} equipped</span>
-              <span class="total">${summary.totalItems} total items</span>
-            </div>
-          </div>
-          
-          <div class="detail-section">
-            <div class="section-header">Other</div>
-            <div class="other-info">
-              <span class="languages">${summary.languages.length} languages</span>
-              <span class="feats">${summary.feats} feats</span>
-              <span class="rituals">${summary.rituals} rituals</span>
-              ${summary.companions > 0 ? `<span class="companions">${summary.companions} companions</span>` : ''}
-            </div>
-          </div>
-        </div>
-      </div>
-    `
-    
-    preview.style.display = 'block'
-    clearBtn.style.display = 'inline-flex'
-  }
-
-  clearCharacter() {
-    this.character = null
-    this.container.querySelector('#character-preview').style.display = 'none'
-    this.container.querySelector('#clear-character').style.display = 'none'
-    this.container.querySelector('#import-status').style.display = 'none'
-    
-    // Dispatch custom event
-    this.container.dispatchEvent(new CustomEvent('characterCleared'))
-  }
-
-  showStatus(message, type = 'info') {
-    const statusEl = this.container.querySelector('#import-status')
-    statusEl.innerHTML = `<div class="status-message ${type}">${message}</div>`
-    statusEl.style.display = 'block'
-    
-    // Auto-hide success messages after 3 seconds
-    if (type === 'success') {
-      setTimeout(() => {
-        statusEl.style.display = 'none'
-      }, 3000)
+            return character;
+        } catch (error) {
+            console.error('Error parsing character file:', error);
+            throw error;
+        }
     }
-  }
 
-  getCharacter() {
-    return this.character
-  }
+    getTextContent(xmlDoc, path) {
+        const element = xmlDoc.querySelector(path);
+        return element ? element.textContent.trim() : '';
+    }
 
-  getCharacterSummary() {
-    return this.character ? characterParser.createCharacterSummary(this.character) : null
-  }
+    async parsePowers(xmlDoc) {
+        const powers = [];
+        const powerElements = xmlDoc.querySelectorAll('Power');
+        
+        for (const powerElement of powerElements) {
+            const powerName = this.getTextContent(powerElement, 'name');
+            if (!powerName) continue;
+
+            const usage = this.extractPowerUsage(powerElement);
+            
+            powers.push({
+                name: powerName,
+                usage: usage,
+                data: null // Will be populated by power search
+            });
+        }
+        
+        return powers;
+    }
+
+    extractPowerUsage(powerElement) {
+        // Look for Power Usage in specific tags
+        const usageElements = powerElement.querySelectorAll('specific[name="Power Usage"]');
+        for (const usageEl of usageElements) {
+            const usage = usageEl.textContent.trim();
+            if (usage.includes('At-Will')) return 'At-Will';
+            if (usage.includes('Encounter')) return 'Encounter';
+            if (usage.includes('Daily')) return 'Daily';
+            if (usage.includes('Utility')) return 'Utility';
+        }
+        
+        // Fallback: check power name for usage hints
+        const powerName = this.getTextContent(powerElement, 'name');
+        if (powerName.includes('Utility')) return 'Utility';
+        
+        return 'At-Will'; // Default
+    }
 }
 
-// Add CSS styles for the character import component
-const style = document.createElement('style')
-style.textContent = `
-  .character-import {
-    background: var(--bg-tertiary);
-    border: 1px solid var(--border-subtle);
-    border-radius: 6px;
-    padding: var(--space-md);
-  }
+class CharacterImport {
+    constructor(container, onCharacterLoaded) {
+        this.container = container;
+        this.onCharacterLoaded = onCharacterLoaded;
+        this.characterData = null;
+        this.powerCache = new Map();
+        this.allPowerFiles = [];
+        this.parser = new SimpleCharacterParser();
+        
+        this.init();
+    }
 
-  .import-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-bottom: var(--space-md);
-  }
+    init() {
+        this.render();
+        this.loadAllPowerFiles();
+    }
 
-  .import-header h3 {
-    margin: 0;
-    font-size: var(--font-size-sm);
-    font-weight: 600;
-    color: var(--text-accent);
-  }
+    async loadAllPowerFiles() {
+        if (this.allPowerFiles.length > 0) return this.allPowerFiles;
+        
+        try {
+            const response = await fetch('/api/powers/index');
+            if (response.ok) {
+                const powerIndex = await response.json();
+                this.allPowerFiles.push(...powerIndex);
+                console.log(`Loaded ${powerIndex.length} power files from server`);
+                return powerIndex;
+            }
+        } catch (error) {
+            console.error('Failed to load power index:', error);
+        }
+        return [];
+    }
 
-  .import-controls {
-    display: flex;
-    gap: var(--space-xs);
-  }
+    // Foundry-style power search using regex patterns
+    async searchAllPowerFiles(powerName) {
+        // Strategy 1: Try lookup table first (fast path)
+        if (this.powerLookup && this.powerLookup[powerName]) {
+            const fileName = this.powerLookup[powerName];
+            try {
+                const response = await fetch(`/packs/powers/_source/${fileName}.json`);
+                if (response.ok) {
+                    const powerData = await response.json();
+                    return powerData;
+                }
+            } catch (error) {
+                console.warn(`Could not load power file for ${fileName}:`, error);
+            }
+        }
+        
+        // Strategy 2: Foundry-style regex pattern matching
+        try {
+            const allFiles = await this.loadAllPowerFiles();
+            
+            // Create regex pattern like Foundry does
+            const pattern = new RegExp(powerName.replaceAll(/[\(\)\[\]\+]/g, "\\$&"), "i");
+            
+            // Find all matches
+            const matches = allFiles.filter(powerFile => {
+                const filePowerName = powerFile.name || '';
+                return filePowerName.match(pattern);
+            });
+            
+            if (matches.length > 0) {
+                // Sort by length (shorter names first, like Foundry)
+                matches.sort((a, b) => (a.name || '').length - (b.name || '').length);
+                
+                // Take the first match
+                const bestMatch = matches[0];
+                try {
+                    const response = await fetch(`/packs/powers/_source/${bestMatch.fileName}`);
+                    if (response.ok) {
+                        const powerData = await response.json();
+                        return powerData;
+                    }
+                } catch (error) {
+                    console.warn(`Could not load power file for ${bestMatch.fileName}:`, error);
+                }
+            }
+        } catch (error) {
+            console.warn('Failed to search all power files:', error);
+        }
+        
+        return null;
+    }
 
-  .upload-btn, .clear-btn {
-    display: inline-flex;
-    align-items: center;
-    gap: var(--space-xs);
-    padding: var(--space-xs) var(--space-sm);
-    background: var(--bg-tertiary);
-    border: 1px solid var(--border-medium);
-    border-radius: 4px;
-    color: var(--text-primary);
-    font-size: var(--font-size-xs);
-    cursor: pointer;
-    transition: all 0.15s ease;
-  }
+    normalizePowerName(name) {
+        return name.toLowerCase()
+            .replace(/[^a-z0-9\s]/g, '')
+            .replace(/\s+/g, ' ')
+            .trim();
+    }
 
-  .upload-btn:hover, .clear-btn:hover {
-    background: var(--bg-hover);
-    border-color: var(--border-strong);
-  }
+    async handleFileUpload(file) {
+        try {
+            const content = await file.text();
+            this.characterData = await this.parser.parseCharacterFile(content);
+            
+            // Search for power definitions for each power
+            for (const power of this.characterData.powers) {
+                try {
+                    power.data = await this.searchAllPowerFiles(power.name);
+                } catch (error) {
+                    console.warn(`Failed to find power data for ${power.name}:`, error);
+                }
+            }
+            
+            this.onCharacterLoaded(this.characterData);
+            this.render();
+        } catch (error) {
+            console.error('Error parsing character file:', error);
+            this.showError('Failed to parse character file');
+        }
+    }
 
-  .upload-icon {
-    font-size: 12px;
-  }
+    showError(message) {
+        // Simple error display
+        const errorDiv = document.createElement('div');
+        errorDiv.className = 'import-error';
+        errorDiv.textContent = message;
+        this.container.appendChild(errorDiv);
+        setTimeout(() => errorDiv.remove(), 3000);
+    }
 
-  .character-preview {
-    margin-top: var(--space-md);
-  }
+    render() {
+        this.container.innerHTML = `
+            <div class="character-import">
+                <details class="import-details">
+                    <summary class="import-summary">
+                        <span class="import-icon">📁</span>
+                        <span class="import-text">Import Character</span>
+                    </summary>
+                    <div class="import-content">
+                        <input type="file" id="character-file" accept=".dnd4e" style="display: none;">
+                        <button class="import-button" onclick="document.getElementById('character-file').click()">
+                            Choose .dnd4e file
+                        </button>
+                        ${this.characterData ? `
+                            <div class="import-success">
+                                <div class="imported-character">
+                                    <strong>${this.characterData.name}</strong> (Level ${this.characterData.level})
+                                </div>
+                                <div class="imported-powers">
+                                    ${this.characterData.powers.length} powers loaded
+                                </div>
+                            </div>
+                        ` : ''}
+                    </div>
+                </details>
+            </div>
+        `;
 
-  .character-summary {
-    background: var(--bg-primary);
-    border: 1px solid var(--border-subtle);
-    border-radius: 6px;
-    padding: var(--space-md);
-  }
+        // Add file input listener
+        const fileInput = document.getElementById('character-file');
+        if (fileInput) {
+            fileInput.addEventListener('change', (e) => {
+                const file = e.target.files[0];
+                if (file) {
+                    this.handleFileUpload(file);
+                }
+            });
+        }
+    }
+}
 
-  .character-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-bottom: var(--space-sm);
-  }
-
-  .character-name {
-    font-weight: 600;
-    color: var(--text-accent);
-    font-size: var(--font-size-lg);
-  }
-
-  .character-level {
-    background: var(--bg-tertiary);
-    padding: 2px var(--space-xs);
-    border-radius: 3px;
-    font-size: var(--font-size-xs);
-    color: var(--text-secondary);
-  }
-
-  .character-basics {
-    margin-bottom: var(--space-sm);
-  }
-
-  .basic-info {
-    display: flex;
-    gap: var(--space-xs);
-    flex-wrap: wrap;
-    font-size: var(--font-size-xs);
-    color: var(--text-secondary);
-  }
-
-  .race, .classes, .theme, .background {
-    background: var(--bg-tertiary);
-    padding: 1px var(--space-xs);
-    border-radius: 3px;
-  }
-
-  .paragon-path, .epic-destiny {
-    font-size: var(--font-size-xs);
-    color: var(--text-muted);
-    font-style: italic;
-    margin-top: 2px;
-  }
-
-  .character-stats {
-    margin-bottom: var(--space-md);
-  }
-
-  .stat-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: var(--space-xs);
-  }
-
-  .stat-item {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: var(--space-xs);
-    background: var(--bg-tertiary);
-    border-radius: 4px;
-  }
-
-  .stat-label {
-    font-size: 10px;
-    color: var(--text-muted);
-    text-transform: uppercase;
-    letter-spacing: 0.025em;
-  }
-
-  .stat-value {
-    font-size: var(--font-size-sm);
-    font-weight: 600;
-    color: var(--text-accent);
-  }
-
-  .character-details {
-    display: flex;
-    flex-direction: column;
-    gap: var(--space-sm);
-  }
-
-  .detail-section {
-    background: var(--bg-tertiary);
-    border: 1px solid var(--border-subtle);
-    border-radius: 4px;
-    padding: var(--space-sm);
-  }
-
-  .section-header {
-    font-size: var(--font-size-xs);
-    font-weight: 600;
-    color: var(--text-accent);
-    margin-bottom: var(--space-xs);
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-  }
-
-  .ability-scores {
-    display: flex;
-    gap: var(--space-xs);
-    flex-wrap: wrap;
-  }
-
-  .ability {
-    font-size: var(--font-size-xs);
-    color: var(--text-secondary);
-    background: var(--bg-primary);
-    padding: 1px var(--space-xs);
-    border-radius: 3px;
-  }
-
-  .skill-list {
-    display: flex;
-    gap: var(--space-xs);
-    flex-wrap: wrap;
-  }
-
-  .skill {
-    font-size: var(--font-size-xs);
-    color: var(--text-secondary);
-    background: var(--bg-primary);
-    padding: 1px var(--space-xs);
-    border-radius: 3px;
-  }
-
-  .skill.trained {
-    color: var(--text-accent);
-    font-weight: 500;
-  }
-
-  .power-summary {
-    display: flex;
-    gap: var(--space-xs);
-    flex-wrap: wrap;
-  }
-
-  .power-type {
-    font-size: var(--font-size-xs);
-    padding: 1px var(--space-xs);
-    border-radius: 3px;
-    font-weight: 500;
-  }
-
-  .power-type.at-will {
-    background: var(--power-at-will);
-    color: #000;
-  }
-
-  .power-type.encounter {
-    background: var(--power-encounter);
-    color: #000;
-  }
-
-  .power-type.daily {
-    background: var(--power-daily);
-    color: #000;
-  }
-
-  .power-type.utility {
-    background: var(--power-utility);
-    color: #000;
-  }
-
-  .equipment-summary, .other-info {
-    display: flex;
-    gap: var(--space-xs);
-    flex-wrap: wrap;
-  }
-
-  .equipped, .total, .languages, .feats, .rituals, .companions {
-    font-size: var(--font-size-xs);
-    color: var(--text-secondary);
-    background: var(--bg-primary);
-    padding: 1px var(--space-xs);
-    border-radius: 3px;
-  }
-
-  .import-status {
-    margin-top: var(--space-sm);
-  }
-
-  .status-message {
-    padding: var(--space-sm);
-    border-radius: 4px;
-    font-size: var(--font-size-xs);
-  }
-
-  .status-message.info {
-    background: var(--bg-tertiary);
-    color: var(--text-secondary);
-  }
-
-  .status-message.success {
-    background: rgba(16, 185, 129, 0.1);
-    color: var(--status-success);
-    border: 1px solid var(--status-success);
-  }
-
-  .status-message.error {
-    background: rgba(239, 68, 68, 0.1);
-    color: var(--status-error);
-    border: 1px solid var(--status-error);
-  }
-`
-document.head.appendChild(style)
+// Export for use in main app
+window.CharacterImport = CharacterImport;
