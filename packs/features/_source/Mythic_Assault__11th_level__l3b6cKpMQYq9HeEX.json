@@ -1,0 +1,33 @@
+{
+	"name":"Mythic Assault (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you reduce an enemy to 0 hit points using a melee weapon attack, you gain a bonus to your next melee weapon damage roll before the end of the encounter. The bonus equals your Dexterity modifier. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"l3b6cKpMQYq9HeEX",
+	"_key":"!items!l3b6cKpMQYq9HeEX"
+}

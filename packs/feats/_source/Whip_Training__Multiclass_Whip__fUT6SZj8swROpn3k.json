@@ -1,0 +1,33 @@
+{
+	"name":"Whip Training [Multiclass Whip]",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Dex 13 </p><p><b>Benefit: </b>You gain proficiency with the whip. Once per round when you hit a target with your whip, the power you use imposes a -2 penalty to the target's attack rolls against a target of your choice until the end of your next turn. </p><p>Addition (10/14/2009) </p><p>In the brackets after \"Multiclass,\" add \"Whip\". </p><p>Published in Dragon Magazine 368, page(s) 67, Dragon Magazine Annual, page(s) 105. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"fUT6SZj8swROpn3k",
+	"_key":"!items!fUT6SZj8swROpn3k"
+}

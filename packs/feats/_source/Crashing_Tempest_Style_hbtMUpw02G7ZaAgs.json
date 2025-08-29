@@ -1,0 +1,33 @@
+{
+	"name":"Crashing Tempest Style",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Monk, Flurry of Blows class feature </p><p><b>Benefit: </b>While you are wielding a club, you gain a +2 bonus to damage dealt by your Flurry of Blows power. </p><p>Published in Player's Handbook 3, page(s) 180. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"hbtMUpw02G7ZaAgs",
+	"_key":"!items!hbtMUpw02G7ZaAgs"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Occupation - Executioner Background",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Type: </b>Occupation </p><p><b>Campaign Setting: </b>General </p><p>You were the hand of justice-an executioner charged with dispatching the guilty. Did you enjoy this work or did it sicken you? What were your preferred methods? Pulling a lever, swinging an axe, or another way? Did you execute any famous personages? </p><p><i>Associated Skills: </i>Bluff, Intimidate </p><p>Published in Dragon Magazine 373, page(s) 6. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"background"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"eKhZgcJLNV56Ivzt",
+	"_key":"!items!eKhZgcJLNV56Ivzt"
+}

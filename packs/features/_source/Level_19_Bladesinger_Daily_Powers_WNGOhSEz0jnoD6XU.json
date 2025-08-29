@@ -1,0 +1,33 @@
+{
+	"name":"Level 19 Bladesinger Daily Powers",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You add two new wizard encounter attack powers to your spellbook. The powers must be of 17th level or lower, and the two function as daily attack powers for you.</p>\n<p>@UUID[Compendium.dnd-4e-compendium.module-powers.NW1UYE4s8ZXM9iet]{Dancing Flames}@UUID[Compendium.dnd-4e-compendium.module-powers.2BRfvct75FlQ0j4L]{Force Volley}@UUID[Compendium.dnd-4e-compendium.module-powers.CXjvdxT7YJ0h9IGE]{Mass Charm}</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"WNGOhSEz0jnoD6XU",
+	"_key":"!items!WNGOhSEz0jnoD6XU"
+}

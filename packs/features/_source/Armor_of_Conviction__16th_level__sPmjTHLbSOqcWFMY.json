@@ -1,0 +1,33 @@
+{
+	"name":"Armor of Conviction (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You gain resist 5 to all damage while you are bloodied. </p><p>Published in Heroes of the Fallen Lands, page(s) 139. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"sPmjTHLbSOqcWFMY",
+	"_key":"!items!sPmjTHLbSOqcWFMY"
+}

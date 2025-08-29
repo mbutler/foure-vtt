@@ -1,0 +1,33 @@
+{
+	"name":"Skirmishing Leader [Multiclass Warlord]",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Str 13 or Int 13 </p><p><b>Benefit: </b>You gain training in one skill from the warlord's class skills list. </p><p>When an ally you can see spends an action point to take an extra action, that ally can shift 1 square as a free action before or after the extra action. </p><p>Published in Martial Power 2, page(s) 146. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"YkfPhdg1zXS4jnw9",
+	"_key":"!items!YkfPhdg1zXS4jnw9"
+}

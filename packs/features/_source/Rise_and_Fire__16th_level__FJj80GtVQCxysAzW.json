@@ -1,0 +1,33 @@
+{
+	"name":"Rise and Fire (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Whenever you use your healing word to heal a dying ally, you can make a ranged basic attack as a free action. </p><p>Published in Dragon Magazine 370, page(s) 36. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"FJj80GtVQCxysAzW",
+	"_key":"!items!FJj80GtVQCxysAzW"
+}

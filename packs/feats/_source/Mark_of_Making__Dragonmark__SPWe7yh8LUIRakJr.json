@@ -1,0 +1,37 @@
+{
+	"name":"Mark of Making [Dragonmark]",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Benefit: </b>You have mastered the Enchant Magic Item ritual and can perform it as if you were two levels higher. </p><p>You can make alchemical items as though you had the Alchemist feat and were two levels higher. </p><p>You can master and perform rituals in the creation category and the Make Whole ritual as if you had the Ritual Caster feat. </p><p>Published in Eberron Player's Guide, page(s) 91. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"descriptionGM":{
+			"value":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":"",
+			"autoanimationHook":""
+		},
+		"requirements":"",
+		"level":null,
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"SPWe7yh8LUIRakJr",
+	"_key":"!items!SPWe7yh8LUIRakJr"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Unnatural Mantle",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Revenant, ardent, Ardent Mantle class feature </p><p><b>Benefit: </b>While you have at least 1 power point, allies within the area of your Ardent Mantle remain conscious when dropped to 0 or fewer hit points until they roll their first death saving throw. </p><p>Published in Dragon Magazine 389. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"byHLU5TnhKAc9zYW",
+	"_key":"!items!byHLU5TnhKAc9zYW"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Halfling's Strength",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Halfling, paladin, divine strength power, must worship Avandra </p><p><b>Benefit: </b>Increase the bonus you gain from divine strength to Strength modifier + 4. </p><p>Published in Dragon Magazine 384, page(s) 70. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"Hyq59zmbVhKS6R7l",
+	"_key":"!items!Hyq59zmbVhKS6R7l"
+}

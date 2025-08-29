@@ -1,0 +1,33 @@
+{
+	"name":"Guileful Shift",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Halfling, avenger, must worship Avandra </p><p><b>Benefit: </b>When your oath of enmity target misses you with an attack, you can shift 1 square to a square closer to or adjacent to the target as a free action. </p><p>Published in Dragon Magazine 384, page(s) 70. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"LKbiYz9IQJPrA5VH",
+	"_key":"!items!LKbiYz9IQJPrA5VH"
+}

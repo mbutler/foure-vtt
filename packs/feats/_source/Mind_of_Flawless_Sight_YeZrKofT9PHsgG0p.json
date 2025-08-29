@@ -1,0 +1,33 @@
+{
+	"name":"Mind of Flawless Sight",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Kalashtar, assassin, assassin's shroud power </p><p><b>Benefit: </b>If a creature has at least one of your shrouds on it, you ignore the -2 penalties for concealment or cover on your attack rolls against that creature. </p><p>Published in Dragon Magazine 382, page(s) 30. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"YeZrKofT9PHsgG0p",
+	"_key":"!items!YeZrKofT9PHsgG0p"
+}

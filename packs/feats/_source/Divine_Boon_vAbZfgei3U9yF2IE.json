@@ -1,0 +1,33 @@
+{
+	"name":"Divine Boon",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Cleric, Channel Divinity: divine fortune class feature </p><p><b>Benefit: </b>Whenever you hit an undead creature with an attack for which you gained a bonus from divine fortune, your attack deals an extra 5 radiant damage. </p><p>Published in Dragon Magazine 371, page(s) 8. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"vAbZfgei3U9yF2IE",
+	"_key":"!items!vAbZfgei3U9yF2IE"
+}

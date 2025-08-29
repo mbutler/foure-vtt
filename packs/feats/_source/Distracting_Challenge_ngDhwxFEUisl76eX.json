@@ -1,0 +1,33 @@
+{
+	"name":"Distracting Challenge",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Gnome, paladin, Divine Challenge class feature </p><p><b>Benefit: </b>When a target takes damage from your Divine Challenge, it grants combat advantage until the start of its next turn. </p><p>Published in Dragon Magazine 384, page(s) 60. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"ngDhwxFEUisl76eX",
+	"_key":"!items!ngDhwxFEUisl76eX"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Artful Dodger",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You gain a bonus to AC against opportunity attacks. The bonus equals your Charisma modifier. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"uzrO6f4MU1iN5B9g",
+	"_key":"!items!uzrO6f4MU1iN5B9g"
+}

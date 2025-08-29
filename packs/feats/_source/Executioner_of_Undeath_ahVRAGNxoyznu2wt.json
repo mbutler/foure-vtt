@@ -1,0 +1,33 @@
+{
+	"name":"Executioner of Undeath",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Benefit: </b>Whenever you make a weapon attack using an axe or a heavy blade against an undead creature, you can reroll any damage die but must use the second result. </p><p>Published in Heroes of Shadow, page(s) 157. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"ahVRAGNxoyznu2wt",
+	"_key":"!items!ahVRAGNxoyznu2wt"
+}

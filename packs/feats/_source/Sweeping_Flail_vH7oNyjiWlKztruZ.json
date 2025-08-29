@@ -1,0 +1,33 @@
+{
+	"name":"Sweeping Flail",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>11th level, Str 15, Dex 15 </p><p><b>Benefit: </b>When making a melee attack with a flail against a foe carrying a shield, you gain a +2 bonus to the attack roll. </p><p>Published in Player's Handbook, page(s) 206. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"vH7oNyjiWlKztruZ",
+	"_key":"!items!vH7oNyjiWlKztruZ"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Wild Push (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Whenever you score a critical hit with a melee attack while you are raging, you push the target a number of squares equal to your Strength modifier. </p><p>Published in Player's Handbook 2, page(s) 62. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"iBrh0xsI8ZRkCNwd",
+	"_key":"!items!iBrh0xsI8ZRkCNwd"
+}

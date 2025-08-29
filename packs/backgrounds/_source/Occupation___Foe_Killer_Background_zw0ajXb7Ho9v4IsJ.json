@@ -1,0 +1,33 @@
+{
+	"name":"Occupation - Foe Killer Background",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Type: </b>Occupation </p><p><b>Campaign Setting: </b>General </p><p>You fought and killed your people's enemies. What sorts of creatures do you define as enemies of your people? Do you target members of a humanoid race, such as goblins? Or do you hunt monstrous threats such as aberrant horrors or undead? How does your long experience fighting these creatures shape your personality? How do you react when you encounter your favored enemy? </p><p><i>Associated Skills: </i>Insight, Perception, or the knowledge skill that best relates to your enemy </p><p>Associated Languages: The language commonly spoken by your enemy. </p><p>Published in Dragon Magazine 373, page(s) 7. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"background"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"zw0ajXb7Ho9v4IsJ",
+	"_key":"!items!zw0ajXb7Ho9v4IsJ"
+}

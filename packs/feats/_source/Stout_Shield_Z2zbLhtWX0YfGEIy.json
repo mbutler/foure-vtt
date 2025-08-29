@@ -1,0 +1,33 @@
+{
+	"name":"Stout Shield",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Fighter </p><p><b>Benefit: </b>Your shield bonus also applies to your Fortitude. </p><p>Published in Dragon Magazine 378. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"Z2zbLhtWX0YfGEIy",
+	"_key":"!items!Z2zbLhtWX0YfGEIy"
+}

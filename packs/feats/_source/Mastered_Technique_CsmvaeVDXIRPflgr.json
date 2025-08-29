@@ -1,0 +1,33 @@
+{
+	"name":"Mastered Technique",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>11th level, fighter, Fighter Weapon Talent class feature </p><p><b>Benefit: </b>You gain a +1 feat bonus to AC when you hit with an attack using a weapon of the style you chose for the Fighter Weapon Talent class feature until the end of your next turn. </p><p>Revision (11/5/2009) </p><p>Page 62. Added \"until the end of your next turn\" to Mastered Technique. </p><p>Published in Dragon Magazine 379, page(s) 62. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"CsmvaeVDXIRPflgr",
+	"_key":"!items!CsmvaeVDXIRPflgr"
+}

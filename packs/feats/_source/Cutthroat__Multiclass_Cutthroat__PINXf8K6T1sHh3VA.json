@@ -1,0 +1,33 @@
+{
+	"name":"Cutthroat [Multiclass Cutthroat]",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Trained in Bluff </p><p><b>Benefit: </b>You gain training in the Stealth skill. Whenever you make a Bluff check to create a diversion to hide, you can do so as a minor action. </p><p>Published in Dragon Magazine 373, page(s) 14. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"PINXf8K6T1sHh3VA",
+	"_key":"!items!PINXf8K6T1sHh3VA"
+}

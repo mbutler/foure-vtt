@@ -1,0 +1,33 @@
+{
+	"name":"Strength Through Challenge",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>21st level, any defender class </p><p><b>Benefit: </b>You gain resist 5 all while you have two or more enemies marked. </p><p>Published in Dragon Magazine 387, page(s) 70. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"VAfgMykSEQOI4zZC",
+	"_key":"!items!VAfgMykSEQOI4zZC"
+}

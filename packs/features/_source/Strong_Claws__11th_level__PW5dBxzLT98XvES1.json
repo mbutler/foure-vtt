@@ -1,0 +1,33 @@
+{
+	"name":"Strong Claws (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You gain a climb speed equal to half your speed. You also gain a +2 bonus to damage rolls with your thri-kreen claws racial power. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"PW5dBxzLT98XvES1",
+	"_key":"!items!PW5dBxzLT98XvES1"
+}

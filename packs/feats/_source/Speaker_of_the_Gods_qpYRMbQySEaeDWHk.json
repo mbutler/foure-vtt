@@ -1,0 +1,33 @@
+{
+	"name":"Speaker of the Gods",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>11th level, invoker </p><p><b>Benefit: </b>When you use any Channel Divinity power, you can score a critical hit on a roll of 18-20 with the next divine attack power that you use before the end of your next turn. </p><p>Published in Player's Handbook 2, page(s) 191. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"qpYRMbQySEaeDWHk",
+	"_key":"!items!qpYRMbQySEaeDWHk"
+}

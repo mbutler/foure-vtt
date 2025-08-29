@@ -1,0 +1,33 @@
+{
+	"name":"Mighty Guardian (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>The bonus to all defenses granted by your Guardian Shield path feature increases to 4. </p><p>Published in Player's Handbook 3, page(s) 115. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"BSiU1IVh4sv6CmJd",
+	"_key":"!items!BSiU1IVh4sv6CmJd"
+}

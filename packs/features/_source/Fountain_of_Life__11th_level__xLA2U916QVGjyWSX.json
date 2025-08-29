@@ -1,0 +1,33 @@
+{
+	"name":"Fountain of Life (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Your healing spirit power uses d8s instead of d6s to determine the bonus healing received by an ally adjacent to your spirit companion. The target of your healing spirit power can choose not to regain the hit points from spending a healing surge and instead make a saving throw. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"xLA2U916QVGjyWSX",
+	"_key":"!items!xLA2U916QVGjyWSX"
+}

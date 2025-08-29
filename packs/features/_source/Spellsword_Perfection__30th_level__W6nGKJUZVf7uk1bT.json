@@ -1,0 +1,33 @@
+{
+	"name":"Spellsword Perfection (30th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Choose one swordmage encounter attack power that you know. You can now use that power as an at-will power rather than an encounter power. </p><p>Published in Arcane Power, page(s) 142. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"destiny"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"W6nGKJUZVf7uk1bT",
+	"_key":"!items!W6nGKJUZVf7uk1bT"
+}

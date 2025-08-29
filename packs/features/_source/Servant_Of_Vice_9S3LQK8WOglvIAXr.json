@@ -1,0 +1,33 @@
+{
+	"name":"Servant Of Vice",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You gain the servant of vice power.</p>\n<p>@UUID[Compendium.dnd-4e-compendium.module-powers.sAp4ZDa5tjK0PGH1]{Servant of Vice}</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"9S3LQK8WOglvIAXr",
+	"_key":"!items!9S3LQK8WOglvIAXr"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Indomitable Steel (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you take a short or an extended rest, you can touch one suit of heavy armor that you or an ally wears. That armor gains a +1 bonus to AC until you grant this bonus to a different suit of armor. </p><p>Published in Player's Handbook 3, page(s) 114. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"PGLuxslA4FgHEdJO",
+	"_key":"!items!PGLuxslA4FgHEdJO"
+}

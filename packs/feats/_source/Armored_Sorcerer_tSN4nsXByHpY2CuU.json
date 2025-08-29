@@ -1,0 +1,33 @@
+{
+	"name":"Armored Sorcerer",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Sorcerer, proficiency with leather armor </p><p><b>Benefit: </b>When wearing leather armor, any resistance you gain from your Spell Source class feature increases by 2. </p><p>Published in Dragon Magazine 390. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"tSN4nsXByHpY2CuU",
+	"_key":"!items!tSN4nsXByHpY2CuU"
+}

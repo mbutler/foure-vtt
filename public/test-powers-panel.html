@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Powers Panel Test</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        .test-container { border: 1px solid #ccc; padding: 20px; margin: 10px 0; }
+        .success { color: green; }
+        .error { color: red; }
+        pre { background: #f5f5f5; padding: 10px; overflow-x: auto; }
+    </style>
+</head>
+<body>
+    <h1>Powers Panel Test</h1>
+    <div id="output"></div>
+
+    <script type="module">
+        const output = document.getElementById('output')
+        
+        async function testModule(name, importFn) {
+            try {
+                const module = await importFn()
+                output.innerHTML += `
+                    <div class="test-container">
+                        <h3 class="success">✅ ${name} - Success!</h3>
+                        <p>Module loaded successfully</p>
+                    </div>
+                `
+                return true
+            } catch (error) {
+                output.innerHTML += `
+                    <div class="test-container">
+                        <h3 class="error">❌ ${name} - Error!</h3>
+                        <p>Failed to load module:</p>
+                        <pre>${error.message}</pre>
+                    </div>
+                `
+                return false
+            }
+        }
+        
+        // Test each module
+        const tests = [
+            ['Powers Module', () => import('./content/powers.js')],
+            ['Power Loader', () => import('./content/power-loader.js')],
+            ['Powers Panel', () => import('./ui/powers-panel.js')]
+        ]
+        
+        let successCount = 0
+        for (const [name, importFn] of tests) {
+            const success = await testModule(name, importFn)
+            if (success) successCount++
+        }
+        
+        // Summary
+        output.innerHTML += `
+            <div class="test-container">
+                <h2>Test Summary</h2>
+                <p>${successCount}/${tests.length} modules loaded successfully</p>
+                ${successCount === tests.length ? 
+                    '<p class="success">🎉 All modules working correctly!</p>' : 
+                    '<p class="error">⚠️ Some modules failed to load</p>'
+                }
+            </div>
+        `
+    </script>
+</body>
+</html>

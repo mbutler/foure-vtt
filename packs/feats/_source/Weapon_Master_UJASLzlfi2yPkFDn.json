@@ -1,0 +1,33 @@
+{
+	"name":"Weapon Master",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Weapon Focus, Weapon Expertise </p><p><b>Benefit: </b>You gain the benefits of Weapon Focus and Weapon Expertise with all weapons you are proficient with. </p><p>Published in Dragon Magazine 382, page(s) 45. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"UJASLzlfi2yPkFDn",
+	"_key":"!items!UJASLzlfi2yPkFDn"
+}

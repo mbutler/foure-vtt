@@ -1,0 +1,33 @@
+{
+	"name":"Level 6 Knight Utility Power",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You gain one of the following powers of your choice.</p>\n<p>@UUID[Compendium.dnd-4e-compendium.module-powers.OLn2rSv4xEKN1yeQ]{Dauntless Endurance}@UUID[Compendium.dnd-4e-compendium.module-powers.rGIKwSoBcYMkFiWf]{Helping Hands}@UUID[Compendium.dnd-4e-compendium.module-powers.HpRdSPncGo8iDqus]{Knight's Challenge}@UUID[Compendium.dnd-4e-compendium.module-powers.FtD1BglbjEpWKZmd]{Rapid Advance}</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"BPkQ0blxKN6UzoeG",
+	"_key":"!items!BPkQ0blxKN6UzoeG"
+}

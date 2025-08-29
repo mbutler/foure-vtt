@@ -1,0 +1,33 @@
+{
+	"name":"Ironjack's Command (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Whenever you spend a healing surge and regain hit points, each ally within 2 squares of you can shift 1 square as a free action. </p><p>Published in Psionic Power, page(s) 52. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"Rx5mrpqK6NzFAos7",
+	"_key":"!items!Rx5mrpqK6NzFAos7"
+}

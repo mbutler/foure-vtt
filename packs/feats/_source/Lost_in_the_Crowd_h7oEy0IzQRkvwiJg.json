@@ -1,0 +1,33 @@
+{
+	"name":"Lost in the Crowd",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Halfling </p><p><b>Benefit: </b>You gain a +2 bonus to AC when you are adjacent to at least two enemies larger than you. </p><p>Published in Player's Handbook, page(s) 198. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"h7oEy0IzQRkvwiJg",
+	"_key":"!items!h7oEy0IzQRkvwiJg"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Vanishing Action (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you spend an action point to take an extra action, you can make a Stealth check to become hidden after the extra action. If you used the extra action to take a move action, you gain a +5 bonus to the Stealth check. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"oOPI0c2MRy81Bikx",
+	"_key":"!items!oOPI0c2MRy81Bikx"
+}

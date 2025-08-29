@@ -1,0 +1,33 @@
+{
+	"name":"Sentinel Marshal Starting Feature (1st level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You gain a +2 bonus to Diplomacy checks and Intimidate checks when the check's subject knows that you are a Sentinel Marshal and respects or fears members of that group. (The DM decides if this bonus applies.)<br>You also gain the marshal's interdiction power.<br></p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"theme"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"9ZDe0pm26yA4fsFC",
+	"_key":"!items!9ZDe0pm26yA4fsFC"
+}

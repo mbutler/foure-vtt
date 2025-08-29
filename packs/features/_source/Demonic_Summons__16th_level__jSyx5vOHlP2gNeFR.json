@@ -1,0 +1,33 @@
+{
+	"name":"Demonic Summons (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Your quasit companion and any creatures you summon gain a +2 power bonus to damage rolls. In addition, these creatures gain resist 5 to one of the following damage types (choose when the creature appears): acid, cold, fire, lightning, or thunder. </p><p>Published in The Book of Vile Darkness, page(s) 1-23. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"jSyx5vOHlP2gNeFR",
+	"_key":"!items!jSyx5vOHlP2gNeFR"
+}

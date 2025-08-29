@@ -1,0 +1,33 @@
+{
+	"name":"Ultimate Adaptation (21st level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You increase your Intelligence by 2, and after an extended rest you can choose one encounter power. You can use that encounter power twice per encounter. When you take another extended rest, you can choose a different encounter power. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"destiny"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"m69zJCBnEdPvbFk7",
+	"_key":"!items!m69zJCBnEdPvbFk7"
+}

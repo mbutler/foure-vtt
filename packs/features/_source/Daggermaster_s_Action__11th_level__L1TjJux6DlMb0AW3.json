@@ -1,0 +1,33 @@
+{
+	"name":"Daggermaster's Action (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You can spend an action point to reroll an attack roll or a damage roll you make using a dagger, instead of taking an extra action. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"L1TjJux6DlMb0AW3",
+	"_key":"!items!L1TjJux6DlMb0AW3"
+}

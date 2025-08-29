@@ -1,0 +1,33 @@
+{
+	"name":"Eagle Summons the Fire (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You can determine line of sight and line of effect for ranged attacks and area attacks from your spirit companion. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"MKHx5CDVRETBjzhA",
+	"_key":"!items!MKHx5CDVRETBjzhA"
+}

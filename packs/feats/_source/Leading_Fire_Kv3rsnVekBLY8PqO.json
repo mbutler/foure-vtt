@@ -1,0 +1,33 @@
+{
+	"name":"Leading Fire",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Elf, warlord, Combat Leader class feature </p><p><b>Benefit: </b>When you hit an enemy with a bow attack, each ally within 10 squares of you who can see and hear you gains a +1 bonus to ranged attack rolls against the attack's target until the start of your next turn. </p><p>Published in Martial Power, page(s) 137. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"Kv3rsnVekBLY8PqO",
+	"_key":"!items!Kv3rsnVekBLY8PqO"
+}

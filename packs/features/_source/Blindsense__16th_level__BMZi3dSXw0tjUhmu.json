@@ -1,0 +1,33 @@
+{
+	"name":"Blindsense (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You have blindsight out to a distance of 2 squares + your Wisdom modifier, meaning you can clearly see creatures or objects within the range and within line of effect, even if they are invisible or obscured. </p><p>Published in Martial Power 2, page(s) 47. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"BMZi3dSXw0tjUhmu",
+	"_key":"!items!BMZi3dSXw0tjUhmu"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Stare at the Sun",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Genasi, sunsoul elemental manifestation </p><p><b>Benefit: </b>When you use sun flare, you gain a +2 bonus to all defenses against melee and ranged attacks until the end of your next turn. </p><p>Published in Dragon Magazine 396. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"ARLdsGH2zPak8fSh",
+	"_key":"!items!ARLdsGH2zPak8fSh"
+}

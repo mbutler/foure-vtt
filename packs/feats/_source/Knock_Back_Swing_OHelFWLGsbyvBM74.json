@@ -1,0 +1,33 @@
+{
+	"name":"Knock-Back Swing",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>21st level, Con 17, fighter </p><p><b>Benefit: </b>When you make an opportunity attack with an axe, a hammer, a mace, or a pick, you push the target 1 square, whether or not the attack hits. </p><p>Published in Martial Power, page(s) 147. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"OHelFWLGsbyvBM74",
+	"_key":"!items!OHelFWLGsbyvBM74"
+}

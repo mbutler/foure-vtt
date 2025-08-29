@@ -1,0 +1,33 @@
+{
+	"name":"Common Cause",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Half-elf, Group Diplomacy racial trait, ardent </p><p><b>Benefit: </b>Whenever an ally benefiting from your Group Diplomacy racial trait uses his or her second wind, that ally also gains 3 temporary hit points. </p><p>At 11th level, the ally gains 6 temporary hit points. At 21st level, the ally gains 9 temporary hit points. </p><p>Published in Dragon Magazine 388. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"OWkMzGnCgFsVxuXc",
+	"_key":"!items!OWkMzGnCgFsVxuXc"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Archery Style",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You gain one of the following features depending on your choice of ranged weapon.</p>\n<p>@UUID[Compendium.dnd-4e-compendium.module-features.rdL8aBnMF6kfUTy0]{Bow Hunter}@UUID[Compendium.dnd-4e-compendium.module-features.w3J2OjyEtTXcZfNQ]{Crossbow Hunter}</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"puBXL0s7jzmnTExC",
+	"_key":"!items!puBXL0s7jzmnTExC"
+}

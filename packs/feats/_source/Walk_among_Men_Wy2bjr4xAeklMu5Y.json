@@ -1,0 +1,33 @@
+{
+	"name":"Walk among Men",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Satyr </p><p><b>Benefit: </b>During a short rest, you can change your appearance to that of a male human, eladrin, or elf. Your face and build remain recognizably yours, but you otherwise appear to be a member of the chosen race. This illusion lasts until you end it as a minor action or until you die. </p><p>Published in Heroes of the Feywild, page(s) 130. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"Wy2bjr4xAeklMu5Y",
+	"_key":"!items!Wy2bjr4xAeklMu5Y"
+}

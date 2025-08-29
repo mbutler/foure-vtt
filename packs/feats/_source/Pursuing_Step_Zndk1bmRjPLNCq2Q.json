@@ -1,0 +1,33 @@
+{
+	"name":"Pursuing Step",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Battlemind, blurred step power </p><p><b>Benefit: </b>When you use blurred step, if you end the shift adjacent to the triggering enemy, that enemy grants combat advantage to you until the end of your next turn. </p><p>Published in Player's Handbook 3, page(s) 182. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"Zndk1bmRjPLNCq2Q",
+	"_key":"!items!Zndk1bmRjPLNCq2Q"
+}

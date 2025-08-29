@@ -1,0 +1,33 @@
+{
+	"name":"Improved Righteous Shield",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Your righteous shield power gains an additional effect associated with your virtue.</p>\n<p>@UUID[Compendium.dnd-4e-compendium.module-features.PimHowB7WZNjfELV]{Improved Righteous Shield (Sacrifice)}</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"az0GUevcwVRytN5l",
+	"_key":"!items!az0GUevcwVRytN5l"
+}

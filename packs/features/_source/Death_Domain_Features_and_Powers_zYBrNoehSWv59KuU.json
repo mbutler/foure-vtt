@@ -1,0 +1,33 @@
+{
+	"name":"Death Domain Features and Powers",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You gain resist 5 necrotic. </p><p>In addition, when you use your healing word, you gain 5 temporary hit points. The temporary hit points increase to 10 at 11th level and 15 at 21st level. </p><p>You also gain the death's shadow, tenebrous blessing, eye of the vulture, and inevitable doom powers. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"zYBrNoehSWv59KuU",
+	"_key":"!items!zYBrNoehSWv59KuU"
+}

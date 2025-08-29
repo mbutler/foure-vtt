@@ -1,0 +1,33 @@
+{
+	"name":"Wrath of Silver Flame (30th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Whenever you use a radiant attack power, the attack deals 2d6 extra fire damage. Whenever you use a fire attack power, the attack deals 2d6 extra radiant damage. </p><p>Published in Eberron Player's Guide, page(s) 83. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"destiny"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"XWa6ILpvMCnwgkRD",
+	"_key":"!items!XWa6ILpvMCnwgkRD"
+}

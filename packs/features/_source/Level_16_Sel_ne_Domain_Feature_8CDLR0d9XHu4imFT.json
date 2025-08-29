@@ -1,0 +1,33 @@
+{
+	"name":"Level 16 Selûne Domain Feature",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you use healing word, enemies in the burst cannot regain hit points until the end of your next turn. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"8CDLR0d9XHu4imFT",
+	"_key":"!items!8CDLR0d9XHu4imFT"
+}

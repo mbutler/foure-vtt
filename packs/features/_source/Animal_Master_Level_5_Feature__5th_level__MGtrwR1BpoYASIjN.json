@@ -1,0 +1,33 @@
+{
+	"name":"Animal Master Level 5 Feature (5th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You can find and train a new animal minion at the end of any extended rest. If no suitable creatures are in your vicinity, you have to wait until you find a better spot. You can have only one animal minion at a time.<br></p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"theme"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"MGtrwR1BpoYASIjN",
+	"_key":"!items!MGtrwR1BpoYASIjN"
+}

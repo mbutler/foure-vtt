@@ -1,0 +1,33 @@
+{
+	"name":"Font of Chaos",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Warden, Font of Life class feature </p><p><b>Benefit: </b>When you succeed on a saving throw granted by your Font of Life class feature, you slide one random creature adjacent to you 1 square. </p><p>Published in Dragon Magazine 383, page(s) 61. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"F3vGOw72YJ4gzyca",
+	"_key":"!items!F3vGOw72YJ4gzyca"
+}

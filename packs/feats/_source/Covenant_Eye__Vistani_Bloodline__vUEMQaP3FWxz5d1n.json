@@ -1,0 +1,33 @@
+{
+	"name":"Covenant Eye [Vistani Bloodline]",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Channel Divinity class feature, Vistani Heritage </p><p><b>Benefit: </b>As a free action, you can expend your use of your Channel Divinity class feature to regain the use of evil eye of the Vistani. </p><p>Published in Dragon Magazine 380, page(s) 85. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"vUEMQaP3FWxz5d1n",
+	"_key":"!items!vUEMQaP3FWxz5d1n"
+}

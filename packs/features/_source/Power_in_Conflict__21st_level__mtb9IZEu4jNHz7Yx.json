@@ -1,0 +1,33 @@
+{
+	"name":"Power in Conflict (21st level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Your Strength score and either your Intelligence score or your Charisma score increase by 2. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"destiny"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"mtb9IZEu4jNHz7Yx",
+	"_key":"!items!mtb9IZEu4jNHz7Yx"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Adamantine Mind",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>21st level, githzerai, iron mind racial power </p><p><b>Benefit: </b>When you use your iron mind racial power, you gain a +4 bonus to all defenses, instead of +2. </p><p>Published in Player's Handbook 3, page(s) 190. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"AiqE6v5o9PGu8wrj",
+	"_key":"!items!AiqE6v5o9PGu8wrj"
+}

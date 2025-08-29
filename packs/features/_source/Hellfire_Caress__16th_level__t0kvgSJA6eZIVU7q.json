@@ -1,0 +1,33 @@
+{
+	"name":"Hellfire Caress (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Whenever you hit your quarry with a melee or a ranged attack, the target loses fire resistance and immunity until the end of your next turn. </p><p>Published in Martial Power, page(s) 63. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"t0kvgSJA6eZIVU7q",
+	"_key":"!items!t0kvgSJA6eZIVU7q"
+}

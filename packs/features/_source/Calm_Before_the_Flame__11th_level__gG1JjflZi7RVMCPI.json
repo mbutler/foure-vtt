@@ -1,0 +1,33 @@
+{
+	"name":"Calm Before the Flame (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you spend an action point to make an attack, each target you hit takes extra fire damage equal to your Constitution modifier and is knocked prone. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"gG1JjflZi7RVMCPI",
+	"_key":"!items!gG1JjflZi7RVMCPI"
+}

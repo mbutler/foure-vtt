@@ -1,0 +1,33 @@
+{
+	"name":"Group Vigor",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Half-elf </p><p><b>Benefit: </b>When one of your allies within 10 squares of you spends a healing surge to regain hit points, he or she regains 1 additional hit point. The additional hit points gained increase to 2 at 11th level, and 3 at 21st level. </p><p>Published in Dragon Magazine 385, page(s) 68. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"3Mh2EmWsdbUvHrNx",
+	"_key":"!items!3Mh2EmWsdbUvHrNx"
+}

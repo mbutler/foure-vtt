@@ -1,0 +1,33 @@
+{
+	"name":"Eager for Blood",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>11th level, avenger </p><p><b>Benefit: </b>During the first round of combat, your avenger weapon attacks deal 1[W] extra damage. </p><p>Published in Divine Power, page(s) 138. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"Da5TtceOx41J8ZCd",
+	"_key":"!items!Da5TtceOx41J8ZCd"
+}

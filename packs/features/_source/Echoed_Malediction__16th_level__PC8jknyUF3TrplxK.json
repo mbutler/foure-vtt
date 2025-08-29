@@ -1,0 +1,33 @@
+{
+	"name":"Echoed Malediction (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When a creature saves against an effect caused by you, that creature takes 10 necrotic damage. </p><p>Published in Player's Handbook 2, page(s) 115. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"PC8jknyUF3TrplxK",
+	"_key":"!items!PC8jknyUF3TrplxK"
+}

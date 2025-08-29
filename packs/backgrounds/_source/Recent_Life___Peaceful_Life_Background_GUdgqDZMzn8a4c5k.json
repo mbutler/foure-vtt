@@ -1,0 +1,33 @@
+{
+	"name":"Recent Life - Peaceful Life Background",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Campaign Setting: </b>General </p><p>You chose a quiet life of farming, keeping a shop, or running the family business. What ended that period for you? </p><p><i>Associated Skills: </i>Athletics, Insight </p><p>Published in Dragon Magazine 383, page(s) 81. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"background"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"GUdgqDZMzn8a4c5k",
+	"_key":"!items!GUdgqDZMzn8a4c5k"
+}

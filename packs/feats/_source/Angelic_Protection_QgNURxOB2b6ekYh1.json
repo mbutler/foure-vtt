@@ -1,0 +1,33 @@
+{
+	"name":"Angelic Protection",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>11th level, paladin, lay on hands </p><p><b>Benefit: </b>When you use lay on hands, you can instead grant the target temporary hit points equal to the number of hit points it would have regained. </p><p>Published in Dragon Magazine 388. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"QgNURxOB2b6ekYh1",
+	"_key":"!items!QgNURxOB2b6ekYh1"
+}

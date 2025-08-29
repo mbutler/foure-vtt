@@ -1,0 +1,33 @@
+{
+	"name":"Steel Blitz (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you score a critical hit with a light blade or heavy blade, you regain the use of a fighter encounter attack power that you have already used during this encounter. </p><p>Published in Player's Handbook, page(s) 88, Class Compendium. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"DlGBto1ThNmeWJEr",
+	"_key":"!items!DlGBto1ThNmeWJEr"
+}

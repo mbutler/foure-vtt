@@ -1,0 +1,33 @@
+{
+	"name":"Purple Dragon Level 10 Feature (10th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Once per encounter, when you use focused discipline, you can choose a second benefit at the start of one of your turns. Both benefits last until the start of your next turn.</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"theme"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"bBo68px4KkQ5cUmn",
+	"_key":"!items!bBo68px4KkQ5cUmn"
+}

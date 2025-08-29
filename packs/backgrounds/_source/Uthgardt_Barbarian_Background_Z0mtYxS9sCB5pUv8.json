@@ -1,0 +1,33 @@
+{
+	"name":"Uthgardt Barbarian Background",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Type: </b>Campaign </p><p><b>Campaign Setting: </b>Neverwinter </p><p><b>Prerequisite: </b>Human </p><p>The Uthgardt have strong traditions of respecting strength and honoring the natural world. You embody one of these traditions, becoming either a well-honed physical specimen or a master of the world's lore. </p><p><i>Associated Skills: </i>Athletics, Nature </p><p>Published in Neverwinter Campaign Setting, page(s) 31. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"background"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"Z0mtYxS9sCB5pUv8",
+	"_key":"!items!Z0mtYxS9sCB5pUv8"
+}

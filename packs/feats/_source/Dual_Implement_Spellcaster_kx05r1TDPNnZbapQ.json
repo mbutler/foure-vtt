@@ -1,0 +1,33 @@
+{
+	"name":"Dual Implement Spellcaster",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Dex 13, any arcane class </p><p><b>Benefit: </b>When you use an arcane attack power and you are wielding a magic implement in each hand, you can add the off-hand implement's enhancement bonus to damage rolls. </p><p>Both of your implements must be usable with this power, and you must be capable of wielding both implements, to gain this benefit. </p><p>Published in Arcane Power, page(s) 125. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"kx05r1TDPNnZbapQ",
+	"_key":"!items!kx05r1TDPNnZbapQ"
+}

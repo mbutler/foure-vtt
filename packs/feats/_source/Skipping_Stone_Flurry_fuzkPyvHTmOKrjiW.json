@@ -1,0 +1,33 @@
+{
+	"name":"Skipping Stone Flurry",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Monk, Flurry of Blows class feature </p><p><b>Benefit: </b>When you use your Flurry of Blows power and you have a sling in hand, you can replace one normal target of that power with one creature within 10 squares of you. This does not provoke opportunity attacks. </p><p>Published in Psionic Power, page(s) 134. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"fuzkPyvHTmOKrjiW",
+	"_key":"!items!fuzkPyvHTmOKrjiW"
+}

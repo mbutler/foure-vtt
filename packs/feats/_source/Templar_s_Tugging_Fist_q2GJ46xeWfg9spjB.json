@@ -1,0 +1,33 @@
+{
+	"name":"Templar's Tugging Fist",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Templar theme, templar's fist power </p><p><b>Benefit: </b>When you hit with your templar's fist, you can slide the target 3 squares. </p><p>Published in Dark Sun Campaign Setting, page(s) 112. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"q2GJ46xeWfg9spjB",
+	"_key":"!items!q2GJ46xeWfg9spjB"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Blindfighting Warrior",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Benefit: </b>Your melee attacks take no penalties due to partial concealment or total concealment. </p><p>Published in Heroes of the Forgotten Kingdoms, page(s) 311. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"ZtjDVbvWwNhKy912",
+	"_key":"!items!ZtjDVbvWwNhKy912"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Level 2 Warpriest Utility Power",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You gain one of the following powers of your choice.</p>\n<p>@UUID[Compendium.dnd-4e-compendium.module-features.XUmIo2jrf6z7YsFb]{Bless}@UUID[Compendium.dnd-4e-compendium.module-powers.1t9TMGwvhP3lf8rW]{Cure Light Wounds}@UUID[Compendium.dnd-4e-compendium.module-powers.u9KqTQY0ak1ebPrX]{Resurgent Strength}@UUID[Compendium.dnd-4e-compendium.module-powers.hqPZKmJx8RHEjUkr]{Shield of Faith}</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"KeLs2USBkM16IjPZ",
+	"_key":"!items!KeLs2USBkM16IjPZ"
+}

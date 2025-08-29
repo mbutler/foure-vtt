@@ -1,0 +1,33 @@
+{
+	"name":"Disciple of the Wild",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Dexterity 13 </p><p><b>Benefit: </b>When you use your second wind, you can shift up to 3 squares as a free action. </p><p>Published in Heroes of the Fallen Lands, page(s) 313, Heroes of the Forgotten Kingdoms, page(s) 314. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"jBx4w5NETyQFkz0i",
+	"_key":"!items!jBx4w5NETyQFkz0i"
+}

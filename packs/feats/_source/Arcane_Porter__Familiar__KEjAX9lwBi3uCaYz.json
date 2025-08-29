@@ -1,0 +1,33 @@
+{
+	"name":"Arcane Porter [Familiar]",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Arcane Familiar feat </p><p><b>Benefit: </b>Your familiar can pick up and carry an unattended object weighing 5 pounds or less. It can hold only one object at a time. </p><p>Published in Heroes of the Feywild, page(s) 126. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"KEjAX9lwBi3uCaYz",
+	"_key":"!items!KEjAX9lwBi3uCaYz"
+}

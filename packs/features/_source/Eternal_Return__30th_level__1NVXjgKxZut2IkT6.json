@@ -1,0 +1,33 @@
+{
+	"name":"Eternal Return (30th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Once per day, when you die and have at least two healing surges remaining, you can will yourself back to life. At the start of one of your turns within 10 rounds of your death, you can spend two healing surges to return to life. You return with hit points equal to your bloodied value and free of any effects that a save can end. You then take your turn normally. </p><p>Published in Player's Handbook 2, page(s) 174. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"destiny"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"1NVXjgKxZut2IkT6",
+	"_key":"!items!1NVXjgKxZut2IkT6"
+}

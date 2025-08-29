@@ -1,0 +1,33 @@
+{
+	"name":"Thunder God's Blessing (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you use your furious assault racial power to add damage to a divine weapon attack, you also deal thunder damage equal to your Wisdom modifier to each enemy adjacent to the target. </p><p>Published in Dragon Magazine 386, page(s) 61. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"AO7wdiokRgc0Q9Cu",
+	"_key":"!items!AO7wdiokRgc0Q9Cu"
+}

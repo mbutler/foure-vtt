@@ -1,0 +1,33 @@
+{
+	"name":"Rewards of Arcane Mystery (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you use an arcane power to reduce an enemy to 0 hit points, you gain temporary hit points equal to your Charisma or Intelligence modifier. </p><p>Published in Player's Handbook Races: Tiefling, page(s) 12. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"hYqV5QN7TIrPXOHd",
+	"_key":"!items!hYqV5QN7TIrPXOHd"
+}

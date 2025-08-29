@@ -1,0 +1,33 @@
+{
+	"name":"Athasian Totem (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You gain proficiency with the totem as an implement. In addition, after you score a critical hit with an implement attack using a totem, you can shift 1 square as a free action. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"HbefWXVIEyo21Ai5",
+	"_key":"!items!HbefWXVIEyo21Ai5"
+}

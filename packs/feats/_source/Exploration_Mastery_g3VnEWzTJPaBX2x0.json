@@ -1,0 +1,33 @@
+{
+	"name":"Exploration Mastery",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Ritual Caster feat, mastery of Endure Elements and one other exploration ritual </p><p><b>Benefit: </b>When you have to make an Endurance check, you can substitute an Arcana check, Nature check, or Religion check. Once per day, you can ignore the component cost of an exploration ritual of your level or lower that you have mastered. </p><p>Published in Dragon Magazine 405. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"g3VnEWzTJPaBX2x0",
+	"_key":"!items!g3VnEWzTJPaBX2x0"
+}

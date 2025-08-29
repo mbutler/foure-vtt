@@ -1,0 +1,33 @@
+{
+	"name":"Thri-Kreen Thrower",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Thri-kreen race, proficiency with a light thrown weapon </p><p><b>Benefit: </b>While you wield a melee weapon in your upper limbs, you can use light thrown weapons wielded in your middle limbs to make ranged attacks. Ranged attacks you make in this way do not provoke opportunity attacks. </p><p>Published in Dragon Magazine 411. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"1DH4ZR5gnvq3l2PT",
+	"_key":"!items!1DH4ZR5gnvq3l2PT"
+}

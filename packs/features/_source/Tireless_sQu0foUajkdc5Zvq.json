@@ -1,0 +1,33 @@
+{
+	"name":"Tireless",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You need to sleep 6 hours in a 72-hour period (instead of a 24-hour period) to gain the benefit of an extended rest.</p>\n<p>&nbsp;</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"race"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"sQu0foUajkdc5Zvq",
+	"_key":"!items!sQu0foUajkdc5Zvq"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Inspiring Presence (Hybrid)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When an ally who can see you spends an action point to take an extra action, that ally also regains hit points equal to one-half your level + your Charisma modifier. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"UeSJXdip6wYbrPc0",
+	"_key":"!items!UeSJXdip6wYbrPc0"
+}

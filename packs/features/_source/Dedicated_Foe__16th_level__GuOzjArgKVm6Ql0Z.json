@@ -1,0 +1,33 @@
+{
+	"name":"Dedicated Foe (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you score a critical hit against an enemy that you have marked with divine challenge, the attack ignores the creature's resistances, and the target takes radiant damage from divine challenge as if it had made an attack that didn't include you as a target. This damage triggers your aura of menace. </p><p>Published in Manual of the Planes, page(s) 143. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"GuOzjArgKVm6Ql0Z",
+	"_key":"!items!GuOzjArgKVm6Ql0Z"
+}

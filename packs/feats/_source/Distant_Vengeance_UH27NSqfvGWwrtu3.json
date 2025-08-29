@@ -1,0 +1,33 @@
+{
+	"name":"Distant Vengeance",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Avenger, oath of enmity power </p><p><b>Benefit: </b>As long as you are within 10 squares of your oath of enmity target and no other enemies are adjacent to you, you gain the benefit of your oath of enmity on all ranged basic attacks against your oath of enmity target. </p><p>Published in Dragon Magazine 382, page(s) 40. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"UH27NSqfvGWwrtu3",
+	"_key":"!items!UH27NSqfvGWwrtu3"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Radiant Renewal (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You gain resist 10 radiant and resist 10 psychic. If you already have resistance to radiant damage or psychic damage, the resistance increases by 10. </p><p>Published in Eberron Player's Guide, page(s) 64. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"WkMjhAuqQY4BFerw",
+	"_key":"!items!WkMjhAuqQY4BFerw"
+}

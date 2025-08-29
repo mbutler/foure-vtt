@@ -1,0 +1,33 @@
+{
+	"name":"Presence of Greatness (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You can spend two action points during an encounter, but no more than one per round. </p><p>Published in Martial Power 2, page(s) 99. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"jEdOzxHvgGMN63i9",
+	"_key":"!items!jEdOzxHvgGMN63i9"
+}

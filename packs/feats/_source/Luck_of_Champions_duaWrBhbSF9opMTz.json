@@ -1,0 +1,33 @@
+{
+	"name":"Luck of Champions",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Benefit: </b>The first time you make a successful saving throw in an encounter, you gain a +2 bonus to all attack rolls, skill checks, and saving throws you make before the end of your next turn. </p><p>Published in Dragon Magazine 388. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"duaWrBhbSF9opMTz",
+	"_key":"!items!duaWrBhbSF9opMTz"
+}

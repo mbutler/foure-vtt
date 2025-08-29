@@ -1,0 +1,33 @@
+{
+	"name":"Divine Discorporation (30th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Once per day, when you die and have at least 1 healing surge remaining, your essence escapes from your body and retreats to the Astral Sea to recover its vitality. Make a saving throw at the end of each of your turns; when you succeed, you return to life, spend 1 healing surge, and appear in any space within 10 squares of where you died. </p><p>Published in Player's Handbook Races: Dragonborn, page(s) 31. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"destiny"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"Z9EQJKuDnwt8fa60",
+	"_key":"!items!Z9EQJKuDnwt8fa60"
+}

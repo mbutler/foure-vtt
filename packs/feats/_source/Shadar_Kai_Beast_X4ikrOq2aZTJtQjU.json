@@ -1,0 +1,33 @@
+{
+	"name":"Shadar-Kai Beast",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Shadar-kai, shadow jaunt racial power, ranger, Beast Mastery class feature </p><p><b>Benefit: </b>Your beast companion gains the shadow origin instead of the natural origin. It gains +2 to death saving throws and saving throws against the unconscious condition, as well as a +2 racial bonus to Stealth. </p><p>When you use your shadow jaunt racial power, your beast companion can teleport the same distance that you teleport. You choose which one of you is insubstantial at the end of the teleport. </p><p>Published in Dragon Magazine Annual, Dragon Magazine 372, page(s) 10. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"X4ikrOq2aZTJtQjU",
+	"_key":"!items!X4ikrOq2aZTJtQjU"
+}

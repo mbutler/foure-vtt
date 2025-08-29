@@ -1,0 +1,33 @@
+{
+	"name":"Blowgun Specialist [Multiclass]",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>10th level, Blowgun Training </p><p><b>Benefit: </b>You can swap one 9th-level or higher daily attack power you know for the crippling needle attack power. </p><p>Published in Dragon Magazine 373, page(s) 13. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"tIWOA6TzdwQ0qHRs",
+	"_key":"!items!tIWOA6TzdwQ0qHRs"
+}

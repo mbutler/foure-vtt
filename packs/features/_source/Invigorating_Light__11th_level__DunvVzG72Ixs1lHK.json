@@ -1,0 +1,33 @@
+{
+	"name":"Invigorating Light (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You can spend an action point to enable one ally within 5 squares of you to take a standard action as a free action, instead of taking an extra action yourself. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"DunvVzG72Ixs1lHK",
+	"_key":"!items!DunvVzG72Ixs1lHK"
+}

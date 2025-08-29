@@ -1,0 +1,33 @@
+{
+	"name":"Expert Archer",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You gain the following three powers.</p>\n<p>@UUID[Compendium.dnd-4e-compendium.module-powers.hGL8m2sIclFBEQ9w]{Aimed Shot}@UUID[Compendium.dnd-4e-compendium.module-powers.8scPy1kUuYX6lS2m]{Clever Shot}@UUID[Compendium.dnd-4e-compendium.module-powers.5XCYgacKvqrhlW34]{Rapid Shot}</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"YZ82Cfeaz0PRlU6v",
+	"_key":"!items!YZ82Cfeaz0PRlU6v"
+}

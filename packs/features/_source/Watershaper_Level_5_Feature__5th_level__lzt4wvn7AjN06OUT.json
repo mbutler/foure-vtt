@@ -1,0 +1,33 @@
+{
+	"name":"Watershaper Level 5 Feature (5th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You gain a +2 power bonus to Insight checks and Heal checks. In addition, whenever you use your second wind, one ally within 5 squares of you gains temporary hit points equal to your highest ability modifier.<br></p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"theme"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"lzt4wvn7AjN06OUT",
+	"_key":"!items!lzt4wvn7AjN06OUT"
+}

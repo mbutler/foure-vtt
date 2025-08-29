@@ -1,0 +1,33 @@
+{
+	"name":"Templar's Domain",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Cleric (templar), Healer's Lore feature </p><p><b>Benefit: </b>Choose a divine domain that has a 1st level domain feature associated with it, such as the storm or the sun domain of the warpriest. You lose Healer's Lore and gain that 1st level domain feature. If the feature grants powers, you don't gain them. </p><p>Published in Class Compendium. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"lMRyxo3cpWIJGmH6",
+	"_key":"!items!lMRyxo3cpWIJGmH6"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Upright Revival",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Deva </p><p><b>Benefit: </b>If you drop to 0 or fewer hit points and fall unconscious, when you regain 1 or more hit points and become conscious, you stand and shift 1 square as a free action. </p><p>Published in Dragon Magazine 374, page(s) 50. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"mOU1Lwp7S2TvVuiQ",
+	"_key":"!items!mOU1Lwp7S2TvVuiQ"
+}

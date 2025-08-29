@@ -1,0 +1,33 @@
+{
+	"name":"Far-Reaching Grasp",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>21st level, warden, warden's grasp power </p><p><b>Benefit: </b>Your warden's grasp is a close burst 10 instead of a close burst 5, and the range of the trigger increases to 10 squares. </p><p>Published in Primal Power, page(s) 146. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"ogQciSl2j98sfqYW",
+	"_key":"!items!ogQciSl2j98sfqYW"
+}

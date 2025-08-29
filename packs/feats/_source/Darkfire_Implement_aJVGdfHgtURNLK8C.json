@@ -1,0 +1,33 @@
+{
+	"name":"Darkfire Implement",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Drow, any arcane class </p><p><b>Benefit: </b>When you hit a target with your darkfire racial power and you are wielding an implement usable by your arcane class, your darkfire also deals damage to that target equal to twice the implement's enhancement bonus. </p><p>Published in Arcane Power, page(s) 125. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"aJVGdfHgtURNLK8C",
+	"_key":"!items!aJVGdfHgtURNLK8C"
+}

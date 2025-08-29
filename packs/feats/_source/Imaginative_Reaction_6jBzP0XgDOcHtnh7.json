@@ -1,0 +1,33 @@
+{
+	"name":"Imaginative Reaction",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Warlord, Combat Leader class feature, Resourceful Presence class feature </p><p><b>Benefit: </b>Whenever you roll initiative, you can subtract 4 from your check result to increase the result of one or two allies who benefit from Combat Leader. One ally gains a bonus equal to your Charisma modifier and the other gains a bonus equal to your Intelligence modifier. </p><p>Published in Dragon Magazine 381, page(s) 29. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"6jBzP0XgDOcHtnh7",
+	"_key":"!items!6jBzP0XgDOcHtnh7"
+}

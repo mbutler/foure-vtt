@@ -1,0 +1,33 @@
+{
+	"name":"Level 29 Hexblade Daily Power",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You gain one of the following powers of your choice. This new power replaces the daily attack power you gained at 15th level.</p>\n<p>@UUID[Compendium.dnd-4e-compendium.module-powers.ZE6gLj9cSlk8xIoD]{Armor of the Void}@UUID[Compendium.dnd-4e-compendium.module-powers.rA86iGWvfnU0YpwN]{Soul Cutter}</p>\n<p>Published in Heroes of the Forgotten Kingdoms, page(s) 200.</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"EtsVOYCyepgzQ6Tq",
+	"_key":"!items!EtsVOYCyepgzQ6Tq"
+}

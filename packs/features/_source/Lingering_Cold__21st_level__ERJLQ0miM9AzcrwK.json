@@ -1,0 +1,33 @@
+{
+	"name":"Lingering Cold (21st level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you hit a target with a cold attack, it loses its resistance to cold (if any) until the end of your next turn. In addition, enemies you hit with attack powers that have the cold keyword take a -2 penalty to saving throws made to end any ongoing effects these powers create. Each time an enemy fails a saving throw to end one of these effects, that enemy gains vulnerable 10 cold until the end of your next turn. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"destiny"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"ERJLQ0miM9AzcrwK",
+	"_key":"!items!ERJLQ0miM9AzcrwK"
+}

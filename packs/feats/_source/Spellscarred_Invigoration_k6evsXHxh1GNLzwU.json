@@ -1,0 +1,33 @@
+{
+	"name":"Spellscarred Invigoration",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>You have a spellscar </p><p><b>Benefit: </b>When a creature marked by you makes an attack that does not include you, it takes 1 fire and necrotic damage, and you regain 1 hit point. If you have the Student of the Plague feat, you instead regain hit points equal to your Constitution modifier. </p><p>Published in Dragon Magazine 385, page(s) 26. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"k6evsXHxh1GNLzwU",
+	"_key":"!items!k6evsXHxh1GNLzwU"
+}

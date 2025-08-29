@@ -1,0 +1,33 @@
+{
+	"name":"Least Air Elemental Familiar",
+	"type":"feature",
+	"img":"icons/creatures/magical/construct-gargoyle-stone-gray.webp",
+	"system":{
+		"description":{
+			"value":"<p><i>A wisp of air from the Elemental Chaos does your bidding on the mortal plane.</i></p><p><b>Speed</b> , fly 6 (hover)</p><p><b>Constant Benefits</b></p><p>* You take half normal damage from falling.</p><p><b>Active Benefits</b></p><p>Elemental Servant: As a minor action, you cause the familiar to pick up, move, or manipulate an unattended object weighing 20 pounds or less and carry it up to 5 squares.</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"other"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"n2MKWlab3ksBRTLz",
+	"_key":"!items!n2MKWlab3ksBRTLz"
+}

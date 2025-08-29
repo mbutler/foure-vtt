@@ -1,0 +1,33 @@
+{
+	"name":"Everwatch Conscript Background",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Campaign Setting: </b>General </p><p>When you lived in Everwatch, you were part of the city milita. You learned how to handle a spear and shield well enough to stay alive at least long enough to fight goblins. Why did you join the militia? Was it the extra pay? The honor? A sense of duty? Why did you quit? </p><p><i>Associated Skills: </i>Athletics, Perception </p><p>Published in Dragon Magazine 392. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"background"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"RUlaKCuZSdG25evX",
+	"_key":"!items!RUlaKCuZSdG25evX"
+}

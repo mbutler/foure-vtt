@@ -1,0 +1,29 @@
+{
+	"name":"Elf Weapon Proficiency",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Elves and eladrin of all stripes take time to learn the traditional weapons of their people.<br>&nbsp;&nbsp;&nbsp;&nbsp;<em>Benefits:&nbsp;</em>You gain proficiency with the longbow and the shortbow. This benefit replaces Eladrin Education.</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"featureType":"race"
+	},
+	"effects":[],
+	"flags":{},
+	"folder":null,
+	"sort":0,
+	"_id":"OxLTc7MZvP7tu6sa",
+	"_key":"!items!OxLTc7MZvP7tu6sa"
+}

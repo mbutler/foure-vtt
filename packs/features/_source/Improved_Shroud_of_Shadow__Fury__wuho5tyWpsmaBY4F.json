@@ -1,0 +1,33 @@
+{
+	"name":"Improved Shroud of Shadow (Fury)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you use your shroud of shadow, you gain a bonus to your next damage roll before the end of your next turn. The bonus equals 2 + your Charisma modifier. At 23rd level, the bonus increases to 5 + your Charisma modifier. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"wuho5tyWpsmaBY4F",
+	"_key":"!items!wuho5tyWpsmaBY4F"
+}

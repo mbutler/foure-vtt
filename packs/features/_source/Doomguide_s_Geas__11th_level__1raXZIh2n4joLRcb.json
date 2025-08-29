@@ -1,0 +1,33 @@
+{
+	"name":"Doomguide's Geas (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>If you use a power that has the healing keyword, you restore an additional 2 hit points. While there are undead opponents within 10 squares of you, this benefit increases to 5 hit points. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"1raXZIh2n4joLRcb",
+	"_key":"!items!1raXZIh2n4joLRcb"
+}

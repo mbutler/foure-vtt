@@ -1,0 +1,33 @@
+{
+	"name":"Dastardly Opportunist (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Whenever an ally scores a critical hit against an enemy adjacent to you, you can make a melee basic attack against that enemy as an immediate reaction. </p><p>Published in Martial Power, page(s) 96. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"FLqa8RcrpjA3hHnM",
+	"_key":"!items!FLqa8RcrpjA3hHnM"
+}

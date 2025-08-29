@@ -1,0 +1,37 @@
+{
+	"name":"Windfoot",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>21st level, Born of the Elements feat </p><p><b>Benefit: </b>You take only half damage from falling. </p><p>In addition, when you use your second wind, you can fly up to 2 squares as a free action. </p><p>Published in Heroes of the Elemental Chaos, page(s) 145. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"descriptionGM":{
+			"value":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":"",
+			"autoanimationHook":""
+		},
+		"requirements":"",
+		"level":null,
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"Mc9OYolC4sDHbSjL",
+	"_key":"!items!Mc9OYolC4sDHbSjL"
+}

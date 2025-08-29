@@ -1,0 +1,33 @@
+{
+	"name":"Godsworn Tidedancer",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Avenger, must worship Melora </p><p><b>Benefit: </b>You gain a +2 feat bonus to Religion checks. In addition, whenever you score a critical hit, you can shift a number of squares equal to your Dexterity or Intelligence modifier as a godsworn boon. You can benefit from only one godsworn boon as a result of any given critical hit. </p><p>Published in Dragon Magazine 384, page(s) 43. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"6FXP1worq5DmORz8",
+	"_key":"!items!6FXP1worq5DmORz8"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Cormyrian Battle Mage Level 5 Feature (5th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You gain a +2 power bonus to History checks and Religion checks.<br></p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"theme"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"JwHQilOcLjht0N8T",
+	"_key":"!items!JwHQilOcLjht0N8T"
+}

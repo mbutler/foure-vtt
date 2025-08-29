@@ -1,0 +1,33 @@
+{
+	"name":"Breath Expertise (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Your dragon breath power is considered an arcane power belonging to each of your arcane classes. If you are wielding an implement you can use for your arcane powers, you may add the implement's enhancement bonus to the damage rolls for your dragon breath power. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"Sv8tq2FCY4j6rwfT",
+	"_key":"!items!Sv8tq2FCY4j6rwfT"
+}

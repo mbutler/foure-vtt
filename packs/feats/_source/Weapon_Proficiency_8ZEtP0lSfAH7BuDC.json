@@ -1,0 +1,33 @@
+{
+	"name":"Weapon Proficiency",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Benefit: </b>You gain proficiency in a single weapon of your choice. </p><p>Special: You can take this feat more than once. Each time you select this feat, choose another weapon. </p><p>Update (8/5/2010) </p><p>Feat updated to match Essentials data. </p><p>Published in Player's Handbook, page(s) 201, Heroes of the Fallen Lands, page(s) 319, Heroes of the Forgotten Kingdoms, page(s) 321. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"8ZEtP0lSfAH7BuDC",
+	"_key":"!items!8ZEtP0lSfAH7BuDC"
+}

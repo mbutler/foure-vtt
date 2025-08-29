@@ -1,0 +1,54 @@
+{
+	"name":"Nimble Drop (Hybrid)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You must be at least 4th level to choose this option.<br>&nbsp;&nbsp;&nbsp;&nbsp;When you take falling damage, you can take a free action to reduce the damage by 6 + your level. If this reduces the damage to 0, you don't fall prone.</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"descriptionGM":{
+			"value":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":"",
+			"autoanimationHook":""
+		},
+		"class":"",
+		"hitFistLevel":10,
+		"hitPerLevel":5,
+		"surgePerDay":5,
+		"skills":"<i class=\"fas fa-edit\"></i>",
+		"def":{
+			"ac":0,
+			"fort":0,
+			"ref":0,
+			"wil":0
+		},
+		"proficiencies":{
+			"weapons":[],
+			"armour":[]
+		},
+		"requirements":"",
+		"level":null,
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"flags":{
+		"core":{}
+	},
+	"_id":"0mEUCVD2Ejp8kHIm",
+	"sort":0,
+	"_key":"!items!0mEUCVD2Ejp8kHIm"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Shifty Action (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You can spend an action point to shift a number of squares equal to your Dexterity modifier, instead of taking an extra action. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"l5H8fRMSbphTZXJq",
+	"_key":"!items!l5H8fRMSbphTZXJq"
+}

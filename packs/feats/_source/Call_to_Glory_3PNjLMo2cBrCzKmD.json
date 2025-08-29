@@ -1,0 +1,33 @@
+{
+	"name":"Call to Glory",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>21st level, Cha 17, warlord </p><p><b>Benefit: </b>Whenever you grant an ally an attack by using a warlord power, that ally gains temporary hit points equal to one-half your level if the attack hits. </p><p>Published in Martial Power, page(s) 145. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"3PNjLMo2cBrCzKmD",
+	"_key":"!items!3PNjLMo2cBrCzKmD"
+}

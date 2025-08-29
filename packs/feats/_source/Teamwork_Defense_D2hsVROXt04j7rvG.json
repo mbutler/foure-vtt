@@ -1,0 +1,33 @@
+{
+	"name":"Teamwork Defense",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Benefit: </b>While you are adjacent to one or more allies who also have this feat, you gain a +1 bonus to AC. </p><p>Published in Player's Handbook 3, page(s) 183. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"D2hsVROXt04j7rvG",
+	"_key":"!items!D2hsVROXt04j7rvG"
+}

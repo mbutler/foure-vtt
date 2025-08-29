@@ -1,0 +1,33 @@
+{
+	"name":"Stalker's Form (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>While insubstantial, you gain a +5 bonus to all defenses against opportunity attacks. Also, once per day when you use shade form, you gain phasing until the end of your next turn. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"BYyFWbtVsh5Zmpd9",
+	"_key":"!items!BYyFWbtVsh5Zmpd9"
+}

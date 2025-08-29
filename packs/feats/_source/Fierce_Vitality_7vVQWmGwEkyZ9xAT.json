@@ -1,0 +1,33 @@
+{
+	"name":"Fierce Vitality",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>11th level, revenant </p><p><b>Benefit: </b>If you drop to 0 or fewer hit points and choose to remain conscious due to Unnatural Vitality, you can remain conscious until you fail two death saving throws. </p><p>Published in Dragon Magazine 376, page(s) 42. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"7vVQWmGwEkyZ9xAT",
+	"_key":"!items!7vVQWmGwEkyZ9xAT"
+}

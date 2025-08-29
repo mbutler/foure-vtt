@@ -1,0 +1,33 @@
+{
+	"name":"Cruel Recovery (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you hit an enemy and it takes damage from Hunter's Quarry, you gain temporary hit points equal to the amount of damage you dealt from Hunter's Quarry + your Wisdom modifier. </p><p>Published in Player's Handbook, page(s) 114. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"Yih601aHpzIyJPgR",
+	"_key":"!items!Yih601aHpzIyJPgR"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Untamed Berserker Style [Arena Fighting]",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Con 13, any martial class </p><p><b>Benefit: </b>You gain a benefit with any of the following exploits you possess. </p><p>Associated Powers: </p><p>Brash Assault: If your ally hits the target with the granted basic attack, you gain temporary hit points equal to your Constitution modifier. </p><p>Cleave: You can forgo dealing damage to an adjacent enemy to instead gain temporary hit points equal to your Constitution modifier. </p><p>Disheartening Strike: If you hit with this exploit, you can add your Strength modifier as a feat bonus to Intimidate checks until the end of the encounter. </p><p>Predator Strike: Your beast companion can shift 1 square before the attack. </p><p>Published in Dragon Magazine Annual, Dragon Magazine 368, page(s) 62. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"cdJbkm1oySzCKgr6",
+	"_key":"!items!cdJbkm1oySzCKgr6"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Master Of Spells",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you take a short rest, you can replace one unexpended wizard daily attack power with another wizard daily attack power from your spellbook of the same level or lower. The level of the second power must be different from that of any unexpended wizard daily attack powers you have prepared.</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"zZQyN7KI5YaiCfF3",
+	"_key":"!items!zZQyN7KI5YaiCfF3"
+}

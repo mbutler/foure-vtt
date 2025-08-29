@@ -1,0 +1,33 @@
+{
+	"name":"Spirits of Stone",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Dwarf, any primal class </p><p><b>Benefit: </b>When you use your second wind, you gain a +2 bonus to your next attack roll with a primal power before the end of your next turn. </p><p>Published in Primal Power, page(s) 142. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"6P7uv4IdEOLZKWqf",
+	"_key":"!items!6P7uv4IdEOLZKWqf"
+}

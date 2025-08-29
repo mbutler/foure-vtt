@@ -1,0 +1,33 @@
+{
+	"name":"Spellguard Action (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you spend an action point to take an extra action, you can add your Dexterity modifier to the damage dealt by any close burst power you use during that extra action. </p><p>You also gain a +2 bonus to AC against melee attacks until the start of your next turn. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"dJNXYSQtqRul4jPI",
+	"_key":"!items!dJNXYSQtqRul4jPI"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Level 1 Binder Daily Power",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You gain a 1st-level warlock daily attack power of your choice.</p>\n<p>@UUID[Compendium.dnd-4e-compendium.module-powers.u7dnUcVqTh23pW5v]{Hateful Shade}@UUID[Compendium.dnd-4e-compendium.module-powers.c8YK415BLvxgETaI]{Web of Shadows}</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"c4YWurQmS1H79GpI",
+	"_key":"!items!c4YWurQmS1H79GpI"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Surprising Charge",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Dex 17, fighter or rogue </p><p><b>Benefit: </b>When you make a charge attack against a target that is granting combat advantage to you, the attack deals 1[W] extra damage if you hit with a light blade or a spear. </p><p>Published in Martial Power, page(s) 139. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"yzKOuWVf26qbd4mB",
+	"_key":"!items!yzKOuWVf26qbd4mB"
+}

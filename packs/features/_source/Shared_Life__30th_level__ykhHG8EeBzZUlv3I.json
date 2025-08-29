@@ -1,0 +1,33 @@
+{
+	"name":"Shared Life (30th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>As long as either you or your beast companion has at least 1 hit point, the other can't be killed, regardless of negative hit points or failed death saving throws. Keep track of negative hit points and failed death saving throws as normal; if you both are reduced to 0 hit points or fewer, the negative hit points and failed death saving throws immediately take effect. </p><p>Published in Martial Power, page(s) 151. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"destiny"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"ykhHG8EeBzZUlv3I",
+	"_key":"!items!ykhHG8EeBzZUlv3I"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Prescient Aid",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>11th level, bard, Virtue of Prescience class feature </p><p><b>Benefit: </b>When an ally within 10 squares of you misses with an attack roll, you can use your Virtue of Prescience as an immediate interrupt. That ally gains a power bonus to the attack roll equal to your Wisdom modifier. </p><p>Published in Arcane Power, page(s) 132. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"Ud3QfTRrD10kFExu",
+	"_key":"!items!Ud3QfTRrD10kFExu"
+}

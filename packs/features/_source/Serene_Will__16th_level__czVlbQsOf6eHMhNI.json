@@ -1,0 +1,33 @@
+{
+	"name":"Serene Will (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>If you miss with an attack roll for an attack that targets Will, you can reroll the attack roll and must use the second result. If this attack does not deal damage, you gain a +2 power bonus to the reroll. </p><p>Published in Arcane Power, page(s) 23. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"czVlbQsOf6eHMhNI",
+	"_key":"!items!czVlbQsOf6eHMhNI"
+}

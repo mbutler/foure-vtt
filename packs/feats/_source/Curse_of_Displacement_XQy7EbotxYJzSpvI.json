@@ -1,0 +1,33 @@
+{
+	"name":"Curse of Displacement",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Warlock, Warlock's Curse class feature </p><p><b>Benefit: </b>When you score a critical hit against the target of your Warlock's Curse, you teleport the target 3 squares as a free action. </p><p>Published in Dragon Magazine 384, page(s) 30. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"XQy7EbotxYJzSpvI",
+	"_key":"!items!XQy7EbotxYJzSpvI"
+}

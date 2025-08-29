@@ -1,0 +1,33 @@
+{
+	"name":"Bladespell Step (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Once per encounter, you can teleport up to 5 squares as a free action immediately after you use a bladespell power. </p><p>Published in Neverwinter Campaign Setting, page(s) 77. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"9wkJBXoZ0sCj3RdA",
+	"_key":"!items!9wkJBXoZ0sCj3RdA"
+}

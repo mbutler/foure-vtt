@@ -1,0 +1,33 @@
+{
+	"name":"Witch Apotheosis (21st level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>The first time each day that you would die while your familiar is present, you do not die. Instead, your familiar seizes your spirit and is then removed from play as it carries your spirit away to a secret extraplanar sanctuary. After 24 hours, you build a new body for your spirit, and you can reappear near one of your allies that was present when you died. If none of your allies were present when you died, or those allies are no longer alive, you can reappear in the place where you last took an extended rest. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"destiny"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"13I8FnucN6L9DtJB",
+	"_key":"!items!13I8FnucN6L9DtJB"
+}

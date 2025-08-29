@@ -1,0 +1,33 @@
+{
+	"name":"Chondalwood Mystic",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Akanûl regional background </p><p><b>Benefit: </b>You possess Spellplague sense. You know when you're within 5 squares of something touched by the Spellplague (an area of Spellplague, a plaguechanged creature, or a creature with a spellscar). You can sense the presence of the source, but not the direction or distance. </p><p>You also gain a +2 feat bonus on Nature checks. </p><p>Published in Dragon Magazine 379, page(s) 69. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"SfWgkKIE5eC4mswb",
+	"_key":"!items!SfWgkKIE5eC4mswb"
+}

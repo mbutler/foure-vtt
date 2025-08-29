@@ -1,0 +1,33 @@
+{
+	"name":"Heavenly Heritage [Deva Bloodline]",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Wis 13, deva or Deva Heritage </p><p><b>Benefit: </b>When you take cold damage or fire damage, you gain a number of temporary hit points equal to your Wisdom modifier. </p><p>Published in Dragon Magazine 374, page(s) 50. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"yakFqfZRS8iHGW3B",
+	"_key":"!items!yakFqfZRS8iHGW3B"
+}

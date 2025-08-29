@@ -1,0 +1,33 @@
+{
+	"name":"Kapak Draconian Background",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Type: </b>Racial </p><p><b>Prerequisite: </b>Dragonborn </p><p>You are as slippery as a kender and as deadly as a minotaur. When you set your sights on a foe, it is as good as dead. </p><p><i>Associated Skills: </i>Intimidate, Stealth, Thievery </p><p>Published in Dragon Magazine 421. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"background"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"LdN81R0o7raw9OBI",
+	"_key":"!items!LdN81R0o7raw9OBI"
+}

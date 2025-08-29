@@ -1,0 +1,33 @@
+{
+	"name":"Pivotal Event - Portal Mishap Background",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Campaign Setting: </b>General </p><p>You were teleported across the world to an unfamiliar place far from home. Did you return home, or are you still in that distant land? </p><p><i>Associated Skills: </i>Diplomacy, History </p><p>Published in Dragon Magazine 383, page(s) 80. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"background"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"Tls7oP2LgCE4Je6D",
+	"_key":"!items!Tls7oP2LgCE4Je6D"
+}

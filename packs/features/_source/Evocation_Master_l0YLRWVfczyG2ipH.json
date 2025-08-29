@@ -1,0 +1,33 @@
+{
+	"name":"Evocation Master",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you use an arcane evocation power that deals one or more specific types of damage, you ignore a target's resistance to any of those types of damage. You do not ignore any immunities the target might have. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"l0YLRWVfczyG2ipH",
+	"_key":"!items!l0YLRWVfczyG2ipH"
+}

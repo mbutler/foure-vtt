@@ -1,0 +1,33 @@
+{
+	"name":"Darting Shade",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Assassin, shade form power, shadow step power </p><p><b>Benefit: </b>Whenever you take damage from an attack while you are in shade form, you can use shadow step as a free action after the attack is resolved. </p><p>Published in Dragon Magazine 388. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"jFLwAeOicgDaX0W1",
+	"_key":"!items!jFLwAeOicgDaX0W1"
+}

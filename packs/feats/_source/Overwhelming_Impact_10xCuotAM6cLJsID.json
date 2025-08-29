@@ -1,0 +1,33 @@
+{
+	"name":"Overwhelming Impact",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>21st level, fighter </p><p><b>Benefit: </b>Whenever you use a hammer to hit an enemy with a melee attack, and that attack would slow the enemy, you can instead daze the enemy for the same duration. </p><p>Published in Martial Power 2, page(s) 144. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"10xCuotAM6cLJsID",
+	"_key":"!items!10xCuotAM6cLJsID"
+}

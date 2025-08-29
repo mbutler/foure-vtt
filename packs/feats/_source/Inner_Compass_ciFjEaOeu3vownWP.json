@@ -1,0 +1,33 @@
+{
+	"name":"Inner Compass",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Trained in Dungeoneering or Nature </p><p><b>Benefit: </b>You always know which way is north. When making a Dungeoneering check or a Nature check to find your way in a natural environment, you can roll twice and use either result. </p><p>Published in Primal Power, page(s) 140. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"ciFjEaOeu3vownWP",
+	"_key":"!items!ciFjEaOeu3vownWP"
+}

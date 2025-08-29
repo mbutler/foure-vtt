@@ -1,0 +1,33 @@
+{
+	"name":"Minotaur Soul",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Minotaur, revenant </p><p><b>Benefit: </b>When you fall unconscious due to having 0 hp or fewer, you can make a basic attack as a free action. </p><p>Published in Dragon Magazine 376, page(s) 41. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"2qr4ycCwLGm3SnaT",
+	"_key":"!items!2qr4ycCwLGm3SnaT"
+}

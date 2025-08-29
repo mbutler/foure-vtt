@@ -1,0 +1,33 @@
+{
+	"name":"Unity Unbroken (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you spend an action point to take an extra action, until the end of your next turn your allies gain a +5 bonus to damage rolls against your oath of enmity target while they are flanking that target. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"pmDbzceiu8IJOAxl",
+	"_key":"!items!pmDbzceiu8IJOAxl"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Restless Dead",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Revenant, must worship the Raven Queen </p><p><b>Benefit: </b>While you are at 0 hit points or fewer and still conscious, you gain a +2 bonus to attack rolls and all defenses. </p><p>Published in Dragon Magazine 380, page(s) 64. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"9IrYcLMblaPgXwOU",
+	"_key":"!items!9IrYcLMblaPgXwOU"
+}

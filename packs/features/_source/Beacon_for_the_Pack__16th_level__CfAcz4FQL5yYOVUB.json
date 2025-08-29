@@ -1,0 +1,33 @@
+{
+	"name":"Beacon for the Pack (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When an ally takes an action granted by an action point, that ally can also move 3 squares or shift 1 square. </p><p>Published in Dragon Magazine 364, page(s) 54. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"CfAcz4FQL5yYOVUB",
+	"_key":"!items!CfAcz4FQL5yYOVUB"
+}

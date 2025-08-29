@@ -1,0 +1,33 @@
+{
+	"name":"Group Defense",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Half-elf, paladin </p><p><b>Benefit: </b>Allies gain a +1 bonus to all defenses against creatures marked by you. </p><p>Published in Divine Power, page(s) 135. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"HknzhVdmJsTl7ERr",
+	"_key":"!items!HknzhVdmJsTl7ERr"
+}

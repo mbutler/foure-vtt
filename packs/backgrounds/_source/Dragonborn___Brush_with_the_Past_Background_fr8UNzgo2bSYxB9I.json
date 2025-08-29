@@ -1,0 +1,33 @@
+{
+	"name":"Dragonborn - Brush with the Past Background",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Type: </b>Racial </p><p><b>Campaign Setting: </b>General </p><p><b>Prerequisite: </b>Dragonborn </p><p>At some point in your life, you encountered some element of dragonborn history. You might have found a weapon forged in the lost empire of Arkhosia, discovered a fragment of parchment dating from that age, or dreamed of an ancient battle as if you had been there. How much of an impact did this encounter have on you? How does it motivate you now? Are you driven to rebuild the ancient glory of your race? Or are you embittered by the fall of Arkhosia and prepared to carve yourself a place in a new empire? </p><p><i>Associated Skills: </i>History, Insight </p><p>Published in Player's Handbook 2, page(s) 180. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"background"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"fr8UNzgo2bSYxB9I",
+	"_key":"!items!fr8UNzgo2bSYxB9I"
+}

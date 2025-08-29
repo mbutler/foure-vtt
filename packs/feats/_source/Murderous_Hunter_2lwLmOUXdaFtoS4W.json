@@ -1,0 +1,33 @@
+{
+	"name":"Murderous Hunter",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Assassin, ranger, assassin's shroud power </p><p><b>Benefit: </b>When you invoke your assassin's shroud and miss the target, you can deal the bonus damage from your Hunter's Quarry to the target if you invoked two or more shrouds when you attacked it. </p><p>Published in Dragon Magazine 385, page(s) 35. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"2lwLmOUXdaFtoS4W",
+	"_key":"!items!2lwLmOUXdaFtoS4W"
+}

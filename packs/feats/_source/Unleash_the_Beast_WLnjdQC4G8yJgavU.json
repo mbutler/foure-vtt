@@ -1,0 +1,33 @@
+{
+	"name":"Unleash the Beast",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Shifter, avenger, oath of enmity power </p><p><b>Benefit: </b>If you are bloodied after your oath of enmity target hits you, you can use your longtooth shifting or razorclaw shifting racial power as an immediate reaction. </p><p>Published in Divine Power, page(s) 136. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"WLnjdQC4G8yJgavU",
+	"_key":"!items!WLnjdQC4G8yJgavU"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Tome of Binding",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Once per encounter, as a free action, if you use your tome when using an arcane summoning power, all creatures summoned by that power gain a bonus to damage rolls equal to your Constitution modifier. </p><p>You must wield a tome to benefit from this feature. </p><p>Summoner wizards prefer this form of tome mastery because of its obvious benefits to their summoning spells. This form of mastery also provides benefits to certain conjuration powers. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"Xj4cq6E0WmewFSlL",
+	"_key":"!items!Xj4cq6E0WmewFSlL"
+}

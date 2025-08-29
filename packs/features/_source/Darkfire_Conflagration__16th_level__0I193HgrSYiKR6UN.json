@@ -1,0 +1,33 @@
+{
+	"name":"Darkfire Conflagration (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Whenever you use your darkfire power, you can target three creatures instead of one. </p><p>Published in Dragon Magazine 367, page(s) 40. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"0I193HgrSYiKR6UN",
+	"_key":"!items!0I193HgrSYiKR6UN"
+}

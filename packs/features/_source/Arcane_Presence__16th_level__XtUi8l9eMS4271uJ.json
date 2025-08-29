@@ -1,0 +1,33 @@
+{
+	"name":"Arcane Presence (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Whenever an ally would benefit from your Commanding Presence class feature, the ally may also teleport a number of squares equal to your Intelligence modifier. You must have line of sight to the ally's destination square. </p><p>Published in Dragon Magazine 390. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"XtUi8l9eMS4271uJ",
+	"_key":"!items!XtUi8l9eMS4271uJ"
+}

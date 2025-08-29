@@ -1,0 +1,33 @@
+{
+	"name":"Spellscarred Harbinger Starting Feature (1st level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You gain one of the following abilities.<br><img src=\"data:image/gif;base64,R0lGODlhCwALAMQSAEVCVlsyRmEyRWAyRWYyRURCVlcyRmQyRVI7T09FWGIyRVUyRlUyR1EzSHQyQ05EV0RCVyIyTH8yQgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAABIALAAAAAALAAsAAAUsoCSKwWiKCnSaUbSsUtFG5ShAc4s4UpL/DAkBl2ucHrMBDBAxwESAp+hwCgEAOw==\" alt=\"\"> Dimension Shift: Once per encounter, you can teleport up to 2 squares as a minor action.<br><img src=\"data:image/gif;base64,R0lGODlhCwALAMQSAEVCVlsyRmEyRWAyRWYyRURCVlcyRmQyRVI7T09FWGIyRVUyRlUyR1EzSHQyQ05EV0RCVyIyTH8yQgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAABIALAAAAAALAAsAAAUsoCSKwWiKCnSaUbSsUtFG5ShAc4s4UpL/DAkBl2ucHrMBDBAxwESAp+hwCgEAOw==\" alt=\"\"> Twist Fate: Once per encounter, you can reroll a failed saving throw.<br><img src=\"data:image/gif;base64,R0lGODlhCwALAMQSAEVCVlsyRmEyRWAyRWYyRURCVlcyRmQyRVI7T09FWGIyRVUyRlUyR1EzSHQyQ05EV0RCVyIyTH8yQgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAABIALAAAAAALAAsAAAUsoCSKwWiKCnSaUbSsUtFG5ShAc4s4UpL/DAkBl2ucHrMBDBAxwESAp+hwCgEAOw==\" alt=\"\"> Vanish: Once per encounter as a minor action, you can become invisible until the start of your next turn.<br></p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"theme"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"rT4QG1bHYU7u9ENw",
+	"_key":"!items!rT4QG1bHYU7u9ENw"
+}

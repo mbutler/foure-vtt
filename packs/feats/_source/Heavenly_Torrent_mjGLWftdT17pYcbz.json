@@ -1,0 +1,33 @@
+{
+	"name":"Heavenly Torrent",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>21st level, avenger, oath of enmity power </p><p><b>Benefit: </b>The first time you score a critical hit on your oath of enmity target during an encounter, each ally can make a second attack roll and use either result on the next attack he or she makes against that target before the start of your next turn. </p><p>Published in Divine Power, page(s) 141. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"mjGLWftdT17pYcbz",
+	"_key":"!items!mjGLWftdT17pYcbz"
+}

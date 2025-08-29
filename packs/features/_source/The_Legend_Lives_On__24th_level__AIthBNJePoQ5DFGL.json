@@ -1,0 +1,33 @@
+{
+	"name":"The Legend Lives On (24th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>If you die and do not return to life within 12 hours, a devoted follower, such as a trusted lieutenant, takes your place, adopting your identity, your equipment, and your goals. This follower is identical to you, with the same level, race, class, paragon path, epic destiny, feats, and so forth. The two of you are essentially the same person and even have the same memories and experiences, if only because your follower listened so closely to your tales. If you are revived after being dead for more than 12 hours, your trusted follower returns to his or her former role. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"destiny"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"AIthBNJePoQ5DFGL",
+	"_key":"!items!AIthBNJePoQ5DFGL"
+}

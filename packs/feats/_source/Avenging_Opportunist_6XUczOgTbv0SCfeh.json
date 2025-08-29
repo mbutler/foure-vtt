@@ -1,0 +1,33 @@
+{
+	"name":"Avenging Opportunist",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Human, avenger, oath of enmity power </p><p><b>Benefit: </b>The first time in an encounter when you reduce your oath of enmity target to 0 hit points, you gain an extra move action that you must use before the end of your next turn. </p><p>Published in Divine Power, page(s) 130. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"6XUczOgTbv0SCfeh",
+	"_key":"!items!6XUczOgTbv0SCfeh"
+}

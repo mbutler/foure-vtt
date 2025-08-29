@@ -1,0 +1,33 @@
+{
+	"name":"Mineral Resilience",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Shardmind, shard swarm racial power </p><p><b>Benefit: </b>When you use shard swarm, you gain 5 temporary hit points. This increases to 15 temporary hit points at 21st level. </p><p>Published in Dragon Magazine 387, page(s) 17. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"jSVhvUuLBJWDmQwZ",
+	"_key":"!items!jSVhvUuLBJWDmQwZ"
+}

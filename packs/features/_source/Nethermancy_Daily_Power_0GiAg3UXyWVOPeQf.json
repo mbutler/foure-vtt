@@ -1,0 +1,33 @@
+{
+	"name":"Nethermancy Daily Power",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You gain the Evard's black gate power. </p><p>Published in Heroes of the Fallen Lands, page(s) 219. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"0GiAg3UXyWVOPeQf",
+	"_key":"!items!0GiAg3UXyWVOPeQf"
+}

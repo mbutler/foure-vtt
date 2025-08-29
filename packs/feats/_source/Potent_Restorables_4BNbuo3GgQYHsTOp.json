@@ -1,0 +1,33 @@
+{
+	"name":"Potent Restorables",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Artificer </p><p><b>Benefit: </b>Your artificer healing powers restore 2 extra hit points. The extra hit points increase to 3 at 6th level, to 4 at 11th level, to 5 at 16th level, to 6 at 21st level, and to 7 at 26th level. </p><p>Update (11/23/2009) </p><p>In the first sentence of the Benefit line, add \"artificer\" before \"healing powers.\" </p><p>Published in Eberron Player's Guide, page(s) 92. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"4BNbuo3GgQYHsTOp",
+	"_key":"!items!4BNbuo3GgQYHsTOp"
+}

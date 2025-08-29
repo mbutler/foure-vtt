@@ -1,0 +1,33 @@
+{
+	"name":"Chauntea's Comfort",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Must worship Chauntea </p><p><b>Benefit: </b>When you use a power that allows an ally to spend a healing surge to regain hit points, you can lose a healing surge on that ally's behalf, so the ally benefits from the healing but does not spend a healing surge. </p><p>Published in Dragon Magazine 412. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"rWtOFzURaHp5X32P",
+	"_key":"!items!rWtOFzURaHp5X32P"
+}

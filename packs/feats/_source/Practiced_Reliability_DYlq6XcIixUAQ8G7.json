@@ -1,0 +1,33 @@
+{
+	"name":"Practiced Reliability",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>21st level, fighter </p><p><b>Benefit: </b>Choose a fighter encounter attack power that you know and that has a single target and a single attack roll. That power gains the reliable keyword. </p><p>Special: Each time you gain a level, you can choose to remove this feat's benefit from the power and assign it to a different power. </p><p>Published in Martial Power, page(s) 148. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"DYlq6XcIixUAQ8G7",
+	"_key":"!items!DYlq6XcIixUAQ8G7"
+}

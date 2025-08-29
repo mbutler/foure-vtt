@@ -1,0 +1,33 @@
+{
+	"name":"Horrifying Action (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you spend an action point to take an action, you can use memory of a thousand lifetimes once that turn without expending its use or even if you have used it already during this encounter. Enemies adjacent to you when you spend the action point cannot make opportunity attacks against you until the start of your next turn. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"1SH3pZyYAomNOgdC",
+	"_key":"!items!1SH3pZyYAomNOgdC"
+}

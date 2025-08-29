@@ -1,0 +1,33 @@
+{
+	"name":"Book Imp Familiar",
+	"type":"feature",
+	"img":"icons/creatures/magical/construct-gargoyle-stone-gray.webp",
+	"system":{
+		"description":{
+			"value":"<p><i>Book imps are masters of knowledge, dispatched by the powers of Hell to offer advice to and tempt mortal spellcasters.</i></p><p><b>Speed</b> 5, fly 6 (hover)</p><p><b>Constant Benefits</b></p><p>* You gain a +2 bonus to Arcana checks and History checks.</p><p>* You can read and speak Supernal.</p><p>* You gain resist fire 5. If you already have resist fire, increase your resistance by 2.</p><p><b>Active Benefits</b></p><p>Deceptive Move: As a minor action, you cause your book imp to become invisible until the end of your next turn.</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"other"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"EzNyfGS2hiHl68cJ",
+	"_key":"!items!EzNyfGS2hiHl68cJ"
+}

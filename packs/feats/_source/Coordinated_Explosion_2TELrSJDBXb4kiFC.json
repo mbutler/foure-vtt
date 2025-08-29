@@ -1,0 +1,33 @@
+{
+	"name":"Coordinated Explosion",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Benefit: </b>When you use any implement power that creates a burst or a blast, you gain a +1 bonus to attack rolls against the power's targets if at least one ally is within the burst or the blast. </p><p>Published in Player's Handbook 2, page(s) 184. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"2TELrSJDBXb4kiFC",
+	"_key":"!items!2TELrSJDBXb4kiFC"
+}

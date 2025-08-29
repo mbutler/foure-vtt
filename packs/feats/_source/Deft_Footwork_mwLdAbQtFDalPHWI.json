@@ -1,0 +1,33 @@
+{
+	"name":"Deft Footwork",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Dex 13, any martial class </p><p><b>Benefit: </b>Whenever an opponent provokes an opportunity attack from you, you can shift 1 square as an opportunity action instead of making a melee basic attack. </p><p>Published in Dragon Magazine Annual, Dragon Magazine 368, page(s) 58. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"mwLdAbQtFDalPHWI",
+	"_key":"!items!mwLdAbQtFDalPHWI"
+}

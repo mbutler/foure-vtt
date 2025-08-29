@@ -1,0 +1,33 @@
+{
+	"name":"Kenku Ventriloquist",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Kenku, trained in Bluff </p><p><b>Benefit: </b>When you speak or use your Mimicry racial feature, you can make the sound seem to originate from a square within 5 squares of you. You must succeed on a Bluff check to fool listeners into believing the sound came from that location. If the square is occupied by a creature, that creature knows it didn't make the sound, and you take a -2 penalty to the Bluff check against other listeners. </p><p>Published in Dragon Magazine 411. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"9178xwHrCivLlJjG",
+	"_key":"!items!9178xwHrCivLlJjG"
+}

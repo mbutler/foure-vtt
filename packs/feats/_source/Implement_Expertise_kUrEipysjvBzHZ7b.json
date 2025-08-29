@@ -1,0 +1,33 @@
+{
+	"name":"Implement Expertise",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Benefit: </b>Choose a type of implement. You gain a +1 feat bonus to attack rolls with any implement power you use through that type of implement. The bonus increases to +2 at 11th level and +3 at 21st level. </p><p>Special: You can take this feat more than once. Each time you take this feat, choose a different type of implement. </p><p>Update (2/15/2012) </p><p>Changed in December 2011 updates. </p><p>Published in Player's Handbook 2, page(s) 185. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"kUrEipysjvBzHZ7b",
+	"_key":"!items!kUrEipysjvBzHZ7b"
+}

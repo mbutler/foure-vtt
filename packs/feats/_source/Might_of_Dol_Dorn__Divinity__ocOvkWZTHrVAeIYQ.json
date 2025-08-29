@@ -1,0 +1,33 @@
+{
+	"name":"Might of Dol Dorn [Divinity]",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Channel Divinity class feature, must worship Dol Dorn </p><p><b>Benefit: </b>You gain the Channel Divinity power might of Dol Dorn. </p><p>Published in Eberron Player's Guide, page(s) 92. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"ocOvkWZTHrVAeIYQ",
+	"_key":"!items!ocOvkWZTHrVAeIYQ"
+}

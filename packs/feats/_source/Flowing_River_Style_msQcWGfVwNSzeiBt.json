@@ -1,0 +1,33 @@
+{
+	"name":"Flowing River Style",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Halfling, second chance racial power, monk </p><p><b>Benefit: </b>When a monk power allows you to shift, if you have not yet used your second chance power, you can enter enemies' spaces during this shift. You must end this movement in an unoccupied square. </p><p>Published in Dragon Magazine 388. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"msQcWGfVwNSzeiBt",
+	"_key":"!items!msQcWGfVwNSzeiBt"
+}

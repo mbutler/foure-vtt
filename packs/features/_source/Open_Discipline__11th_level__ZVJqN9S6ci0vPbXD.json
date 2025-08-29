@@ -1,0 +1,33 @@
+{
+	"name":"Open Discipline (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>The ability used for attack powers associated with this paragon path is the highest of your Charisma, Intelligence, or Wisdom. Characters who use the arcane power source can use their implements as normal with these powers. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"ZVJqN9S6ci0vPbXD",
+	"_key":"!items!ZVJqN9S6ci0vPbXD"
+}

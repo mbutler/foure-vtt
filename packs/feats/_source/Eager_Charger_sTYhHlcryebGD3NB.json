@@ -1,0 +1,33 @@
+{
+	"name":"Eager Charger",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Mul, barbarian, swift charge power </p><p><b>Benefit: </b>You gain a +1 racial bonus to speed when charging. In addition, you gain a power bonus to the damage roll of the charge attack granted by your swift charge power equal to your Constitution modifier. </p><p>Published in Dragon Magazine 391. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"sTYhHlcryebGD3NB",
+	"_key":"!items!sTYhHlcryebGD3NB"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Strong-Arm Mark (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you hit with a rattling attack and have combat advantage against the target, you can choose to mark the target until the end of your next turn. Until the end of you next turn, you also gain a bonus to damage rolls against the target equal to your Charisma modifier. </p><p>Published in Martial Power, page(s) 98. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"C0HMGvLrbW64E7yY",
+	"_key":"!items!C0HMGvLrbW64E7yY"
+}

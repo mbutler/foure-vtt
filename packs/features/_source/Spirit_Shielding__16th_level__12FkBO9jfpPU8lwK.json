@@ -1,0 +1,33 @@
+{
+	"name":"Spirit Shielding (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You gain necrotic resistance equal to 5 + one-half your level. </p><p>Published in Player's Handbook Races: Tiefling, page(s) 20. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"12FkBO9jfpPU8lwK",
+	"_key":"!items!12FkBO9jfpPU8lwK"
+}

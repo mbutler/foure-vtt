@@ -1,0 +1,33 @@
+{
+	"name":"Creation Mastery",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Ritual Caster feat, mastery of Enchant Magic Item and one other creation ritual </p><p><b>Benefit: </b>Three times per day, you can perform a ritual in half the normal time if that ritual normally requires 1 minute or more to perform. You can perform the Enchant Magic Item ritual as if your level were two higher. If you have the Alchemist feat, you can make alchemical items as if your level were two higher. </p><p>Published in Dragon Magazine 405. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"jTQsB7Kz4qFXcZO8",
+	"_key":"!items!jTQsB7Kz4qFXcZO8"
+}

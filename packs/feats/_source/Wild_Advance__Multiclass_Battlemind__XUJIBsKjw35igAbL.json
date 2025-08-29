@@ -1,0 +1,33 @@
+{
+	"name":"Wild Advance [Multiclass Battlemind]",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Demanding Talent feat </p><p><b>Benefit: </b>You gain the battlemind's blurred step power and can use it once per encounter. </p><p>Published in Psionic Power, page(s) 141. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"XUJIBsKjw35igAbL",
+	"_key":"!items!XUJIBsKjw35igAbL"
+}

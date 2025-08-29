@@ -1,0 +1,33 @@
+{
+	"name":"Warlord Leadership",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You choose one of the following class features.</p>\n<p>@UUID[Compendium.dnd-4e-compendium.module-features.81yw2uzqkdLvJMrK]{Battlefront Leader (Hybrid)}@UUID[Compendium.dnd-4e-compendium.module-features.WifqAz51BroVeaNJ]{Canny Leader (Hybrid)}@UUID[Compendium.dnd-4e-compendium.module-features.1ithDjea9yRSm6B2]{Combat Leader (Hybrid)}</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"ltO4qXj8GASfk70I",
+	"_key":"!items!ltO4qXj8GASfk70I"
+}

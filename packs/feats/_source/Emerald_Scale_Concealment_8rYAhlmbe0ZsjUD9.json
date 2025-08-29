@@ -1,0 +1,33 @@
+{
+	"name":"Emerald Scale Concealment",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Dragonborn, assassin </p><p><b>Benefit: </b>You become invisible to a creature hit by your dragon breath racial power until the end of your turn. </p><p>Published in Dragon Magazine 379, page(s) 26. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"8rYAhlmbe0ZsjUD9",
+	"_key":"!items!8rYAhlmbe0ZsjUD9"
+}

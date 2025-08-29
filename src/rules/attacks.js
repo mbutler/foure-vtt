@@ -2,12 +2,21 @@ import { roll } from '../engine/rng.js'
 import { computeFlagsForActor } from './effects.js'
 import { openOA, openInterrupt, openReaction } from './reactive.js'
 
-// D1: Spec normalization (minimal)
+/**
+ * Normalizes attack specifications to ensure consistent format
+ * @param {Object} spec - Raw attack specification
+ * @returns {Object} Normalized attack specification with defaults
+ */
 export const normalizeAttackSpec = (spec = {}) => {
   const out = { kind: 'melee-weapon', vs: 'AC', ability: 'STR', proficiency: 0, enhancement: 0, reach: 1, range: 5, ...spec }
   return out
 }
 
+/**
+ * Normalizes attack context to ensure consistent format
+ * @param {Object} ctx - Raw attack context
+ * @returns {Object} Normalized attack context with defaults
+ */
 export const normalizeAttackContext = (ctx = {}) => {
   return {
     attackerId: ctx.attackerId,
@@ -19,7 +28,13 @@ export const normalizeAttackContext = (ctx = {}) => {
   }
 }
 
-// D3: Compute attack bonus with parts breakdown
+/**
+ * Computes total attack bonus with detailed breakdown of components
+ * @param {Object} G - Current game state
+ * @param {Object} ctx - Attack context
+ * @param {Object} spec - Attack specification
+ * @returns {Object} Object with total bonus and breakdown parts
+ */
 export const computeAttackBonus = (G, ctx, spec) => {
   const attacker = (G.actors && G.actors[ctx.attackerId]) || {}
   const abilityMods = attacker.abilityMods || { STR: 0, DEX: 0, CON: 0, INT: 0, WIS: 0, CHA: 0 }
@@ -41,7 +56,14 @@ export const computeAttackBonus = (G, ctx, spec) => {
   return { total, parts }
 }
 
-// D4: Roll to hit (with optional test hook forceD20)
+/**
+ * Rolls to hit with optional test hook for deterministic results
+ * @param {Object} G - Current game state
+ * @param {Object} ctx - Attack context
+ * @param {Object} bonusResult - Pre-computed attack bonus
+ * @param {Object} options - Options including forceD20 for testing
+ * @returns {Object} Hit roll result with d20, total, crit, and autoMiss flags
+ */
 export const rollToHit = (G, ctx, bonusResult, options = {}) => {
   let d20
   let patches = []
@@ -58,13 +80,26 @@ export const rollToHit = (G, ctx, bonusResult, options = {}) => {
   return { d20, total, crit, autoMiss, patches }
 }
 
-// Helper to read defender defense value
+/**
+ * Helper to read defender defense value from game state
+ * @param {Object} G - Current game state
+ * @param {string} defenderId - ID of the defending actor
+ * @param {string} vs - Defense type (AC, Fort, Ref, Will)
+ * @returns {number} Defense value
+ */
 const readDefense = (G, defenderId, vs) => {
   const def = (G.actors && G.actors[defenderId] && G.actors[defenderId].defenses) || { AC: 10, Fort: 10, Ref: 10, Will: 10 }
   return def[vs] ?? 10
 }
 
-// D5: Minimal resolveAttack orchestration (no damage yet)
+/**
+ * Resolves a complete attack including hit determination and logging
+ * @param {Object} G - Current game state
+ * @param {Object} ctxIn - Raw attack context
+ * @param {Object} specIn - Raw attack specification
+ * @param {Object} options - Options for the attack
+ * @returns {Object} Object containing patches to apply
+ */
 export const resolveAttack = (G, ctxIn, specIn, options = {}) => {
   const spec = normalizeAttackSpec(specIn)
   const ctx = normalizeAttackContext(ctxIn)

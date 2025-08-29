@@ -1,0 +1,33 @@
+{
+	"name":"Occultist Starting Feature (1st level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You gain proficiency with tomes.<br>You can master and perform rituals in the binding category as though you had the Ritual Caster feat.<br>In addition, you gain the sign of the golden ram power.<br></p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"theme"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"a7WpP0KJYk51BXqE",
+	"_key":"!items!a7WpP0KJYk51BXqE"
+}

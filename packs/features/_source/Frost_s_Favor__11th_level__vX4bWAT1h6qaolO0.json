@@ -1,0 +1,33 @@
+{
+	"name":"Frost's Favor (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>After each extended rest, you can choose an arcane encounter attack power you know. That power gains the cold keyword, and the power deals cold damage in addition to another damage type it has. You also gain resist 10 cold. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"vX4bWAT1h6qaolO0",
+	"_key":"!items!vX4bWAT1h6qaolO0"
+}

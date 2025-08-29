@@ -1,0 +1,29 @@
+{
+	"name":"Caustic Heritage",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You have poison in your mouth and acidic blood.<br>&nbsp;&nbsp;&nbsp;&nbsp;<em>Benefits:&nbsp;</em>You gain the toxic saliva and acidic revenge powers. This benefit replaces Dragon Breath.</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"featureType":"race"
+	},
+	"effects":[],
+	"flags":{},
+	"folder":null,
+	"sort":0,
+	"_id":"X5er6T0NgI6dyL5E",
+	"_key":"!items!X5er6T0NgI6dyL5E"
+}

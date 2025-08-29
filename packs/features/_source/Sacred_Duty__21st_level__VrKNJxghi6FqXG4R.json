@@ -1,0 +1,33 @@
+{
+	"name":"Sacred Duty (21st level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Whenever you make an attack that reduces a creature with the demon or spider keyword to 0 or fewer hit points, you can spend a healing surge as a free action. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"destiny"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"VrKNJxghi6FqXG4R",
+	"_key":"!items!VrKNJxghi6FqXG4R"
+}

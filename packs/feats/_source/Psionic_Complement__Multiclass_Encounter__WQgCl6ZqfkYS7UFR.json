@@ -1,0 +1,33 @@
+{
+	"name":"Psionic Complement [Multiclass Encounter]",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>4th level, any class-specific multiclass feat for a class that has the Psionic Augmentation class feature, Psionic Augmentation class feature </p><p><b>Benefit: </b>You can swap one of your augmentable at-will attack powers for an augmentable at-will attack power of the same level or lower from the class you multiclassed into. You can use that power once per encounter. </p><p>Published in Player's Handbook 3, page(s) 194. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"WQgCl6ZqfkYS7UFR",
+	"_key":"!items!WQgCl6ZqfkYS7UFR"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Death's Pall",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>11th level, assassin, assassin's shroud power </p><p><b>Benefit: </b>While you are adjacent to a creature subject to one or more of your assassin's shrouds, you have concealment from all creatures that are not subject to your assassin's shrouds. If the adjacent creature is subject to three or more of your assassin's shrouds, you have total concealment instead of concealment. </p><p>Published in Dragon Magazine 388. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"TPLvWc4ufCQ5i8w9",
+	"_key":"!items!TPLvWc4ufCQ5i8w9"
+}

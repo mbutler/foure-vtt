@@ -1,0 +1,33 @@
+{
+	"name":"Distant Swordbond",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>11th level, Swordmage </p><p><b>Benefit: </b>You can call your bonded weapon to your hand from up to 1 mile away as a minor action. </p><p>Published in Forgotten Realms Player's Guide, page(s) 138. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"1PL5S9weknoJtOyH",
+	"_key":"!items!1PL5S9weknoJtOyH"
+}

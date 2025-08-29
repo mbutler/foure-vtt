@@ -1,0 +1,33 @@
+{
+	"name":"Order of the Golden Cup Background",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Type: </b>Geography </p><p><b>Campaign Setting: </b>Forgotten Realms </p><p><b>Prerequisite: </b>Human </p><p>Though they're no longer permitted to worship in the open, Ilmataran faith remains strong among the peasantry of Vaasa. As a Revered Brother or Sister of Ilmater's holy order, you are dedicated to healing the sick, protecting the innocent, and soothing the hurts of the world. You are a hero of the common people of Vaasa as you are reviled by the Warlock Knights. </p><p><i>Associated Skills: </i>Heal, Insight </p><p>Published in Dungeon Magazine 177, page(s) 80. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"background"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"IQozknCEF8LVl3U6",
+	"_key":"!items!IQozknCEF8LVl3U6"
+}

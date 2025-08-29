@@ -1,0 +1,33 @@
+{
+	"name":"Feral Advance",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Elf, battlemind, speed of thought power </p><p><b>Benefit: </b>When you use your speed of thought, use your Dexterity modifier in place of your Charisma modifier to determine how far you move. </p><p>Published in Psionic Power, page(s) 131. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"a1MB6nRJVzkiT85K",
+	"_key":"!items!a1MB6nRJVzkiT85K"
+}

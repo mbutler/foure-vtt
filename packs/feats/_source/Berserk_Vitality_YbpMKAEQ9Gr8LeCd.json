@@ -1,0 +1,33 @@
+{
+	"name":"Berserk Vitality",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Barbarian, Berserker Fury class feature </p><p><b>Benefit: </b>When you enter your Berserker Fury, you gain temporary hit points equal to your healing surge value. </p><p>Published in Heroes of the Feywild, page(s) 126. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"YbpMKAEQ9Gr8LeCd",
+	"_key":"!items!YbpMKAEQ9Gr8LeCd"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Protégé of the Circle Background",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Type: </b>Occupation </p><p><b>Campaign Setting: </b>General </p><p><b>Prerequisite: </b>Avenger </p><p>A citizen of a large city, you were secretly selected by avengers of the Unbroken Circle to join their ranks. From a young age you were steeped in ancient history and practiced the avenger's deadly skills. Which of your traits attracted the Circle's attention? Was it your faith in Erathis or dedication to the customs of Nerath? Did you resist a perilous corruption, demonstrating an innate resiliency to the enemies of the Circle? </p><p><i>Associated Skills: </i>History, Insight </p><p>Published in Dragon Magazine 387, page(s) 38. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"background"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"gso6BQEaTvn2HL8q",
+	"_key":"!items!gso6BQEaTvn2HL8q"
+}

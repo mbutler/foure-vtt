@@ -1,0 +1,1231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Character Import Test</title>
+    <style>
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #0a0a0a;
+            color: #f5f5f5;
+            margin: 0;
+            padding: 20px;
+        }
+        
+        .test-container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: #111111;
+            border: 1px solid #333333;
+            border-radius: 8px;
+            padding: 20px;
+        }
+        
+        .test-header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        
+        .test-section {
+            margin-bottom: 30px;
+            padding: 20px;
+            background: #1a1a1a;
+            border-radius: 6px;
+        }
+        
+        .test-section h3 {
+            margin-top: 0;
+            color: #ffffff;
+        }
+        
+        .upload-area {
+            border: 2px dashed #444444;
+            border-radius: 6px;
+            padding: 40px;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+        
+        .upload-area:hover {
+            border-color: #666666;
+            background: #222222;
+        }
+        
+        .upload-area.dragover {
+            border-color: #3b82f6;
+            background: rgba(59, 130, 246, 0.1);
+        }
+        
+        .file-input {
+            display: none;
+        }
+        
+        .upload-btn {
+            background: #3b82f6;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: 500;
+        }
+        
+        .upload-btn:hover {
+            background: #2563eb;
+        }
+        
+        .status {
+            margin-top: 20px;
+            padding: 12px;
+            border-radius: 4px;
+            font-weight: 500;
+        }
+        
+        .status.info {
+            background: rgba(59, 130, 246, 0.1);
+            color: #60a5fa;
+            border: 1px solid #3b82f6;
+        }
+        
+        .status.success {
+            background: rgba(16, 185, 129, 0.1);
+            color: #10b981;
+            border: 1px solid #10b981;
+        }
+        
+        .status.error {
+            background: rgba(239, 68, 68, 0.1);
+            color: #ef4444;
+            border: 1px solid #ef4444;
+        }
+        
+        .character-preview {
+            background: #222222;
+            border: 1px solid #444444;
+            border-radius: 6px;
+            padding: 20px;
+            margin-top: 20px;
+        }
+        
+        .character-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #444444;
+        }
+        
+        .character-name {
+            font-size: 24px;
+            font-weight: 600;
+            color: #ffffff;
+        }
+        
+        .character-level {
+            background: #333333;
+            padding: 4px 12px;
+            border-radius: 4px;
+            font-size: 14px;
+            color: #cccccc;
+        }
+        
+        .character-stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+        
+        .stat-item {
+            background: #333333;
+            padding: 12px;
+            border-radius: 4px;
+            text-align: center;
+        }
+        
+        .stat-label {
+            font-size: 12px;
+            color: #999999;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 4px;
+        }
+        
+        .stat-value {
+            font-size: 18px;
+            font-weight: 600;
+            color: #ffffff;
+        }
+        
+        .character-details {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+        
+        .detail-section {
+            background: #333333;
+            padding: 15px;
+            border-radius: 4px;
+        }
+        
+        .detail-section h4 {
+            margin: 0 0 10px 0;
+            font-size: 14px;
+            color: #cccccc;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        
+        .detail-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        
+        .detail-list li {
+            padding: 4px 0;
+            font-size: 14px;
+            color: #cccccc;
+        }
+        
+        .powers-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 10px;
+        }
+        
+        .power-type {
+            padding: 8px 12px;
+            border-radius: 4px;
+            font-size: 12px;
+            font-weight: 500;
+            text-align: center;
+        }
+        
+        .power-type.at-will {
+            background: #4ade80;
+            color: #000000;
+        }
+        
+        .power-type.encounter {
+            background: #f87171;
+            color: #000000;
+        }
+        
+        .power-type.daily {
+            background: #9ca3af;
+            color: #000000;
+        }
+        
+        .power-type.utility {
+            background: #60a5fa;
+            color: #000000;
+        }
+        
+        /* Power Display Styles */
+        .power-display {
+            background: #1a1a1a;
+            border: 1px solid #333333;
+            border-radius: 6px;
+            padding: 15px;
+            margin-bottom: 15px;
+        }
+        
+        .power-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10px;
+            padding-bottom: 8px;
+            border-bottom: 1px solid #444444;
+        }
+        
+        .power-name {
+            font-size: 16px;
+            font-weight: 600;
+            color: #ffffff;
+        }
+        
+        .power-usage {
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-size: 12px;
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        
+        .power-usage.at-will {
+            background: #4ade80;
+            color: #000000;
+        }
+        
+        .power-usage.encounter {
+            background: #f87171;
+            color: #000000;
+        }
+        
+        .power-usage.daily {
+            background: #9ca3af;
+            color: #000000;
+        }
+        
+        .power-usage.utility {
+            background: #60a5fa;
+            color: #000000;
+        }
+        
+        .power-details {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 10px;
+            margin-bottom: 10px;
+        }
+        
+        .power-detail {
+            background: #333333;
+            padding: 8px 12px;
+            border-radius: 4px;
+            font-size: 12px;
+        }
+        
+        .power-detail-label {
+            color: #999999;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 2px;
+        }
+        
+        .power-detail-value {
+            color: #ffffff;
+            font-weight: 500;
+        }
+        
+        .power-description {
+            background: #222222;
+            padding: 12px;
+            border-radius: 4px;
+            font-size: 13px;
+            line-height: 1.4;
+            color: #cccccc;
+            border-left: 3px solid #444444;
+        }
+        
+        .power-description p {
+            margin: 0 0 8px 0;
+        }
+        
+        .power-description p:last-child {
+            margin-bottom: 0;
+        }
+        
+        .power-keywords {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+            margin-top: 10px;
+        }
+        
+        .power-keyword {
+            background: #444444;
+            color: #cccccc;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-size: 11px;
+            font-weight: 500;
+        }
+        
+        .power-not-found {
+            color: #f87171;
+            font-style: italic;
+            font-size: 13px;
+            padding: 8px;
+            background: rgba(248, 113, 113, 0.1);
+            border-radius: 4px;
+            border: 1px solid rgba(248, 113, 113, 0.3);
+        }
+        
+        .power-compact-details {
+            font-size: 13px;
+            line-height: 1.4;
+        }
+        
+        .power-meta {
+            color: #999999;
+            font-size: 12px;
+            margin-bottom: 8px;
+            font-weight: 500;
+        }
+        
+        .power-description {
+            color: #cccccc;
+            margin-bottom: 6px;
+        }
+        
+        .power-keywords {
+            color: #888888;
+            font-size: 11px;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <div class="test-container">
+        <div class="test-header">
+            <h1>Character Import Test</h1>
+            <p>Test the .dnd4e file import functionality</p>
+        </div>
+        
+        <div class="test-section">
+            <h3>Upload Character File</h3>
+            <div class="upload-area" id="upload-area">
+                <input type="file" id="file-input" class="file-input" accept=".dnd4e">
+                <button class="upload-btn" onclick="document.getElementById('file-input').click()">
+                    Choose .dnd4e File
+                </button>
+                <p style="margin-top: 15px; color: #999999;">
+                    or drag and drop a .dnd4e file here
+                </p>
+            </div>
+            
+            <div id="status" class="status" style="display: none;"></div>
+        </div>
+        
+        <div id="character-preview" class="character-preview" style="display: none;">
+            <!-- Character data will be populated here -->
+        </div>
+        
+        <div id="powers-preview" class="character-preview" style="display: none;">
+            <h3>Power Details</h3>
+            <div id="powers-container">
+                <!-- Power details will be populated here -->
+            </div>
+        </div>
+    </div>
+
+    <script type="module">
+        // Power lookup table - using actual file names from packs
+        const powerLookup = {
+            // Basic attacks
+            'Melee Basic Attack': 'Melee_Basic_Attack',
+            'Ranged Basic Attack': 'Ranged_Basic_Attack',
+            'Opportunity Attack': 'Opportunity_Attack',
+            'Bull Rush Attack': 'Bull_Rush_Attack',
+            'Grab Attack': 'Grab_Attack',
+            
+            // Bard powers - actual file names from packs
+            'Vicious Mockery': 'Bard_01_Vicious_Mockery_Q89rDBAacGWnE3yl',
+            'Majestic Word': 'Bard_Majestic_Word_A6Cq1oigOmXUjr5H',
+            'Arrow of Warning': 'Bard_01_Arrow_of_Warning_paUW0n2vlT8mRd1k',
+            'Rhyme of the Blood-Seeking Blade': 'Bard_03_Rhyme_of_the_Blood_Seeking_Blade_GhIqYxZk2Ff8XsM0',
+            'Invitation to Defeat': 'Ardent_05_Invitation_to_Defeat_u2DK8JstnRVb0Xqr',
+            'Revitalizing Incantation': 'Bard_06_Revitalizing_Incantation_14465',
+            'Forward-Thinking Cut': 'Bard_07_Forward_Thinking_Cut_11104',
+            'Stall Tactics': 'Bluff_10_Stall_Tactics_IBoh2sep4UHAJEan',
+            'Mantle of Unity': 'Bard_10_Mantle_of_Unity_5699',
+            'Victorious Smite': 'Bard_11_Victorious_Smite_5029',
+            'Battle Chant': 'Bard_12_Battle_Chant_5030',
+            'Visions of Victory': 'Bard_12_Visions_of_Victory_5031',
+            'Coordinated Effort': 'Bard_15_Coordinated_Effort_12974',
+            
+            // Ardent powers
+            'Ardent Surge': 'Ardent_Ardent_Surge_tiTRAzheoj3x9rqO',
+            'Ire Strike': 'Ardent_01_Ire_Strike_11062',
+            'Earthquake Strike': 'Ardent_13_Earthquake_Strike_5003',
+            
+            // Theme powers
+            'Summon Sidhe Ally': 'Sidhe_Lord_01_Summon_Sidhe_Ally_15885',
+            'Sidhe Bargain': 'Sidhe_Lord_11_Sidhe_Bargain_15886',
+            
+            // Racial powers
+            'Eldritch Strike': 'Half_Elf_01_Eldritch_Strike_7402',
+            
+            // Utility powers
+            'Second Wind': 'Second_Wind',
+            'Hidden Lore': 'Hidden_Lore_13912',
+            
+            // Skill powers
+            'Stall Tactics': 'Bluff_10_Stall_Tactics_IBoh2sep4UHAJEan',
+            'Mantle of Unity': 'Skill_Power_Mantle_of_Unity_5699'
+        }
+        
+        // Common power name variations and patterns
+        const powerNamePatterns = {
+            'Majestic Word': ['majestic word', 'bard majestic word', 'bard-majestic word'],
+            'Vicious Mockery': ['vicious mockery', 'bard vicious mockery', 'bard 01-vicious mockery'],
+            'Arrow of Warning': ['arrow of warning', 'bard arrow of warning', 'bard 01-arrow of warning'],
+            'Rhyme of the Blood-Seeking Blade': ['rhyme of the blood-seeking blade', 'bard rhyme', 'blood-seeking blade'],
+            'Ardent Surge': ['ardent surge', 'ardent-ardent surge'],
+            'Stall Tactics': ['stall tactics', 'bluff stall tactics'],
+            'Invitation to Defeat': ['invitation to defeat', 'ardent invitation'],
+            'Forward-Thinking Cut': ['forward-thinking cut', 'bard forward-thinking'],
+            'Victorious Smite': ['victorious smite', 'bard victorious smite'],
+            'Battle Chant': ['battle chant', 'bard battle chant'],
+            'Visions of Victory': ['visions of victory', 'bard visions of victory'],
+            'Coordinated Effort': ['coordinated effort', 'bard coordinated effort'],
+            'Ire Strike': ['ire strike', 'ardent ire strike'],
+            'Earthquake Strike': ['earthquake strike', 'ardent earthquake strike'],
+            'Summon Sidhe Ally': ['summon sidhe ally', 'sidhe lord summon'],
+            'Sidhe Bargain': ['sidhe bargain', 'sidhe lord bargain'],
+            'Eldritch Strike': ['eldritch strike', 'half-elf eldritch'],
+            'Hidden Lore': ['hidden lore'],
+            'Second Wind': ['second wind'],
+            'Mantle of Unity': ['mantle of unity', 'bard mantle of unity']
+        }
+
+        // Power cache and comprehensive index
+        const powerCache = new Map()
+        const powerIndex = new Map() // Maps normalized names to file paths
+        const allPowerFiles = [] // Full list of all power files from server
+
+        // Build power index from lookup table
+        function buildPowerIndex() {
+            for (const [powerName, fileName] of Object.entries(powerLookup)) {
+                const normalizedName = normalizePowerName(powerName)
+                powerIndex.set(normalizedName, fileName)
+            }
+        }
+        
+        // Load all power files from server (like Foundry's compendium.getDocuments())
+        async function loadAllPowerFiles() {
+            if (allPowerFiles.length > 0) return allPowerFiles
+            
+            try {
+                const response = await fetch('/api/powers/index')
+                if (response.ok) {
+                    const powerIndex = await response.json()
+                    allPowerFiles.push(...powerIndex)
+                    console.log(`Loaded ${powerIndex.length} power files from server`)
+                    return powerIndex
+                }
+            } catch (error) {
+                console.error('Failed to load power index:', error)
+            }
+            return []
+        }
+        
+        // Foundry-style power search using regex patterns
+        async function searchAllPowerFiles(powerName) {
+            // Strategy 1: Try lookup table first (fast path)
+            if (powerLookup[powerName]) {
+                const fileName = powerLookup[powerName]
+                try {
+                    const response = await fetch(`/packs/powers/_source/${fileName}.json`)
+                    if (response.ok) {
+                        const powerData = await response.json()
+                        return powerData
+                    }
+                } catch (error) {
+                    console.warn(`Could not load power file for ${fileName}:`, error)
+                }
+            }
+            
+            // Strategy 2: Foundry-style regex pattern matching
+            try {
+                const allFiles = await loadAllPowerFiles()
+                
+                // Create regex pattern like Foundry does
+                const pattern = new RegExp(powerName.replaceAll(/[\(\)\[\]\+]/g, "\\$&"), "i")
+                
+                // Find all matches
+                const matches = allFiles.filter(powerFile => {
+                    const filePowerName = powerFile.name || ''
+                    return filePowerName.match(pattern)
+                })
+                
+                if (matches.length > 0) {
+                    // Sort by length (shorter names first, like Foundry)
+                    matches.sort((a, b) => (a.name || '').length - (b.name || '').length)
+                    
+                    // Take the first match
+                    const bestMatch = matches[0]
+                    try {
+                        const response = await fetch(`/packs/powers/_source/${bestMatch.fileName}`)
+                        if (response.ok) {
+                            const powerData = await response.json()
+                            return powerData
+                        }
+                    } catch (error) {
+                        console.warn(`Could not load power file for ${bestMatch.fileName}:`, error)
+                    }
+                }
+            } catch (error) {
+                console.warn('Failed to search all power files:', error)
+            }
+            
+            // Strategy 3: Fallback to normalized name matching
+            try {
+                const allFiles = await loadAllPowerFiles()
+                const normalizedName = normalizePowerName(powerName)
+                
+                for (const powerFile of allFiles) {
+                    const filePowerName = powerFile.name || ''
+                    const fileNormalizedName = normalizePowerName(filePowerName)
+                    
+                    if (fileNormalizedName === normalizedName) {
+                        try {
+                            const response = await fetch(`/packs/powers/_source/${powerFile.fileName}`)
+                            if (response.ok) {
+                                const powerData = await response.json()
+                                return powerData
+                            }
+                        } catch (error) {
+                            console.warn(`Could not load power file for ${powerFile.fileName}:`, error)
+                        }
+                    }
+                }
+            } catch (error) {
+                console.warn('Failed to search with normalized names:', error)
+            }
+            
+            return null
+        }
+        
+        // Normalize power name for matching
+        function normalizePowerName(name) {
+            return name.replace(/\(.*?\)/g, '').replace(/\s+/g, ' ').trim().toLowerCase()
+        }
+        
+        // Simple character parser for testing
+        class SimpleCharacterParser {
+            async parseCharacterFile(xmlContent) {
+                try {
+                    const parser = new DOMParser()
+                    const xmlDoc = parser.parseFromString(xmlContent, 'text/xml')
+                    
+                    if (xmlDoc.getElementsByTagName('parsererror').length > 0) {
+                        throw new Error('Invalid XML format')
+                    }
+                    
+                    const character = await this.parseCharacter(xmlDoc)
+                    return character
+                } catch (error) {
+                    throw error
+                }
+            }
+            
+            async parseCharacter(xmlDoc) {
+                const details = this.parseDetails(xmlDoc)
+                const stats = this.parseStats(xmlDoc)
+                const abilities = this.parseAbilities(xmlDoc)
+                const skills = this.parseSkills(xmlDoc)
+                const powers = await this.parsePowers(xmlDoc)
+                const items = this.parseItems(xmlDoc)
+                const feats = this.parseFeats(xmlDoc)
+                const classes = this.parseClasses(xmlDoc)
+                const race = this.parseRace(xmlDoc)
+                
+                return {
+                    details,
+                    stats,
+                    abilities,
+                    skills,
+                    powers,
+                    items,
+                    feats,
+                    classes,
+                    race
+                }
+            }
+            
+            parseDetails(xmlDoc) {
+                const details = xmlDoc.querySelector('Details')
+                if (!details) return {}
+                
+                return {
+                    name: this.getTextContent(details, 'name'),
+                    level: parseInt(this.getTextContent(details, 'Level')) || 1,
+                    player: this.getTextContent(details, 'Player'),
+                    height: this.getTextContent(details, 'Height'),
+                    weight: this.getTextContent(details, 'Weight'),
+                    gender: this.getTextContent(details, 'Gender'),
+                    age: parseInt(this.getTextContent(details, 'Age')) || 0,
+                    alignment: this.getTextContent(details, 'Alignment')
+                }
+            }
+            
+            parseAbilities(xmlDoc) {
+                const abilities = xmlDoc.querySelector('AbilityScores')
+                if (!abilities) return {}
+                
+                return {
+                    strength: parseInt(abilities.querySelector('Strength')?.getAttribute('score')) || 10,
+                    constitution: parseInt(abilities.querySelector('Constitution')?.getAttribute('score')) || 10,
+                    dexterity: parseInt(abilities.querySelector('Dexterity')?.getAttribute('score')) || 10,
+                    intelligence: parseInt(abilities.querySelector('Intelligence')?.getAttribute('score')) || 10,
+                    wisdom: parseInt(abilities.querySelector('Wisdom')?.getAttribute('score')) || 10,
+                    charisma: parseInt(abilities.querySelector('Charisma')?.getAttribute('score')) || 10
+                }
+            }
+            
+            parseStats(xmlDoc) {
+                const statBlock = xmlDoc.querySelector('StatBlock')
+                if (!statBlock) return {}
+                
+                const stats = {}
+                const statElements = statBlock.querySelectorAll('Stat')
+                
+                statElements.forEach(stat => {
+                    const value = parseInt(stat.getAttribute('value')) || 0
+                    const aliases = stat.querySelectorAll('alias')
+                    
+                    aliases.forEach(alias => {
+                        const name = alias.getAttribute('name')
+                        if (name) {
+                            stats[name] = value
+                        }
+                    })
+                })
+                
+                return {
+                    ac: stats['AC'] || 10,
+                    fortitude: stats['Fortitude'] || 10,
+                    reflex: stats['Reflex'] || 10,
+                    will: stats['Will'] || 10,
+                    initiative: stats['Initiative'] || 0,
+                    speed: stats['Speed'] || 6,
+                    hp: stats['Hit Points'] || 0,
+                    maxHP: stats['Hit Points'] || 0,
+                    healingSurges: stats['Healing Surges'] || 0,
+                    maxSurges: stats['Healing Surges'] || 0
+                }
+            }
+            
+            parseSkills(xmlDoc) {
+                const skills = {}
+                const statBlock = xmlDoc.querySelector('StatBlock')
+                if (!statBlock) return skills
+                
+                const skillNames = [
+                    'Acrobatics', 'Arcana', 'Athletics', 'Bluff', 'Diplomacy', 'Dungeoneering',
+                    'Endurance', 'Heal', 'History', 'Insight', 'Intimidate', 'Nature',
+                    'Perception', 'Religion', 'Stealth', 'Streetwise', 'Thievery'
+                ]
+                
+                skillNames.forEach(skillName => {
+                    const skillValue = this.findStatValue(statBlock, skillName)
+                    if (skillValue !== null) {
+                        skills[skillName.toLowerCase()] = {
+                            total: skillValue,
+                            trained: this.findStatValue(statBlock, `${skillName} Trained`) > 0
+                        }
+                    }
+                })
+                
+                return skills
+            }
+            
+            async parsePowers(xmlDoc) {
+                const powers = []
+                const rulesElements = xmlDoc.querySelectorAll('RulesElementTally > RulesElement[type="Power"]')
+                
+                for (const element of rulesElements) {
+                    const powerName = element.getAttribute('name')
+                    if (powerName) {
+                        const power = {
+                            name: powerName,
+                            internalId: element.getAttribute('internal-id'),
+                            url: element.getAttribute('url'),
+                            usage: this.extractPowerUsage(powerName, xmlDoc)
+                        }
+                        
+                        // Try to load power definition from packs
+                        try {
+                            power.packData = await this.loadPowerFromPacks(powerName)
+                        } catch (error) {
+                            console.warn(`Could not load power definition for ${powerName}:`, error)
+                            power.packData = null
+                        }
+                        
+                        powers.push(power)
+                    }
+                }
+                
+                return this.groupPowersByType(powers)
+            }
+            
+            async loadPowerFromPacks(powerName) {
+                // Check cache first
+                if (powerCache.has(powerName)) {
+                    return powerCache.get(powerName)
+                }
+                
+                // Use comprehensive search
+                const powerData = await searchAllPowerFiles(powerName)
+                if (powerData) {
+                    powerCache.set(powerName, powerData)
+                    return powerData
+                }
+                
+                return null
+            }
+            
+            normalizePowerName(name) {
+                return name.replace(/\(.*?\)/g, '').replace(/\s+/g, ' ').trim().toLowerCase()
+            }
+            
+            parseItems(xmlDoc) {
+                const items = []
+                const lootTally = xmlDoc.querySelector('LootTally')
+                
+                if (lootTally) {
+                    const lootElements = lootTally.querySelectorAll('loot')
+                    
+                    lootElements.forEach(loot => {
+                        const count = parseInt(loot.getAttribute('count')) || 0
+                        const equipped = parseInt(loot.getAttribute('equip-count')) || 0
+                        
+                        const rulesElements = loot.querySelectorAll('RulesElement')
+                        rulesElements.forEach(element => {
+                            const itemName = element.getAttribute('name')
+                            if (itemName) {
+                                items.push({
+                                    name: itemName,
+                                    type: element.getAttribute('type'),
+                                    count,
+                                    equipped: equipped > 0
+                                })
+                            }
+                        })
+                    })
+                }
+                
+                return items
+            }
+            
+            parseFeats(xmlDoc) {
+                const feats = []
+                const rulesElements = xmlDoc.querySelectorAll('RulesElementTally > RulesElement[type="Feat"]')
+                
+                rulesElements.forEach(element => {
+                    const featName = element.getAttribute('name')
+                    if (featName) {
+                        feats.push({
+                            name: featName,
+                            internalId: element.getAttribute('internal-id'),
+                            url: element.getAttribute('url')
+                        })
+                    }
+                })
+                
+                return feats
+            }
+            
+            parseClasses(xmlDoc) {
+                const classes = []
+                const rulesElements = xmlDoc.querySelectorAll('RulesElementTally > RulesElement[type="Class"], RulesElementTally > RulesElement[type="Hybrid Class"]')
+                
+                rulesElements.forEach(element => {
+                    const className = element.getAttribute('name')
+                    if (className) {
+                        classes.push({
+                            name: className,
+                            internalId: element.getAttribute('internal-id'),
+                            url: element.getAttribute('url')
+                        })
+                    }
+                })
+                
+                return classes
+            }
+            
+            parseRace(xmlDoc) {
+                const raceElement = xmlDoc.querySelector('RulesElementTally > RulesElement[type="Race"]')
+                if (!raceElement) return null
+                
+                return {
+                    name: raceElement.getAttribute('name'),
+                    internalId: raceElement.getAttribute('internal-id'),
+                    url: raceElement.getAttribute('url')
+                }
+            }
+            
+            findStatValue(statBlock, statName) {
+                const stat = statBlock.querySelector(`Stat > alias[name="${statName}"]`)
+                if (stat) {
+                    const statElement = stat.closest('Stat')
+                    return parseInt(statElement.getAttribute('value')) || 0
+                }
+                return null
+            }
+            
+            extractPowerUsage(powerName, xmlDoc) {
+                // First check for basic attacks and special cases
+                if (powerName.includes('Basic Attack')) return 'at-will'
+                if (powerName.includes('Second Wind')) return 'encounter'
+                if (powerName.includes('Opportunity Attack')) return 'at-will'
+                if (powerName.includes('Bull Rush Attack')) return 'at-will'
+                if (powerName.includes('Grab Attack')) return 'at-will'
+                
+                // Look for the power in the detailed Power sections
+                const powerElements = xmlDoc.querySelectorAll('Power')
+                for (const powerElement of powerElements) {
+                    if (powerElement.getAttribute('name') === powerName) {
+                        const usageElement = powerElement.querySelector('specific[name="Power Usage"]')
+                        if (usageElement) {
+                            const usage = usageElement.textContent.trim()
+                            if (usage.includes('At-Will')) return 'at-will'
+                            if (usage.includes('Encounter')) return 'encounter'
+                            if (usage.includes('Daily')) return 'daily'
+                            if (usage.includes('Utility')) return 'utility'
+                        }
+                    }
+                }
+                
+                // Default to at-will if we can't determine
+                return 'at-will'
+            }
+            
+            groupPowersByType(powers) {
+                const grouped = {
+                    'at-will': [],
+                    'encounter': [],
+                    'daily': [],
+                    'utility': []
+                }
+                
+                powers.forEach(power => {
+                    const type = power.usage || 'at-will'
+                    if (grouped[type]) {
+                        grouped[type].push(power)
+                    } else {
+                        grouped['at-will'].push(power)
+                    }
+                })
+                
+                return grouped
+            }
+            
+            getTextContent(parent, tagName) {
+                const element = parent.querySelector(tagName)
+                return element ? element.textContent.trim() : ''
+            }
+            
+            createCharacterSummary(character) {
+                return {
+                    name: character.details.name,
+                    level: character.details.level,
+                    race: character.race?.name,
+                    classes: character.classes.map(c => c.name).join(' / '),
+                    
+                    hp: character.stats.hp,
+                    maxHP: character.stats.maxHP,
+                    healingSurges: character.stats.healingSurges,
+                    maxSurges: character.stats.maxSurges,
+                    ac: character.stats.ac,
+                    fortitude: character.stats.fortitude,
+                    reflex: character.stats.reflex,
+                    will: character.stats.will,
+                    initiative: character.stats.initiative,
+                    speed: character.stats.speed,
+                    
+                    abilities: character.abilities,
+                    
+                    topSkills: Object.entries(character.skills)
+                        .sort(([,a], [,b]) => b.total - a.total)
+                        .slice(0, 5)
+                        .map(([name, skill]) => ({
+                            name: name.charAt(0).toUpperCase() + name.slice(1),
+                            total: skill.total,
+                            trained: skill.trained
+                        })),
+                    
+                    powers: {
+                        'at-will': character.powers['at-will']?.length || 0,
+                        'encounter': character.powers['encounter']?.length || 0,
+                        'daily': character.powers['daily']?.length || 0,
+                        'utility': character.powers['utility']?.length || 0
+                    },
+                    
+                    equippedItems: character.items.filter(item => item.equipped),
+                    totalItems: character.items.length,
+                    
+                    feats: character.feats.length
+                }
+            }
+        }
+        
+        // Initialize parser
+        const characterParser = new SimpleCharacterParser()
+        
+        // File handling
+        const fileInput = document.getElementById('file-input')
+        const uploadArea = document.getElementById('upload-area')
+        const status = document.getElementById('status')
+        const characterPreview = document.getElementById('character-preview')
+        const powersPreview = document.getElementById('powers-preview')
+        const powersContainer = document.getElementById('powers-container')
+        
+        function showStatus(message, type = 'info') {
+            status.textContent = message
+            status.className = `status ${type}`
+            status.style.display = 'block'
+        }
+        
+        function hideStatus() {
+            status.style.display = 'none'
+        }
+        
+        function showCharacterPreview(character) {
+            const summary = characterParser.createCharacterSummary(character)
+            
+            characterPreview.innerHTML = `
+                <div class="character-header">
+                    <div class="character-name">${summary.name}</div>
+                    <div class="character-level">Level ${summary.level}</div>
+                </div>
+                
+                <div class="character-stats">
+                    <div class="stat-item">
+                        <div class="stat-label">HP</div>
+                        <div class="stat-value">${summary.hp}/${summary.maxHP}</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-label">Surges</div>
+                        <div class="stat-value">${summary.healingSurges}/${summary.maxSurges}</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-label">AC</div>
+                        <div class="stat-value">${summary.ac}</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-label">Fort</div>
+                        <div class="stat-value">${summary.fortitude}</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-label">Ref</div>
+                        <div class="stat-value">${summary.reflex}</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-label">Will</div>
+                        <div class="stat-value">${summary.will}</div>
+                    </div>
+                </div>
+                
+                <div class="character-details">
+                    <div class="detail-section">
+                        <h4>Race & Classes</h4>
+                        <ul class="detail-list">
+                            <li><strong>Race:</strong> ${summary.race || 'Unknown'}</li>
+                            <li><strong>Classes:</strong> ${summary.classes || 'Unknown'}</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="detail-section">
+                        <h4>Abilities</h4>
+                        <ul class="detail-list">
+                            <li><strong>Str:</strong> ${summary.abilities.strength}</li>
+                            <li><strong>Con:</strong> ${summary.abilities.constitution}</li>
+                            <li><strong>Dex:</strong> ${summary.abilities.dexterity}</li>
+                            <li><strong>Int:</strong> ${summary.abilities.intelligence}</li>
+                            <li><strong>Wis:</strong> ${summary.abilities.wisdom}</li>
+                            <li><strong>Cha:</strong> ${summary.abilities.charisma}</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="detail-section">
+                        <h4>Top Skills</h4>
+                        <ul class="detail-list">
+                            ${summary.topSkills.map(skill => 
+                                `<li>${skill.name} ${skill.total}${skill.trained ? ' (Trained)' : ''}</li>`
+                            ).join('')}
+                        </ul>
+                    </div>
+                    
+                    <div class="detail-section">
+                        <h4>Powers</h4>
+                        <div class="powers-grid">
+                            <div class="power-type at-will">At-Will: ${summary.powers['at-will']}</div>
+                            <div class="power-type encounter">Encounter: ${summary.powers['encounter']}</div>
+                            <div class="power-type daily">Daily: ${summary.powers['daily']}</div>
+                            <div class="power-type utility">Utility: ${summary.powers['utility']}</div>
+                        </div>
+                    </div>
+                    
+                    <div class="detail-section">
+                        <h4>Equipment</h4>
+                        <ul class="detail-list">
+                            <li><strong>Equipped:</strong> ${summary.equippedItems.length} items</li>
+                            <li><strong>Total:</strong> ${summary.totalItems} items</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="detail-section">
+                        <h4>Feats</h4>
+                        <ul class="detail-list">
+                            <li><strong>Total:</strong> ${summary.feats} feats</li>
+                        </ul>
+                    </div>
+                </div>
+            `
+            
+            characterPreview.style.display = 'block'
+        }
+        
+        function showPowersPreview(character) {
+            powersContainer.innerHTML = ''
+            
+            // Show powers by type
+            const powerTypes = ['at-will', 'encounter', 'daily', 'utility']
+            
+            powerTypes.forEach(type => {
+                const powers = character.powers[type] || []
+                if (powers.length > 0) {
+                    const typeHeader = document.createElement('h4')
+                    typeHeader.textContent = `${type.charAt(0).toUpperCase() + type.slice(1)} Powers (${powers.length})`
+                    typeHeader.style.cssText = `
+                        color: #ffffff;
+                        margin: 20px 0 10px 0;
+                        padding-bottom: 5px;
+                        border-bottom: 1px solid #444444;
+                    `
+                    powersContainer.appendChild(typeHeader)
+                    
+                    powers.forEach(power => {
+                        const powerElement = document.createElement('div')
+                        powerElement.className = 'power-display'
+                        
+                        if (power.packData) {
+                            // Power found in packs - show full details
+                            powerElement.innerHTML = renderPowerDetails(power)
+                        } else {
+                            // Power not found - show basic info
+                            powerElement.innerHTML = renderBasicPower(power)
+                        }
+                        
+                        powersContainer.appendChild(powerElement)
+                    })
+                }
+            })
+            
+            powersPreview.style.display = 'block'
+        }
+        
+        function renderPowerDetails(power) {
+            const packData = power.packData
+            const system = packData.system || {}
+            
+            // Compact text display
+            const details = []
+            if (system.level) details.push(`Level ${system.level}`)
+            if (system.powersource) details.push(system.powersource)
+            if (system.activation?.type) details.push(system.activation.type)
+            if (system.target) details.push(`Target: ${system.target}`)
+            if (system.range?.value) details.push(`Range ${system.range.value}${system.range.units || ''}`)
+            
+            const description = system.description?.value ? formatDescription(system.description.value) : ''
+            const keywords = system.keyWords && system.keyWords.length > 0 ? system.keyWords.join(', ') : ''
+            
+            return `
+                <div class="power-header">
+                    <div class="power-name">${power.name}</div>
+                    <div class="power-usage ${power.usage}">${power.usage}</div>
+                </div>
+                
+                <div class="power-compact-details">
+                    <div class="power-meta">${details.join(' • ')}</div>
+                    ${description ? `<div class="power-description">${description}</div>` : ''}
+                    ${keywords ? `<div class="power-keywords">${keywords}</div>` : ''}
+                </div>
+            `
+        }
+        
+        function renderBasicPower(power) {
+            return `
+                <div class="power-header">
+                    <div class="power-name">${power.name}</div>
+                    <div class="power-usage ${power.usage}">${power.usage}</div>
+                </div>
+                
+                <div class="power-not-found">
+                    Power definition not found in packs. This is a basic power entry.
+                </div>
+            `
+        }
+        
+        function formatDescription(description) {
+            // Convert HTML to plain text and format for display
+            const div = document.createElement('div')
+            div.innerHTML = description
+            
+            // Extract text content and format
+            let text = div.textContent || div.innerText || ''
+            
+            // Clean up extra whitespace
+            text = text.replace(/\s+/g, ' ').trim()
+            
+            // Split into paragraphs
+            const paragraphs = text.split(/(?<=\.)\s+(?=[A-Z])/).filter(p => p.trim())
+            
+            return paragraphs.map(p => `<p>${p.trim()}</p>`).join('')
+        }
+        
+        async function handleFile(file) {
+            if (!file) return
+            
+            showStatus('Parsing character file...', 'info')
+            
+            try {
+                const xmlContent = await readFileAsText(file)
+                const character = await characterParser.parseCharacterFile(xmlContent)
+                
+                showCharacterPreview(character)
+                showPowersPreview(character)
+                showStatus('Character imported successfully!', 'success')
+                
+                // Auto-hide success message after 3 seconds
+                setTimeout(() => {
+                    hideStatus()
+                }, 3000)
+                
+            } catch (error) {
+                console.error('Error importing character:', error)
+                showStatus(`Import failed: ${error.message}`, 'error')
+            }
+        }
+        
+        function readFileAsText(file) {
+            return new Promise((resolve, reject) => {
+                const reader = new FileReader()
+                reader.onload = (e) => resolve(e.target.result)
+                reader.onerror = (e) => reject(new Error('Failed to read file'))
+                reader.readAsText(file)
+            })
+        }
+        
+        // Event listeners
+        fileInput.addEventListener('change', (event) => {
+            handleFile(event.target.files[0])
+        })
+        
+        uploadArea.addEventListener('dragover', (event) => {
+            event.preventDefault()
+            uploadArea.classList.add('dragover')
+        })
+        
+        uploadArea.addEventListener('dragleave', () => {
+            uploadArea.classList.remove('dragover')
+        })
+        
+        uploadArea.addEventListener('drop', (event) => {
+            event.preventDefault()
+            uploadArea.classList.remove('dragover')
+            
+            const files = event.dataTransfer.files
+            if (files.length > 0) {
+                handleFile(files[0])
+            }
+        })
+        
+        // Click to upload
+        uploadArea.addEventListener('click', () => {
+            fileInput.click()
+        })
+    </script>
+</body>
+</html>

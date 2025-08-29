@@ -1,0 +1,33 @@
+{
+	"name":"Cyran Vengeance (30th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you first become bloodied during an encounter, you gain one action point. You must spend this action point before the end of your next turn. Using this action point does not count against your normal action point expenditure during combat. In addition, if you spend the action point to make an attack against an undead or aberrant creature, you gain a bonus to the attack rolls and damage rolls equal to your Charisma modifier. </p><p>Published in Eberron Player's Guide, page(s) 82. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"destiny"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"yLJZDFXGC1hYbNm6",
+	"_key":"!items!yLJZDFXGC1hYbNm6"
+}

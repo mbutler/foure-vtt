@@ -1,0 +1,33 @@
+{
+	"name":"Beneath Notice",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Benefit: </b>When you and an ally are adjacent to the same enemy of Large or greater size, you gain combat advantage against that enemy. </p><p>Published in Dragon Magazine 391. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"FTsl2kMNDLBJ9xPm",
+	"_key":"!items!FTsl2kMNDLBJ9xPm"
+}

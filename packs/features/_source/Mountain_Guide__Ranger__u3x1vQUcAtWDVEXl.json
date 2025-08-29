@@ -1,0 +1,33 @@
+{
+	"name":"Mountain Guide (Ranger)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Whenever you succeed on an Athletics check to climb, you reduce the DC of that climb by 2 for your allies until the end of the encounter. Only allies who see you make the climb gain this benefit. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"u3x1vQUcAtWDVEXl",
+	"_key":"!items!u3x1vQUcAtWDVEXl"
+}

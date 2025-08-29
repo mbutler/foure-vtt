@@ -1,0 +1,33 @@
+{
+	"name":"Guardian's Mishaps [Tiefling Bloodline]",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Tiefling, Mantle of Misfortune feat, any defender </p><p><b>Benefit: </b>When you slide a creature as a result of your mantle of misfortune power, you can mark the target until the end of the creature's next turn. </p><p>Published in Dragon Magazine 383, page(s) 71. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"5Y8FeHD7QyT4VJRN",
+	"_key":"!items!5Y8FeHD7QyT4VJRN"
+}

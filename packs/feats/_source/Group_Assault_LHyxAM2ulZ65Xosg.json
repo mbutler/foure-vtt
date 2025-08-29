@@ -1,0 +1,33 @@
+{
+	"name":"Group Assault",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Half-elf, fighter </p><p><b>Benefit: </b>Allies gain a +1 bonus to damage rolls against targets marked by you. </p><p>Published in Martial Power, page(s) 136. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"LHyxAM2ulZ65Xosg",
+	"_key":"!items!LHyxAM2ulZ65Xosg"
+}

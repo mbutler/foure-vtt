@@ -1,0 +1,33 @@
+{
+	"name":"Level 6 Thief Utility Power",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You gain one of the following powers of your choice.</p>\n<p>@UUID[Compendium.dnd-4e-compendium.module-powers.mfEtPxcF6TgCsp7U]{Hidden Blade}@UUID[Compendium.dnd-4e-compendium.module-powers.7s0hcEXC4xNp3SLr]{Nimble Climb}@UUID[Compendium.dnd-4e-compendium.module-powers.PGwWq8RLMU3ZzrJs]{Slip Aside}@UUID[Compendium.dnd-4e-compendium.module-powers.UPy80OM9aBfuNtTI]{Swift Parry}</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"a8KmHsC5LiIf1An9",
+	"_key":"!items!a8KmHsC5LiIf1An9"
+}

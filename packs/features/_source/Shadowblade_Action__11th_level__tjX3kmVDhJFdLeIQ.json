@@ -1,0 +1,33 @@
+{
+	"name":"Shadowblade Action (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you spend an action point to take an extra action, you gain combat advantage for all your attacks until the end of your turn, and as your last action of the turn, you can teleport 10 squares as a free action. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"tjX3kmVDhJFdLeIQ",
+	"_key":"!items!tjX3kmVDhJFdLeIQ"
+}

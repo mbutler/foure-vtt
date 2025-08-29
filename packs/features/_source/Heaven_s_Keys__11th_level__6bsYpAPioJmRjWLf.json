@@ -1,0 +1,33 @@
+{
+	"name":"Heaven's Keys (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You and allies within 10 squares of you gain a +2 bonus to saving throws against effects that daze, immobilize, stun, or restrain. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"6bsYpAPioJmRjWLf",
+	"_key":"!items!6bsYpAPioJmRjWLf"
+}

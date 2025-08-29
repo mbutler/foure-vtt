@@ -1,0 +1,33 @@
+{
+	"name":"Enduring Oath (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When your oath of enmity target drops to 0 hit points, you can spend a healing surge as a free action. </p><p>Published in Player's Handbook 2, page(s) 45. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"tOGXE392T1AWLCcl",
+	"_key":"!items!tOGXE392T1AWLCcl"
+}

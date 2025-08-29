@@ -1,0 +1,33 @@
+{
+	"name":"Brutal Advantage",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>21st level, Str 17, rogue, Brutal Scoundrel class feature </p><p><b>Benefit: </b>When you have combat advantage against a target but don't use Sneak Attack against it, add your Strength modifier to the damage roll. </p><p>Published in Martial Power, page(s) 145. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"vF7hLNawWbsrck2o",
+	"_key":"!items!vF7hLNawWbsrck2o"
+}

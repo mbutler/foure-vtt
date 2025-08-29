@@ -1,0 +1,33 @@
+{
+	"name":"Second Step",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Halfling </p><p><b>Benefit: </b>When you use your second chance racial power, and the enemy rerolling its attack is larger than you, you can shift half your speed as a free action after the attack is completed. </p><p>Published in Dragon Magazine 381, page(s) 83. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"LPOzXV1AfSpYbCox",
+	"_key":"!items!LPOzXV1AfSpYbCox"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Sneaky Gnome (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You roll twice whenever you make a Stealth check and use either result. </p><p>Published in Player's Handbook 2, page(s) 21. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"DGFcqCHyInkZX8fh",
+	"_key":"!items!DGFcqCHyInkZX8fh"
+}

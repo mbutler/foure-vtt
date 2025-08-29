@@ -1,0 +1,33 @@
+{
+	"name":"Shadow Master",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Assassin (executioner) </p><p><b>Benefit: </b>Choose one assassin daily attack power of your level or lower. You gain that power. You can prepare one fewer vial of assassin poison during an extended rest. The vial lost must be of the highest-level assassin poison that you can create. </p><p>Published in Dragon Magazine 402. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"7O6zAlpMc9TsRZxy",
+	"_key":"!items!7O6zAlpMc9TsRZxy"
+}

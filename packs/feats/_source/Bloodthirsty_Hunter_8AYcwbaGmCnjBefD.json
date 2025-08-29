@@ -1,0 +1,33 @@
+{
+	"name":"Bloodthirsty Hunter",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Shadar-kai, ranger class, Hunter's Quarry class feature </p><p><b>Benefit: </b>If you reduce your quarry to 0 hit points, you can immediately choose a new quarry as a free action. If you hit the new quarry before the start of your next turn, you can apply your Hunter's Quarry damage even if you already used it this round. </p><p>Published in Dragon Magazine Annual, Dragon Magazine 372, page(s) 9. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"8AYcwbaGmCnjBefD",
+	"_key":"!items!8AYcwbaGmCnjBefD"
+}

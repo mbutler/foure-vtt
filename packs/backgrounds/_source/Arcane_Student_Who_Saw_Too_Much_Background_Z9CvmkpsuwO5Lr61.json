@@ -1,0 +1,33 @@
+{
+	"name":"Arcane Student Who Saw Too Much Background",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Type: </b>Campaign </p><p><b>Campaign Setting: </b>Scales of War Adventure Path </p><p>You've received extensive arcane training, but then you learned something sinister about your teachers. What did you learn? Did you confront them, or did you flee? Are they chasing you to try to win you back into the fold, or to make sure that you don't reveal their secrets? </p><p>Good Background: Wizard. </p><p><i>Benefit: </i>You receive a +1 bonus to saving throws to end effects that daze, stun, immobilize, or restrain you. </p><p>Published in Dragon Magazine 366, page(s) 61. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"background"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"Z9CvmkpsuwO5Lr61",
+	"_key":"!items!Z9CvmkpsuwO5Lr61"
+}

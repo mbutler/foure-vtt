@@ -1,0 +1,33 @@
+{
+	"name":"Rash Sneak Attack",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Human, rogue, Sneak Attack class feature </p><p><b>Benefit: </b>When you deal Sneak Attack damage, you can choose to gain a +2 bonus to the damage roll. If you do so, you grant combat advantage to all enemies until the end of your next turn. </p><p>Published in Martial Power, page(s) 138. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"nipIbv37jrGVqB2y",
+	"_key":"!items!nipIbv37jrGVqB2y"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Telepathic Gestalt (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You can link minds with your allies, splitting their focus and perceptions as you see fit. At the start of each of your turns, choose two conscious allies within 20 squares of you. (You don't have to be able to see them.) One of them gains a +2 bonus to Fortitude, Reflex, and Will, and the other takes a -2 penalty to the same defenses. </p><p>Published in Dark Sun Campaign Setting, page(s) 56. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"roLB6vZSh3aGCNKF",
+	"_key":"!items!roLB6vZSh3aGCNKF"
+}

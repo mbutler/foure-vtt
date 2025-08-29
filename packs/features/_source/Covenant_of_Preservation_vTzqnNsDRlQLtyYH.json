@@ -1,0 +1,33 @@
+{
+	"name":"Covenant of Preservation",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>The gods have charged you to defend the faithful and to ally with those who seek to defeat the gods' enemies. </p><p>Channel Divinity: You gain the Channel Divinity power preserver's rebuke. </p><p>Covenant Manifestation: When you use a divine encounter or daily attack power on your turn, you can slide an ally within 10 squares of you 1 square. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"vTzqnNsDRlQLtyYH",
+	"_key":"!items!vTzqnNsDRlQLtyYH"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Radiant Hunter",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>11th level, ranger, multiclass divine class </p><p><b>Benefit: </b>Whenever you would deal hunter's quarry damage against an enemy, you can choose to treat that damage as radiant damage. </p><p>Published in Dragon Magazine 371, page(s) 8. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"mqhr35aUSi4HRNVF",
+	"_key":"!items!mqhr35aUSi4HRNVF"
+}

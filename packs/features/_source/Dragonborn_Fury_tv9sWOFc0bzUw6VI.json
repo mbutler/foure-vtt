@@ -1,0 +1,33 @@
+{
+	"name":"Dragonborn Fury",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>While you are bloodied, you gain a +1 racial bonus to attack rolls.</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"race"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"tv9sWOFc0bzUw6VI",
+	"_key":"!items!tv9sWOFc0bzUw6VI"
+}

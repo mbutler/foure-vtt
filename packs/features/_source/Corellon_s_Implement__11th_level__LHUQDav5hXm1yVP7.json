@@ -1,0 +1,33 @@
+{
+	"name":"Corellon's Implement (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You gain proficiency with the longsword as an implement. In addition, if you have the Arcane Implement Mastery class feature, the benefits you gain from that feature for one implement, such as a staff or a wand, can be used with a longsword. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"LHUQDav5hXm1yVP7",
+	"_key":"!items!LHUQDav5hXm1yVP7"
+}

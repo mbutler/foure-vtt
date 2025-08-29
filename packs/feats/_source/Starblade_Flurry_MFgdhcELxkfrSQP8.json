@@ -1,0 +1,33 @@
+{
+	"name":"Starblade Flurry",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>11th level, monk, Flurry of Blows class feature </p><p><b>Benefit: </b>When you use your Flurry of Blows power, you can add a single target within 5 squares of you by throwing a dagger or a shuriken that you have in hand. Doing so doesn't provoke opportunity attacks. </p><p>Published in Player's Handbook 3, page(s) 189. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"MFgdhcELxkfrSQP8",
+	"_key":"!items!MFgdhcELxkfrSQP8"
+}

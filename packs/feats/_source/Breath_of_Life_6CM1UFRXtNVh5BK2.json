@@ -1,0 +1,33 @@
+{
+	"name":"Breath of Life",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Dragonborn, cleric </p><p><b>Benefit: </b>Your dragon breath racial power targets only enemies. Allies within the blast of your dragon breath gain temporary hit points equal to your Strength modifier. </p><p>Published in Divine Power, page(s) 131. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"6CM1UFRXtNVh5BK2",
+	"_key":"!items!6CM1UFRXtNVh5BK2"
+}

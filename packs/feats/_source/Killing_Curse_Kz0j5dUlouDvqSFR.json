@@ -1,0 +1,33 @@
+{
+	"name":"Killing Curse",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Warlock, Warlock's Curse class feature </p><p><b>Benefit: </b>The extra damage dice from your Warlock's Curse class feature increase from d6s to d8s. </p><p>Published in Dragon Magazine 384, page(s) 31. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"Kz0j5dUlouDvqSFR",
+	"_key":"!items!Kz0j5dUlouDvqSFR"
+}

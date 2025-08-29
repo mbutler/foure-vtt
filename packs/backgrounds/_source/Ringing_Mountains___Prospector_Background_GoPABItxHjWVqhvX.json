@@ -1,0 +1,33 @@
+{
+	"name":"Ringing Mountains - Prospector Background",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Type: </b>Geography </p><p><b>Campaign Setting: </b>Dark Sun </p><p>A handful of tough, resourceful miners eke out a living in the Ringing Mountains by digging for metal deposits. You grew up wandering the canyons and foothills in search of elusive precious metals. You might have practiced this trade with your family, or perhaps you were sold into slavery and forced into prospecting. Why did you leave this vocation behind? Do you know of a rich vein or a hidden mine that others might be willing to kill for? </p><p><i>Associated Skills: </i>Athletics, Nature </p><p>Published in Dark Sun Campaign Setting, page(s) 172. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"background"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"GoPABItxHjWVqhvX",
+	"_key":"!items!GoPABItxHjWVqhvX"
+}

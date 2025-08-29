@@ -1,0 +1,33 @@
+{
+	"name":"Auril, Frostmaiden",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Type: </b>God </p><p><b>Alignment: </b>Chaotic Evil </p><p><b>Gender: </b>Female </p><p><b>Sphere: </b>Winter </p><p><b>Dominion: </b>Deep Wilds </p><p><b>Priests: </b>Icepriestesses </p><p><b>Adjective: </b>Aurilian </p><p><b>Domain: </b>Storm, Winter </p><p>Auril is a fickle, vain, evil deity with a heart of ice who is venerated primarily out of fear. She remains untouched by any hint of true love, noble feeling, or honor. She enjoys toying with those who offend her, trapping them in snow storms and then driving them insane with tantalizing visions of warmth and the comforts of home before freezing them to death. </p><p>Published in Forgotten Realms Campaign Guide, page(s) 80. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"other"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"HKrIj89FM7JPsTxp",
+	"_key":"!items!HKrIj89FM7JPsTxp"
+}

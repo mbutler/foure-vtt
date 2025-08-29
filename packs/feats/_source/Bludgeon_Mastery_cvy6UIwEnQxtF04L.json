@@ -1,0 +1,33 @@
+{
+	"name":"Bludgeon Mastery",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>21st level, Str 19, Con 19 </p><p><b>Benefit: </b>When you make a melee weapon attack with a hammer, a mace, or a staff, you can score a critical hit on a natural roll of 19 or 20. </p><p>Addition (7/28/2008) </p><p>Add \"a \" before words \"mace\" and \"staff\" in Benefits line. </p><p>Published in Player's Handbook, page(s) 206. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"cvy6UIwEnQxtF04L",
+	"_key":"!items!cvy6UIwEnQxtF04L"
+}

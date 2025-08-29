@@ -1,0 +1,33 @@
+{
+	"name":"Dual Soul",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>At the start of your turn, you can make a saving throw against each effect currently rendering you dazed or dominated. If you fail the saving throw, you do not make a saving throw against the effect at the end of your turn.</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"race"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"VRPG8xzWFU0d9Jqk",
+	"_key":"!items!VRPG8xzWFU0d9Jqk"
+}

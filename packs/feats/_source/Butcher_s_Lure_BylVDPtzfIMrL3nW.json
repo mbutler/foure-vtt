@@ -1,0 +1,33 @@
+{
+	"name":"Butcher's Lure",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Gnoll </p><p><b>Benefit: </b>You can use ghost sound as an at-will ability and gain a +2 feat bonus to Bluff checks when using ghost sound to mimic specific people or sounds. </p><p>Published in Dragon Magazine 367, page(s) 54. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"BylVDPtzfIMrL3nW",
+	"_key":"!items!BylVDPtzfIMrL3nW"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Canine's Cunning (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>If you are within 5 squares of your beast companion, you can command it to shift 1 square as a minor action. When you do this, you can also shift 1 square. </p><p>Published in Martial Power, page(s) 65. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"8KqeJRGWS4Fmuh05",
+	"_key":"!items!8KqeJRGWS4Fmuh05"
+}

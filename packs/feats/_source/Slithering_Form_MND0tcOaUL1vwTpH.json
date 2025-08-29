@@ -1,0 +1,33 @@
+{
+	"name":"Slithering Form",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Druid, wild shape power </p><p><b>Benefit: </b>You do not provoke opportunity attacks when crawling while in beast form. </p><p>You gain a +2 feat bonus to Acrobatics checks. </p><p>Published in Dragon Magazine 383, page(s) 38. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"MND0tcOaUL1vwTpH",
+	"_key":"!items!MND0tcOaUL1vwTpH"
+}

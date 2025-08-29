@@ -1,0 +1,33 @@
+{
+	"name":"Life on the Edge",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Shadar-kai </p><p><b>Benefit: </b>Whenever you spend an action point while you are bloodied, you gain a +2 bonus to all rolls you make during the granted extra action. </p><p>Published in Dragon Magazine Annual, Dragon Magazine 372, page(s) 9. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"vEFkX3sYylbjpciq",
+	"_key":"!items!vEFkX3sYylbjpciq"
+}

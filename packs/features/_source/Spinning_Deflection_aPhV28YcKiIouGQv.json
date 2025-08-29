@@ -1,0 +1,33 @@
+{
+	"name":"Spinning Deflection",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>While you are wielding a quarterstaff, you are considered to be wielding a shield for powers and effects that require you to wield one, and you gain a +1 shield bonus to AC and Reflex.</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"aPhV28YcKiIouGQv",
+	"_key":"!items!aPhV28YcKiIouGQv"
+}

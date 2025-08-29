@@ -1,0 +1,33 @@
+{
+	"name":"Stormcaller Resistance (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You and your spirit companion gain resist 10 thunder and resist 10 lightning. Each ally adjacent to your spirit companion gains resist 5 thunder and resist 5 lightning. </p><p>Published in Dragon Magazine 385, page(s) 38. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"RjHtIrv6JA8Wo9nC",
+	"_key":"!items!RjHtIrv6JA8Wo9nC"
+}

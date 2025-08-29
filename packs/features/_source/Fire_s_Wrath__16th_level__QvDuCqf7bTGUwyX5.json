@@ -1,0 +1,33 @@
+{
+	"name":"Fire's Wrath (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>While you are bloodied, you gain resist 10 fire and a +2 bonus to damage rolls. </p><p>Published in Primal Power, page(s) 29. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"QvDuCqf7bTGUwyX5",
+	"_key":"!items!QvDuCqf7bTGUwyX5"
+}

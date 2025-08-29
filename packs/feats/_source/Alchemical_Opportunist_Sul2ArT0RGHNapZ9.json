@@ -1,0 +1,33 @@
+{
+	"name":"Alchemical Opportunist",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Benefit: </b>If you have an alchemical item in hand when an enemy provokes an opportunity attack from you, you can use the alchemical item instead of making a melee basic attack. </p><p>Published in Dragon Magazine 373, page(s) 9. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"Sul2ArT0RGHNapZ9",
+	"_key":"!items!Sul2ArT0RGHNapZ9"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Inspire Ferocity (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>While you are raging, any ally within 5 squares of you who hits with a melee attack gains a +2 bonus to the damage roll. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"m5xIt0MR49XdsyYP",
+	"_key":"!items!m5xIt0MR49XdsyYP"
+}

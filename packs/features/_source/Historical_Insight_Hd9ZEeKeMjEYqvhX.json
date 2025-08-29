@@ -1,0 +1,29 @@
+{
+	"name":"Historical Insight",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Armed with a voracious appetite for studying the antiquity of humanoid culture, you have an uncanny ability to discern the intent of individuals based solely on the historical exploits of their kind.<br>&nbsp;&nbsp;&nbsp;&nbsp;<em>Benefits:&nbsp;</em>You gain a +2 bonus to Insight checks. This benefit replaces the normal eladrin skill bonus to Arcana.</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"featureType":"race"
+	},
+	"effects":[],
+	"flags":{},
+	"folder":null,
+	"sort":0,
+	"_id":"Hd9ZEeKeMjEYqvhX",
+	"_key":"!items!Hd9ZEeKeMjEYqvhX"
+}

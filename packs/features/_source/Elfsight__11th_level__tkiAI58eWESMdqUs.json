@@ -1,0 +1,33 @@
+{
+	"name":"Elfsight (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You ignore the -2 penalty for attacking an enemy that has concealment. Also, your racial bonus to Perception checks increases to +4, and the racial bonus to Perception checks that you grant through your Group Awareness racial trait increases to +2. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"tkiAI58eWESMdqUs",
+	"_key":"!items!tkiAI58eWESMdqUs"
+}

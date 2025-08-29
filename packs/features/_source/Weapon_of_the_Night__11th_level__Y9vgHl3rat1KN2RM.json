@@ -1,0 +1,33 @@
+{
+	"name":"Weapon of the Night (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>As a minor action, you can create a shadowblade. It is a light blade with the light thrown property, a +3 proficiency bonus, 1d8 damage, and a range of 5/10. You are proficient in its use. The shadowblade disappears if you are not touching it at the end of your turn. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"Y9vgHl3rat1KN2RM",
+	"_key":"!items!Y9vgHl3rat1KN2RM"
+}

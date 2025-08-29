@@ -1,0 +1,33 @@
+{
+	"name":"Strength of the Dragon (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You gain resist 5 fire, or if you already have fire resistance, it increases by 5. Whenever you take fire damage, you gain a +2 bonus to damage rolls until the end of your next turn, even if your fire resistance negates the damage. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"ljn1TXMg2S5iOVpB",
+	"_key":"!items!ljn1TXMg2S5iOVpB"
+}

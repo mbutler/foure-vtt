@@ -1,0 +1,33 @@
+{
+	"name":"Renegade Red Wizard Starting Feature (1st level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>If you are hidden when you use an arcane attack power and miss every target, you do not automatically become visible (though the targets are entitled to new Perception checks to see if they notice you).<br></p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"theme"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"NZAQgSjHUr9fb8ov",
+	"_key":"!items!NZAQgSjHUr9fb8ov"
+}

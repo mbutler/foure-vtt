@@ -1,0 +1,33 @@
+{
+	"name":"Instant Retribution (30th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Each time an enemy within 5 squares of you scores a critical hit against you or one of your allies, the enemy takes damage equal to the damage it dealt with the hit. </p><p>Published in Divine Power, page(s) 148. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"destiny"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"e0XMAukdiYLI5jaz",
+	"_key":"!items!e0XMAukdiYLI5jaz"
+}

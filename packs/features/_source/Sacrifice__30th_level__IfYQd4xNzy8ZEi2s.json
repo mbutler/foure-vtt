@@ -1,0 +1,33 @@
+{
+	"name":"Sacrifice (30th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>As a minor action, you can spend a healing surge. Instead of regaining hit points, you regain an encounter power. Once per day, instead of regaining an encounter power in the manner described above, you can regain a daily power. </p><p>Published in Dragon Magazine 390. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"destiny"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"IfYQd4xNzy8ZEi2s",
+	"_key":"!items!IfYQd4xNzy8ZEi2s"
+}

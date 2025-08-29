@@ -1,0 +1,33 @@
+{
+	"name":"Darkfire Strike",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Drow, fighter </p><p><b>Benefit: </b>When you hit a creature marked by you with a melee attack, you can use your darkfire against that creature as a free action. Using darkfire in this way doesn't provoke opportunity attacks. </p><p>Published in Martial Power 2, page(s) 132. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"E7Ig2bUteF8X1KBY",
+	"_key":"!items!E7Ig2bUteF8X1KBY"
+}

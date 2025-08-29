@@ -1,0 +1,33 @@
+{
+	"name":"Discipline Focus (Hybrid)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Choose a Discipline Focus option. If you choose Telekinesis Focus, you gain the far hand power. If you choose Telepathy Focus, you gain the send thoughts power. If you choose Shaper Focus, you gain the minor creation power.</p>\n<p>@UUID[Compendium.dnd-4e-compendium.module-features.dFXPfvSHGiLUr6k3]{Telekinesis Focus (Hybrid)}@UUID[Compendium.dnd-4e-compendium.module-powers.nHOLX6Z5qB7GwWps]{Far Hand}@UUID[Compendium.dnd-4e-compendium.module-features.gJ37bwFasAPTohnM]{Telepathy Focus (Hybrid)}@UUID[Compendium.dnd-4e-compendium.module-powers.AI34U6fMz97FHVqn]{Send Thoughts}</p>\n<p>Published in Player's Handbook 3, page(s) 147.</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"g5uKQWa4N1XJUmty",
+	"_key":"!items!g5uKQWa4N1XJUmty"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Trapbuster",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Kobold, training in Thievery </p><p><b>Benefit: </b>You can roll two dice and use either result when you make a Perception check to detect a trap. In addition, you never trigger a trap when you fail a Thievery check to disable it. </p><p>Published in Into the Unknown: The Dungeon Survival Handbook, page(s) 44. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"KiaOT98nqGkx6dwv",
+	"_key":"!items!KiaOT98nqGkx6dwv"
+}

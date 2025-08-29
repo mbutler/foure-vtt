@@ -1,0 +1,33 @@
+{
+	"name":"Flurry of Action (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you spend an action point to make a swordmage attack or a Sharakim blademaster attack, if the attack hits you can use your furious assault racial power to add extra damage to that attack, even if you have already used furious assault during this encounter. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"fRj4YA6BT05ZWEyw",
+	"_key":"!items!fRj4YA6BT05ZWEyw"
+}

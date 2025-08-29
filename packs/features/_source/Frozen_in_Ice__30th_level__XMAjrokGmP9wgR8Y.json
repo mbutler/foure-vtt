@@ -1,0 +1,33 @@
+{
+	"name":"Frozen in Ice (30th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Once per day, when a creature fails a saving throw against an effect you caused with a power with the cold keyword, as a free action you make the target restrained (save ends). If that target then fails to save against the restrained condition, it is instead petrified (save ends). </p><p>Published in Dragon Magazine 372, page(s) 44. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"destiny"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"XMAjrokGmP9wgR8Y",
+	"_key":"!items!XMAjrokGmP9wgR8Y"
+}

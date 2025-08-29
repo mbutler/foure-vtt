@@ -1,0 +1,33 @@
+{
+	"name":"Advantageous Perspective",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>11th level, fighter, Small size </p><p><b>Benefit: </b>When you make a melee weapon attack, you score a critical hit on a natural roll of 19 or 20 against Large or larger creatures granting combat advantage to you. </p><p>Published in Dragon Magazine 378. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"xoHu3QmdYNpOzt5I",
+	"_key":"!items!xoHu3QmdYNpOzt5I"
+}

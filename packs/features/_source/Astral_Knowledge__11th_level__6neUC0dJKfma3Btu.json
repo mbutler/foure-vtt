@@ -1,0 +1,33 @@
+{
+	"name":"Astral Knowledge (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You gain an encounter attack power of 7th level or lower from your class. You cannot choose a power that you already know. At 21st level, you can replace this power with an encounter attack power of 13th level or lower from your class. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"6neUC0dJKfma3Btu",
+	"_key":"!items!6neUC0dJKfma3Btu"
+}

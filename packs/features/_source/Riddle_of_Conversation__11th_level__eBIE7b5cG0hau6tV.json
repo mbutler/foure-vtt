@@ -1,0 +1,33 @@
+{
+	"name":"Riddle of Conversation (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You gain a +2 bonus to Bluff, Diplomacy, Insight, and Intimidate checks. You also gain training in one of those skills. In addition, whenever you use your Flurry of Blows power, one ally adjacent to you or to a target of that power can shift as a free action. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"eBIE7b5cG0hau6tV",
+	"_key":"!items!eBIE7b5cG0hau6tV"
+}

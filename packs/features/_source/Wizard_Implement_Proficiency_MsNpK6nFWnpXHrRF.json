@@ -1,0 +1,29 @@
+{
+	"name":"Wizard Implement Proficiency",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>The legendary magical skill of sun elves comes from a devotion to the use of arcane magic that extends as far back as the Crown Wars. Many eladrin learn to use the tools of arcane casters, employing those devices for aid in the use of their own magic.<br>&nbsp;&nbsp;&nbsp;&nbsp;<em>Benefits:&nbsp;</em>You gain proficiency with the orb, the staff, and the wand as implements. This benefit replaces Eladrin Weapon Proficiency.</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"featureType":"race"
+	},
+	"effects":[],
+	"flags":{},
+	"folder":null,
+	"sort":0,
+	"_id":"MsNpK6nFWnpXHrRF",
+	"_key":"!items!MsNpK6nFWnpXHrRF"
+}

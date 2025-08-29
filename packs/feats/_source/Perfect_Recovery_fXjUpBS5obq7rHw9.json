@@ -1,0 +1,33 @@
+{
+	"name":"Perfect Recovery",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>21st level, human </p><p><b>Benefit: </b>When you spend an action point to take an extra action, end one effect on you that a save can end. </p><p>Published in Dragon Magazine 383, page(s) 67. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"fXjUpBS5obq7rHw9",
+	"_key":"!items!fXjUpBS5obq7rHw9"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Driven into Hiding Background",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Type: </b>Racial </p><p><b>Campaign Setting: </b>General </p><p><b>Prerequisite: </b>Changeling </p><p>You wear your disguise out of fear. You might live in a land where all changelings are hunted, or you might be singled out. Perhaps you were falsely accused of a crime, or witnessed something so unspeakable that the perpetrator cannot bear to let you live. How do you decide who to trust with your identity and who might betray you? </p><p><i>Associated Skills: </i>Bluff, Stealth </p><p>Associated Languages: A language the imitated race speaks. </p><p>Published in Dragon Magazine 386, page(s) 54. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"background"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"p0HsZ5EetiU6boaT",
+	"_key":"!items!p0HsZ5EetiU6boaT"
+}

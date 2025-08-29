@@ -1,0 +1,33 @@
+{
+	"name":"Concordant Action (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you spend an action point to take an extra action, you can also change your elemental manifestation to any other you are capable of manifesting. When you do, you also regain the use of the power associated with the new manifestation if you have used it during this encounter. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"bvOQuoEzqLjrMgFT",
+	"_key":"!items!bvOQuoEzqLjrMgFT"
+}

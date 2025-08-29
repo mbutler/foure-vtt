@@ -1,0 +1,33 @@
+{
+	"name":"Unchained Assault (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you hit with an attack while you are slowed, immobilized, or restrained, you end slowing, immobilizing, or restraining effects currently affecting you. </p><p>Published in Dragon Magazine 391. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"6k5DuObjISYhLHR9",
+	"_key":"!items!6k5DuObjISYhLHR9"
+}

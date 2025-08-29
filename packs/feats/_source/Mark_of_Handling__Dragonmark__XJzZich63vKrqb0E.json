@@ -1,0 +1,33 @@
+{
+	"name":"Mark of Handling [Dragonmark]",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Benefit: </b>You can use a creature's mount powers as if you had the Mounted Combat feat. </p><p>While you are mounted on a natural beast, the mount gains a +2 feat bonus to speed and a +1 feat bonus to AC. </p><p>If you have a beast companion, your beast companion gains a +2 feat bonus to speed and a +1 feat bonus to AC. </p><p>You can master and perform the Animal Messenger and Steed Summons rituals as if you had the Ritual Caster feat. </p><p>Published in Eberron Player's Guide, page(s) 90. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"XJzZich63vKrqb0E",
+	"_key":"!items!XJzZich63vKrqb0E"
+}

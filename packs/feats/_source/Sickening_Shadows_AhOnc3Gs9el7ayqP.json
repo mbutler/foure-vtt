@@ -1,0 +1,33 @@
+{
+	"name":"Sickening Shadows",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>11th level, warlock, Shadow Walk class feature </p><p><b>Benefit: </b>Whenever an enemy misses you with a melee attack while you have concealment from Shadow Walk, that enemy takes necrotic damage equal to your Intelligence modifier. </p><p>Published in Dragon Magazine 382, page(s) 52. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"AhOnc3Gs9el7ayqP",
+	"_key":"!items!AhOnc3Gs9el7ayqP"
+}

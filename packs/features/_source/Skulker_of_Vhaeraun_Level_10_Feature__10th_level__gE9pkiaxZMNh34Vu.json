@@ -1,0 +1,33 @@
+{
+	"name":"Skulker of Vhaeraun Level 10 Feature (10th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you deal poison damage to a creature, it takes a -2 penalty to the next attack roll it makes before the end of its next turn. This is a poison effect.</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"theme"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"gE9pkiaxZMNh34Vu",
+	"_key":"!items!gE9pkiaxZMNh34Vu"
+}

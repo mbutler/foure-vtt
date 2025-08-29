@@ -1,0 +1,33 @@
+{
+	"name":"Eldritch Abduction (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Whenever you teleport while your defender aura is active, you can teleport one willing creature in the aura to an unoccupied square adjacent to you at the end of your movement. You cannot teleport the creature into hindering terrain. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"826gKZEjl9IckmAN",
+	"_key":"!items!826gKZEjl9IckmAN"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Critical Ambush",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>21st level, rogue, Sneak Attack class feature </p><p><b>Benefit: </b>If you score a critical hit with a weapon that you can Sneak Attack with, you can apply your Sneak Attack damage if you have it available. </p><p>Published in Dragon Magazine 373, page(s) 11. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"vnkxS2plzNqUsF63",
+	"_key":"!items!vnkxS2plzNqUsF63"
+}

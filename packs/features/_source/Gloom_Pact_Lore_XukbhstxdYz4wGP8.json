@@ -1,0 +1,33 @@
+{
+	"name":"Gloom Pact Lore",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You gain darkvision and resist 5 necrotic. If you already have necrotic resistance of 5 or higher, that resistance instead increases by 5. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"XukbhstxdYz4wGP8",
+	"_key":"!items!XukbhstxdYz4wGP8"
+}

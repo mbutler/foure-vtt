@@ -1,0 +1,33 @@
+{
+	"name":"Reactive Jaunt",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>11th level, shadar-kai, shadow jaunt racial power </p><p><b>Benefit: </b>You can use shadow jaunt as an immediate reaction, triggered when an enemy damages you. </p><p>Published in Dragon Magazine Annual, Dragon Magazine 372, page(s) 10. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"ZXCQKhmbq6juUV5D",
+	"_key":"!items!ZXCQKhmbq6juUV5D"
+}

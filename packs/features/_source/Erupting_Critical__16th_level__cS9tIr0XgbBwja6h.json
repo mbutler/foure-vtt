@@ -1,0 +1,33 @@
+{
+	"name":"Erupting Critical (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you score a critical hit using an ardent power, each ally within 5 squares of you gains a +5 bonus to damage rolls until the start of your next turn. </p><p>Published in Psionic Power, page(s) 24. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"cS9tIr0XgbBwja6h",
+	"_key":"!items!cS9tIr0XgbBwja6h"
+}

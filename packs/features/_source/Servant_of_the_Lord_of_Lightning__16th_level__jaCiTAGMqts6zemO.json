@@ -1,0 +1,33 @@
+{
+	"name":"Servant of the Lord of Lightning (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you hit a creature with a lightning attack power, each enemy adjacent to the target takes lightning damage equal to your Intelligence modifier. </p><p>Published in Arcane Power, page(s) 95. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"jaCiTAGMqts6zemO",
+	"_key":"!items!jaCiTAGMqts6zemO"
+}

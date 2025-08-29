@@ -1,0 +1,33 @@
+{
+	"name":"Cleansing Challenge",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Cha 15, paladin, divine challenge class feature </p><p><b>Benefit: </b>When you use divine challenge to mark an undead creature, you also deal 2 radiant damage to that creature. At 11th level you deal 4 radiant damage, and at 21st level you deal 6 radiant damage. </p><p>Published in Dragon Magazine 371, page(s) 8. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"GC6h4i1o8p03z27m",
+	"_key":"!items!GC6h4i1o8p03z27m"
+}

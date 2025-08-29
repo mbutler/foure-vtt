@@ -1,0 +1,33 @@
+{
+	"name":"Aegis of Assault",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You can use the Aegis of Assault power to teleport to the side of of the attacker and respond with an attack of your own. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"wIFWq93X7oCn16ki",
+	"_key":"!items!wIFWq93X7oCn16ki"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Virtue of Deceit (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you use your Bardic Virtue class feature, one ally you choose within 5 squares of you gains combat advantage against the target of his or her next attack. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"pzTgy4PUOk0SWfcv",
+	"_key":"!items!pzTgy4PUOk0SWfcv"
+}

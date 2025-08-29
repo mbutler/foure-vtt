@@ -1,0 +1,33 @@
+{
+	"name":"Martyr's Strike (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When an attack reduces you to 0 hit points or fewer, you can use an at-will attack power as a free action before falling unconscious. </p><p>Published in Divine Power, page(s) 104. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"06LChQfGudyX4WDU",
+	"_key":"!items!06LChQfGudyX4WDU"
+}

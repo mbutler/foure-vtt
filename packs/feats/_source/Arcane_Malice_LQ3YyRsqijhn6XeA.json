@@ -1,0 +1,33 @@
+{
+	"name":"Arcane Malice",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Any arcane class, you have a spellscar </p><p><b>Benefit: </b>Whenever you make an arcane daily attack, you gain a +2 bonus to damage rolls against one creature you hit with that attack until the end of the encounter. If you have the Student of the Plague feat, you also gain a +1 bonus to attack rolls against that creature until the end of the encounter. </p><p>Published in Dragon Magazine 385, page(s) 24. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"LQ3YyRsqijhn6XeA",
+	"_key":"!items!LQ3YyRsqijhn6XeA"
+}

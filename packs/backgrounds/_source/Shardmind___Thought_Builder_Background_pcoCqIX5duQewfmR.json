@@ -1,0 +1,33 @@
+{
+	"name":"Shardmind - Thought Builder Background",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Type: </b>Racial </p><p><b>Campaign Setting: </b>General </p><p><b>Prerequisite: </b>Shardmind </p><p>You seek to create a new Living Gate and to imbue it with the psionic power necessary to keep the influence of the Far Realm at bay. The sect is prominent in the planar metropolis of Hestavar. Most members of the Thought Builders are dedicated to Ioun. They tend to be unaligned or good. </p><p><i>Associated Skills: </i>Arcana, Religion </p><p>Published in Player's Handbook 3, page(s) 13. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"background"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"pcoCqIX5duQewfmR",
+	"_key":"!items!pcoCqIX5duQewfmR"
+}

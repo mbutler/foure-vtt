@@ -1,0 +1,33 @@
+{
+	"name":"Enhanced Power Strike",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You gain one more use of power strike per encounter. In addition, you gain one of the following features depending on your choice of off-hand weapon.</p>\n<p>@UUID[Compendium.dnd-4e-compendium.module-features.fXKi3R10btBD28jC]{Eagle's Axe}</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"8OjNrbt9FmhERpzJ",
+	"_key":"!items!8OjNrbt9FmhERpzJ"
+}

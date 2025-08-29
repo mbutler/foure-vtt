@@ -1,0 +1,33 @@
+{
+	"name":"Martyr's Surge",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Ardent, ardent surge power </p><p><b>Benefit: </b>When you use your ardent surge while bloodied, the hit points regained by the target increase by 1d6. </p><p>Published in Psionic Power, page(s) 132. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"8dxrG5yhZcaTI2ms",
+	"_key":"!items!8dxrG5yhZcaTI2ms"
+}

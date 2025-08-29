@@ -1,0 +1,33 @@
+{
+	"name":"Dreadful Invocation",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>21st level, invoker, trained in Intimidate </p><p><b>Benefit: </b>Whenever you score a critical hit with an invoker encounter or daily attack power, that enemy moves its speed away from you by the safest means available and takes a -2 penalty to attack rolls (save ends). Creatures immune to fear do not move and do not take this penalty. </p><p>Published in Dragon Magazine 387, page(s) 43. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"WtslJGCZ0XPeAVkz",
+	"_key":"!items!WtslJGCZ0XPeAVkz"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Close the Gap",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>21st level, ardent, Mantle of Impulsiveness class feature </p><p><b>Benefit: </b>Each ally within the radius of your Ardent Mantle at the start of an encounter can shift 1 square as a free action. </p><p>Published in Psionic Power, page(s) 139. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"4cd9xsBZENJlUVIy",
+	"_key":"!items!4cd9xsBZENJlUVIy"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Essence of Undeath (30th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Whenever an enemy within 5 squares of you is reduced to 0 hit points or fewer, you regain the use of an expended arcane encounter power. </p><p>Published in Arcane Power, page(s) 143. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"destiny"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"1uzoZPaYFR9rq7k3",
+	"_key":"!items!1uzoZPaYFR9rq7k3"
+}

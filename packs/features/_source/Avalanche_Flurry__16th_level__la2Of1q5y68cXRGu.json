@@ -1,0 +1,33 @@
+{
+	"name":"Avalanche Flurry (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Once per round, when you use your stone fist flurry of blows against a target that was not the target of the triggering attack, you can knock the target prone instead of dealing damage. </p><p>Published in Player's Handbook 3, page(s) 78. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"la2Of1q5y68cXRGu",
+	"_key":"!items!la2Of1q5y68cXRGu"
+}

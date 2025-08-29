@@ -1,0 +1,33 @@
+{
+	"name":"Human Innovation",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Human, artificer, Impart Energy class feature </p><p><b>Benefit: </b>When you spend an action point, you also allow an adjacent ally to regain the use of a magic item's daily power. This counts as a use of Impart Energy for the purpose of determining the number of times per day an item can be recharged. </p><p>Published in Dragon Magazine 387, page(s) 34. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"rQJhmgejpoF6DXkR",
+	"_key":"!items!rQJhmgejpoF6DXkR"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Far Shadow",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Drow, assassin, cloud of darkness power </p><p><b>Benefit: </b>You can use cloud of darkness as an area burst 1 within 10 squares. </p><p>Published in Dragon Magazine 385, page(s) 34. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"V6t7FuBfEGxwWRy5",
+	"_key":"!items!V6t7FuBfEGxwWRy5"
+}

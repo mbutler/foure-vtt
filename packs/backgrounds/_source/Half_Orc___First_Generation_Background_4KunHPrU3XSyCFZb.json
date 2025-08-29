@@ -1,0 +1,33 @@
+{
+	"name":"Half-Orc - First Generation Background",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Type: </b>Racial </p><p><b>Campaign Setting: </b>General </p><p><b>Prerequisite: </b>Half-Orc </p><p>One of your parents was a human, and the other was an orc. What circumstances brought them together? Who raised you? Were you welcome in your home village or city, or treated as an outcast? </p><p><i>Associated Skills: </i>Bluff </p><p>Published in Player's Handbook 2, page(s) 183. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"background"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"4KunHPrU3XSyCFZb",
+	"_key":"!items!4KunHPrU3XSyCFZb"
+}

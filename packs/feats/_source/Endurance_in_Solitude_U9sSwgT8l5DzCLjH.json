@@ -1,0 +1,33 @@
+{
+	"name":"Endurance in Solitude",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>11th level, wasteland nomad theme </p><p><b>Benefit: </b>When you use your second wind while no allies are adjacent to you, you regain additional hit points equal to 5 + your primary ability modifier. </p><p>Published in Dark Sun Campaign Setting, page(s) 114. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"U9sSwgT8l5DzCLjH",
+	"_key":"!items!U9sSwgT8l5DzCLjH"
+}

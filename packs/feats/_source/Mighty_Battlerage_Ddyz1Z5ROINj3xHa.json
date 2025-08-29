@@ -1,0 +1,33 @@
+{
+	"name":"Mighty Battlerage",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>11th level, Con 15, fighter, Battlerager Vigor class feature </p><p><b>Benefit: </b>The damage bonus granted by your Battlerager Vigor increases by 1. At 21st level, it increases by 2. </p><p>Published in Martial Power, page(s) 144. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"Ddyz1Z5ROINj3xHa",
+	"_key":"!items!Ddyz1Z5ROINj3xHa"
+}

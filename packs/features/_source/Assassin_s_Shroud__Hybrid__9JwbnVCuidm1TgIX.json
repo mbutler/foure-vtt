@@ -1,0 +1,33 @@
+{
+	"name":"Assassin's Shroud (Hybrid)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><p>You gain the assassin power assassin's shroud, except you can subject a target to a maximum of two shrouds and you can invoke your shrouds on a target only when you attack with an assassin power or an assassin paragon path power. </p>@UUID[Compendium.dnd-4e-compendium.module-powers.evmd1YQPrqU3RGW5]{Assassin's Shroud}</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"9JwbnVCuidm1TgIX",
+	"_key":"!items!9JwbnVCuidm1TgIX"
+}

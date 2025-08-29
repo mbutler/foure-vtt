@@ -1,0 +1,33 @@
+{
+	"name":"Disciple of Inspiration",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Intelligence 13 </p><p><b>Benefit: </b>When you use an at-will attack power and miss every target, you gain a +1 bonus to attack rolls until the end of your next turn. </p><p>Published in Heroes of the Fallen Lands, page(s) 312, Heroes of the Forgotten Kingdoms, page(s) 312. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"2h5kft3xzsZaVcIO",
+	"_key":"!items!2h5kft3xzsZaVcIO"
+}

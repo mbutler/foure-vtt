@@ -1,0 +1,33 @@
+{
+	"name":"Carrion Eater",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Gnoll </p><p><b>Benefit: </b>You receive a +4 feat bonus to saving throws against poison and Endurance checks made to resist disease. </p><p>Published in Dragon Magazine 367, page(s) 54. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"YTHi0r2QNcJMVkAa",
+	"_key":"!items!YTHi0r2QNcJMVkAa"
+}

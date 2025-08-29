@@ -1,0 +1,33 @@
+{
+	"name":"Enmity Shared",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>21st level, avenger, oath of enmity power </p><p><b>Benefit: </b>When you use your oath of enmity, the target grants combat advantage until the end of your next turn. </p><p>Published in Divine Power, page(s) 141. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"POXbpyLIrfDVMqnk",
+	"_key":"!items!POXbpyLIrfDVMqnk"
+}

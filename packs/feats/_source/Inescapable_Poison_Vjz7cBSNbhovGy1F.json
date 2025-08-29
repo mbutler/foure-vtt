@@ -1,0 +1,33 @@
+{
+	"name":"Inescapable Poison",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Athasian minstrel theme, poisoned strike power </p><p><b>Benefit: </b>Your poisoned strike deals 2 extra poison damage. In addition, when you miss a target with your poisoned strike, that target takes 7 poison damage. </p><p>Published in Dark Sun Campaign Setting, page(s) 109. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"Vjz7cBSNbhovGy1F",
+	"_key":"!items!Vjz7cBSNbhovGy1F"
+}

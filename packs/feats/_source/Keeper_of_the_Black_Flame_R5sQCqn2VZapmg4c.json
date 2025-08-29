@@ -1,0 +1,33 @@
+{
+	"name":"Keeper of the Black Flame",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Drow, assassin, assassin's shroud power </p><p><b>Benefit: </b>When you hit a target that has at least one of your shrouds on it with your darkfire racial power the target is subject to an additional shroud. </p><p>Revision (2/24/2010) </p><p>Change benefit to read \"When you hit a target that has at least one of your shrouds on it with your darkfire racial power the target is subject to an additional shroud.\" </p><p>Published in Dragon Magazine 382, page(s) 30. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"R5sQCqn2VZapmg4c",
+	"_key":"!items!R5sQCqn2VZapmg4c"
+}

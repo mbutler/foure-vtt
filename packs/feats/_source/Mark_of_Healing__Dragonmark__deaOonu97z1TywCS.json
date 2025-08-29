@@ -1,0 +1,33 @@
+{
+	"name":"Mark of Healing [Dragonmark]",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Benefit: </b>Whenever you use a healing power on an ally or use Heal to allow an ally to spend his or her second wind, that ally can also make a saving throw. </p><p>You can master and perform rituals in the restoration category and the Remove Affliction ritual as if you had the Ritual Caster feat. </p><p>Published in Eberron Player's Guide, page(s) 91. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"deaOonu97z1TywCS",
+	"_key":"!items!deaOonu97z1TywCS"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Vile Scholar Starting Feature (1st level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You are fluent in Abyssal.<br>In addition, you gain a +2 bonus to Bluff checks, Diplomacy checks, and Intimidate checks when interacting with evil creatures. You also gain the dark speech power.<br></p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"theme"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"Ag7eDEy6Fu12W59B",
+	"_key":"!items!Ag7eDEy6Fu12W59B"
+}

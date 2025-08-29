@@ -1,0 +1,33 @@
+{
+	"name":"Volley Fire (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>If you score a critical hit with a ranged bard attack power, you can make a ranged basic attack against the target as a free action. </p><p>Published in Arcane Power, page(s) 19. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"Kwc0z3rSkPaXh4Fg",
+	"_key":"!items!Kwc0z3rSkPaXh4Fg"
+}

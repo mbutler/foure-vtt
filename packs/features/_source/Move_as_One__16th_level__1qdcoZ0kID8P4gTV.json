@@ -1,0 +1,33 @@
+{
+	"name":"Move as One (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you move using a move action, one of your summoned creatures can move its speed. </p><p>Published in Primal Power, page(s) 56. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"1qdcoZ0kID8P4gTV",
+	"_key":"!items!1qdcoZ0kID8P4gTV"
+}

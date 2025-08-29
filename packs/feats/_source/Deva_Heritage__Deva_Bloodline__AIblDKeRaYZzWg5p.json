@@ -1,0 +1,33 @@
+{
+	"name":"Deva Heritage [Deva Bloodline]",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Living humanoid race </p><p><b>Benefit: </b>You gain astral splendor as a utility power. Also, you gain a +2 bonus to Perception and Insight checks against angels, devas, devils, and rakshasas. </p><p>Published in Dragon Magazine 374, page(s) 49. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"AIblDKeRaYZzWg5p",
+	"_key":"!items!AIblDKeRaYZzWg5p"
+}

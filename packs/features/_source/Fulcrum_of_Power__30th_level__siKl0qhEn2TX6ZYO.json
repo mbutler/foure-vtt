@@ -1,0 +1,33 @@
+{
+	"name":"Fulcrum of Power (30th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you are damaged by an attack power that a creature can recharge, the attacking creature can't attempt to recharge that power until you make an attack roll against it. </p><p>Published in Arcane Power, page(s) 147. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"destiny"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"siKl0qhEn2TX6ZYO",
+	"_key":"!items!siKl0qhEn2TX6ZYO"
+}

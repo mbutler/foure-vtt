@@ -1,0 +1,33 @@
+{
+	"name":"Irresistible Flame",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>21st level </p><p><b>Benefit: </b>Treat your target's resist fire as 20 fewer than normal when determining damage for your attacks. </p><p>Published in Player's Handbook, page(s) 207. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"D6PeGvgubfnwR73V",
+	"_key":"!items!D6PeGvgubfnwR73V"
+}

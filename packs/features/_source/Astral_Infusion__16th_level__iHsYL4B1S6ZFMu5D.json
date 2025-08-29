@@ -1,0 +1,33 @@
+{
+	"name":"Astral Infusion (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You gain a bonus to death saving throws and to your healing surge value equal to your Wisdom modifier. If you are on the Astral Sea or in any divine dominion there, you can't die as a result of failing three death saving throws, although damage can still kill you. </p><p>Published in Martial Power, page(s) 64. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"iHsYL4B1S6ZFMu5D",
+	"_key":"!items!iHsYL4B1S6ZFMu5D"
+}

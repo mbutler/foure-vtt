@@ -1,0 +1,33 @@
+{
+	"name":"Thaneborn Fury",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Barbarian, Thaneborn Triumph class feature </p><p><b>Benefit: </b>When you hit a creature with a melee basic attack granted by the Rampage class feature, the target takes a -2 penalty to attack rolls until the end of your next turn. A creature that is immune to fear is not subject to this penalty. </p><p>Published in Dragon Magazine 386, page(s) 51. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"7axlOihRpcVfwrZ1",
+	"_key":"!items!7axlOihRpcVfwrZ1"
+}

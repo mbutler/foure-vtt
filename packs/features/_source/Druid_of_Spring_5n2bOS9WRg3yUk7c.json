@@ -1,0 +1,33 @@
+{
+	"name":"Druid of Spring",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You gain the following benefits. </p><p><img> </img>Your animal companion is a wolf. </p><p><img> </img>You gain proficiency with the scimitar. </p><p><img> </img>You gain a +1 bonus to attack rolls with scimitars, spears, daggers, and sickles. </p><p><img> </img>You gain a +2 bonus to Heal checks. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"5n2bOS9WRg3yUk7c",
+	"_key":"!items!5n2bOS9WRg3yUk7c"
+}

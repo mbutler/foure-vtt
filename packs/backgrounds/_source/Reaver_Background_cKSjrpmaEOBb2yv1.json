@@ -1,0 +1,33 @@
+{
+	"name":"Reaver Background",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Campaign Setting: </b>General </p><p>You were raised from birth to withstand the heartless weather of your homeland and to greet your enemies with utter savagery-the kind of brutality that weakens the knees of even the most stalwart civilized folk. </p><p><i>Associated Skills: </i>Endurance, Intimidate </p><p>Published in The Book of Vile Darkness, page(s) 1-17. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"background"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"cKSjrpmaEOBb2yv1",
+	"_key":"!items!cKSjrpmaEOBb2yv1"
+}

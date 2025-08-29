@@ -1,0 +1,33 @@
+{
+	"name":"Improved Shielding Elixir",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Artificer, shielding elixir power </p><p><b>Benefit: </b>Increase the resistance provided by your shielding elixir power by 2. </p><p>Published in Dragon Magazine 381, page(s) 61. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"qnYJ6IWCHp0feU9c",
+	"_key":"!items!qnYJ6IWCHp0feU9c"
+}

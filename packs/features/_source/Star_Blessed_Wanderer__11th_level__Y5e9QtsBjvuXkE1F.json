@@ -1,0 +1,33 @@
+{
+	"name":"Star-Blessed Wanderer (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>If you use the bonus from your Fate of the Void pact boon on an attack roll and you miss with the attack, you retain the bonus until the end of your next turn. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"Y5e9QtsBjvuXkE1F",
+	"_key":"!items!Y5e9QtsBjvuXkE1F"
+}

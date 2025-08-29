@@ -1,0 +1,33 @@
+{
+	"name":"Space-Bending Spirit [Familiar]",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>11th level, Arcane Familiar feat </p><p><b>Benefit: </b>Your familiar gains teleport 2 as an additional movement mode. </p><p>Published in Dragon Magazine 382, page(s) 29. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"OWBnLXF4KGToJY1e",
+	"_key":"!items!OWBnLXF4KGToJY1e"
+}

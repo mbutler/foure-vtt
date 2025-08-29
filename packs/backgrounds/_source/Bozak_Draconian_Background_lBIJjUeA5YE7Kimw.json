@@ -1,0 +1,33 @@
+{
+	"name":"Bozak Draconian Background",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Type: </b>Racial </p><p><b>Prerequisite: </b>Dragonborn </p><p>From the moment of your birth, you were a match for virtually any human soldier. Your natural aptitude for both magic and combat and your gift for command make you a force to be reckoned with. </p><p><i>Associated Skills: </i>Arcana, Diplomacy, Intimidate </p><p>Published in Dragon Magazine 421. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"background"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"lBIJjUeA5YE7Kimw",
+	"_key":"!items!lBIJjUeA5YE7Kimw"
+}

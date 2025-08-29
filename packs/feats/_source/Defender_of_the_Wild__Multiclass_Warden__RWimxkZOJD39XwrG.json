@@ -1,0 +1,33 @@
+{
+	"name":"Defender of the Wild [Multiclass Warden]",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Str 13 </p><p><b>Benefit: </b>You gain training in one skill from the warden's class skills list. </p><p>Once per encounter as a free action, you can mark each enemy adjacent to you until the end of your next turn. </p><p>Published in Player's Handbook 2, page(s) 196. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"RWimxkZOJD39XwrG",
+	"_key":"!items!RWimxkZOJD39XwrG"
+}

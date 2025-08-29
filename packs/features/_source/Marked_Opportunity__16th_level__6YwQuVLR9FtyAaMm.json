@@ -1,0 +1,33 @@
+{
+	"name":"Marked Opportunity (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>If an adjacent enemy marked by you shifts or makes an attack that doesn't include you as a target, it grants combat advantage to you until the end of your next turn. </p><p>Published in Martial Power 2, page(s) 26. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"6YwQuVLR9FtyAaMm",
+	"_key":"!items!6YwQuVLR9FtyAaMm"
+}

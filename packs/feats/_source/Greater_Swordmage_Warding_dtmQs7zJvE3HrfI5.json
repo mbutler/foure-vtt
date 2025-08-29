@@ -1,0 +1,33 @@
+{
+	"name":"Greater Swordmage Warding",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>11th level, Str 13, Con 13, swordmage, Swordmage Warding class feature </p><p><b>Benefit: </b>While your Swordmage Warding is active, you gain a +1 feat bonus to all defenses. </p><p>At 21st level, this bonus increases to +2. </p><p>Published in Arcane Power, page(s) 131. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"dtmQs7zJvE3HrfI5",
+	"_key":"!items!dtmQs7zJvE3HrfI5"
+}

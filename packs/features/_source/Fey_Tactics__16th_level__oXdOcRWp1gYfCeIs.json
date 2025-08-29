@@ -1,0 +1,33 @@
+{
+	"name":"Fey Tactics (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>The attack bonus provided by your Tactical Presence is equal to your Intelligence modifier (instead of one-half your Intelligence modifier). </p><p>Published in Martial Power, page(s) 128. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"oXdOcRWp1gYfCeIs",
+	"_key":"!items!oXdOcRWp1gYfCeIs"
+}

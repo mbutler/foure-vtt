@@ -1,0 +1,33 @@
+{
+	"name":"Platinum Revelation [Multiclass Bahamut]",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Str 13, you must worship Bahamut </p><p><b>Benefit: </b>You gain training in Insight. You gain the Bahamut's shield power. </p><p>Published in Dragon Magazine 378. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"YjdT5ZOVgWCNzx0v",
+	"_key":"!items!YjdT5ZOVgWCNzx0v"
+}

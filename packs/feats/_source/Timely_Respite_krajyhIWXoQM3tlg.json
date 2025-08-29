@@ -1,0 +1,33 @@
+{
+	"name":"Timely Respite",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Benefit: </b>When you use your second wind or use the total defense action, you can make a saving throw. </p><p>Published in Player's Handbook 2, page(s) 190. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"krajyhIWXoQM3tlg",
+	"_key":"!items!krajyhIWXoQM3tlg"
+}

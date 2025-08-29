@@ -1,0 +1,33 @@
+{
+	"name":"Targeting Force",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>11th level, psion </p><p><b>Benefit: </b>When you immobilize or restrain a target with a psionic power, you gain a +2 bonus to the next attack roll you make with a force power against that target before the end of your next turn. </p><p>Published in Player's Handbook 3, page(s) 189. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"Me1RHXtrjlOwmDfQ",
+	"_key":"!items!Me1RHXtrjlOwmDfQ"
+}

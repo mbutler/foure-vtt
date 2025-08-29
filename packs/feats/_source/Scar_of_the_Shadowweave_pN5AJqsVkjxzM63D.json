@@ -1,0 +1,33 @@
+{
+	"name":"Scar of the Shadowweave",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Revenant, dark reaping racial power, you have a spellscar </p><p><b>Benefit: </b>The damage granted by dark reaping becomes cold and necrotic damage and gains a +2 bonus. If you have the Student of the Plague feat, when a creature takes damage from your dark reaping, you gain concealment from the creature until the end of your next turn. </p><p>Published in Dragon Magazine 385, page(s) 26. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"pN5AJqsVkjxzM63D",
+	"_key":"!items!pN5AJqsVkjxzM63D"
+}

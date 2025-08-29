@@ -1,0 +1,33 @@
+{
+	"name":"Mephistopheles, Lord of the Eighth",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Type: </b>Archdevil of the Nine Hell </p><p><b>Alignment: </b>Evil </p><p><b>Gender: </b>Male </p><p><b>Territory: </b>Eight Circle </p><p><b>Priests: </b>Cultists </p><p><b>Adjective: </b>Mephistophelean </p><p>The Duke of Cania embodies the casually cunning evil of the Nine Hells. From a labyrinthine citadel on the frozen hellscape of the Eighth Circle, Mephistopheles reaches out to the world, fomenting sin, and even siring children in the pursuit of his own unspeakable ends. </p><p>Published in Forgotten Realms Campaign Guide, page(s) 81. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"other"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"vIMbwWoeKliuydFT",
+	"_key":"!items!vIMbwWoeKliuydFT"
+}

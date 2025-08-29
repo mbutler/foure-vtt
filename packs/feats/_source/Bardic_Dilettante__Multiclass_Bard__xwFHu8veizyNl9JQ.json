@@ -1,0 +1,33 @@
+{
+	"name":"Bardic Dilettante [Multiclass Bard]",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Cha 13 </p><p><b>Benefit: </b>You gain training in one skill from the bard's class skills list. Once per day, you can use the bard's majestic word power. </p><p>In addition, you can wield bard implements. </p><p>Published in Player's Handbook 2, page(s) 196. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"xwFHu8veizyNl9JQ",
+	"_key":"!items!xwFHu8veizyNl9JQ"
+}

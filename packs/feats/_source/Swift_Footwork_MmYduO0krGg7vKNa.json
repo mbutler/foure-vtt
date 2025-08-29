@@ -1,0 +1,33 @@
+{
+	"name":"Swift Footwork",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Ranger or rogue </p><p><b>Benefit: </b>Whenever you use a martial encounter or daily power that allows you to shift, you can shift 2 extra squares. </p><p>Published in Martial Power 2, page(s) 139. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"MmYduO0krGg7vKNa",
+	"_key":"!items!MmYduO0krGg7vKNa"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Weakening Challenge",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>21st level, paladin, divine challenge </p><p><b>Benefit: </b>Whenever a target takes damage from your divine challenge or divine sanction, it is also weakened on the triggering attack. </p><p>Published in Dragon Magazine 378. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"k78FNaHjLX2Tvuc9",
+	"_key":"!items!k78FNaHjLX2Tvuc9"
+}

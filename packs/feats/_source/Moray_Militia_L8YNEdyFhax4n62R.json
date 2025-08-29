@@ -1,0 +1,33 @@
+{
+	"name":"Moray Militia",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Moonshae Isles regional benefit </p><p><b>Benefit: </b>When you roll an Endurance check to check disease progression, roll twice and use the higher result. </p><p>You treat any weapon you wield as though it were a silvered weapon. </p><p>Published in Dragon Magazine 370, page(s) 38. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"L8YNEdyFhax4n62R",
+	"_key":"!items!L8YNEdyFhax4n62R"
+}

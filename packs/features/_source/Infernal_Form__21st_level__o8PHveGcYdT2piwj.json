@@ -1,0 +1,33 @@
+{
+	"name":"Infernal Form (21st level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Destiny's weight presses upon you and you begin the subtle transformation into a devil. Apply the following changes: </p><p>- You increase your Charisma by 2. </p><p>- If you do not already have darkvision, you gain it. </p><p>- Your origin changes to immortal if it isn't immortal already. </p><p>- Gain resist fire 20 + one-half level. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"destiny"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"o8PHveGcYdT2piwj",
+	"_key":"!items!o8PHveGcYdT2piwj"
+}

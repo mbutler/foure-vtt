@@ -1,0 +1,33 @@
+{
+	"name":"Inescapable Shot",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Seeker, inevitable shot power </p><p><b>Benefit: </b>When you use your inevitable shot, you can make the ranged basic attack against an enemy within 10 squares of the creature you missed, instead of an enemy within 5 squares. </p><p>Published in Player's Handbook 3, page(s) 181. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"NsRYIdHEz7PfpTSL",
+	"_key":"!items!NsRYIdHEz7PfpTSL"
+}

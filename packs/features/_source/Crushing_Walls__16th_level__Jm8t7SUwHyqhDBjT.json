@@ -1,0 +1,33 @@
+{
+	"name":"Crushing Walls (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>While you are adjacent to an immobilized enemy, that enemy grants combat advantage. </p><p>Published in Player's Handbook 3, page(s) 39. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"Jm8t7SUwHyqhDBjT",
+	"_key":"!items!Jm8t7SUwHyqhDBjT"
+}

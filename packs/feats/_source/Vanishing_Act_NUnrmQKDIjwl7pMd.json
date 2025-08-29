@@ -1,0 +1,33 @@
+{
+	"name":"Vanishing Act",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>21st level, gnome </p><p><b>Benefit: </b>Whenever you use your fade away racial power, you can also teleport a number of squares equal to your speed. The power gains the teleportation keyword. </p><p>Published in Player's Handbook 2, page(s) 195. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"NUnrmQKDIjwl7pMd",
+	"_key":"!items!NUnrmQKDIjwl7pMd"
+}

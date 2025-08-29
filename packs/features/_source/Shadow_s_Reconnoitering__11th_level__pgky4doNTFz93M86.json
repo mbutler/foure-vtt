@@ -1,0 +1,33 @@
+{
+	"name":"Shadow's Reconnoitering (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Shadowy spirits constantly whisper to you, describing the unseen. You gain a +2 bonus to Perception checks and a +2 bonus to Insight checks. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"pgky4doNTFz93M86",
+	"_key":"!items!pgky4doNTFz93M86"
+}

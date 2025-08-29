@@ -1,0 +1,33 @@
+{
+	"name":"Just Presence (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you score a critical hit with an invoker power, you gain a +2 power bonus to attack rolls against any enemy within 2 squares of you. This bonus lasts until the end of the encounter. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"sIhfUm9LXgvaowJ0",
+	"_key":"!items!sIhfUm9LXgvaowJ0"
+}

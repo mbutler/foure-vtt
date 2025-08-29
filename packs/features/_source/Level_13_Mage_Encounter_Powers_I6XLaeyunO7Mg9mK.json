@@ -1,0 +1,33 @@
+{
+	"name":"Level 13 Mage Encounter Powers",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You add two of the following powers to your spellbook.</p>\n<p>@UUID[Compendium.dnd-4e-compendium.module-powers.tLqVc2FPuMabg0Iv]{Hold Monster}@UUID[Compendium.dnd-4e-compendium.module-powers.CdpK48ozStaZ9kIv]{Mirror Sphere}@UUID[Compendium.dnd-4e-compendium.module-powers.CQEhiy5JdXDYSVIo]{Twisting Lightning}</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"I6XLaeyunO7Mg9mK",
+	"_key":"!items!I6XLaeyunO7Mg9mK"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Gaseous Form",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You gain the gaseous form power.</p>\n<p>@UUID[Compendium.dnd-4e-compendium.module-powers.foHDCaySA0Uc7ViK]{Gaseous Form}</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"aL4JtBKICzwT7qvp",
+	"_key":"!items!aL4JtBKICzwT7qvp"
+}

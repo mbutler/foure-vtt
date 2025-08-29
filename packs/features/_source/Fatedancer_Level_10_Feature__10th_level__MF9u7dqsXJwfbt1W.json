@@ -1,0 +1,33 @@
+{
+	"name":"Fatedancer Level 10 Feature (10th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Once per encounter, you can discard two Fortune Cards at the start of your turn to search your deck for any one card. Put that card into your hand, then shuffle your deck.</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"theme"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"MF9u7dqsXJwfbt1W",
+	"_key":"!items!MF9u7dqsXJwfbt1W"
+}

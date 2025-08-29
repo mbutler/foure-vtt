@@ -1,0 +1,33 @@
+{
+	"name":"Action Shift (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>After you spend an action point to take an extra action, you can shift as a minor action until the end of the encounter. </p><p>Published in Player's Handbook, page(s) 114. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"4KdO1WnSmh3e7bN2",
+	"_key":"!items!4KdO1WnSmh3e7bN2"
+}

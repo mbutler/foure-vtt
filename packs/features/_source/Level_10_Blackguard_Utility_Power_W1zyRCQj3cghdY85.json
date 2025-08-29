@@ -1,0 +1,33 @@
+{
+	"name":"Level 10 Blackguard Utility Power",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You gain a new paladin utility power of your level or lower.</p>\n<p>@UUID[Compendium.dnd-4e-compendium.module-powers.RrgBwDt5P4YoH1Fa]{Deathly Aura}@UUID[Compendium.dnd-4e-compendium.module-powers.74e6S5yDXQk2WgY1]{Turn of the Dark Tide}</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"W1zyRCQj3cghdY85",
+	"_key":"!items!W1zyRCQj3cghdY85"
+}

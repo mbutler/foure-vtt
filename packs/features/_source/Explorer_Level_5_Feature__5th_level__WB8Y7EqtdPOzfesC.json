@@ -1,0 +1,33 @@
+{
+	"name":"Explorer Level 5 Feature (5th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You gain a +2 power bonus to Endurance checks. In addition, for the purpose of determining how far you and up to ten companions can travel in an hour or a day, treat the group's speed as the slowest member's speed + 1. While the group travels with you, its members also gain a +2 power bonus to Endurance checks.<br></p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"theme"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"WB8Y7EqtdPOzfesC",
+	"_key":"!items!WB8Y7EqtdPOzfesC"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Level 22 Vice Utility Power",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You gain a utility power associated with your vice.</p>\n<p>@UUID[Compendium.dnd-4e-compendium.module-features.e23EchpG9dTsgIbS]{Level 22 Vice Utility Power (Domination)}@UUID[Compendium.dnd-4e-compendium.module-powers.RsL7ZOqGMIXfnyJP]{Dark Grace}@UUID[Compendium.dnd-4e-compendium.module-features.cUqh7Aeb4kaQd52x]{Level 22 Vice Utility Power (Fury)}@UUID[Compendium.dnd-4e-compendium.module-powers.JCYIFijeDzZOl5K2]{Rampaging Bloodlust}</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"PNeK92tGfgk78MLq",
+	"_key":"!items!PNeK92tGfgk78MLq"
+}

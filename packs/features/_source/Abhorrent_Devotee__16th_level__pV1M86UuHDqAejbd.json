@@ -1,0 +1,33 @@
+{
+	"name":"Abhorrent Devotee (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>While you have no power points remaining, your unaugmented psion at-will attack powers gain an additional effect when they hit an enemy. If the attack roll is an odd number, the enemy takes extra necrotic damage equal to your Charisma modifier. If the attack roll is an even number, you pull the enemy 1 square. </p><p>Published in Psionic Power, page(s) 101. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"pV1M86UuHDqAejbd",
+	"_key":"!items!pV1M86UuHDqAejbd"
+}

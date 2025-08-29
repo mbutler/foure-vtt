@@ -1,0 +1,33 @@
+{
+	"name":"Disciple of Tyranny",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Charisma 13 </p><p><b>Benefit: </b>When you use your second wind on your turn, one ally who can hear you can shift up to 3 squares as a free action. </p><p>Published in The Book of Vile Darkness, page(s) 1-31. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"fQW84rDhvLX9we1P",
+	"_key":"!items!fQW84rDhvLX9we1P"
+}

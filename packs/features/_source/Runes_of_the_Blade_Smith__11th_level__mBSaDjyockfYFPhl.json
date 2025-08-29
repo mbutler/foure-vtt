@@ -1,0 +1,33 @@
+{
+	"name":"Runes of the Blade Smith (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you take a short or an extended rest, you can touch one weapon that you or an ally carries. That weapon then gains a +1 bonus to damage rolls until you grant this bonus to a different weapon. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"mBSaDjyockfYFPhl",
+	"_key":"!items!mBSaDjyockfYFPhl"
+}

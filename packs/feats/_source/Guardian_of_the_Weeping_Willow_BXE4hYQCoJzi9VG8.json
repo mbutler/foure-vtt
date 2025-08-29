@@ -1,0 +1,33 @@
+{
+	"name":"Guardian of the Weeping Willow",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>11th level, hamadryad, hamadryad aspects racial power </p><p><b>Benefit: </b>If your hamadryad aspects is not expended, you can use an immediate interrupt to negate a pull, push, or slide against you. Doing so expends hamadryad aspects. </p><p>Published in Heroes of the Feywild, page(s) 128. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"BXE4hYQCoJzi9VG8",
+	"_key":"!items!BXE4hYQCoJzi9VG8"
+}

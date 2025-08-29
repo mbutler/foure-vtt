@@ -1,0 +1,33 @@
+{
+	"name":"Veil of Darkness (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You gain a bonus to Stealth checks equal to your Charisma modifier. In addition, when you use your fade away racial power, you or one ally adjacent to you gains resistance to all damage equal to your Charisma modifier until the end of your next turn. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"SWeuXotRvKO7jbh2",
+	"_key":"!items!SWeuXotRvKO7jbh2"
+}

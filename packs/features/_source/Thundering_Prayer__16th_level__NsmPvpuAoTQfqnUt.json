@@ -1,0 +1,33 @@
+{
+	"name":"Thundering Prayer (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you use a close attack power, you can choose to deal extra thunder damage equal to one-half your Intelligence modifier, and you can push a target you hit 1 square. If you do so, the power gains the thunder keyword. </p><p>Published in Divine Power, page(s) 72. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"NsmPvpuAoTQfqnUt",
+	"_key":"!items!NsmPvpuAoTQfqnUt"
+}

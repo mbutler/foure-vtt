@@ -1,0 +1,33 @@
+{
+	"name":"Giant Killer",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Benefit: </b>When you score a critical hit against a creature of Large or greater size, you deal an extra 1d6 damage. </p><p>Published in Dragon Magazine 391. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"DeptfhIW5jMAgLvZ",
+	"_key":"!items!DeptfhIW5jMAgLvZ"
+}

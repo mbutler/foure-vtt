@@ -1,0 +1,33 @@
+{
+	"name":"Prime Shot",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>If none of your allies are nearer to your target than you are, you receive a +1 bonus to ranged attack rolls against that target. You do not gain this feature if you choose the Beast Mastery fighting style.</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"IzUZuw0cltVnh78R",
+	"_key":"!items!IzUZuw0cltVnh78R"
+}

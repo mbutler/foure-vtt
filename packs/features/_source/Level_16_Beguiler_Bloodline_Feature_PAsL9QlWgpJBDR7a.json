@@ -1,0 +1,33 @@
+{
+	"name":"Level 16 Beguiler Bloodline Feature",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You gain a +2 bonus to Stealth checks. This bonus increases to +4 if you move 2 or fewer squares during the turn in which you make the check, or if you are not in combat. </p><p>In addition, sunlight no longer deals radiant damage to you, and when it weakens you, you gain a bonus to saving throws to end that effect. The bonus equals your Charisma modifier. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"PAsL9QlWgpJBDR7a",
+	"_key":"!items!PAsL9QlWgpJBDR7a"
+}

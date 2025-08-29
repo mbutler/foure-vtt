@@ -1,0 +1,33 @@
+{
+	"name":"Burning Blood (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you use your second wind, each enemy within 10 squares of you takes ongoing 10 fire damage (save ends), but only if that enemy is subject to an effect that a save can end. </p><p>Published in Player's Handbook, page(s) 169, Class Compendium. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"83UKPA1qsZeHIkv7",
+	"_key":"!items!83UKPA1qsZeHIkv7"
+}

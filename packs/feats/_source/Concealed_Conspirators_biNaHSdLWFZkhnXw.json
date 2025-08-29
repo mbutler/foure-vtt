@@ -1,0 +1,33 @@
+{
+	"name":"Concealed Conspirators",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Veiled Alliance theme, excise from sight power </p><p><b>Benefit: </b>When you hit with your excise from sight, you choose one additional character within 10 squares of you. That character also becomes invisible to the target of the power until the end of your next turn. </p><p>Published in Dark Sun Campaign Setting, page(s) 105. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"biNaHSdLWFZkhnXw",
+	"_key":"!items!biNaHSdLWFZkhnXw"
+}

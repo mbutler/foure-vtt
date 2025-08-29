@@ -1,0 +1,33 @@
+{
+	"name":"Blurred Speed",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Battlemind, blurred step power </p><p><b>Benefit: </b>When you use your blurred step, you shift 2 squares instead of 1 square. </p><p>Published in Psionic Power, page(s) 130. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"kIFWHGzYQ7eZNfyR",
+	"_key":"!items!kIFWHGzYQ7eZNfyR"
+}

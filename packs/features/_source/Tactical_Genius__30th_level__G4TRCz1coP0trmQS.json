@@ -1,0 +1,33 @@
+{
+	"name":"Tactical Genius (30th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>During an encounter, you can spend as many of your action points as you want. </p><p>Published in Martial Power, page(s) 158. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"destiny"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"G4TRCz1coP0trmQS",
+	"_key":"!items!G4TRCz1coP0trmQS"
+}

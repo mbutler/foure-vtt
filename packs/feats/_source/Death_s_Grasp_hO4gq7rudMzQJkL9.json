@@ -1,0 +1,33 @@
+{
+	"name":"Death's Grasp",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Revenant, battlemind, mind spike power </p><p><b>Benefit: </b>You gain the following augmentation for your mind spike power. </p><p>Augment 1: Each enemy adjacent to the target takes necrotic damage equal to your Constitution modifier. </p><p>Published in Dragon Magazine 389. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"hO4gq7rudMzQJkL9",
+	"_key":"!items!hO4gq7rudMzQJkL9"
+}

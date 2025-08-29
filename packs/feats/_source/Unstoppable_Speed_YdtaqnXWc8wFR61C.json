@@ -1,0 +1,33 @@
+{
+	"name":"Unstoppable Speed",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>11th level, battlemind </p><p><b>Benefit: </b>The first time you are bloodied during an encounter, you can move a number of squares equal to 3 + your Charisma modifier as a free action. </p><p>Published in Psionic Power, page(s) 139. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"YdtaqnXWc8wFR61C",
+	"_key":"!items!YdtaqnXWc8wFR61C"
+}

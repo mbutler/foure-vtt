@@ -1,0 +1,33 @@
+{
+	"name":"Lotulis Specialist",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>10th level, proficiency with lotulis </p><p><b>Benefit: </b>You swap one of your level 9 or higher daily attack powers for the whirling lotulis power. </p><p>Published in Dark Sun Campaign Setting, page(s) 110. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"q16hJHEFXIn4GUyK",
+	"_key":"!items!q16hJHEFXIn4GUyK"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Wintersoul Flurry Action (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you spend an action point to make an attack, you create a zone of flurrying snow in a close burst 5 that lasts until the end of your next turn. Squares in the zone are difficult terrain and lightly obscured for enemies. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"TWHyjlfr823NSIQD",
+	"_key":"!items!TWHyjlfr823NSIQD"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Cutting Steps (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>While wielding two melee weapons, you gain a +1 bonus to melee damage rolls and AC. </p><p>Published in Martial Power, page(s) 60. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"3rERmk9NlFYa8Xj7",
+	"_key":"!items!3rERmk9NlFYa8Xj7"
+}

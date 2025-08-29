@@ -1,0 +1,33 @@
+{
+	"name":"Shadow Coffin",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You gain the shadow coffin power.</p>\n<p>@UUID[Compendium.dnd-4e-compendium.module-powers.c5wOsJv0hCitDpUk]{Shadow Coffin}</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"Dlj0iy8bxYgAr9hP",
+	"_key":"!items!Dlj0iy8bxYgAr9hP"
+}

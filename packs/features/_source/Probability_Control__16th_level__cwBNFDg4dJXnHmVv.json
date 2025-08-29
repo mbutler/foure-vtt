@@ -1,0 +1,33 @@
+{
+	"name":"Probability Control (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Once per encounter, you can roll twice for any d20 roll and use the better result. </p><p>Published in Dragon Magazine 365, page(s) 23. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"cwBNFDg4dJXnHmVv",
+	"_key":"!items!cwBNFDg4dJXnHmVv"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Anointed Regalia (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You can choose to anoint one item you wear or carry. Doing so confers a benefit based on the item. Only one item can be anointed at a time, and the benefit lasts until you anoint a new item. As a free action, you can anoint a different item or choose a different benefit (if the anointed item is a weapon) during a short rest or after you use an anointed champion power. </p><p>Anointed Armor: You gain a +1 bonus to AC. </p><p>Anointed Weapon: You gain resistance equal to your Charisma modifier against a damage type of your choice: fire, necrotic, radiant, or thunder. </p><p>Anointed Amulet: You gain a +1 bonus to Fortitude, Reflex, and Will. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"2ZUk6uRdmjQ84glS",
+	"_key":"!items!2ZUk6uRdmjQ84glS"
+}

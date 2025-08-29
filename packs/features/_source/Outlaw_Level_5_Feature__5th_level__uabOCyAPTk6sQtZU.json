@@ -1,0 +1,33 @@
+{
+	"name":"Outlaw Level 5 Feature (5th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Choose a terrain type: desert, forest, hills and mountains, marsh and swamp, or snow and tundra. In your chosen terrain, you can't be tracked and you ignore difficult terrain.<br></p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"theme"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"uabOCyAPTk6sQtZU",
+	"_key":"!items!uabOCyAPTk6sQtZU"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Arbiter of Justice",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>11th level, avenger, oath of enmity power </p><p><b>Benefit: </b>You deal +2 damage against bloodied targets. Additionally, whenever an ally bloodies or reduces your oath of enmity target to 0 hit points, you may act as though you had bloodied or reduced the target to 0 hit points. </p><p>Published in Dragon Magazine 382, page(s) 40. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"SH0PaReToKlMbC8i",
+	"_key":"!items!SH0PaReToKlMbC8i"
+}

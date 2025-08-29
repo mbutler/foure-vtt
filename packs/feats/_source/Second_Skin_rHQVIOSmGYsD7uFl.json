@@ -1,0 +1,33 @@
+{
+	"name":"Second Skin",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>21st level, Con 17, any primal class, proficiency with hide armor </p><p><b>Benefit: </b>While you are wearing hide armor, you gain a +2 feat bonus to AC, and the armor's check penalty is reduced by 1. </p><p>In addition, you gain a +1 bonus to the attack rolls of primal fear powers you use. </p><p>Published in Primal Power, page(s) 147. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"rHQVIOSmGYsD7uFl",
+	"_key":"!items!rHQVIOSmGYsD7uFl"
+}

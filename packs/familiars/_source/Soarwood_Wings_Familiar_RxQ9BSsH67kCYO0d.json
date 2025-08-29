@@ -1,0 +1,33 @@
+{
+	"name":"Soarwood Wings Familiar",
+	"type":"feature",
+	"img":"icons/creatures/magical/construct-gargoyle-stone-gray.webp",
+	"system":{
+		"description":{
+			"value":"<p><i>This animated set of wings clings to your back like a newly emerged butterfly.</i></p><p><b>Speed</b> 2, fly 6 (hover)</p><p><b>Constant Benefits</b></p><p>* You gain a +2 bonus to Athletics checks to jump.</p><p>* You gain a +1 bonus to your fly speed, when you have one.</p><p><b>Active Benefits</b></p><p>Soarwood Lift: Once per encounter as a move action, your soarwood wings fly an adjacent ally (or you, if you are adjacent) up to 6 squares, then lower the creature gently to the ground.</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"other"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"RxQ9BSsH67kCYO0d",
+	"_key":"!items!RxQ9BSsH67kCYO0d"
+}

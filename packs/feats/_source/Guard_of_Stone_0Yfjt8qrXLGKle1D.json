@@ -1,0 +1,33 @@
+{
+	"name":"Guard of Stone",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Goliath, warden </p><p><b>Benefit: </b>While you are under the effect of your stone's endurance racial power, each enemy marked by you takes an additional penalty to attack rolls for attacks that don't include you as a target. The penalty equals your Constitution modifier and lasts until the end of your next turn. </p><p>Published in Dragon Magazine 379, page(s) 45. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"0Yfjt8qrXLGKle1D",
+	"_key":"!items!0Yfjt8qrXLGKle1D"
+}

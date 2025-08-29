@@ -1,0 +1,33 @@
+{
+	"name":"Inexorable Pursuit",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>11th level, avenger, Censure of Pursuit class feature, oath of enmity power </p><p><b>Benefit: </b>When you charge your oath of enmity target, you can ignore difficult terrain and move through enemies' spaces during the charge. </p><p>Published in Player's Handbook 2, page(s) 191. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"HkW21vUtNh9jL7Zf",
+	"_key":"!items!HkW21vUtNh9jL7Zf"
+}

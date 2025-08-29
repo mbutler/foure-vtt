@@ -1,0 +1,33 @@
+{
+	"name":"Radiant Breath",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Dragonborn, any divine class </p><p><b>Benefit: </b>Add the radiant damage type to whatever damage type you chose for your dragon breath racial power. This power also gains the radiant keyword. </p><p>Published in Dragon Magazine 378. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"onHIOxTupivR4Ubc",
+	"_key":"!items!onHIOxTupivR4Ubc"
+}

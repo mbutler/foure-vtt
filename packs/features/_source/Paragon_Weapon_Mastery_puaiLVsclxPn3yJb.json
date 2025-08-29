@@ -1,0 +1,33 @@
+{
+	"name":"Paragon Weapon Mastery",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>The bonus to damage rolls granted by your Weapon Mastery class feature increases to +2.</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"puaiLVsclxPn3yJb",
+	"_key":"!items!puaiLVsclxPn3yJb"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Unstoppable Transformation",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Mul, incredible toughness racial power, wild shape power </p><p><b>Benefit: </b>When you use wild shape, you can expend your incredible toughness to gain a power bonus to damage rolls until the end of your turn. The bonus equals your Constitution modifier. </p><p>Published in Dragon Magazine 391. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"njBU2QgI3ZPWfCHk",
+	"_key":"!items!njBU2QgI3ZPWfCHk"
+}

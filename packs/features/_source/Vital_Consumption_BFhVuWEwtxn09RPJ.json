@@ -1,0 +1,33 @@
+{
+	"name":"Vital Consumption",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Whenever you lose a healing surge as part of one of your vampire or paragon path attack powers, you gain temporary hit points equal to one-half your level.</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"BFhVuWEwtxn09RPJ",
+	"_key":"!items!BFhVuWEwtxn09RPJ"
+}

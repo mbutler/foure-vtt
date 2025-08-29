@@ -1,0 +1,33 @@
+{
+	"name":"Killer's Aggression (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Whenever you hit an enemy granting combat advantage to you during your first turn in an encounter, the attack deals 1d6 extra damage to that enemy. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"eDkBglA1t2LEqUGs",
+	"_key":"!items!eDkBglA1t2LEqUGs"
+}

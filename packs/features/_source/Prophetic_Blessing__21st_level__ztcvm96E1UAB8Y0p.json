@@ -1,0 +1,33 @@
+{
+	"name":"Prophetic Blessing (21st level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Increase your Strength, Constitution, or Dexterity by 2, and increase your Intelligence, Charisma, or Wisdom by 2. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"destiny"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"ztcvm96E1UAB8Y0p",
+	"_key":"!items!ztcvm96E1UAB8Y0p"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Swordmage Aegis (Hybrid)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>This class feature functions as the swordmage class feature, except that you can use the power that you choose only once per encounter. However, you regain the use of that power when its target drops to 0 hit points or when its mark is superseded by another mark.</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"cNbU9ygXWxDEARiS",
+	"_key":"!items!cNbU9ygXWxDEARiS"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Cascading Rush",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Benefit: </b>Whenever you push a target with a bull rush, you can also push one enemy adjacent to that target 1 square. The enemy can be adjacent to the target either before or after you resolve the bull rush. </p><p>Published in Player's Handbook 3, page(s) 180. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"NCocre1itBD48uIz",
+	"_key":"!items!NCocre1itBD48uIz"
+}

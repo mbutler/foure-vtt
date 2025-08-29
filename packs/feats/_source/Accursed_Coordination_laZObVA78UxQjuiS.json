@@ -1,0 +1,33 @@
+{
+	"name":"Accursed Coordination",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Warlock, Warlock's Curse class feature </p><p><b>Benefit: </b>You can place your Warlock's Curse on a creature that is already affected by another character's Warlock's Curse. In addition, you have combat advantage against any creature affected by more than one Warlock's Curse. </p><p>Published in Arcane Power, page(s) 124. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"laZObVA78UxQjuiS",
+	"_key":"!items!laZObVA78UxQjuiS"
+}

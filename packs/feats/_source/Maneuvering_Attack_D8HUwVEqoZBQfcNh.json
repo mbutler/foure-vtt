@@ -1,0 +1,33 @@
+{
+	"name":"Maneuvering Attack",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>11th level, warden </p><p><b>Benefit: </b>When you pull, push, or slide a target with an attack using a polearm or a spear, that target grants combat advantage to you until the end of your next turn. </p><p>Published in Primal Power, page(s) 145. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"D8HUwVEqoZBQfcNh",
+	"_key":"!items!D8HUwVEqoZBQfcNh"
+}

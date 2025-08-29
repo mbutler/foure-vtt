@@ -1,0 +1,33 @@
+{
+	"name":"Starburst (24th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>The first time you are reduced to 0 hit points or fewer each day, you gain the immediate use of a healing surge and deal radiant and fire damage of equal value to all enemies within 3 squares of you. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"destiny"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"OKy3eFJdYWIAmPU8",
+	"_key":"!items!OKy3eFJdYWIAmPU8"
+}

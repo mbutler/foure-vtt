@@ -1,0 +1,33 @@
+{
+	"name":"Bold Company (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Whenever you hit an enemy and deal damage, you deal 2 extra damage to that enemy for each of your allies adjacent to it. </p><p>Published in Martial Power 2, page(s) 102. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"wnCed04HxbQaWjB8",
+	"_key":"!items!wnCed04HxbQaWjB8"
+}

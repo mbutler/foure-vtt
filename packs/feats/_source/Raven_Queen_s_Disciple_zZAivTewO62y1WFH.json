@@ -1,0 +1,33 @@
+{
+	"name":"Raven Queen's Disciple",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Revenant, assassin, Bleak Disciple Guild Training </p><p><b>Benefit: </b>When you gain temporary hit points from your Guild Training, increase the temporary hit points you gain by 1. If the unbloodied target you hit is undead or a shadow creature, increase the temporary hit points you gain by 2 instead. </p><p>Published in Dragon Magazine 387, page(s) 51. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"zZAivTewO62y1WFH",
+	"_key":"!items!zZAivTewO62y1WFH"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Fastpaw Background",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Type: </b>Racial </p><p><b>Campaign Setting: </b>Forgotten Realms </p><p><b>Prerequisite: </b>Gnome </p><p>Your penchant for getting into trouble has spread throughout Sarifal, yet despite your mischievous nature you're well regarded by all. Highly intelligent yet prone to act before you think, your escapades are legendary. Wanderlust often drives you far afield, yet forest animals from your home in Llyrath serve as your constant companions. </p><p>Published in Dragon Magazine 376, page(s) 62. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"background"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"901gTWELGUh8ZlfF",
+	"_key":"!items!901gTWELGUh8ZlfF"
+}

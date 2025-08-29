@@ -1,0 +1,33 @@
+{
+	"name":"Lorekeeper's Revelation (30th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Choose two of your daily utility powers. Those two powers are now encounter powers for you. If you do not have two daily utility powers, you can immediately retrain your utility powers until you have two daily utility powers that then become encounter powers. </p><p>Published in Player's Handbook 2, page(s) 173. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"destiny"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"VNBX01pjlRh8mfH3",
+	"_key":"!items!VNBX01pjlRh8mfH3"
+}

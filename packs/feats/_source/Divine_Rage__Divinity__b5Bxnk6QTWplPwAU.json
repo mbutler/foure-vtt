@@ -1,0 +1,33 @@
+{
+	"name":"Divine Rage [Divinity]",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Channel Divinity class feature </p><p><b>Benefit: </b>You can invoke the power of your deity to use divine rage. </p><p>Published in Dragon Magazine Annual, Dragon Magazine 368, page(s) 58. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"b5Bxnk6QTWplPwAU",
+	"_key":"!items!b5Bxnk6QTWplPwAU"
+}

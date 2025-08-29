@@ -1,0 +1,33 @@
+{
+	"name":"Deadly Rage",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Barbarian </p><p><b>Benefit: </b>You gain a +1 bonus to damage rolls while raging. The bonus increases to +2 at 11th level and +3 at 21st level. </p><p>Published in Player's Handbook 2, page(s) 184. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"SOmPDBp3QoYkHA8e",
+	"_key":"!items!SOmPDBp3QoYkHA8e"
+}

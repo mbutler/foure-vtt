@@ -1,0 +1,33 @@
+{
+	"name":"Resourceful Alchemist (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you create new alchemical items, you can use existing alchemical items as components. The values of the alchemical items you use as components are subtracted from the component cost of the new alchemical item. Any value in excess of the new item's component cost is wasted. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"flOpPvRTi1jC7BcM",
+	"_key":"!items!flOpPvRTi1jC7BcM"
+}

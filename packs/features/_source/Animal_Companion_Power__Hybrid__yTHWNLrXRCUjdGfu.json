@@ -1,0 +1,33 @@
+{
+	"name":"Animal Companion Power (Hybrid)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You can gain this class feature only if you are 17th level or higher and already have the Acolyte of the Natural Cycle class feature.</p>\n<p>You gain a power associated with your animal companion.</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"yTHWNLrXRCUjdGfu",
+	"_key":"!items!yTHWNLrXRCUjdGfu"
+}

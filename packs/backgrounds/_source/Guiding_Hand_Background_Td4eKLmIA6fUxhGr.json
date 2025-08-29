@@ -1,0 +1,33 @@
+{
+	"name":"Guiding Hand Background",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Campaign Setting: </b>General </p><p>Innocents and the natural world must be protected. As a recipient of the great gift of psionic power, you are obligated to shield the weak and strike down evil. A sense of duty has always called to you. Once you followed your instincts, your place in the world became clear to you. </p><p><i>Associated Skills: </i>Diplomacy, Perception </p><p>Published in Psionic Power, page(s) 116. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"background"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"Td4eKLmIA6fUxhGr",
+	"_key":"!items!Td4eKLmIA6fUxhGr"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Guardian of Death (30th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Once per day when you would drop to 0 hit points or fewer, you instead regain all your hit points, can stand up as a free action, end all effects of your choice that are affecting you, and can teleport adjacent to any other Guardian of the Void as a free action. </p><p>Published in Heroes of Shadow, page(s) 152. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"destiny"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"6Cp85Y9Vkh3tIQZW",
+	"_key":"!items!6Cp85Y9Vkh3tIQZW"
+}

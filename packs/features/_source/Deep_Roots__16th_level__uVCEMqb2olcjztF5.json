@@ -1,0 +1,33 @@
+{
+	"name":"Deep Roots (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You have tremorsense 5 while you are in contact with the ground. </p><p>Published in Dragon Magazine 401. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"uVCEMqb2olcjztF5",
+	"_key":"!items!uVCEMqb2olcjztF5"
+}

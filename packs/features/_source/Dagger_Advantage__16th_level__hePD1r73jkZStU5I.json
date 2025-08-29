@@ -1,0 +1,33 @@
+{
+	"name":"Dagger Advantage (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you score a critical hit with a dagger, the target grants combat advantage to you until the end of your next turn. </p><p>Published in Player's Handbook, page(s) 127, Class Compendium. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"hePD1r73jkZStU5I",
+	"_key":"!items!hePD1r73jkZStU5I"
+}

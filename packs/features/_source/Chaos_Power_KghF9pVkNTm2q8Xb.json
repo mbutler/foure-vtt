@@ -1,0 +1,33 @@
+{
+	"name":"Chaos Power",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>: You gain a bonus to the damage rolls of arcane powers equal to your Dexterity modifier. The bonus increases to your Dexterity modifier + 2 at 11th level and your Dexterity modifier + 4 at 21st level. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"KghF9pVkNTm2q8Xb",
+	"_key":"!items!KghF9pVkNTm2q8Xb"
+}

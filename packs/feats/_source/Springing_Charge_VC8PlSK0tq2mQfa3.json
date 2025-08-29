@@ -1,0 +1,33 @@
+{
+	"name":"Springing Charge",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Minotaur </p><p><b>Benefit: </b>When you score a critical hit with a charge attack, you can charge a different creature as a free action once per round. </p><p>Published in Player's Handbook 3, page(s) 183. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"VC8PlSK0tq2mQfa3",
+	"_key":"!items!VC8PlSK0tq2mQfa3"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Heal the Besieged (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Whenever you use a bard healing power on an ally, increase the number of hit points regained by 1d6 for each enemy that is adjacent to that ally. </p><p>Published in Arcane Power, page(s) 21. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"9ehxkQiYsJroRt1w",
+	"_key":"!items!9ehxkQiYsJroRt1w"
+}

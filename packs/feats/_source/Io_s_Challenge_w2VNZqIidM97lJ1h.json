@@ -1,0 +1,33 @@
+{
+	"name":"Io's Challenge",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Dragonborn, paladin, divine challenge power </p><p><b>Benefit: </b>When a creature takes damage from your divine challenge, add your Constitution modifier to the damage it takes if you are bloodied. </p><p>Published in Player's Handbook Races: Dragonborn, page(s) 24. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"w2VNZqIidM97lJ1h",
+	"_key":"!items!w2VNZqIidM97lJ1h"
+}

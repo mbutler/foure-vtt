@@ -1,0 +1,33 @@
+{
+	"name":"Bestial Accuracy (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>While you're under the effect of your longtooth shifting or razorclaw shifting racial power, you gain a +2 bonus to attack rolls against your quarry. </p><p>Published in Martial Power 2, page(s) 46. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"Zla8D4pzn9Ris7Mu",
+	"_key":"!items!Zla8D4pzn9Ris7Mu"
+}

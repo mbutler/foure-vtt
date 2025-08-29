@@ -1,0 +1,33 @@
+{
+	"name":"Occupation - Infiltrator Background",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Type: </b>Occupation </p><p><b>Campaign Setting: </b>General </p><p>You infiltrated enemy ranks, working from within to ferret out secrets or disrupt plans. Who did you work for? Did you operate within a noble's court, for an army, or for a secretive organization? Was it an individual, organization, or nation? What identities did you assume? Were you ever discovered? If so, how did you escape? </p><p><i>Associated Skills: </i>Bluff, Stealth </p><p>Associated Languages: Any one other than Abyssal or Supernal. </p><p>Published in Dragon Magazine 373, page(s) 7. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"background"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"zIv9ycDusYB5GKSe",
+	"_key":"!items!zIv9ycDusYB5GKSe"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Eyes of Dying Light",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Genasi, cindersoul elemental manifestation </p><p><b>Benefit: </b>You gain darkvision. When using your darkvision, a light as of a dying spark shines in your eyes. </p><p>Published in Dragon Magazine 380, page(s) 21. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"Qm14xjNgL2H0svne",
+	"_key":"!items!Qm14xjNgL2H0svne"
+}

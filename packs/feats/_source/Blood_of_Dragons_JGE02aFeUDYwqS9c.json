@@ -1,0 +1,33 @@
+{
+	"name":"Blood of Dragons",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Dragonborn, dragonfear racial power </p><p><b>Benefit: </b>You gain a +2 bonus to all defenses against fear attacks, or a +4 if the attacker is a dragon. </p><p>Published in Dragon Magazine 388. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"JGE02aFeUDYwqS9c",
+	"_key":"!items!JGE02aFeUDYwqS9c"
+}

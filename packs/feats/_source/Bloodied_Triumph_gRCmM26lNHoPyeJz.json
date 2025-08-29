@@ -1,0 +1,33 @@
+{
+	"name":"Bloodied Triumph",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Halfling, second chance racial power </p><p><b>Benefit: </b>When you use second chance while bloodied, you and your allies gain combat advantage against the triggering attacker until the end of your next turn. </p><p>Published in Dragon Magazine 392. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"gRCmM26lNHoPyeJz",
+	"_key":"!items!gRCmM26lNHoPyeJz"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Tactical Adjustment",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Warlord, Tactical Presence class feature </p><p><b>Benefit: </b>Whenever an ally within your line of sight spends an action point to make an extra attack, you can slide that ally 1 square before or after the attack. </p><p>Published in Dragon Magazine 381, page(s) 31. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"EoSsX7V9N4bAd8Ba",
+	"_key":"!items!EoSsX7V9N4bAd8Ba"
+}

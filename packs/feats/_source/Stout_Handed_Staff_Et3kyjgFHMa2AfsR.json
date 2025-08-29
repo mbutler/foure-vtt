@@ -1,0 +1,33 @@
+{
+	"name":"Stout-Handed Staff",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Size Small </p><p><b>Benefit: </b>You wield the quarterstaff as if it was a small weapon. If you knock prone an enemy that is larger than you with a weapon attack using a staff, you can shift 1 square as a free action. </p><p>Published in Dragon Magazine 391. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"Et3kyjgFHMa2AfsR",
+	"_key":"!items!Et3kyjgFHMa2AfsR"
+}

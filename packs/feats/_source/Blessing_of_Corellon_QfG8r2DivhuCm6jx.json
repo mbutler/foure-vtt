@@ -1,0 +1,33 @@
+{
+	"name":"Blessing of Corellon",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Elf, cleric, healing word power </p><p><b>Benefit: </b>When you use your elven accuracy racial power and the attack hits, one ally within 5 squares of you can spend a healing surge. </p><p>Published in Divine Power, page(s) 130. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"QfG8r2DivhuCm6jx",
+	"_key":"!items!QfG8r2DivhuCm6jx"
+}

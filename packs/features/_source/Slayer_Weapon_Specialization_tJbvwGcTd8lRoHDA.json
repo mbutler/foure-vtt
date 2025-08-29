@@ -1,0 +1,33 @@
+{
+	"name":"Slayer Weapon Specialization",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You gain one of the following benefits of your choice.</p>\n<p>@UUID[Compendium.dnd-4e-compendium.module-features.MCVx0e4kTJcH7nUL]{Brutal Axe}@UUID[Compendium.dnd-4e-compendium.module-features.DGA6tevQIKZSmdNH]{Rapid Quarterstaff}</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"tJbvwGcTd8lRoHDA",
+	"_key":"!items!tJbvwGcTd8lRoHDA"
+}

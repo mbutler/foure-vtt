@@ -1,0 +1,33 @@
+{
+	"name":"Turning of the Tide (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Whenever you drop a nonminion enemy below 1 hit point with an attack, you gain one of the following benefits of your choice. </p><p><img> </img>Each enemy within 2 squares of you is pushed up to 3 squares. </p><p><img> </img>You or one ally within 5 squares of you gains 10 temporary hit points. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"UzoG7NwABVPYkZCt",
+	"_key":"!items!UzoG7NwABVPYkZCt"
+}

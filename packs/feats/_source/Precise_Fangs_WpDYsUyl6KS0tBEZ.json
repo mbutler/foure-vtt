@@ -1,0 +1,33 @@
+{
+	"name":"Precise Fangs",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Shaman, Stalker Spirit class feature </p><p><b>Benefit: </b>When you use your spirit's fangs power, you gain a +2 bonus to the attack roll. </p><p>Published in Primal Power, page(s) 140. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"WpDYsUyl6KS0tBEZ",
+	"_key":"!items!WpDYsUyl6KS0tBEZ"
+}

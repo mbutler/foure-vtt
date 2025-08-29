@@ -1,0 +1,33 @@
+{
+	"name":"Abyssal Presence (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You ignore the resistances of demons within 5 squares of you. </p><p>Published in Dragon Magazine 380, page(s) 21. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"ylPInLvGKrW8p37Y",
+	"_key":"!items!ylPInLvGKrW8p37Y"
+}

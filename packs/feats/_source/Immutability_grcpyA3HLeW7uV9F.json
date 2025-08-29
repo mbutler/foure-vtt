@@ -1,0 +1,33 @@
+{
+	"name":"Immutability",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Warforged, Improved Warforged Resolve </p><p><b>Benefit: </b>When you use your warforged resolve racial power, you can make a saving throw against any effect instead of only against an effect that deals ongoing damage. You gain a +2 feat bonus to that saving throw. </p><p>Published in Eberron Player's Guide, page(s) 90. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"grcpyA3HLeW7uV9F",
+	"_key":"!items!grcpyA3HLeW7uV9F"
+}

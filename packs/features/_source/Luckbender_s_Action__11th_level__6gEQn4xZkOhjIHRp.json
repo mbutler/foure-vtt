@@ -1,0 +1,33 @@
+{
+	"name":"Luckbender's Action (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you spend an action point to make a sorcerer attack, choose 1-10 or 11-20. If the result on the die for the first attack roll you make as a part of that attack is within the range selected, you regain the use of your lowest-level sorcerer encounter attack power. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"6gEQn4xZkOhjIHRp",
+	"_key":"!items!6gEQn4xZkOhjIHRp"
+}

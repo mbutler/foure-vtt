@@ -1,0 +1,33 @@
+{
+	"name":"Divine Purity",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Paladin, Channel Divinity: divine mettle class feature </p><p><b>Benefit: </b>If the target of your divine mettle power succeeds on a saving throw to end a condition or ongoing effect with the necrotic keyword, the target also gains resist necrotic equal to your Charisma modifier until the end of your next turn. </p><p>Published in Dragon Magazine 371, page(s) 8. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"AEoJKWwNyeq3r5aC",
+	"_key":"!items!AEoJKWwNyeq3r5aC"
+}

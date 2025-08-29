@@ -1,0 +1,33 @@
+{
+	"name":"Foulborn Heritage [Foulborn Bloodline]",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Natural humanoid </p><p><b>Benefit: </b>You are a foulborn. Your origin changes to aberrant, and you are considered an aberrant creature for the purpose of effects that relate to creature origin. </p><p>You have the unbalanced mind power. </p><p>Published in Psionic Power, page(s) 142. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"ZUHxKhlB2D54c6rq",
+	"_key":"!items!ZUHxKhlB2D54c6rq"
+}

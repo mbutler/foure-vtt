@@ -1,0 +1,33 @@
+{
+	"name":"Perfect Shard Swarm (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Your shard swarm racial power becomes a close burst 2, instead of a close burst 1. In addition, you can use shard swarm to teleport your speed, instead of half your speed. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"M8ljymWLr51J2NFo",
+	"_key":"!items!M8ljymWLr51J2NFo"
+}

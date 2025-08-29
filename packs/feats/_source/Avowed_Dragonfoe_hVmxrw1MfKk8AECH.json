@@ -1,0 +1,33 @@
+{
+	"name":"Avowed Dragonfoe",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Dragonborn </p><p><b>Benefit: </b>You gain a +1 bonus to attack rolls against dragons. While you are bloodied, this bonus increases to +2. </p><p>Also, when you score a critical hit on a dragon with a melee or close attack, you gain temporary hit points equal to the dragon's level. </p><p>Published in Forgotten Realms Player's Guide, page(s) 132. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"hVmxrw1MfKk8AECH",
+	"_key":"!items!hVmxrw1MfKk8AECH"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Hammer Strike",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Power strike power </p><p><b>Benefit: </b>When you use power strike with a hammer, you can daze the target until the end of your next turn, but the extra damage is reduced by 1[W]. </p><p>Published in Mordenkainen's Magnificent Emporium, page(s) 24. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"g9bUSI2VEp4ZA3x6",
+	"_key":"!items!g9bUSI2VEp4ZA3x6"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Ghostly Rejuvenation",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>11th level, shadar-kai </p><p><b>Benefit: </b>When you use a power with the Healing keyword on an ally, one target of that power can also become insubstantial until the end of its next turn. </p><p>Published in Dragon Magazine Annual, Dragon Magazine 372, page(s) 10. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"wkGVODp4aHACTBzg",
+	"_key":"!items!wkGVODp4aHACTBzg"
+}

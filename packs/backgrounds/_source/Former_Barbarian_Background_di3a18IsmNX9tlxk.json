@@ -1,0 +1,33 @@
+{
+	"name":"Former Barbarian Background",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Type: </b>Campaign </p><p><b>Campaign Setting: </b>Scales of War Adventure Path </p><p>Your formative years were spent as part of an indigenous tribe of hunter-gatherers. As a nomad, you went where the food was, traveling across the wilderness from season to season. What happened to your tribe? What would it take for you to return? And were you a typical member of the tribe, or was there something that set you apart? </p><p>Good Background: Fighter. </p><p><i>Benefit: </i>You add Nature to your class skill list, and you gain a +1 bonus to Nature checks. </p><p>Published in Dragon Magazine 366, page(s) 59. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"background"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"di3a18IsmNX9tlxk",
+	"_key":"!items!di3a18IsmNX9tlxk"
+}

@@ -1,0 +1,37 @@
+{
+	"name":"Protected Isolation",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>11th level, avenger, Censure of Retribution class feature, oath of enmity power </p><p><b>Benefit: </b>While you are adjacent to your oath of enmity target, you gain a +1 bonus to AC. </p><p>Published in Player's Handbook 2, page(s) 191. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"descriptionGM":{
+			"value":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":"",
+			"autoanimationHook":""
+		},
+		"requirements":"",
+		"level":null,
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"3CNwgyTG8s2Fko5r",
+	"_key":"!items!3CNwgyTG8s2Fko5r"
+}

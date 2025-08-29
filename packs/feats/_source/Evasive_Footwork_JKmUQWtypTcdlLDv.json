@@ -1,0 +1,33 @@
+{
+	"name":"Evasive Footwork",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>11th level, Dex 17, Cha 15, rogue </p><p><b>Benefit: </b>When you shift 2 or more squares on your turn, you gain a +1 bonus to AC and Reflex until the start of your next turn. </p><p>Published in Martial Power, page(s) 143. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"JKmUQWtypTcdlLDv",
+	"_key":"!items!JKmUQWtypTcdlLDv"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Embraced by Chaos (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You roll twice and use both results when you use your Chaos-Touched feature. When you get a duplicate result, choose any other damage type instead. </p><p>You are also able to speak, read, and write Primordial fluently. </p><p>Published in Heroes of the Elemental Chaos, page(s) 136. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"BRDQkSLCpWm7JqXe",
+	"_key":"!items!BRDQkSLCpWm7JqXe"
+}

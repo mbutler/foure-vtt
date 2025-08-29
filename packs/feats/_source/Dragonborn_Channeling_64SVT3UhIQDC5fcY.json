@@ -1,0 +1,33 @@
+{
+	"name":"Dragonborn Channeling",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Dragonborn, any martial class </p><p><b>Benefit: </b>When you hit an enemy with a martial power, you can expend your dragon breath racial power to deal extra damage to that enemy. Determine the amount of damage and the type of damage dealt by rolling damage as if you had hit with dragon breath. </p><p>Published in Martial Power 2, page(s) 132. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"64SVT3UhIQDC5fcY",
+	"_key":"!items!64SVT3UhIQDC5fcY"
+}

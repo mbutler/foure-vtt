@@ -1,0 +1,33 @@
+{
+	"name":"Go for the Throat (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you hit a prone target with a melee attack, the attack deals 1d6 extra damage. The extra damage increases to 2d6 at 21st level. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"NOd0Z2bxr6UqGR1p",
+	"_key":"!items!NOd0Z2bxr6UqGR1p"
+}

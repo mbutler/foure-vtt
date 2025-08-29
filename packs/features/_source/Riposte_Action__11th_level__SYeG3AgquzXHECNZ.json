@@ -1,0 +1,33 @@
+{
+	"name":"Riposte Action (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When an enemy misses you with a melee attack, you can spend an action point to make a melee basic attack against that enemy. The enemy grants combat advantage to you for this attack, and if you hit, the attack deals 1[W] extra damage. If the enemy is marked by you, the attack instead deals 2[W] extra damage. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"SYeG3AgquzXHECNZ",
+	"_key":"!items!SYeG3AgquzXHECNZ"
+}

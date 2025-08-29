@@ -1,0 +1,33 @@
+{
+	"name":"Swift Recovery",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Training in Endurance </p><p><b>Benefit: </b>You gain a +3 feat bonus to your healing surge value. The bonus increases to +4 at 11th level and +5 at 21st level. </p><p>Published in Heroes of the Fallen Lands, page(s) 318, Heroes of the Forgotten Kingdoms, page(s) 320. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"zJT3uZ29et0LRYOn",
+	"_key":"!items!zJT3uZ29et0LRYOn"
+}

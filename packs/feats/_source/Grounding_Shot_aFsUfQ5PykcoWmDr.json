@@ -1,0 +1,33 @@
+{
+	"name":"Grounding Shot",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Benefit: </b>Your ranged attacks ignore the penalty for attacking prone targets and deal 2 extra damage against them. </p><p>Published in Player's Handbook 3, page(s) 180. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"aFsUfQ5PykcoWmDr",
+	"_key":"!items!aFsUfQ5PykcoWmDr"
+}

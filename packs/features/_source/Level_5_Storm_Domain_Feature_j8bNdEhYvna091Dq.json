@@ -1,0 +1,33 @@
+{
+	"name":"Level 5 Storm Domain Feature",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you use your healing word, one enemy of your choice adjacent to the target of the power takes thunder damage equal to your Constitution modifier. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"j8bNdEhYvna091Dq",
+	"_key":"!items!j8bNdEhYvna091Dq"
+}

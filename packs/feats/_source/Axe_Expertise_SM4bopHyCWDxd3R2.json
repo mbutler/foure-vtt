@@ -1,0 +1,33 @@
+{
+	"name":"Axe Expertise",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Benefit: </b>You gain a +1 feat bonus to weapon attack rolls you make with an axe. This bonus increases to +2 at 11th level and +3 at 21st level. </p><p>Also, when rolling damage for a weapon attack you make with an axe, you can reroll one damage die that results in a 1, but you must use the second result. </p><p>Published in Heroes of the Fallen Lands, page(s) 310, Heroes of the Forgotten Kingdoms, page(s) 310. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"SM4bopHyCWDxd3R2",
+	"_key":"!items!SM4bopHyCWDxd3R2"
+}

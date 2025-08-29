@@ -1,0 +1,33 @@
+{
+	"name":"Blade Magic",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Choose a one-handed melee weapon with which you have proficiency, and that is a light blade or a heavy blade. You gain proficiency with that weapon as an implement, meaning you can use your implement powers through it. The weapon also counts as a wand for you, although it can be enchanted only as a weapon.</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"p5MLjd7J2FTOBCZq",
+	"_key":"!items!p5MLjd7J2FTOBCZq"
+}

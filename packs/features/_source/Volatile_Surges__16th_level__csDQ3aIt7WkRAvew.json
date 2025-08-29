@@ -1,0 +1,33 @@
+{
+	"name":"Volatile Surges (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Your at-will psionic attack powers can score a critical hit on a roll of 18-20. </p><p>Published in Dark Sun Campaign Setting, page(s) 76. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"csDQ3aIt7WkRAvew",
+	"_key":"!items!csDQ3aIt7WkRAvew"
+}

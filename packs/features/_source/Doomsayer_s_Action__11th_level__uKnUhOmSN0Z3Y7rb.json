@@ -1,0 +1,33 @@
+{
+	"name":"Doomsayer's Action (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you spend an action point to take an extra action, you also deal the extra damage of your Warlock's Curse to all of your enemies currently affected by it. Doing so does not prevent you from dealing your Warlock's Curse damage another time this turn. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"uKnUhOmSN0Z3Y7rb",
+	"_key":"!items!uKnUhOmSN0Z3Y7rb"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Tangling Grasp",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>21st level, warden, warden's grasp power </p><p><b>Benefit: </b>You can immobilize the target of your warden's grasp until the end of its next turn, instead of slowing it. </p><p>Published in Primal Power, page(s) 148. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"xsfhyr87mvP5YUQO",
+	"_key":"!items!xsfhyr87mvP5YUQO"
+}

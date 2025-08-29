@@ -1,0 +1,33 @@
+{
+	"name":"Spider's Swiftness",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Drow, any primal class </p><p><b>Benefit: </b>You gain a +1 feat bonus to speed. The bonus increases to +2 while you're under the effect of a primal polymorph or rage power. </p><p>Published in Primal Power, page(s) 142. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"xOIzMab1JHwQKASk",
+	"_key":"!items!xOIzMab1JHwQKASk"
+}

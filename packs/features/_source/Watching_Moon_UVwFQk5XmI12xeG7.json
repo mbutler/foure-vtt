@@ -1,0 +1,33 @@
+{
+	"name":"Watching Moon",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>While you are in the phase of the moon, each enemy adjacent to you that fails a saving throw takes radiant damage equal to your Strength modifier. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"UVwFQk5XmI12xeG7",
+	"_key":"!items!UVwFQk5XmI12xeG7"
+}

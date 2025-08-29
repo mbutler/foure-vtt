@@ -1,0 +1,33 @@
+{
+	"name":"Retributive Spirit",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>11th level, shaman, call spirit companion power </p><p><b>Benefit: </b>When your spirit companion is destroyed, the creature that destroyed it takes a -2 penalty to all defenses until the end of your next turn. </p><p>Published in Primal Power, page(s) 145. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"kUv5nomQMlVqH1w0",
+	"_key":"!items!kUv5nomQMlVqH1w0"
+}

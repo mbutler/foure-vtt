@@ -1,0 +1,33 @@
+{
+	"name":"Path to the Grave (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Whenever you make an attack roll with an encounter or a daily attack power against a creature that has your deathmark, roll a d20 twice and use either result. </p><p>Published in Arcane Power, page(s) 20. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"pCr1B6KcZOH0aXLQ",
+	"_key":"!items!pCr1B6KcZOH0aXLQ"
+}

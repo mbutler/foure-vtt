@@ -1,0 +1,33 @@
+{
+	"name":"Chosen of the Flame (21st level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>At the end of an extended rest, choose one of your fire or radiant daily attack powers. You gain one extra use of the power until the end of your next extended rest. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"destiny"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"HDLJCptZYImQS2yh",
+	"_key":"!items!HDLJCptZYImQS2yh"
+}

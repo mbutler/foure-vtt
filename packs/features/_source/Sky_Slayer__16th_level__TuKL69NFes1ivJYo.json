@@ -1,0 +1,33 @@
+{
+	"name":"Sky-Slayer (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You gain a +1 bonus to attack rolls against flying creatures. </p><p>Published in Dragon Magazine 369, page(s) 52. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"TuKL69NFes1ivJYo",
+	"_key":"!items!TuKL69NFes1ivJYo"
+}

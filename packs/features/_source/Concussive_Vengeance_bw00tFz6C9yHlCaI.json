@@ -1,0 +1,29 @@
+{
+	"name":"Concussive Vengeance",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You have learned to trigger your death throes prematurely as a last resort, through a mixture of self-discipline and arcane experimentation. Be wary, though&mdash;mimicking your death throes might well result in the genuine article.<br>&nbsp;&nbsp;&nbsp;&nbsp;<em>Benefits:&nbsp;</em>You gain the concussive vengeance power. This benefit replaces Dragon Breath.</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"featureType":"race"
+	},
+	"effects":[],
+	"flags":{},
+	"folder":null,
+	"sort":0,
+	"_id":"bw00tFz6C9yHlCaI",
+	"_key":"!items!bw00tFz6C9yHlCaI"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Darkjumper",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>11th level, drow, rogue </p><p><b>Benefit: </b>On the turn when you use the cloud of darkness racial power, you can teleport once to any unoccupied square within the cloud as a free action. </p><p>Published in Martial Power, page(s) 141. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"A3faemEtdi2y0PKT",
+	"_key":"!items!A3faemEtdi2y0PKT"
+}

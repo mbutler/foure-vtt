@@ -1,0 +1,33 @@
+{
+	"name":"Partake of My Strength (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You can use your lay on hands power on an ally as an immediate interrupt when you and an ally are both targeted by a close or area attack </p><p>Published in Dragon Magazine 369, page(s) 48. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"9M0EuYfVTPkxrnCp",
+	"_key":"!items!9M0EuYfVTPkxrnCp"
+}

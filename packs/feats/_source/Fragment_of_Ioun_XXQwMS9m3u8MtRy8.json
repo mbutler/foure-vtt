@@ -1,0 +1,39 @@
+{
+	"name":"Fragment of Ioun",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p class=\"flavour\"><i>Wisdom floods your mind, revealing the cosmos’s secrets—sometimes you see the most vulnerable area of your foe’s defenses as you strike.</i></p><p><strong>Constant Benefits: </strong>When you make a knowledge check, roll two checks and take the best result.</p><p><strong>Divine Manifestation ✦ Encounter (Free Action)</strong></p><p><em>Trigger</em>: You have rolled damage for a divine encounter or daily attack power.</p><p><em>Effect:</em> Reroll any number of that power’s damage dice.</p><p><strong>Quirks: </strong>Distracted, intellectual, studious</p><p>Published in Dragon Magazine 382, page(s) 57.</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"descriptionGM":{
+			"value":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":"",
+			"autoanimationHook":""
+		},
+		"requirements":"",
+		"level":null,
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"flags":{
+		"core":{}
+	},
+	"_id":"XXQwMS9m3u8MtRy8",
+	"sort":0,
+	"_key":"!items!XXQwMS9m3u8MtRy8"
+}

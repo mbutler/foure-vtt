@@ -1,0 +1,33 @@
+{
+	"name":"Scholar Level 10 Feature (10th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You know all the languages listed in the Rules Compendium (page 69) and Player's Handbook (page 25). (At the Dungeon Master's discretion, other languages can be added to the languages you know with this feature.) You can also attempt an Arcana check (hard DC of your level) to decipher a message written in code or protected by a magical disguise.</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"theme"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"xFH9K1JmUbj80GOd",
+	"_key":"!items!xFH9K1JmUbj80GOd"
+}

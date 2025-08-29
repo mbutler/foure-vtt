@@ -1,0 +1,33 @@
+{
+	"name":"Superior Fortitude",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Strength 15 or Constitution 15 </p><p><b>Benefit: </b>You gain a +2 feat bonus to Fortitude. This bonus increases to +3 at 11th level and +4 at 21st level. </p><p>You also gain resist 3 to ongoing damage. This resistance increases to 6 at 11th level and 9 at 21st level. </p><p>Published in Heroes of the Fallen Lands, page(s) 318, Heroes of the Forgotten Kingdoms, page(s) 318. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"OPVUaNJ4XCBup83d",
+	"_key":"!items!OPVUaNJ4XCBup83d"
+}

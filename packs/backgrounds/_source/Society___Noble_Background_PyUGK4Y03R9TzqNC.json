@@ -1,0 +1,33 @@
+{
+	"name":"Society - Noble Background",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Type: </b>Society </p><p><b>Campaign Setting: </b>General </p><p>You are a member of the aristocracy. Does your family have a noble rank? Are you the heir to a title, and if so, how many people stand between you and that title? Under what circumstances did you become an adventurer? </p><p><i>Associated Skills: </i>Diplomacy, Insight </p><p>Published in Player's Handbook 2, page(s) 178. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"background"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"PyUGK4Y03R9TzqNC",
+	"_key":"!items!PyUGK4Y03R9TzqNC"
+}

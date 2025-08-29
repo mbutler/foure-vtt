@@ -1,0 +1,33 @@
+{
+	"name":"Street Thug",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Str 13, Con 13, rogue </p><p><b>Benefit: </b>You can wield a mace with any rogue power that requires a light blade. You reduce Sneak Attack damage by one die when wielding a mace. </p><p>Published in Martial Power, page(s) 139. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"0gWCdtTFbRPiA4Du",
+	"_key":"!items!0gWCdtTFbRPiA4Du"
+}

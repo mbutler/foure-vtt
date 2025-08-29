@@ -1,0 +1,33 @@
+{
+	"name":"Invoke Teamwork",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Half-elf, invoker </p><p><b>Benefit: </b>When you use a divine encounter or daily attack power on your turn, one ally within 10 squares of you gains a +1 power bonus to all defenses until the end of your next turn. </p><p>Published in Divine Power, page(s) 135. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"aGmWp4xb9eQFflJS",
+	"_key":"!items!aGmWp4xb9eQFflJS"
+}

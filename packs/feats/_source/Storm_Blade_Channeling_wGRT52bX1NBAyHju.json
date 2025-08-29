@@ -1,0 +1,33 @@
+{
+	"name":"Storm Blade Channeling",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Storm Magic class feature, Sorcerous Blade Channeling feat </p><p><b>Benefit: </b>Once per round, when you hit with an attack using Sorcerous Blade Channeling, you can shift 1 square as a free action. </p><p>Published in Dragon Magazine 390. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"wGRT52bX1NBAyHju",
+	"_key":"!items!wGRT52bX1NBAyHju"
+}

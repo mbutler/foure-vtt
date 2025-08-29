@@ -1,0 +1,33 @@
+{
+	"name":"Path of Ice",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Wilden, Nature's Aspect racial trait </p><p><b>Benefit: </b>When you use a wilden racial power, the first time you are subjected to forced movement before the start of your next turn, you can ignore the forced movement and shift 1 square as a free action instead. One creature adjacent to you before or after the shift takes cold damage equal to your Wisdom modifier. The cold damage equals 3 + your Wisdom modifier at 11th level, and 6 + your Wisdom modifier at 21st level. </p><p>If you are in the aspect of the elements, you shift 2 squares. </p><p>Published in Dragon Magazine 393. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"aKbrdi6OqICmhNu8",
+	"_key":"!items!aKbrdi6OqICmhNu8"
+}

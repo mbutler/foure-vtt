@@ -1,0 +1,33 @@
+{
+	"name":"Lend Might",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Warlord </p><p><b>Benefit: </b>When an ally makes an attack granted by one of your warlord powers to attack an enemy adjacent to you, that ally gains a +1 bonus to the attack roll. </p><p>Published in Martial Power, page(s) 137. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"CheAnl1P0ZWUSQXE",
+	"_key":"!items!CheAnl1P0ZWUSQXE"
+}

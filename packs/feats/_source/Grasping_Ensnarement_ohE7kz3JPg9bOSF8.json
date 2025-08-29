@@ -1,0 +1,33 @@
+{
+	"name":"Grasping Ensnarement",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Swordmage, aegis of ensnarement power </p><p><b>Benefit: </b>When you use aegis of ensnarement to teleport an enemy, that enemy is also slowed until the end of your next turn. </p><p>Published in Arcane Power, page(s) 128. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"ohE7kz3JPg9bOSF8",
+	"_key":"!items!ohE7kz3JPg9bOSF8"
+}

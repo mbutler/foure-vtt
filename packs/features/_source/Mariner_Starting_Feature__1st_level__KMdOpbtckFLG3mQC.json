@@ -1,0 +1,33 @@
+{
+	"name":"Mariner Starting Feature (1st level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>While you are aboard a ship, you gain a +1 bonus to any skill check or ability check related to life at sea. Examples of such checks include an Athletics check to scale rigging, a Diplomacy check to issue orders to surly crew members, a Perception check to spot a dangerous reef, or an Intelligence check to plot a course using the stars. At 10th level, this bonus increases to +2.<br>In addition, once per round when you make an Acrobatics check to balance or hop down, you can roll twice and use the higher result.<br></p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"theme"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"KMdOpbtckFLG3mQC",
+	"_key":"!items!KMdOpbtckFLG3mQC"
+}

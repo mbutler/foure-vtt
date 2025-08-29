@@ -1,0 +1,33 @@
+{
+	"name":"Lingering Surge",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Wilder theme </p><p><b>Benefit: </b>When you score a critical hit against an enemy, you gain combat advantage against that enemy until the end of your next turn. </p><p>Published in Dark Sun Campaign Setting, page(s) 110. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"Ew3FhLtSy1rxqOIi",
+	"_key":"!items!Ew3FhLtSy1rxqOIi"
+}

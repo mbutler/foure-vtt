@@ -1,0 +1,33 @@
+{
+	"name":"Holy Resolve",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Warforged, cleric </p><p><b>Benefit: </b>When you use your warforged resolve racial power, add your Strength modifier to the hit points regained by targets of your cleric healing powers until the end of your next turn. </p><p>Published in Divine Power, page(s) 135. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"dXRFPuYhQ4m3iK9Z",
+	"_key":"!items!dXRFPuYhQ4m3iK9Z"
+}

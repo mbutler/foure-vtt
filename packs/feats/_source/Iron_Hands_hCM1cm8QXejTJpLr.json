@@ -1,0 +1,33 @@
+{
+	"name":"Iron Hands",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>11th level, Wis 13, githzerai </p><p><b>Benefit: </b>While your iron mind racial power is in effect, you gain a bonus equal to your Wisdom modifier to melee damage rolls. </p><p>Published in Player's Handbook 3, page(s) 188. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"hCM1cm8QXejTJpLr",
+	"_key":"!items!hCM1cm8QXejTJpLr"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Paragon of the Natural Cycle (Spring)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you or your animal companion reduces a nonminion enemy to 0 hit points, you and your animal companion each regain 10 hit points. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"JFa2fsouPAXKl80x",
+	"_key":"!items!JFa2fsouPAXKl80x"
+}

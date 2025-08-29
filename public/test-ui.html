@@ -1,0 +1,978 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>4e VTT - UI Test</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      /* Import Inter font for beautiful typography */
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+      
+      /* CSS Variables for consistent theming */
+      :root {
+        /* Color Palette */
+        --bg-primary: #0a0a0a;
+        --bg-secondary: #111111;
+        --bg-tertiary: #1a1a1a;
+        --bg-elevated: #222222;
+        --bg-hover: #2a2a2a;
+        
+        /* Text Colors */
+        --text-primary: #f5f5f5;
+        --text-secondary: #a0a0a0;
+        --text-muted: #666666;
+        --text-accent: #ffffff;
+        
+        /* Power Type Colors */
+        --power-at-will: #4ade80;
+        --power-encounter: #f87171;
+        --power-daily: #9ca3af;
+        --power-utility: #60a5fa;
+        
+        /* Status Colors */
+        --status-active: #3b82f6;
+        --status-success: #10b981;
+        --status-warning: #f59e0b;
+        --status-error: #ef4444;
+        
+        /* Borders */
+        --border-subtle: #333333;
+        --border-medium: #444444;
+        --border-strong: #555555;
+        
+        /* Spacing */
+        --space-xs: 4px;
+        --space-sm: 8px;
+        --space-md: 12px;
+        --space-lg: 16px;
+        --space-xl: 24px;
+        
+        /* Typography */
+        --font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        --font-size-xs: 11px;
+        --font-size-sm: 12px;
+        --font-size-base: 14px;
+        --font-size-lg: 16px;
+        --font-size-xl: 18px;
+        --font-size-2xl: 20px;
+        
+        /* Shadows */
+        --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+        --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+        --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+      }
+
+      /* Reset and Base Styles */
+      * {
+        box-sizing: border-box;
+      }
+      
+      html, body {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        background: var(--bg-primary);
+        color: var(--text-primary);
+        font-family: var(--font-family);
+        font-size: var(--font-size-base);
+        line-height: 1.5;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+
+      /* Layout Grid */
+      #app {
+        display: grid;
+        grid-template-columns: 1fr 380px;
+        grid-template-rows: auto 1fr auto;
+        height: 100vh;
+        overflow: hidden;
+      }
+
+      /* Header */
+      header {
+        grid-column: 1 / span 2;
+        padding: var(--space-md) var(--space-lg);
+        background: var(--bg-secondary);
+        border-bottom: 1px solid var(--border-subtle);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-size: var(--font-size-sm);
+        font-weight: 500;
+      }
+
+      .status-group {
+        display: flex;
+        gap: var(--space-md);
+        align-items: center;
+      }
+
+      .status-item {
+        display: flex;
+        align-items: center;
+        gap: var(--space-xs);
+        padding: var(--space-xs) var(--space-sm);
+        background: var(--bg-tertiary);
+        border: 1px solid var(--border-subtle);
+        border-radius: 6px;
+        font-size: var(--font-size-xs);
+        font-weight: 500;
+        letter-spacing: 0.025em;
+      }
+
+      .status-item.current {
+        background: var(--status-active);
+        border-color: var(--status-active);
+        color: var(--text-accent);
+      }
+
+      .status-item.team-a {
+        background: var(--status-success);
+        border-color: var(--status-success);
+        color: var(--text-accent);
+      }
+
+      .status-item.team-b {
+        background: var(--status-error);
+        border-color: var(--status-error);
+        color: var(--text-accent);
+      }
+
+      /* Main Stage */
+      #stage {
+        grid-column: 1;
+        grid-row: 2;
+        background: var(--bg-tertiary);
+        position: relative;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: var(--text-secondary);
+        font-size: var(--font-size-lg);
+      }
+
+      /* Sidebar Panel */
+      #panel {
+        grid-column: 2;
+        grid-row: 2;
+        background: var(--bg-secondary);
+        border-left: 1px solid var(--border-subtle);
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+      }
+
+      /* Panel Sections */
+      .panel-section {
+        padding: var(--space-lg);
+        border-bottom: 1px solid var(--border-subtle);
+      }
+
+      .panel-section:last-child {
+        border-bottom: none;
+        flex: 1;
+        overflow-y: auto;
+      }
+
+      .panel-section h3 {
+        margin: 0 0 var(--space-md) 0;
+        font-size: var(--font-size-lg);
+        font-weight: 600;
+        color: var(--text-accent);
+        letter-spacing: -0.025em;
+      }
+
+      /* Session Info */
+      .session-info {
+        background: var(--bg-tertiary);
+        border: 1px solid var(--border-subtle);
+        border-radius: 8px;
+        padding: var(--space-md);
+      }
+
+      .session-info input {
+        width: 100%;
+        padding: var(--space-sm);
+        background: var(--bg-primary);
+        border: 1px solid var(--border-medium);
+        border-radius: 6px;
+        color: var(--text-primary);
+        font-size: var(--font-size-sm);
+        margin-bottom: var(--space-sm);
+        transition: border-color 0.2s ease;
+      }
+
+      .session-info input:focus {
+        outline: none;
+        border-color: var(--status-active);
+      }
+
+      /* Compact Buttons */
+      .button-group {
+        display: flex;
+        gap: var(--space-xs);
+        flex-wrap: wrap;
+      }
+
+      button {
+        padding: var(--space-xs) var(--space-sm);
+        background: var(--bg-tertiary);
+        color: var(--text-primary);
+        border: 1px solid var(--border-medium);
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: var(--font-size-xs);
+        font-weight: 500;
+        font-family: inherit;
+        transition: all 0.15s ease;
+        white-space: nowrap;
+        min-height: 28px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      button:hover {
+        background: var(--bg-hover);
+        border-color: var(--border-strong);
+      }
+
+      button:active {
+        transform: translateY(1px);
+      }
+
+      button:disabled {
+        background: var(--bg-primary);
+        color: var(--text-muted);
+        cursor: not-allowed;
+        border-color: var(--border-subtle);
+      }
+
+      button.active {
+        background: var(--status-active);
+        border-color: var(--status-active);
+        color: var(--text-accent);
+      }
+
+      /* Mode Buttons */
+      .mode-buttons {
+        display: flex;
+        gap: var(--space-xs);
+      }
+
+      .mode-buttons button {
+        flex: 1;
+        font-size: var(--font-size-xs);
+        padding: var(--space-xs) var(--space-sm);
+      }
+
+      /* Powers List */
+      .powers-list {
+        display: flex;
+        flex-direction: column;
+        gap: var(--space-md);
+      }
+
+      .power-group {
+        display: flex;
+        flex-direction: column;
+        gap: var(--space-xs);
+      }
+
+      .power-group-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: var(--space-xs) var(--space-sm);
+        background: var(--bg-primary);
+        border: 1px solid var(--border-subtle);
+        border-radius: 4px;
+        font-size: var(--font-size-xs);
+        font-weight: 600;
+        color: var(--text-secondary);
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+      }
+
+      .power-group-label {
+        color: var(--text-accent);
+      }
+
+      .power-group-count {
+        background: var(--bg-tertiary);
+        padding: 1px var(--space-xs);
+        border-radius: 3px;
+        font-size: 10px;
+        font-weight: 500;
+      }
+
+      .power-item {
+        padding: var(--space-sm);
+        background: var(--bg-tertiary);
+        border: 1px solid var(--border-subtle);
+        border-radius: 6px;
+        cursor: pointer;
+        transition: all 0.15s ease;
+        font-size: var(--font-size-sm);
+        line-height: 1.4;
+      }
+
+      .power-item:hover {
+        background: var(--bg-hover);
+        border-color: var(--border-medium);
+        transform: translateY(-1px);
+      }
+
+      .power-item.selected {
+        background: var(--status-active);
+        border-color: var(--status-active);
+        color: var(--text-accent);
+      }
+
+      .power-item.disabled {
+        opacity: 0.5;
+        cursor: not-allowed;
+      }
+
+      .power-item.disabled:hover {
+        transform: none;
+        background: var(--bg-tertiary);
+        border-color: var(--border-subtle);
+      }
+
+      .power-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: var(--space-xs);
+      }
+
+      .power-name {
+        font-weight: 600;
+        color: var(--text-accent);
+        font-size: var(--font-size-sm);
+      }
+
+      .power-type {
+        font-size: var(--font-size-xs);
+        font-weight: 600;
+        padding: 2px var(--space-xs);
+        border-radius: 3px;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        min-width: 60px;
+        text-align: center;
+      }
+
+      .power-type.at-will {
+        background: var(--power-at-will);
+        color: #000;
+      }
+
+      .power-type.encounter {
+        background: var(--power-encounter);
+        color: #000;
+      }
+
+      .power-type.daily {
+        background: var(--power-daily);
+        color: #000;
+      }
+
+      .power-type.utility {
+        background: var(--power-utility);
+        color: #000;
+      }
+
+      .power-details {
+        font-size: var(--font-size-xs);
+        color: var(--text-secondary);
+        line-height: 1.3;
+        display: flex;
+        flex-wrap: wrap;
+        gap: var(--space-xs);
+      }
+
+      .power-action {
+        display: inline-block;
+        background: var(--bg-primary);
+        padding: 1px var(--space-xs);
+        border-radius: 3px;
+        font-weight: 500;
+        font-size: 10px;
+        text-transform: uppercase;
+        letter-spacing: 0.025em;
+      }
+
+      .power-target {
+        color: var(--text-secondary);
+        font-size: 10px;
+      }
+
+      .power-range {
+        color: var(--text-muted);
+        font-size: 10px;
+        font-style: italic;
+      }
+
+      .no-powers {
+        text-align: center;
+        color: var(--text-muted);
+        font-style: italic;
+        padding: var(--space-lg);
+      }
+
+      /* Power Details Panel */
+      .power-details-panel {
+        background: var(--bg-tertiary);
+        border: 1px solid var(--border-subtle);
+        border-radius: 8px;
+        padding: var(--space-md);
+        margin-top: var(--space-md);
+        display: none;
+      }
+
+      .power-details-panel.show {
+        display: block;
+      }
+
+      .power-details-panel h4 {
+        margin: 0 0 var(--space-sm) 0;
+        font-size: var(--font-size-lg);
+        font-weight: 600;
+        color: var(--text-accent);
+      }
+
+      .power-meta {
+        display: flex;
+        gap: var(--space-sm);
+        margin-bottom: var(--space-sm);
+        font-size: var(--font-size-xs);
+        color: var(--text-secondary);
+      }
+
+      .power-description {
+        font-size: var(--font-size-sm);
+        line-height: 1.5;
+        color: var(--text-primary);
+        margin-bottom: var(--space-md);
+      }
+
+      .power-usage {
+        font-size: var(--font-size-xs);
+        color: var(--text-muted);
+        font-style: italic;
+      }
+
+      /* Log Panel */
+      #log {
+        grid-column: 1 / span 2;
+        grid-row: 3;
+        background: var(--bg-primary);
+        border-top: 1px solid var(--border-subtle);
+        display: flex;
+        flex-direction: column;
+        max-height: 200px;
+        overflow: hidden;
+      }
+
+      .log-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: var(--space-sm) var(--space-lg);
+        background: var(--bg-secondary);
+        border-bottom: 1px solid var(--border-subtle);
+      }
+
+      .log-header h3 {
+        margin: 0;
+        font-size: var(--font-size-sm);
+        font-weight: 600;
+        color: var(--text-accent);
+      }
+
+      .log-clear {
+        padding: var(--space-xs) var(--space-sm);
+        font-size: var(--font-size-xs);
+        background: var(--bg-tertiary);
+        border: 1px solid var(--border-subtle);
+        color: var(--text-secondary);
+      }
+
+      .log-clear:hover {
+        background: var(--bg-hover);
+        color: var(--text-primary);
+      }
+
+      .log-entries {
+        flex: 1;
+        overflow-y: auto;
+        padding: var(--space-sm) var(--space-lg);
+        display: flex;
+        flex-direction: column;
+        gap: var(--space-xs);
+      }
+
+      .log-entry {
+        padding: var(--space-sm);
+        background: var(--bg-secondary);
+        border: 1px solid var(--border-subtle);
+        border-radius: 6px;
+        font-size: var(--font-size-xs);
+        line-height: 1.4;
+        transition: all 0.15s ease;
+      }
+
+      .log-entry:hover {
+        background: var(--bg-tertiary);
+        border-color: var(--border-medium);
+      }
+
+      .log-entry-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: var(--space-xs);
+      }
+
+      .log-entry-time {
+        font-family: 'SF Mono', Monaco, 'Cascadia Code', 'Roboto Mono', Consolas, 'Courier New', monospace;
+        font-size: 10px;
+        color: var(--text-muted);
+        font-weight: 500;
+      }
+
+      .log-entry-type {
+        font-size: 12px;
+        opacity: 0.8;
+      }
+
+      .log-entry-content {
+        display: flex;
+        flex-direction: column;
+        gap: 2px;
+      }
+
+      .log-entry-title {
+        font-weight: 600;
+        color: var(--text-accent);
+        font-size: var(--font-size-sm);
+      }
+
+      .log-entry-subtitle {
+        font-size: 10px;
+        color: var(--text-secondary);
+        font-weight: 500;
+        text-transform: uppercase;
+        letter-spacing: 0.025em;
+      }
+
+      .log-entry-text {
+        color: var(--text-primary);
+        font-size: var(--font-size-xs);
+      }
+
+      .log-entry-details {
+        font-size: 10px;
+        color: var(--text-muted);
+        font-style: italic;
+        margin-top: var(--space-xs);
+        padding-top: var(--space-xs);
+        border-top: 1px solid var(--border-subtle);
+      }
+
+      /* Log Entry Types */
+      .log-entry.turn {
+        border-left: 3px solid var(--status-active);
+      }
+
+      .log-entry.power {
+        border-left: 3px solid var(--power-encounter);
+      }
+
+      .log-entry.attack {
+        border-left: 3px solid var(--status-error);
+      }
+
+      .log-entry.movement {
+        border-left: 3px solid var(--status-success);
+      }
+
+      .log-entry.status {
+        border-left: 3px solid var(--status-warning);
+      }
+
+      .log-entry.system {
+        border-left: 3px solid var(--border-medium);
+      }
+
+      /* Log Entry Levels */
+      .log-entry.info {
+        background: var(--bg-secondary);
+      }
+
+      .log-entry.success {
+        background: rgba(16, 185, 129, 0.1);
+        border-color: var(--status-success);
+      }
+
+      .log-entry.warning {
+        background: rgba(245, 158, 11, 0.1);
+        border-color: var(--status-warning);
+      }
+
+      .log-entry.error {
+        background: rgba(239, 68, 68, 0.1);
+        border-color: var(--status-error);
+      }
+
+      /* Scrollbars */
+      ::-webkit-scrollbar {
+        width: 6px;
+        height: 6px;
+      }
+
+      ::-webkit-scrollbar-track {
+        background: var(--bg-primary);
+      }
+
+      ::-webkit-scrollbar-thumb {
+        background: var(--border-medium);
+        border-radius: 3px;
+      }
+
+      ::-webkit-scrollbar-thumb:hover {
+        background: var(--border-strong);
+      }
+
+      /* Responsive Design */
+      @media (max-width: 1200px) {
+        #app {
+          grid-template-columns: 1fr 320px;
+        }
+      }
+
+      @media (max-width: 768px) {
+        #app {
+          grid-template-columns: 1fr;
+          grid-template-rows: auto 1fr auto auto;
+        }
+        
+        #panel {
+          grid-column: 1;
+          grid-row: 4;
+          max-height: 300px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="app">
+      <header>
+        <div class="status-group">
+          <div class="status-item current">Turn: <span id="current-turn">Gandalf</span></div>
+          <div class="status-item team-a">Team A: <span id="team-a-actions">1/1/1</span></div>
+          <div class="status-item team-b">Team B: <span id="team-b-actions">1/1/1</span></div>
+        </div>
+        <div class="status-group">
+          <div class="status-item">Round: <span id="current-round">3</span></div>
+        </div>
+      </header>
+
+      <div id="stage">
+        <div>Game Stage Area</div>
+        <div style="font-size: var(--font-size-sm); margin-top: var(--space-sm); opacity: 0.7;">
+          PIXI.js rendering area for tokens, grid, and effects
+        </div>
+      </div>
+
+      <div id="panel">
+        <div class="panel-section">
+          <h3>Session</h3>
+          <div class="session-info">
+            <input type="text" id="session-id" placeholder="Session ID" value="demo-session">
+            <div class="button-group">
+              <button id="create-session">Create</button>
+              <button id="join-session">Join</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="panel-section">
+          <h3>Actions</h3>
+          <div class="button-group">
+            <button id="end-turn">End Turn</button>
+            <button id="second-wind">Second Wind</button>
+          </div>
+        </div>
+
+        <div class="panel-section">
+          <h3>Mode</h3>
+          <div class="mode-buttons">
+            <button id="mode-move" class="active">Move</button>
+            <button id="mode-measure">Measure</button>
+            <button id="mode-target">Target</button>
+          </div>
+        </div>
+
+        <div class="panel-section">
+          <h3>Powers</h3>
+          <div id="powers-container">
+            <div class="powers-list" id="powers-list">
+              <!-- Sample powers for demonstration -->
+              <div class="power-group">
+                <div class="power-group-header">
+                  <span class="power-group-label">At-Will</span>
+                  <span class="power-group-count">2</span>
+                </div>
+                <div class="power-item" data-power-id="basic-attack">
+                  <div class="power-header">
+                    <div class="power-name">Basic Attack</div>
+                    <div class="power-type at-will">At-Will</div>
+                  </div>
+                  <div class="power-details">
+                    <span class="power-action">Standard</span>
+                    <span class="power-target">One creature</span>
+                    <span class="power-range">Melee</span>
+                  </div>
+                </div>
+                <div class="power-item" data-power-id="magic-missile">
+                  <div class="power-header">
+                    <div class="power-name">Magic Missile</div>
+                    <div class="power-type at-will">At-Will</div>
+                  </div>
+                  <div class="power-details">
+                    <span class="power-action">Standard</span>
+                    <span class="power-target">One creature</span>
+                    <span class="power-range">Ranged 20</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="power-group">
+                <div class="power-group-header">
+                  <span class="power-group-label">Encounter</span>
+                  <span class="power-group-count">1</span>
+                </div>
+                <div class="power-item" data-power-id="thunderwave">
+                  <div class="power-header">
+                    <div class="power-name">Thunderwave</div>
+                    <div class="power-type encounter">Encounter</div>
+                  </div>
+                  <div class="power-details">
+                    <span class="power-action">Standard</span>
+                    <span class="power-target">Burst 1</span>
+                    <span class="power-range">Close</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="power-group">
+                <div class="power-group-header">
+                  <span class="power-group-label">Daily</span>
+                  <span class="power-group-count">1</span>
+                </div>
+                <div class="power-item disabled" data-power-id="fireball">
+                  <div class="power-header">
+                    <div class="power-name">Fireball</div>
+                    <div class="power-type daily">Daily</div>
+                  </div>
+                  <div class="power-details">
+                    <span class="power-action">Standard</span>
+                    <span class="power-target">Burst 3</span>
+                    <span class="power-range">Ranged 20</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="power-details-panel" id="power-details">
+              <h4 id="power-name">Magic Missile</h4>
+              <div class="power-meta">
+                <span id="power-type">At-Will</span>
+                <span id="power-action">Standard Action</span>
+                <span id="power-target">One creature</span>
+              </div>
+              <div class="power-description" id="power-description">
+                You send a magical projectile at your target. The missile never misses its target.
+              </div>
+              <div class="power-usage" id="power-usage">Ready to use</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="log">
+        <div class="log-header">
+          <h3>Game Log</h3>
+          <button class="log-clear" id="log-clear">Clear</button>
+        </div>
+        <div class="log-entries" id="log-entries">
+          <!-- Sample log entries for demonstration -->
+          <div class="log-entry turn info">
+            <div class="log-entry-header">
+              <div class="log-entry-time">14:32:15</div>
+              <div class="log-entry-type">⏱️</div>
+            </div>
+            <div class="log-entry-content">
+              <div class="log-entry-title">Turn 3</div>
+              <div class="log-entry-subtitle">Round 3</div>
+              <div class="log-entry-text">Gandalf's turn</div>
+            </div>
+          </div>
+
+          <div class="log-entry power success">
+            <div class="log-entry-header">
+              <div class="log-entry-time">14:32:10</div>
+              <div class="log-entry-type">⚡</div>
+            </div>
+            <div class="log-entry-content">
+              <div class="log-entry-title">Magic Missile</div>
+              <div class="log-entry-subtitle">At-Will</div>
+              <div class="log-entry-text">Gandalf uses Magic Missile on Goblin Archer</div>
+              <div class="log-entry-details">Hit: 8 force damage</div>
+            </div>
+          </div>
+
+          <div class="log-entry movement info">
+            <div class="log-entry-header">
+              <div class="log-entry-time">14:31:45</div>
+              <div class="log-entry-type">👣</div>
+            </div>
+            <div class="log-entry-content">
+              <div class="log-entry-title">Movement</div>
+              <div class="log-entry-subtitle">3 squares</div>
+              <div class="log-entry-text">Gandalf moves from (5, 3) to (8, 3)</div>
+            </div>
+          </div>
+
+          <div class="log-entry attack success">
+            <div class="log-entry-header">
+              <div class="log-entry-time">14:31:30</div>
+              <div class="log-entry-type">⚔️</div>
+            </div>
+            <div class="log-entry-content">
+              <div class="log-entry-title">Attack</div>
+              <div class="log-entry-subtitle">Hit</div>
+              <div class="log-entry-text">Aragorn attacks Orc Warrior</div>
+              <div class="log-entry-details">Roll: 18 | Damage: 12</div>
+            </div>
+          </div>
+
+          <div class="log-entry status warning">
+            <div class="log-entry-header">
+              <div class="log-entry-time">14:31:00</div>
+              <div class="log-entry-type">💫</div>
+            </div>
+            <div class="log-entry-content">
+              <div class="log-entry-title">Poisoned</div>
+              <div class="log-entry-subtitle">Ongoing 5 poison</div>
+              <div class="log-entry-text">Legolas is affected by Poisoned</div>
+            </div>
+          </div>
+
+          <div class="log-entry system info">
+            <div class="log-entry-header">
+              <div class="log-entry-time">14:30:00</div>
+              <div class="log-entry-type">⚙️</div>
+            </div>
+            <div class="log-entry-content">
+              <div class="log-entry-title">System</div>
+              <div class="log-entry-text">Combat initiated - Round 1 begins</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      // Interactive demo functionality
+      document.addEventListener('DOMContentLoaded', function() {
+        // Power selection
+        const powerItems = document.querySelectorAll('.power-item:not(.disabled)')
+        const powerDetails = document.getElementById('power-details')
+        const powerName = document.getElementById('power-name')
+        const powerType = document.getElementById('power-type')
+        const powerAction = document.getElementById('power-action')
+        const powerTarget = document.getElementById('power-target')
+        const powerDescription = document.getElementById('power-description')
+        const powerUsage = document.getElementById('power-usage')
+
+        powerItems.forEach(item => {
+          item.addEventListener('click', function() {
+            // Remove previous selection
+            powerItems.forEach(p => p.classList.remove('selected'))
+            
+            // Add selection to clicked item
+            this.classList.add('selected')
+            
+            // Show power details
+            const powerId = this.dataset.powerId
+            const powerNameText = this.querySelector('.power-name').textContent
+            const powerTypeText = this.querySelector('.power-type').textContent
+            const powerActionText = this.querySelector('.power-action').textContent
+            const powerTargetText = this.querySelector('.power-target').textContent
+            
+            powerName.textContent = powerNameText
+            powerType.textContent = powerTypeText
+            powerAction.textContent = powerActionText + ' Action'
+            powerTarget.textContent = powerTargetText
+            
+            // Sample descriptions
+            const descriptions = {
+              'basic-attack': 'Make a melee basic attack against one creature.',
+              'magic-missile': 'You send a magical projectile at your target. The missile never misses its target.',
+              'thunderwave': 'A wave of thunderous sound sweeps out from you. Each creature in the burst takes thunder damage.'
+            }
+            
+            powerDescription.textContent = descriptions[powerId] || 'No description available.'
+            powerUsage.textContent = 'Ready to use'
+            
+            powerDetails.classList.add('show')
+          })
+        })
+
+        // Mode buttons
+        const modeButtons = document.querySelectorAll('.mode-buttons button')
+        modeButtons.forEach(button => {
+          button.addEventListener('click', function() {
+            modeButtons.forEach(b => b.classList.remove('active'))
+            this.classList.add('active')
+          })
+        })
+
+        // Log clear button
+        const logClear = document.getElementById('log-clear')
+        logClear.addEventListener('click', function() {
+          const logEntries = document.getElementById('log-entries')
+          logEntries.innerHTML = '<div class="log-entry system info"><div class="log-entry-header"><div class="log-entry-time">' + 
+            new Date().toLocaleTimeString() + '</div><div class="log-entry-type">⚙️</div></div><div class="log-entry-content"><div class="log-entry-title">System</div><div class="log-entry-text">Log cleared</div></div></div>'
+        })
+
+        // Action buttons
+        const endTurnBtn = document.getElementById('end-turn')
+        const secondWindBtn = document.getElementById('second-wind')
+        
+        endTurnBtn.addEventListener('click', function() {
+          const logEntries = document.getElementById('log-entries')
+          const newEntry = document.createElement('div')
+          newEntry.className = 'log-entry turn info'
+          newEntry.innerHTML = '<div class="log-entry-header"><div class="log-entry-time">' + 
+            new Date().toLocaleTimeString() + '</div><div class="log-entry-type">⏱️</div></div><div class="log-entry-content"><div class="log-entry-title">Turn Ended</div><div class="log-entry-text">Turn advanced to next actor</div></div>'
+          logEntries.insertBefore(newEntry, logEntries.firstChild)
+        })
+
+        secondWindBtn.addEventListener('click', function() {
+          const logEntries = document.getElementById('log-entries')
+          const newEntry = document.createElement('div')
+          newEntry.className = 'log-entry status warning'
+          newEntry.innerHTML = '<div class="log-entry-header"><div class="log-entry-time">' + 
+            new Date().toLocaleTimeString() + '</div><div class="log-entry-type">💫</div></div><div class="log-entry-content"><div class="log-entry-title">Second Wind</div><div class="log-entry-subtitle">Healing Surge</div><div class="log-entry-text">Gandalf uses Second Wind</div></div>'
+          logEntries.insertBefore(newEntry, logEntries.firstChild)
+        })
+      })
+    </script>
+  </body>
+</html>

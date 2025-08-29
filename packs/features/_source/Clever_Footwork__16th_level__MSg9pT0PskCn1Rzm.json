@@ -1,0 +1,33 @@
+{
+	"name":"Clever Footwork (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Whenever you make an Athletics, Acrobatics, or Stealth check, you can roll twice and use the higher result. </p><p>Also, you never earn failures in a skill challenge for failed Athletics, Acrobatics, or Stealth checks you fail by 5 or less. </p><p>Published in Dark Sun Campaign Setting, page(s) 40. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"MSg9pT0PskCn1Rzm",
+	"_key":"!items!MSg9pT0PskCn1Rzm"
+}

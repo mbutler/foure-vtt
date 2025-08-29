@@ -1,0 +1,33 @@
+{
+	"name":"Wasteland Wanderer",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Benefit: </b>You gain a +2 feat bonus to Nature, Perception, and initiative checks. </p><p>Published in Heroes of the Forgotten Kingdoms, page(s) 321. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"g0MtN8IfCuzmeDx3",
+	"_key":"!items!g0MtN8IfCuzmeDx3"
+}

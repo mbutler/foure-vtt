@@ -1,0 +1,33 @@
+{
+	"name":"Power Surge",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>11th level, psion </p><p><b>Benefit: </b>You can expend the use of an unused daily psion attack power to regain 2 power points. If the daily power is 15th level or higher, you instead regain 4 power points. If the daily power is 25th level or higher, you instead regain 6 power points. </p><p>Published in Psionic Power, page(s) 138. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"gkSoewc1OquMEWTA",
+	"_key":"!items!gkSoewc1OquMEWTA"
+}

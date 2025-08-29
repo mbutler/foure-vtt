@@ -1,0 +1,33 @@
+{
+	"name":"Plague Familiarity (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You no longer take a -2 penalty to all defenses and saving throws against the Spellplague and plaguechanged or spellscarred creatures. Instead, you gain a +2 bonus to all defenses and saving throws against them. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"4xyKkbAQijauf3RD",
+	"_key":"!items!4xyKkbAQijauf3RD"
+}

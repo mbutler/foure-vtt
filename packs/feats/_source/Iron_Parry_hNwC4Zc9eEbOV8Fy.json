@@ -1,0 +1,33 @@
+{
+	"name":"Iron Parry",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Monk, Iron Soul class feature </p><p><b>Benefit: </b>When you are wielding a weapon (other than your monk unarmed strike), wearing cloth armor or no armor, and not using a shield, you gain a +1 bonus to AC. </p><p>Published in Psionic Power, page(s) 132. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"hNwC4Zc9eEbOV8Fy",
+	"_key":"!items!hNwC4Zc9eEbOV8Fy"
+}

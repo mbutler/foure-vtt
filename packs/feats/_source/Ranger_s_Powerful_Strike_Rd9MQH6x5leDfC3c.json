@@ -1,0 +1,33 @@
+{
+	"name":"Ranger's Powerful Strike",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Any ranger encounter attack power that has a level </p><p><b>Benefit: </b>Choose one of your ranger encounter attack powers that has a level. You lose that power and gain the power strike power. </p><p>Published in Dragon Magazine 402. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"Rd9MQH6x5leDfC3c",
+	"_key":"!items!Rd9MQH6x5leDfC3c"
+}

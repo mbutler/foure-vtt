@@ -1,0 +1,33 @@
+{
+	"name":"Unarmed Combatant",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You can make unarmed attacks with much greater effectiveness than most combatants can. When you make a weapon attack such as a melee basic attack, you can use the monk unarmed strike, which is a weapon in the unarmed weapon group. This weapon has the off-hand weapon property and a +3 proficiency bonus, and it deals 1d8 damage. You must have a hand free to use your monk unarmed strike, even if you're kicking, kneeing, elbowing, or head-butting a target. Your monk unarmed strike can't be turned into a magic weapon, but it can benefit from a magic ki focus if you have one.</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"Jst1GUWVOihyBn4k",
+	"_key":"!items!Jst1GUWVOihyBn4k"
+}

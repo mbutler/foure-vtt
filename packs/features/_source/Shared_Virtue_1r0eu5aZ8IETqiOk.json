@@ -1,0 +1,33 @@
+{
+	"name":"Shared Virtue",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You gain a utility power associated with your virtue.</p>\n<p>@UUID[Compendium.dnd-4e-compendium.module-features.p4NcfPi19udJlUvX]{Shared Sacrifice}@UUID[Compendium.dnd-4e-compendium.module-features.p4NcfPi19udJlUvX]{Shared Sacrifice}@UUID[Compendium.dnd-4e-compendium.module-features.27P0NZrUBRQcodXC]{Shared Valor}@UUID[Compendium.dnd-4e-compendium.module-features.27P0NZrUBRQcodXC]{Shared Valor}</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"1r0eu5aZ8IETqiOk",
+	"_key":"!items!1r0eu5aZ8IETqiOk"
+}

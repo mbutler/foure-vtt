@@ -1,0 +1,33 @@
+{
+	"name":"Improved Silver Shield (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you use your aegis of shielding immediate interrupt, you also gain temporary hit points equal to 10 + your Constitution modifier. At 21st level, this value increases to 15 + your Constitution modifier. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"CdoYZTuDElizwRbg",
+	"_key":"!items!CdoYZTuDElizwRbg"
+}

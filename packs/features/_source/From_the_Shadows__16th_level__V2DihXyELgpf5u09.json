@@ -1,0 +1,33 @@
+{
+	"name":"From the Shadows (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Once per round when you hit a target marked by you that is granting combat advantage to you, you may deal 2d6 extra damage to that target. </p><p>Published in Dragon Magazine 384, page(s) 58. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"V2DihXyELgpf5u09",
+	"_key":"!items!V2DihXyELgpf5u09"
+}

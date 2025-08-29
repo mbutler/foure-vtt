@@ -1,0 +1,33 @@
+{
+	"name":"Acolyte Power [Multiclass Utility]",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Any class-specific multiclass feat, 8th level </p><p><b>Benefit: </b>You can swap one utility power you know for one utility power of the same level or lower from the class you multiclassed into. </p><p>Published in Player's Handbook, page(s) 209. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"7orMzwgpDFfEqnbV",
+	"_key":"!items!7orMzwgpDFfEqnbV"
+}

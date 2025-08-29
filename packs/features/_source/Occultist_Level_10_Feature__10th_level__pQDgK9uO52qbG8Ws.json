@@ -1,0 +1,33 @@
+{
+	"name":"Occultist Level 10 Feature (10th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When interacting with creatures that have an origin other than natural, you can use Arcana or Religion in place of Diplomacy and Intimidate. Once per day, you can ignore the component cost of a binding ritual of your level or lower that you have mastered.</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"theme"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"pQDgK9uO52qbG8Ws",
+	"_key":"!items!pQDgK9uO52qbG8Ws"
+}

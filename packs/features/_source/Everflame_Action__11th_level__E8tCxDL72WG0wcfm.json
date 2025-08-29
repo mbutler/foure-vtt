@@ -1,0 +1,33 @@
+{
+	"name":"Everflame Action (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you spend an action point to take an extra action, each ally within 5 squares of you regains 5 hit points, and each enemy within 5 squares of you gains vulnerable 5 fire until the end of your next turn. In addition, each enemy within 5 squares of you that has fire resistance or immunity to fire loses it until the end of your next turn. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"E8tCxDL72WG0wcfm",
+	"_key":"!items!E8tCxDL72WG0wcfm"
+}

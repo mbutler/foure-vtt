@@ -1,0 +1,33 @@
+{
+	"name":"Passage of Mael Arn'dreygh",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Benefit: </b>When you are blinded or in darkness, creatures within 2 squares of you have concealment rather than total concealment, provided you have line of effect to the creature's space and it is not invisible for a reason other than darkness or blindness. </p><p>Published in Dragon Magazine 390. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"aHMfnUtO48giqdhW",
+	"_key":"!items!aHMfnUtO48giqdhW"
+}

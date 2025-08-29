@@ -1,0 +1,33 @@
+{
+	"name":"Shyran Spirit Warding (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When your spirit companion is adjacent to you, you gain a +1 bonus to Fortitude, Reflex, and Will defenses. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"c5hq1GOD4yjwEe3a",
+	"_key":"!items!c5hq1GOD4yjwEe3a"
+}

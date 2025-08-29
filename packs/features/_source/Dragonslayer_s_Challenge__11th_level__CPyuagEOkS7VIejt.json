@@ -1,0 +1,33 @@
+{
+	"name":"Dragonslayer's Challenge (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>The first time you mark a target during an encounter, you gain a +2 bonus to damage rolls against that target until that mark ends. The bonus increases to +4 at 21st level. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"CPyuagEOkS7VIejt",
+	"_key":"!items!CPyuagEOkS7VIejt"
+}

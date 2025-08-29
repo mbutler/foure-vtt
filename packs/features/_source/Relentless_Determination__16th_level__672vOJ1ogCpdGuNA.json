@@ -1,0 +1,33 @@
+{
+	"name":"Relentless Determination (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you fail a saving throw against an effect caused by an enemy, your divine attack powers deal 5 extra damage until the end of your next turn. </p><p>Published in Divine Power, page(s) 24. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"672vOJ1ogCpdGuNA",
+	"_key":"!items!672vOJ1ogCpdGuNA"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Driven Action (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you spend an action point to give a special command that allows a summoned creature to make an attack, that attack gains a power bonus to the attack roll equal to your Charisma modifier, and each enemy hit by the attack takes 5 extra damage. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"P9HLKynzMpk6FSZh",
+	"_key":"!items!P9HLKynzMpk6FSZh"
+}

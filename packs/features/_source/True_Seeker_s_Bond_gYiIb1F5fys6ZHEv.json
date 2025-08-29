@@ -1,0 +1,52 @@
+{
+	"name":"True Seeker's Bond",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You gain the rest of the benefits of the Seeker's Bond option you chose (except that you can still use the power only once per day).</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"descriptionGM":{
+			"value":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":"",
+			"autoanimationHook":""
+		},
+		"class":"",
+		"hitFistLevel":10,
+		"hitPerLevel":5,
+		"surgePerDay":5,
+		"skills":"<i class=\"fas fa-edit\"></i>",
+		"def":{
+			"ac":0,
+			"fort":0,
+			"ref":0,
+			"wil":0
+		},
+		"proficiencies":{
+			"weapons":[],
+			"armour":[]
+		},
+		"requirements":"",
+		"level":null,
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"gYiIb1F5fys6ZHEv",
+	"_key":"!items!gYiIb1F5fys6ZHEv"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Spirited Rider [Arena Fighting]",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Wis 13, Mounted Combat, any martial class </p><p><b>Benefit: </b>You gain a benefit with any of the following exploits you possess. </p><p>Associated Powers: </p><p>Cleave: If you charge while mounted, you can use cleave in place of a melee basic attack. </p><p>Commander's Strike: If you are mounted, your mount can make the melee basic attack this power grants. If that attack hits, the target is pushed 1 square. </p><p>Published in Dragon Magazine Annual. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"lnzwSKbMtdayV7ex",
+	"_key":"!items!lnzwSKbMtdayV7ex"
+}

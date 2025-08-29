@@ -1,0 +1,33 @@
+{
+	"name":"Open Quarry (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you or an ally uses the Hunter's Quarry class feature, you or the ally can designate any enemy you can see as the quarry (rather than the nearest enemy). </p><p>Published in Martial Power, page(s) 119. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"bwPJ85W9Gguko1Ee",
+	"_key":"!items!bwPJ85W9Gguko1Ee"
+}

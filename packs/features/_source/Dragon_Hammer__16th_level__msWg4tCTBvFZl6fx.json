@@ -1,0 +1,33 @@
+{
+	"name":"Dragon Hammer (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you hit an enemy, that enemy takes a -1 penalty to Fortitude defense until the end of your next turn. If that enemy is a dragon, it also takes a -1 penalty to AC until the end of your next turn. </p><p>Published in Dragon Magazine 369, page(s) 48. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"msWg4tCTBvFZl6fx",
+	"_key":"!items!msWg4tCTBvFZl6fx"
+}

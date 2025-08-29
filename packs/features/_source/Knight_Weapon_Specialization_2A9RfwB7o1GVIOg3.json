@@ -1,0 +1,33 @@
+{
+	"name":"Knight Weapon Specialization",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You gain one of the benefits of your choice.</p>\n<p>@UUID[Compendium.dnd-4e-compendium.module-features.lCHRa5mcyFXTZkIY]{Bladed Step}@UUID[Compendium.dnd-4e-compendium.module-features.Id1LetnvzpCKh7xD]{Bludgeoning Staff}@UUID[Compendium.dnd-4e-compendium.module-features.nKJ91wvPjGbg2esO]{Staggering Hammer}</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"2A9RfwB7o1GVIOg3",
+	"_key":"!items!2A9RfwB7o1GVIOg3"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Iron Control (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When any enemy pulls or pushes you, you can use a free action to slide that enemy 2 squares after the forced movement. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"PZqdf2sUjzQuOGSI",
+	"_key":"!items!PZqdf2sUjzQuOGSI"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Fearless Seeker",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Goliath, ranger, Hunter's Quarry class feature </p><p><b>Benefit: </b>When your quarry hits you with a melee attack, you can use your stone's endurance racial power as an immediate interrupt. </p><p>Published in Martial Power 2, page(s) 133. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"yadq3sz1MX0fBhvI",
+	"_key":"!items!yadq3sz1MX0fBhvI"
+}

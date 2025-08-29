@@ -1,0 +1,33 @@
+{
+	"name":"Fey Preserver",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Eladrin, invoker, Covenant of Preservation class feature </p><p><b>Benefit: </b>When you use your preserver's rebuke power, you can also teleport the ally who was hit by the triggering enemy 2 squares. </p><p>Published in Divine Power, page(s) 134. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"cVbhqkfutog5vl1S",
+	"_key":"!items!cVbhqkfutog5vl1S"
+}

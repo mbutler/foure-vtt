@@ -1,0 +1,33 @@
+{
+	"name":"Vine Arms",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Wilden, Nature's Aspect racial trait </p><p><b>Benefit: </b>You gain a +2 feat bonus to Acrobatics checks. </p><p>In addition, when you use your Nature's Aspect racial power, your melee reach increases by 1 until the end of your next turn. </p><p>Published in Heroes of the Feywild, page(s) 130. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"OWnKV0bjqP5J6Fvg",
+	"_key":"!items!OWnKV0bjqP5J6Fvg"
+}

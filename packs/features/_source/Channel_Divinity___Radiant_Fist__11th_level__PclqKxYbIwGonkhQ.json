@@ -1,0 +1,33 @@
+{
+	"name":"Channel Divinity - Radiant Fist (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You gain the Channel Divinity class feature, which means you can use a single Channel Divinity power once per encounter. You also gain a divinity feat of your choice. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"PclqKxYbIwGonkhQ",
+	"_key":"!items!PclqKxYbIwGonkhQ"
+}

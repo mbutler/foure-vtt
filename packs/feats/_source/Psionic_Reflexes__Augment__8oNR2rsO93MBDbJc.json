@@ -1,0 +1,33 @@
+{
+	"name":"Psionic Reflexes [Augment]",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Psionic Augmentation class feature </p><p><b>Benefit: </b>You gain a +1 bonus to opportunity attack rolls. </p><p>When you make an opportunity attack, you can spend 1 power point to gain a +2 power bonus to the attack roll. </p><p>Published in Psionic Power, page(s) 133. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"8oNR2rsO93MBDbJc",
+	"_key":"!items!8oNR2rsO93MBDbJc"
+}

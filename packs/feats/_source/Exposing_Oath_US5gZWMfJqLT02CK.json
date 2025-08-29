@@ -1,0 +1,33 @@
+{
+	"name":"Exposing Oath",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>11th level, avenger, oath of enmity power </p><p><b>Benefit: </b>While a creature is your oath of enmity target, your attacks ignore any resist radiant or resist necrotic the target has. </p><p>Published in Dragon Magazine 382, page(s) 41. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"US5gZWMfJqLT02CK",
+	"_key":"!items!US5gZWMfJqLT02CK"
+}

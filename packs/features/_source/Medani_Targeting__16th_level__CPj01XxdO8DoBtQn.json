@@ -1,0 +1,33 @@
+{
+	"name":"Medani Targeting (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Your attacks ignore cover and concealment, but not superior cover and total concealment, against a target you have combat advantage against. </p><p>Published in Eberron Player's Guide, page(s) 73. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"CPj01XxdO8DoBtQn",
+	"_key":"!items!CPj01XxdO8DoBtQn"
+}

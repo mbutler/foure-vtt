@@ -1,0 +1,33 @@
+{
+	"name":"Supernal Linguist (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Your study of Supernal has given you a greater understanding of the world. You gain a +2 bonus to knowledge checks. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"nD9V5tMceBo2FbGj",
+	"_key":"!items!nD9V5tMceBo2FbGj"
+}

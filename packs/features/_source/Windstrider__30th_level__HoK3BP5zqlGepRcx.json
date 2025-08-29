@@ -1,0 +1,33 @@
+{
+	"name":"Windstrider (30th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You gain a fly speed equal to your speed + 2, and you can hover. </p><p>Published in Divine Power, page(s) 150. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"destiny"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"HoK3BP5zqlGepRcx",
+	"_key":"!items!HoK3BP5zqlGepRcx"
+}

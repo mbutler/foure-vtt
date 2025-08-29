@@ -1,0 +1,33 @@
+{
+	"name":"Born of Two Races",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Select either human or dwarf. You can take feats that have your choice as a prerequisite (as well as those specifically for muls), as long as you meet any other requirements.</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"race"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"EIh5gzwLCej2aXMQ",
+	"_key":"!items!EIh5gzwLCej2aXMQ"
+}

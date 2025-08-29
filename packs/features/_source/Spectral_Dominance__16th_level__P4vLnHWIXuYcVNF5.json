@@ -1,0 +1,33 @@
+{
+	"name":"Spectral Dominance (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>While an enemy is subject to the effect of any of your illusion attacks, you gain combat advantage against that enemy. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"P4vLnHWIXuYcVNF5",
+	"_key":"!items!P4vLnHWIXuYcVNF5"
+}

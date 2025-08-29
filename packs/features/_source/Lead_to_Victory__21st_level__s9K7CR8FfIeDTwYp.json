@@ -1,0 +1,33 @@
+{
+	"name":"Lead to Victory (21st level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Whenever you shift, each ally within your line of sight can shift an equal number of squares as a free action. The ally must end the shift closer to you than he or she began. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"destiny"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"s9K7CR8FfIeDTwYp",
+	"_key":"!items!s9K7CR8FfIeDTwYp"
+}

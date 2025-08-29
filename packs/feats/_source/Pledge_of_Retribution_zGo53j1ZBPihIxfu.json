@@ -1,0 +1,33 @@
+{
+	"name":"Pledge of Retribution",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>11th level, avenger, Censure of Retribution class feature, oath of enmity power </p><p><b>Benefit: </b>If you miss your oath of enmity target with an attack, you gain a +1 bonus to the next attack roll you make against that target before the end of your next turn. </p><p>Published in Divine Power, page(s) 140. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"zGo53j1ZBPihIxfu",
+	"_key":"!items!zGo53j1ZBPihIxfu"
+}

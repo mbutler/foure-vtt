@@ -1,0 +1,34 @@
+{
+	"name":"Eyes of Selûne [Divinity]",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Channel Divinity class feature, must worship Selûne </p><p><b>Benefit: </b>You can invoke the power of your deity to use eyes of Selûne. </p><p>Published in Forgotten Realms Player's Guide, page(s) 133. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":"",
+			"autoanimationHook":""
+		},
+		"requirements":"",
+		"level":null,
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"LP8vAq6VduKRmxG7",
+	"_key":"!items!LP8vAq6VduKRmxG7"
+}

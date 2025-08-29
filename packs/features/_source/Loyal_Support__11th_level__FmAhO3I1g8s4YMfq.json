@@ -1,0 +1,33 @@
+{
+	"name":"Loyal Support (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Whenever you use a healing power or a power that grants temporary hit points, the target of the power gains an additional 2 hit points (of the corresponding type) for each ally within 2 squares of you. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"FmAhO3I1g8s4YMfq",
+	"_key":"!items!FmAhO3I1g8s4YMfq"
+}

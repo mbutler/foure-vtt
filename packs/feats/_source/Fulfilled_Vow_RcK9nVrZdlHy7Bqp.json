@@ -1,0 +1,33 @@
+{
+	"name":"Fulfilled Vow",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>11th level, paladin, ardent vow </p><p><b>Benefit: </b>The first time in an encounter that you reduce an enemy marked by you to 0 or fewer hit points, you gain a +5 bonus to your next damage roll before the end of your next turn. </p><p>Published in Dragon Magazine 388. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"RcK9nVrZdlHy7Bqp",
+	"_key":"!items!RcK9nVrZdlHy7Bqp"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Winter's Embrace (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You and your summoned creatures gain resist 3 cold; any existing resistance to cold instead increases by 3. This resistance stacks with other resistance to cold granted by powers or effects. </p><p>At 21st level, this resistance improves to 5 (or increases by 5). </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"dIsK8voPD96XncaV",
+	"_key":"!items!dIsK8voPD96XncaV"
+}

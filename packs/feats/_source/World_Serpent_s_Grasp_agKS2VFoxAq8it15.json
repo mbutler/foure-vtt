@@ -1,0 +1,33 @@
+{
+	"name":"World Serpent's Grasp",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Benefit: </b>Whenever you hit a slowed or immobilized target with an attack, you can knock it prone. </p><p>Published in Heroes of the Forgotten Kingdoms, page(s) 321. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"agKS2VFoxAq8it15",
+	"_key":"!items!agKS2VFoxAq8it15"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Spell Commander's Action (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Whenever you spend an action point to make an attack, one ally within 10 squares of the target can use a basic attack or a 1st-level at-will arcane attack power as a free action. The ally must include at least one target of your attack as a target. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"KZomNAV60kPD17qU",
+	"_key":"!items!KZomNAV60kPD17qU"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Tempered Iron Mind",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>11th level, githzerai </p><p><b>Benefit: </b>Your iron mind racial power is a free action and can be triggered even if an attack misses you. </p><p>Published in Dragon Magazine 378. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"Z7gEqim4yNXBUSwd",
+	"_key":"!items!Z7gEqim4yNXBUSwd"
+}

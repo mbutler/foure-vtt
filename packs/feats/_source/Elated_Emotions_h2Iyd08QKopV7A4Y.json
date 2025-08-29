@@ -1,0 +1,33 @@
+{
+	"name":"Elated Emotions",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Ardent, Mantle of Elation class feature </p><p><b>Benefit: </b>The bonus to Diplomacy checks and Intimidate checks granted by your Mantle of Elation equals your Constitution modifier, instead of +2. </p><p>Published in Player's Handbook 3, page(s) 180. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"h2Iyd08QKopV7A4Y",
+	"_key":"!items!h2Iyd08QKopV7A4Y"
+}

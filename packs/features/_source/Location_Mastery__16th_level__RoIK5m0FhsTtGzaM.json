@@ -1,0 +1,33 @@
+{
+	"name":"Location Mastery (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You and allies within 5 squares of you cannot be teleported against your will. </p><p>Published in Manual of the Planes, page(s) 145. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"RoIK5m0FhsTtGzaM",
+	"_key":"!items!RoIK5m0FhsTtGzaM"
+}

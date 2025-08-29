@@ -1,0 +1,33 @@
+{
+	"name":"Balic - Legionary Background",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Type: </b>Geography </p><p><b>Campaign Setting: </b>Dark Sun </p><p>You served as a foot soldier in the army of Balic for a time. Legionaries who finish their terms honorably gain several privileges in the city-state, including the right to own land and hold certain offices. Did you complete your enlistment, or did you desert? </p><p><i>Associated Skills: </i>Athletics, Streetwise </p><p>Associated Languages: Giant </p><p>Published in Dark Sun Campaign Setting, page(s) 144. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"background"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"lxJzNtB94jXnOD3H",
+	"_key":"!items!lxJzNtB94jXnOD3H"
+}

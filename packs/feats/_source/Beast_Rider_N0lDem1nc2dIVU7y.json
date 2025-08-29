@@ -1,0 +1,33 @@
+{
+	"name":"Beast Rider",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Beast Mastery class feature </p><p><b>Benefit: </b>If your beast companion is your size or larger, and at least Medium size, you can ride it as a mount. (This is an exception to the rule that mounts must be no smaller than Large.) You can mount or dismount your beast companion as a move action. </p><p>Published in Dragon Magazine 384, page(s) 36. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"N0lDem1nc2dIVU7y",
+	"_key":"!items!N0lDem1nc2dIVU7y"
+}

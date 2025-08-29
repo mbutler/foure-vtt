@@ -1,0 +1,33 @@
+{
+	"name":"Animal Empathy",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Trained in Nature </p><p><b>Benefit: </b>You gain a +2 feat bonus to Nature checks. Also, when you would make an Insight check against a natural beast, you can make a Nature check instead. </p><p>Published in Primal Power, page(s) 136. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"8MHfC6vTkRP41e7Z",
+	"_key":"!items!8MHfC6vTkRP41e7Z"
+}

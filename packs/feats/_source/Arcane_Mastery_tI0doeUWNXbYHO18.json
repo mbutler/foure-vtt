@@ -1,0 +1,33 @@
+{
+	"name":"Arcane Mastery",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>21st level, Wizard </p><p><b>Benefit: </b>Once per encounter, you can spend an action point to regain the use of a daily wizard power you've already used today, instead of taking an extra action. </p><p>Published in Player's Handbook, page(s) 206. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"tI0doeUWNXbYHO18",
+	"_key":"!items!tI0doeUWNXbYHO18"
+}

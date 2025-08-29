@@ -1,0 +1,33 @@
+{
+	"name":"Agile Charge (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you begin a charge, you gain a +1 bonus to AC and Reflex until the start of your next turn. Also, after completing a charge, you can take further actions (if you have any left). </p><p>Published in Martial Power, page(s) 89. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"1UGvXjmdlWH4RNTh",
+	"_key":"!items!1UGvXjmdlWH4RNTh"
+}

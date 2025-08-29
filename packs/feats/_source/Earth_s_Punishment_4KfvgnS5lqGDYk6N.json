@@ -1,0 +1,33 @@
+{
+	"name":"Earth's Punishment",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>11th level, warden, Earthstrength class feature </p><p><b>Benefit: </b>When an adjacent enemy that is marked by you makes an attack that does not include you as a target, and hits and damages at least one of your allies, it takes damage equal to your Constitution modifier. </p><p>Published in Dragon Magazine 379, page(s) 45. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"4KfvgnS5lqGDYk6N",
+	"_key":"!items!4KfvgnS5lqGDYk6N"
+}

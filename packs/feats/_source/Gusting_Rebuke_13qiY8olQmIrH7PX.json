@@ -1,0 +1,37 @@
+{
+	"name":"Gusting Rebuke",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>11th level, warden, Stormheart class feature </p><p><b>Benefit: </b>When an enemy adjacent to you that is marked by you hits and damages one of your allies with an attack that does not include you as a target, you can push the enemy a number of squares equal to your Constitution modifier as an immediate reaction. </p><p>Published in Dragon Magazine 383, page(s) 62. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"descriptionGM":{
+			"value":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":"",
+			"autoanimationHook":""
+		},
+		"requirements":"",
+		"level":null,
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"13qiY8olQmIrH7PX",
+	"_key":"!items!13qiY8olQmIrH7PX"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Mastery of the Gift (30th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>At the end of a short rest, when you confer with your familiar, you can replace one of your wizard encounter attack powers with another wizard encounter attack power. The new power must have a level, and its level must be the same as the old power's level. </p><p>Published in Heroes of the Feywild, page(s) 124. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"destiny"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"fjlEt7auYpwPVhis",
+	"_key":"!items!fjlEt7auYpwPVhis"
+}

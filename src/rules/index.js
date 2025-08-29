@@ -3,6 +3,11 @@ import { applyPatches } from '../engine/patches.js'
 import { tickStartOfTurn, tickEndOfTurn, computeActionMaskForActor } from './effects.js'
 import { applyHealing, spendSurge, secondWind, gainTempHP, deathSave, stabilize } from './healing.js'
 
+/**
+ * Creates the initial game state for a new D&D 4e combat encounter
+ * @param {number} seed - Random seed for deterministic gameplay
+ * @returns {Object} Complete initial game state
+ */
 export const initialState = (seed = 42) => {
   return {
     matchId: `match_${Date.now()}_${seed}`,
@@ -33,7 +38,12 @@ export const initialState = (seed = 42) => {
   }
 }
 
-// A3: Turn & phase semantics
+/**
+ * Advances the turn to the next actor in initiative order
+ * Handles turn transitions, round increments, and effect processing
+ * @param {Object} G - Current game state
+ * @returns {Array} Array of patches to apply
+ */
 export const advanceTurn = (G) => {
   const patches = []
   
@@ -73,13 +83,23 @@ export const advanceTurn = (G) => {
   return patches
 }
 
-// A3: Round hook (scaffold for future per-round resets)
+/**
+ * Handles round-begin effects and resets
+ * @param {Object} G - Current game state
+ * @returns {Array} Array of patches to apply
+ */
 export const onRoundBegin = (_G) => {
   const patches = []
   // Intentionally minimal for now; extend with per-round resets if needed
   return patches
 }
 
+/**
+ * Handles turn-begin effects including delayed actions and effect processing
+ * @param {Object} G - Current game state
+ * @param {string} actorId - ID of the actor whose turn is beginning
+ * @returns {Array} Array of patches to apply
+ */
 export const onTurnBegin = (G, actorId) => {
   const patches = []
   let effectiveActorId = actorId

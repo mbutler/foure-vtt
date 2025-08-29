@@ -1,0 +1,33 @@
+{
+	"name":"Bloodied Aspect (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You gain a benefit related to the aspect of nature you are manifesting. </p><p>Aspect of the Ancients: When you spend a healing surge while you are bloodied, you regain additional hit points equal to your Wisdom modifier. </p><p>Aspect of the Destroyer: You gain a +1 racial bonus to attack rolls while you are bloodied. </p><p>Aspect of the Hunter: You gain a +1 racial bonus to speed while you are bloodied. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"VOAxDfG3RF6aurZj",
+	"_key":"!items!VOAxDfG3RF6aurZj"
+}

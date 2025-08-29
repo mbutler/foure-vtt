@@ -1,0 +1,33 @@
+{
+	"name":"Starshine Mantle",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Fey Origin racial trait, Warden </p><p><b>Benefit: </b>When you use your second wind, you gain partial concealment until you make an attack or until the start of your next turn. </p><p>Published in Dragon Magazine 392. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"Rt3mUwAgKr8F7vfZ",
+	"_key":"!items!Rt3mUwAgKr8F7vfZ"
+}

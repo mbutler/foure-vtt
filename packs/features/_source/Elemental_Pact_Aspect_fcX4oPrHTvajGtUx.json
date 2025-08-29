@@ -1,0 +1,33 @@
+{
+	"name":"Elemental Pact Aspect",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You gain a +2 bonus to Endurance checks. At the end of each extended rest, choose acid, cold, fire, lightning, or thunder. You gain resist 10 to the chosen damage type until the end of your next extended rest. At 21st level, the resistance increases to 15. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"fcX4oPrHTvajGtUx",
+	"_key":"!items!fcX4oPrHTvajGtUx"
+}

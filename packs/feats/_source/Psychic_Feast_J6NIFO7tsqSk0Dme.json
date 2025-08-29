@@ -1,0 +1,33 @@
+{
+	"name":"Psychic Feast",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Longtooth shifter, longtooth shifting racial power, any psionic class </p><p><b>Benefit: </b>While you benefit from longtooth shifting and when you hit with an attack on your turn, your regeneration increases by 2 until the end of your next turn. </p><p>Published in Dragon Magazine 389. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"J6NIFO7tsqSk0Dme",
+	"_key":"!items!J6NIFO7tsqSk0Dme"
+}

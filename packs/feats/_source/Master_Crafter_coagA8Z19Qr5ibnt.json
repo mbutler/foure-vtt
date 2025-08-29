@@ -1,0 +1,33 @@
+{
+	"name":"Master Crafter",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Artificer </p><p><b>Benefit: </b>When you use the Enchant Magic Item ritual to create a magic item, you can create a magic item of your level + your Intelligence modifier or lower. </p><p>Published in Eberron Player's Guide, page(s) 92. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"coagA8Z19Qr5ibnt",
+	"_key":"!items!coagA8Z19Qr5ibnt"
+}

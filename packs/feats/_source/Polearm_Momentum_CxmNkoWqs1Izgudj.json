@@ -1,0 +1,33 @@
+{
+	"name":"Polearm Momentum",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Dex 15, Wis 15, fighter </p><p><b>Benefit: </b>Whenever you use a polearm or a spear attack to push or slide a target 2 or more squares, you can also knock that target prone at the end of the forced movement. </p><p>Published in Martial Power, page(s) 138. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"CxmNkoWqs1Izgudj",
+	"_key":"!items!CxmNkoWqs1Izgudj"
+}

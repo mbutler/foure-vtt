@@ -1,0 +1,33 @@
+{
+	"name":"Herb Lore (Druid)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You and each ally can add 2 to his or her healing surge value when spending heading surges during a short rest. To gain this benefit, you must take the short rest in an area that offers easy access to plants. The additional hit points increase to 4 at 11th level and 6 at 21st level. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"ZWVeNYXaTLCGQbjS",
+	"_key":"!items!ZWVeNYXaTLCGQbjS"
+}

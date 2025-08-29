@@ -1,0 +1,33 @@
+{
+	"name":"Wee Warrior",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You have a reach of 1, rather than the reach of 0 that is typical for a Tiny creature. You also take a -5 penalty to Strength checks to break or force open objects. When wielding a weapon of your size, you follow the same rules that Small creatures do.</p>\n<p>&nbsp;</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"race"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"NRHmqOMcDTVPvlj0",
+	"_key":"!items!NRHmqOMcDTVPvlj0"
+}

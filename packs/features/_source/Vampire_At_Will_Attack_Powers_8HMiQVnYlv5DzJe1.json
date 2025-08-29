@@ -1,0 +1,33 @@
+{
+	"name":"Vampire At-Will Attack Powers",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You gain the dark beckoning, taste of life, and vampire slam powers.</p>\n<p>@UUID[Compendium.dnd-4e-compendium.module-powers.mMRKu8qcnPJfv30i]{Dark Beckoning}@UUID[Compendium.dnd-4e-compendium.module-powers.3ILK85atCpvinVJm]{Taste of Life}@UUID[Compendium.dnd-4e-compendium.module-powers.7ASF0TGw1kgLQH6N]{Vampire Slam}</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"8HMiQVnYlv5DzJe1",
+	"_key":"!items!8HMiQVnYlv5DzJe1"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Bloody Price (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>While you are wielding two melee weapons, you can reroll a missed opportunity attack once per turn and use either result. </p><p>Published in Primal Power, page(s) 30. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"Do9krIHjtJT6qQ4z",
+	"_key":"!items!Do9krIHjtJT6qQ4z"
+}

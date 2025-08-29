@@ -1,0 +1,33 @@
+{
+	"name":"Inexhaustible Resources",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>21st level, mul </p><p><b>Benefit: </b>When you use your second wind, you can forgo spending a healing surge and regaining hit points to instead gain temporary hit points equal to your healing surge value. </p><p>Published in Dark Sun Campaign Setting, page(s) 115. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"9Cit8qEJ5bfOXW3Y",
+	"_key":"!items!9Cit8qEJ5bfOXW3Y"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Strengthened Bond",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Seeker, Seeker's Bond class feature </p><p><b>Benefit: </b>The first time you are bloodied during an encounter, you regain the use of your Seeker's Bond power if it is expended. </p><p>Published in Player's Handbook 3, page(s) 183. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"tclo5DPFNi3HeRXp",
+	"_key":"!items!tclo5DPFNi3HeRXp"
+}

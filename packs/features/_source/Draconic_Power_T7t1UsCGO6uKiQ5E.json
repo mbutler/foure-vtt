@@ -1,0 +1,33 @@
+{
+	"name":"Draconic Power",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>: You gain a bonus to the damage rolls of arcane powers equal to your Strength modifier. The bonus increases to your Strength modifier +2 at 11th level and your Strength modifier +4 at 21st level. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"T7t1UsCGO6uKiQ5E",
+	"_key":"!items!T7t1UsCGO6uKiQ5E"
+}

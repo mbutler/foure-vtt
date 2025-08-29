@@ -1,0 +1,33 @@
+{
+	"name":"Paragon of Learning (21st level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You gain a +6 bonus to Arcana checks, Dungeoneering checks, History checks, Nature checks, and Religion checks. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"destiny"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"BuPgaZ90rU2TINcF",
+	"_key":"!items!BuPgaZ90rU2TINcF"
+}

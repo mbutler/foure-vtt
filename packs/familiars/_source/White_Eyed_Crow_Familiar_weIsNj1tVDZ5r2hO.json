@@ -1,0 +1,33 @@
+{
+	"name":"White-Eyed Crow Familiar",
+	"type":"feature",
+	"img":"icons/creatures/magical/construct-gargoyle-stone-gray.webp",
+	"system":{
+		"description":{
+			"value":"<p><i>A white-eyed crow has stark white eyes, without pupils, but it is not blind. This small black bird sees more than any mortal creature.</i></p><p><b>Speed</b> 2, fly 6 (hover)</p><p><b>Constant Benefits</b></p><p>* You can't be surprised.</p><p><b>Active Benefits</b></p><p>Fate's Agent: When you spend an action point to make an attack, you can reroll one missed attack roll against a target of that attack if that target is adjacent to the white-eyed crow.</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"other"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"weIsNj1tVDZ5r2hO",
+	"_key":"!items!weIsNj1tVDZ5r2hO"
+}

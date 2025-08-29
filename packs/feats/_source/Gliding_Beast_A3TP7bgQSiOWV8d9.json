@@ -1,0 +1,33 @@
+{
+	"name":"Gliding Beast",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>11th level, ranger, Beast Mastery class feature (cat or raptor) </p><p><b>Benefit: </b>After your beast companion hits with a melee basic attack, it can shift 1 square as a free action. </p><p>Published in Martial Power 2, page(s) 142. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"A3TP7bgQSiOWV8d9",
+	"_key":"!items!A3TP7bgQSiOWV8d9"
+}

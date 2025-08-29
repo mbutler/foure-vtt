@@ -1,0 +1,33 @@
+{
+	"name":"Pyromancy Master",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you use an area or close arcane fire attack power that is not already a zone, the area of the attack becomes a zone that lasts until the end of your next turn. Creatures that end their turns within the zone take fire damage equal to your Constitution modifier. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"t1kD3uh5djaLiYm7",
+	"_key":"!items!t1kD3uh5djaLiYm7"
+}

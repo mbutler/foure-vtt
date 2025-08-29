@@ -1,0 +1,33 @@
+{
+	"name":"Essential Resistance (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Whenever you gain resistance, increase that resistance by 3 (or by 4 at 21st level and higher). </p><p>Published in Arcane Power, page(s) 45. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"BXsVMkyYtnWDqdLF",
+	"_key":"!items!BXsVMkyYtnWDqdLF"
+}

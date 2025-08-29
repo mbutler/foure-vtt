@@ -1,0 +1,33 @@
+{
+	"name":"Hidden Channeling",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Gnome, any divine class, Channel Divinity class feature </p><p><b>Benefit: </b>When you use a Channel Divinity power, you gain concealment until the end of your next turn. </p><p>Published in Divine Power, page(s) 135. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"GYfiJIAesrUmFvj0",
+	"_key":"!items!GYfiJIAesrUmFvj0"
+}

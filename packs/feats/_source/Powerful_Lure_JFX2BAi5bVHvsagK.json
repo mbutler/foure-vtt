@@ -1,0 +1,33 @@
+{
+	"name":"Powerful Lure",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Level 11, satyr, lure of enchantment racial power </p><p><b>Benefit: </b>When you use lure of enchantment, you can slide the target up to 6 squares, instead of the normal distance, and you can slide it into hindering terrain. </p><p>Published in Heroes of the Feywild, page(s) 130. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"JFX2BAi5bVHvsagK",
+	"_key":"!items!JFX2BAi5bVHvsagK"
+}

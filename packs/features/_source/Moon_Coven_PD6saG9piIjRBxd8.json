@@ -1,0 +1,33 @@
+{
+	"name":"Moon Coven",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Choose a coven, and gain its benefits.</p>\n<p>@UUID[Compendium.dnd-4e-compendium.module-features.x98BeJNg7bU5oDfI]{Dark Moon Coven}@UUID[Compendium.dnd-4e-compendium.module-powers.jxzJcf8gMrRyD61s]{Dread Presence}@UUID[Compendium.dnd-4e-compendium.module-features.XU5C9KvNIhbLzkjf]{Full Moon Coven}@UUID[Compendium.dnd-4e-compendium.module-powers.0LJWY2sVFK6xPHbt]{Glorious Presence}</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"PD6saG9piIjRBxd8",
+	"_key":"!items!PD6saG9piIjRBxd8"
+}

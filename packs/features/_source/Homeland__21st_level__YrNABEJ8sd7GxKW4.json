@@ -1,0 +1,33 @@
+{
+	"name":"Homeland (21st level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>With the DM's approval, choose a realm you are destined to rule. You are regarded as a great hero in that land. You gain a +4 bonus to any Charisma-based skill checks you make within that land. You have property or estates there sufficient to provide for your ordinary needs, including the resources to maintain a household and a small force of loyal retainers. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"destiny"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"YrNABEJ8sd7GxKW4",
+	"_key":"!items!YrNABEJ8sd7GxKW4"
+}

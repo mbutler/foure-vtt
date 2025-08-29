@@ -1,0 +1,33 @@
+{
+	"name":"Supreme Healer",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>21st level, cleric, healing word power </p><p><b>Benefit: </b>When you use your healing word, you can heal two targets instead of one (either two allies or one ally and yourself ). </p><p>Published in Divine Power, page(s) 143. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"8uFRaDOmldkbLzEI",
+	"_key":"!items!8uFRaDOmldkbLzEI"
+}

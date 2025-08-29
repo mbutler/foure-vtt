@@ -1,0 +1,33 @@
+{
+	"name":"Practiced Study",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Any martial class </p><p><b>Benefit: </b>You can master and perform martial practices. You learn one martial practice of your level or lower. </p><p>Published in Dragon Magazine 381, page(s) 119, Martial Power 2, page(s) 138. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"tueE0bqaFUvrzsyI",
+	"_key":"!items!tueE0bqaFUvrzsyI"
+}

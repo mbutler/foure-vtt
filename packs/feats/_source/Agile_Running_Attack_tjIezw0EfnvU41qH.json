@@ -1,0 +1,33 @@
+{
+	"name":"Agile Running Attack",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Ranger, Running Attack class feature </p><p><b>Benefit: </b>When you move as part of using a ranger attack power, you ignore difficult terrain. </p><p>Published in Martial Power 2, page(s) 131. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"tjIezw0EfnvU41qH",
+	"_key":"!items!tjIezw0EfnvU41qH"
+}

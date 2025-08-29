@@ -1,0 +1,33 @@
+{
+	"name":"Lingering Fade",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Gnome, fade away racial power, you have a spellscar </p><p><b>Benefit: </b>Fade away gains a sustain standard: You take 5 damage and the effect persists until the end of your next turn or until you attack. If you have the Student of the Plague feat, you take only 2 damage when you sustain fade away. </p><p>Published in Dragon Magazine 385, page(s) 24. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"RtpV7WijOEkvPS1U",
+	"_key":"!items!RtpV7WijOEkvPS1U"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Lightning Quick (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you spend an action point to take an extra action, you become lightning quick until the end of your next turn. While you are lightning quick, you can shift 1 square as a free action each time you hit or miss with an attack. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"vxLyswif3e0tVFlr",
+	"_key":"!items!vxLyswif3e0tVFlr"
+}

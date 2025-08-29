@@ -1,0 +1,33 @@
+{
+	"name":"Improved Rageblood Vigor",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Barbarian, Rageblood Vigor class feature </p><p><b>Benefit: </b>You gain 5 additional temporary hit points from your Rageblood Vigor. </p><p>Published in Player's Handbook 2, page(s) 186. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"aKJ6ZzMN1CFGObv3",
+	"_key":"!items!aKJ6ZzMN1CFGObv3"
+}

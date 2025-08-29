@@ -1,0 +1,33 @@
+{
+	"name":"Lorekeeper's Wisdom (21st level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Whenever you make a knowledge check or a monster knowledge check, you can roll twice and use either result. </p><p>In addition, your attacks deal 2 extra damage on a hit against creatures whose origins are within the purview of your trained skills. For example, if you are trained in Arcana, your attacks deal 2 extra damage on a hit against elemental, fey, and shadow creatures. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"destiny"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"NO5i3q9ZpPI04kF1",
+	"_key":"!items!NO5i3q9ZpPI04kF1"
+}

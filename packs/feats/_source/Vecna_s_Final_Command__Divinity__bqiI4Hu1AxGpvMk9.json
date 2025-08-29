@@ -1,0 +1,33 @@
+{
+	"name":"Vecna's Final Command [Divinity]",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Any channel divinity power, must worship Vecna </p><p><b>Benefit: </b>You gain the Vecna's final command power. </p><p>Published in Dragon Magazine 395, The Book of Vile Darkness, page(s) 1-32. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"bqiI4Hu1AxGpvMk9",
+	"_key":"!items!bqiI4Hu1AxGpvMk9"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Unstoppable Charge",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>21st level, Str 21, Con 17, fighter </p><p><b>Benefit: </b>Your turn does not automatically end after you charge; you can take further actions. </p><p>Published in Martial Power, page(s) 149. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"p60m58QVWSTXtyOZ",
+	"_key":"!items!p60m58QVWSTXtyOZ"
+}

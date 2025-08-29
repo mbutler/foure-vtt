@@ -1,0 +1,33 @@
+{
+	"name":"Unerring Bladespell",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you make a melee basic attack while your bladesong is active, you can use a bladespell power even if the attack misses.</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"5CGR7WI6KHmkQSzU",
+	"_key":"!items!5CGR7WI6KHmkQSzU"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Inevitability of Death (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You make death saving throws at the start of your turn, rather than at the end. Whenever you fail a death saving throw, each enemy within 3 squares of you takes 5 necrotic damage. </p><p>Published in Primal Power, page(s) 28. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"Y2UHxemMNtuifCkd",
+	"_key":"!items!Y2UHxemMNtuifCkd"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Lightning Soul",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>11th level </p><p><b>Benefit: </b>You gain a +3 feat bonus to lightning damage rolls. This bonus increases to +4 at 21st level. </p><p>In addition, whenever you take lightning damage from an attack, one enemy within 5 squares of you takes 10 lightning damage. This damage increases to 15 at 21st level. </p><p>Published in Heroes of the Elemental Chaos, page(s) 144. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"86l7F1OPD4ypYIm2",
+	"_key":"!items!86l7F1OPD4ypYIm2"
+}

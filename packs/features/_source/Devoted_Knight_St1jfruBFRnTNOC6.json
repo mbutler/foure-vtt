@@ -1,0 +1,33 @@
+{
+	"name":"Devoted Knight",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you use your second wind or take the total defense action, you activate an aura 1 that lasts until the end of your next turn. While in the aura, each ally gains a +2 power bonus to all defenses.</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"St1jfruBFRnTNOC6",
+	"_key":"!items!St1jfruBFRnTNOC6"
+}

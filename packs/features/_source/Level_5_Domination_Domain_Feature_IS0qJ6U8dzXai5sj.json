@@ -1,0 +1,33 @@
+{
+	"name":"Level 5 Domination Domain Feature",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you use healing word, the target can take a free action to stand up or to shift 1 square. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"IS0qJ6U8dzXai5sj",
+	"_key":"!items!IS0qJ6U8dzXai5sj"
+}

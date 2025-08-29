@@ -1,0 +1,33 @@
+{
+	"name":"Horde Attack (30th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Once per encounter, when you or an ally within 5 squares of you first becomes bloodied in an encounter, you and each ally within 5 squares of you can use an at-will attack power as a free action. </p><p>Published in Dark Sun Campaign Setting, page(s) 100. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"destiny"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"cSUlr31a2Gjevoky",
+	"_key":"!items!cSUlr31a2Gjevoky"
+}

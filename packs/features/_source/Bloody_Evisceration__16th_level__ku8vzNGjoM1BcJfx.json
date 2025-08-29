@@ -1,0 +1,33 @@
+{
+	"name":"Bloody Evisceration (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Your Sneak Attack damage increases by 1d6 against a bloodied enemy. </p><p>Published in Player's Handbook, page(s) 128, Class Compendium. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"ku8vzNGjoM1BcJfx",
+	"_key":"!items!ku8vzNGjoM1BcJfx"
+}

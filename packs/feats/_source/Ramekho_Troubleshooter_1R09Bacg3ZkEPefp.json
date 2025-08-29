@@ -1,0 +1,33 @@
+{
+	"name":"Ramekho Troubleshooter",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Windrise Ports regional background </p><p><b>Benefit: </b>When you successfully use the aid another action to aid a skill check or ability check made by an adjacent ally, you give a +3 bonus to your ally's next check (instead of +2). In addition, choose one language. You can speak, read, and write that language fluently. </p><p>Published in Dragon Magazine 376, page(s) 50. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"1R09Bacg3ZkEPefp",
+	"_key":"!items!1R09Bacg3ZkEPefp"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Death Curse (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you apply your Warlock's Curse extra damage, you can choose to apply 1d6 extra necrotic damage. </p><p>Published in Arcane Power, page(s) 88. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"qdi8SuClJ3FyGxbc",
+	"_key":"!items!qdi8SuClJ3FyGxbc"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Dragon Soul",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>: Choose a damage type: acid, cold, fire, lightning, poison, or thunder. You gain resist 5 to that damage type. The resistance increases to 10 at 11th level and 15 at 21st level. Your arcane powers ignore any target's resistance to that damage type up to the value of your resistance. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"OdJ5bEG1mqvgR4W8",
+	"_key":"!items!OdJ5bEG1mqvgR4W8"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Bola Expert [Multiclass]",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Bola Training, 8th level </p><p><b>Benefit: </b>You can swap one 6th-level or higher utility power you know for the bola recovery utility power. </p><p>Published in Dragon Magazine 368, page(s) 66. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"y1xQTManRr2uDANW",
+	"_key":"!items!y1xQTManRr2uDANW"
+}

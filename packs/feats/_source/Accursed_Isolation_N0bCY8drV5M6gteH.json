@@ -1,0 +1,33 @@
+{
+	"name":"Accursed Isolation",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>11th level, invoker, maledictor's doom power </p><p><b>Benefit: </b>If you target only one creature with maledictor's doom, the penalty to attack rolls increases to -3, and it is a -5 penalty to opportunity attack rolls. </p><p>Published in Dragon Magazine 387, page(s) 42. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"N0bCY8drV5M6gteH",
+	"_key":"!items!N0bCY8drV5M6gteH"
+}

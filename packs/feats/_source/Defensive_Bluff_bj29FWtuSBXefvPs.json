@@ -1,0 +1,33 @@
+{
+	"name":"Defensive Bluff",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Halfling </p><p><b>Benefit: </b>When you use your second wind, you can, as part of the same action, make a Bluff check to gain combat advantage or to create a diversion to hide (Player's Handbook page 183). </p><p>Published in Dragon Magazine 381, page(s) 82. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"bj29FWtuSBXefvPs",
+	"_key":"!items!bj29FWtuSBXefvPs"
+}

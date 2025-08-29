@@ -1,0 +1,33 @@
+{
+	"name":"Font of Vengeance",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>11th level, warden, Font of Life class feature </p><p><b>Benefit: </b>When you save against ongoing damage at the start of your turn, if you are adjacent to and can make an opportunity attack against the creature that inflicted the ongoing damage, you deal damage to that creature equal to your Strength modifier. </p><p>Published in Dragon Magazine 379, page(s) 46. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"JQfvY2WqyDk1xIKZ",
+	"_key":"!items!JQfvY2WqyDk1xIKZ"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Mindfire",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Drow, any psionic class, darkfire power </p><p><b>Benefit: </b>Your darkfire power gains the augmentable keyword. When you would use this power, you can spend 1 power point to target Will instead of Reflex. In addition to the normal effects from a hit, the target treats creatures more than 5 squares away from it as having total concealment until the end of your next turn. </p><p>Published in Dragon Magazine 389. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"IirVaMXpHQjFh4ZK",
+	"_key":"!items!IirVaMXpHQjFh4ZK"
+}

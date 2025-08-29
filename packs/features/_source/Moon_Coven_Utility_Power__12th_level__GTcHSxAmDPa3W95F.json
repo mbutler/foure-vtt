@@ -1,0 +1,33 @@
+{
+	"name":"Moon Coven Utility Power (12th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You gain a utility power associated with your moon coven either dark moon's reckoning for the dark moon coven or moonlight's mischief for the full moon coven. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"GTcHSxAmDPa3W95F",
+	"_key":"!items!GTcHSxAmDPa3W95F"
+}

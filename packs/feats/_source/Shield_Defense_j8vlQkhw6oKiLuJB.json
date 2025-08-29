@@ -1,0 +1,33 @@
+{
+	"name":"Shield Defense",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Wis 13, fighter </p><p><b>Benefit: </b>When you hit with a power that requires a shield, you gain a +1 bonus to AC and Reflex until the end of your next turn or until you stop using the shield. </p><p>Published in Martial Power, page(s) 139. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"j8vlQkhw6oKiLuJB",
+	"_key":"!items!j8vlQkhw6oKiLuJB"
+}

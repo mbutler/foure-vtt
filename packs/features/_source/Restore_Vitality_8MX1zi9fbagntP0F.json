@@ -1,0 +1,33 @@
+{
+	"name":"Restore Vitality",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You gain the restore vitality power.</p>\n<p>@UUID[Compendium.dnd-4e-compendium.module-powers.U2yWvIiEOuVmkw0j]{Restore Vitality}</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"8MX1zi9fbagntP0F",
+	"_key":"!items!8MX1zi9fbagntP0F"
+}

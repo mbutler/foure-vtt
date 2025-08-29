@@ -1,0 +1,33 @@
+{
+	"name":"Dwarven Payback (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Whenever an enemy misses you with a melee or a ranged attack, you can choose one ally you can see as a free action. Until the end of the ally's next turn, the ally gains a power bonus to damage rolls equal to your Constitution modifier against the triggering enemy. </p><p>Published in Martial Power, page(s) 123. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"Wy5a84EYkC0dDmNj",
+	"_key":"!items!Wy5a84EYkC0dDmNj"
+}

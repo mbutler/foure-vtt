@@ -1,0 +1,33 @@
+{
+	"name":"Concordant Resistance (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You gain resist 5 to cold, fire, and lightning. While any ally is adjacent to you, he or she gains the same resistances. These resistances are not cumulative with any other resistance you or your allies possess. </p><p>Published in Martial Power, page(s) 121. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"tRVqrbaA6Bn30OP7",
+	"_key":"!items!tRVqrbaA6Bn30OP7"
+}

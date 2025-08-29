@@ -1,0 +1,33 @@
+{
+	"name":"Rattling Arrows (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Whenever you hit an enemy with a ranged attack and are hidden from that enemy, all enemies adjacent to the target take a -2 penalty to attack rolls until the end of your next turn. Enemies immune to fear do not take this penalty. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"9P7Y4gAm2izFqLOy",
+	"_key":"!items!9P7Y4gAm2izFqLOy"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Guardian Level 10 Feature (10th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Choose one creature to be your bonded charge. You can sense when your bonded charge is in danger, as long as he or she is within one mile. You can sense the general direction and distance to your bonded charge if you don't know where he or she is. If an enemy attacks your bonded charge, you gain a +1 bonus to attack rolls against that enemy until the start of that enemy's next turn.<br>You can have only one bonded charge at a time. Your bonded charge must be someone your guardian order is sworn to protect. Generally speaking, you can't designate someone as a bonded charge whose melee combat skills equal or exceed your own; you're supposed to protect people who don't fight as well as you do.</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"theme"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"5sq8Gy41DbhVgo2d",
+	"_key":"!items!5sq8Gy41DbhVgo2d"
+}

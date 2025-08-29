@@ -1,0 +1,33 @@
+{
+	"name":"Action Rush",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Human, ranger or rogue </p><p><b>Benefit: </b>When you spend an action point to take an extra action, you can shift 2 squares as a free action before or after the extra action. </p><p>Published in Martial Power 2, page(s) 131. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"NoOzlRUPmAwdkKFC",
+	"_key":"!items!NoOzlRUPmAwdkKFC"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Infernal Slave Level 10 Feature (10th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>The first time you drop below 1 hit point each turn, each creature adjacent to you takes fire and necrotic damage equal to 2 + your level.</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"theme"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"x6QlLrSCZGyzdFch",
+	"_key":"!items!x6QlLrSCZGyzdFch"
+}

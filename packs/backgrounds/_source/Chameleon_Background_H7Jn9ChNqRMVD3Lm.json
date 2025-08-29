@@ -1,0 +1,33 @@
+{
+	"name":"Chameleon Background",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Type: </b>Racial </p><p><b>Campaign Setting: </b>General </p><p><b>Prerequisite: </b>Foulborn Heritage feat </p><p>Your skin alters its coloring to blend in with your surroundings. Although clothing diminishes this effect somewhat, you still have a knack for escaping notice. </p><p><i>Associated Skills: </i>Stealth </p><p>Published in Psionic Power, page(s) 128. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"background"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"H7Jn9ChNqRMVD3Lm",
+	"_key":"!items!H7Jn9ChNqRMVD3Lm"
+}

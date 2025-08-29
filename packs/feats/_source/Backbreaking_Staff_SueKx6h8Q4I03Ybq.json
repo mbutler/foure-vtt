@@ -1,0 +1,33 @@
+{
+	"name":"Backbreaking Staff",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Backstab </p><p><b>Benefit: </b>When you use backstab on an attack using a staff, on a hit the target is also dazed until the end of your next turn. </p><p>Published in Dragon Magazine 391. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"SueKx6h8Q4I03Ybq",
+	"_key":"!items!SueKx6h8Q4I03Ybq"
+}

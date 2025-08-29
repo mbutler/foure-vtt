@@ -1,0 +1,33 @@
+{
+	"name":"Primal Breath",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Dragonborn, warden </p><p><b>Benefit: </b>When you use your dragon breath racial power, you can choose to mark each target. The mark lasts until the end of your next turn. </p><p>Update (6/14/2010) </p><p>At the end of the Benefit line, add \"The mark lasts until the end of your next turn.\" </p><p>Published in Primal Power, page(s) 140. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"b6vhHgSkza5EDBte",
+	"_key":"!items!b6vhHgSkza5EDBte"
+}

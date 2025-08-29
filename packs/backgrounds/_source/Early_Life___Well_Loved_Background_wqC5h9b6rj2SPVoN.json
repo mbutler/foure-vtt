@@ -1,0 +1,33 @@
+{
+	"name":"Early Life - Well-Loved Background",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Campaign Setting: </b>General </p><p>Everyone wanted to be your friend, or at least thought to be your friend. Did you resent their false attention, or did you revel in the power the attention gave you? </p><p><i>Associated Skills: </i>Diplomacy, Insight </p><p>Published in Dragon Magazine 383, page(s) 80. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"background"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"wqC5h9b6rj2SPVoN",
+	"_key":"!items!wqC5h9b6rj2SPVoN"
+}

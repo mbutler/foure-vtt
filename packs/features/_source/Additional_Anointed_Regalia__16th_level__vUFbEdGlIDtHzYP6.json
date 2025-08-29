@@ -1,0 +1,33 @@
+{
+	"name":"Additional Anointed Regalia (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Your Anointed Regalia path feature includes two additional types of items. </p><p>Anointed Holy Symbol: When you hit with a divine attack, you grant temporary hit points equal to your Charisma modifier to yourself or to an ally within your line of sight. </p><p>Anointed Helm: You gain a +2 bonus to saving throws. </p><p>Published in Divine Power, page(s) 44. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"vUFbEdGlIDtHzYP6",
+	"_key":"!items!vUFbEdGlIDtHzYP6"
+}

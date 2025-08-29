@@ -1,0 +1,33 @@
+{
+	"name":"Ghost of the Past Starting Feature (1st level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You gain training in History. If you are already trained in History, choose a different skill. Add the language of your fallen empire to the languages you can speak, read, and write. Finally, you gain the guidance of the past power.<br></p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"theme"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"ZtnPkXaNoHwcgxrA",
+	"_key":"!items!ZtnPkXaNoHwcgxrA"
+}

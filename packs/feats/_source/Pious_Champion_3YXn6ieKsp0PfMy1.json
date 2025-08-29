@@ -1,0 +1,33 @@
+{
+	"name":"Pious Champion",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>21st level, paladin, virtue's touch or lay on hands power </p><p><b>Benefit: </b>When you use your virtue's touch or lay on hands, you can target one or two creatures. If you target two creatures with lay on hands, you spend one healing surge and each target regains hit points as normal for the power. </p><p>Published in Divine Power, page(s) 142. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"3YXn6ieKsp0PfMy1",
+	"_key":"!items!3YXn6ieKsp0PfMy1"
+}

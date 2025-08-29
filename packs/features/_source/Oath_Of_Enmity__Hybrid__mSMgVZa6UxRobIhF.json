@@ -1,0 +1,33 @@
+{
+	"name":"Oath Of Enmity (Hybrid)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You gain the avenger power oath of enmity. The power functions as normal, except that you can apply the effect only when you make a melee attack using an avenger power or an avenger paragon path power.</p>\n<p>@UUID[Compendium.dnd-4e-compendium.module-powers.GLaB471ns0JZ6wCX]{Oath of Enmity}</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"mSMgVZa6UxRobIhF",
+	"_key":"!items!mSMgVZa6UxRobIhF"
+}

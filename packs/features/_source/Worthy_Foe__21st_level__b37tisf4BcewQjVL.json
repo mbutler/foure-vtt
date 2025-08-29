@@ -1,0 +1,33 @@
+{
+	"name":"Worthy Foe (21st level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Once per encounter as a minor action, you can designate the enemy nearest to you as a worthy foe until the end of the encounter. Until the start of your next turn, your attacks against the worthy foe ignore any resistance and the insubstantial quality. </p><p>In addition, once per round, you can deal 2d8 extra damage to the worthy foe on a hit. If you can make multiple attacks against the worthy foe during your turn, you decide which attack to apply the extra damage to after all the attacks are rolled. </p><p>Finally, if you reduce the worthy foe to 0 hit points, you can spend a healing surge as a free action. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"destiny"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"b37tisf4BcewQjVL",
+	"_key":"!items!b37tisf4BcewQjVL"
+}

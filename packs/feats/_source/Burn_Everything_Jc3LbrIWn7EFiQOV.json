@@ -1,0 +1,33 @@
+{
+	"name":"Burn Everything",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Wizard </p><p><b>Benefit: </b>Your arcane fire powers ignore an amount of fire resistance equal to your Intelligence modifier. The fire resistance you ignore increases to 5 + your Intelligence modifier at 11th level and to 10 + your Intelligence modifier at 21st level. If the creature is immune to fire, instead treat that creature as having resist fire 25. </p><p>Published in Dragon Magazine 388. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"Jc3LbrIWn7EFiQOV",
+	"_key":"!items!Jc3LbrIWn7EFiQOV"
+}

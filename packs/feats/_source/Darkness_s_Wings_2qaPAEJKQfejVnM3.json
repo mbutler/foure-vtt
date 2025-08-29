@@ -1,0 +1,33 @@
+{
+	"name":"Darkness's Wings",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Shadar-kai, assassin, shadow jaunt power </p><p><b>Benefit: </b>You can expend your shade form power as a free action to regain the use of your shadow jaunt power. </p><p>In addition, you gain darkvision. </p><p>Published in Dragon Magazine 385, page(s) 34. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"2qaPAEJKQfejVnM3",
+	"_key":"!items!2qaPAEJKQfejVnM3"
+}

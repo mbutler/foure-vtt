@@ -1,0 +1,33 @@
+{
+	"name":"Elemental Spirit Adept",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>11th level, shaman, Elemental Spirit class feature </p><p><b>Benefit: </b>When your spirit companion disappears as a result of one of your shaman attack powers, you and your allies gain a +1 bonus to attack rolls against any enemy that was adjacent to the spirit. The bonus lasts until the end of your next turn. </p><p>Published in Dark Sun Campaign Setting, page(s) 114. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"Lt15IpPXnhHBq0JA",
+	"_key":"!items!Lt15IpPXnhHBq0JA"
+}

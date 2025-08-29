@@ -1,0 +1,33 @@
+{
+	"name":"Channel Divinity (Hybrid Cleric)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>This class feature functions as the cleric class feature, except that you start with a single cleric Channel Divinity power of your choice.</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"mdGV5aYo3z7A2W6g",
+	"_key":"!items!mdGV5aYo3z7A2W6g"
+}

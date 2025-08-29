@@ -1,0 +1,33 @@
+{
+	"name":"Blood Cousin's Tribe [Tribal]",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Barbarian </p><p><b>Benefit: </b>You gain a +1 bonus to damage rolls when raging. This bonus increases by 1 for each ally within 10 squares of you who has at least one tribal feat. </p><p>Published in Dragon Magazine 380, page(s) 35. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"FiZPJOdBcqRL38ke",
+	"_key":"!items!FiZPJOdBcqRL38ke"
+}

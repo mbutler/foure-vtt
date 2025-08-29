@@ -1,0 +1,33 @@
+{
+	"name":"Crossbow Expertise",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Benefit: </b>You gain a +1 feat bonus to weapon attack rolls that you make with a crossbow. This bonus increases to +2 at 11th level and +3 at 21st level. </p><p>Also, you ignore partial cover and superior cover with weapon attacks you make with a crossbow. </p><p>Published in Heroes of the Fallen Lands, page(s) 311, Heroes of the Forgotten Kingdoms, page(s) 312. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"q1KRU7HYpgWe6GSi",
+	"_key":"!items!q1KRU7HYpgWe6GSi"
+}

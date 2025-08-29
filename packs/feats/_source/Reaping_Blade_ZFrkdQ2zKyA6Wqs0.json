@@ -1,0 +1,33 @@
+{
+	"name":"Reaping Blade",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Dex 15, fighter </p><p><b>Benefit: </b>If you reduce an enemy to 0 hit points with an attack using a heavy blade, you can shift as a minor action until the end of your current turn. </p><p>Published in Martial Power, page(s) 138. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"ZFrkdQ2zKyA6Wqs0",
+	"_key":"!items!ZFrkdQ2zKyA6Wqs0"
+}

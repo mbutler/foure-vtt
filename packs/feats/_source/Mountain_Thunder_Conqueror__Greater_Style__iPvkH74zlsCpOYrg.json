@@ -1,0 +1,33 @@
+{
+	"name":"Mountain Thunder Conqueror [Greater Style]",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Warlord, Mountain Thunder Student feat </p><p><b>Benefit: </b>When you are attacking with a one-handed hammer, a one-handed flail, or a one-handed mace and you have proficiency with that weapon, you gain the following two benefits. </p><p>Whenever you hit an enemy with a martial power, that enemy takes a -2 penalty to saving throws until the end of your next turn against effects that daze or stun. </p><p>When you hit an enemy with a power associated with this feat, you knock that enemy prone. </p><p>Associated Powers: </p><p>Daring Display </p><p>, </p><p>Hold the Line </p><p>, </p><p>Sacrificial Lure </p><p>, </p><p>Thunderous Fury </p><p>, </p><p>Ventured Gains </p><p>, </p><p>Warlord's Doom </p><p>Published in Martial Power 2, page(s) 122. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"iPvkH74zlsCpOYrg",
+	"_key":"!items!iPvkH74zlsCpOYrg"
+}

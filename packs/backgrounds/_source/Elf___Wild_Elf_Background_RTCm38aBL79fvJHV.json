@@ -1,0 +1,33 @@
+{
+	"name":"Elf - Wild Elf Background",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Type: </b>Racial </p><p><b>Campaign Setting: </b>General </p><p><b>Prerequisite: </b>Elf </p><p>You come from a particularly wild tribe, considered primitive by other elves. Why is your tribe so isolated? Did you lose contact with the outside world, or did your people shun civilization? Have you ever been to a city, or are such places the stuff of campfire tales? </p><p><i>Associated Skills: </i>Acrobatics, Athletics </p><p>Published in Player's Handbook 2, page(s) 181. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"background"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"RTCm38aBL79fvJHV",
+	"_key":"!items!RTCm38aBL79fvJHV"
+}

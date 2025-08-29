@@ -1,0 +1,33 @@
+{
+	"name":"Superior Warlock's Ally",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you summon a creature using summon warlock's ally, it gains a +3 power bonus to damage rolls.</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"uEY2DT4qWbmnBtvZ",
+	"_key":"!items!uEY2DT4qWbmnBtvZ"
+}

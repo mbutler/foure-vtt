@@ -1,0 +1,33 @@
+{
+	"name":"Razorclaw Spirit Shifter",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Razorclaw shifter, any primal class </p><p><b>Benefit: </b>While you're under the effect of your razorclaw shifting racial power, when an enemy damages you with an attack against AC or Reflex, you can shift 1 square as an immediate reaction. </p><p>Published in Primal Power, page(s) 141. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"yfL7sjw3Q5qRBMkt",
+	"_key":"!items!yfL7sjw3Q5qRBMkt"
+}

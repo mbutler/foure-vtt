@@ -1,0 +1,33 @@
+{
+	"name":"Stonesight (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You gain tremorsense 5 as long as you are in contact with the ground. </p><p>Published in Divine Power, page(s) 77. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"SKhBprIbdE2RZA4s",
+	"_key":"!items!SKhBprIbdE2RZA4s"
+}

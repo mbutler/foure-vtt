@@ -1,0 +1,33 @@
+{
+	"name":"Firequench Aspirant",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Tarmalune regional background </p><p><b>Benefit: </b>You gain resist fire 2. At 11th level, this resistance improves to 5. At 21st level, this resistance improves to 8. </p><p>In addition, you master the ritual Arcane Mark (see the Forgotten Realms Player's Guide) and can perform it without a ritual book. </p><p>Published in Dragon Magazine 376, page(s) 50. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"7r0pLSsEtgOyjhRH",
+	"_key":"!items!7r0pLSsEtgOyjhRH"
+}

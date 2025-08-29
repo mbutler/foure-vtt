@@ -1,0 +1,33 @@
+{
+	"name":"Deceptive Duelist",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you make a melee basic attack with a one-handed weapon, you can use Charisma instead of Strength for the attack roll and the damage roll.</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"n1W47ajCFfVxtZDM",
+	"_key":"!items!n1W47ajCFfVxtZDM"
+}

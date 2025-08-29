@@ -1,0 +1,33 @@
+{
+	"name":"Spear Push",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>11th level, Str 15, Dex 13 </p><p><b>Benefit: </b>Whenever you push a foe with a polearm or spear attack, you may add 1 square to the distance pushed. </p><p>Published in Player's Handbook, page(s) 206. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"2Mz4RfJrg6y9anFt",
+	"_key":"!items!2Mz4RfJrg6y9anFt"
+}

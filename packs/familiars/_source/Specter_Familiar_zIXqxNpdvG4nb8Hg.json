@@ -1,0 +1,33 @@
+{
+	"name":"Specter Familiar",
+	"type":"feature",
+	"img":"icons/creatures/magical/construct-gargoyle-stone-gray.webp",
+	"system":{
+		"description":{
+			"value":"<p><i>You have touched the Shadowfell and lived to speak of it. You even brought back a souvenir.</i></p><p><b>Speed</b> , fly 6 (hover)</p><p><b>Constant Benefits</b></p><p>* You gain a +4 bonus to monster knowledge checks to identify undead creatures.</p><p>* You gain resist 5 necrotic. If already have resist necrotic, increase the resistance by 2.</p><p><b>Active Benefits</b></p><p>Incorporeal: The specter has phasing and does not provoke opportunity attacks.</p><p>Undead: The specter is immune to necrotic damage.</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"other"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"zIXqxNpdvG4nb8Hg",
+	"_key":"!items!zIXqxNpdvG4nb8Hg"
+}

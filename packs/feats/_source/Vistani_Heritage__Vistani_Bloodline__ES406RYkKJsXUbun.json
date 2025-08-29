@@ -1,0 +1,33 @@
+{
+	"name":"Vistani Heritage [Vistani Bloodline]",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Humanoid race </p><p><b>Benefit: </b>You gain evil eye of the Vistani as an encounter power. Additionally, you gain a +2 bonus to Diplomacy checks made against other Vistani. You have mastered the Vistani Blooding ritual and can perform it. </p><p>Published in Dragon Magazine 380, page(s) 84. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"ES406RYkKJsXUbun",
+	"_key":"!items!ES406RYkKJsXUbun"
+}

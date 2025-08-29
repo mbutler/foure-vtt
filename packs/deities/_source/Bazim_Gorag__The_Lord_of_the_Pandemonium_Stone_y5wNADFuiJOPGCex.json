@@ -1,0 +1,33 @@
+{
+	"name":"Bazim-Gorag, The Lord of the Pandemonium Stone",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Type: </b>Primordial </p><p><b>Alignment: </b>Chaotic Evil </p><p><b>Gender: </b>Male </p><p><b>Sphere: </b>Chaos </p><p><b>Realm: </b>Pandemonium Stone </p><p><b>Priests: </b>Lords Of Change </p><p><b>Adjective: </b>Bazimite </p><p>The Lord of the Pandemonium Stone is an ascended batrachi dedicated to pure chaos. He is chance incarnate, invoked by the powerless, the gamblers, and anyone who has lost hope in anything but an impossible twist of fate. </p><p>Published in Forgotten Realms Campaign Guide, page(s) 79. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"other"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"y5wNADFuiJOPGCex",
+	"_key":"!items!y5wNADFuiJOPGCex"
+}

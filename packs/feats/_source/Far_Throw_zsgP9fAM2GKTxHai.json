@@ -1,0 +1,33 @@
+{
+	"name":"Far Throw",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Str 13 </p><p><b>Benefit: </b>When you use a thrown weapon such as a dagger or a javelin, increase both the normal range and the long range by 2 squares. </p><p>Published in Player's Handbook, page(s) 195. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"zsgP9fAM2GKTxHai",
+	"_key":"!items!zsgP9fAM2GKTxHai"
+}

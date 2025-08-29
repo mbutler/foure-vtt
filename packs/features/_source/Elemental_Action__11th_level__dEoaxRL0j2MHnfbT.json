@@ -1,0 +1,33 @@
+{
+	"name":"Elemental Action (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you spend an action point to make an attack that hits, choose acid, cold, fire, lightning, or thunder. The attack deals ongoing damage of the chosen type equal to your Intelligence modifier (save ends). </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"dEoaxRL0j2MHnfbT",
+	"_key":"!items!dEoaxRL0j2MHnfbT"
+}

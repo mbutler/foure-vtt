@@ -1,0 +1,33 @@
+{
+	"name":"Defender of Life and Death (30th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Once per day when you drop to 0 hit points or fewer, a pale raven guides your soul back to your body. You regain hit points equal to your bloodied value, can stand up as a free action, and can use an at-will attack power as a free action. </p><p>Published in Heroes of Shadow, page(s) 154. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"destiny"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"ImEUVNTywgek3DhK",
+	"_key":"!items!ImEUVNTywgek3DhK"
+}

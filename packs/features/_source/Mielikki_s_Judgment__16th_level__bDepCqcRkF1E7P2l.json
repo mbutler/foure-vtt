@@ -1,0 +1,33 @@
+{
+	"name":"Mielikki's Judgment (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Your attacks against beasts, plants, and aberrant creatures score critical hits on rolls of 19-20. In addition, when you score a critical hit on a target that is outdoors, the target is dazed until the end of your next turn. </p><p>Published in Dragon Magazine 384, page(s) 67. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"bDepCqcRkF1E7P2l",
+	"_key":"!items!bDepCqcRkF1E7P2l"
+}

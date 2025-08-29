@@ -1,0 +1,33 @@
+{
+	"name":"Psiforged Background",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Type: </b>Racial </p><p><b>Campaign Setting: </b>General </p><p><b>Prerequisite: </b>Warforged </p><p>You are warforged, but you are different from other members of your race. You have an unusual awareness-an ability to pick out thoughts and feelings in those around you. Do you use these experiences to gain advantage against your enemies? Or do you find that it helps you empathize with people made from flesh and bone? Who created you and for what purpose? </p><p><i>Associated Skills: </i>Arcana, Insight </p><p>Published in Dragon Magazine 389, page(s) 31. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"background"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"6t2YaVNwRrih9EOl",
+	"_key":"!items!6t2YaVNwRrih9EOl"
+}

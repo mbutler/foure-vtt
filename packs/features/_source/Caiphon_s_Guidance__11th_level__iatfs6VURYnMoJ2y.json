@@ -1,0 +1,33 @@
+{
+	"name":"Caiphon's Guidance (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Your fear or radiant warlock powers and student of Caiphon powers score critical hits on rolls of 18-20. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"iatfs6VURYnMoJ2y",
+	"_key":"!items!iatfs6VURYnMoJ2y"
+}

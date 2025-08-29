@@ -1,0 +1,33 @@
+{
+	"name":"Icy Presence (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Any enemy that starts its turn in a square adjacent to you is slowed until the end of its turn. </p><p>Published in Dragon Magazine 384, page(s) 63. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"ZVTC3rBMQtbYDOel",
+	"_key":"!items!ZVTC3rBMQtbYDOel"
+}

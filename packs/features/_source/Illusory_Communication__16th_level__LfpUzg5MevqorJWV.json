@@ -1,0 +1,33 @@
+{
+	"name":"Illusory Communication (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Once per encounter before you make a Bluff, Diplomacy, or Intimidate check, you can choose to roll an Arcana check also. You can use the Arcana check in place of the original check. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"LfpUzg5MevqorJWV",
+	"_key":"!items!LfpUzg5MevqorJWV"
+}

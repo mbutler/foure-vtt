@@ -1,0 +1,33 @@
+{
+	"name":"Shared Resources",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>21st level, warlord, inspiring word </p><p><b>Benefit: </b>When you use inspiring word, each ally in the burst also gains temporary hit points equal to 3 + your Intelligence modifier. </p><p>Published in Martial Power 2, page(s) 145. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"hnZLqc4fAQbp073j",
+	"_key":"!items!hnZLqc4fAQbp073j"
+}

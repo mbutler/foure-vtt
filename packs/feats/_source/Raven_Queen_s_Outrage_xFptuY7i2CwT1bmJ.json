@@ -1,0 +1,33 @@
+{
+	"name":"Raven Queen's Outrage",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>11th level, cleric, must worship the Raven Queen </p><p><b>Benefit: </b>Whenever you hit an undead creature with an encounter or daily power with the radiant keyword, you can also slide that creature 1 square. </p><p>Published in Dragon Magazine 380, page(s) 65. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"xFptuY7i2CwT1bmJ",
+	"_key":"!items!xFptuY7i2CwT1bmJ"
+}

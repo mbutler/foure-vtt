@@ -1,0 +1,33 @@
+{
+	"name":"Four-Armed Flurry",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Thri-kreen race, monk, Flurry of Blows power </p><p><b>Benefit: </b>When you use your Flurry of Blows, your attack deals 2 extra damage to one of the power's targets. </p><p>Published in Dark Sun Campaign Setting, page(s) 108. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"duQjTeL8ph1EvgSC",
+	"_key":"!items!duQjTeL8ph1EvgSC"
+}

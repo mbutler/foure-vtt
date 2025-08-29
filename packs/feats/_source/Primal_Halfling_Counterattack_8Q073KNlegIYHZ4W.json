@@ -1,0 +1,33 @@
+{
+	"name":"Primal Halfling Counterattack",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Halfling, any primal class </p><p><b>Benefit: </b>When you use your second chance racial power, you gain a +4 bonus to damage rolls against the creature that attacked you until the end of your next turn. This bonus increases to +6 at 11th level and +8 at 21st level. </p><p>Published in Primal Power, page(s) 140. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"8Q073KNlegIYHZ4W",
+	"_key":"!items!8Q073KNlegIYHZ4W"
+}

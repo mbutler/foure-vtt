@@ -1,0 +1,33 @@
+{
+	"name":"Vengeful Shield (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Enemies that attack allies adjacent to you take damage equal to your Strength modifier. </p><p>Published in Dragon Magazine 377, page(s) 47. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"foRUCZ4BqTmlyujK",
+	"_key":"!items!foRUCZ4BqTmlyujK"
+}

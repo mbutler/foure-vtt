@@ -1,0 +1,33 @@
+{
+	"name":"Vexing Spirit",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>21st level, shaman, Watcher Spirit class feature </p><p><b>Benefit: </b>Your allies don't grant combat advantage to enemies adjacent to your spirit companion. </p><p>Published in Primal Power, page(s) 148. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"y8jZTlEbi16Dt7UP",
+	"_key":"!items!y8jZTlEbi16Dt7UP"
+}

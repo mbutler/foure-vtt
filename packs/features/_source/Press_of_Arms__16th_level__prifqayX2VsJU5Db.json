@@ -1,0 +1,33 @@
+{
+	"name":"Press of Arms (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you or an ally within 3 squares of you makes an opportunity attack, that attacker gains a bonus to the damage roll. The bonus equals your Charisma modifier. </p><p>Published in Player's Handbook, page(s) 154, Class Compendium. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"prifqayX2VsJU5Db",
+	"_key":"!items!prifqayX2VsJU5Db"
+}

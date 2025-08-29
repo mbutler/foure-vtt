@@ -1,0 +1,33 @@
+{
+	"name":"Painful Oath",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>11th level, avenger, oath of enmity power </p><p><b>Benefit: </b>The first time you hit your oath of enmity target each turn, you deal extra radiant and necrotic damage equal to your Wisdom modifier. </p><p>Published in Dragon Magazine 382, page(s) 41. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"ZPcJtEQX4Oi2Yqh1",
+	"_key":"!items!ZPcJtEQX4Oi2Yqh1"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Animal Form",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Select your animal form and gain +2 to a skill determined by your animal form: badger (Endurance), carp (Endurance), cat (Acrobatics), crab (Intimidate), crane (Nature), dog (Insight), fox (Stealth), hare (Athletics), monkey (Athletics), raccoon dog (Stealth), rat (Thievery), or sparrow (Perception).</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"race"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"Xz8yvJfRrh9McpxE",
+	"_key":"!items!Xz8yvJfRrh9McpxE"
+}

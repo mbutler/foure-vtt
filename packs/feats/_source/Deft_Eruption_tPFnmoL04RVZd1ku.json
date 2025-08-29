@@ -1,0 +1,33 @@
+{
+	"name":"Deft Eruption",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Ardent, ardent eruption power </p><p><b>Benefit: </b>The bonus to damage rolls for your ardent eruption increases by 2. </p><p>Published in Psionic Power, page(s) 131. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"tPFnmoL04RVZd1ku",
+	"_key":"!items!tPFnmoL04RVZd1ku"
+}

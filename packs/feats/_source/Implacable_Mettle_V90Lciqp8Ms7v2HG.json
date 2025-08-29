@@ -1,0 +1,33 @@
+{
+	"name":"Implacable Mettle",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Paladin, divine mettle </p><p><b>Benefit: </b>If the target of divine mettle fails the granted saving throw, you gain an additional use of Channel Divinity this encounter, and the target gains a +2 bonus to all defenses until the end of its next turn. </p><p>Published in Dragon Magazine 388. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"V90Lciqp8Ms7v2HG",
+	"_key":"!items!V90Lciqp8Ms7v2HG"
+}

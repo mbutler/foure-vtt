@@ -1,0 +1,33 @@
+{
+	"name":"Gnoll Tracker",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Gnoll </p><p><b>Benefit: </b>You gain a +5 feat bonus to Perception checks made to track and to Insight checks made to penetrate an illusion or disguise. You can use this bonus during a skill challenge if you can convince the DM that scent is relevant to the check. </p><p>Published in Dragon Magazine 367, page(s) 54. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"OV5I2qLFHNuwCK16",
+	"_key":"!items!OV5I2qLFHNuwCK16"
+}

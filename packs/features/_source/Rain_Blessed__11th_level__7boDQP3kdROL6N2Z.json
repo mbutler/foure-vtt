@@ -1,0 +1,33 @@
+{
+	"name":"Rain Blessed (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Whenever you make an Endurance, Heal, or Nature check, you can roll two dice and use the higher result. </p><p>Additionally, when you use a power with the healing keyword, each ally adjacent to you gains temporary hit points equal to half his or her healing surge value. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"7boDQP3kdROL6N2Z",
+	"_key":"!items!7boDQP3kdROL6N2Z"
+}

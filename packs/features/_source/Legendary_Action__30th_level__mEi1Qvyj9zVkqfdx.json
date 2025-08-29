@@ -1,0 +1,33 @@
+{
+	"name":"Legendary Action (30th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>The first time you score a critical hit on your turn during an encounter, you can take an extra standard action as a free action. </p><p>Published in Dragon Magazine 365, page(s) 70. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"destiny"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"mEi1Qvyj9zVkqfdx",
+	"_key":"!items!mEi1Qvyj9zVkqfdx"
+}

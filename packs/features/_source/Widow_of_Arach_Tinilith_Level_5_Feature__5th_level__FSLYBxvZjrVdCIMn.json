@@ -1,0 +1,33 @@
+{
+	"name":"Widow of Arach-Tinilith Level 5 Feature (5th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You gain resistance to poison equal to 5 + one-half your level. In addition, you gain a +1 bonus to all defenses while you are within 10 squares of a spider ally, or while your spiderling familiar is in its active mode.<br></p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"theme"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"FSLYBxvZjrVdCIMn",
+	"_key":"!items!FSLYBxvZjrVdCIMn"
+}

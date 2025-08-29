@@ -1,0 +1,33 @@
+{
+	"name":"Heaven's Chains (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Immobilized enemies grant combat advantage to you. In addition, when you hit an enemy with a melee or ranged daily attack power and deal damage to it, you can reduce that damage by 10 (and no less than 10) to immobilize the target until the end of your next turn. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"DVj5RiHGbSWqUIl0",
+	"_key":"!items!DVj5RiHGbSWqUIl0"
+}

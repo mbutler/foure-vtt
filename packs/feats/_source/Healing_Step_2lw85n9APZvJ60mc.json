@@ -1,0 +1,33 @@
+{
+	"name":"Healing Step",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Eladrin, any divine class </p><p><b>Benefit: </b>When you use your fey step racial power, one ally adjacent to either your original space or your destination space gains temporary hit points equal to your Intelligence modifier and can shift 1 square as a free action. </p><p>Published in Divine Power, page(s) 135. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"2lw85n9APZvJ60mc",
+	"_key":"!items!2lw85n9APZvJ60mc"
+}

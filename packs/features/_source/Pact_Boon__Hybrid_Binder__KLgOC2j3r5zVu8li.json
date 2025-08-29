@@ -1,0 +1,33 @@
+{
+	"name":"Pact Boon (Hybrid Binder)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Instead of choosing a 1st-level warlock at-will attack power, you gain an at-will attack power and a utility power associated with your pact.</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"KLgOC2j3r5zVu8li",
+	"_key":"!items!KLgOC2j3r5zVu8li"
+}

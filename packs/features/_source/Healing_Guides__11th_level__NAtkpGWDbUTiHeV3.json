@@ -1,0 +1,33 @@
+{
+	"name":"Healing Guides (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you restore hit points with your healing spirit power, any ally adjacent to or within a conjuration or a zone that you created with a shaman power or a shaman paragon path power also regains hit points as if he or she were adjacent to your spirit companion. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"NAtkpGWDbUTiHeV3",
+	"_key":"!items!NAtkpGWDbUTiHeV3"
+}

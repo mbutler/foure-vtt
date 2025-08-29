@@ -1,0 +1,33 @@
+{
+	"name":"Fortifying Word",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Cleric, healing word class feature </p><p><b>Benefit: </b>Targets of your healing word also gain a +4 power bonus to Fortitude and to saving throws against poison until the end of your next turn. </p><p>Published in Dragon Magazine 385, page(s) 76. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"lYK8wvVSMcG6Wehi",
+	"_key":"!items!lYK8wvVSMcG6Wehi"
+}

@@ -1,5 +1,9 @@
 import { PixiStage } from './ui/stage.js'
 import { findPath, toId, inBounds, actorAt } from './ui/pathing.js'
+import { PowersPanel } from './ui/powers-panel.js'
+import { GameLog } from './ui/log.js'
+import { CharacterImport } from './ui/character-import.js'
+import { characterParser } from '../src/content/character-parser.js'
 
 // Game state
 let G = null
@@ -16,13 +20,30 @@ const teamBActionsEl = document.getElementById('team-b-actions')
 const currentRoundEl = document.getElementById('current-round')
 const endTurnBtn = document.getElementById('end-turn')
 const secondWindBtn = document.getElementById('second-wind')
+const shortRestBtn = document.getElementById('short-rest')
+const longRestBtn = document.getElementById('long-rest')
+const deathSaveBtn = document.getElementById('death-save')
 const modeMoveBtn = document.getElementById('mode-move')
 const modeMeasureBtn = document.getElementById('mode-measure')
 const modeTargetBtn = document.getElementById('mode-target')
-const previewInfoEl = document.getElementById('preview-info')
-const previewDetailsEl = document.getElementById('preview-details')
-const commitPreviewBtn = document.getElementById('commit-preview')
-const cancelPreviewBtn = document.getElementById('cancel-preview')
+const modeAuraBtn = document.getElementById('mode-aura')
+
+// Character UI elements
+const characterNameEl = document.querySelector('.character-name')
+const characterLevelEl = document.querySelector('.character-level')
+const hpEl = document.querySelector('.stat-item:nth-child(1) .stat-value')
+const surgesEl = document.querySelector('.stat-item:nth-child(2) .stat-value')
+const acEl = document.querySelector('.stat-item:nth-child(3) .stat-value')
+
+// Action economy elements
+const standardActionEl = document.getElementById('standard-action')
+const moveActionEl = document.getElementById('move-action')
+const minorActionEl = document.getElementById('minor-action')
+
+// UI Components
+let powersPanel = null
+let gameLog = null
+let characterImport = null
 
 // Initialize
 async function init() {
@@ -47,11 +68,55 @@ async function init() {
     // Set up event listeners
     if (endTurnBtn) endTurnBtn.onclick = handleEndTurn
     if (secondWindBtn) secondWindBtn.onclick = handleSecondWind
+    if (shortRestBtn) shortRestBtn.onclick = handleShortRest
+    if (longRestBtn) longRestBtn.onclick = handleLongRest
+    if (deathSaveBtn) deathSaveBtn.onclick = handleDeathSave
     if (modeMoveBtn) modeMoveBtn.onclick = () => setMode('move')
     if (modeMeasureBtn) modeMeasureBtn.onclick = () => setMode('measure')
     if (modeTargetBtn) modeTargetBtn.onclick = () => setMode('target')
-    if (commitPreviewBtn) commitPreviewBtn.onclick = handleCommitPreview
-    if (cancelPreviewBtn) cancelPreviewBtn.onclick = handleCancelPreview
+    if (modeAuraBtn) modeAuraBtn.onclick = () => setMode('aura')
+    
+    // Action economy click handlers
+    if (standardActionEl) standardActionEl.onclick = () => toggleAction('standard')
+    if (moveActionEl) moveActionEl.onclick = () => toggleAction('move')
+    if (minorActionEl) minorActionEl.onclick = () => toggleAction('minor')
+    
+    // Initialize character import
+    const characterImportContainer = document.getElementById('character-import-container')
+    if (characterImportContainer) {
+      characterImport = new CharacterImport(characterImportContainer)
+      
+      // Listen for character import events
+      characterImportContainer.addEventListener('characterImported', (event) => {
+        const character = event.detail.character
+        updateCharacterDisplay(character)
+        updatePowersFromCharacter(character)
+        
+        if (gameLog) {
+          gameLog.addSystemEntry(`Character "${character.details.name}" imported successfully`, 'success')
+        }
+      })
+      
+      characterImportContainer.addEventListener('characterCleared', () => {
+        resetCharacterDisplay()
+        
+        if (gameLog) {
+          gameLog.addSystemEntry('Character cleared', 'info')
+        }
+      })
+    }
+    
+    // Initialize powers panel
+    const powersContainer = document.getElementById('powers-container')
+    if (powersContainer) {
+      powersPanel = new PowersPanel(powersContainer, G, handlePowerUse)
+    }
+    
+    // Initialize game log
+    if (logEl) {
+      gameLog = new GameLog(logEl)
+      gameLog.addSystemEntry('Game initialized successfully', 'success')
+    }
     
     // Keyboard shortcuts
     document.addEventListener('keydown', handleKeyDown)
@@ -61,6 +126,9 @@ async function init() {
     console.log('App initialization complete')
   } catch (error) {
     console.error('App initialization failed:', error)
+    if (gameLog) {
+      gameLog.addSystemEntry(`Initialization failed: ${error.message}`, 'error')
+    }
   }
 }
 
@@ -91,6 +159,128 @@ window.updateGameState = function(newGameState) {
   renderAll()
 }
 
+// Toggle action usage
+function toggleAction(actionType) {
+  const actionEl = document.getElementById(`${actionType}-action`)
+  if (actionEl) {
+    actionEl.classList.toggle('used')
+    const statusEl = actionEl.querySelector('.action-status')
+    if (statusEl) {
+      statusEl.textContent = actionEl.classList.contains('used') ? '✗' : '✓'
+    }
+    
+    if (gameLog) {
+      const currentActor = G.turn.order[G.turn.index]
+      const actorName = G.actors[currentActor]?.name || currentActor
+      const action = actionEl.classList.contains('used') ? 'used' : 'regained'
+      gameLog.addSystemEntry(`${actorName} ${action} ${actionType} action`, 'info')
+    }
+  }
+}
+
+// Handle short rest
+async function handleShortRest() {
+  try {
+    const sessionId = window.firebase ? window.firebase.currentSessionId() : 'default'
+    const response = await fetch('/api/short-rest', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ sessionId })
+    })
+    
+    if (!response.ok) {
+      const error = await response.json()
+      throw new Error(error.error || 'Short rest failed')
+    }
+    
+    const result = await response.json()
+    G = result.gameState
+    
+    // Log short rest
+    if (gameLog) {
+      const currentActor = G.turn.order[G.turn.index]
+      const actorName = G.actors[currentActor]?.name || currentActor
+      gameLog.addSystemEntry(`${actorName} takes a short rest`, 'info')
+    }
+    
+    renderAll()
+  } catch (error) {
+    console.error('Short rest error:', error)
+    if (gameLog) {
+      gameLog.addSystemEntry(`Short rest failed: ${error.message}`, 'error')
+    }
+  }
+}
+
+// Handle long rest
+async function handleLongRest() {
+  try {
+    const sessionId = window.firebase ? window.firebase.currentSessionId() : 'default'
+    const response = await fetch('/api/long-rest', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ sessionId })
+    })
+    
+    if (!response.ok) {
+      const error = await response.json()
+      throw new Error(error.error || 'Long rest failed')
+    }
+    
+    const result = await response.json()
+    G = result.gameState
+    
+    // Log long rest
+    if (gameLog) {
+      const currentActor = G.turn.order[G.turn.index]
+      const actorName = G.actors[currentActor]?.name || currentActor
+      gameLog.addSystemEntry(`${actorName} takes a long rest`, 'info')
+    }
+    
+    renderAll()
+  } catch (error) {
+    console.error('Long rest error:', error)
+    if (gameLog) {
+      gameLog.addSystemEntry(`Long rest failed: ${error.message}`, 'error')
+    }
+  }
+}
+
+// Handle death save
+async function handleDeathSave() {
+  try {
+    const sessionId = window.firebase ? window.firebase.currentSessionId() : 'default'
+    const response = await fetch('/api/death-save', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ sessionId })
+    })
+    
+    if (!response.ok) {
+      const error = await response.json()
+      throw new Error(error.error || 'Death save failed')
+    }
+    
+    const result = await response.json()
+    G = result.gameState
+    
+    // Log death save
+    if (gameLog) {
+      const currentActor = G.turn.order[G.turn.index]
+      const actorName = G.actors[currentActor]?.name || currentActor
+      const saveResult = result.success ? 'succeeds' : 'fails'
+      gameLog.addSystemEntry(`${actorName} death save ${saveResult}`, result.success ? 'success' : 'error')
+    }
+    
+    renderAll()
+  } catch (error) {
+    console.error('Death save error:', error)
+    if (gameLog) {
+      gameLog.addSystemEntry(`Death save failed: ${error.message}`, 'error')
+    }
+  }
+}
+
 // Move token
 async function moveToken(actorId, toX, toY, mode = 'walk') {
   try {
@@ -108,11 +298,24 @@ async function moveToken(actorId, toX, toY, mode = 'walk') {
     
     const result = await response.json()
     G = result.gameState
+    
+    // Log movement
+    if (gameLog) {
+      const actorName = G.actors[actorId]?.name || actorId
+      const fromPos = G.board.positions[actorId]
+      const from = fromPos ? `(${fromPos.x}, ${fromPos.y})` : 'unknown'
+      const to = `(${toX}, ${toY})`
+      const distance = Math.abs(toX - fromPos.x) + Math.abs(toY - fromPos.y)
+      
+      gameLog.addMovementEntry(actorName, from, to, distance)
+    }
+    
     renderAll()
-    appendLog(`Moved ${actorId} to (${toX}, ${toY})`)
   } catch (error) {
     console.error('Move error:', error)
-    appendLog(`Move failed: ${error.message}`)
+    if (gameLog) {
+      gameLog.addSystemEntry(`Move failed: ${error.message}`, 'error')
+    }
   }
 }
 
@@ -133,18 +336,29 @@ async function handleEndTurn() {
     
     const result = await response.json()
     G = result.gameState
+    
+    // Log turn end
+    if (gameLog) {
+      const currentActor = G.turn.order[G.turn.index]
+      const actorName = G.actors[currentActor]?.name || currentActor
+      gameLog.addTurnEntry(actorName, G.round, G.turn.index + 1)
+    }
+    
     renderAll()
-    appendLog('Turn ended')
   } catch (error) {
     console.error('End turn error:', error)
-    appendLog(`End turn failed: ${error.message}`)
+    if (gameLog) {
+      gameLog.addSystemEntry(`End turn failed: ${error.message}`, 'error')
+    }
   }
 }
 
 // Second Wind
 async function handleSecondWind() {
   if (!selected) {
-    appendLog('No actor selected for Second Wind')
+    if (gameLog) {
+      gameLog.addSystemEntry('No actor selected for Second Wind', 'warning')
+    }
     return
   }
   
@@ -163,11 +377,57 @@ async function handleSecondWind() {
     
     const result = await response.json()
     G = result.gameState
+    
+    // Log second wind usage
+    if (gameLog) {
+      const actorName = G.actors[selected]?.name || selected
+      gameLog.addStatusEntry(actorName, 'Second Wind', 'Gain healing surge')
+    }
+    
     renderAll()
-    appendLog(`${selected} used Second Wind`)
   } catch (error) {
     console.error('Second Wind error:', error)
-    appendLog(`Second Wind failed: ${error.message}`)
+    if (gameLog) {
+      gameLog.addSystemEntry(`Second Wind failed: ${error.message}`, 'error')
+    }
+  }
+}
+
+// Handle power use
+async function handlePowerUse(powerId, targets) {
+  try {
+    const sessionId = window.firebase ? window.firebase.currentSessionId() : 'default'
+    const response = await fetch('/api/use-power', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ 
+        sessionId, 
+        powerId, 
+        targets 
+      })
+    })
+    if (!response.ok) throw new Error('Failed to use power')
+    const result = await response.json()
+    G = result.gameState
+    
+    // Log power usage
+    if (gameLog) {
+      const currentActor = G.turn.order[G.turn.index]
+      const actorName = G.actors[currentActor]?.name || currentActor
+      const power = powersPanel?.actorPowers.get(currentActor)?.find(p => (p.id || p._id) === powerId)
+      const powerName = power?.name || powerId
+      const powerType = power?.powerType || power?.system?.powerType || 'at-will'
+      const targetNames = targets?.map(t => G.actors[t]?.name || t) || []
+      
+      gameLog.addPowerEntry(actorName, powerName, powerType, targetNames, { success: true, details: 'Power used successfully' })
+    }
+    
+    renderAll()
+  } catch (error) {
+    console.error('Error using power:', error)
+    if (gameLog) {
+      gameLog.addSystemEntry(`Power use failed: ${error.message}`, 'error')
+    }
   }
 }
 
@@ -237,6 +497,7 @@ function setMode(newMode) {
   modeMoveBtn.classList.toggle('active', mode === 'move')
   modeMeasureBtn.classList.toggle('active', mode === 'measure')
   modeTargetBtn.classList.toggle('active', mode === 'target')
+  modeAuraBtn.classList.toggle('active', mode === 'aura')
   
   renderAll()
 }
@@ -253,6 +514,9 @@ function handleKeyDown(event) {
     case 't':
       setMode('target')
       break
+    case 'a':
+      setMode('aura')
+      break
     case '.':
       handleEndTurn()
       break
@@ -267,23 +531,13 @@ function handleCommitPreview() {
   if (preview && selected) {
     moveToken(selected, preview.x, preview.y, 'walk')
     preview = null
-    previewInfoEl.style.display = 'none'
   }
 }
 
 // Handle cancel preview
 function handleCancelPreview() {
   preview = null
-  previewInfoEl.style.display = 'none'
   renderAll()
-}
-
-// Append to log
-function appendLog(message) {
-  const entry = document.createElement('div')
-  entry.textContent = `[${new Date().toLocaleTimeString()}] ${message}`
-  logEl.appendChild(entry)
-  logEl.scrollTop = logEl.scrollHeight
 }
 
 // Render panel
@@ -293,8 +547,6 @@ function renderPanel() {
       console.log('No game state to render')
       return
     }
-    
-    console.log('Rendering panel with game state:', G)
     
     // Update turn info
     const currentActor = G.turn.order[G.turn.index]
@@ -306,15 +558,29 @@ function renderPanel() {
     if (teamAActionsEl) teamAActionsEl.textContent = `${actions.standard || 0}/${actions.move || 0}/${actions.minor || 0}`
     if (teamBActionsEl) teamBActionsEl.textContent = `${actions.standard || 0}/${actions.move || 0}/${actions.minor || 0}`
     
-    // Update preview info
-    if (preview && selected) {
-      if (previewInfoEl) previewInfoEl.style.display = 'block'
-      if (previewDetailsEl) previewDetailsEl.textContent = `Move ${selected} to (${preview.x}, ${preview.y})`
-    } else {
-      if (previewInfoEl) previewInfoEl.style.display = 'none'
+    // Update character info
+    if (currentActor && G.actors[currentActor]) {
+      const actor = G.actors[currentActor]
+      if (characterNameEl) characterNameEl.textContent = actor.name || currentActor
+      if (characterLevelEl) characterLevelEl.textContent = `Level ${actor.level || 1}`
+      if (hpEl) {
+        const hpText = `${actor.currentHP || 0}/${actor.maxHP || 0}`
+        hpEl.textContent = hpText
+        hpEl.className = 'stat-value' + (actor.currentHP < actor.maxHP * 0.5 ? ' damaged' : '')
+      }
+      if (surgesEl) surgesEl.textContent = `${actor.currentSurges || 0}/${actor.maxSurges || 0}`
+      if (acEl) acEl.textContent = actor.ac || 10
+    }
+    
+    // Update powers panel
+    if (powersPanel) {
+      powersPanel.update(G)
     }
   } catch (error) {
     console.error('Error rendering panel:', error)
+    if (gameLog) {
+      gameLog.addSystemEntry(`Panel render error: ${error.message}`, 'error')
+    }
   }
 }
 
@@ -358,6 +624,140 @@ function renderStage() {
 function renderAll() {
   renderPanel()
   renderStage()
+}
+
+// Update character display with imported data
+function updateCharacterDisplay(character) {
+  if (!character) return
+  
+  const summary = characterParser.createCharacterSummary(character)
+  
+  // Update character info
+  if (characterNameEl) characterNameEl.textContent = summary.name
+  if (characterLevelEl) characterLevelEl.textContent = `Level ${summary.level}`
+  
+  // Update stats
+  if (hpEl) {
+    hpEl.textContent = `${summary.hp}/${summary.maxHP}`
+    hpEl.className = 'stat-value' + (summary.hp < summary.maxHP * 0.5 ? ' damaged' : '')
+  }
+  
+  if (surgesEl) surgesEl.textContent = `${summary.healingSurges}/${summary.maxSurges}`
+  if (acEl) acEl.textContent = summary.ac
+  
+  // Update character info section with imported data
+  const characterInfo = document.querySelector('.character-info')
+  if (characterInfo) {
+    const characterHeader = characterInfo.querySelector('.character-header')
+    if (characterHeader) {
+      const nameEl = characterHeader.querySelector('.character-name')
+      const levelEl = characterHeader.querySelector('.character-level')
+      
+      if (nameEl) nameEl.textContent = summary.name
+      if (levelEl) levelEl.textContent = `Level ${summary.level}`
+    }
+    
+    // Update stats grid
+    const statsGrid = characterInfo.querySelector('.character-stats')
+    if (statsGrid) {
+      statsGrid.innerHTML = `
+        <div class="stat-item">
+          <div class="stat-label">HP</div>
+          <div class="stat-value ${summary.hp < summary.maxHP * 0.5 ? 'damaged' : ''}">${summary.hp}/${summary.maxHP}</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-label">Surges</div>
+          <div class="stat-value">${summary.healingSurges}/${summary.maxSurges}</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-label">AC</div>
+          <div class="stat-value">${summary.ac}</div>
+        </div>
+      `
+    }
+  }
+}
+
+// Update powers panel with character powers
+function updatePowersFromCharacter(character) {
+  if (!character || !powersPanel) return
+  
+  // Convert character powers to the format expected by PowersPanel
+  const characterPowers = new Map()
+  const currentActor = 'player' // or get from game state
+  
+  const allPowers = []
+  
+  // Flatten powers from all types
+  Object.entries(character.powers).forEach(([type, powers]) => {
+    powers.forEach(power => {
+      allPowers.push({
+        ...power,
+        powerType: type,
+        id: power.internalId || power.name,
+        name: power.name,
+        action: power.action || 'Standard',
+        target: power.target || 'One creature',
+        range: power.range || 'Melee',
+        description: power.description || power.flavor || ''
+      })
+    })
+  })
+  
+  characterPowers.set(currentActor, allPowers)
+  
+  // Update the powers panel
+  powersPanel.actorPowers = characterPowers
+  powersPanel.update(G)
+}
+
+// Reset character display to defaults
+function resetCharacterDisplay() {
+  if (characterNameEl) characterNameEl.textContent = 'Gandalf the Grey'
+  if (characterLevelEl) characterLevelEl.textContent = 'Level 5'
+  if (hpEl) {
+    hpEl.textContent = '32/45'
+    hpEl.className = 'stat-value damaged'
+  }
+  if (surgesEl) surgesEl.textContent = '8/10'
+  if (acEl) acEl.textContent = '18'
+  
+  // Reset character info section
+  const characterInfo = document.querySelector('.character-info')
+  if (characterInfo) {
+    const characterHeader = characterInfo.querySelector('.character-header')
+    if (characterHeader) {
+      const nameEl = characterHeader.querySelector('.character-name')
+      const levelEl = characterHeader.querySelector('.character-level')
+      
+      if (nameEl) nameEl.textContent = 'Gandalf the Grey'
+      if (levelEl) levelEl.textContent = 'Level 5'
+    }
+    
+    const statsGrid = characterInfo.querySelector('.character-stats')
+    if (statsGrid) {
+      statsGrid.innerHTML = `
+        <div class="stat-item">
+          <div class="stat-label">HP</div>
+          <div class="stat-value damaged">32/45</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-label">Surges</div>
+          <div class="stat-value">8/10</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-label">AC</div>
+          <div class="stat-value">18</div>
+        </div>
+      `
+    }
+  }
+  
+  // Reset powers panel
+  if (powersPanel) {
+    powersPanel.actorPowers = new Map()
+    powersPanel.update(G)
+  }
 }
 
 // Start the app

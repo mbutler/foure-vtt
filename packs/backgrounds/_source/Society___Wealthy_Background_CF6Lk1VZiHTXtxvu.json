@@ -1,0 +1,33 @@
+{
+	"name":"Society - Wealthy Background",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Type: </b>Society </p><p><b>Campaign Setting: </b>General </p><p>You grew up rich, never wanting for anything. What was the source of this wealth? Was it inherited, or did your family work for its riches? Was it obtained legitimately, or through underhanded methods? What kind of home did you live in? Was there ever a time when you knew what it was like to be hungry or desperate? </p><p><i>Associated Skills: </i>History </p><p>Published in Player's Handbook 2, page(s) 178. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"background"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"CF6Lk1VZiHTXtxvu",
+	"_key":"!items!CF6Lk1VZiHTXtxvu"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Disappearing Action (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you spend an action point to take an extra action, as a free action before the end of your turn you can shift your speed and make a Stealth check to hide, ignoring the penalty to your Stealth check for movement. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"W3CD7rbS4KEIQRHw",
+	"_key":"!items!W3CD7rbS4KEIQRHw"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Wild Blade Channeling",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Wild Magic class feature, Sorcerous Blade Channeling feat </p><p><b>Benefit: </b>When you use Sorcerous Blade Channeling to make a melee attack using a sorcerer attack power that has a variable energy type, you can roll twice and choose either result for the energy type. </p><p>Published in Dragon Magazine 390. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"Jmve59DVcHqyia7S",
+	"_key":"!items!Jmve59DVcHqyia7S"
+}

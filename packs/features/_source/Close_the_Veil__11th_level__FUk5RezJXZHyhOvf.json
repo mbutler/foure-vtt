@@ -1,0 +1,33 @@
+{
+	"name":"Close the Veil (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Once per round as a minor action, you can douse a nonmagical light source no larger than a small campfire within 10 squares of you. A light source you douse using this power cannot be lit again until the end of the encounter. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"FUk5RezJXZHyhOvf",
+	"_key":"!items!FUk5RezJXZHyhOvf"
+}

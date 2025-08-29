@@ -1,0 +1,33 @@
+{
+	"name":"Winterkin",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Due to your connection to the Raven Queen, you gain a +1 racial bonus to your Fortitude defense. You also gain a +2 racial bonus to death saving throws and saving throws against the unconscious condition.</p>\n<p>&nbsp;</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"race"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"r0mNnM2HLRT6PYBk",
+	"_key":"!items!r0mNnM2HLRT6PYBk"
+}

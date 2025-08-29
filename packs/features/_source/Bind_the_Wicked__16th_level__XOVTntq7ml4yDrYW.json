@@ -1,0 +1,33 @@
+{
+	"name":"Bind the Wicked (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Whenever you hit an immobilized enemy with a melee or ranged attack, you can cause the enemy to be restrained instead of immobilized. </p><p>Published in Heroes of the Elemental Chaos, page(s) 131. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"XOVTntq7ml4yDrYW",
+	"_key":"!items!XOVTntq7ml4yDrYW"
+}

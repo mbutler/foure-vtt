@@ -1,0 +1,33 @@
+{
+	"name":"Commanding Vow",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Paladin </p><p><b>Benefit: </b>Whenever you subject an enemy adjacent to you to your divine sanction, you can slide that enemy 1 square as a free action. </p><p>Published in Dragon Magazine 388. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"y5pvhIZmWXniSe67",
+	"_key":"!items!y5pvhIZmWXniSe67"
+}

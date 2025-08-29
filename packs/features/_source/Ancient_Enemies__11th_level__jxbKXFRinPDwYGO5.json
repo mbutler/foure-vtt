@@ -1,0 +1,33 @@
+{
+	"name":"Ancient Enemies (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You gain a bonus equal to your Intelligence modifier to monster knowledge checks made regarding giants and goblins. You also gain the ability to speak, read, and write the Giant and Goblin languages fluently. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"jxbKXFRinPDwYGO5",
+	"_key":"!items!jxbKXFRinPDwYGO5"
+}

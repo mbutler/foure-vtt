@@ -1,0 +1,33 @@
+{
+	"name":"Radiant Striker (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Each time you deal Sneak Attack damage, you can choose for that damage to be radiant damage. </p><p>Published in Martial Power, page(s) 97. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"yOzFoKTICD4vlm7Y",
+	"_key":"!items!yOzFoKTICD4vlm7Y"
+}

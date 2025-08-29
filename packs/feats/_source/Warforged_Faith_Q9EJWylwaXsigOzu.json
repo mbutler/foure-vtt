@@ -1,0 +1,33 @@
+{
+	"name":"Warforged Faith",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Warforged, any divine class </p><p><b>Benefit: </b>When you use your warforged resolve racial power, one ally adjacent to you gains temporary hit points equal to your Constitution modifier and can make a saving throw against an effect that deals ongoing damage and that a save can end. </p><p>Published in Divine Power, page(s) 137. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"Q9EJWylwaXsigOzu",
+	"_key":"!items!Q9EJWylwaXsigOzu"
+}

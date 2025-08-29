@@ -1,0 +1,33 @@
+{
+	"name":"Rejuvenating Spirit",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Shaman, healing spirit power </p><p><b>Benefit: </b>When you use healing spirit, the target can make a saving throw. </p><p>Published in Primal Power, page(s) 141. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"0IwW1nNkmRyezLX3",
+	"_key":"!items!0IwW1nNkmRyezLX3"
+}

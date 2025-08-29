@@ -1,0 +1,33 @@
+{
+	"name":"Corrosive Breath",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>11th level, dragonborn, dragon breath racial power that deals acid damage </p><p><b>Benefit: </b>Each creature hit by your dragon breath takes a -2 penalty to AC until the end of your next turn. </p><p>Published in Player's Handbook Races: Dragonborn, page(s) 24. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"CZ1ile2vUS7K9Fwu",
+	"_key":"!items!CZ1ile2vUS7K9Fwu"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Dominion over the Mind (30th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Whenever you use an arcane charm power and score a critical hit against an enemy, that enemy is dominated until the end of your next turn. </p><p>Published in Arcane Power, page(s) 145. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"destiny"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"YuP0ad1LNb42oxHj",
+	"_key":"!items!YuP0ad1LNb42oxHj"
+}

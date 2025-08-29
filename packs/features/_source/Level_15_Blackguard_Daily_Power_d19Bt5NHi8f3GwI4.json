@@ -1,0 +1,33 @@
+{
+	"name":"Level 15 Blackguard Daily Power",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You gain a new paladin daily attack power of your level or lower.</p>\n<p>@UUID[Compendium.dnd-4e-compendium.module-powers.OktZTM7Y0INnuVL9]{Avatar of Slaughter}@UUID[Compendium.dnd-4e-compendium.module-powers.kgc5BIvo8T6KWnG9]{Avatar of Subjugation}</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"d19Bt5NHi8f3GwI4",
+	"_key":"!items!d19Bt5NHi8f3GwI4"
+}

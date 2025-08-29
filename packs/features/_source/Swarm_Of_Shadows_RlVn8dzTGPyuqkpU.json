@@ -1,0 +1,33 @@
+{
+	"name":"Swarm Of Shadows",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You gain the swarm of shadows power.</p>\n<p>@UUID[Compendium.dnd-4e-compendium.module-powers.K1YjX5uRJzNcyGvi]{Swarm of Shadows}</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"RlVn8dzTGPyuqkpU",
+	"_key":"!items!RlVn8dzTGPyuqkpU"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Death Shroud",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>11th level, revenant, assassin, shade form power </p><p><b>Benefit: </b>When you use shade form you become invisible to undead and shadow creatures for as long as your shade form lasts. </p><p>Published in Dragon Magazine 387, page(s) 52. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"Q3jThXeV04r6B8SU",
+	"_key":"!items!Q3jThXeV04r6B8SU"
+}

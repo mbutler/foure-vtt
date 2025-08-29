@@ -1,0 +1,33 @@
+{
+	"name":"Champion's Countenance",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>21st level, paladin </p><p><b>Benefit: </b>While you are at maximum hit points, allies that can see you gain a +2 bonus to their Fortitude, Reflex, and Will defenses. </p><p>Published in Dragon Magazine 388. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"Hk07izSUBh8DKTje",
+	"_key":"!items!Hk07izSUBh8DKTje"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Sling Expertise",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Benefit: </b>You gain a +1 feat bonus to weapon attack rolls that you make with a sling. This bonus increases to +2 at 11th level and +3 at 21st level. </p><p>In addition, when you make a ranged or an area attack with a sling, you don't provoke opportunity attacks for doing so. </p><p>Published in Heroes of the Fallen Lands, page(s) 317, Heroes of the Forgotten Kingdoms, page(s) 318. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"CwYVjODlHK9Xsoqh",
+	"_key":"!items!CwYVjODlHK9Xsoqh"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Fast-Talker (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>The first time you succeed on a Bluff or Diplomacy check in each encounter, one ally you can see gains a +5 power bonus to his or her next Bluff or Diplomacy check before the end of the encounter. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"ja14zNHJL9ouqb57",
+	"_key":"!items!ja14zNHJL9ouqb57"
+}

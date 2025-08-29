@@ -1,0 +1,33 @@
+{
+	"name":"Unbreakable Bond (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>If your spirit would disappear as a result of damage dealt to it, as a free action, you may instead take the damage and if you do, your spirit companion is unaffected by the attack. </p><p>Published in Dragon Magazine 379, page(s) 69. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"iucAvZxtF3yqES2D",
+	"_key":"!items!iucAvZxtF3yqES2D"
+}

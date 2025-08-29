@@ -1,0 +1,33 @@
+{
+	"name":"Unseelie Agent Starting Feature (1st level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You gain the create shadow-wrought weapon power. When you select the Unseelie agent theme, choose a melee weapon or a ranged weapon with which you have proficiency. The weapon created by this power is the same kind of weapon.<br></p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"theme"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"JIwVx8kqrQMeDn6h",
+	"_key":"!items!JIwVx8kqrQMeDn6h"
+}

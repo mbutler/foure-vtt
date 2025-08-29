@@ -1,0 +1,33 @@
+{
+	"name":"Werewolf Level 5 Feature (5th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When interacting with wolves and similar creatures, you gain a +2 bonus to Bluff, Diplomacy, or Intimidate checks.<br>In addition, while wolf shape is active, you gain a +2 power bonus to speed.<br></p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"theme"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"bgCTBpEtSiuwN0dr",
+	"_key":"!items!bgCTBpEtSiuwN0dr"
+}

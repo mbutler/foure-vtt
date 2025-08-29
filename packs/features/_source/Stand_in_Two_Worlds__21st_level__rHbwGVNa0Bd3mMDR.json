@@ -1,0 +1,33 @@
+{
+	"name":"Stand in Two Worlds (21st level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Once per day, you can use either the Planar Portal ritual or the Shadow Walk ritual without expending components, even if you do not have the Ritual Caster feat. If you use the Planar Portal ritual, you must travel to the Shadowfell, or back to the natural world if you are already in the Shadowfell. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"destiny"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"rHbwGVNa0Bd3mMDR",
+	"_key":"!items!rHbwGVNa0Bd3mMDR"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Haunting Shade [Multiclass Haunting Shade]",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Trained in Stealth </p><p><b>Benefit: </b>Your origin changes to shadow if it isn't already, so you are considered a shadow creature for all effects related to creature origin. </p><p>You gain a +2 feat bonus to Stealth checks and darkvision out to 5 squares. </p><p>Published in Dragon Magazine 387, page(s) 67. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"A15kloIprcMS3XLB",
+	"_key":"!items!A15kloIprcMS3XLB"
+}

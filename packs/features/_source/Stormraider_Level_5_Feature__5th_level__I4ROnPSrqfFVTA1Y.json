@@ -1,0 +1,33 @@
+{
+	"name":"Stormraider Level 5 Feature (5th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You gain a +2 power bonus to initiative checks. If your initiative is higher than any enemy's initiative, during your first turn of the encounter you can reroll any melee attack damage dice that come up as 1.<br></p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"theme"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"I4ROnPSrqfFVTA1Y",
+	"_key":"!items!I4ROnPSrqfFVTA1Y"
+}

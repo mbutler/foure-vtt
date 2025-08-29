@@ -1,0 +1,33 @@
+{
+	"name":"Roll with It",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>11th level </p><p><b>Benefit: </b>Whenever an enemy pulls, pushes, or slides you, you can shift 1 square as a free action at the end of the forced movement. </p><p>Published in Player's Handbook 3, page(s) 189. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"3TyQqabBuL4jxrft",
+	"_key":"!items!3TyQqabBuL4jxrft"
+}

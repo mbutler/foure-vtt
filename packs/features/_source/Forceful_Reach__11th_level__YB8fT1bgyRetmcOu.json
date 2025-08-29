@@ -1,0 +1,33 @@
+{
+	"name":"Forceful Reach (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>If you use a reach weapon to deliver a weapon power that pushes, pulls, or slides a target, you increase the distance of the forced movement by 1 square. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"YB8fT1bgyRetmcOu",
+	"_key":"!items!YB8fT1bgyRetmcOu"
+}

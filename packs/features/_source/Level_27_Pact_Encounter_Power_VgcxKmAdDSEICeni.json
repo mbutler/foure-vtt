@@ -1,0 +1,33 @@
+{
+	"name":"Level 27 Pact Encounter Power",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You gain an encounter attack power associated with your pact. This new power replaces the encounter attack power you gained at 13th level.</p>\n<p>@UUID[Compendium.dnd-4e-compendium.module-features.krioX2lAYSgVEzxH]{Level 27 Fey Pact Encounter Power}@UUID[Compendium.dnd-4e-compendium.module-powers.ua4qDSzmNjwUgYfA]{Supplication of the Worms}@UUID[Compendium.dnd-4e-compendium.module-features.gMJrEW27nZw1BUjR]{Level 27 Gloom Pact Encounter Power}@UUID[Compendium.dnd-4e-compendium.module-powers.zbWPRrDQSAxEk76Z]{Umbral Swap}@UUID[Compendium.dnd-4e-compendium.module-features.SAlKxOq0TIRYaVtG]{Level 27 Star Pact Encounter Power}@UUID[Compendium.dnd-4e-compendium.module-powers.HUqQZ9kvjfx1hwDX]{Hungry Void}</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"VgcxKmAdDSEICeni",
+	"_key":"!items!VgcxKmAdDSEICeni"
+}

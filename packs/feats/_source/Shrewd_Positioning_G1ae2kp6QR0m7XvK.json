@@ -1,0 +1,33 @@
+{
+	"name":"Shrewd Positioning",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Warlord, Combat Leader class feature, Tactical Presence class feature </p><p><b>Benefit: </b>When you make an initiative check, you can slide each ally benefiting from Combat Leader 1 square. </p><p>Published in Dragon Magazine 381, page(s) 31. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"G1ae2kp6QR0m7XvK",
+	"_key":"!items!G1ae2kp6QR0m7XvK"
+}

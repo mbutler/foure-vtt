@@ -1,0 +1,33 @@
+{
+	"name":"Communal Aid (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you use inspiring word, the target can spend one of your healing surges instead of his or her own, but still using his or her healing surge value. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"a26dEsJMWSvBbfOQ",
+	"_key":"!items!a26dEsJMWSvBbfOQ"
+}

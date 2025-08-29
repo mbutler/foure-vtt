@@ -1,0 +1,33 @@
+{
+	"name":"Stalker Spirit",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You call on the stealth and cunning of the panther or a similar stalking spirit to empower and position your allies. </p><p>Spirit Boon: Any ally adjacent to your spirit companion gains a bonus to damage rolls against bloodied enemies equal to your Intelligence modifier. </p><p>Spirit's Fangs: You gain the spirit's fangs power, an attack you make through your spirit companion as an opportunity action. </p><p>At-Will Attack Power: You gain the stalker's strike power. You choose a second at-will attack power as normal. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"kIyt3pq2VheFuW5P",
+	"_key":"!items!kIyt3pq2VheFuW5P"
+}

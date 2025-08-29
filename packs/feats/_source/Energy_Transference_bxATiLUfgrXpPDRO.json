@@ -1,0 +1,33 @@
+{
+	"name":"Energy Transference",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>11th level, githzerai, iron mind racial power </p><p><b>Benefit: </b>When you use iron mind, you gain resist 5 against any damage types dealt by the triggering attack until the end of your next turn. At 21st level, this resistance increases to 10. </p><p>Published in Dragon Magazine 378. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"bxATiLUfgrXpPDRO",
+	"_key":"!items!bxATiLUfgrXpPDRO"
+}

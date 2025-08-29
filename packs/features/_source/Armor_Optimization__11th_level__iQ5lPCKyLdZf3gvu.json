@@ -1,0 +1,33 @@
+{
+	"name":"Armor Optimization (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You have learned to make the most of the armor you wear, arranging it to better absorb and deflect blows. You gain a +1 bonus to AC while wearing any kind of armor. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"iQ5lPCKyLdZf3gvu",
+	"_key":"!items!iQ5lPCKyLdZf3gvu"
+}

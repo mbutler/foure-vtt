@@ -1,0 +1,33 @@
+{
+	"name":"Arcane Ritualist",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>11th level, any arcane class </p><p><b>Benefit: </b>Choose a ritual that you know. Change the key skill of that ritual to Arcana and gain a +2 bonus to skill checks made as part of that ritual. </p><p>Each time you learn a new ritual, you can change the ritual affected by this feat to the newly learned ritual. </p><p>Special: You can select this feat more than once. Each time you select this feat, choose a different ritual. </p><p>Published in Arcane Power, page(s) 130. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"qpdFQNR7zvimDsCX",
+	"_key":"!items!qpdFQNR7zvimDsCX"
+}

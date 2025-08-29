@@ -1,0 +1,33 @@
+{
+	"name":"Eternal Tide",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>If you choose the Eternal Tide monastic tradition, you gain the following class features. </p><p>Flurry of Blows: You gain the eternal tide flurry of blows power. </p><p>Mental Balance: Whenever an enemy would pull, push, or slide you, you can reduce the forced movement by 1 square. After the forced movement is resolved, you can shift 1 square as a free action. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"APSLGCr6W5b2xRyn",
+	"_key":"!items!APSLGCr6W5b2xRyn"
+}

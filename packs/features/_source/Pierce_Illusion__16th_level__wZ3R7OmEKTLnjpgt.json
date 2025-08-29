@@ -1,0 +1,33 @@
+{
+	"name":"Pierce Illusion (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Any enemy takes a -2 penalty to its first saving throw against the effects of your illusion powers. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"wZ3R7OmEKTLnjpgt",
+	"_key":"!items!wZ3R7OmEKTLnjpgt"
+}

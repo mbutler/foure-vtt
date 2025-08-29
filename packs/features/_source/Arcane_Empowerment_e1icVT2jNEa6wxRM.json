@@ -1,0 +1,33 @@
+{
+	"name":"Arcane Empowerment",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Your study of magic has given you the ability to manipulate the arcane energy contained within items. You begin each day with the ability to empower a magic item, and you gain one additional arcane empowerment for each milestone you reach. You must spend a short rest with an item in order to empower it. You can empower an item in two ways.</p>\n<p>@UUID[Compendium.dnd-4e-compendium.module-features.JzO4UGBk6SxRyCdf]{Augment Energy}@UUID[Compendium.dnd-4e-compendium.module-features.Z7QL9kj6JeVROc3o]{Impart Energy}</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"e1icVT2jNEa6wxRM",
+	"_key":"!items!e1icVT2jNEa6wxRM"
+}

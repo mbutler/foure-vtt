@@ -1,0 +1,33 @@
+{
+	"name":"Turn the Tables (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Whenever you save against an effect, your quarry grants combat advantage until the end of your next turn. </p><p>Published in Martial Power 2, page(s) 51. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"qP3wOiDf4VYLXR5H",
+	"_key":"!items!qP3wOiDf4VYLXR5H"
+}

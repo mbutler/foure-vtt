@@ -1,0 +1,33 @@
+{
+	"name":"Earth Domain Features and Powers",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You and each ally within 5 squares of you gain a +2 power bonus to saves against ongoing damage. </p><p>In addition, when you use healing word, the target takes half damage from the next attack that hits it before the end of your next turn. </p><p>You also gain the earth's endurance, burden of earth, stone speak, and earthen hail powers. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"8kh5KF0baWT1UwcM",
+	"_key":"!items!8kh5KF0baWT1UwcM"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Limning Challenge",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>21st level, paladin </p><p><b>Benefit: </b>Your attacks against targets marked by you with divine challenge or your divine sanction ignore penalties from concealment or total concealment. </p><p>Published in Dragon Magazine 377, page(s) 45. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"O1XpdK7CuIUh9xPW",
+	"_key":"!items!O1XpdK7CuIUh9xPW"
+}

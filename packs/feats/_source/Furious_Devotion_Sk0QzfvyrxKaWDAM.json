@@ -1,0 +1,33 @@
+{
+	"name":"Furious Devotion",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Half-orc, any divine class, Channel Divinity class feature </p><p><b>Benefit: </b>When you use a Channel Divinity power, you gain a +2 bonus to damage rolls with divine attack powers until the end of your next turn. </p><p>Published in Divine Power, page(s) 135. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"Sk0QzfvyrxKaWDAM",
+	"_key":"!items!Sk0QzfvyrxKaWDAM"
+}

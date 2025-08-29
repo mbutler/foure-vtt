@@ -1,0 +1,33 @@
+{
+	"name":"Bane, The Black Lord",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Type: </b>Greater God </p><p><b>Alignment: </b>Evil </p><p><b>Gender: </b>Male </p><p><b>Sphere: </b>Tyranny </p><p><b>Dominion: </b>Banehold </p><p><b>Priests: </b>Dreadmasters </p><p><b>Adjective: </b>Banite </p><p><b>Domain: </b>Skill, War </p><p>Bane is the evil god of war and conquest. Militaristic nations of humans and goblins serve him and conquer in his name. Evil fighters and paladins serve him. He commands his worshipers to: </p><p>Never allow your fear to gain mastery over you, but drive it into the hearts of your foes. </p><p>- Punish insubordination and disorder. </p><p>- Hone your combat skills to perfection, whether you are a mighty general or a lone mercenary. </p><p>Published in Dungeon Master's Guide, page(s) 162. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"other"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"OHCRBEDwpLqWxGMA",
+	"_key":"!items!OHCRBEDwpLqWxGMA"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Frostbite Summoning (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Creatures you summon gain the frostbite aura, described below. </p><p>Frostbite (Cold) aura 1; each creature that ends its turn within the aura takes 10 cold damage. </p><p>Published in Arcane Power, page(s) 119. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"JQauZWROTY0fkSEo",
+	"_key":"!items!JQauZWROTY0fkSEo"
+}

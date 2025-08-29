@@ -1,0 +1,29 @@
+{
+	"name":"Shield Proficiency",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Besieged by numerous threats such as orcs and goblins, the shield dwarves take the name of their people seriously. Many are trained to use a shield regardless of duty or station.<br>&nbsp;&nbsp;&nbsp;&nbsp;<em>Benefits:&nbsp;</em>You gain proficiency with the light shield. This benefit replaces Dwarven Weapon Proficiency.</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"featureType":"race"
+	},
+	"effects":[],
+	"flags":{},
+	"folder":null,
+	"sort":0,
+	"_id":"HWCTBon6EmCDurDG",
+	"_key":"!items!HWCTBon6EmCDurDG"
+}

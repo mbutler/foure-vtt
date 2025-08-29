@@ -1,0 +1,33 @@
+{
+	"name":"Closing Advantage",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Swordmage </p><p><b>Benefit: </b>When you use a ranged or area swordmage attack power and hit an enemy, you gain a +1 bonus to attack rolls and damage rolls with melee swordmage attack powers until the end of your next turn. </p><p>Published in Arcane Power, page(s) 124. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"8bFH3l9aQoT4dXqj",
+	"_key":"!items!8bFH3l9aQoT4dXqj"
+}

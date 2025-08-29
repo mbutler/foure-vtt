@@ -1,0 +1,33 @@
+{
+	"name":"Hand of Divine Guidance",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>21st level, avenger, oath of enmity power </p><p><b>Benefit: </b>You score critical hits on a roll of 19-20 against your oath of enmity target. </p><p>Published in Dragon Magazine 382, page(s) 41. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"JfpBPWsHzQKNgb0T",
+	"_key":"!items!JfpBPWsHzQKNgb0T"
+}

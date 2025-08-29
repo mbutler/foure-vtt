@@ -1,0 +1,33 @@
+{
+	"name":"Legacy of War",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>11th level, goliath, stone's endurance </p><p><b>Benefit: </b>You add your Constitution modifier to the resistance provided by your stone's endurance racial power. </p><p>Published in Dragon Magazine 386, page(s) 56. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"ra1RjE08ZWKfOA9g",
+	"_key":"!items!ra1RjE08ZWKfOA9g"
+}

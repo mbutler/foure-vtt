@@ -1,0 +1,33 @@
+{
+	"name":"Student of the Cosmos",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Sorcerer, Cosmic Magic class feature </p><p><b>Benefit: </b>You gain an additional benefit based on your current phase in the cosmic cycle. </p><p>Phase of the Sun: You gain a +2 feat bonus to initiative checks and Heal checks. </p><p>Phase of the Moon: You gain a +2 feat bonus to Bluff checks and Stealth checks. </p><p>Phase of the Stars: You gain a +2 feat bonus to Insight checks and Perception checks. </p><p>Published in Arcane Power, page(s) 129. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"6O8DyefFGT4Slx3Y",
+	"_key":"!items!6O8DyefFGT4Slx3Y"
+}

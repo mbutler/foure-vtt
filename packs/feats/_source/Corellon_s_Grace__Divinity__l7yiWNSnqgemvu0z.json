@@ -1,0 +1,33 @@
+{
+	"name":"Corellon's Grace [Divinity]",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Channel Divinity class feature, must worship Corellon </p><p><b>Benefit: </b>You gain the Corellon's grace power. </p><p>Published in Player's Handbook, page(s) 194, Class Compendium. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"l7yiWNSnqgemvu0z",
+	"_key":"!items!l7yiWNSnqgemvu0z"
+}

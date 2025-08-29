@@ -1,0 +1,33 @@
+{
+	"name":"Inexorable Speed",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>21st level, battlemind, speed of thought power </p><p><b>Benefit: </b>When you use your speed of thought, you can move through enemies' spaces and your movement does not provoke opportunity attacks. </p><p>Published in Psionic Power, page(s) 140. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"icyGkLHVe5KzOE9B",
+	"_key":"!items!icyGkLHVe5KzOE9B"
+}

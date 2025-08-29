@@ -1,0 +1,33 @@
+{
+	"name":"Level 20 Torm Domain Daily Power",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You gain the peacemaker's interdiction power. </p><p>Published in Heroes of the Fallen Lands, page(s) 98. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"XHDBtfo4VjMOPpgF",
+	"_key":"!items!XHDBtfo4VjMOPpgF"
+}

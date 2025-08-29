@@ -1,0 +1,33 @@
+{
+	"name":"Triumph of the Heart (30th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Once per day, you can change the result of a single d20 roll made by an ally to 20. This requires no action on your part, but you must be conscious to do so </p><p>Published in Divine Power, page(s) 147. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"destiny"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"JcK043YQGPm8ZhsI",
+	"_key":"!items!JcK043YQGPm8ZhsI"
+}

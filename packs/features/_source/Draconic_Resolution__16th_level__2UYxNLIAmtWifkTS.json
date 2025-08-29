@@ -1,0 +1,33 @@
+{
+	"name":"Draconic Resolution (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When a dragon reduces an ally that you can see to 0 hit points or fewer, you can spend a healing surge. </p><p>Published in Dragon Magazine 369, page(s) 49. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"2UYxNLIAmtWifkTS",
+	"_key":"!items!2UYxNLIAmtWifkTS"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Earthforged Level 5 Feature (5th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You gain a +2 power bonus to Endurance checks. Further, whenever you use stone panoply, the burst creates a zone that lasts until the end of the encounter. The ground in the zone is difficult terrain for enemies that lack earth walk.<br></p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"Nf5QXtizIVcRv3WG",
+	"_key":"!items!Nf5QXtizIVcRv3WG"
+}

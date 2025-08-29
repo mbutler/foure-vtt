@@ -1,0 +1,33 @@
+{
+	"name":"Cast Iron Font",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Dwarf, warden, Font of Life class feature </p><p><b>Benefit: </b>When you save against a poison effect at the start of your turn, you gain temporary hit points equal to your Constitution modifier. </p><p>Published in Dragon Magazine 379, page(s) 44. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"2fjPsI5mixwktH6b",
+	"_key":"!items!2fjPsI5mixwktH6b"
+}

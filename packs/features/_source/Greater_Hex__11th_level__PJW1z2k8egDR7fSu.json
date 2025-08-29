@@ -1,0 +1,33 @@
+{
+	"name":"Greater Hex (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Instead of placing your Warlock's Curse on the nearest enemy to you that you can see, you can place your Warlock's Curse on any single enemy within 5 squares that you can see. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"PJW1z2k8egDR7fSu",
+	"_key":"!items!PJW1z2k8egDR7fSu"
+}

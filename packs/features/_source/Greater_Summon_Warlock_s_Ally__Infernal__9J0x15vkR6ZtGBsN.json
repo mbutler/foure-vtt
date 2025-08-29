@@ -1,0 +1,33 @@
+{
+	"name":"Greater Summon Warlock's Ally (Infernal)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You can use summon warlock's ally to summon a pit fiend servitor. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"9J0x15vkR6ZtGBsN",
+	"_key":"!items!9J0x15vkR6ZtGBsN"
+}

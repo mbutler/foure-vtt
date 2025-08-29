@@ -1,0 +1,33 @@
+{
+	"name":"Quick Beast Command",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>21st level, Wis 17, ranger, Beast Mastery class feature </p><p><b>Benefit: </b>On your turn, you can use a minor action to command your beast companion to make a melee basic attack. </p><p>Published in Martial Power, page(s) 148. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"MuxCclQ2DTbJRnHm",
+	"_key":"!items!MuxCclQ2DTbJRnHm"
+}

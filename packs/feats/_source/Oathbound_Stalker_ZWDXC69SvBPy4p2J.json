@@ -1,0 +1,33 @@
+{
+	"name":"Oathbound Stalker",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Assassin, avenger, oath of enmity power </p><p><b>Benefit: </b>When you teleport, you can add 2 squares to your teleport distance as long as you teleport adjacent to your oath of enmity target. </p><p>Published in Dragon Magazine 386, page(s) 75. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"ZWDXC69SvBPy4p2J",
+	"_key":"!items!ZWDXC69SvBPy4p2J"
+}

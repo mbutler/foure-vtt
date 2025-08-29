@@ -1,0 +1,33 @@
+{
+	"name":"In Defense of Order (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you are adjacent to the target of your divine challenge, the target provokes an opportunity attack from you if it makes an attack that does not include you. Furthermore, your damage rolls against demons and elemental creatures that you challenge deal an extra 2d6 radiant damage. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"Q349reYwRalipu2B",
+	"_key":"!items!Q349reYwRalipu2B"
+}

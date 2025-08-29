@@ -1,0 +1,33 @@
+{
+	"name":"Level 5 Sentinel Daily Power",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><p>You gain one of the following powers of your choice. </p>@UUID[Compendium.dnd-4e-compendium.module-powers.7iGJMuoBf49HgP5d]{Destructive Harvest}@UUID[Compendium.dnd-4e-compendium.module-powers.AWLISXYhdkmbqD6Z]{Hunger of the Land}@UUID[Compendium.dnd-4e-compendium.module-powers.hqjKCdpiOXHg8zP2]{Life Blood Harvest}</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"f3acJC0v2YDIhwBK",
+	"_key":"!items!f3acJC0v2YDIhwBK"
+}

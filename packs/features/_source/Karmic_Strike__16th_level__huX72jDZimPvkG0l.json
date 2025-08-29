@@ -1,0 +1,33 @@
+{
+	"name":"Karmic Strike (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you use Virtue of Prescience, one ally within 10 squares of you can make a ranged or melee basic attack as a free action against the triggering enemy. </p><p>Published in Arcane Power, page(s) 22. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"huX72jDZimPvkG0l",
+	"_key":"!items!huX72jDZimPvkG0l"
+}

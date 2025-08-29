@@ -1,0 +1,33 @@
+{
+	"name":"World Speaker Spirit",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Spirit Boon: Any ally who provokes an opportunity attack by entering or leaving a square adjacent to your spirit companion gains a bonus to all defenses against that attack. The bonus equals your Constitution modifier. </p><p>World Speaker's Command: You gain the world speaker's command power, an attack you make through your spirit companion as an opportunity action. </p><p>At-Will Attack Power: You gain the voice of battle power. You choose a second 1st-level at-will attack power as normal. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"9eOxroCgHaLYWv8R",
+	"_key":"!items!9eOxroCgHaLYWv8R"
+}

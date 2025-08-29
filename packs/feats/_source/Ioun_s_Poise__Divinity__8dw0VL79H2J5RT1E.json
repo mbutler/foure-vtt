@@ -1,0 +1,33 @@
+{
+	"name":"Ioun's Poise [Divinity]",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Channel Divinity class feature, must worship Ioun </p><p><b>Benefit: </b>You gain the Ioun's poise power. </p><p>Published in Player's Handbook, page(s) 198, Class Compendium. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"8dw0VL79H2J5RT1E",
+	"_key":"!items!8dw0VL79H2J5RT1E"
+}

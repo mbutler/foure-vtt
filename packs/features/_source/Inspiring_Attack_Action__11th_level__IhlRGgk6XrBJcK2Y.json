@@ -1,0 +1,33 @@
+{
+	"name":"Inspiring Attack Action (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you spend an action point to make an attack, you and each ally within 5 squares of you gain a bonus to attack rolls against each target of that attack until the start of your next turn. The bonus equals your Intelligence modifier. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"IhlRGgk6XrBJcK2Y",
+	"_key":"!items!IhlRGgk6XrBJcK2Y"
+}

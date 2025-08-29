@@ -1,0 +1,33 @@
+{
+	"name":"Greater Summon Warlock's Ally (White Well)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>If you have the sword of the White Well, you can use summon warlock's ally to summon a spectral protector. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"oVgfOlQMcn3EASZC",
+	"_key":"!items!oVgfOlQMcn3EASZC"
+}

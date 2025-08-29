@@ -1,0 +1,33 @@
+{
+	"name":"Stormborn (21st level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You increase your Constitution score by 2 and your origin changes to elemental. Additionally, you gain resist lightning and thunder equal to 15 + one-half your level. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"destiny"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"Eu54QnoPNarWebYF",
+	"_key":"!items!Eu54QnoPNarWebYF"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Spirit of Vigor",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Shaman, Elemental Spirit class feature </p><p><b>Benefit: </b>When you use call spirit companion as a minor action, one ally adjacent to your spirit companion when it appears gains temporary hit points equal to your Intelligence modifier. </p><p>Published in Dark Sun Campaign Setting, page(s) 112. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"sUfVFvX6NuC1R05Q",
+	"_key":"!items!sUfVFvX6NuC1R05Q"
+}

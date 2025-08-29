@@ -1,0 +1,33 @@
+{
+	"name":"Group Mindlink",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Kalashtar </p><p><b>Benefit: </b>You can facilitate conversation between all your allies. Any ally within the range of your telepathy can communicate with you and any other ally or allies within the range of your telepathy. </p><p>Published in Eberron Player's Guide, page(s) 90. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"WiEw1tX2TcAZemzF",
+	"_key":"!items!WiEw1tX2TcAZemzF"
+}

@@ -1,0 +1,37 @@
+{
+	"name":"Immortal Prowess",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>21st level, deva, Immortal Resilience </p><p><b>Benefit: </b>When using memory of a thousand lifetimes to modify an attack roll, you treat a result that is lower than the average for the die you roll-3 for d6 or 4 for d8-as the average. </p><p>Published in Dragon Magazine 374, page(s) 50. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"descriptionGM":{
+			"value":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":"",
+			"autoanimationHook":""
+		},
+		"requirements":"",
+		"level":null,
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"AF9q6hE7CcDIoRB8",
+	"_key":"!items!AF9q6hE7CcDIoRB8"
+}

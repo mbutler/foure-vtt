@@ -1,0 +1,33 @@
+{
+	"name":"Patient Hunter",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Druid, pounce power, wild shape power </p><p><b>Benefit: </b>When you hit a target with an attack using the pounce power, the target grants combat advantage until the end of your next turn. </p><p>Published in Dragon Magazine 382, page(s) 54. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"gxHeLl6ZdFMuojis",
+	"_key":"!items!gxHeLl6ZdFMuojis"
+}

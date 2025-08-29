@@ -1,0 +1,33 @@
+{
+	"name":"Aspect of the Elements",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>11th level, wilden, Nature's Aspect racial trait </p><p><b>Benefit: </b>Replace one of your Nature's Aspect options with the aspect of the elements. You can use the fury of the elements power while you are in this aspect. </p><p>Published in Dragon Magazine 393. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"kgdDARbyoSufvs7J",
+	"_key":"!items!kgdDARbyoSufvs7J"
+}

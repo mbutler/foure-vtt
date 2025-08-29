@@ -1,0 +1,33 @@
+{
+	"name":"Firepulse Transformation",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Genasi, firepulse racial power </p><p><b>Benefit: </b>Firepulse targets each enemy adjacent to you instead of only the triggering enemy. </p><p>Published in Dragon Magazine 391. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"mbKfxG7UYSoLyJct",
+	"_key":"!items!mbKfxG7UYSoLyJct"
+}

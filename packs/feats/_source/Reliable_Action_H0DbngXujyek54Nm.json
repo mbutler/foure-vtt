@@ -1,0 +1,33 @@
+{
+	"name":"Reliable Action",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>21st level, warlord </p><p><b>Benefit: </b>When an ally you can see spends an action point to use an encounter attack power that misses every target, that power is not expended. </p><p>Published in Martial Power 2, page(s) 144. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"H0DbngXujyek54Nm",
+	"_key":"!items!H0DbngXujyek54Nm"
+}

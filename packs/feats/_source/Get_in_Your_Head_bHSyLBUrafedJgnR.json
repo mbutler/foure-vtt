@@ -1,0 +1,33 @@
+{
+	"name":"Get in Your Head",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Gnome, any psionic class, fade away power </p><p><b>Benefit: </b>Your fade away power gains the augmentable and teleportation keywords. When you would use fade away, you can spend 1 power point to also teleport 3 squares as a free action after you become invisible. </p><p>Published in Dragon Magazine 389. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"bHSyLBUrafedJgnR",
+	"_key":"!items!bHSyLBUrafedJgnR"
+}

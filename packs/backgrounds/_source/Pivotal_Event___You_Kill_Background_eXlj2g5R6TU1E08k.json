@@ -1,0 +1,33 @@
+{
+	"name":"Pivotal Event - You Kill Background",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Campaign Setting: </b>General </p><p>Through accident, error, or misbegotten intention, you were responsible for the death of an ally, friend, or loved one. Who was it, and how does it torment you? </p><p><i>Associated Skills: </i>Bluff, Heal </p><p>Published in Dragon Magazine 383, page(s) 80. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"background"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"eXlj2g5R6TU1E08k",
+	"_key":"!items!eXlj2g5R6TU1E08k"
+}

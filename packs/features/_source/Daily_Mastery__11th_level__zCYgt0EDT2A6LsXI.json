@@ -1,0 +1,33 @@
+{
+	"name":"Daily Mastery (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>At the end of an extended rest, you can replace a daily attack power granted through a multiclass feat with another daily attack power of the same level or lower from the same class. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"zCYgt0EDT2A6LsXI",
+	"_key":"!items!zCYgt0EDT2A6LsXI"
+}

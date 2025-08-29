@@ -1,0 +1,33 @@
+{
+	"name":"Pace Of The Virtuous Charger",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>While you are riding a mount, that creature and each allied mount within 20 squares of you gain a +2 power bonus to speed. This bonus applies only outside combat.</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"WfUqSsKvgDCVYT3O",
+	"_key":"!items!WfUqSsKvgDCVYT3O"
+}

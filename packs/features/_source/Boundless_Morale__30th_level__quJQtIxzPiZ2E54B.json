@@ -1,0 +1,33 @@
+{
+	"name":"Boundless Morale (30th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Whenever an ally within 5 squares of you drops to 0 hit points or fewer, you can spend a healing surge as an immediate interrupt. You regain no hit points for doing so, but the ally regains hit points as if he or she had spent a healing surge and regains 20 additional hit points. </p><p>Published in Player's Handbook 3, page(s) 161. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"destiny"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"quJQtIxzPiZ2E54B",
+	"_key":"!items!quJQtIxzPiZ2E54B"
+}

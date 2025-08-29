@@ -1,0 +1,33 @@
+{
+	"name":"Exchange Power",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Psion, Send Thoughts power </p><p><b>Benefit: </b>When you use send thoughts to deliver a message to an ally who has power points, you can lose 1 power point to allow that ally to regain 1 power point. </p><p>Update (6/14/2010) </p><p>Replace \"transfer 1 power point of yours to that ally\" with \"lose 1 power point to allow that ally to regain 1 power point.\" </p><p>Published in Player's Handbook 3, page(s) 180. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"aL29vdWijOtqcQyf",
+	"_key":"!items!aL29vdWijOtqcQyf"
+}

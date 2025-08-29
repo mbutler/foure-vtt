@@ -1,0 +1,33 @@
+{
+	"name":"Battle Instructor [Multiclass Warlord]",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Any multiclass warlord feat, paragon multiclassing as a warlord </p><p><b>Benefit: </b>You gain the warlord's Combat Leader class feature. </p><p>Published in Martial Power, page(s) 149. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"DxpXEHuLPGJAUbYy",
+	"_key":"!items!DxpXEHuLPGJAUbYy"
+}

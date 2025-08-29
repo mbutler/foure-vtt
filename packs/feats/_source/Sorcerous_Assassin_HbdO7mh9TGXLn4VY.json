@@ -1,0 +1,33 @@
+{
+	"name":"Sorcerous Assassin",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Drow, sorcerer </p><p><b>Benefit: </b>When you have combat advantage against a target, you gain a +2 feat bonus to damage rolls against that target when you use sorcerer powers that have the poison or psychic keyword. This bonus increases to +4 at 11th level and to +6 at 21st level. You also gain a +1 feat bonus to Stealth checks. </p><p>Published in Arcane Power, page(s) 129. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"HbdO7mh9TGXLn4VY",
+	"_key":"!items!HbdO7mh9TGXLn4VY"
+}

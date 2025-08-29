@@ -1,0 +1,33 @@
+{
+	"name":"Feywild Guardian",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Eladrin can choose to gain the<em>Feywild Guardian </em>power in place of<em>Battle Guardian </em></p>\n<p>@UUID[Compendium.dnd-4e-compendium.module-powers.4eK2BwiIrYJSAH6x]{Feywild Guardian}</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"rIohEvOsaSQWn1MD",
+	"_key":"!items!rIohEvOsaSQWn1MD"
+}

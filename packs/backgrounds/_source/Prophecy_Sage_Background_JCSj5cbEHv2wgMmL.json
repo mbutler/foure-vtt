@@ -1,0 +1,33 @@
+{
+	"name":"Prophecy Sage Background",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Type: </b>House Sivis </p><p><b>Campaign Setting: </b>Eberron </p><p>House Sivis tries to keep track of the Draconic Prophecy, and you were part of that effort. You took part in diplomatic missions to speak with dragons, and you studied historical records and mystical texts to learn what the future might hold. </p><p>Were you interested in what the Prophecy means for the world, for House Sivis, or for you personally? Were you part of any significant discoveries? Do feel the Draconic Prophecy is affected by the actions of a few key dragon marked people-including you? </p><p><i>Associated Skills: </i>Arcana,Diplomacy </p><p>Published in Eberron Player's Guide, page(s) 156. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"background"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"JCSj5cbEHv2wgMmL",
+	"_key":"!items!JCSj5cbEHv2wgMmL"
+}

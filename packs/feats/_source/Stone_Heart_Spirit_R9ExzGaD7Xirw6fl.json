@@ -1,0 +1,33 @@
+{
+	"name":"Stone Heart Spirit",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>21st level, shaman, World Speaker Spirit class feature </p><p><b>Benefit: </b>Your spirit companion can provide cover to you and your allies. </p><p>Published in Primal Power, page(s) 148. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"R9ExzGaD7Xirw6fl",
+	"_key":"!items!R9ExzGaD7Xirw6fl"
+}

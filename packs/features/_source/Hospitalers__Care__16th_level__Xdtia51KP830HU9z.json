@@ -1,0 +1,33 @@
+{
+	"name":"Hospitalers' Care (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You add your Charisma modifier to the healing provided each time you use your lay on hands power. </p><p>Published in Player's Handbook, page(s) 101. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"Xdtia51KP830HU9z",
+	"_key":"!items!Xdtia51KP830HU9z"
+}

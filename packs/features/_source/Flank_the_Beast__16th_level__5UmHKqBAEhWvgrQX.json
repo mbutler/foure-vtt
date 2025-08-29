@@ -1,0 +1,33 @@
+{
+	"name":"Flank the Beast (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>While you are flanking an enemy, you gain a +1 bonus to AC against that creature's attacks. If that enemy is a dragon, you instead gain a +2 bonus to AC and Reflex against that creature's attacks. </p><p>Published in Dragon Magazine 369, page(s) 50. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"5UmHKqBAEhWvgrQX",
+	"_key":"!items!5UmHKqBAEhWvgrQX"
+}

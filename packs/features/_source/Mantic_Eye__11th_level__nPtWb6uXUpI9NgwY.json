@@ -1,0 +1,33 @@
+{
+	"name":"Mantic Eye (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Your Insight, Intimidate, and Perception checks are modified by your Charisma, Intelligence, or Wisdom modifier, instead of by the normal ability modifier. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"nPtWb6uXUpI9NgwY",
+	"_key":"!items!nPtWb6uXUpI9NgwY"
+}

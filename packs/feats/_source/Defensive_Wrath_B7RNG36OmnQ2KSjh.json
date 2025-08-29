@@ -1,0 +1,33 @@
+{
+	"name":"Defensive Wrath",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Half-elf, invoker, armor of wrath power </p><p><b>Benefit: </b>You can use armor of wrath when an enemy within 5 squares of you hits one of your allies with an attack. </p><p>Published in Dragon Magazine 385, page(s) 68. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"B7RNG36OmnQ2KSjh",
+	"_key":"!items!B7RNG36OmnQ2KSjh"
+}

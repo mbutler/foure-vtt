@@ -1,0 +1,33 @@
+{
+	"name":"Undying Vanguard (26th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>The accumulated knowledge that you have gained by recovering memories of your past lives begins to manifest in a fighting style that is an amalgamation of many styles, both current and long forgotten. In other lives, you've fought overwhelming odds and died defending your friends, and each time, you learned a little more about how to stand when massively outnumbered. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"destiny"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"Whnr3yFVL1OmcgeT",
+	"_key":"!items!Whnr3yFVL1OmcgeT"
+}

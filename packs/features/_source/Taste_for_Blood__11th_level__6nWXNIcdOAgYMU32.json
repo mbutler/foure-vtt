@@ -1,0 +1,33 @@
+{
+	"name":"Taste for Blood (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Whenever you reduce a bloodied enemy you have marked to 0 hit points, you recharge your blood drain power and can use it again during this encounter. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"6nWXNIcdOAgYMU32",
+	"_key":"!items!6nWXNIcdOAgYMU32"
+}

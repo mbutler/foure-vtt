@@ -1,0 +1,33 @@
+{
+	"name":"Mantle of Caution",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>11th level, ardent, Ardent Mantle class feature </p><p><b>Benefit: </b>While you are bloodied, allies within the radius of your Ardent Mantle gain a +2 bonus to Fortitude, Reflex, and Will. </p><p>Published in Psionic Power, page(s) 137. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"io5SJYI92pGs3Fu4",
+	"_key":"!items!io5SJYI92pGs3Fu4"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Deadly Immobilization",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>11th level, swordmage </p><p><b>Benefit: </b>Whenever you slow or immobilize a target with a swordmage or swordmage paragon path attack power, that power deals extra damage equal to your Constitution modifier. </p><p>Published in Dragon Magazine 382, page(s) 23. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"RF5e43nLJZDVQdPj",
+	"_key":"!items!RF5e43nLJZDVQdPj"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Karmic Virtue (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>If you use Virtue of Prescience to increase an ally's defense and the enemy's attack still hits, the ally targeted by the triggering enemy's attack can spend a healing surge as a free action. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"jnVaoUGuT84Kk0mi",
+	"_key":"!items!jnVaoUGuT84Kk0mi"
+}

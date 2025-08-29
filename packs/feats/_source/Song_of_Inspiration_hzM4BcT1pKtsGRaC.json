@@ -1,0 +1,33 @@
+{
+	"name":"Song of Inspiration",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>11th level, bard, Song of Rest class feature </p><p><b>Benefit: </b>At the end of any rest during which you use your Song of Rest, you and each ally who can hear you can spend a healing surge. Each character who spends a healing surge in this manner gains temporary hit points equal to 5 + your Charisma modifier, instead of regaining hit points. </p><p>Published in Arcane Power, page(s) 133. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"hzM4BcT1pKtsGRaC",
+	"_key":"!items!hzM4BcT1pKtsGRaC"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Battle Surge (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you spend an action point to take an extra action or to gain the benefit of your Archer's Action, you also gain a +5 bonus to AC against opportunity attacks until the end of the encounter. </p><p>Published in Player's Handbook, page(s) 113. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"R9Qdvw6pEP7yCohU",
+	"_key":"!items!R9Qdvw6pEP7yCohU"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Empty Mind",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Genasi, voidsoul elemental manifestation </p><p><b>Benefit: </b>When an enemy hits you with an attack that targets your Will or deals psychic damage to you, that enemy takes psychic damage equal to your psychic resistance. </p><p>Published in Dragon Magazine 380, page(s) 20. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"r2go7jJp5Mb4yHKn",
+	"_key":"!items!r2go7jJp5Mb4yHKn"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Sure Knowledge [Divinity]",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Channel Divinity class feature, must worship a deity of the knowledge domain </p><p><b>Benefit: </b>You gain the Channel Divinity power sure knowledge. </p><p>Published in Divine Power, page(s) 114. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"2i9NSUegTPIDC6Rj",
+	"_key":"!items!2i9NSUegTPIDC6Rj"
+}

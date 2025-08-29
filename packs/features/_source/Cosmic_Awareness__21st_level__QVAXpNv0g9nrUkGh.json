@@ -1,0 +1,33 @@
+{
+	"name":"Cosmic Awareness (21st level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You can master and perform scrying rituals. Any scrying ritual you perform does not need a focus, and you gain a +5 bonus to any skill checks made to perform the ritual. Once per day, you can use any scrying ritual you know without expending components. </p><p>In addition, you gain truesight 5. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"destiny"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"QVAXpNv0g9nrUkGh",
+	"_key":"!items!QVAXpNv0g9nrUkGh"
+}

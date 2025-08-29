@@ -1,0 +1,33 @@
+{
+	"name":"Rapid Wild Defense",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>21st level, warden, warden's fury or warden's grasp power </p><p><b>Benefit: </b>The first time you use either warden's fury or warden's grasp each round, it does not count toward the normal limit on the number of immediate actions you can take in one round. You still cannot use this immediate action more than once per triggering event. </p><p>Published in Dragon Magazine 387, page(s) 70. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"zKaeGgLAfTOwFp0r",
+	"_key":"!items!zKaeGgLAfTOwFp0r"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Walk Among the Fey",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>11th level, bard </p><p><b>Benefit: </b>Whenever you use a power that slides a creature, you can teleport that creature an equal number of squares instead. Where you teleport the creature remains subject to any restrictions on the original slide. </p><p>Published in Dragon Magazine 387, page(s) 25. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"Fo13AuLHbGplzR9U",
+	"_key":"!items!Fo13AuLHbGplzR9U"
+}

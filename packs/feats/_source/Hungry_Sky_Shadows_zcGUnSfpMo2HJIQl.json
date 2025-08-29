@@ -1,0 +1,33 @@
+{
+	"name":"Hungry Sky Shadows",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Goliath, assassin, assassin's shroud power </p><p><b>Benefit: </b>When you both invoke your shrouds on an enemy and hit it, the enemy takes extra damage equal to your Strength modifier. </p><p>Published in Dragon Magazine 379, page(s) 26. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"zcGUnSfpMo2HJIQl",
+	"_key":"!items!zcGUnSfpMo2HJIQl"
+}

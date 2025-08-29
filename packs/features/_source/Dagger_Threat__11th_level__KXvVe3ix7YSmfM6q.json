@@ -1,0 +1,33 @@
+{
+	"name":"Dagger Threat (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You don't provoke opportunity attacks when you make ranged attacks with a light blade. </p><p>In addition, you gain Quick Draw as a bonus feat, even if you don't meet the prerequisites. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"KXvVe3ix7YSmfM6q",
+	"_key":"!items!KXvVe3ix7YSmfM6q"
+}

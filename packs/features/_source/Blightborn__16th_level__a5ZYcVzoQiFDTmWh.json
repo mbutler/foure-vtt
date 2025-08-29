@@ -1,0 +1,33 @@
+{
+	"name":"Blightborn (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>While in beast form, you ignore any resist necrotic your target has. When you hit with a beast form attack evocation, a creature that doesn't normally have resist necrotic damage gains vulnerable 5 necrotic until the end of your next turn. </p><p>Published in Dragon Magazine 373, page(s) 20. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"a5ZYcVzoQiFDTmWh",
+	"_key":"!items!a5ZYcVzoQiFDTmWh"
+}

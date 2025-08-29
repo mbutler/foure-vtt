@@ -1,0 +1,33 @@
+{
+	"name":"Druid of Darkness",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Drow, druid, wild shape power </p><p><b>Benefit: </b>While you are in beast form, you gain a +2 bonus to damage rolls against enemies granting combat advantage to you. </p><p>Published in Primal Power, page(s) 136. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"EqpG6O5Uu089aPhk",
+	"_key":"!items!EqpG6O5Uu089aPhk"
+}

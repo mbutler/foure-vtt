@@ -1,0 +1,33 @@
+{
+	"name":"Maw of the Hungry Killer",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Gnoll, assassin, assassin's shroud power </p><p><b>Benefit: </b>When you reduce a creature that has at least one of your shrouds on it to 0 hit points or fewer, you gain temporary hit points equal to 5 + the number of shrouds on the target. If you invoked your shrouds on the attack that reduced the creature to 0 hit points, you can also teleport to a space adjacent to your nearest ally within 10 squares. </p><p>Published in Dragon Magazine 382, page(s) 30. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"OAPjqCykY8hg7JZ1",
+	"_key":"!items!OAPjqCykY8hg7JZ1"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Geography - Wetlands Background",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Type: </b>Geography </p><p><b>Campaign Setting: </b>General </p><p>You were raised in a swamp, a river delta, or another marshy area. Which did you learn first-to walk or to swim? Do you distrust the feel of solid ground, or are you happy finally to have dry feet? </p><p><i>Associated Skills: </i>Athletics, Nature </p><p>Published in Player's Handbook 2, page(s) 178. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"background"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"FvHL4mGDR9ZKNfyX",
+	"_key":"!items!FvHL4mGDR9ZKNfyX"
+}

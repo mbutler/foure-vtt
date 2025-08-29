@@ -1,0 +1,33 @@
+{
+	"name":"Ancestral Retribution (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Whenever an enemy saves against an effect from one of your daily attack powers, that enemy takes ongoing 5 psychic damage (save ends). </p><p>Published in Dragon Magazine 385, page(s) 65. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"KsYwX8hpgrUu0Jxy",
+	"_key":"!items!KsYwX8hpgrUu0Jxy"
+}

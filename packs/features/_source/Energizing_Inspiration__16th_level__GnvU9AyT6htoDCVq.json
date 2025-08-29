@@ -1,0 +1,33 @@
+{
+	"name":"Energizing Inspiration (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Whenever you use inspiring word, choose acid, cold, fire, lightning, or thunder. The next attack the target of the inspiring word makes before the end of your next turn deals extra damage of the chosen type equal to your Intelligence modifier. </p><p>Published in Martial Power 2, page(s) 96. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"GnvU9AyT6htoDCVq",
+	"_key":"!items!GnvU9AyT6htoDCVq"
+}

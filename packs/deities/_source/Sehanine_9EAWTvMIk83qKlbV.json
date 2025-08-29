@@ -1,0 +1,33 @@
+{
+	"name":"Sehanine",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Type: </b>God </p><p><b>Alignment: </b>Unaligned </p><p><b>Gender: </b>Female </p><p><b>Domain: </b>Love, Moon, Trickery </p><p>God of the moon and autumn, Sehanine is the patron of trickery and illusions. She has close ties to Corellon and Melora and is a favorite deity among elves and halflings. She is also the god of love, who sends shadows to cloak lovers' trysts. Scouts and thieves ask for her blessing on their work. Her teachings are simple: </p><p>* Follow your goals and seek your own destiny. </p><p>* Keep to the shadows, avoiding the blazing light of zealous good and the utter darkness of evil. </p><p>* Seek new horizons and new experiences, and let nothing tie you down. </p><p>Published in Player's Handbook, page(s) 22, Heroes of the Fallen Lands, page(s) 53. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"other"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"9EAWTvMIk83qKlbV",
+	"_key":"!items!9EAWTvMIk83qKlbV"
+}

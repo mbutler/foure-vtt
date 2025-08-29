@@ -1,0 +1,33 @@
+{
+	"name":"Occupation - Mariner Background",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Type: </b>Occupation </p><p><b>Campaign Setting: </b>General </p><p>You worked aboard a ship. Was it a river boat or a sailing ship? Were you a deckhand, a pilot, a marine, or an officer? How extensively did you travel? Where did you go? Was your vessel a merchant craft, a pleasure yacht, a transport vessel, or a pirate ship? </p><p><i>Associated Skills: </i>Acrobatics, Perception </p><p>Published in Player's Handbook 2, page(s) 180. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"background"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"pyHsqGujo38WKwkT",
+	"_key":"!items!pyHsqGujo38WKwkT"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Indomitable Courage (21st level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You are immune to fear effects. In addition, you and any allies within 5 squares of you gain a +1 bonus to saving throws. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"destiny"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"1o5hRjClGpuTg20c",
+	"_key":"!items!1o5hRjClGpuTg20c"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Dazing Rebuke",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>11th level, cleric, Channel Divinity: turn undead class feature </p><p><b>Benefit: </b>Whenever you hit an undead creature with your turn undead class feature, you can choose to make the target dazed instead of immobilized. </p><p>Published in Dragon Magazine 371, page(s) 8. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"EoJ9yF0peM6aLkbv",
+	"_key":"!items!EoJ9yF0peM6aLkbv"
+}

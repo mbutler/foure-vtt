@@ -1,0 +1,33 @@
+{
+	"name":"Pact Lore",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You gain a Pact Lore feature associated with your pact.</p>\n<p>@UUID[Compendium.dnd-4e-compendium.module-features.kfy81MLEF9vAjxe6]{Fey Pact Lore}@UUID[Compendium.dnd-4e-compendium.module-features.XukbhstxdYz4wGP8]{Gloom Pact Lore}</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"W1kyo73tSbP5nmRe",
+	"_key":"!items!W1kyo73tSbP5nmRe"
+}

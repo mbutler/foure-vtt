@@ -1,0 +1,33 @@
+{
+	"name":"Chaosmade Starting Feature (1st level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Your origin changes to elemental if it is not elemental already. For the purpose of effects that relate to creature origin, you are considered an elemental.<br>In addition, you gain the seed of chaos power.<br></p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"theme"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"bQisIw1vSLnYZ7jz",
+	"_key":"!items!bQisIw1vSLnYZ7jz"
+}

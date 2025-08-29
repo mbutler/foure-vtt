@@ -1,0 +1,33 @@
+{
+	"name":"Strong Footing (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When any attack would knock you prone, you can make a saving throw. If you save, you don't fall prone. In addition, you ignore difficult terrain if it is the result of rubble, uneven stone, or an earthen construction. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"AzLMmPsXKb7iDHTg",
+	"_key":"!items!AzLMmPsXKb7iDHTg"
+}

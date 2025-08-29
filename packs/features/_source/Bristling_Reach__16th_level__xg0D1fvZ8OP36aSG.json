@@ -1,0 +1,33 @@
+{
+	"name":"Bristling Reach (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Whenever an enemy within your melee reach moves without shifting or makes a ranged attack, you can deal damage equal to your Intelligence modifier to that enemy as an opportunity action. </p><p>Published in Martial Power, page(s) 126. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"xg0D1fvZ8OP36aSG",
+	"_key":"!items!xg0D1fvZ8OP36aSG"
+}

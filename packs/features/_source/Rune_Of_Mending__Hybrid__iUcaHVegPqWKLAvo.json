@@ -1,0 +1,33 @@
+{
+	"name":"Rune Of Mending (Hybrid)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You gain the runepriest power rune of mending. The power functions as normal, except that you can use it only once per encounter.</p>\n<p>@UUID[Compendium.dnd-4e-compendium.module-powers.0oNtkad2uYEw4W7v]{Rune of Mending}</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"iUcaHVegPqWKLAvo",
+	"_key":"!items!iUcaHVegPqWKLAvo"
+}

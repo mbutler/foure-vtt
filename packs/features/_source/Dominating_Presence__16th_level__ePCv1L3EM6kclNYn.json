@@ -1,0 +1,33 @@
+{
+	"name":"Dominating Presence (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Whenever you score a critical hit, your allies gain a +2 bonus to attack rolls against the target until the end of your next turn. </p><p>Published in Player's Handbook 2, page(s) 63. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"ePCv1L3EM6kclNYn",
+	"_key":"!items!ePCv1L3EM6kclNYn"
+}

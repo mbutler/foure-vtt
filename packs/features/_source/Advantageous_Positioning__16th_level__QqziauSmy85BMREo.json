@@ -1,0 +1,33 @@
+{
+	"name":"Advantageous Positioning (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>While you are adjacent to a Medium or larger enemy, you gain a +2 bonus to AC against ranged attacks, and you don't grant combat advantage to creatures flanking you. </p><p>Published in Martial Power 2, page(s) 79. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"QqziauSmy85BMREo",
+	"_key":"!items!QqziauSmy85BMREo"
+}

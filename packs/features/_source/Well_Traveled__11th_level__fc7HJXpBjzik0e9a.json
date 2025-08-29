@@ -1,0 +1,33 @@
+{
+	"name":"Well Traveled (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Whenever you make a Bluff, Diplomacy or Streetwise check, you roll two dice and use either result. </p><p>In addition, choose two languages. You can now speak, read, and write those languages. At 21st level, you can choose two more languages. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"fc7HJXpBjzik0e9a",
+	"_key":"!items!fc7HJXpBjzik0e9a"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Burst of Savagery",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>21st level, shifter </p><p><b>Benefit: </b>While you are under the effect of your razorclaw shifting or longtooth shifting racial power, you can end that power's effects as a free action in order to deal 2d6 extra damage to one target you hit. When you do so, you also gain 10 temporary hit points. </p><p>Published in Player's Handbook 2, page(s) 194. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"ER4jyoUV3wT71qWL",
+	"_key":"!items!ER4jyoUV3wT71qWL"
+}

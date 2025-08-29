@@ -1,0 +1,33 @@
+{
+	"name":"Piercing Palm",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Monk, Rogue, Sneak Attack class feature, Unarmed Combatant class feature </p><p><b>Benefit: </b>You can deal your Sneak Attack damage with your monk unarmed strike. You can use your monk unarmed strike with melee or close rogue powers and rogue paragon path powers that require the use of a light blade. </p><p>Published in Dragon Magazine 404. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"Zs5DGujdIf103yiW",
+	"_key":"!items!Zs5DGujdIf103yiW"
+}

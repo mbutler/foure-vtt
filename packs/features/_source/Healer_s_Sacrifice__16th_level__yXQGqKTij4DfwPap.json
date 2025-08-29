@@ -1,0 +1,33 @@
+{
+	"name":"Healer's Sacrifice (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you grant an ally the opportunity to spend one or more healing surges and that ally has no more than one healing surge left, you can spend one or more healing surges but regain no hit points. Each healing surge you spend reduces the number that ally spends by one. The ally regains hit points as if he or she had spent the healing surges. </p><p>Published in Divine Power, page(s) 47. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"yXQGqKTij4DfwPap",
+	"_key":"!items!yXQGqKTij4DfwPap"
+}

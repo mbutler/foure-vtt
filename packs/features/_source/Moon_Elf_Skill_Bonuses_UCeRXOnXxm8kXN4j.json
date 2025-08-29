@@ -1,0 +1,29 @@
+{
+	"name":"Moon Elf Skill Bonuses",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Moon elves usually devote themselves to the study of magic and history. However, some find that their travels make understanding others and learning the lay of the social landscape more useful in their daily lives.<br>&nbsp;&nbsp;&nbsp;&nbsp;<em>Benefits:&nbsp;</em>You gain a +2 bonus to Insight checks and Streetwise checks. This benefit replaces the normal eladrin skill bonuses to Arcana and History.</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"featureType":"race"
+	},
+	"effects":[],
+	"flags":{},
+	"folder":null,
+	"sort":0,
+	"_id":"UCeRXOnXxm8kXN4j",
+	"_key":"!items!UCeRXOnXxm8kXN4j"
+}

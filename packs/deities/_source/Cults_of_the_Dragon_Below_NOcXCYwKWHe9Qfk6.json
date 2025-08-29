@@ -1,0 +1,33 @@
+{
+	"name":"Cults of the Dragon Below",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Type: </b>God </p><p><b>Alignment: </b>Chaotic Evil </p><p><b>Sphere: </b>Madness, destruction, aberrant creatures, darkness </p><p><b>Domain: </b>Darkness, Madness </p><p>Identified as Khyber Cults in the Eberron Player's Guide. </p><p>Published in Eberron Player's Guide, page(s) 127. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"other"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"NOcXCYwKWHe9Qfk6",
+	"_key":"!items!NOcXCYwKWHe9Qfk6"
+}

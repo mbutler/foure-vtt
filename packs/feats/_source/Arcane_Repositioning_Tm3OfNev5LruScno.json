@@ -1,0 +1,33 @@
+{
+	"name":"Arcane Repositioning",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Eladrin, artificer </p><p><b>Benefit: </b>On your turn, you can use a free action to expend your fey step racial power to teleport one of your conjurations or a creature that you summoned rather than yourself. If you do so, select one conjuration or summoned creature within 5 of squares of you and teleport it 5 squares. You cannot teleport a conjuration larger than 1 square or a summoned creature that is size Large or larger. </p><p>Published in Dragon Magazine 390. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"Tm3OfNev5LruScno",
+	"_key":"!items!Tm3OfNev5LruScno"
+}

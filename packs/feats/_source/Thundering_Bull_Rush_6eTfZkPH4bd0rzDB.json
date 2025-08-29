@@ -1,0 +1,33 @@
+{
+	"name":"Thundering Bull Rush",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>11th level, any primal class </p><p><b>Benefit: </b>When you bull rush, you can target two creatures adjacent to you. If you hit and push both targets, you choose which vacated space you shift into. </p><p>Published in Primal Power, page(s) 145. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"6eTfZkPH4bd0rzDB",
+	"_key":"!items!6eTfZkPH4bd0rzDB"
+}

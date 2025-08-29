@@ -1,0 +1,33 @@
+{
+	"name":"Level 15 Hexblade Daily Power",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You gain one of the following powers of your choice. This new power replaces the daily attack power you gained at 1st level.</p>\n<p>@UUID[Compendium.dnd-4e-compendium.module-powers.QcSAKvfYjWgRetTH]{Armor of Summer's Glory}@UUID[Compendium.dnd-4e-compendium.module-powers.TznhcCIOGHRqyik7]{Vortex of Fire}@UUID[Compendium.dnd-4e-compendium.module-powers.WBCrGq1dSK2QmUy9]{Whispers of the Void}</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"g7FG9Tvo4yzJt2LZ",
+	"_key":"!items!g7FG9Tvo4yzJt2LZ"
+}

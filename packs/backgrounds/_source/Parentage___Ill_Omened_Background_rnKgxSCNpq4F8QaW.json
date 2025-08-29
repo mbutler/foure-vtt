@@ -1,0 +1,33 @@
+{
+	"name":"Parentage - Ill-Omened Background",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Type: </b>Birth </p><p><b>Campaign Setting: </b>General </p><p>When you were born, the moon turned red or birds died mid-flight and fell from the sky. Do the omens still strike you? Have you learned to read them? </p><p><i>Associated Skills: </i>Arcana, Religion </p><p>Published in Dragon Magazine 383, page(s) 79. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"background"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"rnKgxSCNpq4F8QaW",
+	"_key":"!items!rnKgxSCNpq4F8QaW"
+}

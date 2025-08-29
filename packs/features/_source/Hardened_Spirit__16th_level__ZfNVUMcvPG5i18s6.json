@@ -1,0 +1,33 @@
+{
+	"name":"Hardened Spirit (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Whenever a creature makes an attack against your Fortitude or Will and misses, you gain temporary hit points equal to 1/2 your level + your Constitution modifier. </p><p>Published in Dragon Magazine 372, page(s) 13. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"ZfNVUMcvPG5i18s6",
+	"_key":"!items!ZfNVUMcvPG5i18s6"
+}

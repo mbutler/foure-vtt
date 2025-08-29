@@ -1,0 +1,33 @@
+{
+	"name":"Improved Steed (Celestial Battle Tiger)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Call celestial steed power </p><p><b>Benefit: </b>When you use your call celestial steed power, you can choose to summon a celestial battle tiger instead of a celestial warhorse. </p><p>Published in Dragon Magazine 393. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"evlNdHaAo4IZjOh7",
+	"_key":"!items!evlNdHaAo4IZjOh7"
+}

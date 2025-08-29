@@ -1,0 +1,33 @@
+{
+	"name":"Hunter of Wind and Wave",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Genasi, ranger </p><p><b>Benefit: </b>When you use your swiftcurrent or windwalker racial power, add 2 squares to the distance the power allows you to move. </p><p>Published in Martial Power, page(s) 136. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"yb3pSKNBshXdE6og",
+	"_key":"!items!yb3pSKNBshXdE6og"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Wings of the Swarm (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Whenever you use a primal encounter or daily attack power, you gain a fly speed of 6 until the end of your next turn. </p><p>Published in The Book of Vile Darkness, page(s) 1-27. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"jdklLZKUE7fenS13",
+	"_key":"!items!jdklLZKUE7fenS13"
+}

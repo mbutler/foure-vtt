@@ -1,0 +1,33 @@
+{
+	"name":"Expansive Aegis (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>The range on your aegis of assault power increases to Close burst 5. </p><p>Published in Dragon Magazine 386, page(s) 62. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"n9bYirltek0OosAd",
+	"_key":"!items!n9bYirltek0OosAd"
+}

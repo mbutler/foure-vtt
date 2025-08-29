@@ -1,0 +1,33 @@
+{
+	"name":"Waking Senses",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>11th level, monk </p><p><b>Benefit: </b>You never take a penalty to Perception checks when you are blinded, deafened, or sleeping. </p><p>Published in Psionic Power, page(s) 139. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"j27VW1pC5NK8yseS",
+	"_key":"!items!j27VW1pC5NK8yseS"
+}

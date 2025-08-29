@@ -1,0 +1,36 @@
+{
+	"name":"Beast",
+	"_id":"LdHuUlKVWzP6N53R",
+	"pages":[
+		{
+			"sort":100000,
+			"name":"Beast",
+			"type":"text",
+			"_id":"BnyCqsZiOKpxerJP",
+			"title":{
+				"show":false,
+				"level":1
+			},
+			"image":{},
+			"text":{
+				"format":1,
+				"content":"<h1>beast</h1><p>An effect type. A beast power can be used only in conjunction with a beast companion.</p><p>Published in Player's Handbook 2, page(s) 219, Martial Power, page(s) 42, Rules Compendium, page(s) 308.</p>"
+			},
+			"src":null,
+			"system":{},
+			"flags":{},
+			"video":{
+				"controls":true,
+				"volume":0.5
+			},
+			"ownership":{
+				"default":-1
+			},
+			"_key":"!journal.pages!LdHuUlKVWzP6N53R.BnyCqsZiOKpxerJP"
+		}
+	],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_key":"!journal!LdHuUlKVWzP6N53R"
+}

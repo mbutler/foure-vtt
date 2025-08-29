@@ -1,0 +1,33 @@
+{
+	"name":"Defensive Challenge",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Fighter, Combat Challenge class feature </p><p><b>Benefit: </b>When an adjacent enemy marked by you shifts or makes an attack that doesn't include you as a target while you are using a shield, you give an adjacent ally a +2 bonus to all defenses until the start of your next turn as an immediate interrupt. </p><p>Published in Dragon Magazine 378. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"6O0gu12i4LkzeUjd",
+	"_key":"!items!6O0gu12i4LkzeUjd"
+}

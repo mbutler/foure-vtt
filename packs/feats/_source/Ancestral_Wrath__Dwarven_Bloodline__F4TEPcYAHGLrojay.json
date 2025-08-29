@@ -1,0 +1,33 @@
+{
+	"name":"Ancestral Wrath [Dwarven Bloodline]",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Forgeborn Heritage </p><p><b>Benefit: </b>While you are bloodied, you gain a +1 bonus to speed. </p><p>Published in Dragon Magazine 383, page(s) 75. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"F4TEPcYAHGLrojay",
+	"_key":"!items!F4TEPcYAHGLrojay"
+}

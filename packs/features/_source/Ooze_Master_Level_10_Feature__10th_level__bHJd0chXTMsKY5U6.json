@@ -1,0 +1,33 @@
+{
+	"name":"Ooze Master Level 10 Feature (10th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You gain acid resistance equal to 5 + one-half your level. In addition, when you hit a creature with an acid attack, it grants combat advantage until the end of your next turn.</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"theme"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"bHJd0chXTMsKY5U6",
+	"_key":"!items!bHJd0chXTMsKY5U6"
+}

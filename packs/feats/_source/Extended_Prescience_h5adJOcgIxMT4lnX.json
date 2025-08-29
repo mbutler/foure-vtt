@@ -1,0 +1,33 @@
+{
+	"name":"Extended Prescience",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Bard, Virtue of Prescience class feature </p><p><b>Benefit: </b>When you use your Virtue of Prescience to grant a power bonus to an ally's defense, that bonus lasts until the end of the ally's next turn. </p><p>Published in Arcane Power, page(s) 126. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"h5adJOcgIxMT4lnX",
+	"_key":"!items!h5adJOcgIxMT4lnX"
+}

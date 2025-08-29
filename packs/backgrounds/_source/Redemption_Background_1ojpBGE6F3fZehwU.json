@@ -1,0 +1,33 @@
+{
+	"name":"Redemption Background",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Type: </b>Occupation </p><p><b>Campaign Setting: </b>General </p><p><b>Prerequisite: </b>Follower of Bahamut </p><p>You spent your life as a slave to darkness. What sort of wicked deeds did you perform? What was the moment of revelation, the event that opened your eyes to your own darkness? What penance have you paid? What penance must you still pay? </p><p><i>Associated Skills: </i>Arcana, Bluff </p><p>Published in Dragon Magazine 378. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"background"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"1ojpBGE6F3fZehwU",
+	"_key":"!items!1ojpBGE6F3fZehwU"
+}

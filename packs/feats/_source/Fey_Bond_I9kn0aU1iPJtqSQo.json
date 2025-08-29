@@ -1,0 +1,33 @@
+{
+	"name":"Fey Bond",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Training in Arcana </p><p><b>Benefit: </b>You gain a +2 feat bonus to Bluff checks and Diplomacy checks. </p><p>In addition, you can speak, read, and write Elven. </p><p>Published in Heroes of the Feywild, page(s) 128. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"I9kn0aU1iPJtqSQo",
+	"_key":"!items!I9kn0aU1iPJtqSQo"
+}

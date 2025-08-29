@@ -1,0 +1,33 @@
+{
+	"name":"New Sarshel Enforcer",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Impiltur regional benefit </p><p><b>Benefit: </b>When you roll an Intimidate check, roll twice and use either result. </p><p>You also gain a +2 feat bonus to initiative checks. </p><p>Published in Dragon Magazine 370, page(s) 37. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"n1rfqxzJ07QeMFoi",
+	"_key":"!items!n1rfqxzJ07QeMFoi"
+}

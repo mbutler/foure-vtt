@@ -1,0 +1,33 @@
+{
+	"name":"Changeling's Mark",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Changeling, fighter </p><p><b>Benefit: </b>You can expend your changeling trick racial power to mark each enemy adjacent to you until the end of your next turn. This effect replaces the power's normal effect. </p><p>Published in Martial Power 2, page(s) 132. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"jnTAHEJZyBs0YP3p",
+	"_key":"!items!jnTAHEJZyBs0YP3p"
+}

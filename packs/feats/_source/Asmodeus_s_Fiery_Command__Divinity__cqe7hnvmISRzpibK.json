@@ -1,0 +1,33 @@
+{
+	"name":"Asmodeus's Fiery Command [Divinity]",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Channel Divinity class feature, must worship Asmodeus </p><p><b>Benefit: </b>You gain the power Asmodeus's fiery command. </p><p>Published in The Book of Vile Darkness, page(s) 1-30. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"cqe7hnvmISRzpibK",
+	"_key":"!items!cqe7hnvmISRzpibK"
+}

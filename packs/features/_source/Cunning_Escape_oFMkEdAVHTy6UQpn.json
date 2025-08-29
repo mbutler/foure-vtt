@@ -1,0 +1,33 @@
+{
+	"name":"Cunning Escape",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You gain the cunning escape power.</p>\n<p>@UUID[Compendium.dnd-4e-compendium.module-powers.HIOZCPhY9wW6j72J]{Cunning Escape}</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"oFMkEdAVHTy6UQpn",
+	"_key":"!items!oFMkEdAVHTy6UQpn"
+}

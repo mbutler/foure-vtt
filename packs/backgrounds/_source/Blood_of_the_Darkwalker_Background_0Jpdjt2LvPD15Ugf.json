@@ -1,0 +1,33 @@
+{
+	"name":"Blood of the Darkwalker Background",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Type: </b>Racial </p><p><b>Campaign Setting: </b>Forgotten Realms </p><p><b>Prerequisite: </b>Shifter </p><p>Descended from the seed of Malar the Beastlord and the beast Kazgoroth you carry within you the feral bloodline of the Darkwalker. Suspecting yet uncertain of your vile lineage you remain aloof from society, segregating yourself even from others of your own kind. Yet despite your inner turmoil, you are a fierce warrior with a good heart, desperate to bury your dark ancestry. </p><p>Published in Dragon Magazine 376, page(s) 62. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"background"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"0Jpdjt2LvPD15Ugf",
+	"_key":"!items!0Jpdjt2LvPD15Ugf"
+}

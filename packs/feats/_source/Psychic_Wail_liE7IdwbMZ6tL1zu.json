@@ -1,0 +1,33 @@
+{
+	"name":"Psychic Wail",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>11th level, any psionic class </p><p><b>Benefit: </b>When you reduce an enemy to 0 hit points with a psychic attack, one enemy you can see within 5 squares of the first enemy grants combat advantage to you until the end of your next turn. </p><p>Published in Psionic Power, page(s) 138. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"liE7IdwbMZ6tL1zu",
+	"_key":"!items!liE7IdwbMZ6tL1zu"
+}

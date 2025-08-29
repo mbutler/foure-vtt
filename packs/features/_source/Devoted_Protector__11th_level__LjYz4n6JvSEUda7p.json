@@ -1,0 +1,33 @@
+{
+	"name":"Devoted Protector (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When an enemy marked by you attacks an ally adjacent to you, you can slide the ally 1 square as an immediate interrupt. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"LjYz4n6JvSEUda7p",
+	"_key":"!items!LjYz4n6JvSEUda7p"
+}

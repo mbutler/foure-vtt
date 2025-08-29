@@ -1,0 +1,33 @@
+{
+	"name":"Natural Vitality (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Creatures you summon with your druid powers gain regeneration equal to your Wisdom modifier while they are bloodied. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"TPSWzh2Y6NoHyrbU",
+	"_key":"!items!TPSWzh2Y6NoHyrbU"
+}

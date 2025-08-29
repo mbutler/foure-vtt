@@ -1,0 +1,33 @@
+{
+	"name":"Mindlink",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Psion, send thoughts power </p><p><b>Benefit: </b>When you use your send thoughts, your psion attacks against the target ignore concealment and cover until the end of the encounter, or until you or the target drops to 0 hit points or fewer. </p><p>Published in Psionic Power, page(s) 132. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"gOHjTSq70yMwU2n9",
+	"_key":"!items!gOHjTSq70yMwU2n9"
+}

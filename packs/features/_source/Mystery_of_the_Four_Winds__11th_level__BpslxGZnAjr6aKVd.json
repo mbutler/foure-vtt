@@ -1,0 +1,33 @@
+{
+	"name":"Mystery of the Four Winds (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>After each extended rest, choose one of the following mysteries. The benefit of that mystery lasts until you choose another mystery. </p><p>Mystery of the East Wind: You gain lightning resistance equal to one-half your level. In addition, whenever you shift, you can move 2 squares before or after the shift. </p><p>Mystery of the North Wind: You gain cold resistance equal to one-half your level and a +5 bonus to saving throws against charm effects and fear effects. </p><p>Mystery of the South Wind: You gain force resistance equal to one-half your level and a +4 bonus to initiative checks. </p><p>Mystery of the West Wind: You gain thunder resistance equal to one-half your level. In addition, whenever you spend a healing surge, you can shift 2 squares as a free action. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"BpslxGZnAjr6aKVd",
+	"_key":"!items!BpslxGZnAjr6aKVd"
+}

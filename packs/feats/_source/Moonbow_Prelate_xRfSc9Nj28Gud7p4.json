@@ -1,0 +1,33 @@
+{
+	"name":"Moonbow Prelate",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>11th level, must worship Sehanine </p><p><b>Benefit: </b>When you use a shortbow as an implement for a ranged or area divine attack power or ranged or area arcane attack power, you can extend the power's range by 5 squares. </p><p>Published in Dragon Magazine 386, page(s) 70. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"xRfSc9Nj28Gud7p4",
+	"_key":"!items!xRfSc9Nj28Gud7p4"
+}

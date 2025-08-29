@@ -1,0 +1,33 @@
+{
+	"name":"Greater Combat Readiness",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>The bonus to initiative provided by your Combat Readiness class feature increases to +4.</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"1dRiu3ZbUhCkG4zl",
+	"_key":"!items!1dRiu3ZbUhCkG4zl"
+}

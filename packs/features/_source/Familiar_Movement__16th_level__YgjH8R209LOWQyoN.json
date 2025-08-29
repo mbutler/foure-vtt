@@ -1,0 +1,33 @@
+{
+	"name":"Familiar Movement (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When your familiar is in active mode, it does not provoke opportunity attacks when moving. </p><p>Published in Dragon Magazine 374, page(s) 31. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"YgjH8R209LOWQyoN",
+	"_key":"!items!YgjH8R209LOWQyoN"
+}

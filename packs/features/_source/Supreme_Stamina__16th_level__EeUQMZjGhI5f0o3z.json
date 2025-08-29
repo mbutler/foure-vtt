@@ -1,0 +1,33 @@
+{
+	"name":"Supreme Stamina (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Whenever your attack drops a nonminion enemy to 0 hit points, you gain temporary hit points equal to 5 + one-half your level. </p><p>Published in Heroes of the Feywild, page(s) 116. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"EeUQMZjGhI5f0o3z",
+	"_key":"!items!EeUQMZjGhI5f0o3z"
+}

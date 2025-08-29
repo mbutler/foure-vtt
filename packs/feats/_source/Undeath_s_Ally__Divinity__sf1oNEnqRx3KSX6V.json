@@ -1,0 +1,33 @@
+{
+	"name":"Undeath's Ally [Divinity]",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Channel Divinity class feature, must worship a deity of the undeath domain </p><p><b>Benefit: </b>You gain the Channel Divinity power undeath's ally. </p><p>Published in Divine Power, page(s) 121. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"sf1oNEnqRx3KSX6V",
+	"_key":"!items!sf1oNEnqRx3KSX6V"
+}

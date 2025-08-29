@@ -1,0 +1,33 @@
+{
+	"name":"Unfailing Fortune (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you use your divine fortune power, you gain a +3 bonus instead of a +1 bonus. If you apply this bonus to an attack and miss, you gain another use of divine fortune for this encounter. </p><p>Published in Divine Power, page(s) 52. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"QWHjCLPiUbhdvJx2",
+	"_key":"!items!QWHjCLPiUbhdvJx2"
+}

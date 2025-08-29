@@ -1,0 +1,33 @@
+{
+	"name":"Rune of Battle [Rune]",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>21st level, runepriest </p><p><b>Benefit: </b>Whenever you score a critical hit with a runepriest power, one ally adjacent to the target can make a melee basic attack against that target as a free action. The ally gains a bonus to the attack roll and the damage roll equal to the number of rune feats you have. </p><p>Published in Player's Handbook 3, page(s) 192. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"Kw10PCTjWto7n3uh",
+	"_key":"!items!Kw10PCTjWto7n3uh"
+}

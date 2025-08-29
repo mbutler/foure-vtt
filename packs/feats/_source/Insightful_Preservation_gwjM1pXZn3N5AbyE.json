@@ -1,0 +1,33 @@
+{
+	"name":"Insightful Preservation",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Invoker, Covenant of Preservation class feature </p><p><b>Benefit: </b>When you use your preserver's rebuke power, one ally hit by the triggering attack gains temporary hit points equal to 3 + your Intelligence modifier. </p><p>Published in Player's Handbook 2, page(s) 186. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"gwjM1pXZn3N5AbyE",
+	"_key":"!items!gwjM1pXZn3N5AbyE"
+}

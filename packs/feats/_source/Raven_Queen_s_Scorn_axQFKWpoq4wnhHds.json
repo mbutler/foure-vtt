@@ -1,0 +1,33 @@
+{
+	"name":"Raven Queen's Scorn",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>11th level, avenger, oath of enmity power, must worship the Raven Queen </p><p><b>Benefit: </b>When you use oath of enmity against an undead enemy, you teleport to any space adjacent to the target as a free action. </p><p>Published in Dragon Magazine 380, page(s) 65. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"axQFKWpoq4wnhHds",
+	"_key":"!items!axQFKWpoq4wnhHds"
+}

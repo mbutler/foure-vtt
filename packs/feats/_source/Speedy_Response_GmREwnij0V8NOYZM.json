@@ -1,0 +1,33 @@
+{
+	"name":"Speedy Response",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Dex 15, rogue </p><p><b>Benefit: </b>If you are hit by an opportunity attack while moving, you gain a +1 bonus to speed for that move. This benefit is cumulative if you are hit multiple times. </p><p>Published in Martial Power, page(s) 139. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"GmREwnij0V8NOYZM",
+	"_key":"!items!GmREwnij0V8NOYZM"
+}

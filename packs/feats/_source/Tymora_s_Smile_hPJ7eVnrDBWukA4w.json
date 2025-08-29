@@ -1,0 +1,33 @@
+{
+	"name":"Tymora's Smile",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Benefit: </b>When you roll a natural 20 on an attack roll, skill check, or saving throw, you and one ally within 5 squares of you can make a saving throw. </p><p>Published in Dragon Magazine 388. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"hPJ7eVnrDBWukA4w",
+	"_key":"!items!hPJ7eVnrDBWukA4w"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Wrist Biter",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Goblin race, goblin tactics racial power </p><p><b>Benefit: </b>When you use goblin tactics in response to an adjacent enemy's attack, the enemy takes 1d4 damage right before you shift. This damage increases to 2d4 at 11th level and 3d4 at 21st level. </p><p>Published in Into the Unknown: The Dungeon Survival Handbook, page(s) 38. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"PIU24wVSXsxFzY7Q",
+	"_key":"!items!PIU24wVSXsxFzY7Q"
+}

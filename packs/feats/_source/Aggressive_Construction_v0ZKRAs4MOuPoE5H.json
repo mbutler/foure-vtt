@@ -1,0 +1,33 @@
+{
+	"name":"Aggressive Construction",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>21st level, psion </p><p><b>Benefit: </b>When you use a psionic power to summon a creature, each enemy adjacent to the creature when it appears takes psychic damage equal to your Intelligence modifier. </p><p>Published in Psionic Power, page(s) 139. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"v0ZKRAs4MOuPoE5H",
+	"_key":"!items!v0ZKRAs4MOuPoE5H"
+}

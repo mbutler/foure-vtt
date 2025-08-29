@@ -1,0 +1,33 @@
+{
+	"name":"Circle of Renewal",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You gain the following features. </p><p>Primal Guardian: While you are not wearing heavy armor, you can use your Constitution modifier in place of your Dexterity or Intelligence modifier to determine your AC. </p><p>Healing Growth: When any ally in your nature's growth zone or adjacent to it spends a healing surge to regain hit points, he or she regains additional hit points equal to your Constitution modifier. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"thmTkfnOj7W1PgXB",
+	"_key":"!items!thmTkfnOj7W1PgXB"
+}

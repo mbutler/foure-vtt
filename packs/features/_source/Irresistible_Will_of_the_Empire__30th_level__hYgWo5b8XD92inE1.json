@@ -1,0 +1,33 @@
+{
+	"name":"Irresistible Will of the Empire (30th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>The first creature that hits you with a melee attack in each encounter is dominated until the end of its next turn. </p><p>Published in Player's Handbook Races: Tiefling, page(s) 32. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"destiny"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"hYgWo5b8XD92inE1",
+	"_key":"!items!hYgWo5b8XD92inE1"
+}

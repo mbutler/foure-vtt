@@ -1,0 +1,33 @@
+{
+	"name":"Binding Initiate [Multiclass Warlock]",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Benefit: </b>You gain training in one skill from the binder warlock's class skills list. You also gain proficiency with rods and wands. </p><p>Choose a binder pact boon. You gain the at-will attack power and the utility power it grants at 1st level as encounter powers. </p><p>Published in Dragon Magazine 400. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"HRQwp6IlxqnDBdrz",
+	"_key":"!items!HRQwp6IlxqnDBdrz"
+}

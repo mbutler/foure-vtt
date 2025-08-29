@@ -1,0 +1,33 @@
+{
+	"name":"Deadly Rebuke",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Invoker, Covenant of Preservation class feature </p><p><b>Benefit: </b>When you use your preserver's rebuke power, add your Intelligence modifier to the damage roll of the attack that gains the bonus from the power. </p><p>Published in Divine Power, page(s) 131. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"hbUezrdwfuVkAaEW",
+	"_key":"!items!hbUezrdwfuVkAaEW"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Bloodied Boon",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Warlock, Eldritch Pact class feature, Warlock's Curse class feature </p><p><b>Benefit: </b>You can choose to gain your pact boon when an enemy you curse is first bloodied. If you do so, you remove your curse from that enemy. </p><p>Published in Dragon Magazine 384, page(s) 30. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"rte1g6vmWTxu2Db5",
+	"_key":"!items!rte1g6vmWTxu2Db5"
+}

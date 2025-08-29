@@ -1,0 +1,33 @@
+{
+	"name":"Firedancer",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Born of the Elements feat </p><p><b>Benefit: </b>You gain resist 5 fire. This resistance increases to 10 at 11th level and 15 at 21st level. If you already have fire resistance, it instead increases by 5. </p><p>In addition, when you use your second wind, your melee and ranged attacks deal 1d6 extra fire damage until the end of your next turn. </p><p>Published in Heroes of the Elemental Chaos, page(s) 144. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"k6IPYXC40bWcVLin",
+	"_key":"!items!k6IPYXC40bWcVLin"
+}

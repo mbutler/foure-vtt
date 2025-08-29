@@ -1,0 +1,33 @@
+{
+	"name":"Fiery Nimbus (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you score a critical hit using a psionic attack power, each enemy within 2 squares of you takes fire damage equal to your Wisdom modifier, and you acquire a fiery nimbus until the end of the encounter. While the nimbus lasts, you gain the fiery lash power, and any creature that starts its turn adjacent to you takes fire damage equal to your Wisdom modifier. </p><p>Published in Psionic Power, page(s) 102. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"21zA8xHjnub5SZfo",
+	"_key":"!items!21zA8xHjnub5SZfo"
+}

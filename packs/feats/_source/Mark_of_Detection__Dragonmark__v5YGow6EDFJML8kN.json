@@ -1,0 +1,33 @@
+{
+	"name":"Mark of Detection [Dragonmark]",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Benefit: </b>When you make a Perception check, you make two rolls and use the higher result. You can also sense the presence of magic as if you were trained in Arcana. You can use Perception instead of Arcana for the check. You can master and perform rituals in the divination category as if you had the Ritual Caster feat. In addition, you can master and perform the Banish Illusions, Eavesdropper's Foil, and Scry Trap rituals as if you had the Ritual Caster feat. </p><p>Published in Eberron Player's Guide, page(s) 90. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"v5YGow6EDFJML8kN",
+	"_key":"!items!v5YGow6EDFJML8kN"
+}

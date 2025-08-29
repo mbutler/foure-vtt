@@ -1,0 +1,33 @@
+{
+	"name":"Dragon Magic",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>The elemental power of dragons flows through you, infusing your spells with draconic strength. Through force of will, you tap into the arcane might of dragons. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"Q6g4auAMcPYG0rbX",
+	"_key":"!items!Q6g4auAMcPYG0rbX"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Improved Dragon Soul",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Sorcerer, Dragon Magic class feature </p><p><b>Benefit: </b>The resistance granted by your Dragon Soul increases by 2. The increase changes to 5 at 11th level and 10 at 21st level. </p><p>Published in Player's Handbook 2, page(s) 185. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"6aSOtpWTcDiz8yPe",
+	"_key":"!items!6aSOtpWTcDiz8yPe"
+}

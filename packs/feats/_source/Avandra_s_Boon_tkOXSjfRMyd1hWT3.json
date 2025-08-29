@@ -1,0 +1,33 @@
+{
+	"name":"Avandra's Boon",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Any divine class, must worship Avandra </p><p><b>Benefit: </b>Whenever you roll a natural 1 on an attack roll or saving throw, you gain a +2 bonus to your next attack roll or saving throw made before the end of your next turn. </p><p>Published in Dragon Magazine 384, page(s) 70. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"tkOXSjfRMyd1hWT3",
+	"_key":"!items!tkOXSjfRMyd1hWT3"
+}

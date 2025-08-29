@@ -1,0 +1,33 @@
+{
+	"name":"Fragment of the Way (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You remove an aspect of your psyche and bind it to your weapon. Whenever you take a short rest, you can choose to expend 1 power point at the end of that short rest. If you do so, until you rest again the next weapon attack you make that hits deals 1[W] extra damage to one target hit by the attack. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"nk5mE2udf9gGCsl6",
+	"_key":"!items!nk5mE2udf9gGCsl6"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Time-Lapse (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you spend an action point to make an attack with a psionic power, you gain a +1 bonus to the attack roll and can teleport 6 squares as a free action after the attack. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"6NBlEsTkSVivcAoL",
+	"_key":"!items!6NBlEsTkSVivcAoL"
+}

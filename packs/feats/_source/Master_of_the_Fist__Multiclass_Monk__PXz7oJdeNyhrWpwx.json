@@ -1,0 +1,33 @@
+{
+	"name":"Master of the Fist [Multiclass Monk]",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Strength 13 or Dexterity 13 </p><p><b>Benefit: </b>You gain training in Athletics or Acrobatics. You also gain the monk's Unarmed Combatant feature and gain proficiency with ki focuses. </p><p>Published in Dragon Magazine 404. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"PXz7oJdeNyhrWpwx",
+	"_key":"!items!PXz7oJdeNyhrWpwx"
+}

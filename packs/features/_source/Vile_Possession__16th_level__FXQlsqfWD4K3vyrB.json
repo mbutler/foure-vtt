@@ -1,0 +1,33 @@
+{
+	"name":"Vile Possession (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>While you are bloodied, you gain a +2 bonus to melee damage rolls, and your allies provoke opportunity attacks from you. When anyone provokes an opportunity attack from you while you are bloodied, you take 5 damage if you do not make the attack. This damage cannot be prevented in any way. </p><p>Published in Heroes of the Elemental Chaos, page(s) 122. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"FXQlsqfWD4K3vyrB",
+	"_key":"!items!FXQlsqfWD4K3vyrB"
+}

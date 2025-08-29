@@ -1,0 +1,33 @@
+{
+	"name":"Fight For Your Freedom (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you spend an action point to take an extra action, all allies within 10 squares of you that are marked or grabbed by enemies can make a basic attack as a free action. If an ally's basic attack hits a target that is marking or grabbing that ally, the mark or grab ends. If no ally within range is marked or grabbed, you can instead choose one ally within 5 squares of you to make a basic attack as a free action. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"uIT5O49Y802E3rQj",
+	"_key":"!items!uIT5O49Y802E3rQj"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Withering Roar",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>11th level, barbarian, Thaneborn Triumph class feature </p><p><b>Benefit: </b>When you use your roar of triumph power, you choose for each target either to grant combat advantage until the end of your next turn or to take the -2 penalty to all defenses. </p><p>Published in Primal Power, page(s) 146. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"AGH0VFDlSjsYE4dR",
+	"_key":"!items!AGH0VFDlSjsYE4dR"
+}

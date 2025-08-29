@@ -1,0 +1,33 @@
+{
+	"name":"Supreme Majesty",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>21st level, Cha 19, bard, majestic word power </p><p><b>Benefit: </b>When you use majestic word, you can affect two targets instead of one. </p><p>Published in Arcane Power, page(s) 135. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"0QfyoX7ceqCjsVnh",
+	"_key":"!items!0QfyoX7ceqCjsVnh"
+}

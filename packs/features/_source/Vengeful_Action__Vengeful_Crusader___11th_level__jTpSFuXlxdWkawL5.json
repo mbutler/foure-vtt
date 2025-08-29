@@ -1,0 +1,33 @@
+{
+	"name":"Vengeful Action (Vengeful Crusader) (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When an enemy you have combat advantage against hits an ally you can see, you can spend an action point as an immediate interrupt to make a basic attack against that enemy. If the attack hits, you deal an extra 2d6 damage. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"jTpSFuXlxdWkawL5",
+	"_key":"!items!jTpSFuXlxdWkawL5"
+}

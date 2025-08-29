@@ -1,0 +1,33 @@
+{
+	"name":"Blindfighting Sentinel",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Benefit: </b>You do not grant combat advantage to enemies invisible to you. While you are blinded, you do not take the normal -10 penalty to Perception checks. </p><p>Also, you gain a +2 feat bonus to Perception checks. </p><p>Published in Heroes of the Forgotten Kingdoms, page(s) 310. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"OHx5Te3PXyoNWsnI",
+	"_key":"!items!OHx5Te3PXyoNWsnI"
+}

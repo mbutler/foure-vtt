@@ -1,0 +1,33 @@
+{
+	"name":"Forgeborn Heritage [Dwarven Bloodline]",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Dwarf </p><p><b>Benefit: </b>You gain the elemental legacy power. You also gain resist 2 to acid, cold, fire, and lightning damage. This resistance increases to 3 at 11th level and 5 at 21st level. </p><p>Published in Dragon Magazine 383, page(s) 75. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"lJervaV5IG6W4NZm",
+	"_key":"!items!lJervaV5IG6W4NZm"
+}

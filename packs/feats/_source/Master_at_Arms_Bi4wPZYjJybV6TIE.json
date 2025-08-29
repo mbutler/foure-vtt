@@ -1,0 +1,33 @@
+{
+	"name":"Master at Arms",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Benefit: </b>You gain a +1 feat bonus to the attack rolls of weapon attacks. The bonus increases to +2 at 11th level and +3 at 21st level. </p><p>Also, you can use a minor action to sheathe a weapon and then draw a weapon. </p><p>Published in Heroes of the Fallen Lands, page(s) 316, Heroes of the Forgotten Kingdoms, page(s) 317. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"Bi4wPZYjJybV6TIE",
+	"_key":"!items!Bi4wPZYjJybV6TIE"
+}

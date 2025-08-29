@@ -1,0 +1,33 @@
+{
+	"name":"Death's Eye (21st level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Whenever you reduce an enemy to 0 hit points, choose another enemy you can see. Until the end of your next turn, you gain combat advantage against the second enemy, and it takes a -2 penalty to attack rolls against you. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"destiny"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"LSqozpevMaYWKRPj",
+	"_key":"!items!LSqozpevMaYWKRPj"
+}

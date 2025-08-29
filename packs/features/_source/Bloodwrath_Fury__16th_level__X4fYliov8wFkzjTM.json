@@ -1,0 +1,33 @@
+{
+	"name":"Bloodwrath Fury (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you hit an enemy with a melee attack and the enemy is marked by you, you gain a +2 bonus to the damage roll. </p><p>Published in Player's Handbook 2, page(s) 166. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"X4fYliov8wFkzjTM",
+	"_key":"!items!X4fYliov8wFkzjTM"
+}

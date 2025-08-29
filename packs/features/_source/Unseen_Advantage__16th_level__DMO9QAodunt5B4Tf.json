@@ -1,0 +1,33 @@
+{
+	"name":"Unseen Advantage (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Whenever you use an arcane attack power and hit a target that cannot see you, you deal 1d6 extra damage to the target. </p><p>Published in Arcane Power, page(s) 120. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"DMO9QAodunt5B4Tf",
+	"_key":"!items!DMO9QAodunt5B4Tf"
+}

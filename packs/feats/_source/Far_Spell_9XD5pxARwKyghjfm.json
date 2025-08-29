@@ -1,0 +1,33 @@
+{
+	"name":"Far Spell",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Wizard </p><p><b>Benefit: </b>If a wizard power has a range of 10 squares or fewer, increase the power's normal range by 2 squares. If a wizard power has a range of 11-20 squares, increase the power's normal range by 5 squares. This also applies to area powers, so an area burst 1 within 10 becomes an area burst 1 within 12. </p><p>Published in Dragon Magazine 380, page(s) 42. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"9XD5pxARwKyghjfm",
+	"_key":"!items!9XD5pxARwKyghjfm"
+}

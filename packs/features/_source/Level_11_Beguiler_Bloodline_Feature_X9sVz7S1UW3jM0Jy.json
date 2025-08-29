@@ -1,0 +1,33 @@
+{
+	"name":"Level 11 Beguiler Bloodline Feature",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You gain a +2 bonus to Bluff checks. This bonus increases to +5 when you are trying to pass as a specific individual of your race. In addition, you can make a Bluff check to feint and gain combat advantage as a minor action. You also gain a +3 bonus to damage rolls against any creature granting combat advantage to you. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"X9sVz7S1UW3jM0Jy",
+	"_key":"!items!X9sVz7S1UW3jM0Jy"
+}

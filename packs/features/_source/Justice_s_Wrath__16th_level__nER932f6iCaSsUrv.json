@@ -1,0 +1,33 @@
+{
+	"name":"Justice's Wrath (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>The first enemy that damages you in an encounter is subject to your wrath. Until the end of the encounter, you can reroll any damage die that comes up as a 1 when you make a damage roll that includes that enemy as a target. </p><p>Published in Divine Power, page(s) 71. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"nER932f6iCaSsUrv",
+	"_key":"!items!nER932f6iCaSsUrv"
+}

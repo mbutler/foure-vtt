@@ -1,0 +1,33 @@
+{
+	"name":"Borrow from the Future (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You can take an extra move action during your turn, but if you do so, you lose your move action on your next turn. You can't use this feature on consecutive rounds. </p><p>Published in Player's Handbook 3, page(s) 96. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"59muMI4aH8BO2oxP",
+	"_key":"!items!59muMI4aH8BO2oxP"
+}

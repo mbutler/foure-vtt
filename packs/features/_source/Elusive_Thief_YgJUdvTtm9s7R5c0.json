@@ -1,0 +1,33 @@
+{
+	"name":"Elusive Thief",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Whenever you make an Acrobatics check or an Athletics check as part of the escape action or make a saving throw against an effect that immobilizes, restrains, or slows you, you can roll twice and use either result.</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"YgJUdvTtm9s7R5c0",
+	"_key":"!items!YgJUdvTtm9s7R5c0"
+}

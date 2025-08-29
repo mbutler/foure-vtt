@@ -1,0 +1,33 @@
+{
+	"name":"Whip Expert [Multiclass]",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Whip Training, 8th level </p><p><b>Benefit: </b>You can swap one 6th-level or higher utility power you know for the whip crack utility power. </p><p>Published in Dragon Magazine 368, page(s) 67. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"OG38W95xlTKI01tS",
+	"_key":"!items!OG38W95xlTKI01tS"
+}

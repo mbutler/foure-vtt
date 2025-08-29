@@ -1,0 +1,33 @@
+{
+	"name":"Sustain Life Spark (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>If you have more life sparks at the end of an encounter than you do healing surges, you regain hit points as if you had spent a healing surge </p><p>Published in Player's Handbook, page(s) 141, Class Compendium. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"aklhYzeytdj0mZn6",
+	"_key":"!items!aklhYzeytdj0mZn6"
+}

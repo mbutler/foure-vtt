@@ -1,0 +1,33 @@
+{
+	"name":"Future Foreseen (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>The first time you fail a skill check, an ability check, or a saving throw during an encounter, you can reroll the check or the saving throw. You must use the second result. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"4f8lpC2MaBU3oIXF",
+	"_key":"!items!4f8lpC2MaBU3oIXF"
+}

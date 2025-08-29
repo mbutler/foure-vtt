@@ -1,0 +1,33 @@
+{
+	"name":"Natural Cunning",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Minotaur </p><p><b>Benefit: </b>You gain a +3 feat bonus to Perception checks and to checks made to avoid becoming lost, such as Intelligence checks made against a maze spell. </p><p>Published in Dragon Magazine 369, page(s) 9. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"fJlh3qswMNd62DtW",
+	"_key":"!items!fJlh3qswMNd62DtW"
+}

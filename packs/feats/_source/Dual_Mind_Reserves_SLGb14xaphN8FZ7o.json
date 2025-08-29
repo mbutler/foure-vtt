@@ -1,0 +1,33 @@
+{
+	"name":"Dual Mind Reserves",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>11th level, kalashtar, any psionic class, Psionic Augmentation class feature </p><p><b>Benefit: </b>When you use your second wind, you also regain 1 power point. </p><p>Published in Dragon Magazine 385, page(s) 16. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"SLGb14xaphN8FZ7o",
+	"_key":"!items!SLGb14xaphN8FZ7o"
+}

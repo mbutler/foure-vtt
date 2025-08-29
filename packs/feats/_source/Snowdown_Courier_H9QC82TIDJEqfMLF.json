@@ -1,0 +1,33 @@
+{
+	"name":"Snowdown Courier",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Moonshae Isles regional benefit </p><p><b>Benefit: </b>When you take the run action, gain a +2 feat bonus to AC and Reflex against opportunity attacks. </p><p>You also gain a +2 feat bonus to Streetwise checks. </p><p>Published in Dragon Magazine 370, page(s) 38. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"H9QC82TIDJEqfMLF",
+	"_key":"!items!H9QC82TIDJEqfMLF"
+}

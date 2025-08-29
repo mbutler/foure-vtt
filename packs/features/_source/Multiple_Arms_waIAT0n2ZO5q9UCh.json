@@ -1,0 +1,33 @@
+{
+	"name":"Multiple Arms",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Once per turn, you can draw or sheathe a weapon (or retrieve or stow an item stored on your person) as a free action instead of a minor action.</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"race"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"waIAT0n2ZO5q9UCh",
+	"_key":"!items!waIAT0n2ZO5q9UCh"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Hero's Blood (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Whenever an ally within 5 squares of you bloodies an enemy with an attack, you can grant a different ally within 5 squares a +2 power bonus to attack rolls and damage rolls on its next attack in this encounter. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"1RzpJPuxovFte3WV",
+	"_key":"!items!1RzpJPuxovFte3WV"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Ironstar Expertise (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Whenever you hit an enemy with a mace or a flail, that enemy takes a -2 penalty to the saving throw against any effect from that attack. </p><p>Published in Martial Power 2, page(s) 24. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"u7f9POMVxrgTkDSd",
+	"_key":"!items!u7f9POMVxrgTkDSd"
+}

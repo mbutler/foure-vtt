@@ -1,0 +1,33 @@
+{
+	"name":"Level 16 Hexblade Utility Power",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You gain one of the following powers of your choice.</p>\n<p>@UUID[Compendium.dnd-4e-compendium.module-powers.MYFwQHpvP0rj6GxJ]{Death Shroud Aspect}@UUID[Compendium.dnd-4e-compendium.module-powers.GlgpaxsUzQ1MdEWX]{Diabolic Escape}@UUID[Compendium.dnd-4e-compendium.module-powers.cAyEHuaIzkFUhwYJ]{Guise of the Laughing Fool}</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"PDs3lRI9cQ7rufGU",
+	"_key":"!items!PDs3lRI9cQ7rufGU"
+}

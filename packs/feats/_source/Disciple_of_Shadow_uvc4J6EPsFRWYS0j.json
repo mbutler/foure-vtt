@@ -1,0 +1,33 @@
+{
+	"name":"Disciple of Shadow",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Charisma 13 </p><p><b>Benefit: </b>You gain darkvision with a range of 2 squares. </p><p>Published in Heroes of the Fallen Lands, page(s) 313, Heroes of the Forgotten Kingdoms, page(s) 313. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"uvc4J6EPsFRWYS0j",
+	"_key":"!items!uvc4J6EPsFRWYS0j"
+}

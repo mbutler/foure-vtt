@@ -1,0 +1,33 @@
+{
+	"name":"Bahamut (Forgotten Realms), The Platinum Dragon",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Type: </b>God </p><p><b>Alignment: </b>Good </p><p><b>Gender: </b>Male </p><p><b>Sphere: </b>Justice </p><p><b>Dominion: </b>Celestia </p><p><b>Priests: </b>Justiciars </p><p><b>Adjective: </b>Bahamutan </p><p><b>Domain: </b>Justice, Strength </p><p>The ancient nemesis of the Dragon Queen Tiamat, Bahamut is once again a deity in Faerûn after eons in repose. A vassal of Torm, he is the father of the Faerûnian dragonborn and a powerful force for justice. </p><p>Published in Forgotten Realms Campaign Guide, page(s) 80. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"other"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"jlORLAv41s5nMbSi",
+	"_key":"!items!jlORLAv41s5nMbSi"
+}

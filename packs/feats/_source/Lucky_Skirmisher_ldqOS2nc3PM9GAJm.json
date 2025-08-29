@@ -1,0 +1,33 @@
+{
+	"name":"Lucky Skirmisher",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Halfling ranger or halfling rogue </p><p><b>Benefit: </b>When you run, enemies making opportunity attacks against you during that movement must roll twice and take the lower result. </p><p>Published in Martial Power, page(s) 137. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"ldqOS2nc3PM9GAJm",
+	"_key":"!items!ldqOS2nc3PM9GAJm"
+}

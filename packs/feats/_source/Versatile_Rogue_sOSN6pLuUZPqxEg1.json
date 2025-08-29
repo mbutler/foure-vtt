@@ -1,0 +1,33 @@
+{
+	"name":"Versatile Rogue",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>21st level, human, rogue, Rogue Tactics class feature </p><p><b>Benefit: </b>You gain one additional option from Rogue Tactics. </p><p>Update (6/14/2010) </p><p>In the Prerequisite entry, add \"Rogue Tactics class feature\" after \"rogue.\" </p><p>Published in Martial Power 2, page(s) 145. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"sOSN6pLuUZPqxEg1",
+	"_key":"!items!sOSN6pLuUZPqxEg1"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Inspired Recovery",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Warlord, Inspiring Presence class feature </p><p><b>Benefit: </b>When an ally who can see you spends an action point to take an extra standard action, that ally can make a saving throw as a free action, adding your Charisma modifier to the roll. </p><p>Revision (7/28/2008) </p><p>Replace \"gain\" with \"take\". Remove the word \"standard\". Replace \"roll\" with \"make\". All in Benefits line. </p><p>Published in Player's Handbook, page(s) 198. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"AFj0uphOPGfDTcYK",
+	"_key":"!items!AFj0uphOPGfDTcYK"
+}

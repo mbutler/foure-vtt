@@ -1,0 +1,33 @@
+{
+	"name":"Far Thought",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Benefit: </b>Once per day, you can use telepathy for 5 minutes. You can communicate with any creature within 5 squares of you that has a language and that you can see. This telepathy allows for two-way communication. </p><p>Published in Dragon Magazine 389. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"PlvD3b5zk60W28FL",
+	"_key":"!items!PlvD3b5zk60W28FL"
+}

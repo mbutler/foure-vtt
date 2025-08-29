@@ -1,0 +1,33 @@
+{
+	"name":"Stoking the Fire",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Wizard </p><p><b>Benefit: </b>When you hit a target with a fire attack, you gain a +2 power bonus to your next damage roll with a fire attack against that target before the end of your next turn. </p><p>Published in Dragon Magazine 388. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"s3zmxQ5g1dU8iNkK",
+	"_key":"!items!s3zmxQ5g1dU8iNkK"
+}

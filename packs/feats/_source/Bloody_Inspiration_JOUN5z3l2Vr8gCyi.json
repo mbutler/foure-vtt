@@ -1,0 +1,33 @@
+{
+	"name":"Bloody Inspiration",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>11th level, dragonborn, warlord </p><p><b>Benefit: </b>If you use inspiring word while you are bloodied and do not target yourself, a second ally within the power's range gains temporary hit points equal to twice your Constitution modifier. </p><p>Published in Martial Power, page(s) 141. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"JOUN5z3l2Vr8gCyi",
+	"_key":"!items!JOUN5z3l2Vr8gCyi"
+}

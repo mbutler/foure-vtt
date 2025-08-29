@@ -1,0 +1,33 @@
+{
+	"name":"Blaze of Light (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you use wild shape to change from beast form to your humanoid form, choose an adjacent creature (before or after you shift as part of using wild shape). That creature takes a -2 penalty to attack rolls against you until the end of your next turn. </p><p>Published in Primal Power, page(s) 54. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"NMqasT49bglVKi8W",
+	"_key":"!items!NMqasT49bglVKi8W"
+}

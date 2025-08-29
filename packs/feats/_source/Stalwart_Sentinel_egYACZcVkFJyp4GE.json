@@ -1,0 +1,33 @@
+{
+	"name":"Stalwart Sentinel",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Benefit: </b>You gain a +2 feat bonus to Perception checks. </p><p>If you are adjacent to another ally who has this feat, the bonus increases to +4 when you're using Perception to detect a hidden enemy. </p><p>If you're asleep, you do not take the -5 penalty to hear things. </p><p>Published in Dragon Magazine 396. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"egYACZcVkFJyp4GE",
+	"_key":"!items!egYACZcVkFJyp4GE"
+}

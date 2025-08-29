@@ -1,0 +1,33 @@
+{
+	"name":"Past Life Flashbacks",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Revenant </p><p><b>Benefit: </b>Before you roll initiative, you can take a -10 penalty to your roll. If you do so, you gain a +2 bonus to attack rolls and checks until the end of your first turn. </p><p>Published in Dragon Magazine 376, page(s) 41. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"CIRxJOzEF7UGHQ2a",
+	"_key":"!items!CIRxJOzEF7UGHQ2a"
+}

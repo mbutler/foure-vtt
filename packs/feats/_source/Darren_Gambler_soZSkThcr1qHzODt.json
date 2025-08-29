@@ -1,0 +1,33 @@
+{
+	"name":"Darren Gambler",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Tarmalune regional background </p><p><b>Benefit: </b>When you reroll an attack roll, skill check, or ability check, you gain a +2 bonus to the roll. If the second result is less than the first, you grant combat advantage to all attackers until the end of your next turn. </p><p>Published in Dragon Magazine 376, page(s) 50. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"soZSkThcr1qHzODt",
+	"_key":"!items!soZSkThcr1qHzODt"
+}

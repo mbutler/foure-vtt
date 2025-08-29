@@ -1,0 +1,33 @@
+{
+	"name":"Unspeakable Bloodlust (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Whenever you hit a bloodied creature with a melee attack, that creature takes a -2 penalty to attack rolls until the end of your next turn. </p><p>Published in Dark Sun Campaign Setting, page(s) 73. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"bkr7Y6IH18iuzqtX",
+	"_key":"!items!bkr7Y6IH18iuzqtX"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Urban Predator",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Shifter </p><p><b>Benefit: </b>When you roll an Athletics or Streetwise check, you can treat a d20 roll of 2-7 as if you had rolled an 8. A natural 1 is still treated as a 1. </p><p>Published in Dragon Magazine 387, page(s) 49. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"za6RlsP1BOKLC9kM",
+	"_key":"!items!za6RlsP1BOKLC9kM"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Elven Sidestep",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Elf, fighter </p><p><b>Benefit: </b>When you move, the first square of your movement does not provoke opportunity attacks from enemies you have marked. </p><p>Published in Martial Power 2, page(s) 133. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"hG18Q0PrHzXqKsmd",
+	"_key":"!items!hG18Q0PrHzXqKsmd"
+}

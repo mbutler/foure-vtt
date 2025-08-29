@@ -1,0 +1,33 @@
+{
+	"name":"Tempestuous Inspiration (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you use your inspiring word power, you can give the target of the power a +2 bonus to attack rolls and a bonus to damage rolls equal to your Charisma modifier that lasts until the end of your next turn. If the target's first attack during that time misses, the target grants combat advantage to attackers until the end of your next turn. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"hOSG8kLc2tYrMvCH",
+	"_key":"!items!hOSG8kLc2tYrMvCH"
+}

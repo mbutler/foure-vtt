@@ -1,0 +1,33 @@
+{
+	"name":"Covenant of the Raven Queen",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>11th level, invoker, must worship the Raven Queen </p><p><b>Benefit: </b>Whenever you hit an undead with a divine encounter or daily attack power, you gain resist necrotic equal to your Constitution or Intelligence modifier until the start of your next turn. </p><p>Published in Dragon Magazine 380, page(s) 65. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"SiXn7HJht4aRZjqA",
+	"_key":"!items!SiXn7HJht4aRZjqA"
+}

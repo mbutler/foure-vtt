@@ -1,0 +1,33 @@
+{
+	"name":"Callidyrr Dragoon Background",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Campaign Setting: </b>General </p><p><b>Prerequisite: </b>Human or halfling </p><p>A dragoon's rigorous daily training is a marvel of physical discipline. These learned defenders of the realm are equally ardent in mastering the art of nonviolent conflict resolution. </p><p><i>Associated Skills: </i>Athletics, Diplomacy, Insight </p><p>Published in Dragon Magazine 405. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"background"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"A6QmhjE7If8CzFHT",
+	"_key":"!items!A6QmhjE7If8CzFHT"
+}

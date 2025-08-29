@@ -1,0 +1,33 @@
+{
+	"name":"Dragon Breath Scoundrel",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>11th level, dragonborn, rogue, Sneak Attack class feature </p><p><b>Benefit: </b>When you use your dragon breath racial power, you can expend your Sneak Attack for this round to deal your Sneak Attack damage to each enemy you hit that is granting combat advantage to you. </p><p>Published in Martial Power 2, page(s) 142. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"yqaHBuh7vLekIlpS",
+	"_key":"!items!yqaHBuh7vLekIlpS"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Hidden Sniper",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Benefit: </b>If you have partial concealment against a target, you gain combat advantage against it with your ranged attacks. </p><p>Published in Heroes of the Forgotten Kingdoms, page(s) 315. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"MiuhaJQswHA2qjTR",
+	"_key":"!items!MiuhaJQswHA2qjTR"
+}

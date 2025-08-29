@@ -1,0 +1,33 @@
+{
+	"name":"Hurl Weapon",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Barbarian </p><p><b>Benefit: </b>You can use any one-handed off-hand weapon as a heavy thrown weapon. Normal range for weapons you wield this way is 5 squares, and long range is 10 squares. </p><p>Published in Primal Power, page(s) 140. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"F197hTgdQfBGpy3D",
+	"_key":"!items!F197hTgdQfBGpy3D"
+}

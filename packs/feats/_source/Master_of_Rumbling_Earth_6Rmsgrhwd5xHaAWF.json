@@ -1,0 +1,33 @@
+{
+	"name":"Master of Rumbling Earth",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Genasi, fighter </p><p><b>Benefit: </b>You gain a +1 bonus to attack rolls with your earthshock racial power, and you deal damage equal to your Strength modifier to enemies knocked prone by the power. </p><p>Published in Martial Power, page(s) 138. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"6Rmsgrhwd5xHaAWF",
+	"_key":"!items!6Rmsgrhwd5xHaAWF"
+}

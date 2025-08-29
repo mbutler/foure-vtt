@@ -1,0 +1,33 @@
+{
+	"name":"Persistent Threat",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>11th level, human </p><p><b>Benefit: </b>While you are dazed, you can still flank enemies, and you can take an opportunity action if you haven't taken one since the start of your last turn. </p><p>Published in Dragon Magazine 383, page(s) 67. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"iQRtFPsLzUB35V4a",
+	"_key":"!items!iQRtFPsLzUB35V4a"
+}

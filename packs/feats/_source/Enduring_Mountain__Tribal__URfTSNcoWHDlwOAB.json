@@ -1,0 +1,33 @@
+{
+	"name":"Enduring Mountain [Tribal]",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Benefit: </b>Whenever you spend a healing surge, you regain 2 additional hit points. You regain 1 more additional hit point for each ally within 10 squares of you who has this feat, to a maximum of 5 additional hit points. </p><p>Published in Primal Power, page(s) 136. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"URfTSNcoWHDlwOAB",
+	"_key":"!items!URfTSNcoWHDlwOAB"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Spirit's Reward [Familiar]",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Arcane Familiar feat </p><p><b>Benefit: </b>When you use an arcane daily attack power without using arcane defiling, you or one ally adjacent to your familiar gains 5 temporary hit points. These temporary hit points increase to 10 at 11th level and 15 at 21st level. </p><p>Published in Dark Sun Campaign Setting, page(s) 112. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"cbDJSuEylOYwLWQP",
+	"_key":"!items!cbDJSuEylOYwLWQP"
+}

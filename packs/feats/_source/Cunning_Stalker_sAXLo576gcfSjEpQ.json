@@ -1,0 +1,33 @@
+{
+	"name":"Cunning Stalker",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Benefit: </b>You gain combat advantage against enemies that have no creatures adjacent to them other than you. </p><p>Published in Heroes of the Forgotten Kingdoms, page(s) 312. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"sAXLo576gcfSjEpQ",
+	"_key":"!items!sAXLo576gcfSjEpQ"
+}

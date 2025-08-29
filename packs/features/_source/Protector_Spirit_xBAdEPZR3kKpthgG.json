@@ -1,0 +1,33 @@
+{
+	"name":"Protector Spirit",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You draw on the strength of the bear or a similar protective spirit to defend and bolster your allies. </p><p>Spirit Boon: Any ally adjacent to your spirit companion regains additional hit points equal to your Constitution modifier when he or she uses second wind or when you use a healing power on him or her. </p><p>Spirit's Shield: You gain the spirit's shield power, an attack you make through your spirit companion as an opportunity action. </p><p>At-Will Attack Power: You gain the protecting strike power. You choose a second at-will attack power as normal. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"xBAdEPZR3kKpthgG",
+	"_key":"!items!xBAdEPZR3kKpthgG"
+}

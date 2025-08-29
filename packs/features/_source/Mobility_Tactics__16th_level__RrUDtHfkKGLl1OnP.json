@@ -1,0 +1,33 @@
+{
+	"name":"Mobility Tactics (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Whenever an adjacent ally shifts, the ally can shift 1 additional square. </p><p>Published in Martial Power, page(s) 120. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"RrUDtHfkKGLl1OnP",
+	"_key":"!items!RrUDtHfkKGLl1OnP"
+}

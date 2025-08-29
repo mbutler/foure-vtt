@@ -1,0 +1,33 @@
+{
+	"name":"Nature's Steward (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Once per day, you can use the Speak with Nature ritual without expending components. </p><p>In addition, you no longer need to eat or drink. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"1AsQI7BW3mUDCTko",
+	"_key":"!items!1AsQI7BW3mUDCTko"
+}

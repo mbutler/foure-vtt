@@ -1,0 +1,33 @@
+{
+	"name":"Pack Attack",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You deal an extra 2 damage on melee attacks against an enemy that has two or more of your allies adjacent to it.</p>\n<p>&nbsp;</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"race"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"evKB3rnAl4RXd8Lu",
+	"_key":"!items!evKB3rnAl4RXd8Lu"
+}

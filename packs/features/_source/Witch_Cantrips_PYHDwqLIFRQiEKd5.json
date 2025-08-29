@@ -1,0 +1,33 @@
+{
+	"name":"Witch Cantrips",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You gain three cantrips of your choice:<em>Ghost Sound, Light, Mage Hand, Prestidigitation, Suggestion, Disrupt Undead, </em>or<em>Spook</em>.</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"PYHDwqLIFRQiEKd5",
+	"_key":"!items!PYHDwqLIFRQiEKd5"
+}

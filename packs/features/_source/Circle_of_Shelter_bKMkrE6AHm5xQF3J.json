@@ -1,0 +1,33 @@
+{
+	"name":"Circle of Shelter",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You gain the following features. </p><p>Primal Predator: While you are not wearing heavy armor, you gain a +1 bonus to your speed. </p><p>Unhindering Growth: Your allies ignore the difficult terrain created by your nature's growth. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"bKMkrE6AHm5xQF3J",
+	"_key":"!items!bKMkrE6AHm5xQF3J"
+}

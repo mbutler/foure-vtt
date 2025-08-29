@@ -1,0 +1,29 @@
+{
+	"name":"Gold Dwarf Weapon Proficiency",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Though gold dwarves rely on the hammer as a tool as much as do any of their kin, carving their homes from the living rock requires other specialized implements. Such tools have been adapted for use as the traditional weapons of the gold dwarves for as long as anyone remembers.<br>&nbsp;&nbsp;&nbsp;&nbsp;<em>Benefits:&nbsp;</em>You gain proficiency with the war pick and the maul. This benefit replaces Dwarven Weapon Proficiency.</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"featureType":"race"
+	},
+	"effects":[],
+	"flags":{},
+	"folder":null,
+	"sort":0,
+	"_id":"CknDfUMK8JOoJ5EJ",
+	"_key":"!items!CknDfUMK8JOoJ5EJ"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Move the Battle (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Whenever you make an attack because of the Combat Challenge class feature and hit, you can slide the target 1 square and then shift 1 square. </p><p>Published in Martial Power, page(s) 28. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"Ff7dckaDx6s49IRz",
+	"_key":"!items!Ff7dckaDx6s49IRz"
+}

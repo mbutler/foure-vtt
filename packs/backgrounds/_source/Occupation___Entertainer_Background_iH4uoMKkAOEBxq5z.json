@@ -1,0 +1,33 @@
+{
+	"name":"Occupation - Entertainer Background",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Type: </b>Occupation </p><p><b>Campaign Setting: </b>General </p><p>You were a dancer, a singer, an acrobat, a storyteller, or another kind of performer. Were you a solo entertainer, or did you perform as part of a group? Were you well known? If so, do you still encounter admirers? </p><p><i>Associated Skills: </i>Bluff, History </p><p>Published in Player's Handbook 2, page(s) 179. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"background"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"iH4uoMKkAOEBxq5z",
+	"_key":"!items!iH4uoMKkAOEBxq5z"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Illusion Apprentice",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you hit a target with an arcane illusion power, the target takes a -2 penalty to the next attack roll it makes against you before the end of your next turn. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"vX0SLwkcmzQ1Zn9Y",
+	"_key":"!items!vX0SLwkcmzQ1Zn9Y"
+}

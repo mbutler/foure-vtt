@@ -1,0 +1,33 @@
+{
+	"name":"Die Hard",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Con 13, human </p><p><b>Benefit: </b>When you have failed two death saving throws since your last rest, you gain a +5 feat bonus to death saving throws and can spend a healing surge on a result of 15 or higher. If you have no healing surges, your condition does not change. </p><p>Published in Dragon Magazine 383, page(s) 67. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"zyCk2KpP0VioIgQS",
+	"_key":"!items!zyCk2KpP0VioIgQS"
+}

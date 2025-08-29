@@ -1,0 +1,33 @@
+{
+	"name":"Healing Spirit (Hybrid)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You gain the shaman power healing spirit. The power functions as normal, except that you can use it only once per encounter.</p>\n<p>@UUID[Compendium.dnd-4e-compendium.module-powers.b5U0th2xdV7Q8anM]{Healing Spirit}</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"TMFoq9lPWrgIJfeX",
+	"_key":"!items!TMFoq9lPWrgIJfeX"
+}

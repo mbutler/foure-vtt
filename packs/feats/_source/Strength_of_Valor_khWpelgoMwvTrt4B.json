@@ -1,0 +1,33 @@
+{
+	"name":"Strength of Valor",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Bard, Virtue of Valor class feature </p><p><b>Benefit: </b>When you grant an ally temporary hit points with your Virtue of Valor, that ally also gains a +2 bonus to the next damage roll he or she makes before the end of his or her next turn. </p><p>Revision (10/13/2009) </p><p>On the Benefit line, replace \"your next turn\" with \"his or her next turn.\" </p><p>Published in Player's Handbook 2, page(s) 189. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"khWpelgoMwvTrt4B",
+	"_key":"!items!khWpelgoMwvTrt4B"
+}

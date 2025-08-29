@@ -1,0 +1,33 @@
+{
+	"name":"Charging Rampage",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>11th level, barbarian, Rampage class feature </p><p><b>Benefit: </b>When you score a critical hit with a barbarian attack power while you are raging, you can charge as a free action, instead of making a melee basic attack as a result of Rampage. </p><p>Published in Player's Handbook 2, page(s) 190. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"FyJtoNKji162YOhu",
+	"_key":"!items!FyJtoNKji162YOhu"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Just Consequence (21st level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When an enemy hits you or an ally adjacent to you, the next ally who attacks that enemy before the end of your next turn gains a +1 bonus to the attack roll. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"destiny"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"DeU1gVcPn9C7sNSW",
+	"_key":"!items!DeU1gVcPn9C7sNSW"
+}

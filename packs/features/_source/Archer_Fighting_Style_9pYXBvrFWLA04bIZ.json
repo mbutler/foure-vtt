@@ -1,0 +1,33 @@
+{
+	"name":"Archer Fighting Style",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Because of your focus on ranged attacks, you gain Defensive Mobility as a bonus feat. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"9pYXBvrFWLA04bIZ",
+	"_key":"!items!9pYXBvrFWLA04bIZ"
+}

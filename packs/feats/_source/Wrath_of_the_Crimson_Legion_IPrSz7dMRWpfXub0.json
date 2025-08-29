@@ -1,0 +1,33 @@
+{
+	"name":"Wrath of the Crimson Legion",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Tiefling, paladin </p><p><b>Benefit: </b>When you make a melee basic attack, you can use your Charisma instead of Strength for the attack roll and the damage roll. In addition, you replace infernal wrath with paladin's wrath. </p><p>Published in Dragon Magazine 381, page(s) 86. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"IPrSz7dMRWpfXub0",
+	"_key":"!items!IPrSz7dMRWpfXub0"
+}

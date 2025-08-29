@@ -1,0 +1,33 @@
+{
+	"name":"Quarry's Arrest (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you hit a creature designated as your quarry, you can choose to forego your Hunter's Quarry damage in order to instead slow the creature and prevent it from shifting until the end of your next turn. Doing this expends your Hunter's Quarry damage until the start of your next turn. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"gFzw0A5Ia4xoy6fO",
+	"_key":"!items!gFzw0A5Ia4xoy6fO"
+}

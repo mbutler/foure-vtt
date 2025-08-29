@@ -1,0 +1,33 @@
+{
+	"name":"Harvest of Shadows (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you spend an action point to make an attack that allows you to use your Shadow Feast path feature, you gain two shadows when you use Shadow Feast instead of one shadow. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"mTKNW5XF7RnMkuqa",
+	"_key":"!items!mTKNW5XF7RnMkuqa"
+}

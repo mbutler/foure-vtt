@@ -1,0 +1,33 @@
+{
+	"name":"Winter Favored",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>shadar-kai </p><p><b>Benefit: </b>You gain resist 5 cold and a +2 feat bonus to saving throws against ongoing cold damage. </p><p>Published in Dragon Magazine Annual, Dragon Magazine 372, page(s) 10. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"cGoJH2Fj5wIvRayq",
+	"_key":"!items!cGoJH2Fj5wIvRayq"
+}

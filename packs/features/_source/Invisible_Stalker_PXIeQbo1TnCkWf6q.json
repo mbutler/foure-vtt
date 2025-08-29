@@ -1,0 +1,33 @@
+{
+	"name":"Invisible Stalker",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You gain the invisible stalker power.</p>\n<p>@UUID[Compendium.dnd-4e-compendium.module-powers.iVJnxlE9YkMfPwA8]{Invisible Stalker}</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"PXIeQbo1TnCkWf6q",
+	"_key":"!items!PXIeQbo1TnCkWf6q"
+}

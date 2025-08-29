@@ -1,0 +1,33 @@
+{
+	"name":"Blood and Radiance (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When any enemy bloodies you with an attack, it grants combat advantage until the end of its next turn. </p><p>Published in Player's Handbook, page(s) 72, Class Compendium. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"4wCXTupsZmhlz8d2",
+	"_key":"!items!4wCXTupsZmhlz8d2"
+}

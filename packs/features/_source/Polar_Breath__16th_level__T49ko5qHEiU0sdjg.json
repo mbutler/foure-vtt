@@ -1,0 +1,33 @@
+{
+	"name":"Polar Breath (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you use your dragon breath power, you can choose to deal cold damage with it instead of any other damage type. If you do, any creature hit by the attack is also slowed (save ends). </p><p>Published in Player's Handbook Races: Dragonborn, page(s) 15. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"T49ko5qHEiU0sdjg",
+	"_key":"!items!T49ko5qHEiU0sdjg"
+}

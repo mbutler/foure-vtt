@@ -1,0 +1,33 @@
+{
+	"name":"Divine Passion",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Avenger </p><p><b>Benefit: </b>When you use divine guidance and the triggering ally hits its target, the ally deals an additional 5 radiant damage. </p><p>At 21st level, the ally deals an extra 10 radiant damage. </p><p>Published in Dragon Magazine 377, page(s) 44. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"TF60jupf2LazcnhS",
+	"_key":"!items!TF60jupf2LazcnhS"
+}

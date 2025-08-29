@@ -1,0 +1,33 @@
+{
+	"name":"Master of the Cosmic Cycle",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>21st level, sorcerer, Cosmic Magic class feature </p><p><b>Benefit: </b>Each time you change your phase in the cosmic cycle, you can change it to either of the other two phases. </p><p>Published in Arcane Power, page(s) 134. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"qSDc2zibOrMsdmuh",
+	"_key":"!items!qSDc2zibOrMsdmuh"
+}

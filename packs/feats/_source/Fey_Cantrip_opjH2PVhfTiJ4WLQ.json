@@ -1,0 +1,33 @@
+{
+	"name":"Fey Cantrip",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Fey origin or Fey Bond feat </p><p><b>Benefit: </b>Choose one wizard cantrip, such as mage hand or prestidigitation. You gain that power. </p><p>Published in Heroes of the Feywild, page(s) 128. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"opjH2PVhfTiJ4WLQ",
+	"_key":"!items!opjH2PVhfTiJ4WLQ"
+}

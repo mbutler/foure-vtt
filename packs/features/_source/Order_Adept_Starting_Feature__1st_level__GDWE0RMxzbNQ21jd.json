@@ -1,0 +1,48 @@
+{
+	"name":"Order Adept Starting Feature (1st level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You gain the argent rain power.<br></p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"class":"",
+		"hitFistLevel":10,
+		"hitPerLevel":5,
+		"surgePerDay":5,
+		"skills":"<i class=\"fas fa-edit\"></i>",
+		"def":{
+			"ac":0,
+			"fort":0,
+			"ref":0,
+			"wil":0
+		},
+		"proficiencies":{
+			"weapons":[],
+			"armour":[]
+		},
+		"requirements":"",
+		"level":null,
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"theme"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"GDWE0RMxzbNQ21jd",
+	"_key":"!items!GDWE0RMxzbNQ21jd"
+}

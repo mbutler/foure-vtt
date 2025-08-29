@@ -1,0 +1,33 @@
+{
+	"name":"Elemental Conduit [Elemental Companion]",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>2nd level, Elemental Companion feat </p><p><b>Benefit: </b>You swap a utility power that is at least 2nd level for the elemental conduit power. </p><p>In addition, while your elemental companion is in passive mode, you gain a +2 power bonus to Insight checks and Perception checks. </p><p>Published in Heroes of the Elemental Chaos, page(s) 143. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"NkB4D8qaTsnphHKR",
+	"_key":"!items!NkB4D8qaTsnphHKR"
+}

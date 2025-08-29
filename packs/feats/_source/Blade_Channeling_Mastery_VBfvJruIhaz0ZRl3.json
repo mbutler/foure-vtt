@@ -1,0 +1,33 @@
+{
+	"name":"Blade Channeling Mastery",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>11th level, Sorcerous Blade Channeling feat </p><p><b>Benefit: </b>When you deliver a sorcerer ranged attack as a melee attack using Sorcerous Blade Channeling and the attack has an effect that a save can end, the target takes a -3 penalty to the first saving throw against that effect. </p><p>Published in Dragon Magazine 390. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"VBfvJruIhaz0ZRl3",
+	"_key":"!items!VBfvJruIhaz0ZRl3"
+}

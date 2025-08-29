@@ -1,0 +1,33 @@
+{
+	"name":"Correcting Aim",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>21st level, ranger, Hunter's Quarry class feature </p><p><b>Benefit: </b>If you miss your quarry with an attack, you gain a +2 bonus to your next attack roll against it. </p><p>Published in Martial Power, page(s) 145. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"8mSYrEdaBH3lDfhQ",
+	"_key":"!items!8mSYrEdaBH3lDfhQ"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"First Cut (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you have combat advantage due to your First Strike class feature, add 1 to each die of Sneak Attack damage dealt by the attack. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"KhPlm4OTrw9EWn7b",
+	"_key":"!items!KhPlm4OTrw9EWn7b"
+}

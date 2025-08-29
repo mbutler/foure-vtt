@@ -1,0 +1,33 @@
+{
+	"name":"Mountain Crush (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Whenever you score a critical hit with a two-handed weapon, the attack deals extra damage equal to twice your Constitution modifier. </p><p>Published in Player's Handbook 2, page(s) 27. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"d507jxhOUJktEq3v",
+	"_key":"!items!d507jxhOUJktEq3v"
+}

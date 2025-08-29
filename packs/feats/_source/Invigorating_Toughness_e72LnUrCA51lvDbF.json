@@ -1,0 +1,33 @@
+{
+	"name":"Invigorating Toughness",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Mul, incredible toughness racial power </p><p><b>Benefit: </b>You can expend your incredible toughness as a free action during your turn to gain temporary hit points equal to 5 + your Constitution modifier. If you do so, you don't gain the normal effect of incredible toughness. </p><p>Published in Dark Sun Campaign Setting, page(s) 109. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"e72LnUrCA51lvDbF",
+	"_key":"!items!e72LnUrCA51lvDbF"
+}

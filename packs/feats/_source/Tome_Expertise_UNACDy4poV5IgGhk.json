@@ -1,0 +1,33 @@
+{
+	"name":"Tome Expertise",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Benefit: </b>You gain a +1 feat bonus to implement attack rolls that you make with a tome. This bonus increases to +2 at 11th level and +3 at 21st level. </p><p>In addition, enemies adjacent to your conjurations or summoned creatures grant combat advantage. An enemy that is immune to fear is immune to this effect. </p><p>Published in Heroes of the Elemental Chaos, page(s) 145. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"UNACDy4poV5IgGhk",
+	"_key":"!items!UNACDy4poV5IgGhk"
+}

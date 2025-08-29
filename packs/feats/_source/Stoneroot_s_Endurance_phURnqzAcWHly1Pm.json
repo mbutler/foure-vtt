@@ -1,0 +1,33 @@
+{
+	"name":"Stoneroot's Endurance",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Benefit: </b>Whenever you are subjected to a critical hit, roll a d20. On a 10 or higher, the attack is a normal hit, not a critical hit. </p><p>Published in Heroes of the Forgotten Kingdoms, page(s) 319. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"phURnqzAcWHly1Pm",
+	"_key":"!items!phURnqzAcWHly1Pm"
+}

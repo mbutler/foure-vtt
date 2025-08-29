@@ -1,0 +1,33 @@
+{
+	"name":"Bael Turath Born",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>11th level, tiefling, warlock </p><p><b>Benefit: </b>Your fire resistance improves; you now have resist fire 8 + your level. </p><p>Published in Dragon Magazine Annual, Dragon Magazine 366, page(s) 20. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"QMXNoYTGI4rKRW9C",
+	"_key":"!items!QMXNoYTGI4rKRW9C"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Puissant Gaze (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Increase the vulnerability your gaze of ruin causes by your Intelligence modifier, increase the penalty to damage rolls it causes by 2, and increase the penalty to AC it causes by 1. </p><p>Published in Dragon Magazine 387, page(s) 56. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"v6izSoeVsGJ04ng8",
+	"_key":"!items!v6izSoeVsGJ04ng8"
+}

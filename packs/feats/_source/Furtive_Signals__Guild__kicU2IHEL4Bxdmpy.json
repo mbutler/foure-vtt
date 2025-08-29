@@ -1,0 +1,33 @@
+{
+	"name":"Furtive Signals [Guild]",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Benefit: </b>You gain a +2 feat bonus to Bluff checks. You can communicate simple information silently with any ally who has this feat and has line of sight to your position. You can use Bluff to gain combat advantage or create a diversion to hide for one ally who has this feat and is within 5 squares of you, instead of for yourself. Your allies who have this feat can do the same for you. </p><p>Published in Dragon Magazine 373, page(s) 11. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"kicU2IHEL4Bxdmpy",
+	"_key":"!items!kicU2IHEL4Bxdmpy"
+}

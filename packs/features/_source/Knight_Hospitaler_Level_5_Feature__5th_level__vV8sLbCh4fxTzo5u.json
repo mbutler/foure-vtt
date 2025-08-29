@@ -1,0 +1,33 @@
+{
+	"name":"Knight Hospitaler Level 5 Feature (5th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You can request food and lodging for yourself and your traveling companions from any temple affiliated with your hospitaler order, or from any noble household. Your request for hospitality will be honored in all but the most unusual circumstances.<br></p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"theme"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"vV8sLbCh4fxTzo5u",
+	"_key":"!items!vV8sLbCh4fxTzo5u"
+}

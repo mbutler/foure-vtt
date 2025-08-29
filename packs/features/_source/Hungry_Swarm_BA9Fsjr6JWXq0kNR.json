@@ -1,0 +1,33 @@
+{
+	"name":"Hungry Swarm",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You gain the hungry swarm power. This new power replaces swarm of shadows.</p>\n<p>@UUID[Compendium.dnd-4e-compendium.module-powers.rzFPb02VITlcmKN4]{Hungry Swarm}</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"BA9Fsjr6JWXq0kNR",
+	"_key":"!items!BA9Fsjr6JWXq0kNR"
+}

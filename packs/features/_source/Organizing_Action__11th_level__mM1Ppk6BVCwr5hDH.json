@@ -1,0 +1,33 @@
+{
+	"name":"Organizing Action (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You can spend an action point to grant each ally who can see and hear you an extra move action on his or her next turn, instead of taking an extra action yourself. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"mM1Ppk6BVCwr5hDH",
+	"_key":"!items!mM1Ppk6BVCwr5hDH"
+}

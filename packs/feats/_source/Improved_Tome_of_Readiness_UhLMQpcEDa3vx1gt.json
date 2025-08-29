@@ -1,0 +1,33 @@
+{
+	"name":"Improved Tome of Readiness",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>11th level, Con 13, Wis 13, wizard, Tome of Readiness class feature </p><p><b>Benefit: </b>After you prepare your daily and utility wizard powers after an extended rest, choose one daily or utility power in your spellbook that you didn't prepare and store this power in your tome. </p><p>Once per encounter as a free action, you can use this stored power by expending another unused wizard power of the appropriate type (daily or utility) of its level or higher. You must still take the normal action required to use the stored power. </p><p>Published in Arcane Power, page(s) 131. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"UhLMQpcEDa3vx1gt",
+	"_key":"!items!UhLMQpcEDa3vx1gt"
+}

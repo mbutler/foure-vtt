@@ -1,0 +1,33 @@
+{
+	"name":"Mage At-Will Powers",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You gain two of the following powers of your choice.</p>\n<p>@UUID[Compendium.dnd-4e-compendium.module-powers.df3trpizsxGBNuvU]{Arc Lightning}@UUID[Compendium.dnd-4e-compendium.module-powers.84DBHr7yRloNLxQA]{Beguiling Strands}@UUID[Compendium.dnd-4e-compendium.module-powers.ymB0ZUr8gJ3WHSb4]{Freezing Burst}@UUID[Compendium.dnd-4e-compendium.module-powers.p3sUVNOfiWmoQB0I]{Hypnotism}@UUID[Compendium.dnd-4e-compendium.module-powers.ksGEFteTK3J8ucaQ]{Phantasmal Assault}@UUID[Compendium.dnd-4e-compendium.module-powers.CpEBW4mTRHzFOlgw]{Phantom Cage}</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"OkJMDUwCAYlzGgqm",
+	"_key":"!items!OkJMDUwCAYlzGgqm"
+}

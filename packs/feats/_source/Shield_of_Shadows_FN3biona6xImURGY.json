@@ -1,0 +1,33 @@
+{
+	"name":"Shield of Shadows",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Drow </p><p><b>Benefit: </b>You gain a +2 bonus to your Reflex defense while within the effect of your cloud of darkness power. </p><p>Published in Forgotten Realms Player's Guide, page(s) 136. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"FN3biona6xImURGY",
+	"_key":"!items!FN3biona6xImURGY"
+}

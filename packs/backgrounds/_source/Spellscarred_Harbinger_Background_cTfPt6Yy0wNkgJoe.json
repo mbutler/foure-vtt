@@ -1,0 +1,33 @@
+{
+	"name":"Spellscarred Harbinger Background",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Type: </b>Campaign </p><p><b>Campaign Setting: </b>Neverwinter </p><p>The specific nature of your spellscar has unlocked knowledge that you can benefit from-bizarre secrets of the magic that lurks inside you. Or, you might have learned certain techniques from the priest of Ilmater to soothe your own distress, as well as other aspects of the healing arts. </p><p><i>Associated Skills: </i>Arcana, Heal </p><p>Published in Neverwinter Campaign Setting, page(s) 42. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"background"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"cTfPt6Yy0wNkgJoe",
+	"_key":"!items!cTfPt6Yy0wNkgJoe"
+}

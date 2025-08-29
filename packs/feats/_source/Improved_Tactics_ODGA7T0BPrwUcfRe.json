@@ -1,0 +1,33 @@
+{
+	"name":"Improved Tactics",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Warlord, Tactical Presence class feature </p><p><b>Benefit: </b>Add 1 to the attack roll bonus granted by your Tactical Presence. </p><p>Published in Martial Power, page(s) 136. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"ODGA7T0BPrwUcfRe",
+	"_key":"!items!ODGA7T0BPrwUcfRe"
+}

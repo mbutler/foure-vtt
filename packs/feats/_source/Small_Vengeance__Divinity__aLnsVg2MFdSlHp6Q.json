@@ -1,0 +1,33 @@
+{
+	"name":"Small Vengeance [Divinity]",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Channel Divinity class feature, must worship a deity of the vengeance domain </p><p><b>Benefit: </b>You gain the Channel Divinity power small vengeance. </p><p>Published in Divine Power, page(s) 122. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"aLnsVg2MFdSlHp6Q",
+	"_key":"!items!aLnsVg2MFdSlHp6Q"
+}

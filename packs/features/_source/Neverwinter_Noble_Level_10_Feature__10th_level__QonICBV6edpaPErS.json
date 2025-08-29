@@ -1,0 +1,33 @@
+{
+	"name":"Neverwinter Noble Level 10 Feature (10th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You gain a +4 bonus to Diplomacy checks made to interact with citizens of Neverwinter. You gain a +4 bonus to Intimidate checks made against any who oppose your rule of the city.</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"theme"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"QonICBV6edpaPErS",
+	"_key":"!items!QonICBV6edpaPErS"
+}

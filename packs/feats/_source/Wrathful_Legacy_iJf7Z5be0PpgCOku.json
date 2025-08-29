@@ -1,0 +1,33 @@
+{
+	"name":"Wrathful Legacy",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Forgeborn Heritage </p><p><b>Benefit: </b>The first time you are bloodied in each encounter, you regain the use of elemental legacy. </p><p>Published in Dragon Magazine 383, page(s) 75. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"iJf7Z5be0PpgCOku",
+	"_key":"!items!iJf7Z5be0PpgCOku"
+}

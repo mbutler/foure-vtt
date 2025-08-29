@@ -1,0 +1,33 @@
+{
+	"name":"Aegis Insight (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you use the aegis of assault power or aegis of shielding power, you add your Wisdom modifier to the power's burst radius. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"gn6otDVPyGNKSwuU",
+	"_key":"!items!gn6otDVPyGNKSwuU"
+}

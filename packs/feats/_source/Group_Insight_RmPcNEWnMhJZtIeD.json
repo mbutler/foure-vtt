@@ -1,0 +1,33 @@
+{
+	"name":"Group Insight",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Half-elf </p><p><b>Benefit: </b>You grant allies within 10 squares of you a +1 racial bonus to Insight checks and initiative checks. </p><p>Published in Player's Handbook, page(s) 195. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"RmPcNEWnMhJZtIeD",
+	"_key":"!items!RmPcNEWnMhJZtIeD"
+}

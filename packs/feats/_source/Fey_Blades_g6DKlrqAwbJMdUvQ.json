@@ -1,0 +1,33 @@
+{
+	"name":"Fey Blades",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Eladrin, fighter, Tempest Technique class feature </p><p><b>Benefit: </b>When you're wielding two light blades, two heavy blades, or a heavy blade and a light blade, you gain a +1 bonus to damage rolls. </p><p>Published in Martial Power, page(s) 135. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"g6DKlrqAwbJMdUvQ",
+	"_key":"!items!g6DKlrqAwbJMdUvQ"
+}

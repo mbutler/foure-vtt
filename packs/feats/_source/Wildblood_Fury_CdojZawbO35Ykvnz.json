@@ -1,0 +1,33 @@
+{
+	"name":"Wildblood Fury",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Warden, Wildblood class feature </p><p><b>Benefit: </b>When you use your second wind, you gain a bonus to damage rolls against each enemy marked by you equal to your Wisdom modifier until the end of your next turn. </p><p>Published in Primal Power, page(s) 143. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"CdojZawbO35Ykvnz",
+	"_key":"!items!CdojZawbO35Ykvnz"
+}

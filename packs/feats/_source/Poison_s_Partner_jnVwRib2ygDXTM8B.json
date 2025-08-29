@@ -1,0 +1,33 @@
+{
+	"name":"Poison's Partner",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>21st level </p><p><b>Benefit: </b>An enemy suffering from a poison effect grants combat advantage to you. </p><p>Published in Dragon Magazine 373, page(s) 11. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"jnVwRib2ygDXTM8B",
+	"_key":"!items!jnVwRib2ygDXTM8B"
+}

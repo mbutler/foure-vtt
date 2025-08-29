@@ -1,0 +1,33 @@
+{
+	"name":"Destiny Claimed (21st level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You cannot be forced to reroll any roll. If you choose to reroll when you would be forced to do so, you can make two rolls and take the higher result. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"destiny"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"gXorWMhlKtV5q8iy",
+	"_key":"!items!gXorWMhlKtV5q8iy"
+}

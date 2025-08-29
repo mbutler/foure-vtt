@@ -1,0 +1,33 @@
+{
+	"name":"Acting Independently",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>In situations where you can't give commands to your fey beast companion, it can act independently. When it does so, it can take a standard action, a move action, or a minor action on its turn. It can also take opportunity actions and free actions, but cannot take immediate actions. <br></p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"AB1Ls8ky0ZPmIDFJ",
+	"_key":"!items!AB1Ls8ky0ZPmIDFJ"
+}

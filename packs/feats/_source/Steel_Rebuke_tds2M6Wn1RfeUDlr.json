@@ -1,0 +1,33 @@
+{
+	"name":"Steel Rebuke",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>11th level, battlemind, mind spike power </p><p><b>Benefit: </b>When you damage a target with your mind spike, enemies adjacent to the target take psychic damage equal to your Wisdom or Charisma modifier. </p><p>Published in Player's Handbook 3, page(s) 189. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"tds2M6Wn1RfeUDlr",
+	"_key":"!items!tds2M6Wn1RfeUDlr"
+}

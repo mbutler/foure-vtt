@@ -1,0 +1,33 @@
+{
+	"name":"Traveler's Fickle Favor (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>After each extended rest, roll a d12 and record the result. Until you take another extended rest, whenever you roll this same number on an attack roll, ability or skill check, or saving throw (before adding modifiers), you can reroll and use either result. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"ERymUug8rGkefolY",
+	"_key":"!items!ERymUug8rGkefolY"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Assured Healing",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>11th level, cleric </p><p><b>Benefit: </b>When you miss with a divine attack power with the healing keyword, and that power has no effect on a miss, you or one ally within 5 squares of you regains hit points equal to your Charisma modifier. </p><p>Published in Dragon Magazine 379, page(s) 56. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"umN8rit5Z0IcolKs",
+	"_key":"!items!umN8rit5Z0IcolKs"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Insulting Action (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you miss a target that grants combat advantage to you, you can spend an action point to reroll that attack roll with a +2 bonus. You must use the result of the second roll. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"lqZenP3cyaTA97GM",
+	"_key":"!items!lqZenP3cyaTA97GM"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Just Sacrifice",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>21st level, paladin </p><p><b>Benefit: </b>If an ally adjacent to you has 0 healing surges, that ally can spend your healing surges as though they were his or her own. </p><p>Published in Dragon Magazine 381, page(s) 93n. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"51GS8RtrBWdicgTI",
+	"_key":"!items!51GS8RtrBWdicgTI"
+}

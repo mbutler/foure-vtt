@@ -1,0 +1,33 @@
+{
+	"name":"Portal Mastery (21st level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Once per day, you can use either the Linked Portal ritual or the Planar Portal ritual without expending components, even if you do not have the Ritual Caster feat. </p><p>Additionally, once per day, when you die, you immediately regain half of your hit points and disappear; you immediately reappear on any plane in any permanent teleportation circle whose sigil sequence you have memorized. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"destiny"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"vnmMhSFxtpUZzeCT",
+	"_key":"!items!vnmMhSFxtpUZzeCT"
+}

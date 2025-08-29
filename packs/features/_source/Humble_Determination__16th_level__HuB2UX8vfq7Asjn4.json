@@ -1,0 +1,33 @@
+{
+	"name":"Humble Determination (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>While you are bloodied, when your oath of enmity target damages you (not with ongoing damage), your attacks deal 1d6 extra damage until the end of your next turn. </p><p>Published in Divine Power, page(s) 26. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"HuB2UX8vfq7Asjn4",
+	"_key":"!items!HuB2UX8vfq7Asjn4"
+}

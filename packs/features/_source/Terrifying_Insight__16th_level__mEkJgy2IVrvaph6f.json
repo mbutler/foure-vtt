@@ -1,0 +1,33 @@
+{
+	"name":"Terrifying Insight (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you make an attack roll against Will, you can roll twice and use the higher result. If you do so and the attack misses, you are dazed until the end of your next turn. </p><p>Published in Player's Handbook, page(s) 73, Class Compendium. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"mEkJgy2IVrvaph6f",
+	"_key":"!items!mEkJgy2IVrvaph6f"
+}

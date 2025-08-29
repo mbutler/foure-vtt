@@ -1,0 +1,33 @@
+{
+	"name":"Astral Judgment (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Enemies currently marked by you that attack your allies without attacking you take a -2 penalty to all defenses until they are no longer marked by you. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"6sTC4Z7eaOhmUkRf",
+	"_key":"!items!6sTC4Z7eaOhmUkRf"
+}

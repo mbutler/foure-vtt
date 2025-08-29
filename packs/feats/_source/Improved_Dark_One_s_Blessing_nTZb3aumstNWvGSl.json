@@ -1,0 +1,33 @@
+{
+	"name":"Improved Dark One's Blessing",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Con 15, warlock, infernal pact </p><p><b>Benefit: </b>Your Dark One's Blessing now gives you 3 additional temporary hit points. </p><p>Published in Player's Handbook, page(s) 198. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"nTZb3aumstNWvGSl",
+	"_key":"!items!nTZb3aumstNWvGSl"
+}

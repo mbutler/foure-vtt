@@ -1,0 +1,33 @@
+{
+	"name":"Renegade Red Wizard Level 8 Feature (8th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You do not gain the Expert Mage feature normally gained by a mage at 8th level. Instead, you gain a +2 bonus to Bluff checks and Intimidate checks.<br></p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"theme"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"NG2VyStF30MqrZw1",
+	"_key":"!items!NG2VyStF30MqrZw1"
+}

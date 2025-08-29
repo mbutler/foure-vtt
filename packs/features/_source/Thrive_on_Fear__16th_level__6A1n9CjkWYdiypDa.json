@@ -1,0 +1,33 @@
+{
+	"name":"Thrive on Fear (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you use a power that has the Rattling keyword and reduce the target to 0 hit points, you can immediately spend a healing surge as a free action. </p><p>Published in Dragon Magazine 372, page(s) 14. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"6A1n9CjkWYdiypDa",
+	"_key":"!items!6A1n9CjkWYdiypDa"
+}

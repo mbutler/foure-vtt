@@ -1,0 +1,33 @@
+{
+	"name":"Disgraced Scion Background",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Type: </b>Racial </p><p><b>Campaign Setting: </b>General </p><p><b>Prerequisite: </b>Dwarf </p><p>You broke with your people's traditions, abandoning their guilt and shame to seek your own path. So ingrained are these beliefs in the forgeborn, something significant must have happened to change your outlook. You might have witnessed azer cruelty, seen how galeb duhrs aid their giant masters, or tried to help an azer and found your assistance unwelcome. How did you leave your people? Did you creep away, make a scene, or were you forced out? How do you deal with your newfound isolation? What objective has replaced the one you left behind? </p><p><i>Associated Skills: </i>Dungeoneering, Nature </p><p>Published in Dragon Magazine 383, page(s) 74. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"background"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"RVePnu530KIkLaQp",
+	"_key":"!items!RVePnu530KIkLaQp"
+}

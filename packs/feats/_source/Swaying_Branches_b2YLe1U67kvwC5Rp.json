@@ -1,0 +1,33 @@
+{
+	"name":"Swaying Branches",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Warden, warden's fury power </p><p><b>Benefit: </b>Whenever you hit an enemy with your warden's fury, you can choose to knock the target prone or slide it 1 square instead of causing damage. </p><p>Published in Dragon Magazine 392. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"b2YLe1U67kvwC5Rp",
+	"_key":"!items!b2YLe1U67kvwC5Rp"
+}

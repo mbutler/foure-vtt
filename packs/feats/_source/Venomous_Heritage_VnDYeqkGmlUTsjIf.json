@@ -1,0 +1,33 @@
+{
+	"name":"Venomous Heritage",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>11th level, Drow </p><p><b>Benefit: </b>You gain resist 5 poison and a +2 feat bonus to saving throws against poison effects. </p><p>Published in Forgotten Realms Player's Guide, page(s) 139. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"VnDYeqkGmlUTsjIf",
+	"_key":"!items!VnDYeqkGmlUTsjIf"
+}

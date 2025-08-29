@@ -1,0 +1,33 @@
+{
+	"name":"Righteous Challenge",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>21st level, paladin </p><p><b>Benefit: </b>Demons or devils marked by your divine challenge class feature or your divine sanction take a -2 penalty to all attack rolls. </p><p>Published in Dragon Magazine 377, page(s) 45. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"gKn2yeZuLj8qQX0O",
+	"_key":"!items!gKn2yeZuLj8qQX0O"
+}

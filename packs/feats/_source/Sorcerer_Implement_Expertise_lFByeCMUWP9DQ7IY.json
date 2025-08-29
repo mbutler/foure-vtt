@@ -1,0 +1,33 @@
+{
+	"name":"Sorcerer Implement Expertise",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>21st level, Str 15, Dex 15, Cha 21, sorcerer </p><p><b>Benefit: </b>When you wield a sorcerer implement while using an arcane power, you can score a critical hit on a roll of 19-20. </p><p>Published in Arcane Power, page(s) 135. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"lFByeCMUWP9DQ7IY",
+	"_key":"!items!lFByeCMUWP9DQ7IY"
+}

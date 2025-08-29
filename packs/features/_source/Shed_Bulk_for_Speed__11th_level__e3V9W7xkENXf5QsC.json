@@ -1,0 +1,33 @@
+{
+	"name":"Shed Bulk for Speed (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you spend an action point to take an extra action, you can reroll two different attack rolls before the end of your next turn. When you make one of these rerolls, you take 1d10 + one-half your level damage and use either result. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"e3V9W7xkENXf5QsC",
+	"_key":"!items!e3V9W7xkENXf5QsC"
+}

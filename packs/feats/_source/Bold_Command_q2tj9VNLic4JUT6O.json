@@ -1,0 +1,33 @@
+{
+	"name":"Bold Command",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Halfling, warlord, Bravura Presence class feature </p><p><b>Benefit: </b>If an enemy that has combat advantage against you misses with a melee attack, your allies gain a +1 bonus to attack rolls against that enemy until the start of your next turn. </p><p>Published in Martial Power, page(s) 132. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"q2tj9VNLic4JUT6O",
+	"_key":"!items!q2tj9VNLic4JUT6O"
+}

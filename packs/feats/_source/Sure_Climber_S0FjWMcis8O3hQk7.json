@@ -1,0 +1,33 @@
+{
+	"name":"Sure Climber",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Trained in Athletics </p><p><b>Benefit: </b>A successful Athletics check allows you to climb at your normal speed, rather than half speed. </p><p>You also gain a +1 feat bonus to Athletics checks. </p><p>Published in Player's Handbook, page(s) 201. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"S0FjWMcis8O3hQk7",
+	"_key":"!items!S0FjWMcis8O3hQk7"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Path of the Scarred",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Human, you have a spellscar </p><p><b>Benefit: </b>You deal 1 extra fire damage with encounter and daily attack powers. If you have the Student of the Plague feat, you instead deal 2 extra fire damage. </p><p>Published in Dragon Magazine 385, page(s) 24. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"34X0mziRWOFYusde",
+	"_key":"!items!34X0mziRWOFYusde"
+}

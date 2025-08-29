@@ -1,0 +1,33 @@
+{
+	"name":"Zhengyian Blood Mage Background",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Type: </b>Geography </p><p><b>Campaign Setting: </b>Forgotten Realms </p><p><b>Prerequisite: </b>Human, Half-Orc </p><p>In the decades since the fall of the Witch-King, hidden Zhengyian relics have been unearthed across Vaasa. For some, contact with these fell artifacts exposed the individual and their descendants with a trace of Zhengyi's dark power. Blood Mages are most prevalent among the half-orcs of Palischuk; among them, Knight-Vindicator Mansard Kanaoth-the only half-orc on the Ironfell Council. </p><p><i>Associated Skills: </i>Arcana, Bluff </p><p>Published in Dungeon Magazine 177, page(s) 80. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"background"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"PJUFkXwGhSxvajEo",
+	"_key":"!items!PJUFkXwGhSxvajEo"
+}

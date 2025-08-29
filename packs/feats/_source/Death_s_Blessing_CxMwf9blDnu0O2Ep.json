@@ -1,0 +1,33 @@
+{
+	"name":"Death's Blessing",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Revenant </p><p><b>Benefit: </b>You no longer need to eat, drink, or breathe, so you never need to make Endurance checks to resist the effects of starvation, thirst, and suffocation. You are no longer considered a living creature. </p><p>Published in Dragon Magazine 376, page(s) 39. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"CxMwf9blDnu0O2Ep",
+	"_key":"!items!CxMwf9blDnu0O2Ep"
+}

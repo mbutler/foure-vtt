@@ -1,0 +1,33 @@
+{
+	"name":"Rigged Chance",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Halfling </p><p><b>Benefit: </b>The first time you use your second chance racial power in an encounter, you regain the use of the power if the attack still hits you. </p><p>Published in Dragon Magazine 381, page(s) 82. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"2l1ykUYQ4DdwpXIF",
+	"_key":"!items!2l1ykUYQ4DdwpXIF"
+}

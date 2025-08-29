@@ -1,0 +1,33 @@
+{
+	"name":"Maddening Delusion (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you use memory of a thousand lifetimes to add to an attack and that attack hits, the target takes a -2 penalty to its attack rolls and grants combat advantage until the end of your next turn. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"fgbaqEpdi2soOkUS",
+	"_key":"!items!fgbaqEpdi2soOkUS"
+}

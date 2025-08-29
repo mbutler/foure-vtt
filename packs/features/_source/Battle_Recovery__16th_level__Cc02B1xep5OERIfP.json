@@ -1,0 +1,33 @@
+{
+	"name":"Battle Recovery (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you use your second wind, you regain the use of the lowest-level encounter attack power you have expended during this encounter. </p><p>Published in Martial Power 2, page(s) 97. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"Cc02B1xep5OERIfP",
+	"_key":"!items!Cc02B1xep5OERIfP"
+}

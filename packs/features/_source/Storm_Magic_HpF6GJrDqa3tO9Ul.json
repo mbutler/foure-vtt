@@ -1,0 +1,33 @@
+{
+	"name":"Storm Magic",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>The raw and unbridled fury of storm powers your spells. While others might flee a storm, you embrace its power, internalize the force, and then unleash it. The impetuous, unpredictable power resident in the storm is your greatest ally. Like a tempest, you never give up and never give in until you are completely spent. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"HpF6GJrDqa3tO9Ul",
+	"_key":"!items!HpF6GJrDqa3tO9Ul"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Dragon's Challenge (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you use divine challenge to mark a dragon, it takes a -4 penalty to any attack that does not include you as a target, instead of -2. When a dragon takes damage from your divine challenge, it takes additional damage equal to your Wisdom modifier. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"HSCWhMxJF0smIQrZ",
+	"_key":"!items!HSCWhMxJF0smIQrZ"
+}

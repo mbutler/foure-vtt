@@ -1,0 +1,33 @@
+{
+	"name":"Level 6 Cavalier Utility Power",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You gain one of the following powers of your choice.</p>\n<p>@UUID[Compendium.dnd-4e-compendium.module-powers.D04eAt6voFx8qVZU]{Bond of Protection}@UUID[Compendium.dnd-4e-compendium.module-powers.IcQ3P8HAaJEYRzf9]{Wrath of the Gods}</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"vaVMU7G10ldN6qpR",
+	"_key":"!items!vaVMU7G10ldN6qpR"
+}

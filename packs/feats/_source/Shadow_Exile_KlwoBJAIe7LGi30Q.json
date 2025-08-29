@@ -1,0 +1,33 @@
+{
+	"name":"Shadow Exile",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Shadar-kai, shadow jaunt racial power </p><p><b>Benefit: </b>When you use your shadow jaunt power, you can choose to remove yourself from play rather than teleporting. If so, you return to the square you last occupied or the nearest unoccupied square to that square at the start of your next turn. </p><p>Published in Dragon Magazine 391. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"KlwoBJAIe7LGi30Q",
+	"_key":"!items!KlwoBJAIe7LGi30Q"
+}

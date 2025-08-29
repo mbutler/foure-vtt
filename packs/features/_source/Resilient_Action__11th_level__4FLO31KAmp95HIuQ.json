@@ -1,0 +1,33 @@
+{
+	"name":"Resilient Action (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you spend an action point to make an extra attack, you also gain resist 10 to one of the following damage types until the end of the encounter: acid, cold, fire, lightning, or poison. At 21st level, the resistance increases to 15. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"4FLO31KAmp95HIuQ",
+	"_key":"!items!4FLO31KAmp95HIuQ"
+}

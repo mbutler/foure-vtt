@@ -1,0 +1,33 @@
+{
+	"name":"Mighty Spirit",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>21st level, shaman, Companion Spirit class feature </p><p><b>Benefit: </b>Any benefits granted to allies adjacent to your spirit companion apply to all allies within 2 squares of your spirit companion. </p><p>Published in Player's Handbook 2, page(s) 194. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"TbpQo0nBGY9WD71O",
+	"_key":"!items!TbpQo0nBGY9WD71O"
+}

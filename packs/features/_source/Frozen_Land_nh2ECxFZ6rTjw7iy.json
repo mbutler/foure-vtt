@@ -1,0 +1,33 @@
+{
+	"name":"Frozen Land",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You gain a +1 bonus to Fortitude and Will. </p><p>At 4th level, you gain resist 5 cold. The resistance increases to 10 at 14th level and 15 at 24th level. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"nh2ECxFZ6rTjw7iy",
+	"_key":"!items!nh2ECxFZ6rTjw7iy"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Hellbound Fury (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you hit an enemy with hellish rebuke, you gain combat advantage against that enemy until the end of your next turn. </p><p>Published in Dragon Magazine 370, page(s) 37. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"JMacWbpIr1RC2xDE",
+	"_key":"!items!JMacWbpIr1RC2xDE"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Epic Evil (24th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you kill a creature with an attack, its space becomes a zone that lasts until the end of your next turn. While in the zone or adjacent to it, any enemy of yours takes a -2 penalty to attack rolls and grants combat advantage. </p><p>Published in The Book of Vile Darkness, page(s) 1-29. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"destiny"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"lN5XP43pfyBSR8ru",
+	"_key":"!items!lN5XP43pfyBSR8ru"
+}

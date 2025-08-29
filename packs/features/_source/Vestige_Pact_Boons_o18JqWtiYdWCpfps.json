@@ -1,0 +1,33 @@
+{
+	"name":"Vestige Pact Boons",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>The pact boons associated with the primary vestiges are given below. Other pact boons are described in the daily attack powers that give you&nbsp; access to new vestiges.</p>\n<p><strong>King Elidyr Pact Boon:</strong> One ally adjacent to you gains a +2 bonus to all defenses until the end of your next turn.</p>\n<p><strong>Zutwa Pact Boon:&nbsp;</strong>The bonus to attack rolls from your Prime Shot increases to +3 until the end of your next turn.</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":null,
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"flags":{},
+	"folder":null,
+	"sort":0,
+	"_id":"o18JqWtiYdWCpfps",
+	"_key":"!items!o18JqWtiYdWCpfps"
+}

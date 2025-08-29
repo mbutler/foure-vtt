@@ -1,0 +1,33 @@
+{
+	"name":"Soothing Presence (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Bloodied allies gain regeneration 2 while adjacent to you. </p><p>Published in Dark Sun Campaign Setting, page(s) 48. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"FcHIWVRMdXADsLey",
+	"_key":"!items!FcHIWVRMdXADsLey"
+}

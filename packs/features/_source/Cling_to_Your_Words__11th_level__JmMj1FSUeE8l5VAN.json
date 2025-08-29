@@ -1,0 +1,33 @@
+{
+	"name":"Cling to Your Words (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Whenever an ally in your skald's aura drops below 1 hit point, you can use the aura's healing benefit on that ally as an immediate reaction, but only if the aura's healing benefit has uses remaining. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"JmMj1FSUeE8l5VAN",
+	"_key":"!items!JmMj1FSUeE8l5VAN"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Vergadain, Merchant King",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Type: </b>Exarch </p><p><b>Alignment: </b>Unaligned </p><p><b>Gender: </b>Male </p><p><b>Sphere: </b>Wealth </p><p><b>Dominion: </b>Dwarfhome </p><p><b>Priests: </b>- </p><p><b>Adjective: </b>Vergadanian </p><p>On the surface, Vergadain represents the dwarves' well-known dedication to the art of the merchant-the personification of a hard bargain struck after a hearty session of haggling. Those who pay attention, however, know that the Merchant King has an aspect that, if not darker, seldom fills more legal-minded dwarves with pride. As a patron of luck and trickery, Vergadain also oversees those dwarves who use illicit means to gain their wealth. </p><p>Published in Forgotten Realms Campaign Guide, page(s) 81. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"other"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"LxbiBFQEf8hc7WHT",
+	"_key":"!items!LxbiBFQEf8hc7WHT"
+}

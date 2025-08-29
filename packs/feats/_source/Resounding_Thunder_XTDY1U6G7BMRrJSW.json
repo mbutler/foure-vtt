@@ -1,0 +1,33 @@
+{
+	"name":"Resounding Thunder",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>11th level </p><p><b>Benefit: </b>You can add 1 to the size of any blast or burst that has the thunder keyword. </p><p>Published in Player's Handbook, page(s) 205. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"XTDY1U6G7BMRrJSW",
+	"_key":"!items!XTDY1U6G7BMRrJSW"
+}

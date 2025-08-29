@@ -1,0 +1,33 @@
+{
+	"name":"Predicted Action (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you spend an action point to make an attack, the attack is against the lowest of each target's Fortitude, Reflex, or Will. If you spend an action point to take an action that grants an attack to an ally, you can apply this benefit to the ally instead of to yourself. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"uk49Vlcqi21NLjb0",
+	"_key":"!items!uk49Vlcqi21NLjb0"
+}

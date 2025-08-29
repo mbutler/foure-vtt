@@ -1,0 +1,33 @@
+{
+	"name":"Choir of Swords (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>While your bladesong is active, you can spend an action point to make a melee basic attack against each enemy adjacent to you as a standard action. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"H6PuFVzUIStGMf7m",
+	"_key":"!items!H6PuFVzUIStGMf7m"
+}

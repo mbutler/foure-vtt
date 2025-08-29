@@ -1,0 +1,33 @@
+{
+	"name":"Serpent Fang Style",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Any martial class, trained in Thievery </p><p><b>Benefit: </b>You gain a benefit with any of the following powers you possess. </p><p>Careful Attack (ranger): If you hit with this exploit, you also gain a +2 bonus to the attack roll for any secondary poison attack. </p><p>Deft Strike (rogue): Rather than moving 2 squares before the attack, you can apply a poison you possess to the weapon as a free action. </p><p>Sure Strike (fighter): If you hit with this exploit, you also gain a +2 bonus to the attack roll for any secondary poison attack. </p><p>Viper's Strike (warlord): If the target of your attack suffers from a poison effect and it shifts before the start of your next turn, the target also grants combat advantage to you and your allies until the start of your next turn. </p><p>Published in Dragon Magazine 373, page(s) 19. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"VBSRGmWFh05EZ348",
+	"_key":"!items!VBSRGmWFh05EZ348"
+}

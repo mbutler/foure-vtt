@@ -1,0 +1,33 @@
+{
+	"name":"Defiler's Rejuvenation",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>21st level, arcane defiling power, 1 or more power points </p><p><b>Benefit: </b>When your arcane defiling deals damage to one or more of your allies, you regain 2 power points. </p><p>Published in Dark Sun Campaign Setting, page(s) 115. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"Ajc0JaSUtBCl7LWG",
+	"_key":"!items!Ajc0JaSUtBCl7LWG"
+}

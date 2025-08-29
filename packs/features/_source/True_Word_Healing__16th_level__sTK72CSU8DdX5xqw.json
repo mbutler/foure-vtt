@@ -1,0 +1,33 @@
+{
+	"name":"True Word Healing (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Whenever you use a power that lets you spend a healing surge, each ally within 3 squares of you can also spend a healing surge. </p><p>Published in Eberron Player's Guide, page(s) 76. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"sTK72CSU8DdX5xqw",
+	"_key":"!items!sTK72CSU8DdX5xqw"
+}

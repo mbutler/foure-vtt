@@ -1,0 +1,33 @@
+{
+	"name":"Extra Manifestation",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Genasi </p><p><b>Benefit: </b>Select a new genasi elemental manifestation. When you take a short rest or an extended rest, you can adopt this new elemental manifestation instead of the one you had been exhibiting. </p><p>Special: You can take this feat multiple times, choosing a new manifestation each time. When you take a short rest or an extended rest, you can choose to switch between any of the elemental manifestations you know. </p><p>Published in Forgotten Realms Player's Guide, page(s) 133. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"i0rzEa9BIhjbVpFs",
+	"_key":"!items!i0rzEa9BIhjbVpFs"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Enduring Spirit (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Once per round, when you fail a saving throw, an ally within 5 squares of you can make a saving throw. </p><p>Published in Player's Handbook 2, page(s) 97. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"6WUwL18Dr9kQSb4o",
+	"_key":"!items!6WUwL18Dr9kQSb4o"
+}

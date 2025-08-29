@@ -1,0 +1,33 @@
+{
+	"name":"Knight's Resurgence (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>While you are bloodied, you can use your second wind as a free action on your turn. </p><p>Published in Divine Power, page(s) 103. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"IG4xpnKA8qFZVusQ",
+	"_key":"!items!IG4xpnKA8qFZVusQ"
+}

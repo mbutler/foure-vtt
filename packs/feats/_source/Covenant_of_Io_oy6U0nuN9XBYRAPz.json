@@ -1,0 +1,33 @@
+{
+	"name":"Covenant of Io",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Dragonborn, dragon breath racial power, invoker, Divine Covenant class feature </p><p><b>Benefit: </b>Your dragon breath power is considered a divine attack power. In addition, when you use an invoker at-will attack power that has a burst area of effect, you can choose to make it a close blast 3 instead of an area power. The other effects of the power are unchanged. </p><p>Published in Player's Handbook Races: Dragonborn, page(s) 22. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"oy6U0nuN9XBYRAPz",
+	"_key":"!items!oy6U0nuN9XBYRAPz"
+}

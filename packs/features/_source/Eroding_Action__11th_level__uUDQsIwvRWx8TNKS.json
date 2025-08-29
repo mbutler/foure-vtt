@@ -1,0 +1,33 @@
+{
+	"name":"Eroding Action (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you spend an action point to make an attack, any target hit by that attack gains vulnerable necrotic and vulnerable psychic equal to 3 + your Charisma modifier (save ends both). </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"uUDQsIwvRWx8TNKS",
+	"_key":"!items!uUDQsIwvRWx8TNKS"
+}

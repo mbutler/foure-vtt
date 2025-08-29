@@ -1,0 +1,33 @@
+{
+	"name":"Parentage - Monk Business Background",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Type: </b>Birth </p><p><b>Campaign Setting: </b>General </p><p>The quiet people of a monastery raised you and taught you their ways. Are you still in touch with the monks, and what philosophies did they espouse? </p><p><i>Associated Skills: </i>Heal, History </p><p>Published in Dragon Magazine 383, page(s) 79. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"background"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"C2Go4VR7DWwBd8Ux",
+	"_key":"!items!C2Go4VR7DWwBd8Ux"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Renegade Red Wizard Background",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Type: </b>Campaign </p><p><b>Campaign Setting: </b>Neverwinter </p><p><b>Prerequisite: </b>Wizard (mage) </p><p>You might have gravitated toward an aspect of your training as a Red Wizard, learning as much as you could about the body or the soul. Or, your life on the run from other Red Wizards could have caused you to develop a talent for deception or disguise. </p><p><i>Associated Skills: </i>Bluff, Heal, Religion, Stealth </p><p>Published in Neverwinter Campaign Setting, page(s) 37. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"background"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"UwXdu18fPxnlvYBo",
+	"_key":"!items!UwXdu18fPxnlvYBo"
+}

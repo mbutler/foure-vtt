@@ -1,0 +1,33 @@
+{
+	"name":"Feyborn Companion",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Eladrin, ranger, Beast Mastery class feature </p><p><b>Benefit: </b>Your beast companion gains the fey origin, instead of the natural origin, and a +5 bonus to saving throws against charm effects. </p><p>When you use your fey step racial power, your beast companion can teleport the same distance that you teleport. </p><p>Published in Martial Power, page(s) 136. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"qiRJClurSyI4v19c",
+	"_key":"!items!qiRJClurSyI4v19c"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Ragespell's Action (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>If you spend an action point to take an attack action against a single target, you deal 1d10 extra damage or deal 2d10 extra damage if the target is size Large or larger. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"7ZipDjCB8nvuYywW",
+	"_key":"!items!7ZipDjCB8nvuYywW"
+}

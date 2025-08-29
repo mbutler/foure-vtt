@@ -1,0 +1,33 @@
+{
+	"name":"Cosmic Experience (24th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You have seen so much that whatever happens to you seems already familiar. You gain a +5 bonus to initiative checks, knowledge checks, and monster knowledge checks. In addition, you can speak all languages. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"destiny"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"JLpDOIMhqX0eKgFr",
+	"_key":"!items!JLpDOIMhqX0eKgFr"
+}

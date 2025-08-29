@@ -1,0 +1,33 @@
+{
+	"name":"Ambush Tactics",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Any martial class </p><p><b>Benefit: </b>The first enemy you damage during the first round of an encounter takes 1d6 extra damage if it has not yet acted. </p><p>Published in Martial Power 2, page(s) 131. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"tzRe4uTWE2mdGBXA",
+	"_key":"!items!tzRe4uTWE2mdGBXA"
+}

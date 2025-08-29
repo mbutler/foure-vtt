@@ -1,0 +1,33 @@
+{
+	"name":"Intrepid Hunter (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you designate your quarry, you can mark the creature until it is no longer your quarry. You gain a +2 bonus to attack rolls against a quarry marked by you, and you gain a +5 bonus to Perception checks to perceive or track it. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"T8XvHr9OfzduPE3A",
+	"_key":"!items!T8XvHr9OfzduPE3A"
+}

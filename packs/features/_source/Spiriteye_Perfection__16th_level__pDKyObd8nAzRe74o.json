@@ -1,0 +1,33 @@
+{
+	"name":"Spiriteye Perfection (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Your spiriteye floats above you when you manifest it, and you can mentally control its attacks. It no longer requires any hands to wield it, and when you use it to make a ranged basic attack, it does not provoke opportunity attacks. </p><p>Published in Dragon Magazine 394. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"pDKyObd8nAzRe74o",
+	"_key":"!items!pDKyObd8nAzRe74o"
+}

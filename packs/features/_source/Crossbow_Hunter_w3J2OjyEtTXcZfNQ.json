@@ -1,0 +1,33 @@
+{
+	"name":"Crossbow Hunter",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You gain the Crossbow Expertise feat. </p><p>Also, if a crossbow you wield has the load minor property, you can instead reload it as a free action. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"w3J2OjyEtTXcZfNQ",
+	"_key":"!items!w3J2OjyEtTXcZfNQ"
+}

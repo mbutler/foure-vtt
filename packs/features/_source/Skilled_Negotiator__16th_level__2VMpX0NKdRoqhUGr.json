@@ -1,0 +1,33 @@
+{
+	"name":"Skilled Negotiator (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You never incur failures in a skill challenge for Bluff, Diplomacy, or Streetwise checks you fail by 5 or less. </p><p>Published in Dark Sun Campaign Setting, page(s) 45. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"2VMpX0NKdRoqhUGr",
+	"_key":"!items!2VMpX0NKdRoqhUGr"
+}

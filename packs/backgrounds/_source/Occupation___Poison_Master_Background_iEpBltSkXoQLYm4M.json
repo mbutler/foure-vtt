@@ -1,0 +1,33 @@
+{
+	"name":"Occupation - Poison Master Background",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Type: </b>Occupation </p><p><b>Campaign Setting: </b>General </p><p>You were a master of poisons. How did you learn this trade? What sorts of enemies did you use poison against? Why are poisons your preferred tools? Did you use these concoctions yourself or did you sell them? If you sold them, what made you stop? </p><p><i>Associated Skills: </i>Nature, Thievery </p><p>Published in Dragon Magazine 373, page(s) 8. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"background"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"iEpBltSkXoQLYm4M",
+	"_key":"!items!iEpBltSkXoQLYm4M"
+}

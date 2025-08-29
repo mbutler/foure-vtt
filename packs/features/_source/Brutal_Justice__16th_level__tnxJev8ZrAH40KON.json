@@ -1,0 +1,33 @@
+{
+	"name":"Brutal Justice (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you reduce a target marked by you to 0 hit points, you gain a +2 bonus to attack rolls until the end of your next turn. </p><p>Published in Martial Power, page(s) 24. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"tnxJev8ZrAH40KON",
+	"_key":"!items!tnxJev8ZrAH40KON"
+}

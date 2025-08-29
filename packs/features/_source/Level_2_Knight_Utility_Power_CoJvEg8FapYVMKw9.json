@@ -1,0 +1,33 @@
+{
+	"name":"Level 2 Knight Utility Power",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You gain one of the following powers of your choice.</p>\n<p>@UUID[Compendium.dnd-4e-compendium.module-powers.Vdpfwe6XBq2OxzWT]{Battle Leader}@UUID[Compendium.dnd-4e-compendium.module-powers.LT6SVQz1pG0lHvY5]{Glowering Threat}@UUID[Compendium.dnd-4e-compendium.module-powers.xpfnKLq30gF4CaOU]{Minor Resurgence}@UUID[Compendium.dnd-4e-compendium.module-powers.ICjeTGsVNoplM2aH]{Push Forward}</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"CoJvEg8FapYVMKw9",
+	"_key":"!items!CoJvEg8FapYVMKw9"
+}

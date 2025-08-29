@@ -1,0 +1,33 @@
+{
+	"name":"Mark of the Evil Eye [Vistani Bloodline]",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>11th level, fighter, Vistani Heritage </p><p><b>Benefit: </b>Whenever you would make an attack as the result of your Combat Challenge feature, you can use evil eye of the Vistani, if available, on the same target as a free action without provoking opportunity attacks before making your attack. </p><p>Published in Dragon Magazine 380, page(s) 87. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"eZxOFzRIXSwaljYE",
+	"_key":"!items!eZxOFzRIXSwaljYE"
+}

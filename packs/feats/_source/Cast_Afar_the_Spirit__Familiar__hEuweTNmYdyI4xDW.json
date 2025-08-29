@@ -1,0 +1,33 @@
+{
+	"name":"Cast Afar the Spirit [Familiar]",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Arcane Familiar feat </p><p><b>Benefit: </b>When you switch your familiar into active mode, you can teleport it up to 5 squares. </p><p>Published in Dragon Magazine 382, page(s) 28. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"hEuweTNmYdyI4xDW",
+	"_key":"!items!hEuweTNmYdyI4xDW"
+}

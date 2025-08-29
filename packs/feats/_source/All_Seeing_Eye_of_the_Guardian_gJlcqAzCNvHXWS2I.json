@@ -1,0 +1,33 @@
+{
+	"name":"All-Seeing Eye of the Guardian",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>21st level, paladin </p><p><b>Benefit: </b>Allies adjacent to you do not grant combat advantage due to being flanked. </p><p>Published in Dragon Magazine 381, page(s) 93. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"gJlcqAzCNvHXWS2I",
+	"_key":"!items!gJlcqAzCNvHXWS2I"
+}

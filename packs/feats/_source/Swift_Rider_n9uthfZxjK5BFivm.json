@@ -1,0 +1,33 @@
+{
+	"name":"Swift Rider",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>11th level, elf, Mounted Combat feat </p><p><b>Benefit: </b>You gain a +1 feat bonus to your speed and a +2 feat bonus to the speed of any mount you are riding. </p><p>Published in Dragon Magazine 385, page(s) 64. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"n9uthfZxjK5BFivm",
+	"_key":"!items!n9uthfZxjK5BFivm"
+}

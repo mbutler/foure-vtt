@@ -1,0 +1,33 @@
+{
+	"name":"Shadow Poisoner",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Assassin, at least one daily attack power that has a level </p><p><b>Benefit: </b>You learn the recipe for one assassin poison of your level or lower, as per the executioner's Poison Use class feature. When you take an extended rest, you can choose to lose the use of one of your daily attack powers; if you do so, you can create one vial of an assassin poison of a level that is less than or equal to the level of the power you lost. </p><p>Published in Dragon Magazine 402. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"l0sPZXRKE8GmvLD3",
+	"_key":"!items!l0sPZXRKE8GmvLD3"
+}

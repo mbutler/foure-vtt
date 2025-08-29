@@ -1,0 +1,33 @@
+{
+	"name":"Human Power Selection",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Choose an option for your human character.</p>\n<p><em>Bonus At-Will Power </em>You know one extra 1st level at-will attack power from your class.</p>\n<p><em>Heroic Effort </em>You have the heroic effort power.</p>\n<p>&nbsp;</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"race"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"yihTIEXNla70B5Cs",
+	"_key":"!items!yihTIEXNla70B5Cs"
+}

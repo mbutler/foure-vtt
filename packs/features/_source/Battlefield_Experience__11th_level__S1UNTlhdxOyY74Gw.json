@@ -1,0 +1,33 @@
+{
+	"name":"Battlefield Experience (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You can designate more than one creature as your quarry at a time, up to a number equal to your Wisdom modifier. In addition, any attack made against a quarry receives a +1 bonus to attack rolls. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"S1UNTlhdxOyY74Gw",
+	"_key":"!items!S1UNTlhdxOyY74Gw"
+}

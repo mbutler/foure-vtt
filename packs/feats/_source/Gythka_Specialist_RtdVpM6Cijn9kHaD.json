@@ -1,0 +1,33 @@
+{
+	"name":"Gythka Specialist",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>10th level, proficiency with gythka </p><p><b>Benefit: </b>You swap one of your level 9 or higher daily attack powers for the gythka arc slam power. </p><p>Published in Dark Sun Campaign Setting, page(s) 109. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"RtdVpM6Cijn9kHaD",
+	"_key":"!items!RtdVpM6Cijn9kHaD"
+}

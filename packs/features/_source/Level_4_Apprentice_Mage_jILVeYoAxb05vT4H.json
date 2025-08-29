@@ -1,0 +1,33 @@
+{
+	"name":"Level 4 Apprentice Mage",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Choose a school of magic different from the one you chose at 1st level. You gain the Apprentice Mage benefit associated with your second school.</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"jILVeYoAxb05vT4H",
+	"_key":"!items!jILVeYoAxb05vT4H"
+}

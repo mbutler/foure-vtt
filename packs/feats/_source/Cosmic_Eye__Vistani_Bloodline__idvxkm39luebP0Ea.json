@@ -1,0 +1,33 @@
+{
+	"name":"Cosmic Eye [Vistani Bloodline]",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Sorcerer, Cosmic Magic class feature, Vistani Heritage </p><p><b>Benefit: </b>Evil eye of the Vistani deals fire and radiant damage equal to your Cosmic Power damage bonus. </p><p>Published in Dragon Magazine 380, page(s) 85. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"idvxkm39luebP0Ea",
+	"_key":"!items!idvxkm39luebP0Ea"
+}

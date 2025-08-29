@@ -1,0 +1,33 @@
+{
+	"name":"Shevarash, The Black Archer",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Type: </b>Exarch </p><p><b>Alignment: </b>Unaligned </p><p><b>Gender: </b>Male </p><p><b>Sphere: </b>Vengeance </p><p><b>Dominion: </b>Arvandor </p><p><b>Priests: </b>Dhaeraowathila </p><p><b>Adjective: </b>Shevarashan </p><p>Shevarash is taciturn, violent, and consumed by thoughts of bitterness and revenge. He never displays any emotion aside from anger and a brief exultation or triumph after each victory. The Black Archer has no patience for those who do not share his zeal for vengeance, and he has no interest in moderating his crusade in the interests of peace. </p><p>Published in Forgotten Realms Campaign Guide, page(s) 81. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"other"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"pA6TrxwuHIUthesR",
+	"_key":"!items!pA6TrxwuHIUthesR"
+}

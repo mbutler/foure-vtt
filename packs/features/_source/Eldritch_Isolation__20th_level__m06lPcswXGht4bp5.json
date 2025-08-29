@@ -1,0 +1,33 @@
+{
+	"name":"Eldritch Isolation (20th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you use power strike, you and your target both teleport up to 5 squares to squares of your choosing that are adjacent to each other. You cannot end the teleport for you or the target in hindering terrain. </p><p>Published in Dragon Magazine 395. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"m06lPcswXGht4bp5",
+	"_key":"!items!m06lPcswXGht4bp5"
+}

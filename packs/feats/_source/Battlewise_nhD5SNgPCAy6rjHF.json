@@ -1,0 +1,33 @@
+{
+	"name":"Battlewise",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Benefit: </b>You can substitute your Wisdom modifier for your Dexterity modifier when making initiative checks. </p><p>Published in Heroes of the Forgotten Kingdoms, page(s) 310. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"nhD5SNgPCAy6rjHF",
+	"_key":"!items!nhD5SNgPCAy6rjHF"
+}

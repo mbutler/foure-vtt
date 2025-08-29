@@ -1,0 +1,33 @@
+{
+	"name":"Dakshai's Body-Mind Union",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Githzerai, iron mind racial power </p><p><b>Benefit: </b>When you are subjected to an effect that a save can end, you can expend the use of your iron mind as an immediate interrupt to make a saving throw with a +5 bonus against that effect, instead of gaining the normal effect of iron mind. </p><p>Published in Player's Handbook 3, page(s) 180. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"Oveclq2KpzFyP3g1",
+	"_key":"!items!Oveclq2KpzFyP3g1"
+}

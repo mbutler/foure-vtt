@@ -1,0 +1,33 @@
+{
+	"name":"Disgraced Noble Background",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Campaign Setting: </b>General </p><p>Disgraced nobles don't spend as much time cavorting with society's elite as their more esteemed peers, but they still remember the rules of diplomacy. They are also practiced liars. </p><p><i>Associated Skills: </i>Bluff, Diplomacy </p><p>Published in The Book of Vile Darkness, page(s) 1-14. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"background"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"wA2QV4WrXiHJjf5v",
+	"_key":"!items!wA2QV4WrXiHJjf5v"
+}

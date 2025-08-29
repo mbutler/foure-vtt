@@ -1,0 +1,33 @@
+{
+	"name":"Marauding Fury (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Once per round, when you miss with a melee attack while you are bloodied, you can make a melee basic attack against the same target as a free action. </p><p>Published in Martial Power, page(s) 32. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"Nq8ZKYmj0JnzPfIU",
+	"_key":"!items!Nq8ZKYmj0JnzPfIU"
+}

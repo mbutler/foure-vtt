@@ -1,0 +1,33 @@
+{
+	"name":"Brutal Teamwork",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Str 15, dragonborn, rogue </p><p><b>Benefit: </b>You gain a +2 bonus to damage rolls when you are adjacent to at least one ally. </p><p>Published in Martial Power, page(s) 133. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"Y7EN5pzPtdafxqjH",
+	"_key":"!items!Y7EN5pzPtdafxqjH"
+}

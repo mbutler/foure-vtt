@@ -1,0 +1,33 @@
+{
+	"name":"Clinging Shadows (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>In addition to its normal effects, the area of your cloud of darkness power is also difficult terrain for all creatures except you. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"Sg0iGHa9qA6lorws",
+	"_key":"!items!Sg0iGHa9qA6lorws"
+}

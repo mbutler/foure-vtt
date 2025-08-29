@@ -1,0 +1,33 @@
+{
+	"name":"Level 10 Hexblade Utility Power",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You gain one of the following powers of your choice.</p>\n<p>@UUID[Compendium.dnd-4e-compendium.module-powers.gOl4zLw5Q1HEuDZr]{Duelist's Dance}@UUID[Compendium.dnd-4e-compendium.module-powers.DpWxwl69ZT3UiQCq]{Smothering Darkness}@UUID[Compendium.dnd-4e-compendium.module-powers.g1fxnRwoC4ZN9KUP]{Spined Devil's Boon}</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"4u5A0GNcQn3MxXaO",
+	"_key":"!items!4u5A0GNcQn3MxXaO"
+}

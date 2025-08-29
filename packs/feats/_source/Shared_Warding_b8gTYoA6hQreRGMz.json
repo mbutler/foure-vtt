@@ -1,0 +1,33 @@
+{
+	"name":"Shared Warding",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>21st level, swordmage, Swordmage Warding class feature </p><p><b>Benefit: </b>While your Swordmage Warding is active, each ally adjacent to you gains a +1 bonus to AC. </p><p>Published in Arcane Power, page(s) 135. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"b8gTYoA6hQreRGMz",
+	"_key":"!items!b8gTYoA6hQreRGMz"
+}

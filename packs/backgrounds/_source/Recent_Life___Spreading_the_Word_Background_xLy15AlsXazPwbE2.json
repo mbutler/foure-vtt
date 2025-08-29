@@ -1,0 +1,33 @@
+{
+	"name":"Recent Life - Spreading the Word Background",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Campaign Setting: </b>General </p><p>Wherever you have gone, you have done the work of your deity. Have you won converts or made enemies? </p><p><i>Associated Skills: </i>History, Religion </p><p>Published in Dragon Magazine 383, page(s) 81. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"background"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"xLy15AlsXazPwbE2",
+	"_key":"!items!xLy15AlsXazPwbE2"
+}

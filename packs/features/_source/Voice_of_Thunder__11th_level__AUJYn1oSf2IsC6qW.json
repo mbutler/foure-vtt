@@ -1,0 +1,33 @@
+{
+	"name":"Voice of Thunder (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you spend an action point to take an extra action, the size of any close burst attack you make during that action increases by 1, and the size of any close blast attack you make during that action increases by 2. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"AUJYn1oSf2IsC6qW",
+	"_key":"!items!AUJYn1oSf2IsC6qW"
+}

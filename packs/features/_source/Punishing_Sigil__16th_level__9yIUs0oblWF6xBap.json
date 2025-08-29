@@ -1,0 +1,33 @@
+{
+	"name":"Punishing Sigil (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Whenever an enemy marked by you within 5 squares of you hits an ally who is adjacent to you, you can make a melee basic attack against that enemy as an opportunity action. You can make the attack even if the creature is beyond your normal reach. </p><p>Published in Arcane Power, page(s) 67. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"9yIUs0oblWF6xBap",
+	"_key":"!items!9yIUs0oblWF6xBap"
+}

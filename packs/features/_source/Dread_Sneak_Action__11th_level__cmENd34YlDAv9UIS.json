@@ -1,0 +1,33 @@
+{
+	"name":"Dread Sneak Action (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you spend an action point to make an attack against a target granting combat advantage to you, you can deal Sneak Attack damage even if you have already dealt Sneak Attack damage during this round. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"cmENd34YlDAv9UIS",
+	"_key":"!items!cmENd34YlDAv9UIS"
+}

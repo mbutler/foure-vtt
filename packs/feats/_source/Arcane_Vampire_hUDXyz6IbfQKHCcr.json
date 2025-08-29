@@ -1,0 +1,33 @@
+{
+	"name":"Arcane Vampire",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Vampire and any arcane class </p><p><b>Benefit: </b>Once per encounter, when your arcane encounter attack power hits at least one enemy, you gain a healing surge. </p><p>As a free action when you use an arcane encounter attack power, you can lose a healing surge to gain a bonus to the power's damage roll equal to your Charisma modifier. </p><p>Published in Dragon Magazine 402. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"hUDXyz6IbfQKHCcr",
+	"_key":"!items!hUDXyz6IbfQKHCcr"
+}

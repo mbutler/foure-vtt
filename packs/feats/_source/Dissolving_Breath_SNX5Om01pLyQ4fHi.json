@@ -1,0 +1,33 @@
+{
+	"name":"Dissolving Breath",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>21st level, dragonborn, dragon breath racial power that deals acid damage, Corrosive Breath feat </p><p><b>Benefit: </b>Each creature hit by your dragon breath takes a -3 penalty to all defenses until the end of your next turn. </p><p>Published in Player's Handbook Races: Dragonborn, page(s) 25. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"SNX5Om01pLyQ4fHi",
+	"_key":"!items!SNX5Om01pLyQ4fHi"
+}

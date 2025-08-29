@@ -1,0 +1,37 @@
+{
+	"name":"Winged Revival",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>21st level, deva, Upright Revival </p><p><b>Benefit: </b>As a free action triggered when you stand due to Upright Revival, you can fly a number of squares equal to your speed. </p><p>Published in Dragon Magazine 374, page(s) 50. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"descriptionGM":{
+			"value":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":"",
+			"autoanimationHook":""
+		},
+		"requirements":"",
+		"level":null,
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"78XuHK0pjTJx3ZwG",
+	"_key":"!items!78XuHK0pjTJx3ZwG"
+}

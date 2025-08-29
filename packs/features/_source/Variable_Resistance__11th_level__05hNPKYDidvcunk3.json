@@ -1,0 +1,33 @@
+{
+	"name":"Variable Resistance (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Once per encounter as a minor action, you can change the damage type that you resist through your Dragon Soul or Wild Soul class feature. Choose the new damage type from those available in the class feature. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"05hNPKYDidvcunk3",
+	"_key":"!items!05hNPKYDidvcunk3"
+}

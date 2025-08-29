@@ -1,0 +1,33 @@
+{
+	"name":"Draconic Terror (30th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You gain the scathing breath power. </p><p>In addition, you can use draconic rampage once per encounter without expending its daily use. When you do so, the power's effect lasts until the end of your next turn instead of until the end of the encounter. </p><p>Published in Dark Sun Campaign Setting, page(s) 99. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"destiny"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"MtqxL43wYlSObDdn",
+	"_key":"!items!MtqxL43wYlSObDdn"
+}

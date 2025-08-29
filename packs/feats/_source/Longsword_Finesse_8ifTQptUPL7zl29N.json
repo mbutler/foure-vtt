@@ -1,0 +1,33 @@
+{
+	"name":"Longsword Finesse",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Eladrin, rogue </p><p><b>Benefit: </b>You can wield a longsword to deal Sneak Attack damage and to use rogue powers that require a light blade (you still cannot throw the longsword). You reduce Sneak Attack damage by one die when using a longsword. </p><p>Published in Martial Power, page(s) 137. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"8ifTQptUPL7zl29N",
+	"_key":"!items!8ifTQptUPL7zl29N"
+}

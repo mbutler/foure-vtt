@@ -1,0 +1,33 @@
+{
+	"name":"Enhanced Psychic Surge",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>11th level, wilder theme, psychic surge power </p><p><b>Benefit: </b>When you hit with your psychic surge, your attacks against the target before the end of your next turn can score a critical hit on a roll of 16-20. </p><p>Published in Dark Sun Campaign Setting, page(s) 114. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"dH3nQcL8EO9ISGaR",
+	"_key":"!items!dH3nQcL8EO9ISGaR"
+}

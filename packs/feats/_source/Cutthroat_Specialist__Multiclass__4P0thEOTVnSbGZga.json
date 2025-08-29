@@ -1,0 +1,33 @@
+{
+	"name":"Cutthroat Specialist [Multiclass]",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>10th level, Cutthroat </p><p><b>Benefit: </b>You can swap one 9th-level or higher daily attack power you know for the quick kill attack power. </p><p>Published in Dragon Magazine 373, page(s) 14. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"4P0thEOTVnSbGZga",
+	"_key":"!items!4P0thEOTVnSbGZga"
+}

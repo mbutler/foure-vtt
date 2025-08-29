@@ -1,0 +1,33 @@
+{
+	"name":"Io's Roar",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Dragonborn, dragon breath racial power, any psionic class </p><p><b>Benefit: </b>Any target hit by your dragon breath attack gains vulnerable 5 psychic until the end of your turn. </p><p>Published in Psionic Power, page(s) 131. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"M2uckDIlPzK3veYX",
+	"_key":"!items!M2uckDIlPzK3veYX"
+}

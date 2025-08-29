@@ -1,0 +1,33 @@
+{
+	"name":"Untouchable Athlete (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You gain a +5 bonus to all defenses against opportunity attacks while jumping 4 or more squares or while climbing. </p><p>Published in Dark Sun Campaign Setting, page(s) 31. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"WnDPj2BAUVs3Nwet",
+	"_key":"!items!WnDPj2BAUVs3Nwet"
+}

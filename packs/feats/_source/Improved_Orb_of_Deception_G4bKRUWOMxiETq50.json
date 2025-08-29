@@ -1,0 +1,33 @@
+{
+	"name":"Improved Orb of Deception",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>11th level, Cha 15, wizard, Orb of Deception class feature </p><p><b>Benefit: </b>While you wield an orb, any creature you hit with an arcane illusion power grants combat advantage to your next ally who attacks it before the start of your next turn. </p><p>Published in Arcane Power, page(s) 131. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"G4bKRUWOMxiETq50",
+	"_key":"!items!G4bKRUWOMxiETq50"
+}

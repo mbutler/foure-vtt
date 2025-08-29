@@ -1,0 +1,33 @@
+{
+	"name":"Battlemage Readiness (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you use your aegis of assault to teleport and make an attack, you can use a swordmage melee at-will attack power in place of the melee basic attack. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"4XLn5vyQ6VPeFsCO",
+	"_key":"!items!4XLn5vyQ6VPeFsCO"
+}

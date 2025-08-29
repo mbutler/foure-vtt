@@ -1,0 +1,33 @@
+{
+	"name":"Grave Dust Assassin",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Assassin, revenant, assassin's shroud power </p><p><b>Benefit: </b>When you deal damage with your dark reaping racial power, if the target has at least one of your shrouds on it, it takes damage as if you had invoked your shrouds. </p><p>Published in Dragon Magazine 379, page(s) 26. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"zw648fa3jV0ZCK1L",
+	"_key":"!items!zw648fa3jV0ZCK1L"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Opportunity Gore",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Minotaur, goring charge racial power </p><p><b>Benefit: </b>Whenever you make an opportunity attack, instead of making the usual melee basic attack, you can use your goring charge racial power without expending it, even if you have used it this encounter. When you do so, you ignore the power's requirement and action type, and your target is the creature that triggered the opportunity attack. </p><p>Published in Dragon Magazine 369, page(s) 9. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"7F0GZXj6xknhyR35",
+	"_key":"!items!7F0GZXj6xknhyR35"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Sambrese Rake",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Windrise Ports regional background </p><p><b>Benefit: </b>You gain a +3 bonus to Bluff checks made to gain combat advantage and can reroll each such check once. You must use the second result. Also, when you succeed on such a check, you can shift 1 square as part of the action. </p><p>Published in Dragon Magazine 376, page(s) 50. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"o63NTs79VDhyqeBp",
+	"_key":"!items!o63NTs79VDhyqeBp"
+}

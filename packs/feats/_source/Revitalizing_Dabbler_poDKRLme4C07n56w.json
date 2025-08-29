@@ -1,0 +1,33 @@
+{
+	"name":"Revitalizing Dabbler",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Half-elf </p><p><b>Benefit: </b>When you hit at least one target with the power you chose for your Dilettante racial trait, until the end of your next turn any creature that regains hit points from one of your healing powers regains 3 extra hit points. </p><p>Published in Dragon Magazine 385, page(s) 69. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"poDKRLme4C07n56w",
+	"_key":"!items!poDKRLme4C07n56w"
+}

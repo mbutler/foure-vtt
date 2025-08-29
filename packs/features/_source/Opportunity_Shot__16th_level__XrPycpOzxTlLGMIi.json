@@ -1,0 +1,33 @@
+{
+	"name":"Opportunity Shot (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Whenever you can make an opportunity attack, you can make a ranged basic attack in place of a melee basic attack. Your attack doesn't provoke opportunity attacks. </p><p>Published in Player's Handbook 3, page(s) 132. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"XrPycpOzxTlLGMIi",
+	"_key":"!items!XrPycpOzxTlLGMIi"
+}

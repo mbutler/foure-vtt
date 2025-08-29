@@ -1,0 +1,33 @@
+{
+	"name":"Guiding Rebuke",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>21st level, invoker, Covenant of Preservation class feature </p><p><b>Benefit: </b>When you use your preserver's rebuke power, one ally within 10 squares of you gains a bonus equal to your Intelligence modifier on his or her next attack roll against the triggering enemy. </p><p>Published in Divine Power, page(s) 141. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"ADZvCdz3aI8kbjKW",
+	"_key":"!items!ADZvCdz3aI8kbjKW"
+}

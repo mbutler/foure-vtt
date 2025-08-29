@@ -1,0 +1,33 @@
+{
+	"name":"Power Focus (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>During a short rest, choose one of your allies' class or paragon path encounter attack powers of 11th level or lower. At the end of the short rest, you can swap the encounter attack power you gained with imitating strike for the chosen attack power. The ally whose power you gain must be present during the entire short rest. </p><p>Published in Eberron Player's Guide, page(s) 60. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"2zSO7oVfP1thkreG",
+	"_key":"!items!2zSO7oVfP1thkreG"
+}

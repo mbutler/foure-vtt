@@ -1,0 +1,33 @@
+{
+	"name":"Righteous Inspiration (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you use inspiring word on a bloodied ally, all enemies adjacent to the target take radiant damage equal to your Charisma modifier and are marked by you until the end of your next turn. </p><p>Published in Martial Power, page(s) 127. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"4HMtP7gXRAhwNflS",
+	"_key":"!items!4HMtP7gXRAhwNflS"
+}

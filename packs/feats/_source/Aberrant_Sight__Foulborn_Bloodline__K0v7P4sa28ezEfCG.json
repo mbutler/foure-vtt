@@ -1,0 +1,33 @@
+{
+	"name":"Aberrant Sight [Foulborn Bloodline]",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>11th level, Foulborn Heritage </p><p><b>Benefit: </b>You gain darkvision. </p><p>Published in Psionic Power, page(s) 143. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"K0v7P4sa28ezEfCG",
+	"_key":"!items!K0v7P4sa28ezEfCG"
+}

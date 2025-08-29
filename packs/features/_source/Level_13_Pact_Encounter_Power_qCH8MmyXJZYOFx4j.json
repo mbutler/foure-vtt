@@ -1,0 +1,33 @@
+{
+	"name":"Level 13 Pact Encounter Power",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You gain an encounter attack power associated with your pact. This new power replaces the encounter attack power you gained at 1st level from your pact.</p>\n<p>@UUID[Compendium.dnd-4e-compendium.module-features.BRVXi2Y956FLEIaN]{Level 13 Fey Pact Encounter Power}@UUID[Compendium.dnd-4e-compendium.module-powers.XbPVaiNLpO8cMSuA]{Fleeting Call}@UUID[Compendium.dnd-4e-compendium.module-features.6uRpa1EoWF4rZ3Ht]{Level 13 Gloom Pact Encounter Power}@UUID[Compendium.dnd-4e-compendium.module-powers.fcobsQldPaXn13k0]{Haunting Shadow}@UUID[Compendium.dnd-4e-compendium.module-features.sZot2pSbB7myc5wE]{Level 13 Star Pact Encounter Power}@UUID[Compendium.dnd-4e-compendium.module-powers.mrMX6TzSQoE5l0w4]{Devouring Dark}</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"qCH8MmyXJZYOFx4j",
+	"_key":"!items!qCH8MmyXJZYOFx4j"
+}

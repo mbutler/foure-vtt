@@ -1,0 +1,33 @@
+{
+	"name":"Level 2 Scout Utility Power",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You gain one of the following powers of your choice.</p>\n<p>@UUID[Compendium.dnd-4e-compendium.module-powers.ufkWHhPS0Cm1NyaU]{Oak Skin}@UUID[Compendium.dnd-4e-compendium.module-powers.gC0zAV4jwmLPuTMW]{Ranger's Agility}@UUID[Compendium.dnd-4e-compendium.module-powers.dzlZWriqDxIyEn2X]{Safe Passage}</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"MqXaWoLYBexn1QuI",
+	"_key":"!items!MqXaWoLYBexn1QuI"
+}

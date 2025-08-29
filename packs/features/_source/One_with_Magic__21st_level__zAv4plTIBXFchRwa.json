@@ -1,0 +1,33 @@
+{
+	"name":"One with Magic (21st level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You develop an intuitive connection to the currents of arcane power surrounding you. Increase your Wisdom score by 2. You can use the detect magic function of the Arcana skill as a free action on your turn. After an extended rest, roll three d20 and keep the results. At any time before your next extended rest, you can substitute one of these results for that of an arcane attack roll or Arcana check you make. Doing so expends that saved result. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"destiny"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"zAv4plTIBXFchRwa",
+	"_key":"!items!zAv4plTIBXFchRwa"
+}

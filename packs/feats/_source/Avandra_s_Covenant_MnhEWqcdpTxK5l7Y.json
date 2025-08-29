@@ -1,0 +1,33 @@
+{
+	"name":"Avandra's Covenant",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Invoker, Divine Covenant class feature, must worship Avandra </p><p><b>Benefit: </b>When you use a divine encounter or daily attack power on your turn, you can allow an ally within 10 squares of you to make a saving throw instead of using your covenant manifestation. </p><p>Published in Dragon Magazine 384, page(s) 70. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"MnhEWqcdpTxK5l7Y",
+	"_key":"!items!MnhEWqcdpTxK5l7Y"
+}

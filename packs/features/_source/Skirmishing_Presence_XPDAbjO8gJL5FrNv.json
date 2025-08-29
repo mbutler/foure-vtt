@@ -1,0 +1,33 @@
+{
+	"name":"Skirmishing Presence",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When an ally who can see you spends an action point to make an attack, that ally can use a free action to shift a number of squares equal to your Intelligence or Wisdom modifier before or after the attack. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"XPDAbjO8gJL5FrNv",
+	"_key":"!items!XPDAbjO8gJL5FrNv"
+}

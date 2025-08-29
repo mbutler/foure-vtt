@@ -1,0 +1,33 @@
+{
+	"name":"Combat Casting",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Swordmage </p><p><b>Benefit: </b>When you use a melee swordmage attack power and hit an enemy, your ranged and area swordmage attack powers don't provoke opportunity attacks until the end of your next turn. </p><p>Published in Arcane Power, page(s) 124. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"EbKNpdcGSgFlLxzY",
+	"_key":"!items!EbKNpdcGSgFlLxzY"
+}

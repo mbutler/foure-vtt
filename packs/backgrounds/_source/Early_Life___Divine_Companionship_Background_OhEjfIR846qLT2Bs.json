@@ -1,0 +1,33 @@
+{
+	"name":"Early Life - Divine Companionship Background",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Campaign Setting: </b>General </p><p>You spent some time in the company of a god, exarch, or other divine influence. Do you feel more blessed than most? Do you know why this power took an interest in you? </p><p><i>Associated Skills: </i>Religion </p><p>Published in Dragon Magazine 383, page(s) 80. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"background"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"OhEjfIR846qLT2Bs",
+	"_key":"!items!OhEjfIR846qLT2Bs"
+}

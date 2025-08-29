@@ -1,0 +1,33 @@
+{
+	"name":"Disciple of Destruction",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Strength 13 </p><p><b>Benefit: </b>Whenever you bloody an enemy with an attack, that enemy takes 5 extra damage. </p><p>Published in The Book of Vile Darkness, page(s) 1-30. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"UcLOJvzSy3jwqpks",
+	"_key":"!items!UcLOJvzSy3jwqpks"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Crossbow Savant (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You add 5 squares to the normal range of any crossbow you wield and 10 squares to the long range. Treat a hand crossbow as an off-hand weapon, and treat any crossbow that has the load minor property as having the load free property instead. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"OhiGT1pgjNQsHZRA",
+	"_key":"!items!OhiGT1pgjNQsHZRA"
+}

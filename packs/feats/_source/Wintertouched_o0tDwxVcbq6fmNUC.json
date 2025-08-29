@@ -1,0 +1,33 @@
+{
+	"name":"Wintertouched",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Benefit: </b>When attacking a creature that is vulnerable to cold, you gain combat advantage when you use a power that has the cold keyword. </p><p>Published in Player's Handbook, page(s) 201. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"o0tDwxVcbq6fmNUC",
+	"_key":"!items!o0tDwxVcbq6fmNUC"
+}

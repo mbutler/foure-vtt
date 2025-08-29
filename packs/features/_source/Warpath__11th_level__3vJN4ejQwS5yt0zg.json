@@ -1,0 +1,33 @@
+{
+	"name":"Warpath (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Whenever you hit with a melee attack while raging, the attack deals 2 extra damage. In addition, whenever you start your turn adjacent to one or more enemies while you are raging and are able to take actions, you must make either a melee or a close attack against one of those enemies during your turn or be stunned until the end of your next turn. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"3vJN4ejQwS5yt0zg",
+	"_key":"!items!3vJN4ejQwS5yt0zg"
+}

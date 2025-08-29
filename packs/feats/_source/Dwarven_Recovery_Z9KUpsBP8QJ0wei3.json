@@ -1,0 +1,33 @@
+{
+	"name":"Dwarven Recovery",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>11th level, dwarf, any martial class </p><p><b>Benefit: </b>When you use your second wind, you gain a +5 bonus to saving throws until the end of your next turn. </p><p>Published in Martial Power 2, page(s) 142. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"Z9KUpsBP8QJ0wei3",
+	"_key":"!items!Z9KUpsBP8QJ0wei3"
+}

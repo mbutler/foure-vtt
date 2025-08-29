@@ -1,0 +1,33 @@
+{
+	"name":"Hero's Poise",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>11th level, paladin </p><p><b>Benefit: </b>When you succeed on a saving throw to end an effect, each ally that can see you within 5 squares of you gains a bonus to saving throws equal to your Charisma modifier until the start of your next turn. </p><p>Published in Dragon Magazine 388. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"OMRAIhjgXvfqzebd",
+	"_key":"!items!OMRAIhjgXvfqzebd"
+}

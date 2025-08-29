@@ -1,0 +1,33 @@
+{
+	"name":"Level 9 Bladesinger Daily Powers",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You add two new wizard encounter attack powers to your spellbook. The powers must be of 7th level or lower, and the two function as daily attack powers for you.</p>\n<p>@UUID[Compendium.dnd-4e-compendium.module-powers.ghNfy7D5z13aSLpA]{Lightning Bolt}@UUID[Compendium.dnd-4e-compendium.module-powers.VA9nKqCzHM1OSbeP]{Spectral Ram}@UUID[Compendium.dnd-4e-compendium.module-powers.7E4vIc2LZlbjNsYy]{Winter's Wrath}</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"QEgjDV8sNSF5vZ9O",
+	"_key":"!items!QEgjDV8sNSF5vZ9O"
+}

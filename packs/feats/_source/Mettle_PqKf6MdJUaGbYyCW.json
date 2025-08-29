@@ -1,0 +1,33 @@
+{
+	"name":"Mettle",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>11th level </p><p><b>Benefit: </b>When an area or close attack targeting your Fortitude or Will defense misses you and still deals damage on a miss, you take no damage from the attack. </p><p>Published in Player's Handbook, page(s) 204. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"PqKf6MdJUaGbYyCW",
+	"_key":"!items!PqKf6MdJUaGbYyCW"
+}

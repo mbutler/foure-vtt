@@ -1,0 +1,33 @@
+{
+	"name":"Halo of Warding",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>21st level, avenger, oath of enmity power </p><p><b>Benefit: </b>While you are adjacent to your oath of enmity target, you can make an opportunity attack against any other enemy that moves into a square adjacent to you, provided the enemy does not shift or is not moved into that square by teleportation or forced movement. </p><p>Published in Dragon Magazine 382, page(s) 41. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"qRFHZh4rukcEazts",
+	"_key":"!items!qRFHZh4rukcEazts"
+}

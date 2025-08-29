@@ -1,0 +1,33 @@
+{
+	"name":"Bardic Ritualist [Multiclass Bard]",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Int 13, Cha 13 </p><p><b>Benefit: </b>You gain training in the Arcana skill. You gain the bard's Bardic Training class feature. In addition, you can wield bard implements. </p><p>Addition (10/14/2009) </p><p>Add the following line: \"In addition, you can wield bard implements.\" </p><p>Published in Arcane Power, page(s) 136. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"AbESCqLO5wXR0yTJ",
+	"_key":"!items!AbESCqLO5wXR0yTJ"
+}

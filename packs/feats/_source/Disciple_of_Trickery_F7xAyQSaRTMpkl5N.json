@@ -1,0 +1,33 @@
+{
+	"name":"Disciple of Trickery",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Intelligence 13 </p><p><b>Benefit: </b>When you use your second wind on your turn, one or two enemies you can see grant combat advantage to you until the end of your next turn. </p><p>Published in The Book of Vile Darkness, page(s) 1-31. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"F7xAyQSaRTMpkl5N",
+	"_key":"!items!F7xAyQSaRTMpkl5N"
+}

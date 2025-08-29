@@ -1,0 +1,33 @@
+{
+	"name":"Vengeance for All (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you take damage from a close or area attack, each ally you can see who was also a target of that attack gains a +1 bonus to attack rolls against the creature that attacked you until the end of your next turn. If the attacker is a dragon, it is a +2 bonus. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"8ecThUOPCiDvw47s",
+	"_key":"!items!8ecThUOPCiDvw47s"
+}

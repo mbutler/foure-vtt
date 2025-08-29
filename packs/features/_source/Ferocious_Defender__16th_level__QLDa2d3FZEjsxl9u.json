@@ -1,0 +1,33 @@
+{
+	"name":"Ferocious Defender (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When an ally adjacent to you is bloodied for the first time in an encounter, you gain a +1 power bonus to attack rolls until the end of your next turn. </p><p>Published in Primal Power, page(s) 113. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"QLDa2d3FZEjsxl9u",
+	"_key":"!items!QLDa2d3FZEjsxl9u"
+}

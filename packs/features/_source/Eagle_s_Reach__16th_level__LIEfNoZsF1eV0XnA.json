@@ -1,0 +1,33 @@
+{
+	"name":"Eagle's Reach (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Your ranged shaman powers that have a range of 5 or 10 change to a range of 20. </p><p>Published in Primal Power, page(s) 82. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"LIEfNoZsF1eV0XnA",
+	"_key":"!items!LIEfNoZsF1eV0XnA"
+}

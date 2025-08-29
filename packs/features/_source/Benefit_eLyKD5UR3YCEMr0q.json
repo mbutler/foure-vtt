@@ -1,0 +1,33 @@
+{
+	"name":"Benefit",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>: You gain the<i>assassin's shroud </i>power, and you can use Dexterity instead of Strength when making melee basic attacks with one-handed weapons. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"eLyKD5UR3YCEMr0q",
+	"_key":"!items!eLyKD5UR3YCEMr0q"
+}

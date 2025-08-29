@@ -1,0 +1,33 @@
+{
+	"name":"Bloodied Enmity",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Ardent, Mantle of Impulsiveness class feature </p><p><b>Benefit: </b>The first time you are bloodied during an encounter, your melee attacks deal 1d6 extra damage until the end of your next turn. </p><p>Published in Psionic Power, page(s) 130. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"jfYvlocF0WNbmUpT",
+	"_key":"!items!jfYvlocF0WNbmUpT"
+}

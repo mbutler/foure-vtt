@@ -1,0 +1,33 @@
+{
+	"name":"Predatory Action",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Ranger, Hunter's Quarry class feature </p><p><b>Benefit: </b>If you spend an action point to take an extra action and have already dealt Hunter's Quarry damage during this round, you can deal the extra damage a second time during this turn. </p><p>Published in Martial Power, page(s) 138. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"QUXCnTK9aOZEoMR3",
+	"_key":"!items!QUXCnTK9aOZEoMR3"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Mark of Elements",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Primal guardian theme, mark of thunder power </p><p><b>Benefit: </b>When you use your mark of thunder, you can choose to deal cold, fire, or lightning damage instead of thunder damage. </p><p>Published in Dark Sun Campaign Setting, page(s) 110. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"tseAOTiWSpUdXYvc",
+	"_key":"!items!tseAOTiWSpUdXYvc"
+}

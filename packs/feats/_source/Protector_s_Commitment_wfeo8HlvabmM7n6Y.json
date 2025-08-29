@@ -1,0 +1,33 @@
+{
+	"name":"Protector's Commitment",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Cha 15, paladin </p><p><b>Benefit: </b>When you or your target is adjacent to a bloodied ally, you gain a +1 bonus to attack rolls. </p><p>Published in Divine Power, page(s) 136. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"wfeo8HlvabmM7n6Y",
+	"_key":"!items!wfeo8HlvabmM7n6Y"
+}

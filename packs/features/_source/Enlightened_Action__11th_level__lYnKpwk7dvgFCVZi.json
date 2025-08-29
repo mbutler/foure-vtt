@@ -1,0 +1,33 @@
+{
+	"name":"Enlightened Action (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you spend an action point to take an extra action, you shift your speed and are insubstantial until the end of your next turn. You ignore difficult terrain, and you can move across water and other liquid surfaces. You sink if you end your turn on such a surface. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"lYnKpwk7dvgFCVZi",
+	"_key":"!items!lYnKpwk7dvgFCVZi"
+}

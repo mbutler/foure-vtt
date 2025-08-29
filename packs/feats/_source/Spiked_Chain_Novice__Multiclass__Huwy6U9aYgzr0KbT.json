@@ -1,0 +1,33 @@
+{
+	"name":"Spiked Chain Novice [Multiclass]",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Spiked Chain Training, 4th level </p><p><b>Benefit: </b>You can swap one 3rd-level or higher encounter attack power you know for the chain trip attack power. </p><p>Published in Dragon Magazine Annual, Dragon Magazine 372, page(s) 11. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"Huwy6U9aYgzr0KbT",
+	"_key":"!items!Huwy6U9aYgzr0KbT"
+}

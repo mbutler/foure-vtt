@@ -1,0 +1,33 @@
+{
+	"name":"Toxic Breath",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>11th level, dragonborn, dragon breath racial power that deals poison damage </p><p><b>Benefit: </b>Choose one creature hit by your dragon breath. That creature is weakened (save ends). </p><p>Published in Player's Handbook Races: Dragonborn, page(s) 25. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"qaTvSiowF2fhL8ul",
+	"_key":"!items!qaTvSiowF2fhL8ul"
+}

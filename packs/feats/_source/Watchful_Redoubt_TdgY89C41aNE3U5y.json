@@ -1,0 +1,33 @@
+{
+	"name":"Watchful Redoubt",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Benefit: </b>When you use the total defense action, you also gain a +1 bonus to attack rolls until the end of your next turn. </p><p>Published in Player's Handbook 3, page(s) 184. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"TdgY89C41aNE3U5y",
+	"_key":"!items!TdgY89C41aNE3U5y"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Irrefutable Blade",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Rogue, proficiency with rapiers </p><p><b>Benefit: </b>Whenever you miss with a rogue encounter attack while wielding a rapier, you deal damage equal to your Charisma modifier to the target you missed. </p><p>Published in Dragon Magazine 381, page(s) 70. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"cxRUJu8SEmWaB20q",
+	"_key":"!items!cxRUJu8SEmWaB20q"
+}

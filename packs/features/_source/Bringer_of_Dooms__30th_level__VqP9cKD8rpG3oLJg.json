@@ -1,0 +1,33 @@
+{
+	"name":"Bringer of Dooms (30th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You deal maximum damage when you hit the target of your immortal curse. </p><p>Published in Dragon Magazine Annual, Dragon Magazine 372, page(s) 42. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"destiny"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"VqP9cKD8rpG3oLJg",
+	"_key":"!items!VqP9cKD8rpG3oLJg"
+}

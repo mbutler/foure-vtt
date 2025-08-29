@@ -1,0 +1,33 @@
+{
+	"name":"Rune-Scribed Soul",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Dwarf, any arcane class </p><p><b>Benefit: </b>When you use your second wind, you gain a +1 bonus to attack rolls and a bonus to damage equal to your Constitution modifier with arcane powers you use before the end of your turn. </p><p>Published in Arcane Power, page(s) 129. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"uWSn0UwVYO2Zlxmh",
+	"_key":"!items!uWSn0UwVYO2Zlxmh"
+}

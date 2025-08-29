@@ -1,0 +1,33 @@
+{
+	"name":"Wild Savant [Multiclass Battlemind]",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Any multiclass battlemind feat, paragon multiclassing as a battlemind </p><p><b>Benefit: </b>Choose a power granted by a battlemind Psionic Study. You can use that power once per day. </p><p>Published in Psionic Power, page(s) 141. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"mPEd21oGrwW7hjq9",
+	"_key":"!items!mPEd21oGrwW7hjq9"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Blessing of the Wastes",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Whenever you use your second wind, choose one ally within 10 squares of you. That ally ends one ongoing damage effect that he or she is currently suffering, and the ally gains partial concealment until the end of your next turn. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"zyWcv4iukTS1638w",
+	"_key":"!items!zyWcv4iukTS1638w"
+}

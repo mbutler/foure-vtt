@@ -1,0 +1,33 @@
+{
+	"name":"Advantageous Formation",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Dune trader theme, quick formation power </p><p><b>Benefit: </b>When one of your allies affected by your quick formation shifts adjacent to an enemy, he or she gains combat advantage against that enemy until the end of your next turn. </p><p>Published in Dark Sun Campaign Setting, page(s) 103. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"SMGgrhLCWZvmeqE0",
+	"_key":"!items!SMGgrhLCWZvmeqE0"
+}

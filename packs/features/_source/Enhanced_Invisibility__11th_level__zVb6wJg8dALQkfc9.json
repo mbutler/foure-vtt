@@ -1,0 +1,33 @@
+{
+	"name":"Enhanced Invisibility (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Whenever you use an arcane power that turns you invisible, roll a d20 at the end of the invisibility's duration. On a roll of 10 or higher, you instead remain invisible until the end of your next turn or until you make an attack roll. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"zVb6wJg8dALQkfc9",
+	"_key":"!items!zVb6wJg8dALQkfc9"
+}

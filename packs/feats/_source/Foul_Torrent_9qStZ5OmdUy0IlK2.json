@@ -1,0 +1,33 @@
+{
+	"name":"Foul Torrent",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>11th level, genasi, causticsoul elemental manifestation, acid surge racial power </p><p><b>Benefit: </b>As part of your acid surge racial power, you can shift your speed instead of half your speed. </p><p>Published in Dragon Magazine 380, page(s) 21. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"9qStZ5OmdUy0IlK2",
+	"_key":"!items!9qStZ5OmdUy0IlK2"
+}

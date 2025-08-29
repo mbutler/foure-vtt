@@ -1,0 +1,33 @@
+{
+	"name":"Draconic Resilience",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>: While you are not wearing heavy armor, you can use your Strength modifier in place of your Dexterity or Intelligence modifier to determine your AC. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"bkSL24ACFdIKpMr3",
+	"_key":"!items!bkSL24ACFdIKpMr3"
+}

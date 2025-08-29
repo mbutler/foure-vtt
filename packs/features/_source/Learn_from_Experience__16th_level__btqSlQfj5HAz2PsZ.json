@@ -1,0 +1,33 @@
+{
+	"name":"Learn from Experience (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When an enemy scores a critical hit against you, you gain a bonus equal to your Wisdom modifier on your next attack roll and damage roll against that creature during this encounter. </p><p>Published in Forgotten Realms Player's Guide, page(s) 68. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"btqSlQfj5HAz2PsZ",
+	"_key":"!items!btqSlQfj5HAz2PsZ"
+}

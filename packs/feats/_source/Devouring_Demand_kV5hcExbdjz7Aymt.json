@@ -1,0 +1,33 @@
+{
+	"name":"Devouring Demand",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>21st level, battlemind, battlemind's demand power </p><p><b>Benefit: </b>When you augment battlemind's demand, you can target up to three creatures in the burst. </p><p>Published in Player's Handbook 3, page(s) 190. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"kV5hcExbdjz7Aymt",
+	"_key":"!items!kV5hcExbdjz7Aymt"
+}

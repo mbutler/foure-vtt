@@ -1,0 +1,33 @@
+{
+	"name":"Street Eyes [Guild]",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Benefit: </b>You gain a +2 feat bonus to Streetwise checks. Whenever an ally with this feat successfully aids you on your Streetwise check, you gain a +4 bonus instead of the normal +2 bonus. An ally can instead aid you to reduce the time it takes you to find information by half. </p><p>Published in Dragon Magazine 373, page(s) 12. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"ofxt9OVGnwIv2m7X",
+	"_key":"!items!ofxt9OVGnwIv2m7X"
+}

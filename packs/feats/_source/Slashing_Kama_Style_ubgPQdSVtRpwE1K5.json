@@ -1,0 +1,33 @@
+{
+	"name":"Slashing Kama Style",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Monk, Flurry of Blows class feature </p><p><b>Benefit: </b>You gain proficiency with the sickle. When you use your flurry of blows power while you are wielding a sickle, choose one target of the power that is adjacent to you. The target instead takes ongoing damage equal to the damage that you would have dealt to it with the power. </p><p>Published in Dragon Magazine 404. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"ubgPQdSVtRpwE1K5",
+	"_key":"!items!ubgPQdSVtRpwE1K5"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Awaken God Fragment",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>11th level, invoker </p><p><b>Benefit: </b>The god fragment within you awakens to strengthen your connections to your divine patron and improve the flow of energy into your being. Choose a god fragment that corresponds with the deity you serve. You gain all the fragment's benefits. </p><p>Published in Dragon Magazine 382, page(s) 57. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"Ty62pRD7HSWhX1gn",
+	"_key":"!items!Ty62pRD7HSWhX1gn"
+}

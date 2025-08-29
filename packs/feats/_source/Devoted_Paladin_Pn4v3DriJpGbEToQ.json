@@ -1,0 +1,33 @@
+{
+	"name":"Devoted Paladin",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Paladin, lay on hands power </p><p><b>Benefit: </b>When you use your lay on hands on an ally, that ally regains additional hit points equal to your Charisma modifier. </p><p>Your number of healing surges increases by one. </p><p>Update (11/23/2009) </p><p>Remove \"When you select this feat,\" from the second paragraph of the Benefit line. </p><p>Published in Divine Power, page(s) 131. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"Pn4v3DriJpGbEToQ",
+	"_key":"!items!Pn4v3DriJpGbEToQ"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Walker of the Dark Path [Multiclass Paladin]",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Benefit: </b>You gain training in one skill from the blackguard paladin's class skills list. You also gain proficiency with holy symbols. </p><p>Once per encounter, when you make a weapon attack against an enemy granting combat advantage to you, that enemy takes extra damage equal to your Charisma modifier. </p><p>You can use shroud of shadow as a daily power. </p><p>Published in Dragon Magazine 402. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"EJt0zBQ2XqGSx81L",
+	"_key":"!items!EJt0zBQ2XqGSx81L"
+}

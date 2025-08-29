@@ -1,0 +1,33 @@
+{
+	"name":"Dragonbreath Warrior",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>11th level, dragonborn, any martial class </p><p><b>Benefit: </b>When you use your dragon breath racial power, your next melee weapon attack deals 1[W] extra damage on a hit. The damage type is the same as your dragon breath. </p><p>Published in Martial Power, page(s) 141. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"DEgta4bMSjvNyUXC",
+	"_key":"!items!DEgta4bMSjvNyUXC"
+}

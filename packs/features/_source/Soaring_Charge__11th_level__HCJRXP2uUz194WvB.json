@@ -1,0 +1,33 @@
+{
+	"name":"Soaring Charge (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you charge, you can fly your speed as part of the charge. You also gain a +2 bonus to all defenses against opportunity attacks you provoke while moving during the charge. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"HCJRXP2uUz194WvB",
+	"_key":"!items!HCJRXP2uUz194WvB"
+}

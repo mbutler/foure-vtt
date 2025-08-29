@@ -1,0 +1,33 @@
+{
+	"name":"Victorious Soul",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>21st level, ardent, Ardent Mantle class feature </p><p><b>Benefit: </b>When you score a critical hit using an ardent attack, allies within the radius of your Ardent Mantle deal extra damage equal to your Charisma modifier on melee attacks until the start of your next turn. </p><p>Published in Psionic Power, page(s) 141. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"zG8LfOQBw2qFPlZs",
+	"_key":"!items!zG8LfOQBw2qFPlZs"
+}

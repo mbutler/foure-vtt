@@ -1,0 +1,33 @@
+{
+	"name":"Sinister Shadows (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You gain a +2 bonus to Stealth checks. In addition, whenever a shadow power lets you teleport, increase the distance you can teleport by 1 square. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"jMJPIBFDf7iWHw9O",
+	"_key":"!items!jMJPIBFDf7iWHw9O"
+}

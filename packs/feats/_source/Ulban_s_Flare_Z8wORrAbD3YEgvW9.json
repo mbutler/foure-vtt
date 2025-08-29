@@ -1,0 +1,33 @@
+{
+	"name":"Ulban's Flare",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Warlock, star pact </p><p><b>Benefit: </b>When you hit a creature with dire radiance and you have concealment or total concealment from that target, the target takes 2 extra damage and a -2 penalty to attack rolls until the end of your next turn. The extra damage increases to 4 at 11th level and to 6 at 21st level. </p><p>Published in Dragon Magazine 381, page(s) 53. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"Z8wORrAbD3YEgvW9",
+	"_key":"!items!Z8wORrAbD3YEgvW9"
+}

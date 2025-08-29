@@ -1,0 +1,33 @@
+{
+	"name":"Cunning Sneak",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You don't take a penalty to Stealth checks for moving more than 2 squares, and you take a -5 penalty instead of a -10 penalty to Stealth checks for running. </p><p>If you end your movement at least 3 squares away from your starting position, you can make a Stealth check to become hidden if you have any concealment or any cover, except for cover provided by intervening allies. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"Fti1kryULjs40TME",
+	"_key":"!items!Fti1kryULjs40TME"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"World Speaker Spirit Adept",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Shaman, World Speaker Spirit class feature </p><p><b>Benefit: </b>You and your allies ignore difficult terrain while adjacent to your spirit companion. </p><p>Published in Primal Power, page(s) 143. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"xcVInGBZTj26p3Hl",
+	"_key":"!items!xcVInGBZTj26p3Hl"
+}

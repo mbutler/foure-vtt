@@ -1,0 +1,33 @@
+{
+	"name":"Daring Performer [Arena Fighting]",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Cha 13, any martial class </p><p><b>Benefit: </b>You gain a benefit with any of the following exploits you possess. </p><p>Associated Powers: </p><p>Brash Assault: Whenever the enemy's granted attack is a critical hit, your ally's successful granted basic attack is also a critical hit. </p><p>Deft Strike: You can choose not to move 2 squares before the attack to instead make a Bluff check to gain combat advantage against the target as a free action. You can still use Bluff in this way only once per encounter. </p><p>Published in Dragon Magazine Annual, Dragon Magazine 368, page(s) 60. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"kWawudHr6UGCN9i1",
+	"_key":"!items!kWawudHr6UGCN9i1"
+}

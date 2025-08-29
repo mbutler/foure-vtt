@@ -1,0 +1,33 @@
+{
+	"name":"Infernal Slave Level 5 Feature (5th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>While you are not bloodied, you gain a +1 power bonus to Fortitude, Reflex, and Will. While you are bloodied, you take a -1 penalty to those defenses.<br></p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"theme"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"IcHBg2iKzJY7y6NZ",
+	"_key":"!items!IcHBg2iKzJY7y6NZ"
+}

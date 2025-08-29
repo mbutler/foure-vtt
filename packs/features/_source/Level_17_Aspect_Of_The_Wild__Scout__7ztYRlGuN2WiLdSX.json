@@ -1,0 +1,33 @@
+{
+	"name":"Level 17 Aspect Of The Wild (Scout)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You gain one additional aspect of the wild.</p>\n<p>@UUID[Compendium.dnd-4e-compendium.module-powers.FpUXxsqig8w9YQVH]{Aspect of the Charging Ram}@UUID[Compendium.dnd-4e-compendium.module-powers.zn5fgWu0dByKUF1k]{Aspect of the Cunning Fox}@UUID[Compendium.dnd-4e-compendium.module-powers.vxX03nLmqf12Etcj]{Aspect of the Dancing Serpent}@UUID[Compendium.dnd-4e-compendium.module-powers.ZD08eBkM1KxvR25y]{Aspect of the Hungry Shark}@UUID[Compendium.dnd-4e-compendium.module-powers.P3IC7zhlkWiDJpuA]{Aspect of the Lurking Spider}@UUID[Compendium.dnd-4e-compendium.module-powers.RyWGBPYcmZwf6CkU]{Aspect of the Pack Wolf}@UUID[Compendium.dnd-4e-compendium.module-powers.J0G5uMVi92DPELYd]{Aspect of the Regal Lion}@UUID[Compendium.dnd-4e-compendium.module-powers.sWQ0nRgdwKjpE2Mi]{Aspect of the Soaring Hawk}</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"7ztYRlGuN2WiLdSX",
+	"_key":"!items!7ztYRlGuN2WiLdSX"
+}

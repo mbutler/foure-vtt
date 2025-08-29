@@ -1,0 +1,33 @@
+{
+	"name":"Hellfire Hex",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>11th level, warlock, Warlock's Curse class feature, infernal pact </p><p><b>Benefit: </b>Whenever you deal Warlock's Curse damage to a target with a warlock daily attack power, the target takes ongoing 5 fire damage (save ends). If the power already deals ongoing fire damage, instead increase that ongoing damage by 5. </p><p>Published in Dragon Magazine 384, page(s) 31. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"A3blQSiUGT4mBzoe",
+	"_key":"!items!A3blQSiUGT4mBzoe"
+}

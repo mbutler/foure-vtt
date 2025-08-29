@@ -1,0 +1,33 @@
+{
+	"name":"Ambitious Effort (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Choose an encounter attack power of 7th level or lower from your class. You gain that power. If you choose an encounter attack power that you already know, you now have two uses of that power per encounter. At 21st level, you can replace this power with an encounter attack power of 13th level or lower from your class. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"9FsH1jdPTzhgORW4",
+	"_key":"!items!9FsH1jdPTzhgORW4"
+}

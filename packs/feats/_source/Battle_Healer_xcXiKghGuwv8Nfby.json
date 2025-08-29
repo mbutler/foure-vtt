@@ -1,0 +1,33 @@
+{
+	"name":"Battle Healer",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Cleric, healing word power </p><p><b>Benefit: </b>When you use your healing word, you regain hit points equal to your Strength modifier. </p><p>Published in Divine Power, page(s) 130. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"xcXiKghGuwv8Nfby",
+	"_key":"!items!xcXiKghGuwv8Nfby"
+}

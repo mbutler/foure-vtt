@@ -1,0 +1,33 @@
+{
+	"name":"Offensive Defiling (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you use arcane defiling, one nonminion enemy within 20 squares of you takes damage equal to half your healing surge value. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"dXB4oKkGsIZ96cy3",
+	"_key":"!items!dXB4oKkGsIZ96cy3"
+}

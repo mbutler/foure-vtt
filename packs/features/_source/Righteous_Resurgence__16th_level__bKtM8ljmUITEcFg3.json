@@ -1,0 +1,33 @@
+{
+	"name":"Righteous Resurgence (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you use your second wind, each enemy within 5 squares of you takes 1d6 + your Intelligence modifier fire and radiant damage, and each ally within 5 squares of you gains temporary hit points equal to that damage. </p><p>Published in Player's Handbook 2, page(s) 116. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"bKtM8ljmUITEcFg3",
+	"_key":"!items!bKtM8ljmUITEcFg3"
+}

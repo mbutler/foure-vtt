@@ -1,0 +1,33 @@
+{
+	"name":"Shield Block",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You gain the shield block power.</p>\n<p>@UUID[Compendium.dnd-4e-compendium.module-powers.sTeHf5ajGxZ07YvB]{Shield Block}</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"PK8IEea9L1xwz4yM",
+	"_key":"!items!PK8IEea9L1xwz4yM"
+}

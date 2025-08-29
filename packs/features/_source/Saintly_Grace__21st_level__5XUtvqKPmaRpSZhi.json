@@ -1,0 +1,33 @@
+{
+	"name":"Saintly Grace (21st level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You gain a +2 bonus to Fortitude, Reflex, and Will and resistance to necrotic damage equal to 15 + your Wisdom modifier. You cannot be dominated; any attack or effect that would dominate you dazes you instead. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"destiny"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"5XUtvqKPmaRpSZhi",
+	"_key":"!items!5XUtvqKPmaRpSZhi"
+}

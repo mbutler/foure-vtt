@@ -1,0 +1,33 @@
+{
+	"name":"Balinor's Prey [Divinity]",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Channel Divinity class feature, must worship Balinor </p><p><b>Benefit: </b>You gain the Channel Divinity power Balinor's prey. </p><p>Published in Eberron Player's Guide, page(s) 87. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"GN0P3xVpUcRSJmHM",
+	"_key":"!items!GN0P3xVpUcRSJmHM"
+}

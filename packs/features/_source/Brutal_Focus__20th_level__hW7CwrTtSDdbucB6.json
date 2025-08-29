@@ -1,0 +1,33 @@
+{
+	"name":"Brutal Focus (20th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you use power strike, you push the target up to 3 squares, or up to 3 additional squares if the triggering power already pushes the target. </p><p>Published in Heroes of the Fallen Lands, page(s) 161. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"hW7CwrTtSDdbucB6",
+	"_key":"!items!hW7CwrTtSDdbucB6"
+}

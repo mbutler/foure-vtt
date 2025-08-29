@@ -1,0 +1,33 @@
+{
+	"name":"Voice to Wake the Dead (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>As a free action, you can grant a dying ally within 10 squares of you a +2 power bonus to death saving throws. The bonus lasts until that ally is no longer dying. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"7M0SHxRTeizYVf6g",
+	"_key":"!items!7M0SHxRTeizYVf6g"
+}

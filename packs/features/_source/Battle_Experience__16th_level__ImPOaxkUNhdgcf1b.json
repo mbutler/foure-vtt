@@ -1,0 +1,33 @@
+{
+	"name":"Battle Experience (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>If you miss all targets when using an encounter attack power and you have no other encounter attack powers remaining, you do not expend that encounter attack power. </p><p>Published in Dark Sun Campaign Setting, page(s) 32. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"ImPOaxkUNhdgcf1b",
+	"_key":"!items!ImPOaxkUNhdgcf1b"
+}

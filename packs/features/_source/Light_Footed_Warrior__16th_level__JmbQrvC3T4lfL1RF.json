@@ -1,0 +1,33 @@
+{
+	"name":"Light-Footed Warrior (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You ignore the speed penalty for wearing heavy armor. In addition, when you bloody an enemy or reduce it to 0 hit points on your turn, you can shift 1 square as a free action. </p><p>Published in Divine Power, page(s) 95. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"JmbQrvC3T4lfL1RF",
+	"_key":"!items!JmbQrvC3T4lfL1RF"
+}

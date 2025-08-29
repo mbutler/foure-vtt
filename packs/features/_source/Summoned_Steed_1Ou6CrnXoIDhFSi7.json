@@ -1,0 +1,33 @@
+{
+	"name":"Summoned Steed",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Cavaliers can choose to gain the Call Celestial Steed Power in place of their Pace of the Virtuous Charger Class Feature.</p>\n<p>@UUID[Compendium.dnd-4e-compendium.module-powers.Ifm58QUb0nPC7Xgl]{Call Celestial Steed}</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"1Ou6CrnXoIDhFSi7",
+	"_key":"!items!1Ou6CrnXoIDhFSi7"
+}

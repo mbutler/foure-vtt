@@ -1,0 +1,33 @@
+{
+	"name":"Githzerai Beast Mastery",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Githzerai, Beast Mastery class feature </p><p><b>Benefit: </b>Your beast companion gains a +2 bonus to saving throws against the dazed, dominated, and stunned conditions. When you use your second wind, your beast companion can shift 3 squares as a free action. </p><p>Published in Dragon Magazine 378. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"U3Al8pO1ThYSg7rW",
+	"_key":"!items!U3Al8pO1ThYSg7rW"
+}

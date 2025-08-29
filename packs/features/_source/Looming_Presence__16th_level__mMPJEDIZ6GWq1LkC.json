@@ -1,0 +1,33 @@
+{
+	"name":"Looming Presence (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>While adjacent to your spirit companion, your allies gain a +5 power bonus to attack rolls when making opportunity attacks. </p><p>Published in Player's Handbook 2, page(s) 134. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"mMPJEDIZ6GWq1LkC",
+	"_key":"!items!mMPJEDIZ6GWq1LkC"
+}

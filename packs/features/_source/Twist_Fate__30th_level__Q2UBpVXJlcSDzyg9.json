@@ -1,0 +1,33 @@
+{
+	"name":"Twist Fate (30th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Whenever you succeed at the saving throw provided by Fate Denied, you impose the effect you saved against upon the creature that would have imposed it on you. If the effect or condition allows choice, such as forced movement or dominate, you make the decisions. </p><p>Published in Dragon Magazine 376, page(s) 44. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"destiny"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"Q2UBpVXJlcSDzyg9",
+	"_key":"!items!Q2UBpVXJlcSDzyg9"
+}

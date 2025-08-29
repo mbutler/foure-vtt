@@ -1,0 +1,33 @@
+{
+	"name":"Rampant Slaughter (24th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you bloody an enemy or score a critical hit with a primal melee attack power, you can make two melee basic attacks as a free action. Only one of these attacks can target the creature you bloodied or scored a critical hit against. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"destiny"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"UN7cirO0AdGXnslC",
+	"_key":"!items!UN7cirO0AdGXnslC"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Desperate Goblin Tactics",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Goblin race, goblin tactics racial power </p><p><b>Benefit: </b>When you use goblin tactics while bloodied, you can shift up to 2 extra squares. </p><p>Published in Into the Unknown: The Dungeon Survival Handbook, page(s) 38. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"cCQlb9hOXrnyRug4",
+	"_key":"!items!cCQlb9hOXrnyRug4"
+}

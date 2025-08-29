@@ -1,0 +1,33 @@
+{
+	"name":"Prolonged Curse",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Warlock, Warlock's Curse class feature </p><p><b>Benefit: </b>When you hit a target with a warlock attack that deals ongoing damage, increase the ongoing damage by 1 point per Warlock's Curse die you roll. </p><p>Published in Dragon Magazine 384, page(s) 31. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"9mTvU2lkueD46ryR",
+	"_key":"!items!9mTvU2lkueD46ryR"
+}

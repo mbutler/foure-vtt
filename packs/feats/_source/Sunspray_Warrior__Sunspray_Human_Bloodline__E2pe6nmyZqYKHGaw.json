@@ -1,0 +1,33 @@
+{
+	"name":"Sunspray Warrior [Sunspray Human Bloodline]",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Human, Sunspray Heritage </p><p><b>Benefit: </b>You gain a +1 bonus to melee and ranged attack rolls while mounted. </p><p>In addition, swap one 1st-level at-will attack power for the sunspray dance attack power. </p><p>Published in Dragon Magazine 386, page(s) 11. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"E2pe6nmyZqYKHGaw",
+	"_key":"!items!E2pe6nmyZqYKHGaw"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Merciless Nature",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Wilden, assassin, wrath of the destroyer power </p><p><b>Benefit: </b>If the enemy triggering your wrath of the destroyer power is subject to one or more of your shrouds, you gain combat advantage for the melee basic attack or charge attack. </p><p>Published in Dragon Magazine 385, page(s) 35. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"RmxfIqVr72gsoAat",
+	"_key":"!items!RmxfIqVr72gsoAat"
+}

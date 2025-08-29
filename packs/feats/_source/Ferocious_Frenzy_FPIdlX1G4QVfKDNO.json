@@ -1,0 +1,33 @@
+{
+	"name":"Ferocious Frenzy",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Minotaur, Ferocity racial trait </p><p><b>Benefit: </b>When you drop to 0 hit points or fewer, you can make a melee basic attack against each enemy adjacent to you with a -2 penalty to the attack rolls instead of making the attack Ferocity grants you. </p><p>Published in Dragon Magazine 385, page(s) 21. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"FPIdlX1G4QVfKDNO",
+	"_key":"!items!FPIdlX1G4QVfKDNO"
+}

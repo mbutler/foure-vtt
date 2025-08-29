@@ -1,0 +1,33 @@
+{
+	"name":"Sorcerous Vision",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>11th level, sorcerer </p><p><b>Benefit: </b>Whenever you would make a Perception check or an Insight check, you can make an Arcana check instead. </p><p>Published in Arcane Power, page(s) 133. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"HxbaPESQtjLqpWFB",
+	"_key":"!items!HxbaPESQtjLqpWFB"
+}

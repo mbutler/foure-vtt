@@ -1,0 +1,33 @@
+{
+	"name":"Defensive Word (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Any ally that regains hit points from your inspiring word also gains a +2 bonus to all defenses until it makes an attack. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"MWNtz9aPZqcbsCeX",
+	"_key":"!items!MWNtz9aPZqcbsCeX"
+}

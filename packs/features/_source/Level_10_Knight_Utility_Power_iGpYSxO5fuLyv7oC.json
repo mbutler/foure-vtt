@@ -1,0 +1,33 @@
+{
+	"name":"Level 10 Knight Utility Power",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You gain one of the following powers of your choice.</p>\n<p>@UUID[Compendium.dnd-4e-compendium.module-powers.YsEa1HZIJpqN3iwh]{Battlefield Healing}@UUID[Compendium.dnd-4e-compendium.module-powers.ZF03fVcuQxOLHDUn]{Defensive Advance}@UUID[Compendium.dnd-4e-compendium.module-powers.dSV9xmU4hyfnQeYZ]{Fearsome Threat}@UUID[Compendium.dnd-4e-compendium.module-powers.udjFKCA5cImB2U0g]{Iron Defiance}</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"iGpYSxO5fuLyv7oC",
+	"_key":"!items!iGpYSxO5fuLyv7oC"
+}

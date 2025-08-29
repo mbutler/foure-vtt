@@ -1,0 +1,33 @@
+{
+	"name":"Bodyguard's Resolve (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Whenever you are dazed or stunned and an enemy marked by you targets an ally within your line of sight with an attack, you can make a saving throw against the dazed or stunned effect. If you save, the effect ends before the enemy makes the attack roll against the ally. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"7pnzqbg8hTZILXUs",
+	"_key":"!items!7pnzqbg8hTZILXUs"
+}

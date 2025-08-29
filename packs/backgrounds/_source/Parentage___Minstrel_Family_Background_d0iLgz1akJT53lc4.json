@@ -1,0 +1,33 @@
+{
+	"name":"Parentage - Minstrel Family Background",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Type: </b>Birth </p><p><b>Campaign Setting: </b>General </p><p>Your family traveled and performed for your supper. Now that you have moved on, how is the troupe getting on? </p><p><i>Associated Skills: </i>Acrobatics, Diplomacy </p><p>Published in Dragon Magazine 383, page(s) 79. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"background"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"d0iLgz1akJT53lc4",
+	"_key":"!items!d0iLgz1akJT53lc4"
+}

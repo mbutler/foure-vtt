@@ -1,0 +1,33 @@
+{
+	"name":"Dark Feasting",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Revenant </p><p><b>Benefit: </b>When you deal damage with your dark reaping, you gain temporary hit points equal to the extra necrotic damage dealt to the target. </p><p>Published in Dragon Magazine 376, page(s) 39, Heroes of Shadow, page(s) 157. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"Tm2wFlAOuEnbaB7k",
+	"_key":"!items!Tm2wFlAOuEnbaB7k"
+}

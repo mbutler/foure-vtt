@@ -1,0 +1,33 @@
+{
+	"name":"Spring's Vigor (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you use a primal power to allow an ally to spend a healing surge, that ally can also spend an action point to take an extra action. </p><p>Published in Primal Power, page(s) 85. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"fzjirEkwA37mtVQo",
+	"_key":"!items!fzjirEkwA37mtVQo"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Twin-Souled Projection (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You can choose to use your spirit companion's square as the origin square for any of your ranged or area powers. If your spirit companion is not adjacent to any enemies, using a power in this manner does not provoke opportunity attacks. </p><p>Published in Dragon Magazine 394. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"gyefrHlqsIUFOKiz",
+	"_key":"!items!gyefrHlqsIUFOKiz"
+}

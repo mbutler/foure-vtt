@@ -1,0 +1,33 @@
+{
+	"name":"Attune Target (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Once per encounter, when you use a wizard power that is a blast, a burst, or a wall, you can choose one square within 20 squares of you as that power's origin square instead of its normal origin square. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"vfNQozsdyZmt4X52",
+	"_key":"!items!vfNQozsdyZmt4X52"
+}

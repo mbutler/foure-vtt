@@ -1,0 +1,33 @@
+{
+	"name":"Widow of Arach-Tinilith Starting Feature (1st level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You gain a spiderling of Lolth familiar. This familiar uses the rules for arcane familiars found in Arcane Power.<br>If you gain another familiar or similar companion, such as those granted by the Arcane Familiar or Elemental Companion feats, you lose the use of the spiderling familiar.<br></p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"theme"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"NiWlFQkhouYcqX2T",
+	"_key":"!items!NiWlFQkhouYcqX2T"
+}

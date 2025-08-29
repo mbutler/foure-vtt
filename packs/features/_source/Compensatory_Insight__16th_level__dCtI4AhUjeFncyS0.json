@@ -1,0 +1,33 @@
+{
+	"name":"Compensatory Insight (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you use an attack power granted through a multiclass feat, you gain a bonus to the attack's damage roll equal to your Intelligence modifier. </p><p>Published in Player's Handbook 2, page(s) 78. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"dCtI4AhUjeFncyS0",
+	"_key":"!items!dCtI4AhUjeFncyS0"
+}

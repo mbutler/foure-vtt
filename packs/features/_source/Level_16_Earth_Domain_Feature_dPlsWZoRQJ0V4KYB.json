@@ -1,0 +1,33 @@
+{
+	"name":"Level 16 Earth Domain Feature",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Whenever you use healing word, you and each ally in the burst other than the target gains resist all equal to your Constitution modifier until the end of your next turn. If you are the target of healing word, you do not gain this benefit. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"dPlsWZoRQJ0V4KYB",
+	"_key":"!items!dPlsWZoRQJ0V4KYB"
+}

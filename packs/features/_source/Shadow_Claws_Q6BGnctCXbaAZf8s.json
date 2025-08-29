@@ -1,0 +1,33 @@
+{
+	"name":"Shadow Claws",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You gain the shadow claws power.</p>\n<p>@UUID[Compendium.dnd-4e-compendium.module-powers.ikHqXwmdvgSaoZYs]{Shadow Claws}</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"Q6BGnctCXbaAZf8s",
+	"_key":"!items!Q6BGnctCXbaAZf8s"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Quori Backlash",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>11th level, kalashtar </p><p><b>Benefit: </b>Whenever an enemy dazes, dominates, or deals psychic damage to you, that enemy takes psychic damage equal to 5 + your Wisdom modifier. The damage increases to 10 + your Wisdom modifier at 11th level and 15 + your Wisdom modifier at 21st level. </p><p>Published in Eberron Player's Guide, page(s) 94. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"HSZKNDkL9YMsTRap",
+	"_key":"!items!HSZKNDkL9YMsTRap"
+}

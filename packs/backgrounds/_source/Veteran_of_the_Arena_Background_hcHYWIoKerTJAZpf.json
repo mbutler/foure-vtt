@@ -1,0 +1,33 @@
+{
+	"name":"Veteran of the Arena Background",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Type: </b>Racial </p><p><b>Campaign Setting: </b>General </p><p><b>Prerequisite: </b>Goliath </p><p>You know what it takes to defeat an opponent and make no apologies for the lifestyle you have chosen. Borne of blood and sweat, you have endured what has sundered so many others. Were you conscripted into the gladiator corps as a means of bolstering existing forces? Were you destined to follow in the footsteps of a great family patron? </p><p><i>Associated Skills: </i>Athletics, Endurance </p><p>Published in Dragon Magazine 386, page(s) 56. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"background"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"hcHYWIoKerTJAZpf",
+	"_key":"!items!hcHYWIoKerTJAZpf"
+}

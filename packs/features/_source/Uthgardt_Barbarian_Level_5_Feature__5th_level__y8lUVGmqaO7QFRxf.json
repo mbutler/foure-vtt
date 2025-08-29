@@ -1,0 +1,33 @@
+{
+	"name":"Uthgardt Barbarian Level 5 Feature (5th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You gain a +4 bonus to Perception checks made to find tracks, and a +4 bonus to Insight checks made against beasts and other Uthgardt.<br></p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"theme"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"y8lUVGmqaO7QFRxf",
+	"_key":"!items!y8lUVGmqaO7QFRxf"
+}

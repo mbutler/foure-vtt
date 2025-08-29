@@ -1,0 +1,33 @@
+{
+	"name":"Fluid Shape (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When an enemy makes an opportunity attack against you, the enemy must roll twice and use the lower result. </p><p>Published in Dragon Magazine 385, page(s) 7. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"viV9Nfut0qcR6B1S",
+	"_key":"!items!viV9Nfut0qcR6B1S"
+}

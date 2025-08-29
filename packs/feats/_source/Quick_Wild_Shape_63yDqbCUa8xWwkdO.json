@@ -1,0 +1,33 @@
+{
+	"name":"Quick Wild Shape",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>11th level, druid, wild shape power </p><p><b>Benefit: </b>You can use your wild shape power as a free action during your turn. </p><p>Published in Player's Handbook 2, page(s) 191. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"63yDqbCUa8xWwkdO",
+	"_key":"!items!63yDqbCUa8xWwkdO"
+}

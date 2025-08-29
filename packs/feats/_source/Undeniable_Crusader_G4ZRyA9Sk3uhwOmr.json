@@ -1,0 +1,33 @@
+{
+	"name":"Undeniable Crusader",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Fighter </p><p><b>Benefit: </b>Attacks granted to you by your Combat Challenge class feature ignore all resistances. </p><p>Published in Dragon Magazine 377, page(s) 45. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"G4ZRyA9Sk3uhwOmr",
+	"_key":"!items!G4ZRyA9Sk3uhwOmr"
+}

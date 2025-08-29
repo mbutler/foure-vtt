@@ -1,0 +1,33 @@
+{
+	"name":"Archer Warlord",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you choose the Archer Warlord class feature, you lose proficiency with chainmail and light shields.</p>\n<p>You gain proficiency with military ranged weapons. In addition, when you make a ranged basic attack with a bow, you can use Strength instead of Dexterity for the attack roll and the damage roll.</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"lJH2tcnZ9iYRCv7L",
+	"_key":"!items!lJH2tcnZ9iYRCv7L"
+}

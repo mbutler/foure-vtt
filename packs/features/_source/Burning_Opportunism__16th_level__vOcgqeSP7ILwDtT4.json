@@ -1,0 +1,33 @@
+{
+	"name":"Burning Opportunism (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Whenever you make an attack because of the Combat Challenge class feature or an opportunity attack, you deal fire damage equal to 3 + your Constitution modifier if you hit. </p><p>Published in Martial Power, page(s) 35. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"vOcgqeSP7ILwDtT4",
+	"_key":"!items!vOcgqeSP7ILwDtT4"
+}

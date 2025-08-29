@@ -1,0 +1,33 @@
+{
+	"name":"Skill Focus",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Training in chosen skill </p><p><b>Benefit: </b>Choose a skill in which you have training. You gain a +3 feat bonus to the chosen skill. </p><p>Special: You can take this feat more than once. Each time you select this feat, choose a different skill. </p><p>Update (8/5/2010) </p><p>Feat updated to match Essentials data. </p><p>Published in Player's Handbook, page(s) 201, Heroes of the Fallen Lands, page(s) 316, Heroes of the Forgotten Kingdoms, page(s) 318. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"C0Y3tgJk1ANE4DTB",
+	"_key":"!items!C0Y3tgJk1ANE4DTB"
+}

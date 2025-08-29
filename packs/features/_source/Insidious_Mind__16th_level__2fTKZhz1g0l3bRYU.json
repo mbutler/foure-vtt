@@ -1,0 +1,33 @@
+{
+	"name":"Insidious Mind (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you hit with an attack with the psychic keyword, you gain a +2 bonus to Will until the end of your next turn. </p><p>Published in Dragon Magazine 384, page(s) 59. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"2fTKZhz1g0l3bRYU",
+	"_key":"!items!2fTKZhz1g0l3bRYU"
+}

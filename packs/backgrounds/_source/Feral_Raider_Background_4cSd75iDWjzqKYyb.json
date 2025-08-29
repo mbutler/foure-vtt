@@ -1,0 +1,33 @@
+{
+	"name":"Feral Raider Background",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Type: </b>Racial </p><p><b>Campaign Setting: </b>Dark Sun </p><p><b>Prerequisite: </b>Goliath </p><p>You were a merciless raider, plundering villages and settlements for water, food, and other supplies. You might have continued in this manner, but something changed your course. Did your band cross paths with a powerful enemy? Did you abandon your tribe after realizing how much suffering you had caused? How did your time as a raider shape your present views? </p><p><i>Associated Skills: </i>Intimidate, Stealth </p><p>Published in Dark Sun Campaign Setting, page(s) 27. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"background"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"4cSd75iDWjzqKYyb",
+	"_key":"!items!4cSd75iDWjzqKYyb"
+}

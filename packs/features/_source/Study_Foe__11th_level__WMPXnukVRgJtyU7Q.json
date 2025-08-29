@@ -1,0 +1,33 @@
+{
+	"name":"Study Foe (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Whenever you take the total defense action, you gain a bonus to your next attack roll equal to half your Charisma modifier or half your Wisdom modifier until the end of your next turn. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"WMPXnukVRgJtyU7Q",
+	"_key":"!items!WMPXnukVRgJtyU7Q"
+}

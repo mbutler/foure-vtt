@@ -1,0 +1,33 @@
+{
+	"name":"Indomitable Breath (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you make an attack roll with a close blast power, you ignore any resistance and immunity that creatures have to the attack. </p><p>Published in Arcane Power, page(s) 44. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"QFsqDbapWd7hP86c",
+	"_key":"!items!QFsqDbapWd7hP86c"
+}

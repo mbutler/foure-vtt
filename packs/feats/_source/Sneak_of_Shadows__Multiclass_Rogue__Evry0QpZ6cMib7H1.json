@@ -1,0 +1,33 @@
+{
+	"name":"Sneak of Shadows [Multiclass Rogue]",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Dex 13 </p><p><b>Benefit: </b>You gain training in the Thievery skill. </p><p>Once per encounter, you can use the rogue's Sneak Attack class feature. </p><p>Published in Player's Handbook, page(s) 208. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"Evry0QpZ6cMib7H1",
+	"_key":"!items!Evry0QpZ6cMib7H1"
+}

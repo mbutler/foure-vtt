@@ -1,0 +1,33 @@
+{
+	"name":"Order Adept Level 5 Feature (5th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You gain a +2 power bonus to Arcana checks. If you have a spellbook, add one 2nd-level wizard utility power to it. If you don't have a spellbook, you can choose wizard utility powers of a particular level or lower when you gain or retrain utility powers.<br></p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"theme"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"NZj0Co7dEb4MQ1r8",
+	"_key":"!items!NZj0Co7dEb4MQ1r8"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Elemental Breach (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>After each of your extended rests, choose a damage type from the following: acid, cold, fire, lightning, or thunder. The choice remains until you take your next extended rest, at which point you can choose the same damage type or replace it with another. </p><p>Whenever you take damage of the type you chose or you score a critical hit using a warden attack power, each enemy marked by you takes damage of the chosen type equal to your Constitution modifier. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"XYBbsduVqRGt25HW",
+	"_key":"!items!XYBbsduVqRGt25HW"
+}

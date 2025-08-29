@@ -1,0 +1,33 @@
+{
+	"name":"Necromancy Action",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you spend an action point to take an extra action, each enemy adjacent to you gains vulnerability to necrotic damage until the end of your turn. The vulnerability equals your Wisdom modifier. If the enemy has necrotic resistance, it is instead pushed up to a number of squares equal to your Wisdom modifier. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"zTUZ1Qch4Br3u2ER",
+	"_key":"!items!zTUZ1Qch4Br3u2ER"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Keeper's Vengeance (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you are bloodied and use an invoker power that creates a burst, you can increase the size of the burst by 1. </p><p>Published in Divine Power, page(s) 75. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"R5OwJ8BTvS24fKVE",
+	"_key":"!items!R5OwJ8BTvS24fKVE"
+}

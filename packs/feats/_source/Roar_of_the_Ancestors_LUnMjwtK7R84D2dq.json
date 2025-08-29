@@ -1,0 +1,33 @@
+{
+	"name":"Roar of the Ancestors",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Elf, barbarian, trained in Intimidate </p><p><b>Benefit: </b>When you hit an enemy with a barbarian fear attack power, you can push the target 1 square in addition to any effects of the attack. </p><p>Published in Dragon Magazine 385, page(s) 63. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"LUnMjwtK7R84D2dq",
+	"_key":"!items!LUnMjwtK7R84D2dq"
+}

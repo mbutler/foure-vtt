@@ -1,0 +1,33 @@
+{
+	"name":"Closing Pledge",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Avenger, Censure of Pursuit class feature, oath of enmity power </p><p><b>Benefit: </b>When you hit your oath of enmity target with a ranged attack, you can shift a number of squares equal to 1 + your Dexterity modifier as a free action, as long as you end that shift closer to the target. </p><p>Published in Divine Power, page(s) 131. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"7wDmptN6hCBAsldJ",
+	"_key":"!items!7wDmptN6hCBAsldJ"
+}

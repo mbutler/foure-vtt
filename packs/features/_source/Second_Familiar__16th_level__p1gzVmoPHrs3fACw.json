@@ -1,0 +1,33 @@
+{
+	"name":"Second Familiar (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You can have two familiars at once, such as a cat and an owl. One of your familiars must be heroic tier, but the other can be any sort that you are eligible to choose. You gain the constant benefits of only one familiar at a time and can switch as a minor action. If you retrain the Arcane Familiar feat to replace a familiar, you can replace both. </p><p>Published in Dragon Magazine 377, page(s) 36. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"p1gzVmoPHrs3fACw",
+	"_key":"!items!p1gzVmoPHrs3fACw"
+}

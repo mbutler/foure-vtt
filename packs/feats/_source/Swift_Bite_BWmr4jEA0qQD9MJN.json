@@ -1,0 +1,33 @@
+{
+	"name":"Swift Bite",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>11th level, gnoll </p><p><b>Benefit: </b>When you bloody a foe, you can choose to deal an extra 1d6 + Strength modifier damage with a bite against the target. </p><p>Published in Dragon Magazine 367, page(s) 54. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"BWmr4jEA0qQD9MJN",
+	"_key":"!items!BWmr4jEA0qQD9MJN"
+}

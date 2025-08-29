@@ -1,0 +1,33 @@
+{
+	"name":"Grayspawn Shortfang Familiar",
+	"type":"feature",
+	"img":"icons/creatures/magical/construct-gargoyle-stone-gray.webp",
+	"system":{
+		"description":{
+			"value":"<p><i>Spiky projections cover this familiar's body, and its tail is tipped with two long spikes.</i></p><p><b>Speed</b> 7, fly 6 (hover)</p><p><b>Constant Benefits</b></p><p>* You gain a +2 bonus to Arcana and Intimidate checks.</p><p>* You can read and speak Draconic.</p><p>* You gain resist 5 acid. If you already have resist acid, increase it by 2.</p><p><b>Active Benefits</b></p><p>Grayspawn Toughness: A grayspawn gains a +2 bonus to all defenses.</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"other"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"cyXKqdxzfRr25w08",
+	"_key":"!items!cyXKqdxzfRr25w08"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Moon Elf Background",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Type: </b>Racial </p><p><b>Campaign Setting: </b>Neverwinter </p><p><b>Prerequisite: </b>Eladrin </p><p>The widely traveled moon elves find it useful to know many languages, and to learn more about other people wherever they go. </p><p><i>Associated Skills: </i>Diplomacy, Streetwise </p><p>Associated Languages: Chondathan, Damaran, Untheric </p><p>Published in Neverwinter Campaign Setting, page(s) 50. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"background"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"Jb5hjwqAFxlKyVpQ",
+	"_key":"!items!Jb5hjwqAFxlKyVpQ"
+}

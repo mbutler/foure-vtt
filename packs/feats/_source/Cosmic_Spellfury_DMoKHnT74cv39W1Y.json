@@ -1,0 +1,33 @@
+{
+	"name":"Cosmic Spellfury",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>11th level, sorcerer, Cosmic Magic class feature </p><p><b>Benefit: </b>Whenever you hit at least one enemy with a sorcerer at-will attack power, you gain a benefit based on your current phase in the cosmic cycle. This benefit applies after the attack is resolved. </p><p>Phase of the Sun: You can roll a saving throw. </p><p>Phase of the Moon: You gain concealment until the end of your next turn. </p><p>Phase of the Stars: You become insubstantial until the end of your next turn or until you are hit by an attack. </p><p>Published in Arcane Power, page(s) 130. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"DMoKHnT74cv39W1Y",
+	"_key":"!items!DMoKHnT74cv39W1Y"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Improved Cunning Sneak",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Rogue, Cunning Sneak class feature </p><p><b>Benefit: </b>When you make a Stealth check to become hidden using your Cunning Sneak class feature, you must end a move action at least 2 squares away from your starting position instead of 3. </p><p>Published in Martial Power 2, page(s) 136. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"eu8aPNjnslT7pL9V",
+	"_key":"!items!eu8aPNjnslT7pL9V"
+}

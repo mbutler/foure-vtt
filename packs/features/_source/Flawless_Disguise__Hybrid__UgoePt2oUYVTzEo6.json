@@ -1,0 +1,54 @@
+{
+	"name":"Flawless Disguise (Hybrid)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You must be at least 8th level to choose this option.<br>&nbsp;&nbsp;&nbsp;&nbsp;During a short rest, you can craft an excellent disguise that makes you appear to be another humanoid of your size (either a specific person or a nondescript member of a race or an organization). Any creature that attempts to see through your ruse makes an Insight check opposed by your Bluff check, with a +5 bonus to your check. You must use a disguise kit to create the disguise.</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"descriptionGM":{
+			"value":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":"",
+			"autoanimationHook":""
+		},
+		"class":"",
+		"hitFistLevel":10,
+		"hitPerLevel":5,
+		"surgePerDay":5,
+		"skills":"<i class=\"fas fa-edit\"></i>",
+		"def":{
+			"ac":0,
+			"fort":0,
+			"ref":0,
+			"wil":0
+		},
+		"proficiencies":{
+			"weapons":[],
+			"armour":[]
+		},
+		"requirements":"",
+		"level":null,
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"flags":{
+		"core":{}
+	},
+	"_id":"UgoePt2oUYVTzEo6",
+	"sort":0,
+	"_key":"!items!UgoePt2oUYVTzEo6"
+}

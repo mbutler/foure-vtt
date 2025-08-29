@@ -1,0 +1,33 @@
+{
+	"name":"Argent Breath (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Your dragon breath racial power deals cold damage in addition to any damage type it dealt previously. Also, when you hit a creature with dragon breath, the target takes 1d6 extra damage (2d6 extra at 21st level) and is slowed until the end of your next turn. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"hNBQJG07ktCPnjw9",
+	"_key":"!items!hNBQJG07ktCPnjw9"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Wyrm-Bane (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Dragons take a -2 penalty to saving throws against conditions that you create. </p><p>Published in Dragon Magazine 369, page(s) 47. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"oYZlu7NAnDQUX4Lw",
+	"_key":"!items!oYZlu7NAnDQUX4Lw"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Infernal Action (Tiefling Warfiend) (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you spend an action point to take an extra action, if you use your action to make an attack that hits, that hit deals ongoing 5 fire damage (save ends). </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"Epkvjb2VFg6o5hxG",
+	"_key":"!items!Epkvjb2VFg6o5hxG"
+}

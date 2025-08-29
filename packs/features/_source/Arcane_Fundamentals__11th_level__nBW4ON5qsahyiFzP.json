@@ -1,0 +1,33 @@
+{
+	"name":"Arcane Fundamentals (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Select one of your wizard at-will or encounter powers that has a target of one creature. That power counts as a basic attack. When a power allows you to make a basic attack, you can use that power. (If you use an encounter power in this way, it is still expended.) If you retrain and decide not to keep this power, you can choose a new power to be affected by this feature. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"nBW4ON5qsahyiFzP",
+	"_key":"!items!nBW4ON5qsahyiFzP"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Dune Ride Background",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Type: </b>Racial </p><p><b>Campaign Setting: </b>General </p><p><b>Prerequisite: </b>Human </p><p>You were a warrior in Sunspray, gifted with a noble steed and trained to kill Shaitan's servants on the battlefield. Who was your mentor? What battles did you fight? What ended your career as warrior? Did you leave it with honor or disgrace? </p><p><i>Associated Skills: </i>Endurance, Nature </p><p>Published in Dragon Magazine 386, page(s) 11. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"background"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"yL543AjcubwDZE1P",
+	"_key":"!items!yL543AjcubwDZE1P"
+}

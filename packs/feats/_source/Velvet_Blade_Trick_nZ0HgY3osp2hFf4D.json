@@ -1,0 +1,33 @@
+{
+	"name":"Velvet Blade Trick",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Half-elf, assassin, assassin's shroud power </p><p><b>Benefit: </b>Once per encounter, when you use the power granted by your Dilettante racial trait, you subject the target of your assassin's shroud power to another shroud. </p><p>Published in Dragon Magazine 379, page(s) 27. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"nZ0HgY3osp2hFf4D",
+	"_key":"!items!nZ0HgY3osp2hFf4D"
+}

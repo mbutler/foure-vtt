@@ -1,0 +1,33 @@
+{
+	"name":"Dual Manifestation (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You can use two elemental manifestations at the same time. You choose which elements you are presently manifesting after each short rest or extended rest. You can use the encounter powers for both of these manifestations in the same encounter. Your appearance corresponds to one manifestation or the other (it is not a hybrid). </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"oRNMngA0H4cI6Vl8",
+	"_key":"!items!oRNMngA0H4cI6Vl8"
+}

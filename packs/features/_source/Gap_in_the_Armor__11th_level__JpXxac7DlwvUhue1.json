@@ -1,0 +1,33 @@
+{
+	"name":"Gap in the Armor (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you score a critical hit against a creature you have combat advantage against, you deal an additional 1d6 damage. If this creature is a dragon, you instead deal an additional 2d6 damage. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"JpXxac7DlwvUhue1",
+	"_key":"!items!JpXxac7DlwvUhue1"
+}

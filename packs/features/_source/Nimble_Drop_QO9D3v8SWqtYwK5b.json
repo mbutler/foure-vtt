@@ -1,0 +1,33 @@
+{
+	"name":"Nimble Drop",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you take falling damage, you can take a free action to reduce the damage by 6 + your level. If this reduces the damage to 0, you don't fall prone.</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"QO9D3v8SWqtYwK5b",
+	"_key":"!items!QO9D3v8SWqtYwK5b"
+}

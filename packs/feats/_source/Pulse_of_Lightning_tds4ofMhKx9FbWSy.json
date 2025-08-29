@@ -1,0 +1,33 @@
+{
+	"name":"Pulse of Lightning",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Wilden, Nature's Aspect racial trait </p><p><b>Benefit: </b>When you use a wilden racial power, until the start of your next turn, the first enemy that targets you with a close or area attack takes lightning damage equal to your Wisdom modifier. The lightning damage equals 3 + your Wisdom modifier at 11th level, and it equals 6 + your Wisdom modifier at 21st level. </p><p>If you are in the aspect of the elements, one other enemy you can see also takes lightning damage equal to half that taken by the first enemy. </p><p>Published in Dragon Magazine 393. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"tds4ofMhKx9FbWSy",
+	"_key":"!items!tds4ofMhKx9FbWSy"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Anarchic Surge (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you use ardent surge, roll a d6. If you roll an even number, the target of ardent surge can also teleport 2 squares as a free action. If you roll an odd number, add the die result to the hit points the target regains. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"2ROFJajZNCY43WTo",
+	"_key":"!items!2ROFJajZNCY43WTo"
+}

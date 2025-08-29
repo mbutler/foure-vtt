@@ -1,0 +1,33 @@
+{
+	"name":"Stubborn Spirit",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Dwarf, shaman, call spirit companion power </p><p><b>Benefit: </b>When an ally adjacent to your spirit companion is subjected to forced movement, you can dismiss your spirit companion as a free action. This lets you reduce the number of squares the ally would be forcibly moved by a number equal to your Constitution modifier. </p><p>Published in Dragon Magazine 387, page(s) 14. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"92A0RnDdaxghPsrk",
+	"_key":"!items!92A0RnDdaxghPsrk"
+}

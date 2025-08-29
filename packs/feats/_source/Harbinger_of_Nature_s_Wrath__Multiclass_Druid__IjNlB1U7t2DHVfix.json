@@ -1,0 +1,33 @@
+{
+	"name":"Harbinger of Nature's Wrath [Multiclass Druid]",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Wisdom 13 </p><p><b>Benefit: </b>You gain training in the Nature skill. You also gain the protector druid's nature's growth power, but you can use it only once per day. </p><p>In addition, you gain proficiency with the staff and totem implements. </p><p>Published in Heroes of the Feywild, page(s) 129. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"IjNlB1U7t2DHVfix",
+	"_key":"!items!IjNlB1U7t2DHVfix"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Sidhe Lord Level 10 Feature (10th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Whenever your Sidhe house guard uses its teleportation power while you are adjacent to it, you can teleport up to 6 squares to a space adjacent to the guard's destination.</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"theme"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"8rLm3z27ltkcgR41",
+	"_key":"!items!8rLm3z27ltkcgR41"
+}

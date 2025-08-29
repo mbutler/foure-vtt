@@ -1,0 +1,33 @@
+{
+	"name":"Versatile Word",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>11th level, warlord, Resourceful Presence class feature, inspiring word power </p><p><b>Benefit: </b>When you use inspiring word, in addition to the benefit of the power, the target can either shift a number of squares equal to one-half your Charisma modifier as a free action or gain a bonus to AC equal to one-half your Intelligence modifier until the start of its next turn. </p><p>Published in Dragon Magazine 381, page(s) 31. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"VxKePkOi8Jo9gXFB",
+	"_key":"!items!VxKePkOi8Jo9gXFB"
+}

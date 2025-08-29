@@ -1,0 +1,33 @@
+{
+	"name":"Firepulse Master",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Genasi, firesoul manifestation </p><p><b>Benefit: </b>Your firepulse power gains the Reliable keyword and deals an extra 1d6 damage over its normal damage. </p><p>Published in Dragon Magazine 367, page(s) 15. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"MUV4ObCxp6BzWRu8",
+	"_key":"!items!MUV4ObCxp6BzWRu8"
+}

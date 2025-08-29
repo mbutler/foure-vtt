@@ -1,0 +1,33 @@
+{
+	"name":"Arcane Wisp Familiar",
+	"type":"feature",
+	"img":"icons/creatures/magical/construct-gargoyle-stone-gray.webp",
+	"system":{
+		"description":{
+			"value":"<p><i>Fey pact warlocks and others who like to teleport choose these floating orbs of light as familiars.</i></p><p><b>Speed</b> fly 8 (hover)</p><p><b>Constant Benefits</b></p><p>* You gain a +2 bonus to Stealth checks.</p><p>* When you teleport, add 1 to the distance you teleport.</p><p><b>Active Benefits</b></p><p>Wisp's Escape: The first time the arcane wisp is attacked in an encounter, it can teleport 5 squares as an immediate interrupt.</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"other"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"EuZReAdzK3DTx1mp",
+	"_key":"!items!EuZReAdzK3DTx1mp"
+}

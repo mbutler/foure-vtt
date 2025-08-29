@@ -1,0 +1,33 @@
+{
+	"name":"Shaking Displays (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>All your warlock encounter attack spells, along with painful delusion below, gain the rattling keyword. </p><p>Published in Dragon Magazine 373, page(s) 21. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"BYhygIfA5TNLbRZd",
+	"_key":"!items!BYhygIfA5TNLbRZd"
+}

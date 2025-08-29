@@ -1,0 +1,33 @@
+{
+	"name":"Aura of Menace (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When a creature that you have marked takes radiant damage from your divine challenge, the creature sheds bright light on 20 squares in all directions and grants combat advantage to any attacker until the end of your next turn. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"IdyLi6OYs1ch2HxS",
+	"_key":"!items!IdyLi6OYs1ch2HxS"
+}

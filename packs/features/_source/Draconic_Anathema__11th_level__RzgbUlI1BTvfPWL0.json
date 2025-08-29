@@ -1,0 +1,33 @@
+{
+	"name":"Draconic Anathema (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You gain a new special power you can use with your Channel Divinity class feature, allowing you power over dragons similar to that which other clerics have over undead. You are still limited to one use of Channel Divinity per encounter. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"RzgbUlI1BTvfPWL0",
+	"_key":"!items!RzgbUlI1BTvfPWL0"
+}

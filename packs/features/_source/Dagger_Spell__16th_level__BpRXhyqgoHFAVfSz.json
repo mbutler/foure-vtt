@@ -1,0 +1,33 @@
+{
+	"name":"Dagger Spell (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When making an arcane attack, you can treat a ranged power as having a range of melee weapon while using your dagger as an implement. </p><p>Published in Martial Power 2, page(s) 72. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"BpRXhyqgoHFAVfSz",
+	"_key":"!items!BpRXhyqgoHFAVfSz"
+}

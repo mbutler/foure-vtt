@@ -1,0 +1,33 @@
+{
+	"name":"Reaper's Strike",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>11th level, revenant </p><p><b>Benefit: </b>When you use your dark reaping racial power, you also gain a +2 bonus to your next attack roll. </p><p>Published in Dragon Magazine 376, page(s) 42. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"nTVpS6WNZO2cM57A",
+	"_key":"!items!nTVpS6WNZO2cM57A"
+}

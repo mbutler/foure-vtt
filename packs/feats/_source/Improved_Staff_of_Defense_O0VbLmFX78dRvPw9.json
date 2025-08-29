@@ -1,0 +1,33 @@
+{
+	"name":"Improved Staff of Defense",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>11th level, Con 13, Dex 13, wizard, Staff of Defense class feature </p><p><b>Benefit: </b>While you wield a staff, you gain a +1 bonus to Fortitude, Reflex, and Will. </p><p>Published in Arcane Power, page(s) 131. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"O0VbLmFX78dRvPw9",
+	"_key":"!items!O0VbLmFX78dRvPw9"
+}

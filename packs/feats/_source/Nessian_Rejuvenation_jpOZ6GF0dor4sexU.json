@@ -1,0 +1,33 @@
+{
+	"name":"Nessian Rejuvenation",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Tiefling, artificer, Arcane Rejuvenation class feature </p><p><b>Benefit: </b>When an ally gains temporary hit points from your Arcane Rejuvenation class feature, he or she adds extra fire damage equal to your Charisma modifier to damage rolls until the end of his or her next turn. </p><p>Published in Dragon Magazine 387, page(s) 34. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"jpOZ6GF0dor4sexU",
+	"_key":"!items!jpOZ6GF0dor4sexU"
+}

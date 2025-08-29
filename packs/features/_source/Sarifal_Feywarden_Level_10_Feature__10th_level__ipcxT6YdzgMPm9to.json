@@ -1,0 +1,33 @@
+{
+	"name":"Sarifal Feywarden Level 10 Feature (10th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You gain a +1 power bonus to Fortitude. As a 10th-level utility power, you may choose to take one of the following: the wizard powers <em>blur</em> or <em>mirror's image</em>, the shaman power <em>spirits of the shadowed moon</em>, or the warlock power <em>warlock's leap</em>. For the purposes of retraining, these powers follow the same rules as optional theme powers.</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"theme"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"ipcxT6YdzgMPm9to",
+	"_key":"!items!ipcxT6YdzgMPm9to"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Unfettered Durability (21st level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you roll a 20 on a saving throw, each ally within your line of sight can make a saving throw against one effect that a save can end. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"destiny"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"NwLd3UIZnRcigrXA",
+	"_key":"!items!NwLd3UIZnRcigrXA"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Unyielding Company (30th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>While you have at least 1 hit point, allies within 20 squares of you do not fall unconscious at 0 hit points or fewer and cannot die because of negative hit points. Allies at 0 hit points or fewer still make death saving throws as normal, and they can die as a result of failed death saving throws. </p><p>Published in Martial Power, page(s) 155. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"destiny"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"3VMQ0IS8Acen94LE",
+	"_key":"!items!3VMQ0IS8Acen94LE"
+}

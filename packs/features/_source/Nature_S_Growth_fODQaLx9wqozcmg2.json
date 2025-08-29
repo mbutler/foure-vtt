@@ -1,0 +1,33 @@
+{
+	"name":"Nature'S Growth",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You gain the nature's growth power</p>\n<p>@UUID[Compendium.dnd-4e-compendium.module-powers.a3ux6KLkAj2YrMG5]{Nature's Growth}</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"fODQaLx9wqozcmg2",
+	"_key":"!items!fODQaLx9wqozcmg2"
+}

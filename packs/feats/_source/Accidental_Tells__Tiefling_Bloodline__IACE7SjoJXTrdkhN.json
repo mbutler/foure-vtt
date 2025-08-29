@@ -1,0 +1,33 @@
+{
+	"name":"Accidental Tells [Tiefling Bloodline]",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Tiefling, Mantle of Misfortune feat </p><p><b>Benefit: </b>When you make an Insight check against a creature within range of your active mantle of misfortune power, you can roll twice and take the better result. </p><p>Published in Dragon Magazine 383, page(s) 71. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"IACE7SjoJXTrdkhN",
+	"_key":"!items!IACE7SjoJXTrdkhN"
+}

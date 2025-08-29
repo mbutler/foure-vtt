@@ -1,0 +1,33 @@
+{
+	"name":"Vengeful Declaration",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>21st level, avenger, oath of enmity power </p><p><b>Benefit: </b>You can use oath of enmity as a free action on your turn. </p><p>Published in Dragon Magazine 382, page(s) 41. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"YS0HgofynvL2lWh5",
+	"_key":"!items!YS0HgofynvL2lWh5"
+}

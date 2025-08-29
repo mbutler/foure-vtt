@@ -1,0 +1,33 @@
+{
+	"name":"Plague of Chance",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Halfling, second chance racial power, you have a spellscar </p><p><b>Benefit: </b>When you use second chance and the rerolled attack roll misses, the attacker takes fire and necrotic damage equal to your level and cannot see you until the end of your next turn. If you have the Student of the Plague feat, the attacker also takes fire and necrotic damage equal to your level if the rerolled attack roll hits. </p><p>Published in Dragon Magazine 385, page(s) 25. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"B5rpbWLcPo49zeqx",
+	"_key":"!items!B5rpbWLcPo49zeqx"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Confounding Luck",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Halfling, second chance power, must worship Avandra </p><p><b>Benefit: </b>When you use your second chance racial power and the triggering enemy's attack misses, that enemy takes a -2 penalty to attack rolls until the end of your next turn. </p><p>Published in Dragon Magazine 384, page(s) 70. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"cniCRQAHdvWsz7VK",
+	"_key":"!items!cniCRQAHdvWsz7VK"
+}

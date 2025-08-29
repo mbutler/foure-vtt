@@ -1,0 +1,33 @@
+{
+	"name":"Dooming Action",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Warlock, Warlock's Curse class feature </p><p><b>Benefit: </b>When you spend an action point to take an extra action and you have already dealt your Warlock's Curse extra damage during your current turn, you can deal the extra damage a second time during this turn. </p><p>Published in Arcane Power, page(s) 125. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"OYpNClWMwKg4tPHo",
+	"_key":"!items!OYpNClWMwKg4tPHo"
+}

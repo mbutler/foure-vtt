@@ -1,0 +1,33 @@
+{
+	"name":"Victor's Confidence",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Con 15, fighter </p><p><b>Benefit: </b>When you reduce an enemy to 0 hit points with a melee attack, you gain a +1 bonus to saving throws until the end of the encounter. </p><p>Published in Martial Power, page(s) 140. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"8PG5oJYv9ngAaRB2",
+	"_key":"!items!8PG5oJYv9ngAaRB2"
+}

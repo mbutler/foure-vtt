@@ -1,0 +1,33 @@
+{
+	"name":"Inspiring Triumph",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Dragonborn, barbarian, roar of triumph power </p><p><b>Benefit: </b>Allies in the burst of your roar of triumph gain a +1 bonus to all defenses until the end of your next turn. </p><p>Published in Player's Handbook Races: Dragonborn, page(s) 24. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"IsOJY8cfy6UaNZnb",
+	"_key":"!items!IsOJY8cfy6UaNZnb"
+}

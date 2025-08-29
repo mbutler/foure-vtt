@@ -1,0 +1,33 @@
+{
+	"name":"Defiler Trooper",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>11th level </p><p><b>Benefit: </b>Whenever you take damage from an ally's arcane defiling, you gain temporary hit points equal to half that damage. You gain these hit points after you take the damage from arcane defiling. </p><p>Published in Dark Sun Campaign Setting, page(s) 113. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"xinozQmGHBA93e2h",
+	"_key":"!items!xinozQmGHBA93e2h"
+}

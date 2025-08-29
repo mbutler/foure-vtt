@@ -1,0 +1,33 @@
+{
+	"name":"Envenomed Action (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you spend an action point to use a weapon attack power, each creature hit by the power also takes ongoing 10 poison damage and is slowed (save ends both). </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"FE3tjJKc8Rv046qn",
+	"_key":"!items!FE3tjJKc8Rv046qn"
+}

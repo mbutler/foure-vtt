@@ -1,0 +1,33 @@
+{
+	"name":"Improved Cunning",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>11th level, bard, Virtue of Cunning class feature </p><p><b>Benefit: </b>When you use Virtue of Cunning to slide an ally, you can slide the ally 2 squares instead of 1. </p><p>Published in Player's Handbook 2, page(s) 191. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"yzp7D9W1IOB0shSG",
+	"_key":"!items!yzp7D9W1IOB0shSG"
+}

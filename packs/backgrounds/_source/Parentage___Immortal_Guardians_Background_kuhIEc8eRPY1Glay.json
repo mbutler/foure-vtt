@@ -1,0 +1,33 @@
+{
+	"name":"Parentage - Immortal Guardians Background",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Type: </b>Birth </p><p><b>Campaign Setting: </b>General </p><p>Angels raised you for a higher purpose, though whether you were taken from or given by your parents is a mystery. Do you know your purpose? </p><p><i>Associated Skills: </i>Arcana, Religion </p><p>Published in Dragon Magazine 383, page(s) 79. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"background"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"kuhIEc8eRPY1Glay",
+	"_key":"!items!kuhIEc8eRPY1Glay"
+}

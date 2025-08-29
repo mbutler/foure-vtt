@@ -1,0 +1,33 @@
+{
+	"name":"Wererat Level 10 Feature (10th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you use the dire rat shape power, you can assume the form of a humanoid-rat hybrid, instead of a dire rat. While in hybrid form, your equipment does not become part of your new form, and you are not forced to drop any items you are holding. You are also not limited to using implement and weapon attack powers that have the beast form keyword.</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"theme"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"SosrycNxdQm7buig",
+	"_key":"!items!SosrycNxdQm7buig"
+}

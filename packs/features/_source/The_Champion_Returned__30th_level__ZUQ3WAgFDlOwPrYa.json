@@ -1,0 +1,33 @@
+{
+	"name":"The Champion Returned (30th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You gain access to every racial encounter power. To use a racial encounter power that you don't have, you expend the use of one of your racial encounter powers. </p><p>Published in Primal Power, page(s) 154. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"destiny"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"ZUQ3WAgFDlOwPrYa",
+	"_key":"!items!ZUQ3WAgFDlOwPrYa"
+}

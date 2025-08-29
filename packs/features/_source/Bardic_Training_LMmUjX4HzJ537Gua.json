@@ -1,0 +1,33 @@
+{
+	"name":"Bardic Training",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You gain the Ritual Caster feat as a bonus feat, allowing you to use magical rituals. You own a ritual book, and it contains two rituals of your choice that you have mastered: one 1st-level ritual that has bard as a prerequisite and another 1st-level ritual.</p>\n<p>In addition, you can perform one bard ritual per day of your level or lower without expending components, although you must pay any other costs and use any focus required by the ritual. At 11th level, you can perform two bard rituals per day of your level or lower without expending components; at 21st level, you can perform three.</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"LMmUjX4HzJ537Gua",
+	"_key":"!items!LMmUjX4HzJ537Gua"
+}

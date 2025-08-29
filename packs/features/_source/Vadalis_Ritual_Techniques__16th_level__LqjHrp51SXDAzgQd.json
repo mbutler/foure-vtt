@@ -1,0 +1,33 @@
+{
+	"name":"Vadalis Ritual Techniques (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You have mastered and can perform the Commune with Nature and Phantom Steed rituals as if you had the Ritual Caster feat. </p><p>Published in Eberron Player's Guide, page(s) 79. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"LqjHrp51SXDAzgQd",
+	"_key":"!items!LqjHrp51SXDAzgQd"
+}

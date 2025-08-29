@@ -1,0 +1,33 @@
+{
+	"name":"Golden Halo (30th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Holy light streams from your visage. Your halo gives off bright light within 5 squares, and you gain a +2 bonus to Diplomacy checks and Intimidate checks. You can suppress or resume your halo as a free action. In addition, when you use a divine healing power, the recipient regains 25 additional hit points. </p><p>Published in Divine Power, page(s) 155. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"destiny"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"PGgHqbtpZakhXEMc",
+	"_key":"!items!PGgHqbtpZakhXEMc"
+}

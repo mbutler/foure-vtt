@@ -1,0 +1,33 @@
+{
+	"name":"Vigilant Associate",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Tarmalune regional background </p><p><b>Benefit: </b>If you successfully intimidate an enemy with an Intimidate skill check, you gain combat advantage against that enemy until the end of your next turn. You also gain proficiency and a +1 feat bonus to damage rolls with the short sword. </p><p>Published in Dragon Magazine 376, page(s) 50. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"svb2uACGtyHeRgiP",
+	"_key":"!items!svb2uACGtyHeRgiP"
+}

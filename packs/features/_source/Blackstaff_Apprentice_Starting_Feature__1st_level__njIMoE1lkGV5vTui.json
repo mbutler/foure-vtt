@@ -1,0 +1,33 @@
+{
+	"name":"Blackstaff Apprentice Starting Feature (1st level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You gain the magic missile power if you do not already have it. Once per encounter you can use magic missile as a minor action instead of a standard action.<br></p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"theme"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"njIMoE1lkGV5vTui",
+	"_key":"!items!njIMoE1lkGV5vTui"
+}

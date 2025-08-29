@@ -1,0 +1,33 @@
+{
+	"name":"Feyborn Charm",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Eladrin or gnome, bard </p><p><b>Benefit: </b>When you use an arcane charm power, you gain a +1 feat bonus to attack rolls and damage rolls. The bonus increases to +2 at 15th level and to +3 at 25th level. </p><p>You also gain a +1 feat bonus to Bluff checks and Diplomacy checks. </p><p>Published in Arcane Power, page(s) 127. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"VHBpuyY80qCfab9R",
+	"_key":"!items!VHBpuyY80qCfab9R"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Primal Vampire",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Vampire and any primal class </p><p><b>Benefit: </b>Once per encounter, when your primal encounter attack power hits at least one enemy, you gain a healing surge. </p><p>You gain two bonus healing surges. </p><p>Published in Dragon Magazine 402. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"iTGkNqdbfvUXB0QZ",
+	"_key":"!items!iTGkNqdbfvUXB0QZ"
+}

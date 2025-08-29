@@ -1,0 +1,33 @@
+{
+	"name":"Expert in Your Field (21st level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Increase your Intelligence or Wisdom score by 2. In addition, select one of the following skills in which you have training: Arcana, Dungeoneering, History, Nature, or Religion. Whenever you make a check using the selected skill, you can roll twice and use either result. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"destiny"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"57Mmiv1NIS8hJLsy",
+	"_key":"!items!57Mmiv1NIS8hJLsy"
+}

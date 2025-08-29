@@ -1,0 +1,33 @@
+{
+	"name":"Spiritbond Defense",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Seeker, Spiritbond class feature </p><p><b>Benefit: </b>When you use your second wind, one ally adjacent to you gains a +2 bonus to all defenses until the start of your next turn. </p><p>Published in Player's Handbook 3, page(s) 183. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"ju3UwDX02CtnkbBx",
+	"_key":"!items!ju3UwDX02CtnkbBx"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Moonbow Stalker",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Rogue, must worship Sehanine </p><p><b>Benefit: </b>You gain proficiency with the shortbow. In addition, you can use a shortbow with Sneak Attack and with any rogue power that normally requires a crossbow. </p><p>Published in Dragon Magazine 386, page(s) 69. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"lhFA4XRMWQ2dfJns",
+	"_key":"!items!lhFA4XRMWQ2dfJns"
+}

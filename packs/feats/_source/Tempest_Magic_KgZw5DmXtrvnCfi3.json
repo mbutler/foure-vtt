@@ -1,0 +1,33 @@
+{
+	"name":"Tempest Magic",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Sorcerer, Con 13, Dex 13, Storm Magic class feature </p><p><b>Benefit: </b>When you use an arcane power that has the lightning or thunder keyword, you gain a +1 feat bonus to damage rolls. While you are bloodied, this bonus becomes +2. </p><p>At 11th level, this bonus increases to +2 (or +4 when bloodied). At 21st level, it increases to +3 (or +6 when bloodied). </p><p>Published in Arcane Power, page(s) 129. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"KgZw5DmXtrvnCfi3",
+	"_key":"!items!KgZw5DmXtrvnCfi3"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Primal Resurgence",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>21st level, any primal class </p><p><b>Benefit: </b>Once per day, when you become bloodied, as a free action you can regain the use of a primal daily power you have already used today. </p><p>Published in Player's Handbook 2, page(s) 194. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"0nKZDFvzWjuUakHV",
+	"_key":"!items!0nKZDFvzWjuUakHV"
+}

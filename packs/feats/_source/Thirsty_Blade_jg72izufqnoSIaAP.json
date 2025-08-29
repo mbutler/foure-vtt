@@ -1,0 +1,33 @@
+{
+	"name":"Thirsty Blade",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>11th level, barbarian </p><p><b>Benefit: </b>When you reduce an enemy to 0 hit points with a charge attack using an axe or a heavy blade, each enemy adjacent to you at the end of the charge takes damage equal to your Strength modifier. </p><p>Published in Primal Power, page(s) 145. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"jg72izufqnoSIaAP",
+	"_key":"!items!jg72izufqnoSIaAP"
+}

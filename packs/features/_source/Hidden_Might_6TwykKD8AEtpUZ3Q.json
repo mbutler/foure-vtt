@@ -1,0 +1,33 @@
+{
+	"name":"Hidden Might",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You gain a bonus to the damage rolls of your vampire powers and vampire paragon path powers. The bonus equals your Charisma modifier. The bonus increases to 2 + your Charisma modifier at 5th level, 4 + your Charisma modifier at 15th level, and 6 + your Charisma modifier at 25th level.</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"6TwykKD8AEtpUZ3Q",
+	"_key":"!items!6TwykKD8AEtpUZ3Q"
+}

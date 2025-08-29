@@ -1,0 +1,33 @@
+{
+	"name":"Bleak Disciple",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you hit an unbloodied target, you gain temporary hit points equal to your Constitution modifier. Add 2 to the temporary hit points gained at 11th level and 4 at 21st level. </p><p>Githyanki brought the tradition of the Bleak Disciple from the Astral Sea. It teaches its adherents to forge the stuff of shadow into a weapon they can use against their foes. Its strictest followers keep a white cloth that they dab in the blood of each slain foe, and before they attack a chosen target, they reflect on this memento of the foes they have defeated. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"sWb9XtD3EwK2iFLv",
+	"_key":"!items!sWb9XtD3EwK2iFLv"
+}

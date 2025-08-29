@@ -1,0 +1,33 @@
+{
+	"name":"Vigor of Battle (30th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Once the blood of your enemies begins to flow, you cannot be stopped. Arrows and spells fly your way, yet each time you cut down an enemy, you find new ways to shrug off the effects of your wounds to continue fighting. As long as your enemies continue to die by your hand, you cannot be brought low. </p><p>Once per round, when you reduce a nonminion enemy to 0 hit points, you regain hit points as though you had spent a healing surge. </p><p>Published in Dragon Magazine 388. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"destiny"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"zHCtZPdNu0hU8k56",
+	"_key":"!items!zHCtZPdNu0hU8k56"
+}

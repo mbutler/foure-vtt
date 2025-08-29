@@ -1,0 +1,33 @@
+{
+	"name":"Celestial Defense (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you are in the phase corresponding to your Phase Focus, you gain a +2 bonus to all defenses. </p><p>Published in Arcane Power, page(s) 43. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"ABf1Rz0nG8mVLoJD",
+	"_key":"!items!ABf1Rz0nG8mVLoJD"
+}

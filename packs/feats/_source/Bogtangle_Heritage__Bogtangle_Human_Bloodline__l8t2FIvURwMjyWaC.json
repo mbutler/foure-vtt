@@ -1,0 +1,33 @@
+{
+	"name":"Bogtangle Heritage [Bogtangle Human Bloodline]",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Human </p><p><b>Benefit: </b>You gain the bog hunter's poison daily attack power. Additionally, you gain a +2 feat bonus to Nature checks. </p><p>Published in Dragon Magazine 386, page(s) 7. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"l8t2FIvURwMjyWaC",
+	"_key":"!items!l8t2FIvURwMjyWaC"
+}

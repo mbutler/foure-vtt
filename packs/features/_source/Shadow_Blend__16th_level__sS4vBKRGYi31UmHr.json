@@ -1,0 +1,33 @@
+{
+	"name":"Shadow Blend (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you subject an enemy to three or more shrouds, you can remove two shrouds to animate the enemy's shadows until the end of the encounter or until you use assassin's shroud against a different target. While the enemy's shadows are animate, you gain combat advantage against that enemy and concealment from that enemy's attacks. </p><p>Published in Dragon Magazine 388. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"sS4vBKRGYi31UmHr",
+	"_key":"!items!sS4vBKRGYi31UmHr"
+}

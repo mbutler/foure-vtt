@@ -1,0 +1,33 @@
+{
+	"name":"Armor-Piercing Blade (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>The first time you score a critical hit against a target with a ranged attack using a light blade, that target takes a -2 penalty to AC until the end of the encounter. </p><p>Published in Martial Power, page(s) 92. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"LJVUTjy96o8nzg01",
+	"_key":"!items!LJVUTjy96o8nzg01"
+}

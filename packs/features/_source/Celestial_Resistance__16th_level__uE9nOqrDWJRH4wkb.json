@@ -1,0 +1,33 @@
+{
+	"name":"Celestial Resistance (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You gain resist necrotic equal to one-half your level. Allies you can see have resist 5 necrotic while within 5 squares of you. </p><p>Published in Dragon Magazine 383, page(s) 43. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"uE9nOqrDWJRH4wkb",
+	"_key":"!items!uE9nOqrDWJRH4wkb"
+}

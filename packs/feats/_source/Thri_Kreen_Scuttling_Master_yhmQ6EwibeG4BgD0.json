@@ -1,0 +1,33 @@
+{
+	"name":"Thri-Kreen Scuttling Master",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>11th level, Thri-Kreen Scuttler feat </p><p><b>Benefit: </b>You can shift while prone. While you are prone, you do not take the -5 penalty to Stealth checks for moving more than 2 squares. </p><p>Published in Dragon Magazine 411. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"yhmQ6EwibeG4BgD0",
+	"_key":"!items!yhmQ6EwibeG4BgD0"
+}

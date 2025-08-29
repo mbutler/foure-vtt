@@ -1,0 +1,33 @@
+{
+	"name":"Last Legion Ambusher",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Benefit: </b>When you miss an enemy that grants combat advantage to you with an encounter attack power, the next ally to hit the target of your missed attack before the start of your next turn deals 2 extra damage. The extra damage increases to 4 at 11th level and 6 at 21st level. </p><p>Published in Dragon Magazine 396. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"JC6NbdzXlWE24Qn7",
+	"_key":"!items!JC6NbdzXlWE24Qn7"
+}

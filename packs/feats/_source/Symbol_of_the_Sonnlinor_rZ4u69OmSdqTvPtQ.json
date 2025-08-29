@@ -1,0 +1,33 @@
+{
+	"name":"Symbol of the Sonnlinor",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Any divine class, must worship Moradin </p><p><b>Benefit: </b>You gain proficiency with all military hammers, axes, and picks, and you can use any hammer, axe, or pick you wield and are proficient with as an implement for any divine power you use. </p><p>Published in Dragon Magazine 385, page(s) 76. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"rZ4u69OmSdqTvPtQ",
+	"_key":"!items!rZ4u69OmSdqTvPtQ"
+}

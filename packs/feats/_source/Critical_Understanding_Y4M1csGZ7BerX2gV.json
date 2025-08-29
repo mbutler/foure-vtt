@@ -1,0 +1,33 @@
+{
+	"name":"Critical Understanding",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>21st level, ardent, ardent surge power, Mantle of Clarity class feature </p><p><b>Benefit: </b>When you use your ardent surge, a bloodied target gains a +3 bonus to all defenses instead of a +1 bonus. </p><p>Published in Psionic Power, page(s) 139. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"Y4M1csGZ7BerX2gV",
+	"_key":"!items!Y4M1csGZ7BerX2gV"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Dark Mantle",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Cleric, healing word power, must worship the Raven Queen </p><p><b>Benefit: </b>Whenever you use healing word, you can forgo granting the extra hit points to instead grant resist necrotic 5 to the target until the end of your next turn. Increase the resistance to 10 at 11th level, and 20 at 21st level. </p><p>Published in Dragon Magazine 380, page(s) 64. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"e5IPtvhVOfuswQmH",
+	"_key":"!items!e5IPtvhVOfuswQmH"
+}

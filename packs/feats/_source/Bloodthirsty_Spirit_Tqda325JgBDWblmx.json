@@ -1,0 +1,33 @@
+{
+	"name":"Bloodthirsty Spirit",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Shaman, Watcher Spirit class feature </p><p><b>Benefit: </b>Each ally making a ranged basic attack triggered by your spirit's prey power gains a +2 power bonus to the damage roll. </p><p>Published in Dragon Magazine 387, page(s) 13. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"Tqda325JgBDWblmx",
+	"_key":"!items!Tqda325JgBDWblmx"
+}

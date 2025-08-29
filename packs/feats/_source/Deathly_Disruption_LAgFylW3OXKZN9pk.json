@@ -1,0 +1,33 @@
+{
+	"name":"Deathly Disruption",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Shadar-kai </p><p><b>Benefit: </b>Your attacks ignore the first 5 points of necrotic resistance. This increases to 10 points at 11th level, and again to 15 points at 21st level. </p><p>Published in Dragon Magazine Annual, Dragon Magazine 372, page(s) 9. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"LAgFylW3OXKZN9pk",
+	"_key":"!items!LAgFylW3OXKZN9pk"
+}

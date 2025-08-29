@@ -1,0 +1,33 @@
+{
+	"name":"Elemental Invigoration [Elemental Companion]",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Elemental Companion feat </p><p><b>Benefit: </b>When you spend a healing surge to regain hit points while your elemental companion is in active mode, you and each ally adjacent to the companion gain a +2 bonus to damage rolls until the start of your next turn. </p><p>Published in Heroes of the Elemental Chaos, page(s) 144. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"WVw6lTi34fzaFNUE",
+	"_key":"!items!WVw6lTi34fzaFNUE"
+}

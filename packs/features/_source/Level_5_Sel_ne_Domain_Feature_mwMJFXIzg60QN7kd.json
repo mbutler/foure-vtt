@@ -1,0 +1,33 @@
+{
+	"name":"Level 5 Selûne Domain Feature",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you use healing word, bloodied allies in the burst gain resistance to all damage until the end of your next turn. The resistance equals your Constitution modifier. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"mwMJFXIzg60QN7kd",
+	"_key":"!items!mwMJFXIzg60QN7kd"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Thundering Force",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>11th level, battlemind, wild focus power </p><p><b>Benefit: </b>When you use a psionic force power, you can choose to have that power deal thunder damage in addition to force damage. </p><p>Published in Dark Sun Campaign Setting, page(s) 115. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"3nN6mwe5zRIWvj8G",
+	"_key":"!items!3nN6mwe5zRIWvj8G"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Blind-Fight",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>21st level, Wis 13 or trained in Perception </p><p><b>Benefit: </b>Creatures adjacent to you gain no benefit from concealment or total concealment against you, and invisible creatures adjacent to you are effectively visible to you. </p><p>Revision (7/28/2008) </p><p>Replace Benefits text with \"Creatures adjacent to you gain no benefit from concealment or total concealment against you, and invisible creatures adjacent to you are effectively visible to you.\" </p><p>Published in Player's Handbook, page(s) 206. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"T5Xa9W4OHFvCw2yR",
+	"_key":"!items!T5Xa9W4OHFvCw2yR"
+}

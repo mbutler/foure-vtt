@@ -1,0 +1,33 @@
+{
+	"name":"Weaver's Action (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you spend an action point to use an illusion attack power, you have combat advantage against each target of the power. In addition, for each target you hit with the power, you can shift up to 2 squares as a free action. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"vKsLzUpW25kSCAxV",
+	"_key":"!items!vKsLzUpW25kSCAxV"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Past-Life Acolytes (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you perform any ritual, you can make three ghostly incarnations of your past lives step out of your body to help you. Each incarnation either grants you a +2 bonus to the ritual's skill check or contributes a healing surge to help pay the ritual's healing surge cost, if any. The number of incarnations increases to four at 20th level, five at 25th level, and six at 30th level. </p><p>Published in Player's Handbook 2, page(s) 19. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"wDb4xkhCNlVIeBQJ",
+	"_key":"!items!wDb4xkhCNlVIeBQJ"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Barbed Body",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Your body has the barbed armor property. Whenever you escape a creature's grab on your turn, or a creature escapes your grab, it takes damage equal to 2 + one-half your level. If you're wearing barbed armor or carrying a barbed shield, the creature takes this damage only once.</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"race"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"kWlzqfQIexJmLt31",
+	"_key":"!items!kWlzqfQIexJmLt31"
+}

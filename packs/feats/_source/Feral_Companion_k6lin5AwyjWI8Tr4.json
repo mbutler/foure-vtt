@@ -1,0 +1,33 @@
+{
+	"name":"Feral Companion",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Half-orc, combined attack druid attack power </p><p><b>Benefit: </b>You can use your furious assault power after you hit with your combined attack power's attack and your animal companion hits with the animal attack combined attack's effect allows. If you do, your hit and your animal companion's hit both deal the extra damage from your furious assault power. </p><p>Published in Dragon Magazine 429. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"k6lin5AwyjWI8Tr4",
+	"_key":"!items!k6lin5AwyjWI8Tr4"
+}

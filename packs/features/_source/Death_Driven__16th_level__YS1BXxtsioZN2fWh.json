@@ -1,0 +1,33 @@
+{
+	"name":"Death-Driven (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Once per round, when a creature within 5 squares of you drops below 1 hit point, you can take a free action to shift up to a number of squares equal to your Charisma modifier. </p><p>Published in The Book of Vile Darkness, page(s) 1-26. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"YS1BXxtsioZN2fWh",
+	"_key":"!items!YS1BXxtsioZN2fWh"
+}

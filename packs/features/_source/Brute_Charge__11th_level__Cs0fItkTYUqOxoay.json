@@ -1,0 +1,33 @@
+{
+	"name":"Brute Charge (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Whenever an enemy hits you with an opportunity attack while you're charging, you can knock that enemy prone as a free action after the opportunity attack is resolved. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"Cs0fItkTYUqOxoay",
+	"_key":"!items!Cs0fItkTYUqOxoay"
+}

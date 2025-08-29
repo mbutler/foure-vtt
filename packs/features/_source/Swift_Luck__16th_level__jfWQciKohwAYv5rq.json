@@ -1,0 +1,33 @@
+{
+	"name":"Swift Luck (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>The first time in each encounter that you roll a natural 18, 19, or 20 on an attack roll or saving throw, you can take an extra move action on your next turn. </p><p>Published in Dragon Magazine 384, page(s) 71. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"jfWQciKohwAYv5rq",
+	"_key":"!items!jfWQciKohwAYv5rq"
+}

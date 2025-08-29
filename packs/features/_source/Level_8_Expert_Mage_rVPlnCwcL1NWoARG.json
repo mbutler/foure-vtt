@@ -1,0 +1,33 @@
+{
+	"name":"Level 8 Expert Mage",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You gain the Expert Mage benefit associated with the second school of magic for which you have the Apprentice Mage benefit.</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"rVPlnCwcL1NWoARG",
+	"_key":"!items!rVPlnCwcL1NWoARG"
+}

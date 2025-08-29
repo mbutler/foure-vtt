@@ -1,0 +1,33 @@
+{
+	"name":"Allied Winds (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you spend a healing surge, you can shift 2 squares as a free action. </p><p>Published in Primal Power, page(s) 57. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"JaKvmH0NedcTzyPr",
+	"_key":"!items!JaKvmH0NedcTzyPr"
+}

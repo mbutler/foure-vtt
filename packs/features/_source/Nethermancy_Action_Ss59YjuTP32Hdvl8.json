@@ -1,0 +1,33 @@
+{
+	"name":"Nethermancy Action",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you spend an action point to take an extra action, your space and each square adjacent to you become a zone of darkness that lasts until the start of your next turn. The zone is totally obscured to creatures other than you. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"Ss59YjuTP32Hdvl8",
+	"_key":"!items!Ss59YjuTP32Hdvl8"
+}

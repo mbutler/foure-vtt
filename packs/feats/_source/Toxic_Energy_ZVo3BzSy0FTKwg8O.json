@@ -1,0 +1,33 @@
+{
+	"name":"Toxic Energy",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Drow, artificer, Augment Energy class feature </p><p><b>Benefit: </b>When an ally hits with an attack benefiting from the bonus granted by your Augment Energy class feature, the attack deals 1d6 extra poison damage. At 11th level, the extra damage increases to 2d6. At 21st level, the extra damage increases to 3d6. </p><p>Published in Dragon Magazine 387, page(s) 35. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"ZVo3BzSy0FTKwg8O",
+	"_key":"!items!ZVo3BzSy0FTKwg8O"
+}

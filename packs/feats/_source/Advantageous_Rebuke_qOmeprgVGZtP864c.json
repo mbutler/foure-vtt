@@ -1,0 +1,33 @@
+{
+	"name":"Advantageous Rebuke",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Invoker, Covenant of Preservation </p><p><b>Benefit: </b>When you hit with an attack with a bonus to the attack roll granted from preserver's rebuke, the target also grants combat advantage until the end of your next turn. </p><p>Published in Dragon Magazine 378. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"qOmeprgVGZtP864c",
+	"_key":"!items!qOmeprgVGZtP864c"
+}

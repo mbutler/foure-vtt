@@ -1,0 +1,33 @@
+{
+	"name":"Dubious Manifestation",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Drow, cloud of darkness racial power, invoker, Divine Covenant class feature </p><p><b>Benefit: </b>When you trigger your covenant manifestation while you are within the area of your cloud of darkness, one ally within 10 squares of you gains concealment until the end of your next turn. </p><p>Published in Dragon Magazine 387, page(s) 41. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"5kjbH7cYBnQPxvFR",
+	"_key":"!items!5kjbH7cYBnQPxvFR"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Bow Expertise",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Benefit: </b>You gain a +1 feat bonus to weapon attack rolls that you make with a bow. In addition, you gain a +1 bonus to the damage roll of any weapon attack you make with a bow against a single creature that is not adjacent to any other creature. Both of these bonuses increase to +2 at 11th level and +3 at 21st level. </p><p>Published in Heroes of the Fallen Lands, page(s) 311, Heroes of the Forgotten Kingdoms, page(s) 311. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"eNlE7Sn5G0dAIaqL",
+	"_key":"!items!eNlE7Sn5G0dAIaqL"
+}

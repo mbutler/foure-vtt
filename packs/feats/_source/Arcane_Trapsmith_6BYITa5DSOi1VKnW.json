@@ -1,0 +1,33 @@
+{
+	"name":"Arcane Trapsmith",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Artificer, training in Thievery </p><p><b>Benefit: </b>You can use your Intelligence modifier instead of your Dexterity modifier when making Thievery checks to disable traps or open locks. You gain a +4 feat bonus to Arcana checks related to traps or hazards. </p><p>Published in Dragon Magazine 403. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"6BYITa5DSOi1VKnW",
+	"_key":"!items!6BYITa5DSOi1VKnW"
+}

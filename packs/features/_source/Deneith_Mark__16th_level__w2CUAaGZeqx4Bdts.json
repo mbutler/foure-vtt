@@ -1,0 +1,33 @@
+{
+	"name":"Deneith Mark (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Whenever you mark an enemy, you end any marks on you. </p><p>Published in Eberron Player's Guide, page(s) 68. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"w2CUAaGZeqx4Bdts",
+	"_key":"!items!w2CUAaGZeqx4Bdts"
+}

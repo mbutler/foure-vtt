@@ -1,0 +1,33 @@
+{
+	"name":"Student of Evard Level 10 Feature (10th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Your power bonus to skill checks involving necromancy, nethermancy, and the Shadowfell increases to +4. In addition, during your first turn of combat, you gain a +1 power bonus to attack rolls with shadow powers.</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"theme"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"egAmPLG8wuhYitCR",
+	"_key":"!items!egAmPLG8wuhYitCR"
+}

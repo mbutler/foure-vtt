@@ -1,0 +1,33 @@
+{
+	"name":"Fading Forces",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>11th level, gnome, warlord </p><p><b>Benefit: </b>When an ally adjacent to you takes damage, you can use your fade away racial power as an immediate reaction and apply its effect to both you and the ally who was damaged. </p><p>Published in Martial Power 2, page(s) 142. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"mQYg7WUPJODye3CI",
+	"_key":"!items!mQYg7WUPJODye3CI"
+}

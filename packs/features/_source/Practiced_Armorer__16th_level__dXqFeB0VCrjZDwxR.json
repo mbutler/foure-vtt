@@ -1,0 +1,33 @@
+{
+	"name":"Practiced Armorer (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You add your Wisdom modifier to any resist value that you give to an ally. </p><p>Published in Dragon Magazine 381, page(s) 62. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"dXqFeB0VCrjZDwxR",
+	"_key":"!items!dXqFeB0VCrjZDwxR"
+}

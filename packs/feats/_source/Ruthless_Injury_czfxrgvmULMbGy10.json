@@ -1,0 +1,33 @@
+{
+	"name":"Ruthless Injury",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Rogue, Ruthless Ruffian class feature, Sneak Attack class feature </p><p><b>Benefit: </b>When you use a club or a mace to make a sneak attack that causes the target to become blinded, immobilized, slowed, or weakened, that target takes a -2 penalty to saving throws against any of those conditions. </p><p>Published in Martial Power, page(s) 139. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"czfxrgvmULMbGy10",
+	"_key":"!items!czfxrgvmULMbGy10"
+}

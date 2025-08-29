@@ -1,0 +1,33 @@
+{
+	"name":"Cover Action (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Whenever you spend an action point to take an extra action, you gain concealment at the end of that action. Until the end of your next turn, you have concealment and take no penalty to Stealth checks for moving more than 2 squares or for running. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"a5r743ClH8sn0Dkd",
+	"_key":"!items!a5r743ClH8sn0Dkd"
+}

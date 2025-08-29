@@ -1,0 +1,33 @@
+{
+	"name":"Basilisk's Boon (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You gain a +2 bonus to saving throws against effects that immobilize, restrain, or slow. When you are subjected to an effect that petrifies you, you can make a saving throw against that effect. If you save, the effect ends on you. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"kZsL25lUqoNRwO6c",
+	"_key":"!items!kZsL25lUqoNRwO6c"
+}

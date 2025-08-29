@@ -1,0 +1,33 @@
+{
+	"name":"Vile Rebirth (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Once per day, when you make a death saving throw, you can add +10 to the saving throw after you roll it. Then, until the end of the encounter, you lose resistance to radiant damage. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"LAND9Q8nqo3rFYvk",
+	"_key":"!items!LAND9Q8nqo3rFYvk"
+}

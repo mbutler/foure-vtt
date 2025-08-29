@@ -1,0 +1,33 @@
+{
+	"name":"Martial Freedom",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Wis 13, any martial class, trained in Endurance </p><p><b>Benefit: </b>You gain a +5 bonus to saving throws against the slowed and immobilized conditions. </p><p>Published in Martial Power, page(s) 138. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"kMt9DHTlv3KnWAqf",
+	"_key":"!items!kMt9DHTlv3KnWAqf"
+}

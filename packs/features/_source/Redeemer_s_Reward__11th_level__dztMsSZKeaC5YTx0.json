@@ -1,0 +1,33 @@
+{
+	"name":"Redeemer's Reward (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Each time you reduce a nonminion enemy to 0 hit points, you or one ally adjacent to you (or to your spirit companion, if you have one) gains a +2 bonus to defenses and saving throws until the end of your next turn. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"dztMsSZKeaC5YTx0",
+	"_key":"!items!dztMsSZKeaC5YTx0"
+}

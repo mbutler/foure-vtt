@@ -1,0 +1,33 @@
+{
+	"name":"Elemental Shield",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Wilden, Nature's Aspect racial trait </p><p><b>Benefit: </b>Whenever you choose an aspect of nature to manifest, choose a damage type: cold, fire, lightning, or thunder. You gain resist 5 to that damage type for the next attack that hits you and deals that damage type. The resistance increases to 10 at 11th level and 15 at 21st level. </p><p>Published in Dragon Magazine 393. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"WUd9Cq8bXYrRPJpB",
+	"_key":"!items!WUd9Cq8bXYrRPJpB"
+}

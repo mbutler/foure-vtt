@@ -1,0 +1,33 @@
+{
+	"name":"Hellish Mark (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Whenever an enemy marked by you makes an attack that doesn't include you as a target, that enemy takes 5 + your Constitution modifier fire damage after the attack is resolved. </p><p>Published in Martial Power 2, page(s) 22. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"bnSfKtmYA25WadLu",
+	"_key":"!items!bnSfKtmYA25WadLu"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Primal Sharpshooter [Multiclass Seeker]",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Wis 13 </p><p><b>Benefit: </b>You gain training in Nature. </p><p>Once per day, you can use the seeker's inevitable shot power. You don't regain the use of that power when you spend an action point. </p><p>Choose one 1st-level seeker at-will attack power. You can use that power once per encounter. </p><p>Published in Player's Handbook 3, page(s) 193. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"8QbZSsl0qhOyIx2t",
+	"_key":"!items!8QbZSsl0qhOyIx2t"
+}

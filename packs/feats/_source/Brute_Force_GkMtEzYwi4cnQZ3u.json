@@ -1,0 +1,33 @@
+{
+	"name":"Brute Force",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Goliath </p><p><b>Benefit: </b>When you hit an enemy with a melee weapon daily attack, you can also push the target 1 square and knock the target prone. </p><p>Published in Dragon Magazine 386, page(s) 56. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"GkMtEzYwi4cnQZ3u",
+	"_key":"!items!GkMtEzYwi4cnQZ3u"
+}

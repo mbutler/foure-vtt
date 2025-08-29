@@ -1,0 +1,33 @@
+{
+	"name":"Razorclaw Mark",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Razorclaw shifter, fighter </p><p><b>Benefit: </b>While you are under the effect of your razorclaw shifting racial power, any creature marked by you takes a -3 penalty to attack rolls for making an attack that does not include you as a target. This penalty replaces the normal penalty for having a creature marked. </p><p>Published in Martial Power 2, page(s) 138. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"7DCf3TnSI2c9vthA",
+	"_key":"!items!7DCf3TnSI2c9vthA"
+}

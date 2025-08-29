@@ -1,0 +1,33 @@
+{
+	"name":"Echo of Letherna",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>21st level, any divine class, must worship the Raven Queen </p><p><b>Benefit: </b>Your divine attack powers that deal radiant damage instead deal necrotic and radiant damage. These prayers gain the necrotic keyword. </p><p>Published in Dragon Magazine 380, page(s) 65. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"hdCYgK3TuO0U1X4G",
+	"_key":"!items!hdCYgK3TuO0U1X4G"
+}

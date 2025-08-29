@@ -1,0 +1,33 @@
+{
+	"name":"Deathless Hunter (30th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Once per day when an enemy's attack reduces you to 0 hit points or fewer, your current hit point total changes to 1 instead, and you gain resist 20 against that enemy's attacks until the end of the encounter. When that enemy drops to 0 hit points, you drop to 0 hit points. </p><p>Published in Player's Handbook 3, page(s) 159. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"destiny"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"qUjxt7yziKlrbJGo",
+	"_key":"!items!qUjxt7yziKlrbJGo"
+}

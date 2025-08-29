@@ -1,0 +1,33 @@
+{
+	"name":"Share the All-Spirit (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Whenever you spend a healing surge, one ally within 5 squares of you makes a saving throw with a bonus equal to your Constitution modifier. </p><p>Published in Dragon Magazine 386, page(s) 43. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"Jjlu0zeHw4aODqy7",
+	"_key":"!items!Jjlu0zeHw4aODqy7"
+}

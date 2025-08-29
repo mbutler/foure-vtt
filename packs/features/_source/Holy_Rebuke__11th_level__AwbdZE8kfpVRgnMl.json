@@ -1,0 +1,33 @@
+{
+	"name":"Holy Rebuke (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you deal extra damage with your ardent vow, you also push the target 1 square. As a free action, you can shift 1 square closer to the target. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"AwbdZE8kfpVRgnMl",
+	"_key":"!items!AwbdZE8kfpVRgnMl"
+}

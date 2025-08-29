@@ -1,0 +1,33 @@
+{
+	"name":"Elemental Spirit",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You draw on elemental spirits inhabiting the earth to give you strength and fuel the raw power of your evocations. </p><p>Spirit Boon: Your allies gain a +2 bonus to saving throws while adjacent to your spirit companion. In addition, if your spirit companion is not present at the start of your turn, you can summon it once during that turn as a free action. </p><p>Spirit's Wrath: You gain the spirit's wrath power, an attack you make through your spirit companion as an opportunity action. </p><p>At-Will Attack Power: You gain the spirit infusion power. You can choose a second at-will attack power as normal. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"c4ikq2st5pveX6x7",
+	"_key":"!items!c4ikq2st5pveX6x7"
+}

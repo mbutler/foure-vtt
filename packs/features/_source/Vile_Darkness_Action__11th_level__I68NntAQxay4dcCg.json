@@ -1,0 +1,33 @@
+{
+	"name":"Vile Darkness Action (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you spend an action point to take an extra action, you gain partial concealment against enemies while they are adjacent to you and a +4 power bonus to damage rolls. If you are bloodied, the concealment is total concealment. Either way, these benefits last until the end of your next turn. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"I68NntAQxay4dcCg",
+	"_key":"!items!I68NntAQxay4dcCg"
+}

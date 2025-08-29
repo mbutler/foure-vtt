@@ -1,0 +1,33 @@
+{
+	"name":"Shardbound Familiar (Khyber) [Familiar]",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>11th level, Arcane Familiar feat </p><p><b>Benefit: </b>Whenever you bloody an enemy adjacent to your active familiar with an arcane power, that enemy also takes ongoing 10 acid, cold, fire, lightning, necrotic, or thunder damage (save ends). </p><p>Published in Dragon Magazine 377, page(s) 35. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"SnzKj65WeAwNslBi",
+	"_key":"!items!SnzKj65WeAwNslBi"
+}

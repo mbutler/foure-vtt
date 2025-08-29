@@ -1,0 +1,33 @@
+{
+	"name":"Draining Surge (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When an enemy within 5 squares of you drops to 0 hit points or becomes dazed, stunned, or weakened, if you use ardent surge before the end of your next turn, the target of the power regains additional hit points equal to your Wisdom modifier. </p><p>Published in Psionic Power, page(s) 27. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"BC1sQo79DZfxwYKv",
+	"_key":"!items!BC1sQo79DZfxwYKv"
+}

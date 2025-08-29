@@ -1,0 +1,33 @@
+{
+	"name":"Recent Life - Freeing Slaves Background",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Campaign Setting: </b>General </p><p>You were working to abolish the slave trade within a local community. Did you succeed? </p><p><i>Associated Skills: </i>Diplomacy, Thievery </p><p>Published in Dragon Magazine 383, page(s) 81. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"background"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"CbJicdZ5RSs97FIE",
+	"_key":"!items!CbJicdZ5RSs97FIE"
+}

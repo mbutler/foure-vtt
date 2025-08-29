@@ -1,0 +1,33 @@
+{
+	"name":"Fey Fate",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Elf, avenger, oath of enmity power </p><p><b>Benefit: </b>When you use your elven accuracy racial power to reroll an attack roll made against your oath of enmity target and you hit, you gain a +2 bonus to damage rolls against that target until the end of your next turn. </p><p>The bonus increases to +4 at 11th level and +6 at 21st level. </p><p>Published in Divine Power, page(s) 134. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"z9ZUFxW6gVoT1Cqd",
+	"_key":"!items!z9ZUFxW6gVoT1Cqd"
+}

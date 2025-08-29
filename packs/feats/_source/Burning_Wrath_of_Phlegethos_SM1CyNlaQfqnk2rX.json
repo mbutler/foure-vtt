@@ -1,0 +1,33 @@
+{
+	"name":"Burning Wrath of Phlegethos",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Tiefling, infernal wrath racial power, avenger, oath of enmity power </p><p><b>Benefit: </b>If you use infernal wrath against the target of your oath of enmity, your melee attacks against that target deal extra fire damage equal to your Intelligence modifier until the end of your next turn. </p><p>Published in Player's Handbook Races: Tiefling, page(s) 25. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"SM1CyNlaQfqnk2rX",
+	"_key":"!items!SM1CyNlaQfqnk2rX"
+}

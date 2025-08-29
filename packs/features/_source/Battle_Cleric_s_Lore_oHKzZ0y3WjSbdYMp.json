@@ -1,0 +1,33 @@
+{
+	"name":"Battle Cleric's Lore",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Clerics can choose Battle Cleric's Lore in place of their Healer's Lore Class Feature:</p>\n<p>@UUID[Compendium.dnd-4e-compendium.module-features.0gBrxSmAsw54LK63]{Battle Cleric's Lore}</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"oHKzZ0y3WjSbdYMp",
+	"_key":"!items!oHKzZ0y3WjSbdYMp"
+}

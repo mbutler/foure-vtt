@@ -1,0 +1,33 @@
+{
+	"name":"White Lotus Evasion",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Any arcane class </p><p><b>Benefit: </b>During a turn in which you hit an enemy with an arcane at-will attack power, you can shift 1 square as a minor action. </p><p>Published in Dragon Magazine 374, page(s) 20. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"7xReBzHk3EINTZdX",
+	"_key":"!items!7xReBzHk3EINTZdX"
+}

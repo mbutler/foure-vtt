@@ -1,0 +1,33 @@
+{
+	"name":"Sentinel Initiate [Multiclass Druid]",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Wisdom 13 </p><p><b>Benefit: </b>You gain training in the Nature skill. </p><p>Once per day, you can use the druid's healing word power. You also gain proficiency with staff and totem implements. </p><p>Published in Dragon Magazine 402. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"HqbXpDStQvFA6BNw",
+	"_key":"!items!HqbXpDStQvFA6BNw"
+}

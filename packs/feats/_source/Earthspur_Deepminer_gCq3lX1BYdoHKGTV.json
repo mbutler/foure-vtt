@@ -1,0 +1,33 @@
+{
+	"name":"Earthspur Deepminer",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Impiltur regional benefit </p><p><b>Benefit: </b>You gain Deep Speech as a bonus language and resist 2 necrotic. </p><p>At 11th level, your resistance increases to resist 3 necrotic, and at 21st level your resistance increases to resist 5 necrotic. </p><p>Published in Dragon Magazine 370, page(s) 37. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"gCq3lX1BYdoHKGTV",
+	"_key":"!items!gCq3lX1BYdoHKGTV"
+}

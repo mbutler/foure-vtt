@@ -1,0 +1,33 @@
+{
+	"name":"Tactical Presence",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When an ally you can see spends an action point to make an attack, the ally gains a bonus to the first attack roll of that attack. The bonus equals half your Intelligence modifier. </p><p>If multiple warlord allies who have this class feature can see the ally, he or she gains the bonus from only one of them (the ally's choice). </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"Vdw26DOmzT30NB7j",
+	"_key":"!items!Vdw26DOmzT30NB7j"
+}

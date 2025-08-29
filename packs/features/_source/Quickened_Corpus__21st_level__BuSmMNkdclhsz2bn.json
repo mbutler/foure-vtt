@@ -1,0 +1,33 @@
+{
+	"name":"Quickened Corpus (21st level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You gain a +2 bonus to Constitution and gain a number of additional hit points equal to your new Constitution modifier. You don't take the death penalty when the Raise Dead ritual is used to return you to life. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"destiny"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"BuSmMNkdclhsz2bn",
+	"_key":"!items!BuSmMNkdclhsz2bn"
+}

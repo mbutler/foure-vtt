@@ -1,0 +1,33 @@
+{
+	"name":"Ruthless Spellfury",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>21st level, sorcerer </p><p><b>Benefit: </b>Once per turn when you score a critical hit with a sorcerer at-will attack power, you can use a free action to make a ranged basic attack that is a sorcerer power. </p><p>Update (4/9/2010) </p><p>Replace the Benefit line with the following text: \"Once per turn when you score a critical hit with a sorcerer at-will attack power, you can use a free action to make a ranged basic attack that is a sorcerer power.\" </p><p>Published in Arcane Power, page(s) 135. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"Dr2cUAaBytm9Vn7C",
+	"_key":"!items!Dr2cUAaBytm9Vn7C"
+}

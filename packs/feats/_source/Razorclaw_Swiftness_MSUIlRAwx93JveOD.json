@@ -1,0 +1,33 @@
+{
+	"name":"Razorclaw Swiftness",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Razorclaw shifter, warden </p><p><b>Benefit: </b>While you are using your razorclaw shifting racial power, you can shift 1 square before or after using Nature's Wrath. </p><p>Published in Dragon Magazine 379, page(s) 45. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"MSUIlRAwx93JveOD",
+	"_key":"!items!MSUIlRAwx93JveOD"
+}

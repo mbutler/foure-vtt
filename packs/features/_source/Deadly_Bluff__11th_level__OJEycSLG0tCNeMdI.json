@@ -1,0 +1,33 @@
+{
+	"name":"Deadly Bluff (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You can make a Bluff check to gain combat advantage against an adjacent enemy as a minor action instead of as a standard action. If your check beats the enemy's Insight check, the enemy grants combat advantage to you and your allies until the end of your next turn. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"OJEycSLG0tCNeMdI",
+	"_key":"!items!OJEycSLG0tCNeMdI"
+}

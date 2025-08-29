@@ -1,0 +1,33 @@
+{
+	"name":"Seeking Redemption Background",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Type: </b>Racial </p><p><b>Campaign Setting: </b>Dark Sun </p><p><b>Prerequisite: </b>Tiefling </p><p>Killing others to settle your debt only reinforces the evil that stains your soul. There must be a better way to escape your doom. In what ways do you try to free yourself from your debt? How do you control the darkness within you? How do you see other tieflings? </p><p><i>Associated Skills: </i>Diplomacy, Insight </p><p>Published in Dark Sun Campaign Setting, page(s) 30. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"background"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"rCXg9cnjIMkGe0lJ",
+	"_key":"!items!rCXg9cnjIMkGe0lJ"
+}

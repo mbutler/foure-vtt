@@ -1,0 +1,33 @@
+{
+	"name":"Spirit Breath",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>11th level, dragonborn, dragon breath racial power, any primal class </p><p><b>Benefit: </b>When you use a daily primal attack power with a keyword that matches the damage type of your dragon breath, you regain the use of dragon breath. </p><p>Published in Player's Handbook Races: Dragonborn, page(s) 25. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"AncZxYHSXoh3jQwi",
+	"_key":"!items!AncZxYHSXoh3jQwi"
+}

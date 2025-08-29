@@ -1,0 +1,33 @@
+{
+	"name":"Martial Alacrity",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Dex 15, any martial class </p><p><b>Benefit: </b>You gain a +2 feat bonus to initiative checks. Also, during your first turn in an encounter, you can shift as a minor action. </p><p>Published in Martial Power, page(s) 137. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"CUROi7Gp14l3ScPN",
+	"_key":"!items!CUROi7Gp14l3ScPN"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Accomplished Liar (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you roll a Bluff check, you can roll twice and use either result. In addition, you can use Bluff to gain combat advantage by feinting as a minor action. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"WMjsch0HQRLVk8mI",
+	"_key":"!items!WMjsch0HQRLVk8mI"
+}

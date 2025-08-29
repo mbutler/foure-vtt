@@ -1,0 +1,33 @@
+{
+	"name":"Frost Step",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Warlock, fey pact with the Winter Fey </p><p><b>Benefit: </b>When you use Misty Step, the space you teleport from and all squares adjacent to that space become difficult terrain to everyone but you until the start of your next turn. </p><p>Published in Dragon Magazine 374, page(s) 63. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"n0rflqR4uXvbkQBm",
+	"_key":"!items!n0rflqR4uXvbkQBm"
+}

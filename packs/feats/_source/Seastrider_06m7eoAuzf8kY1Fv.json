@@ -1,0 +1,33 @@
+{
+	"name":"Seastrider",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>21st level, Born of the Elements feat </p><p><b>Benefit: </b>You can shift through enemies' spaces. </p><p>In addition, you can use a move action to move up to your speed across a liquid surface, treating it as solid ground. If you end the move on the liquid, you sink. </p><p>Published in Heroes of the Elemental Chaos, page(s) 145. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"06m7eoAuzf8kY1Fv",
+	"_key":"!items!06m7eoAuzf8kY1Fv"
+}

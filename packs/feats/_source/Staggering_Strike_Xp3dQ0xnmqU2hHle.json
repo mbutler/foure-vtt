@@ -1,0 +1,33 @@
+{
+	"name":"Staggering Strike",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Ranger, Hunter's Quarry class feature </p><p><b>Benefit: </b>Whenever you would deal Hunter's Quarry damage to an enemy, you can forgo one die of that damage to push that enemy 1 square. </p><p>Published in Martial Power 2, page(s) 139. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"Xp3dQ0xnmqU2hHle",
+	"_key":"!items!Xp3dQ0xnmqU2hHle"
+}

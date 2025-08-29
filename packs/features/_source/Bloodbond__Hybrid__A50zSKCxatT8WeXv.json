@@ -1,0 +1,33 @@
+{
+	"name":"Bloodbond (Hybrid)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You gain the encaging spirits power. You can use the power only once per day. You are also considered to have Bloodbond for the purpose of meeting prerequisites and using the benefits tailored for it in certain powers. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"A50zSKCxatT8WeXv",
+	"_key":"!items!A50zSKCxatT8WeXv"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Primal Aspect Form",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>21st level, druid, wild shape power </p><p><b>Benefit: </b>While you are bloodied in beast form, you gain regeneration 2. </p><p>Published in Player's Handbook 2, page(s) 194. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"H51FximAcbMoz8Ky",
+	"_key":"!items!H51FximAcbMoz8Ky"
+}

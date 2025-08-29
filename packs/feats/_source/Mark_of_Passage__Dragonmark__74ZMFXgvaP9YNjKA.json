@@ -1,0 +1,33 @@
+{
+	"name":"Mark of Passage [Dragonmark]",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Benefit: </b>Whenever one of your powers lets you shift, you can shift 1 extra square. </p><p>Whenever one of your powers lets you teleport, you can teleport 1 extra square. </p><p>You can master and perform rituals in the travel category and the Enhance Vessel, Find the Path, Passwall, Phantom Steed, Steed Summons, and Water Walk rituals as if you had the Ritual Caster feat. </p><p>Published in Eberron Player's Guide, page(s) 91. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"74ZMFXgvaP9YNjKA",
+	"_key":"!items!74ZMFXgvaP9YNjKA"
+}

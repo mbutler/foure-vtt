@@ -1,0 +1,33 @@
+{
+	"name":"Umbral Wind",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Dusk Elf Stealth </p><p><b>Benefit: </b>When you use your second wind, you gain concealment until the end of your next turn instead of gaining a +2 bonus to all defenses until the start of your next turn. If you already have concealment, you instead gain total concealment. </p><p>Published in Dragon Magazine 382, page(s) 70. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"qXKzCjTfF0IhnUHb",
+	"_key":"!items!qXKzCjTfF0IhnUHb"
+}

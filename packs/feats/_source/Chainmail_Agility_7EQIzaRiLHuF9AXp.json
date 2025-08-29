@@ -1,0 +1,33 @@
+{
+	"name":"Chainmail Agility",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>11th level, Dex 15, fighter </p><p><b>Benefit: </b>You ignore the speed penalty normally incurred by wearing chainmail. </p><p>Published in Martial Power, page(s) 141. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"7EQIzaRiLHuF9AXp",
+	"_key":"!items!7EQIzaRiLHuF9AXp"
+}

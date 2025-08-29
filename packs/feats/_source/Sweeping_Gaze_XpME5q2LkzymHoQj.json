@@ -1,0 +1,33 @@
+{
+	"name":"Sweeping Gaze",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>21st level, tiefling, Gaze of Ruin feat </p><p><b>Benefit: </b>When you use gaze of ruin, you can target one or two objects instead of just one. </p><p>Published in Dragon Magazine 387, page(s) 55. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"XpME5q2LkzymHoQj",
+	"_key":"!items!XpME5q2LkzymHoQj"
+}

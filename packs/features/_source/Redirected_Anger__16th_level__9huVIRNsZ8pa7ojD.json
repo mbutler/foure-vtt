@@ -1,0 +1,33 @@
+{
+	"name":"Redirected Anger (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Once per encounter, when you reduce an enemy to 0 hit points on your turn, you can use a warlock at-will attack power as a minor action before the end of your turn. You can use the power as a free action if you are bloodied. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"9huVIRNsZ8pa7ojD",
+	"_key":"!items!9huVIRNsZ8pa7ojD"
+}

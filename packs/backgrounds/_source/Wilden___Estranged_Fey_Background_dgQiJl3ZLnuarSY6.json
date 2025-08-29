@@ -1,0 +1,33 @@
+{
+	"name":"Wilden - Estranged Fey Background",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Type: </b>Racial </p><p><b>Campaign Setting: </b>General </p><p><b>Prerequisite: </b>Wilden </p><p>See the eladrin and gnome backgrounds of the same name. You were born in the world and have never visited the Feywild. </p><p><i>Associated Skills: </i>Endurance, Nature </p><p>Published in Dragon Magazine 374. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"background"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"dgQiJl3ZLnuarSY6",
+	"_key":"!items!dgQiJl3ZLnuarSY6"
+}

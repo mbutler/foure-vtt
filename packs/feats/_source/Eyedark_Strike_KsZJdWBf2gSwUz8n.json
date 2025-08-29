@@ -1,0 +1,33 @@
+{
+	"name":"Eyedark Strike",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>11th level, drow </p><p><b>Benefit: </b>When you deal damage to a target, you can expend your cloud of darkness racial power as a free action to blind the target until the end of your next turn. </p><p>Published in Dragon Magazine 373, page(s) 10. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"KsZJdWBf2gSwUz8n",
+	"_key":"!items!KsZJdWBf2gSwUz8n"
+}

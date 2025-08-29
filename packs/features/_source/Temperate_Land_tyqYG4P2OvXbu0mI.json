@@ -1,0 +1,33 @@
+{
+	"name":"Temperate Land",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>While you are wielding a one-handed weapon and using a shield, you gain a +2 bonus to the damage rolls of any weapon attack you make with that weapon. </p><p>At 4th level, you gain a +1 bonus to speed while charging. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"tyqYG4P2OvXbu0mI",
+	"_key":"!items!tyqYG4P2OvXbu0mI"
+}

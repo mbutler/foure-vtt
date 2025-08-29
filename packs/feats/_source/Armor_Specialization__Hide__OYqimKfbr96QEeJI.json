@@ -1,0 +1,33 @@
+{
+	"name":"Armor Specialization (Hide)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>11th level, Con 15, training with hide armor </p><p><b>Benefit: </b>You gain a +1 feat bonus to AC when wearing hide armor. You reduce the check penalty incurred by hide armor by 1. </p><p>Published in Player's Handbook, page(s) 202. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"OYqimKfbr96QEeJI",
+	"_key":"!items!OYqimKfbr96QEeJI"
+}

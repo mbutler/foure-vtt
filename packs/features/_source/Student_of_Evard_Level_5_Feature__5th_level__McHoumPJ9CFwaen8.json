@@ -1,0 +1,33 @@
+{
+	"name":"Student of Evard Level 5 Feature (5th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You gain a +2 power bonus to skill checks involving necromancy, nethermancy, and the Shadowfell. In addition, you can perform the Last Sight Vision ritual, and you can perform it once per day without expending components.<br></p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"theme"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"McHoumPJ9CFwaen8",
+	"_key":"!items!McHoumPJ9CFwaen8"
+}

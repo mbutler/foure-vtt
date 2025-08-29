@@ -1,0 +1,33 @@
+{
+	"name":"Defiling Adept",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>11th level, arcane defiling power </p><p><b>Benefit: </b>When you use an arcane daily attack power with arcane defiling, that attack can score a critical hit on a roll of 19-20. The critical range increases to 18-20 at 21st level. </p><p>Published in Dark Sun Campaign Setting, page(s) 113. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"dyu2J4As7XgPTr69",
+	"_key":"!items!dyu2J4As7XgPTr69"
+}

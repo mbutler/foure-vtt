@@ -1,0 +1,33 @@
+{
+	"name":"Student of Artifice [Multiclass Artificer]",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Int 13 </p><p><b>Benefit: </b>You gain training in Arcana. Once per day, you can use the artificer's healing infusion power. The infusion you create cannot be replenished. </p><p>In addition, you can wield artificer implements. </p><p>Published in Eberron Player's Guide, page(s) 94. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"7SLtlYTAHvDxRhF2",
+	"_key":"!items!7SLtlYTAHvDxRhF2"
+}

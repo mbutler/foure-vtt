@@ -1,0 +1,33 @@
+{
+	"name":"Effortless Dilettante",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Half-elf, you must have chosen a melee attack power for your Dilettante racial trait </p><p><b>Benefit: </b>Once per encounter, you can use the power you chose for your Dilettante racial trait as a melee basic attack against a single target as a part of a charge or opportunity attack. </p><p>Published in Dragon Magazine 385, page(s) 68. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"fqhk7jREXad9GnJS",
+	"_key":"!items!fqhk7jREXad9GnJS"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Stone Fist (Hybrid)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>The Stone Fist tradition is one of physical mastery, relentless exercise, and athletic perfection. Its adherents seek to master their bodies, turning themselves into living weapons capable of supernatural feats of strength, agility, and speed. Monks of the Stone Fist prefer to study among the trappings of civilization. Some Stone Fist monasteries are small schools built in towns and villages, where students work as laborers and artisans when they aren't training. Other Stone Fist monasteries stand in the most forbidding regions of the world-from the bitter cold of the tundra to the edge of a rumbling volcano-to test their students' endurance day after day. </p><p>Flurry of Blows: You gain the stone fist flurry of blows power. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"V06EDQxhafzCwirM",
+	"_key":"!items!V06EDQxhafzCwirM"
+}

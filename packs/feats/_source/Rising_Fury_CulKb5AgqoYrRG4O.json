@@ -1,0 +1,33 @@
+{
+	"name":"Rising Fury",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Barbarian </p><p><b>Benefit: </b>When you reduce an enemy to 0 hit points, you gain a +2 feat bonus to weapon damage rolls until the end of your next turn. The bonus increases to +3 at 11th level and +4 at 21st level. </p><p>Published in Player's Handbook 2, page(s) 188. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"CulKb5AgqoYrRG4O",
+	"_key":"!items!CulKb5AgqoYrRG4O"
+}

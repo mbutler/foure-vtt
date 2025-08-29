@@ -1,0 +1,33 @@
+{
+	"name":"Commanding Presence",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Choose one of the following presence benefits below.</p>\n<p>The choice you make also provides bonuses to certain warlord powers. Individual powers detail the effects (if any) your Commanding Presence selection has on them.</p>\n<p>@UUID[Compendium.dnd-4e-compendium.module-features.9cN5aK70hrHlXk3A]{Bravura Presence}@UUID[Compendium.dnd-4e-compendium.module-features.c2VaLjXRk1wMSDle]{Insightful Presence}@UUID[Compendium.dnd-4e-compendium.module-features.iNUwB601Y9mAKXgy]{Inspiring Presence}@UUID[Compendium.dnd-4e-compendium.module-features.YOqTRHnltLBCdraU]{Resourceful Presence}@UUID[Compendium.dnd-4e-compendium.module-features.XPDAbjO8gJL5FrNv]{Skirmishing Presence}@UUID[Compendium.dnd-4e-compendium.module-features.Vdw26DOmzT30NB7j]{Tactical Presence}</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"mkZuf5VApjIhzCrv",
+	"_key":"!items!mkZuf5VApjIhzCrv"
+}

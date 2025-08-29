@@ -1,0 +1,33 @@
+{
+	"name":"Desert Manifestation (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Choose a genasi racial power that you do not already possess. The power must be associated with the ember, magma, sand, or sun manifestation. You gain this power. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"dw2f9aH0bJGQp7sL",
+	"_key":"!items!dw2f9aH0bJGQp7sL"
+}

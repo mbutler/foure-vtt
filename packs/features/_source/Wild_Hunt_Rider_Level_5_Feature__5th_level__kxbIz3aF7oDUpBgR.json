@@ -1,0 +1,33 @@
+{
+	"name":"Wild Hunt Rider Level 5 Feature (5th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You gain and master the Phantom Steed ritual. Once per day, you can perform the ritual without expending components. You can use either Arcana or Nature as the ritual's key skill.<br></p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"theme"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"kxbIz3aF7oDUpBgR",
+	"_key":"!items!kxbIz3aF7oDUpBgR"
+}

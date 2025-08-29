@@ -1,0 +1,33 @@
+{
+	"name":"Hereditary Psionics User Background",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Type: </b>Racial </p><p><b>Campaign Setting: </b>General </p><p><b>Prerequisite: </b>Dragonborn, Psionic </p><p>Several of Arkhosia's noble households boasted psionic talent and stood at the forefront of the empire's war effort against Bael Turath. You are a descendant of one of those families, which were scattered after Arkhosia fell. But do you feel the pride, confidence, and obligation that come with your legendary bloodline? Or are you secretly ashamed of your past-knowing that your forebears were among Arkhosia's best warriors, and that their skill failed the empire in the end? </p><p><i>Associated Skills: </i>History, Intimidate </p><p>Published in Psionic Power, page(s) 122. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"background"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"I6nyLNeFWcokaDwC",
+	"_key":"!items!I6nyLNeFWcokaDwC"
+}

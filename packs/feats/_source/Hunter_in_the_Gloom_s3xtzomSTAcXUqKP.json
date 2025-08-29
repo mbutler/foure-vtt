@@ -1,0 +1,33 @@
+{
+	"name":"Hunter in the Gloom",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Shadar-kai, assassin, shadow jaunt racial power </p><p><b>Benefit: </b>While you are insubstantial due to your shadow jaunt power, any weapon attacks you make against AC instead are made against the target's Reflex. </p><p>Published in Dragon Magazine 382, page(s) 30. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"s3xtzomSTAcXUqKP",
+	"_key":"!items!s3xtzomSTAcXUqKP"
+}

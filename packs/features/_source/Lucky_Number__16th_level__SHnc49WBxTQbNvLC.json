@@ -1,0 +1,33 @@
+{
+	"name":"Lucky Number (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You score a critical hit with sorcerer and luckbender attack powers on a result of 19-20. </p><p>Published in Dragon Magazine 385, page(s) 48. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"SHnc49WBxTQbNvLC",
+	"_key":"!items!SHnc49WBxTQbNvLC"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Warding Mastery",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Ritual Caster feat, mastery of two warding rituals </p><p><b>Benefit: </b>You gain a +2 feat bonus to Perception checks when actively searching for a trap or hazard, as well as Arcana checks or Thievery checks made to disable a trap or hazard. When you use a skill as part of a warding ritual either as a skill check or a skill check modifier, increase the result by 2. Once per day, you can ignore the component cost of a warding ritual of your level or lower that you have mastered. </p><p>Published in Dragon Magazine 405. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"vjQuIalkiDdcAWFK",
+	"_key":"!items!vjQuIalkiDdcAWFK"
+}

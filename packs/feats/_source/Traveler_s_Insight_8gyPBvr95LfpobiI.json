@@ -1,0 +1,33 @@
+{
+	"name":"Traveler's Insight",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Trained in Insight </p><p><b>Benefit: </b>You gain a feat bonus to Insight checks equal to the number of languages you know. </p><p>Published in Dragon Magazine 385, page(s) 80. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"8gyPBvr95LfpobiI",
+	"_key":"!items!8gyPBvr95LfpobiI"
+}

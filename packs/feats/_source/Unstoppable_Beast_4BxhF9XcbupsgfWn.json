@@ -1,0 +1,33 @@
+{
+	"name":"Unstoppable Beast",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Druid, savage rend power, wild shape power </p><p><b>Benefit: </b>When you hit a target with the savage rend power, you can shift 1 square into the space occupied by your target after you slide it. </p><p>Published in Dragon Magazine 382, page(s) 54. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"4BxhF9XcbupsgfWn",
+	"_key":"!items!4BxhF9XcbupsgfWn"
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Power Loader Test</title>
+</head>
+<body>
+    <h1>Power Loader Test</h1>
+    <div id="output"></div>
+
+    <script type="module">
+        import { convertFoundryPower } from './content/power-loader.js'
+        
+        // Test data
+        const testPower = {
+            "_id": "test",
+            "name": "Test Power",
+            "system": {
+                "useType": "atwill",
+                "actionType": "standard",
+                "attack": { "isAttack": true, "ability": "str", "def": "ac" },
+                "hit": { "isDamage": true, "baseQuantity": "1", "baseDiceType": "weapon" }
+            }
+        }
+        
+        try {
+            const converted = convertFoundryPower(testPower)
+            document.getElementById('output').innerHTML = `
+                <h2>Success!</h2>
+                <p>Power converted successfully:</p>
+                <pre>${JSON.stringify(converted, null, 2)}</pre>
+            `
+        } catch (error) {
+            document.getElementById('output').innerHTML = `
+                <h2>Error!</h2>
+                <p>Failed to load power-loader.js:</p>
+                <pre>${error.message}</pre>
+            `
+        }
+    </script>
+</body>
+</html>

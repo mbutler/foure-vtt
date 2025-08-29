@@ -1,0 +1,33 @@
+{
+	"name":"High Magic (21st level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You enact arcane rituals with greater skill and efficiency than any other spellcaster. You gain a +5 bonus to Arcana checks made to perform rituals. When you perform a ritual, you pay only half the normal cost. You can wield high magic (see the sidebar). </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"destiny"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"I5AEolOjQzD7uSkq",
+	"_key":"!items!I5AEolOjQzD7uSkq"
+}

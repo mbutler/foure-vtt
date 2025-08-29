@@ -1,0 +1,33 @@
+{
+	"name":"Guarding Shot (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Whenever you make a ranged attack, you can take a -2 penalty to the attack roll against one of the targets to grant a +2 bonus to the AC of one ally adjacent to that target. The bonus lasts until the end of your next turn. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"civmdbVPQlX0T63G",
+	"_key":"!items!civmdbVPQlX0T63G"
+}

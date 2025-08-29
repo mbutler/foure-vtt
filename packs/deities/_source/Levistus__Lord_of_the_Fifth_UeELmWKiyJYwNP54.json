@@ -1,0 +1,33 @@
+{
+	"name":"Levistus, Lord of the Fifth",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Type: </b>Archdevil of the Nine Hell </p><p><b>Alignment: </b>Evil </p><p><b>Gender: </b>Male </p><p><b>Territory: </b>Fifth Circle </p><p><b>Priests: </b>Cultists </p><p><b>Adjective: </b>Levistan </p><p>No one knows what Levistus looks like, because the prince is frozen deep within an iceberg. From the exterior, the prince looks like a great dark clot blearily realized through the ice. Asmodeus originally imprisoned Levistus in ice for a past betrayal. Though he allows the prince control over Stygia via mental contact with other devils, Asmodeus will not free Levistus. Despite his imprisonment, the plots of Levistus run deep. Should Levistus break free, his vengeance on the other lords of the Nine Hells, especially Asmodeus, would undoubtedly follow. </p><p>Published in Forgotten Realms Campaign Guide, page(s) 81. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"other"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"UeELmWKiyJYwNP54",
+	"_key":"!items!UeELmWKiyJYwNP54"
+}

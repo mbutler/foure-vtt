@@ -1,0 +1,33 @@
+{
+	"name":"Bloodied Might (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>The first time you become bloodied during an encounter, you regain the use of radiant visage if you have already used it during this encounter. </p><p>Published in Player's Handbook 2, page(s) 46. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"o7WNGdiwz4MSPkLh",
+	"_key":"!items!o7WNGdiwz4MSPkLh"
+}

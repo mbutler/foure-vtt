@@ -1,0 +1,33 @@
+{
+	"name":"Elemental Sustenance (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you use a daily elemental power, you can spend a healing surge. </p><p>Published in Heroes of the Elemental Chaos, page(s) 124. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"HZjTckA7rI023lfS",
+	"_key":"!items!HZjTckA7rI023lfS"
+}

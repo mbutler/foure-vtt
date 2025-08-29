@@ -1,0 +1,33 @@
+{
+	"name":"Power Strike",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You gain the power strike power.</p>\n<p>@UUID[Compendium.dnd-4e-compendium.module-powers.RceW5jNqBOybEKFQ]{Power Strike}</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"wj10rQcIAsRnho7f",
+	"_key":"!items!wj10rQcIAsRnho7f"
+}

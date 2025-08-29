@@ -1,0 +1,33 @@
+{
+	"name":"Through the Fingers (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>If a creature grabs you, you can make a melee basic attack against it as an opportunity action. If this attack hits, you can make an escape attempt as a free action, with a bonus to the Acrobatics or the Athletics check equal to the damage dealt by the basic attack. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"iB5vo0JH8ZjrckOK",
+	"_key":"!items!iB5vo0JH8ZjrckOK"
+}

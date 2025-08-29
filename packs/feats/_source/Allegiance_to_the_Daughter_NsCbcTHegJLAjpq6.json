@@ -1,0 +1,33 @@
+{
+	"name":"Allegiance to the Daughter",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Warlock, Infernal Pact </p><p><b>Benefit: </b>Whenever you reduce an enemy you have cursed to 0 hit points with a warlock attack, the enemy's space fills with hellfire until the end of your next turn. Any creature that enters or starts its turn within the square takes fire damage equal to 5 + one-half your level. </p><p>Published in Dragon Magazine 382, page(s) 51. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"NsCbcTHegJLAjpq6",
+	"_key":"!items!NsCbcTHegJLAjpq6"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Shielded Teleport (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Whenever you teleport, you gain a +2 bonus to AC and Reflex until the start of your next turn. </p><p>Published in Dragon Magazine 394. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"ua4mg1jkpsorYVhJ",
+	"_key":"!items!ua4mg1jkpsorYVhJ"
+}

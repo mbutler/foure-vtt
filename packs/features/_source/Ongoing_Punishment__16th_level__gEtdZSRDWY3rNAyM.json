@@ -1,0 +1,33 @@
+{
+	"name":"Ongoing Punishment (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You gain a bonus to the ongoing damage you deal equal to your Wisdom modifier. You also gain combat advantage against humanoid enemies that are taking ongoing damage. </p><p>Published in Martial Power, page(s) 66. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"gEtdZSRDWY3rNAyM",
+	"_key":"!items!gEtdZSRDWY3rNAyM"
+}

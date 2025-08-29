@@ -1,0 +1,33 @@
+{
+	"name":"Rune of Immortality (30th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you fail your third death saving throw during an encounter, you don't die. You instead vanish, appearing in your god's dominion. All conditions and harmful effects on you end, you are considered to have failed no death saving throws, and you can spend a healing surge. At the start of your next turn, you reappear within 10 squares of the space you left. </p><p>Published in Player's Handbook 3, page(s) 160. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"destiny"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"1aEThACgty4NIGMc",
+	"_key":"!items!1aEThACgty4NIGMc"
+}

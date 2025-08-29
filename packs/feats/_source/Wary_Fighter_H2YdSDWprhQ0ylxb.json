@@ -1,0 +1,33 @@
+{
+	"name":"Wary Fighter",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Fighter </p><p><b>Benefit: </b>You use your Wisdom modifier instead of your Dexterity modifier when rolling initiative. You also gain a +2 feat bonus to Insight and Perception checks. </p><p>Published in Dragon Magazine 378. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"H2YdSDWprhQ0ylxb",
+	"_key":"!items!H2YdSDWprhQ0ylxb"
+}

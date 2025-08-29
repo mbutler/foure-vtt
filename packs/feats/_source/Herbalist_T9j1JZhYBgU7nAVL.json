@@ -1,0 +1,33 @@
+{
+	"name":"Herbalist",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Trained in Dungeoneering or Nature, trained in Heal </p><p><b>Benefit: </b>You gain a +5 bonus to Heal checks to treat disease. </p><p>In addition, when you reach 5th level, you master the ritual Brew Potion and can perform it without a ritual book. </p><p>Published in Primal Power, page(s) 137. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"T9j1JZhYBgU7nAVL",
+	"_key":"!items!T9j1JZhYBgU7nAVL"
+}

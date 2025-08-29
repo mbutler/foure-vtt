@@ -1,0 +1,33 @@
+{
+	"name":"Level 16 Cavalier Utility Power",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You gain one of the following powers of your choice.</p>\n<p>@UUID[Compendium.dnd-4e-compendium.module-powers.rAVl8Xu2tMNqGUwC]{Angelic Intercession}@UUID[Compendium.dnd-4e-compendium.module-powers.TKLFZak4pEWzDB3Q]{Call from the Brink}</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"nP98z3MiqL0eYDZO",
+	"_key":"!items!nP98z3MiqL0eYDZO"
+}

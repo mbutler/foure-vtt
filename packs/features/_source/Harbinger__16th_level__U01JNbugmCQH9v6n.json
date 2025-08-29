@@ -1,0 +1,33 @@
+{
+	"name":"Harbinger (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Any creature that has one of your shrouds on it or is your oath of enmity target loses necrotic resistance and radiant resistance. </p><p>Published in Dragon Magazine 386, page(s) 76. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"U01JNbugmCQH9v6n",
+	"_key":"!items!U01JNbugmCQH9v6n"
+}

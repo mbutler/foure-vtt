@@ -1,0 +1,33 @@
+{
+	"name":"Prophetic Renewal (30th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Whenever you reach a milestone, you can regain the use of an expended daily attack power instead of gaining an action point. </p><p>Published in Eberron Player's Guide, page(s) 80. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"destiny"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"Ey1WdD25AhNCJH6b",
+	"_key":"!items!Ey1WdD25AhNCJH6b"
+}

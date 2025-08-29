@@ -1,0 +1,33 @@
+{
+	"name":"Twilight Adept [Multiclass Rogue]",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Dex 13 or Int 13 </p><p><b>Benefit: </b>You gain training in Stealth. </p><p>Once per encounter, you can use a free action during your turn to gain the benefit of the rogue class feature Cunning Sneak until the end of your turn. </p><p>Published in Martial Power 2, page(s) 146. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"JbB4z7EZ6RXpSPhH",
+	"_key":"!items!JbB4z7EZ6RXpSPhH"
+}

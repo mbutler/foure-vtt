@@ -1,0 +1,33 @@
+{
+	"name":"Pact Background",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Type: </b>Racial </p><p><b>Campaign Setting: </b>General </p><p><b>Prerequisite: </b>Revenant </p><p>You forged a pact with the Raven Queen when you lived, promising to serve her in death in exchange for a benefit in life. She fulfilled her bargain and now it's time to live up to yours. What does she expect you to do? What mission must you fulfill before you earn your true death? </p><p><i>Associated Skills: </i>History, Religion </p><p>Published in Dragon Magazine 380, page(s) 58. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"background"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"KXuZDbEQgMWz2vRG",
+	"_key":"!items!KXuZDbEQgMWz2vRG"
+}

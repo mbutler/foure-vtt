@@ -1,0 +1,33 @@
+{
+	"name":"Avenger's Censure (Hybrid)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>This class feature functions as the avenger class feature, except that the bonus to damage rolls applies only to your avenger powers and avenger paragon path powers.</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"sXpiB6l4a9tU0Eek",
+	"_key":"!items!sXpiB6l4a9tU0Eek"
+}

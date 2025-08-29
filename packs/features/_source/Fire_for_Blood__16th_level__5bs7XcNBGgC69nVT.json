@@ -1,0 +1,33 @@
+{
+	"name":"Fire for Blood (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>While you are bloodied, any creature that starts its turn in a square adjacent to you takes 5 fire damage. This damage increases to 10 at 21st level. </p><p>Published in Dragon Magazine 383, page(s) 74. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"5bs7XcNBGgC69nVT",
+	"_key":"!items!5bs7XcNBGgC69nVT"
+}

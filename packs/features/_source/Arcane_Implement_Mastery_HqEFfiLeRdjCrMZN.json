@@ -1,0 +1,52 @@
+{
+	"name":"Arcane Implement Mastery",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You specialize in the use of one kind of implement to gain additional abilities when you wield it. Choose one of the following forms of implement mastery: Orb of Imposition, Staff of Defense, Tome of Binding, Tome of Readiness, Wand of Accuracy.</p>\n<p>@UUID[Compendium.dnd-4e-compendium.module-features.xoYiDgFvNV74hWbe]{Orb of Deception}@UUID[Compendium.dnd-4e-compendium.module-features.xoYiDgFvNV74hWbe]{Orb of Deception}@UUID[Compendium.dnd-4e-compendium.module-features.buqx8Mwl3sS0oUI2]{Orb of Imposition}@UUID[Compendium.dnd-4e-compendium.module-features.buqx8Mwl3sS0oUI2]{Orb of Imposition}@UUID[Compendium.dnd-4e-compendium.module-features.iftHGBjDZn1eQhy4]{Staff of Defense}@UUID[Compendium.dnd-4e-compendium.module-features.iftHGBjDZn1eQhy4]{Staff of Defense}@UUID[Compendium.dnd-4e-compendium.module-features.Xj4cq6E0WmewFSlL]{Tome of Binding}@UUID[Compendium.dnd-4e-compendium.module-features.qV9U5ti87gmY2hxR]{Tome of Readiness}@UUID[Compendium.dnd-4e-compendium.module-features.B14NV3oTzg6Ob0FY]{Wand of Accuracy}@UUID[Compendium.dnd-4e-compendium.module-features.B14NV3oTzg6Ob0FY]{Wand of Accuracy}</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"descriptionGM":{
+			"value":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":"",
+			"autoanimationHook":""
+		},
+		"class":"",
+		"hitFistLevel":10,
+		"hitPerLevel":5,
+		"surgePerDay":5,
+		"skills":"<i class=\"fas fa-edit\"></i>",
+		"def":{
+			"ac":0,
+			"fort":0,
+			"ref":0,
+			"wil":0
+		},
+		"proficiencies":{
+			"weapons":[],
+			"armour":[]
+		},
+		"requirements":"",
+		"level":null,
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"HqEFfiLeRdjCrMZN",
+	"_key":"!items!HqEFfiLeRdjCrMZN"
+}

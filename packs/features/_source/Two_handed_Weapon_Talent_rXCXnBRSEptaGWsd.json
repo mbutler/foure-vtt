@@ -1,0 +1,33 @@
+{
+	"name":"Two-handed Weapon Talent",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When using a two-handed weapon, you gain a +1 bonus to weapon attack rolls.</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":null,
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"flags":{},
+	"_id":"rXCXnBRSEptaGWsd",
+	"folder":null,
+	"sort":0,
+	"_key":"!items!rXCXnBRSEptaGWsd"
+}

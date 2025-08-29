@@ -1,0 +1,33 @@
+{
+	"name":"Uncanny Thrower (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You take no penalty to attack rolls when using a light thrown weapon or a heavy thrown weapon against a target at long range. </p><p>Published in Martial Power, page(s) 58. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"8T1LV6QmZbewxIzK",
+	"_key":"!items!8T1LV6QmZbewxIzK"
+}

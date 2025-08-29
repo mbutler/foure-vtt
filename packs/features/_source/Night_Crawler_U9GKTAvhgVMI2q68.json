@@ -1,0 +1,33 @@
+{
+	"name":"Night Crawler",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You gain a climb speed equal to your speed. You can climb across a ceiling or similar surface. However, if you end your turn on such a surface, you fall.</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"U9GKTAvhgVMI2q68",
+	"_key":"!items!U9GKTAvhgVMI2q68"
+}

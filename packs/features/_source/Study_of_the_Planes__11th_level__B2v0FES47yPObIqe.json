@@ -1,0 +1,33 @@
+{
+	"name":"Study of the Planes (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You acquire and master the Planar Portal ritual, even if you do not have the Ritual Caster feat or are of the appropriate level. You gain a +4 bonus to Arcana checks when performing rituals that have the travel category. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"B2v0FES47yPObIqe",
+	"_key":"!items!B2v0FES47yPObIqe"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Soldier of the Faith [Multiclass Paladin]",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Str 13, Cha 13 </p><p><b>Benefit: </b>You gain training in one skill from the paladin's class skill list. </p><p>Once per encounter, you can use the paladin's divine challenge power. </p><p>In addition, you can use a holy symbol or a holy avenger as an implement. </p><p>Published in Player's Handbook, page(s) 208. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"4WspPe76QHSMX0BF",
+	"_key":"!items!4WspPe76QHSMX0BF"
+}

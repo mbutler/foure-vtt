@@ -1,0 +1,33 @@
+{
+	"name":"Fearsome Spike",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>21st level, battlemind, mind spike power </p><p><b>Benefit: </b>When you use your mind spike, you also mark each enemy adjacent to the target until the end of your next turn. </p><p>Published in Psionic Power, page(s) 139. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"8vJdPMlZVgswpF0Q",
+	"_key":"!items!8vJdPMlZVgswpF0Q"
+}

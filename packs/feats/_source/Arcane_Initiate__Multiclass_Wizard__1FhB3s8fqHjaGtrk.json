@@ -1,0 +1,33 @@
+{
+	"name":"Arcane Initiate [Multiclass Wizard]",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Int 13 </p><p><b>Benefit: </b>You gain training in the Arcana skill. </p><p>Choose a 1st-level wizard at-will power. You can use that power once per encounter. </p><p>In addition, you can use wizard implements. </p><p>Revision (10/14/2009) </p><p>Replace the third paragraph of the Benefit section with \"In addition, you can use wizard implements.\" </p><p>Published in Player's Handbook, page(s) 208. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"1FhB3s8fqHjaGtrk",
+	"_key":"!items!1FhB3s8fqHjaGtrk"
+}

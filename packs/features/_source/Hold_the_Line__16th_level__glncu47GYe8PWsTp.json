@@ -1,0 +1,33 @@
+{
+	"name":"Hold the Line (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you or any ally adjacent to you is pulled, pushed, or slid, you can use a free action to reduce the forced movement by a number of squares equal to one-half your Strength modifier. </p><p>Published in Divine Power, page(s) 101. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"glncu47GYe8PWsTp",
+	"_key":"!items!glncu47GYe8PWsTp"
+}

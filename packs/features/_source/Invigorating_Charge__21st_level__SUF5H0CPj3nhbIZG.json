@@ -1,0 +1,33 @@
+{
+	"name":"Invigorating Charge (21st level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Your Strength score increases by 2. </p><p>Whenever you charge and make a basic attack, that attack gains the invigorating keyword. </p><p>In addition, you can take actions after a charge. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"destiny"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"SUF5H0CPj3nhbIZG",
+	"_key":"!items!SUF5H0CPj3nhbIZG"
+}

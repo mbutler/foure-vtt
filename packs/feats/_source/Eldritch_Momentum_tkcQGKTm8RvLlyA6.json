@@ -1,0 +1,33 @@
+{
+	"name":"Eldritch Momentum",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Kobold, warlock, Warlock's Curse class feature </p><p><b>Benefit: </b>If you move at least 3 squares away from where you started your turn, you gain combat advantage until the start of your next turn against creatures subject to your Warlock's Curse. </p><p>Published in Into the Unknown: The Dungeon Survival Handbook, page(s) 44. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"tkcQGKTm8RvLlyA6",
+	"_key":"!items!tkcQGKTm8RvLlyA6"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Cursed Shot",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Warlock, Prime Shot class feature, Warlock's Curse class feature </p><p><b>Benefit: </b>When determining who is nearest for the purposes of the Prime Shot class feature, you ignore all allies adjacent to you, as well as allies who are helpless, stunned, dominated, unconscious, or petrified. </p><p>Published in Dragon Magazine 384, page(s) 30. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"pVEbaO47Mlwf0U5t",
+	"_key":"!items!pVEbaO47Mlwf0U5t"
+}

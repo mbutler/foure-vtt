@@ -1,0 +1,33 @@
+{
+	"name":"Bond of Escape (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When a creature marked by your aegis of ensnarement hits an ally with an attack that does not include you as a target, you can teleport the ally 5 squares as an immediate reaction. </p><p>Published in Arcane Power, page(s) 66. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"D15ijcad7AzBlVER",
+	"_key":"!items!D15ijcad7AzBlVER"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Level 15 Sentinel Daily Power",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><p>You gain one of the following powers of your choice. This new power replaces the daily attack power you gained at 1st level. </p>@UUID[Compendium.dnd-4e-compendium.module-powers.sYzqcWXiTaOvPDR6]{Briar Thicket}@UUID[Compendium.dnd-4e-compendium.module-powers.6cR4LtOCTjfJU2qh]{Envenomed Steel}@UUID[Compendium.dnd-4e-compendium.module-powers.YturlFSy652KRk3Q]{Stonemetal}</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"0I712NojeOTDaGfC",
+	"_key":"!items!0I712NojeOTDaGfC"
+}

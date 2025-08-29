@@ -1,0 +1,33 @@
+{
+	"name":"Scions of Zarak Initiate",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Half-orc, assassin, assassin's shroud power </p><p><b>Benefit: </b>When you miss a target but your shrouds still deals damage to it, you can expend your furious assault racial power to deal 1d6 extra damage to the target. The damage increases to 1d12 at 11th level. </p><p>Published in Dragon Magazine 379, page(s) 27. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"uNzn7hfYZSj4kGOo",
+	"_key":"!items!uNzn7hfYZSj4kGOo"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Executioner's Action (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you spend an action point to make an attack and you roll a 1, 2, or 3 on any damage die associated with that attack (including extra damage from assassin's strike or critical hit dice), that die instead deals 4 damage. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"AIcpJl3i2qo8yT6r",
+	"_key":"!items!AIcpJl3i2qo8yT6r"
+}

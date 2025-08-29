@@ -1,0 +1,33 @@
+{
+	"name":"Sacrifice to Caiphon",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Con 13, warlock </p><p><b>Benefit: </b>When you attack with a warlock encounter power that has targets and you miss all targets, then you can deal damage to yourself equal to the level of the power. If you do, you immediately recover the power. </p><p>Addition (10/14/2009) </p><p>In the first sentence of the Benefit line, add \"warlock\" before \"encounter power\". </p><p>Published in Dragon Magazine Annual, Dragon Magazine 366, page(s) 20. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"WLZ6BS4Hpy975oIK",
+	"_key":"!items!WLZ6BS4Hpy975oIK"
+}

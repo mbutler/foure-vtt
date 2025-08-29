@@ -1,0 +1,33 @@
+{
+	"name":"Mastery of Knives",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Sorcerer </p><p><b>Benefit: </b>You gain proficiency with the kukri and katar, and you can treat them as daggers for the purpose of casting sorcerer spells. </p><p>Published in Dragon Magazine 390. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"PYJeTI5UytpGcgvn",
+	"_key":"!items!PYJeTI5UytpGcgvn"
+}

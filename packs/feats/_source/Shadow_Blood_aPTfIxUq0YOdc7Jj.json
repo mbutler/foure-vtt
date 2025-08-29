@@ -1,0 +1,33 @@
+{
+	"name":"Shadow Blood",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Born of Shadow feat </p><p><b>Benefit: </b>When you use your second wind to regain hit points while you are in dim light or darkness, you regain 5 additional hit points. The additional hit points increase to 10 at 11th level and 15 at 21st level. </p><p>Published in Heroes of Shadow, page(s) 158. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"aPTfIxUq0YOdc7Jj",
+	"_key":"!items!aPTfIxUq0YOdc7Jj"
+}

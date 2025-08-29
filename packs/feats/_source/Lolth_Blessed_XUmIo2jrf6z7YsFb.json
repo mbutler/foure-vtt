@@ -1,0 +1,33 @@
+{
+	"name":"Lolth Blessed",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>21st level, drow </p><p><b>Benefit: </b>Any time you use an action point, you regain the use of your Lolthtouched racial ability during the encounter if you've already used it (and can use either cloud of darkness or darkfire). </p><p>Published in Dragon Magazine 382, page(s) 67. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"XUmIo2jrf6z7YsFb",
+	"_key":"!items!XUmIo2jrf6z7YsFb"
+}

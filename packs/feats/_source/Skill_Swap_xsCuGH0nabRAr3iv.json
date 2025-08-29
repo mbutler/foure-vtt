@@ -1,0 +1,33 @@
+{
+	"name":"Skill Swap",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>2nd level, human. Bonus At-Will Power racial trait </p><p><b>Benefit: </b>You swap out your bonus at-will attack power for a skill power for which you meet the prerequisites. You can change this power by retraining the feat. </p><p>Published in Dragon Magazine 383, page(s) 69. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"xsCuGH0nabRAr3iv",
+	"_key":"!items!xsCuGH0nabRAr3iv"
+}

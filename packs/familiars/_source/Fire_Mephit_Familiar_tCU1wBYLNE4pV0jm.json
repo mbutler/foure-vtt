@@ -1,0 +1,33 @@
+{
+	"name":"Fire Mephit Familiar",
+	"type":"feature",
+	"img":"icons/creatures/magical/construct-gargoyle-stone-gray.webp",
+	"system":{
+		"description":{
+			"value":"<p><i>These tiny, winged, humanoids are manifested by spellcasters who like to play with fire.</i></p><p><b>Speed</b> 5, fly 6 (hover)</p><p><b>Constant Benefits</b></p><p>* You gain a +2 bonus to Bluff checks.</p><p>* You can read and speak Primordial.</p><p>* You gain resist 5 fire. If you already have resist fire, increase it by 2.</p><p><b>Active Benefits</b></p><p>Form of Fire: As a minor action, you can cause the fire mephit to glow or to stop glowing. While glowing, it sheds bright light in its square and in a 10-square radius.</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"other"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"tCU1wBYLNE4pV0jm",
+	"_key":"!items!tCU1wBYLNE4pV0jm"
+}

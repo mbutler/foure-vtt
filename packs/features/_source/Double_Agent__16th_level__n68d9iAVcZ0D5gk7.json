@@ -1,0 +1,33 @@
+{
+	"name":"Double Agent (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Once per encounter, when an enemy you can see targets one of its allies with a power or an ability, you can choose to gain the benefit of that power or ability as if you were one of its targets as well. </p><p>Published in Martial Power, page(s) 95. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"n68d9iAVcZ0D5gk7",
+	"_key":"!items!n68d9iAVcZ0D5gk7"
+}

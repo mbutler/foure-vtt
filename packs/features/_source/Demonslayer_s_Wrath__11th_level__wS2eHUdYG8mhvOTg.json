@@ -1,0 +1,33 @@
+{
+	"name":"Demonslayer's Wrath (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you spend an action point to take an extra action, all enemies adjacent to you take a -1 penalty to AC until the end of your next turn. </p><p>For demons, this penalty is -2 instead of -1. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"wS2eHUdYG8mhvOTg",
+	"_key":"!items!wS2eHUdYG8mhvOTg"
+}

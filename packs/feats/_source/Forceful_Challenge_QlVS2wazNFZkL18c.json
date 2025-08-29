@@ -1,0 +1,33 @@
+{
+	"name":"Forceful Challenge",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>11th level, paladin, divine challenge </p><p><b>Benefit: </b>When a creature takes damage from your divine challenge or divine sanction, you can slide that creature 1 square after the triggering attack is resolved. </p><p>Published in Dragon Magazine 378. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"QlVS2wazNFZkL18c",
+	"_key":"!items!QlVS2wazNFZkL18c"
+}

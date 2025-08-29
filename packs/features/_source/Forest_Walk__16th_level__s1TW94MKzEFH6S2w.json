@@ -1,0 +1,33 @@
+{
+	"name":"Forest Walk (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You ignore difficult terrain if that terrain is the result of trees, underbrush, plants, or natural growth. </p><p>Published in Forgotten Realms Player's Guide, page(s) 57. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"s1TW94MKzEFH6S2w",
+	"_key":"!items!s1TW94MKzEFH6S2w"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Opportunity Fire (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When an adjacent creature provokes an opportunity attack from you while you are wielding a bow or loaded crossbow, you can make a ranged basic attack against the provoking creature as an opportunity action. This attack does not provoke opportunity attacks. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"McurBgfmo84WKF9z",
+	"_key":"!items!McurBgfmo84WKF9z"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Tainted Wounds",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Benefit: </b>If you hit an enemy with a melee weapon attack, it cannot regain hit points until the end of your next turn. </p><p>Published in Heroes of Shadow, page(s) 158. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"iNLDCm5bK4URqAJ2",
+	"_key":"!items!iNLDCm5bK4URqAJ2"
+}

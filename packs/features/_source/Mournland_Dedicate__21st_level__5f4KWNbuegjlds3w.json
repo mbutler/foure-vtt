@@ -1,0 +1,33 @@
+{
+	"name":"Mournland Dedicate (21st level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You are accustomed to the Mournland's effect. You gain a +5 bonus to skill challenges related to the perils of the Mournland. You are immune to the Mournland affliction disease, and you ignore obstacles and fantastic terrain unique to the Mournland. In addition, while within the Mournland, you and any ally within 5 squares of you can benefit from healing powers. </p><p>While outside the Mournland, healing powers that target you or any ally within 5 squares of you restore 2d6 extra hit points. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"destiny"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"5f4KWNbuegjlds3w",
+	"_key":"!items!5f4KWNbuegjlds3w"
+}

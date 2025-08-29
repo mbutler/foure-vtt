@@ -1,0 +1,33 @@
+{
+	"name":"Twin-Blade Storm (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>As long as you are armed with a melee weapon and are capable of making an opportunity attack, two adjacent enemies (your choice) take lightning damage equal to your Dexterity modifier at the end of your turn. </p><p>Published in Player's Handbook, page(s) 115. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"4tpf3a0JvduzQ5OR",
+	"_key":"!items!4tpf3a0JvduzQ5OR"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Channeled Battlerage",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>21st level, Con 17, fighter, Battlerager Vigor class feature </p><p><b>Benefit: </b>When you hit with a melee attack, you can choose to lose all temporary hit points you have to reroll the attack's damage and use the better result. </p><p>Published in Martial Power, page(s) 145. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"WAj0eu1OlQVHdGa6",
+	"_key":"!items!WAj0eu1OlQVHdGa6"
+}

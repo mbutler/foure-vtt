@@ -1,0 +1,33 @@
+{
+	"name":"Riddle of Awareness (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You see invisible creatures and objects within 1 square of you. In addition, enemies do not gain combat advantage for flanking you unless you are adjacent to three or more enemies. </p><p>Published in Psionic Power, page(s) 78. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"QprwtkguhdUR25MY",
+	"_key":"!items!QprwtkguhdUR25MY"
+}

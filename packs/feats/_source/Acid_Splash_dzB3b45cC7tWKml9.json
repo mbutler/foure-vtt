@@ -1,0 +1,33 @@
+{
+	"name":"Acid Splash",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>11th level, Con 13, wizard </p><p><b>Benefit: </b>When you miss with an acid wizard power and would not normally do damage, you deal acid damage equal to your Constitution modifier. </p><p>Published in Dragon Magazine 380, page(s) 42. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"dzB3b45cC7tWKml9",
+	"_key":"!items!dzB3b45cC7tWKml9"
+}

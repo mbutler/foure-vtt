@@ -1,0 +1,29 @@
+{
+	"name":"Shield Dwarf Weapon Proficiency",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Shield dwarves spend more time aboveground and in forested areas than their gold dwarf cousins. This has led to them relying on axes as tools and weapons.<br>&nbsp;&nbsp;&nbsp;&nbsp;<em>Benefits:&nbsp;</em>You gain proficiency with the handaxe and the battleaxe. This benefit replaces Dwarven Weapon Proficiency.</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"featureType":"race"
+	},
+	"effects":[],
+	"flags":{},
+	"folder":null,
+	"sort":0,
+	"_id":"5O0sNWYYCLYl4pdu",
+	"_key":"!items!5O0sNWYYCLYl4pdu"
+}

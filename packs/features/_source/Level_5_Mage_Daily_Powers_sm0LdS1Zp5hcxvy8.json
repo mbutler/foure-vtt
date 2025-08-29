@@ -1,0 +1,33 @@
+{
+	"name":"Level 5 Mage Daily Powers",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You add two of the following powers to your spellbook.</p>\n<p>@UUID[Compendium.dnd-4e-compendium.module-powers.RKErcNqsF1SwB0AJ]{Fireball}@UUID[Compendium.dnd-4e-compendium.module-powers.BWtjRXsS1cFx4Gne]{Tasha's Forcible Conscription}@UUID[Compendium.dnd-4e-compendium.module-powers.dKvCSWI1OUpj9hDc]{Visions of Avarice}</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"sm0LdS1Zp5hcxvy8",
+	"_key":"!items!sm0LdS1Zp5hcxvy8"
+}

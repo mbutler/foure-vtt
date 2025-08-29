@@ -1,0 +1,33 @@
+{
+	"name":"Student of Malediction [Multiclass Warlock]",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Con 13, Cha 13 </p><p><b>Benefit: </b>Once per encounter, you can use the Warlock's Curse class feature. The curse ends the first time you deal the extra damage from Warlock's Curse. In addition, you can wield warlock implements. </p><p>Addition (10/14/2009) </p><p>Add the following line: \"In addition, you can wield warlock implements.\" </p><p>Published in Arcane Power, page(s) 136. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"k9icVHPOxZqJFraA",
+	"_key":"!items!k9icVHPOxZqJFraA"
+}

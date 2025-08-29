@@ -1,0 +1,33 @@
+{
+	"name":"Draconic Form (26th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>As a part of your ever-growing understanding of the power within you, you have learned to draw forth the power of your draconic soul and take on a form more fitting to its majesty. You gain the draconic form power. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"destiny"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"oaY0qbv9stUKf17T",
+	"_key":"!items!oaY0qbv9stUKf17T"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Crack the Mountain",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Monk, Stone Fist class feature </p><p><b>Benefit: </b>When you hit an enemy with a daily attack power, the enemy is also slowed (save ends). If the attack already slows the enemy, you instead slide the enemy 2 squares. </p><p>Published in Psionic Power, page(s) 131. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"54nacqleCkr9SEpG",
+	"_key":"!items!54nacqleCkr9SEpG"
+}

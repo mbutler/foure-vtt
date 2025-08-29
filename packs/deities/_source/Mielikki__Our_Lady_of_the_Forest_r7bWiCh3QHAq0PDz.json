@@ -1,0 +1,33 @@
+{
+	"name":"Mielikki, Our Lady of the Forest",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Type: </b>God </p><p><b>Alignment: </b>Good </p><p><b>Gender: </b>Female </p><p><b>Sphere: </b>Forests </p><p><b>Dominion: </b>Deep Wilds </p><p><b>Priests: </b>Druids </p><p><b>Adjective: </b>Mielikkian </p><p><b>Domain: </b>Freedom, Wilderness </p><p>Mielikki is a good-humored deity who is quick to smile and confident in her actions. She is fiercely loyal to and protective of those she calls friends but considers carefully before including someone among them. While she knows death is part of the cycle of life, she is not as hard-hearted as Silvanus and often intervenes to cure the injuries of a creature because she finds them hard to bear. </p><p>Published in Forgotten Realms Campaign Guide, page(s) 80. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"other"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"r7bWiCh3QHAq0PDz",
+	"_key":"!items!r7bWiCh3QHAq0PDz"
+}

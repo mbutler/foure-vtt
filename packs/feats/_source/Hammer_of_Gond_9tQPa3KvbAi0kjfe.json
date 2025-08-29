@@ -1,0 +1,33 @@
+{
+	"name":"Hammer of Gond",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Artificer, must worship Gond </p><p><b>Benefit: </b>You gain proficiency with the warhammer, and you can use it as an implement for your artificer powers and artificer paragon path powers. You can treat the warhammer as a heavy thrown weapon with a range of 6/12. </p><p>Published in Dragon Magazine 403. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"9tQPa3KvbAi0kjfe",
+	"_key":"!items!9tQPa3KvbAi0kjfe"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Swirling Snow",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Winterkin Heritage </p><p><b>Benefit: </b>Whenever you use winter's shroud, until the start of your next turn your square and squares adjacent to you are lightly obscured. </p><p>Published in Dragon Magazine 384, page(s) 64. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"ONfJHLGRqW6oXjsc",
+	"_key":"!items!ONfJHLGRqW6oXjsc"
+}

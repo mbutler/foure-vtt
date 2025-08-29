@@ -1,0 +1,33 @@
+{
+	"name":"Infernal Pact Aspect",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You gain resist 10 fire and a +2 bonus to Intimidate checks. At 21st level, the resistance increases to 20. If you already have resist 10 fire or higher (or resist 20 fire or higher at 21st level), your resistance increases by 5. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"Cl2QvZqWPbxBk4Mo",
+	"_key":"!items!Cl2QvZqWPbxBk4Mo"
+}

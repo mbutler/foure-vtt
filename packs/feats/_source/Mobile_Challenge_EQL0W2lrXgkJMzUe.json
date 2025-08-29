@@ -1,0 +1,33 @@
+{
+	"name":"Mobile Challenge",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Fighter, Combat Challenge class feature </p><p><b>Benefit: </b>After you hit an enemy with a melee basic attack granted by your Combat Challenge class feature, you can shift 1 square. </p><p>Published in Dragon Magazine 378. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"EQL0W2lrXgkJMzUe",
+	"_key":"!items!EQL0W2lrXgkJMzUe"
+}

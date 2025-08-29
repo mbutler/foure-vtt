@@ -1,0 +1,33 @@
+{
+	"name":"Beast Strike (21st level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Once per round, when you hit a target with a melee attack, you knock that target prone. If the target is already prone, the attack instead deals 2d8 extra damage, or 2d10 extra damage if the target is marked by you. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"destiny"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"g4tDvx9XZOR8szaB",
+	"_key":"!items!g4tDvx9XZOR8szaB"
+}

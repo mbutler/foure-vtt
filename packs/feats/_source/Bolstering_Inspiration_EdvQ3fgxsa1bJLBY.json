@@ -1,0 +1,33 @@
+{
+	"name":"Bolstering Inspiration",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Dwarf, warlord </p><p><b>Benefit: </b>When you use inspiring word on an adjacent ally, that ally either regains additional hit points equal to your Wisdom modifier or can make a saving throw. </p><p>Published in Martial Power, page(s) 132. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"EdvQ3fgxsa1bJLBY",
+	"_key":"!items!EdvQ3fgxsa1bJLBY"
+}

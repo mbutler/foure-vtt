@@ -1,0 +1,33 @@
+{
+	"name":"Mantle of Unease [Foulborn Bloodline]",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Foulborn Heritage, ardent, Ardent Mantle class feature </p><p><b>Benefit: </b>When an enemy not immune to fear scores a critical hit within the radius of your Ardent Mantle, it takes a -2 penalty to attack rolls until the end of its next turn. If you are bloodied, you also push the enemy 1 square. </p><p>Published in Psionic Power, page(s) 143. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"T4WBiH8SOwksc6dy",
+	"_key":"!items!T4WBiH8SOwksc6dy"
+}

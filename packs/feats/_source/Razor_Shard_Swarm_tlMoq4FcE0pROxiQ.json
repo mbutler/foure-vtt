@@ -1,0 +1,33 @@
+{
+	"name":"Razor Shard Swarm",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>21st level, shardmind, shard swarm racial power </p><p><b>Benefit: </b>When you use shard swarm, each enemy in the burst takes damage equal to your Intelligence modifier, your Wisdom modifier, or your Charisma modifier. </p><p>Published in Dragon Magazine 387, page(s) 17. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"tlMoq4FcE0pROxiQ",
+	"_key":"!items!tlMoq4FcE0pROxiQ"
+}

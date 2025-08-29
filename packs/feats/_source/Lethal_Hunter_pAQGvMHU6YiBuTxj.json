@@ -1,0 +1,33 @@
+{
+	"name":"Lethal Hunter",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Ranger, Hunter's Quarry class feature </p><p><b>Benefit: </b>The extra damage dice from your Hunter's Quarry class feature increase from d6s to d8s. </p><p>Published in Player's Handbook, page(s) 198. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"pAQGvMHU6YiBuTxj",
+	"_key":"!items!pAQGvMHU6YiBuTxj"
+}

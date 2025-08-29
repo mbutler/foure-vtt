@@ -1,0 +1,33 @@
+{
+	"name":"Cast Aside",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Goliath </p><p><b>Benefit: </b>Whenever a Medium or smaller creature succeeds in escaping from being grabbed by you, you can slide the creature 3 squares as an opportunity action. </p><p>Published in Dragon Magazine 386, page(s) 56. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"wSOrGzBWl3itmNP9",
+	"_key":"!items!wSOrGzBWl3itmNP9"
+}

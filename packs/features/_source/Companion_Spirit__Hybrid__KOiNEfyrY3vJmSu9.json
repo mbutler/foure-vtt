@@ -1,0 +1,33 @@
+{
+	"name":"Companion Spirit (Hybrid)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You gain the call spirit companion power.</p>\n<p>In addition, choose one of the Companion Spirit options. You don't gain the Spirit Boon or any of the powers granted by that choice, but you are considered to have the class feature for the purpose of meeting prerequisites and using the benefits tailored for it in certain powers.</p>\n<p>Special: To select the at-will attack power associated with a Companion Spirit, you must have the appropriate spirit. For example, you can't select the stalker's strike power unless you have Stalker Spirit.</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"KOiNEfyrY3vJmSu9",
+	"_key":"!items!KOiNEfyrY3vJmSu9"
+}

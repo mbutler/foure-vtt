@@ -1,0 +1,33 @@
+{
+	"name":"Reward Victory (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When an ally whom you can see within 10 squares of you reduces an enemy to 0 hit points, you can slide that ally 1 square as a free action. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"FefMIo4PlJNnGmwD",
+	"_key":"!items!FefMIo4PlJNnGmwD"
+}

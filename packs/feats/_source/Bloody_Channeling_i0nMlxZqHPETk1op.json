@@ -1,0 +1,33 @@
+{
+	"name":"Bloody Channeling",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>11th level, Sorcerous Blade Channeling feat </p><p><b>Benefit: </b>When delivering a sorcerer ranged attack as a melee attack using Sorcerous Blade Channeling, you gain combat advantage against enemies taking ongoing damage. </p><p>Published in Dragon Magazine 390. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"i0nMlxZqHPETk1op",
+	"_key":"!items!i0nMlxZqHPETk1op"
+}

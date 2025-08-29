@@ -1,0 +1,33 @@
+{
+	"name":"Plagued Breath",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Dragonborn, dragon breath racial power, you have a spellscar </p><p><b>Benefit: </b>Your dragon breath deals necrotic damage in addition to the damage type it already deals. Also, while you are bloodied, your breath attack deals 2 extra damage. If you have the Student of the Plague feat, a creature you hit with dragon breath also takes ongoing 5 necrotic damage (save ends). </p><p>Published in Dragon Magazine 385, page(s) 25. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"5z9ImVclSuGdgBAQ",
+	"_key":"!items!5z9ImVclSuGdgBAQ"
+}

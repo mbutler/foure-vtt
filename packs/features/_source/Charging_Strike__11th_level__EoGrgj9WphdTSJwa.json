@@ -1,0 +1,33 @@
+{
+	"name":"Charging Strike (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Whenever you charge a target and hit it, your attack deals 1d6 extra damage to the target and you push the target 1 square. In addition, you can shift 1 square into a square that the target vacated. The extra damage increases to 2d6 at 21st level. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"EoGrgj9WphdTSJwa",
+	"_key":"!items!EoGrgj9WphdTSJwa"
+}

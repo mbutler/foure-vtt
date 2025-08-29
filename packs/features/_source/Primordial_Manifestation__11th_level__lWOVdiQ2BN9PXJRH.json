@@ -1,0 +1,33 @@
+{
+	"name":"Primordial Manifestation (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>If the type of resistance currently provided by your Wild Soul is cold, fire, lightning, or thunder, you also gain the benefit described below. </p><p>Cold: Creatures hit by your attacks are slowed until the end of your next turn. </p><p>Fire: Creatures hit by your attacks take ongoing fire damage equal to your Dexterity modifier (save ends). </p><p>Lightning: Creatures hit by your attacks take a -2 penalty to attack rolls until the end of your next turn. </p><p>Thunder: Creatures hit by your attacks are deafened (save ends). </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"lWOVdiQ2BN9PXJRH",
+	"_key":"!items!lWOVdiQ2BN9PXJRH"
+}

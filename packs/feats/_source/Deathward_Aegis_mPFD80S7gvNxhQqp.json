@@ -1,0 +1,33 @@
+{
+	"name":"Deathward Aegis",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Shadar-kai, swordmage, Aegis of Shielding class feature </p><p><b>Benefit: </b>When you reduce damage with your Aegis of Shielding class feature, the same target also gains resist necrotic 5 until the end of its next turn. Increase this resistance to resist necrotic 10 at 11th level, and again to resist necrotic 15 at 21st level. </p><p>Published in Dragon Magazine Annual, Dragon Magazine 372, page(s) 9. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"mPFD80S7gvNxhQqp",
+	"_key":"!items!mPFD80S7gvNxhQqp"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Guardian Trick (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you spend an action point to gain an extra action, if you are in guardian form, you can make your guardian form attack with that action even if you have already made that attack this encounter. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"cnqbJ83jsWQVxP5h",
+	"_key":"!items!cnqbJ83jsWQVxP5h"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Versatile Defense",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You choose a bonus feat, either Shield Proficiency: Light or Two-Weapon Defense. You don't have to meet the feat's prerequisite.</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"jcqUsixY5K1vawER",
+	"_key":"!items!jcqUsixY5K1vawER"
+}

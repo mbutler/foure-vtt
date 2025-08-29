@@ -1,0 +1,33 @@
+{
+	"name":"Brazen Ambassador Level 10 Feature (10th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You can sustain the effect of bound by brass as a standard action. This benefit lasts until the end of your next turn or until you attack.</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"theme"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"tjnMWbX8KT7zGcdp",
+	"_key":"!items!tjnMWbX8KT7zGcdp"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Doomsayer's Proclamation (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Enemies within 10 squares of you must roll two dice when rolling saving throws against fear effects. They must use the lower of the two rolls. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"PD9cuFJYfyZpA06o",
+	"_key":"!items!PD9cuFJYfyZpA06o"
+}

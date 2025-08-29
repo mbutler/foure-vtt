@@ -1,0 +1,33 @@
+{
+	"name":"Arvoreen, The Defender",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Type: </b>Exarch </p><p><b>Alignment: </b>Lawful Good </p><p><b>Gender: </b>Male </p><p><b>Sphere: </b>Vigilance </p><p><b>Dominion: </b>Green Fields </p><p><b>Priests: </b>- </p><p><b>Adjective: </b>Arvoreenan </p><p>When a general rides to the battlefront, rarely does he count halflings among his most valuable assets. The inherent wanderlust of the hin grants them little patience for the long marches and dull waiting between battles that characterizes most warfare. However, when invaders threaten a halfling community, residents send prayers to Arvoreen, whose worshipers follow a doctrine of guardianship, stern defense, and aggressive watchfulness. </p><p>Published in Forgotten Realms Campaign Guide, page(s) 81. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"other"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"FgiasWHPwuOqZ42h",
+	"_key":"!items!FgiasWHPwuOqZ42h"
+}

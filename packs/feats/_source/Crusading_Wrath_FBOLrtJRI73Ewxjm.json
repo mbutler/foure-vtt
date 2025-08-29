@@ -1,0 +1,33 @@
+{
+	"name":"Crusading Wrath",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>21st level, Str 21, Wis 15, paladin, divine strength power </p><p><b>Benefit: </b>When you use your divine strength, the next enemy you attack before the end of your next turn is subject to your divine sanction until the end of the encounter. </p><p>While the target is subject to your divine sanction, add your Wisdom modifier to the damage it takes from the divine sanction. </p><p>Published in Divine Power, page(s) 141. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"FBOLrtJRI73Ewxjm",
+	"_key":"!items!FBOLrtJRI73Ewxjm"
+}

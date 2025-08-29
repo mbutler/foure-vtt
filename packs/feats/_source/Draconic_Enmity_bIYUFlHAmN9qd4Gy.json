@@ -1,0 +1,33 @@
+{
+	"name":"Draconic Enmity",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Dragonborn, avenger, oath of enmity power, dragon breath racial power </p><p><b>Benefit: </b>If the target of your oath of enmity is the only target of your dragon breath, you can make two attack rolls and use either result, as if you were making a melee attack against the target. </p><p>Published in Player's Handbook Races: Dragonborn, page(s) 23. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"bIYUFlHAmN9qd4Gy",
+	"_key":"!items!bIYUFlHAmN9qd4Gy"
+}

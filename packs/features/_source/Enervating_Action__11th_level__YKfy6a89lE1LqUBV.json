@@ -1,0 +1,33 @@
+{
+	"name":"Enervating Action (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you spend an action point to make an attack, any enemy hit with the attack takes a -2 penalty to saving throws against any effects the attack imposes. Enemies hit by the attack grant combat advantage until the end of your next turn. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"YKfy6a89lE1LqUBV",
+	"_key":"!items!YKfy6a89lE1LqUBV"
+}

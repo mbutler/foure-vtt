@@ -1,0 +1,33 @@
+{
+	"name":"Spiral Timing (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you and your allies roll initiative, you can allow one ally you can see to reroll with a bonus equal to your Intelligence modifier. The ally must use the new result. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"48O5uMdQGSp1BbnY",
+	"_key":"!items!48O5uMdQGSp1BbnY"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Covered Retreat",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Warlord, Resourceful Presence class feature </p><p><b>Benefit: </b>When an enemy provokes an opportunity attack from you, you can take an opportunity action to let one ally adjacent to you shift a number of squares equal to your Intelligence modifier to a square not adjacent to the provoking enemy as a free action. </p><p>Published in Dragon Magazine 381, page(s) 29. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"DUGTYrS2yapuRjze",
+	"_key":"!items!DUGTYrS2yapuRjze"
+}

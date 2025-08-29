@@ -1,0 +1,33 @@
+{
+	"name":"Champion of Humanity (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>After each extended rest, you have 2 action points instead of 1. </p><p>Published in Player's Handbook 2, page(s) 18. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"Wqgonkl8Jf6yPEpF",
+	"_key":"!items!Wqgonkl8Jf6yPEpF"
+}

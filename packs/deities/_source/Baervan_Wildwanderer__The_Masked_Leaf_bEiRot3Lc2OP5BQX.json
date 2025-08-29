@@ -1,0 +1,33 @@
+{
+	"name":"Baervan Wildwanderer, The Masked Leaf",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Type: </b>Exarch </p><p><b>Alignment: </b>Good </p><p><b>Gender: </b>Male </p><p><b>Sphere: </b>Travel </p><p><b>Dominion: </b>Arvandor </p><p><b>Priests: </b>- </p><p><b>Adjective: </b>Baervanian </p><p>Baervan Wildwanderer is gentle, good-natured, and mischievous, and his penchant for good-natured mischief rivals Garl Glittergold himself. Though Baervan sometimes plays jokes on other creatures, it is hard not to like him. The Masked Leaf's tricks are much more pointed than typical of the Forgotten Folk, and if Baervan wants to send someone a message, he does so in the form of a joke. </p><p>Published in Forgotten Realms Campaign Guide, page(s) 81. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"other"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"bEiRot3Lc2OP5BQX",
+	"_key":"!items!bEiRot3Lc2OP5BQX"
+}

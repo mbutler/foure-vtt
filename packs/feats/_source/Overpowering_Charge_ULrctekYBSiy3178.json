@@ -1,0 +1,33 @@
+{
+	"name":"Overpowering Charge",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>21st level, barbarian </p><p><b>Benefit: </b>When you hit a target with a charge attack, you can knock the target prone. </p><p>Published in Primal Power, page(s) 147. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"ULrctekYBSiy3178",
+	"_key":"!items!ULrctekYBSiy3178"
+}

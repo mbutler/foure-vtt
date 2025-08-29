@@ -1,0 +1,33 @@
+{
+	"name":"Lhazaar Principalities Background",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Type: </b>Geography </p><p><b>Campaign Setting: </b>Eberron </p><p>Lhazaar is either a wretched nation of pirates, outlaws, murderers, and brawlers, or the home of the world's best mariners and richest seagoing merchants, depending on who you ask-or, for that matter, where you're standing. Consisting of a tiny strip of Khorvaire proper and a vast archipelago, the Lhazaar Principalities stand at the edge of civilization, and of civilized law. </p><p><i>Associated Skills: </i>Athletics, Thievery </p><p>Published in Eberron Player's Guide, page(s) 139. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"background"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"FjDEyWUP5hzruKi1",
+	"_key":"!items!FjDEyWUP5hzruKi1"
+}

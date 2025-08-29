@@ -1,0 +1,33 @@
+{
+	"name":"Sovereign Justice [Divinity]",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Channel Divinity class feature, must worship the Sovereign Host </p><p><b>Benefit: </b>You gain the Channel Divinity power sovereign justice. </p><p>Published in Eberron Player's Guide, page(s) 93. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"esX8xUORM9GuZmnY",
+	"_key":"!items!esX8xUORM9GuZmnY"
+}

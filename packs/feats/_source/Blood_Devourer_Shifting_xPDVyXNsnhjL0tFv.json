@@ -1,0 +1,33 @@
+{
+	"name":"Blood Devourer Shifting",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Shifter, assassin, assassin's shroud power </p><p><b>Benefit: </b>The first time you are bloodied during an encounter, choose an enemy that has at least one of your shrouds on it. The next time you attack that enemy before the end of your next turn, you deal damage to that enemy equal to your Dexterity modifier, in addition to the attack's other effects. </p><p>Published in Dragon Magazine 379, page(s) 26. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"xPDVyXNsnhjL0tFv",
+	"_key":"!items!xPDVyXNsnhjL0tFv"
+}

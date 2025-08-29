@@ -1,0 +1,33 @@
+{
+	"name":"Improved Defenses",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Benefit: </b>You gain a +1 feat bonus to Fortitude, Reflex, and Will. This bonus increases to +2 at 11th level and +3 at 21st level. </p><p>Published in Heroes of the Fallen Lands, page(s) 315, Heroes of the Forgotten Kingdoms, page(s) 315. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"v3bXYxiay21ZIRST",
+	"_key":"!items!v3bXYxiay21ZIRST"
+}

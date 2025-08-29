@@ -1,0 +1,33 @@
+{
+	"name":"Spell Accuracy",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>21st level, Wizard </p><p><b>Benefit: </b>You can omit a number of squares from the area of effect of any of your area or close wizard powers. This number can't exceed your Wisdom modifier. </p><p>Published in Player's Handbook, page(s) 207. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"vJLFIfpA542MNDlo",
+	"_key":"!items!vJLFIfpA542MNDlo"
+}

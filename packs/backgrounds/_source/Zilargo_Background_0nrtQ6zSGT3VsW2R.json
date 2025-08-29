@@ -1,0 +1,33 @@
+{
+	"name":"Zilargo Background",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Type: </b>Geography </p><p><b>Campaign Setting: </b>Eberron </p><p>Homeland to a gnome culture that predates the rise of Galifar, Zilargo appears to be a land of plenty, of peace and prosperity, and of lush farms and wellordered cities. Those who observe Zilargo's laws never have reason to see it as anything else. But enemies of Zilargo find their secrets exposed and their plans countered before they're executed. And individuals who break the peace or incite unrest vanish swiftly and completely. </p><p><i>Associated Skills: </i>Bluff, Insight </p><p>Published in Eberron Player's Guide, page(s) 148. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"background"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"0nrtQ6zSGT3VsW2R",
+	"_key":"!items!0nrtQ6zSGT3VsW2R"
+}

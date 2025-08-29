@@ -1,0 +1,37 @@
+{
+	"name":"Strength of Stone",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Goliath, paladin </p><p><b>Benefit: </b>When you use your lay on hands or virtue's touch power on an ally, the ally gains resistance to all damage equal to your Strength modifier until the end of your next turn. </p><p>Published in Divine Power, page(s) 136. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"descriptionGM":{
+			"value":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":"",
+			"autoanimationHook":""
+		},
+		"requirements":"",
+		"level":null,
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"lj6EyIxLkNGK1WBo",
+	"_key":"!items!lj6EyIxLkNGK1WBo"
+}

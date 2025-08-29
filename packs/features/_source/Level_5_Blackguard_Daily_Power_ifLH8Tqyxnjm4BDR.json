@@ -1,0 +1,33 @@
+{
+	"name":"Level 5 Blackguard Daily Power",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You gain a new paladin daily attack power of your level or lower.</p>\n<p>@UUID[Compendium.dnd-4e-compendium.module-powers.q2g8cZFBj3MAeJn5]{Dark Majesty}@UUID[Compendium.dnd-4e-compendium.module-powers.xnN5HgVIsuUJPY2L]{Frenzying Smite}</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"ifLH8Tqyxnjm4BDR",
+	"_key":"!items!ifLH8Tqyxnjm4BDR"
+}

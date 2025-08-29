@@ -1,0 +1,33 @@
+{
+	"name":"Infernal Blessing",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Tiefling, any divine class </p><p><b>Benefit: </b>When you use your infernal wrath racial power, one ally adjacent to you regains hit points equal to your Charisma modifier and gains a +1 power bonus to his or her next attack roll against the target of the power before the end of that ally's next turn. </p><p>Update (4/13/2010) </p><p>In the Benefit entry, replace \"an enemy that hit you since your last turn\" with \"the target of the power before the end of that ally's next turn.\" </p><p>Published in Divine Power, page(s) 135. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"lPeaInCThfD9Qp5X",
+	"_key":"!items!lPeaInCThfD9Qp5X"
+}

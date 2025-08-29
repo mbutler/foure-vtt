@@ -1,0 +1,33 @@
+{
+	"name":"Brutal Shroud",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Assassin, assassin's shroud power </p><p><b>Benefit: </b>Whenever you make the damage roll for your assassin's shroud, reroll each die that shows a 1 until it shows a different number. </p><p>Published in Dragon Magazine 379, page(s) 26. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"IsLPESXKJ9HlNGRu",
+	"_key":"!items!IsLPESXKJ9HlNGRu"
+}

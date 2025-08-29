@@ -1,0 +1,33 @@
+{
+	"name":"Werebear Starting Feature (1st level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You gain a +2 bonus to saving throws against disease.<br>You have the shapechanger subtype. As such, you are subject to effects that affect shapechangers. In addition, any enemy has combat advantage against you when attacking you with a silvered weapon or implement.<br>In addition, you gain the bear shape power.<br></p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"theme"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"0gGLDJaBIQbSWw7Z",
+	"_key":"!items!0gGLDJaBIQbSWw7Z"
+}

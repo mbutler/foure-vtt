@@ -1,0 +1,33 @@
+{
+	"name":"Restore Life",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><p>You gain the restore life power. </p>@UUID[Compendium.dnd-4e-compendium.module-powers.2nCojKurXQchkSpN]{Restore Life}</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"rlb7EeVk5iGIC6Ns",
+	"_key":"!items!rlb7EeVk5iGIC6Ns"
+}

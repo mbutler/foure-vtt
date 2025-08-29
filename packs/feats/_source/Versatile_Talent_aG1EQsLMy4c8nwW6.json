@@ -1,0 +1,33 @@
+{
+	"name":"Versatile Talent",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Human, fighter, Fighter Weapon Talent class feature </p><p><b>Benefit: </b>You benefit from your Fighter Weapon Talent feature with both one-handed and two-handed weapons. </p><p>Published in Martial Power 2, page(s) 140. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"aG1EQsLMy4c8nwW6",
+	"_key":"!items!aG1EQsLMy4c8nwW6"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Elemental Ascension (30th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you use elemental transmogrification, choose two elemental forms and gain the benefits from both. </p><p>In addition, the first time each day you drop below 1 hit point, you regain 50 hit points. </p><p>Published in Dragon Magazine 396. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"destiny"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"oDnHpk8CezLabjGm",
+	"_key":"!items!oDnHpk8CezLabjGm"
+}

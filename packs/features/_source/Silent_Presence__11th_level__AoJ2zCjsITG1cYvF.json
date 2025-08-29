@@ -1,0 +1,33 @@
+{
+	"name":"Silent Presence (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You gain a +2 bonus to Stealth checks, Insight checks, and Intimidate checks, and creatures cannot perceive you with blindsight or tremorsense. You take a -2 penalty to Bluff checks and Diplomacy checks. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"AoJ2zCjsITG1cYvF",
+	"_key":"!items!AoJ2zCjsITG1cYvF"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Jack of All Trades",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Intelligence 13 </p><p><b>Benefit: </b>You gain a +2 feat bonus to untrained skill checks. </p><p>Update (8/5/2010) </p><p>Feat updated to match Essentials data. </p><p>Published in Player's Handbook, page(s) 198, Heroes of the Fallen Lands, page(s) 315, Heroes of the Forgotten Kingdoms, page(s) 316. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"5Q6OxDJsowrVg70j",
+	"_key":"!items!5Q6OxDJsowrVg70j"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Swirling Leaves of Autumn",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Warlock, Fey Pact class feature, must worship Sehanine </p><p><b>Benefit: </b>When your Misty Step pact boon triggers, the square you leave and each square adjacent to it become lightly obscured until the start of your next turn. </p><p>Published in Dragon Magazine 386, page(s) 70. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"HwcCaIB07pzYnbrW",
+	"_key":"!items!HwcCaIB07pzYnbrW"
+}

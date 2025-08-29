@@ -1,0 +1,33 @@
+{
+	"name":"Keen Senses Background",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Type: </b>Racial </p><p><b>Campaign Setting: </b>General </p><p><b>Prerequisite: </b>Foulborn Heritage feat </p><p>You have keen senses thanks to extra eyes, eyestalks, spare ears, antennae, or particularly sensitive skin. </p><p><i>Associated Skills: </i>Perception </p><p>Published in Psionic Power, page(s) 128. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"background"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"TKMCFk3X1HuAjwli",
+	"_key":"!items!TKMCFk3X1HuAjwli"
+}

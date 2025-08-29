@@ -1,0 +1,33 @@
+{
+	"name":"The Mockery",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Type: </b>God </p><p><b>Alignment: </b>Evil </p><p><b>Gender: </b>Male </p><p><b>Sphere: </b>Violence, betrayal, dishonorable victory, love of carnage, war </p><p><b>Domain: </b>Trickery, War </p><p>The Mockery is the god of treachery and brutality. Evil assassins and fighters are among those who revere him. </p><p>The Mockery is part of The Dark Six. Complementing the Sovereign Host and its focus on the light of civilization, the Dark Six represent the darkness of the wilds. The two pantheons were once combined, but a great schism separated them. The Dark Six now oppose the Host on all fronts. Where the Sovereign Host is generally good, the Dark Six are by and large evil. Where the Sovereign Host values community and government, the Dark Six value individuality and anarchy. The Dark Six are cruel, passionate, brutal, and wild. </p><p>Published in Eberron Player's Guide, page(s) 19. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"other"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"Yogm2R7GkhAKce8N",
+	"_key":"!items!Yogm2R7GkhAKce8N"
+}

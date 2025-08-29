@@ -1,0 +1,33 @@
+{
+	"name":"Serpent's Resilience (30th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Any creature that scores a critical hit against you must make the attack roll again with a -5 penalty. If the second attack roll would hit, the attack is indeed a critical hit. Otherwise, the critical hit becomes a normal hit, and you can spend a healing surge as a free action. </p><p>Published in Primal Power, page(s) 149. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"destiny"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"2AuieEQjBOSPnLhx",
+	"_key":"!items!2AuieEQjBOSPnLhx"
+}

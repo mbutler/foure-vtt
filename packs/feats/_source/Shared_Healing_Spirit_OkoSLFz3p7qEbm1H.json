@@ -1,0 +1,33 @@
+{
+	"name":"Shared Healing Spirit",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Shaman, healing spirit power </p><p><b>Benefit: </b>When you use healing spirit, you can choose one ally within 2 squares of the target to regain the additional hit points, instead of an ally adjacent to your spirit companion. </p><p>Published in Player's Handbook 2, page(s) 189. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"OkoSLFz3p7qEbm1H",
+	"_key":"!items!OkoSLFz3p7qEbm1H"
+}

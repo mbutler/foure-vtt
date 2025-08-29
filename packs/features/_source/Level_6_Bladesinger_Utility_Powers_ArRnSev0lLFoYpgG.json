@@ -1,0 +1,33 @@
+{
+	"name":"Level 6 Bladesinger Utility Powers",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You add two new wizard utility powers of your level or lower to your spellbook.</p>\n<p>@UUID[Compendium.dnd-4e-compendium.module-powers.rSCtPhGa3oOZF1fR]{Dimension Door}@UUID[Compendium.dnd-4e-compendium.module-powers.3IgBV1u2jC8ZD6kq]{Invisibility}@UUID[Compendium.dnd-4e-compendium.module-powers.c7qbXQUyugRjCVBw]{Wizard's Escape}</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"ArRnSev0lLFoYpgG",
+	"_key":"!items!ArRnSev0lLFoYpgG"
+}

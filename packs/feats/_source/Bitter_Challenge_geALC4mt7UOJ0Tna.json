@@ -1,0 +1,33 @@
+{
+	"name":"Bitter Challenge",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Paladin, divine challenge power </p><p><b>Benefit: </b>Whenever a target takes damage from your divine challenge, it is also slowed until the end of your next turn. </p><p>Published in Dragon Magazine 380, page(s) 64. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"geALC4mt7UOJ0Tna",
+	"_key":"!items!geALC4mt7UOJ0Tna"
+}

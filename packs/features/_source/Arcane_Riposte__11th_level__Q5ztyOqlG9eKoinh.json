@@ -1,0 +1,33 @@
+{
+	"name":"Arcane Riposte (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When a creature provokes an opportunity attack from you, you can make an opportunity attack with one of your hands (Intelligence + 4 vs. Reflex). The bonus increases to +6 at 21st level. Choose cold, fire, force, or lightning. On a hit, the attack deals 1d8 + Intelligence modifier damage of that type. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"Q5ztyOqlG9eKoinh",
+	"_key":"!items!Q5ztyOqlG9eKoinh"
+}

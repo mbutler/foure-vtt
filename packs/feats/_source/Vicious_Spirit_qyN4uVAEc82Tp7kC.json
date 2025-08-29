@@ -1,0 +1,33 @@
+{
+	"name":"Vicious Spirit",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>11th level, shaman, healing spirit power, Stalker Spirit class feature </p><p><b>Benefit: </b>When you use healing spirit, each ally adjacent to your spirit companion gains a +2 bonus to damage rolls against bloodied enemies until the end of your next turn. </p><p>Published in Primal Power, page(s) 145. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"qyN4uVAEc82Tp7kC",
+	"_key":"!items!qyN4uVAEc82Tp7kC"
+}

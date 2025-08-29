@@ -1,0 +1,33 @@
+{
+	"name":"Unstoppable Lightning (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Your lightning attacks treat each creature that has resistance to lightning as not having that resistance. In addition, your lightning attacks treat each creature that is immune to lightning as instead having resistance to lightning equal to one-half its level. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"sTyLwouIPAZE5nia",
+	"_key":"!items!sTyLwouIPAZE5nia"
+}

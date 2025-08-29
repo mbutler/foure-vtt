@@ -1,0 +1,33 @@
+{
+	"name":"Deep Delver Level 5 Feature (5th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Your power bonus to Dungeoneering checks increases to +4.<br>Also, when you squeeze, your speed is not halved, and you take a -2 penalty to attack rolls instead of the normal -5.<br></p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"theme"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"emSPNdW6HhQjtiqv",
+	"_key":"!items!emSPNdW6HhQjtiqv"
+}

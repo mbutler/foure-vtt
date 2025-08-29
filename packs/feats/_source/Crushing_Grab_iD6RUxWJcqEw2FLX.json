@@ -1,0 +1,33 @@
+{
+	"name":"Crushing Grab",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>21st level, Str 19, fighter </p><p><b>Benefit: </b>Each round you sustain a grab on your turn, the target of the grab takes damage equal to 5 + your Strength modifier. </p><p>Published in Dragon Magazine Annual, Dragon Magazine 368, page(s) 59. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"iD6RUxWJcqEw2FLX",
+	"_key":"!items!iD6RUxWJcqEw2FLX"
+}

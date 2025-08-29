@@ -1,0 +1,33 @@
+{
+	"name":"Dragon Stalker (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you deal your Hunter's Quarry damage to a dragon, you deal an additional +2 damage for each die rolled. </p><p>In addition, you gain a +2 bonus on monster knowledge checks regarding dragons and on Perception checks to track dragons. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"K3bSdAZV8R0YMIhc",
+	"_key":"!items!K3bSdAZV8R0YMIhc"
+}

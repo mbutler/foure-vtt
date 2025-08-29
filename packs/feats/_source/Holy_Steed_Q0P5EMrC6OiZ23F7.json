@@ -1,0 +1,33 @@
+{
+	"name":"Holy Steed",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>11th level, paladin, mounted combat feat </p><p><b>Benefit: </b>While you are mounted, your mount gains a +2 bonus to all defenses and a bonus to damage rolls equal to your Charisma modifier. </p><p>Published in Dragon Magazine 388. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"Q0P5EMrC6OiZ23F7",
+	"_key":"!items!Q0P5EMrC6OiZ23F7"
+}

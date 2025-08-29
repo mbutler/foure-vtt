@@ -1,0 +1,33 @@
+{
+	"name":"Pivotal Event - Unwholesome Journey Background",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Campaign Setting: </b>General </p><p>The Far Realm claimed you, and you wandered there for a time. Did your time there make you stronger of mind, or weaker? Did it alter your worldview? </p><p><i>Associated Skills: </i>Dungeoneering </p><p>Associated Languages: Deep Speech </p><p>Published in Dragon Magazine 383, page(s) 80. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"background"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"ZDj12t6fhRp5BCzS",
+	"_key":"!items!ZDj12t6fhRp5BCzS"
+}

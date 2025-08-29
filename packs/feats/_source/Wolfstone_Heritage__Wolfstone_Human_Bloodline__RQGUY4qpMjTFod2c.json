@@ -1,0 +1,33 @@
+{
+	"name":"Wolfstone Heritage [Wolfstone Human Bloodline]",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Human </p><p><b>Benefit: </b>You gain the unrelenting mountain daily utility power. Additionally, you gain a +2 feat bonus to Athletics checks. </p><p>Published in Dragon Magazine 386, page(s) 13. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"RQGUY4qpMjTFod2c",
+	"_key":"!items!RQGUY4qpMjTFod2c"
+}

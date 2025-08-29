@@ -1,0 +1,33 @@
+{
+	"name":"Clarity in Confusion (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You do not grant combat advantage for being dazed or stunned. In addition, whenever you are dazed, you can take a minor action in addition to the single action allowed by that condition. </p><p>Published in Psionic Power, page(s) 22. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"20KmuTDa1HyArRdX",
+	"_key":"!items!20KmuTDa1HyArRdX"
+}

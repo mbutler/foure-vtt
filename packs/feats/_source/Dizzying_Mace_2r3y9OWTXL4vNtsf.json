@@ -1,0 +1,33 @@
+{
+	"name":"Dizzying Mace",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>11th level, fighter </p><p><b>Benefit: </b>When you hit an enemy with a power that dazes the target while you are using a mace, the target also takes a penalty to attack rolls equal to your Constitution modifier for as long as it remains dazed by your attack. </p><p>Published in Dragon Magazine 378. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"2r3y9OWTXL4vNtsf",
+	"_key":"!items!2r3y9OWTXL4vNtsf"
+}

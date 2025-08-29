@@ -1,0 +1,33 @@
+{
+	"name":"Arcanist Ritual Casting",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You gain the Ritual Caster feat as a bonus feat, allowing you to use magical rituals.</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"APRK8EVJ6ZbqIpdC",
+	"_key":"!items!APRK8EVJ6ZbqIpdC"
+}

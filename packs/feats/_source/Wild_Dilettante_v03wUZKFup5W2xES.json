@@ -1,0 +1,33 @@
+{
+	"name":"Wild Dilettante",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Half-elf, druid, you must have chosen an implement power for your Dilettante racial trait </p><p><b>Benefit: </b>You can choose to treat the power you selected for your Dilettante racial trait as though it has the beast form keyword. </p><p>Published in Dragon Magazine 385, page(s) 69. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"v03wUZKFup5W2xES",
+	"_key":"!items!v03wUZKFup5W2xES"
+}

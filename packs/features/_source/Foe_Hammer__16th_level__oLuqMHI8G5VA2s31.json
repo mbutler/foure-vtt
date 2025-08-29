@@ -1,0 +1,33 @@
+{
+	"name":"Foe Hammer (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>If you use Moradin's resolve with an attack that uses the weapon under the effects of your weapon of the dwarf-father power, you also deal 1d10 extra radiant and fire damage with that weapon until the end of your next turn. If the attack scores a critical hit, the target is also stunned until the end of your next turn. </p><p>Published in Dragon Magazine 385, page(s) 75. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"oLuqMHI8G5VA2s31",
+	"_key":"!items!oLuqMHI8G5VA2s31"
+}

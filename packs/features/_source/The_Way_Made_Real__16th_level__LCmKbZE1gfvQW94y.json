@@ -1,0 +1,33 @@
+{
+	"name":"The Way Made Real (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you hit a target with an augmented psionic weapon attack power, you gain a +2 bonus to saving throws until the start of your next turn. You can gain this bonus only once per turn. </p><p>Published in Dark Sun Campaign Setting, page(s) 77. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"LCmKbZE1gfvQW94y",
+	"_key":"!items!LCmKbZE1gfvQW94y"
+}

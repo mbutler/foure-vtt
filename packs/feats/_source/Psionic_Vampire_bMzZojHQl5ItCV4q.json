@@ -1,0 +1,33 @@
+{
+	"name":"Psionic Vampire",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Vampire, Psionic Augmentation class feature </p><p><b>Benefit: </b>Once per encounter, when your augmented psionic attack power or psionic encounter attack power hits at least one enemy, you gain a healing surge. </p><p>Once per encounter, as a minor action, you can lose a healing surge to gain 2 power points that expire at the end of your turn. </p><p>Published in Dragon Magazine 402. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"bMzZojHQl5ItCV4q",
+	"_key":"!items!bMzZojHQl5ItCV4q"
+}

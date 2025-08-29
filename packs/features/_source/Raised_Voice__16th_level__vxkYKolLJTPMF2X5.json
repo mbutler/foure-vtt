@@ -1,0 +1,33 @@
+{
+	"name":"Raised Voice (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you use a divine attack power, you can choose to raise your voice before you make any attack rolls for it. For that attack, you can score a critical hit on a roll of 19-20, and enemies take a -2 penalty to saving throws against the attack's effects. However, you are dazed until the end of your next turn. </p><p>Published in Divine Power, page(s) 70. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"vxkYKolLJTPMF2X5",
+	"_key":"!items!vxkYKolLJTPMF2X5"
+}

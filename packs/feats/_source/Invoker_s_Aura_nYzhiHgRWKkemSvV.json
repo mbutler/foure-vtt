@@ -1,0 +1,33 @@
+{
+	"name":"Invoker's Aura",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>21st level, invoker </p><p><b>Benefit: </b>Until the end of your next turn, after you use a Channel Divinity power, any enemy within 2 squares of you that hits you or any enemy that ends its turn within 2 squares of you takes radiant damage equal to 5 + your Wisdom modifier. No enemy can take this damage more than once per turn. </p><p>Published in Divine Power, page(s) 141. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"nYzhiHgRWKkemSvV",
+	"_key":"!items!nYzhiHgRWKkemSvV"
+}

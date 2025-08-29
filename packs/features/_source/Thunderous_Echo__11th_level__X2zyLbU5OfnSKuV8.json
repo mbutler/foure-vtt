@@ -1,0 +1,33 @@
+{
+	"name":"Thunderous Echo (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you hit an enemy with a thunder power, you deal extra thunder damage equal to your Constitution modifier to the first creature you hit before the end of your next turn. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"X2zyLbU5OfnSKuV8",
+	"_key":"!items!X2zyLbU5OfnSKuV8"
+}

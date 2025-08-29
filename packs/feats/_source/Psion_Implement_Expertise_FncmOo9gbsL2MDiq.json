@@ -1,0 +1,33 @@
+{
+	"name":"Psion Implement Expertise",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>21st level, Int 21, Wis 15, Cha 15, psion </p><p><b>Benefit: </b>When you use a psionic power through an implement, you can score a critical hit on a roll of 19-20. </p><p>Published in Psionic Power, page(s) 141. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"FncmOo9gbsL2MDiq",
+	"_key":"!items!FncmOo9gbsL2MDiq"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Masterful Action (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you spend an action point to use an attack power, you can deal your Sneak Attack damage to a target of the power regardless of whether you hit it or whether you have dealt Sneak Attack damage to it this turn, but you must have combat advantage against the target. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"OPgopYXlJmhL6WBM",
+	"_key":"!items!OPgopYXlJmhL6WBM"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Kord's Resilience",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Goliath, any divine class </p><p><b>Benefit: </b>While your stone's endurance racial power is active, allies adjacent to you have the same resistance that the power grants you. </p><p>Published in Divine Power, page(s) 135. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"XJq4MFSWCreAG8fR",
+	"_key":"!items!XJq4MFSWCreAG8fR"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Astral Vibrance (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Choose a damage type: lightning, radiant, or thunder. When any bloodied enemy starts its turn within 5 squares of you, it takes damage of the chosen type equal to your Charisma modifier. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"jQDFImAtfN6YnlJC",
+	"_key":"!items!jQDFImAtfN6YnlJC"
+}

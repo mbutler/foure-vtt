@@ -1,0 +1,33 @@
+{
+	"name":"Inverted Corona (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Whenever you enable an ally to spend a healing surge, you can pull one or two allies within range of your telepathy up to 2 squares as a free action. </p><p>Published in Dragon Magazine 395. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"HXwmk72sqPrKtaFc",
+	"_key":"!items!HXwmk72sqPrKtaFc"
+}

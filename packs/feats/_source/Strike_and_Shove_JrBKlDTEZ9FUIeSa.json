@@ -1,0 +1,33 @@
+{
+	"name":"Strike and Shove",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Benefit: </b>Whenever you score a critical hit with a melee attack, you can push the target 1 square. </p><p>Published in Player's Handbook 3, page(s) 183. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"JrBKlDTEZ9FUIeSa",
+	"_key":"!items!JrBKlDTEZ9FUIeSa"
+}

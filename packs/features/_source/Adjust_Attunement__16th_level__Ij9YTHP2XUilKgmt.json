@@ -1,0 +1,33 @@
+{
+	"name":"Adjust Attunement (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>All targets of attack powers affected by your Attune Target path feature grant combat advantage to you until the end of your next turn, regardless of whether those targets were hit or missed by your attacks. </p><p>Published in Arcane Power, page(s) 118. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"Ij9YTHP2XUilKgmt",
+	"_key":"!items!Ij9YTHP2XUilKgmt"
+}

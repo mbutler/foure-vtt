@@ -1,0 +1,33 @@
+{
+	"name":"Surprising Breath",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Dragonborn, dragon breath racial power </p><p><b>Benefit: </b>When you hit a creature with your dragon breath, you gain combat advantage against that creature until the start of your next turn. </p><p>Published in Player's Handbook Races: Dragonborn, page(s) 24. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"abFqgtOzy6eudM5f",
+	"_key":"!items!abFqgtOzy6eudM5f"
+}

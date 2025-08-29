@@ -1,0 +1,33 @@
+{
+	"name":"Enigmatic Daily Power (20th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You gain a 20th-level daily attack power that is associated with the school of magic for which you have the Master Mage benefit. </p><p>This power can be used in addition to the powers you prepare from your spellbook. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"84daGIloFUuHPjqf",
+	"_key":"!items!84daGIloFUuHPjqf"
+}

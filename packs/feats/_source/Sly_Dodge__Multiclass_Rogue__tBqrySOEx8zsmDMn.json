@@ -1,0 +1,33 @@
+{
+	"name":"Sly Dodge [Multiclass Rogue]",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Dex 13, Cha 13 </p><p><b>Benefit: </b>You gain training in the Bluff skill or the Intimidate skill. </p><p>Once per encounter, when an enemy makes an opportunity attack against you, you can add your Charisma modifier to your AC against that attack. </p><p>Published in Martial Power, page(s) 150. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"tBqrySOEx8zsmDMn",
+	"_key":"!items!tBqrySOEx8zsmDMn"
+}

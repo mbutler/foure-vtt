@@ -1,0 +1,33 @@
+{
+	"name":"Immortal Foe (21st level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Immortal creatures take a -2 penalty to attack rolls against you. In addition, you gain a bonus to damage rolls against immortal creatures equal to your Wisdom modifier. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"destiny"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"gsRrlodep2vCky7x",
+	"_key":"!items!gsRrlodep2vCky7x"
+}

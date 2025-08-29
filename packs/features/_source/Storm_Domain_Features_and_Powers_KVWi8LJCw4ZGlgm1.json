@@ -1,0 +1,33 @@
+{
+	"name":"Storm Domain Features and Powers",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You gain resist 5 lightning and resist 5 thunder. </p><p>In addition, when you use your healing word, the target also gains a +2 power bonus to the next damage roll he or she makes before the end of his or her next turn. This bonus increases to +4 at 11th level and +6 at 21st level. </p><p>You also gain the blessing of wrath power, storm hammer power, create water power, and thundering steel power. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"KVWi8LJCw4ZGlgm1",
+	"_key":"!items!KVWi8LJCw4ZGlgm1"
+}

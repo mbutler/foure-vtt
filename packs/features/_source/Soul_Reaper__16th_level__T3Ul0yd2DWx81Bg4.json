@@ -1,0 +1,33 @@
+{
+	"name":"Soul Reaper (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When any enemy within 3 squares of you drops to 0 hit points, you gain a soul shard as a free action. </p><p>Published in Dragon Magazine 379, page(s) 33. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"T3Ul0yd2DWx81Bg4",
+	"_key":"!items!T3Ul0yd2DWx81Bg4"
+}

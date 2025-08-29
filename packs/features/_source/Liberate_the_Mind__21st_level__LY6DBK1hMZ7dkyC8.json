@@ -1,0 +1,33 @@
+{
+	"name":"Liberate the Mind (21st level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Allies adjacent to you gain a +2 bonus to saving throws against being dominated, immobilized, restrained, or slowed. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"destiny"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"LY6DBK1hMZ7dkyC8",
+	"_key":"!items!LY6DBK1hMZ7dkyC8"
+}

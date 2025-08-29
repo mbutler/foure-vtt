@@ -1,0 +1,33 @@
+{
+	"name":"Elemental Blessing",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Genasi, any divine class </p><p><b>Benefit: </b>When you use the racial power associated with your elemental manifestation, you or one ally within 5 squares of you gains temporary hit points equal to your Strength modifier. </p><p>Published in Divine Power, page(s) 134. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"h9fVnkjrqQyzBGsJ",
+	"_key":"!items!h9fVnkjrqQyzBGsJ"
+}

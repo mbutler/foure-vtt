@@ -1,0 +1,33 @@
+{
+	"name":"Surging Vitality (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Whenever you spend a healing surge, one ally within 10 squares of you regains hit points equal to twice your primary ability modifier. In addition, you gain a +1 bonus to attack rolls with arcane attack powers until the end of your next turn. </p><p>Published in Dark Sun Campaign Setting, page(s) 68. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"yM6kDsE2bpceWU7x",
+	"_key":"!items!yM6kDsE2bpceWU7x"
+}

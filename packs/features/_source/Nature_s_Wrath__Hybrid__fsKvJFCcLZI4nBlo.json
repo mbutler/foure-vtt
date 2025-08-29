@@ -1,0 +1,33 @@
+{
+	"name":"Nature's Wrath (Hybrid)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>This class feature functions as the warden class feature, except that you mark only one adjacent enemy when you use the class feature's marking ability.</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"fsKvJFCcLZI4nBlo",
+	"_key":"!items!fsKvJFCcLZI4nBlo"
+}

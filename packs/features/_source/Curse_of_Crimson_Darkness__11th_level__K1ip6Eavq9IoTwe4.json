@@ -1,0 +1,33 @@
+{
+	"name":"Curse of Crimson Darkness (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you hit with an encounter or daily warlock attack power or disciple of Razaundra attack power, you gain a +2 bonus to the damage roll. This bonus increases to +4 if you are bloodied. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"K1ip6Eavq9IoTwe4",
+	"_key":"!items!K1ip6Eavq9IoTwe4"
+}

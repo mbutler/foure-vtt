@@ -1,0 +1,33 @@
+{
+	"name":"Coordinated Opportunity",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Ranger, Beast Mastery class feature </p><p><b>Benefit: </b>If your beast companion is adjacent to the target of your opportunity attack, you gain a +2 bonus to the damage roll. </p><p>Published in Martial Power, page(s) 133. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"7hSKT0lkRC251mPi",
+	"_key":"!items!7hSKT0lkRC251mPi"
+}

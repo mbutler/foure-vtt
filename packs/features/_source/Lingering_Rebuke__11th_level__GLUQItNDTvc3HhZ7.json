@@ -1,0 +1,33 @@
+{
+	"name":"Lingering Rebuke (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you spend an action point to take an extra action, each enemy that hits or misses you or an ally within 5 squares of you before the end of your next turn takes 1d6 + your Constitution modifier thunder damage. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"GLUQItNDTvc3HhZ7",
+	"_key":"!items!GLUQItNDTvc3HhZ7"
+}

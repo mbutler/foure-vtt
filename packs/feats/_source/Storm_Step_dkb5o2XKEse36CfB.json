@@ -1,0 +1,33 @@
+{
+	"name":"Storm Step",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Genasi, promise of storm racial power </p><p><b>Benefit: </b>When you use promise of storm, whenever you hit a creature with a lightning or thunder attack before the end of your next turn, you can teleport to a square adjacent to that creature. </p><p>Published in Dragon Magazine 391. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"dkb5o2XKEse36CfB",
+	"_key":"!items!dkb5o2XKEse36CfB"
+}

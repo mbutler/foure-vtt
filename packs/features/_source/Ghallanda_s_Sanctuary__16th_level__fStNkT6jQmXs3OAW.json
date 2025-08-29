@@ -1,0 +1,33 @@
+{
+	"name":"Ghallanda's Sanctuary (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When any ally within 5 squares of you takes a total defense or second wind action, that ally gains temporary hit points equal to 5 + your Charisma modifier. </p><p>The number of temporary hit points equals 10 + your Charisma modifier at 21st level. </p><p>Published in Eberron Player's Guide, page(s) 69. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"fStNkT6jQmXs3OAW",
+	"_key":"!items!fStNkT6jQmXs3OAW"
+}

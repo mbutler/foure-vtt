@@ -1,0 +1,33 @@
+{
+	"name":"Double Resistance (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>If you have Dragon Magic, choose a second damage type for your Dragon Soul class feature. If you have Wild Magic, roll twice on the Wild Soul table after each extended rest. (If you get the same result a second time, roll again.) Whichever of these two Spell Source options you have, you gain resistance to both damage types, and your arcane powers ignore any target's resistance to both types up to the value of your resistance. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"876Rac1nfuzt2ZKg",
+	"_key":"!items!876Rac1nfuzt2ZKg"
+}

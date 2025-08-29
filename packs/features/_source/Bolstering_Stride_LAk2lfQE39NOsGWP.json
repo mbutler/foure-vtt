@@ -1,0 +1,33 @@
+{
+	"name":"Bolstering Stride",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You gain the bolstering stride power.</p>\n<p>@UUID[Compendium.dnd-4e-compendium.module-powers.pXn94NTYxVcy5lbz]{Bolstering Stride}</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"LAk2lfQE39NOsGWP",
+	"_key":"!items!LAk2lfQE39NOsGWP"
+}

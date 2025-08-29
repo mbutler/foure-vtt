@@ -1,0 +1,33 @@
+{
+	"name":"Firecrafter Starting Feature (1st level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Your origin becomes elemental. For the purpose of effects that relate to creature origin, you are considered to be an elemental. Add Primordial to the languages you can read, write, and speak. Also, you can emit dim light out to 5 squares. As a minor action, you can suppress or resume this light. <br>You also gain the blazing corona power.<br></p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"theme"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"itYE6pvVwzxWG31R",
+	"_key":"!items!itYE6pvVwzxWG31R"
+}

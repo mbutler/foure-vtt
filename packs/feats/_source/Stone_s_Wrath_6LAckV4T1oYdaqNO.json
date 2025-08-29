@@ -1,0 +1,33 @@
+{
+	"name":"Stone's Wrath",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Goliath, stone's endurance racial power </p><p><b>Benefit: </b>When you take damage from an attack while you are affected by your stone's endurance, your next melee attack before the end of your next turn deals 1d6 extra damage. </p><p>Published in Dark Sun Campaign Setting, page(s) 112. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"6LAckV4T1oYdaqNO",
+	"_key":"!items!6LAckV4T1oYdaqNO"
+}

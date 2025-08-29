@@ -1,0 +1,33 @@
+{
+	"name":"Wilderness Tracker (Ranger)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>During a short rest, you can make a Perception check (DC determined by the DM) to inspect the area around you. This area can be as large as 10 squares on a side. If your check succeeds, you determine the number and nature of the creatures that have moved through the area in the past 24 hours. You ascertain when and where they entered the area, as well as when and where they left. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"PTmWSZBIkgzEXNMs",
+	"_key":"!items!PTmWSZBIkgzEXNMs"
+}

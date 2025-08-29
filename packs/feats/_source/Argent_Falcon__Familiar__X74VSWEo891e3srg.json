@@ -1,0 +1,33 @@
+{
+	"name":"Argent Falcon [Familiar]",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Arcane Familiar feat, must worship Sehanine </p><p><b>Benefit: </b>The argent falcon feat power replaces one of your 6th-level or higher utility powers. </p><p>Published in Dragon Magazine 386, page(s) 69. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"X74VSWEo891e3srg",
+	"_key":"!items!X74VSWEo891e3srg"
+}

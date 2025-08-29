@@ -1,0 +1,39 @@
+{
+	"name":"Dilettante",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>At 1st level, you choose a 1st-level at-will attack power from a class different from yours. You can use that power as an encounter power.</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"descriptionGM":{
+			"value":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":"",
+			"autoanimationHook":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"race"
+	},
+	"effects":[],
+	"folder":null,
+	"flags":{
+		"core":{}
+	},
+	"_id":"lPqjxwlN4cTTEB0l",
+	"sort":0,
+	"_key":"!items!lPqjxwlN4cTTEB0l"
+}

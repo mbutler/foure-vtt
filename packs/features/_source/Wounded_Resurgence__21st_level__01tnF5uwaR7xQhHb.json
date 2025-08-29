@@ -1,0 +1,33 @@
+{
+	"name":"Wounded Resurgence (21st level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>If you are bloodied, you can spend a healing surge as a minor action to restore your current hit points to your bloodied value. Also, you don't take a death penalty when you are returned to life by the Raise Dead ritual. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"destiny"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"01tnF5uwaR7xQhHb",
+	"_key":"!items!01tnF5uwaR7xQhHb"
+}

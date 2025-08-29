@@ -1,0 +1,33 @@
+{
+	"name":"Ankle Biter",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Goblin race </p><p><b>Benefit: </b>You gain a +1 feat bonus to damage rolls against creatures larger than you. This bonus increases to +2 at 11th level and to +3 at 21st level. </p><p>Also, when you score a critical hit against a creature larger than you, the creature takes 1d6 extra damage. </p><p>Published in Into the Unknown: The Dungeon Survival Handbook, page(s) 38. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"HZBCIEKM206Ul4nc",
+	"_key":"!items!HZBCIEKM206Ul4nc"
+}

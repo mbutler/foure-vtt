@@ -1,0 +1,33 @@
+{
+	"name":"Axe Strike",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Power strike power </p><p><b>Benefit: </b>When you miss a target with a weapon attack using an axe, you can expend a use of power strike to deal 5 damage to the target, even if it is a minion. This damage increases to 10 at 11th level and 15 at 21st level. </p><p>Published in Mordenkainen's Magnificent Emporium, page(s) 23. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"2MIbpKjJiHAvLanE",
+	"_key":"!items!2MIbpKjJiHAvLanE"
+}

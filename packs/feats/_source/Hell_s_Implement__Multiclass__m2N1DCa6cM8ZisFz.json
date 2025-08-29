@@ -1,0 +1,33 @@
+{
+	"name":"Hell's Implement [Multiclass]",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Warlord, Pact Initiate (infernal pact) </p><p><b>Benefit: </b>You can use a polearm as a warlock implement. </p><p>Update (2/8/2010) </p><p>In the Benefit entry, replace the text with \"You can use a polearm as a warlock implement.\" This change synchronizes this feat with Player's Handbook 3 clarifications to implements and weapons. </p><p>Published in Dragon Magazine 369, page(s) 55. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"m2N1DCa6cM8ZisFz",
+	"_key":"!items!m2N1DCa6cM8ZisFz"
+}

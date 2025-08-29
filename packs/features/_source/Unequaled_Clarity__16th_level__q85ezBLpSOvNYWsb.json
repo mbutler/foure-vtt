@@ -1,0 +1,33 @@
+{
+	"name":"Unequaled Clarity (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you make an Insight check, you can roll twice and use either result. In addition, you gain a +4 bonus to passive Insight checks. </p><p>Published in Divine Power, page(s) 53. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"q85ezBLpSOvNYWsb",
+	"_key":"!items!q85ezBLpSOvNYWsb"
+}

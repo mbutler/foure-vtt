@@ -1,0 +1,33 @@
+{
+	"name":"Recent Life - Valued Prisoner Background",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Campaign Setting: </b>General </p><p>You were one of a few prisoners kept in good health because of information you possessed. What did you know, and did you spill it? </p><p><i>Associated Skills: </i>Streetwise, Thievery </p><p>Published in Dragon Magazine 383, page(s) 81. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"background"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"2aDO7rioePTdYlwh",
+	"_key":"!items!2aDO7rioePTdYlwh"
+}

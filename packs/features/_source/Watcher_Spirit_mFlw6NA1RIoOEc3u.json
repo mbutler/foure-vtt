@@ -1,0 +1,33 @@
+{
+	"name":"Watcher Spirit",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Spirit Boon: Enemies adjacent to your spirit companion can't gain cover from other enemies. In addition, your allies can treat any enemy adjacent to your spirit companion as their nearest enemy. </p><p>Spirit's Prey: You gain the spirit's prey power, an attack you make through your spirit companion as an opportunity action. </p><p>At-Will Attack Power: You gain the claws of the eagle power. You choose a second 1st-level at-will attack power as normal. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"mFlw6NA1RIoOEc3u",
+	"_key":"!items!mFlw6NA1RIoOEc3u"
+}

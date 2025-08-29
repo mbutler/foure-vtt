@@ -1,0 +1,33 @@
+{
+	"name":"Demon Spawn Starting Feature (1st level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Your origin becomes elemental. For the purpose of effects that relate to creature origin, you are considered to be an elemental. You also gain the demon keyword and are considered to be a demon.<br>You also gain the demonic frenzy power.<br></p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"theme"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"9kntXoHxUIAhqGfd",
+	"_key":"!items!9kntXoHxUIAhqGfd"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Flank on the Run",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Ranger, Running Attack class feature </p><p><b>Benefit: </b>Whenever you are adjacent to an enemy and move to another square adjacent to that enemy, you do not provoke an opportunity attack from that enemy for leaving your square. </p><p>Published in Martial Power 2, page(s) 133. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"t7my6CuO4sBMKri8",
+	"_key":"!items!t7my6CuO4sBMKri8"
+}

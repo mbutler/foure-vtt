@@ -1,0 +1,33 @@
+{
+	"name":"Vistani Thief [Vistani Bloodline]",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Vistani Heritage </p><p><b>Benefit: </b>You can master and perform deception rituals as though you had the Ritual Caster feat. </p><p>Once per day, you can ignore the component cost of a deception ritual you have mastered of your level or lower. </p><p>Published in Dragon Magazine 380, page(s) 87. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"6qvQwPdb2htJSkle",
+	"_key":"!items!6qvQwPdb2htJSkle"
+}

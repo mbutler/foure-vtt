@@ -1,0 +1,33 @@
+{
+	"name":"Defiling Action",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Arcane defiling power </p><p><b>Benefit: </b>When you spend an action point to use an at-will or an encounter arcane attack power, you can use your arcane defiling with that power. </p><p>Published in Dark Sun Campaign Setting, page(s) 105. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"9yQ6XNtsM0YGBh7p",
+	"_key":"!items!9yQ6XNtsM0YGBh7p"
+}

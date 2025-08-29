@@ -1,0 +1,33 @@
+{
+	"name":"Ioun",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Type: </b>God </p><p><b>Alignment: </b>Unaligned </p><p><b>Gender: </b>Female </p><p><b>Domain: </b>Fate, Knowledge, Skill </p><p>Ioun is the god of knowledge, skill, and prophecy. Sages, seers, and tacticians revere her, as do all who live by their knowledge and mental power. Corellon is the patron of arcane magic, but Ioun is the patron of its study. Libraries and wizard academies are built in her name. Her commands are also teachings: </p><p>* Seek the perfection of your mind by bringing reason, perception, and emotion into balance with one another. </p><p>* Accumulate, preserve, and distribute knowledge in all forms. Pursue education, build libraries, and seek out lost and ancient lore. </p><p>* Be watchful at all times for the followers of Vecna, who seek to control knowledge and keep secrets. Oppose their schemes, unmask their secrets, and blind them with the light of truth and reason. </p><p>Published in Player's Handbook, page(s) 21, Heroes of the Fallen Lands, page(s) 51. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"other"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"aAG6dlQ0pwOmIUrV",
+	"_key":"!items!aAG6dlQ0pwOmIUrV"
+}

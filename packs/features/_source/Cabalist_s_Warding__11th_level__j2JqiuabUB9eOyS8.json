@@ -1,0 +1,33 @@
+{
+	"name":"Cabalist's Warding (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you become bloodied, you gain a bonus to your choice of Fortitude, Reflex, or Will equal to your Constitution modifier until you are no longer bloodied. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"j2JqiuabUB9eOyS8",
+	"_key":"!items!j2JqiuabUB9eOyS8"
+}

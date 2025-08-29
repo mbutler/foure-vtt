@@ -1,0 +1,33 @@
+{
+	"name":"Hordelands Nomad Level 5 Feature (5th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You gain a +2 power bonus to Nature checks. In addition, you can use the Nature skill as if it were Arcana to sense the presence of magic, and to make monster knowledge checks about creatures that have the elemental, fey, or shadow origin.<br></p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"theme"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"LjAoFTiI4kKnJZ29",
+	"_key":"!items!LjAoFTiI4kKnJZ29"
+}

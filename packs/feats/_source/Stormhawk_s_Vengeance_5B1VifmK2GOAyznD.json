@@ -1,0 +1,33 @@
+{
+	"name":"Stormhawk's Vengeance",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Benefit: </b>If an enemy reduces you to 0 or fewer hit points with an attack, it takes 10 thunder damage. This damage increases to 20 at 11th level and 30 at 21st level. </p><p>Published in Heroes of the Forgotten Kingdoms, page(s) 319. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"5B1VifmK2GOAyznD",
+	"_key":"!items!5B1VifmK2GOAyznD"
+}

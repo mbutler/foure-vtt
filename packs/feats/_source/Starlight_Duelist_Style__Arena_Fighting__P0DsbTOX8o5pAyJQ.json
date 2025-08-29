@@ -1,0 +1,33 @@
+{
+	"name":"Starlight Duelist Style [Arena Fighting]",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Dex 13 or eladrin race, any martial class </p><p><b>Benefit: </b>You gain a benefit with any of the following exploits you possess. </p><p>Update (11/23/2009) </p><p>In the dual strike entry, replace \"the target\" with \"either target.\" </p><p>Associated Powers: </p><p>Dual Strike: If both attacks hit, you can shift 1 square to a square adjacent to either target. </p><p>Hit and Run: If you are an eladrin, you can use your fey step racial power, if it is available, as a free action after this attack. </p><p>Riposte Strike: If you are an eladrin, rather than make an attack as an immediate interrupt, you can use your fey step racial power, if it is available, as an immediate reaction. </p><p>Published in Dragon Magazine Annual, Dragon Magazine 368, page(s) 61. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"P0DsbTOX8o5pAyJQ",
+	"_key":"!items!P0DsbTOX8o5pAyJQ"
+}

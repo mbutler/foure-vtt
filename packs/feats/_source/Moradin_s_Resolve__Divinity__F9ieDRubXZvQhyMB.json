@@ -1,0 +1,33 @@
+{
+	"name":"Moradin's Resolve [Divinity]",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Channel Divinity class feature, must worship Moradin </p><p><b>Benefit: </b>You gain the Moradin's resolve power. </p><p>Published in Player's Handbook, page(s) 199, Class Compendium. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"F9ieDRubXZvQhyMB",
+	"_key":"!items!F9ieDRubXZvQhyMB"
+}

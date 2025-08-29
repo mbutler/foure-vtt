@@ -1,0 +1,33 @@
+{
+	"name":"Shielding Familiar [Familiar]",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Any arcane class, Arcane Familiar feat, 6th-level or higher utility power </p><p><b>Benefit: </b>The shielding familiar feat power replaces one of your 6th-level or higher utility powers. </p><p>Also, while your familiar is in its passive state, you gain a +1 bonus to Reflex. </p><p>Published in Arcane Power, page(s) 139. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"1XIjOe7snSHUC5bd",
+	"_key":"!items!1XIjOe7snSHUC5bd"
+}

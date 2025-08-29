@@ -1,0 +1,33 @@
+{
+	"name":"Chosen Prey (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Choose one of the following keywords: beast or magical beast. Your Hunter's Quarry class feature deals an extra 2 damage against creatures of the chosen kind. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"4M68SAJsOKF0dmXR",
+	"_key":"!items!4M68SAJsOKF0dmXR"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Abyssal Blood Action (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you spend an action point to take an extra action and you are bloodied, any enemy within 3 squares of you takes ongoing 5 damage (save ends), and you gain regeneration 5 until no enemy has ongoing damage from this feature. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"2Q9bODvLetKg146Y",
+	"_key":"!items!2Q9bODvLetKg146Y"
+}

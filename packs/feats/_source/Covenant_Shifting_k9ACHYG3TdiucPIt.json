@@ -1,0 +1,33 @@
+{
+	"name":"Covenant Shifting",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Githzerai, invoker </p><p><b>Benefit: </b>When you push, pull, or slide a target with a divine power, you can add 1 square to that forced movement. </p><p>Published in Dragon Magazine 378. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"k9ACHYG3TdiucPIt",
+	"_key":"!items!k9ACHYG3TdiucPIt"
+}

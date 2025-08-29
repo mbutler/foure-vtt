@@ -1,0 +1,33 @@
+{
+	"name":"Ruthless Rampage",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Barbarian, Rampage class feature </p><p><b>Benefit: </b>When you make a free melee basic attack with a two-handed reach weapon as a result of Rampage, you gain a +2 bonus to the damage roll if the target is 2 squares away from you. </p><p>Published in Dragon Magazine 384, page(s) 40. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"putaH5lGKhdbvje7",
+	"_key":"!items!putaH5lGKhdbvje7"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Shadow Skulk",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Gnome </p><p><b>Benefit: </b>Whenever you miss with a ranged or an area attack while hidden, you remain hidden. </p><p>Published in Player's Handbook 2, page(s) 189. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"U27omRKfGlqe5Dtd",
+	"_key":"!items!U27omRKfGlqe5Dtd"
+}

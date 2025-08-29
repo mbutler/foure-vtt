@@ -1,0 +1,33 @@
+{
+	"name":"Owl Familiar",
+	"type":"feature",
+	"img":"icons/creatures/magical/construct-gargoyle-stone-gray.webp",
+	"system":{
+		"description":{
+			"value":"<p><i>A common symbol of wisdom and knowledge, owl familiars are known for their good counsel and insight.</i></p><p><b>Speed</b> 2, fly 6 (hover)</p><p><b>Constant Benefits</b></p><p>Whenever you make an Insight check or a Perception check, add 1d4 to the result.</p><p><b>Active Benefits</b></p><p>Owl's Eyes: As a standard action, you can see through your familiar's eyes until the end of your next turn. You do not gain the ability to use powers or attack through the familiar, and you determine if a target has cover and concealment from you as normal, but you might spot an enemy coming around a corner or notice a foe hiding behind a wall.</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"other"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"KTk6WBGNzLjfOSli",
+	"_key":"!items!KTk6WBGNzLjfOSli"
+}

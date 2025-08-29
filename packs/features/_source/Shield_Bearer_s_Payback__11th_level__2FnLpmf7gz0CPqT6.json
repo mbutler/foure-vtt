@@ -1,0 +1,33 @@
+{
+	"name":"Shield Bearer's Payback (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Each time an enemy adjacent to you attacks an ally with a melee attack, you gain a cumulative +2 bonus to your next melee damage roll. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"2FnLpmf7gz0CPqT6",
+	"_key":"!items!2FnLpmf7gz0CPqT6"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Infectious Euphoria",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>21st level, ardent, ardent surge power, Mantle of Elation class feature </p><p><b>Benefit: </b>When you use your ardent surge, each ally adjacent to the target gains temporary hit points equal to 5 + your Constitution modifier. </p><p>Published in Psionic Power, page(s) 140. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"sUR9YWA8TrgK7wNX",
+	"_key":"!items!sUR9YWA8TrgK7wNX"
+}

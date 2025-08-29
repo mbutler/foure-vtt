@@ -1,0 +1,33 @@
+{
+	"name":"Bountiful Returns (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you use a daily primal attack power, each ally within 5 squares of you gains temporary hit points equal to your primary ability modifier and can shift 1 square as a free action. </p><p>Published in Dark Sun Campaign Setting, page(s) 61. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"DTsVvFdMLpCJzk2A",
+	"_key":"!items!DTsVvFdMLpCJzk2A"
+}

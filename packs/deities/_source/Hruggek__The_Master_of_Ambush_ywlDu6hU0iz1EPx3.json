@@ -1,0 +1,33 @@
+{
+	"name":"Hruggek, The Master of Ambush",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Type: </b>Exarch </p><p><b>Alignment: </b>Evil </p><p><b>Gender: </b>Male </p><p><b>Sphere: </b>Ambush </p><p><b>Dominion: </b>Banehold </p><p><b>Priests: </b>Shamans </p><p><b>Adjective: </b>Hruggekan </p><p>The bugbear deity Hruggek is known as the Decapitator and the Master of Ambush. He is a god of violence and combat, delighting in masterful ambushes and sneak attacks. </p><p>Published in Forgotten Realms Campaign Guide, page(s) 81. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"other"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"ywlDu6hU0iz1EPx3",
+	"_key":"!items!ywlDu6hU0iz1EPx3"
+}

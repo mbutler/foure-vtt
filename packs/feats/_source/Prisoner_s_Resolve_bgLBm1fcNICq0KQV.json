@@ -1,0 +1,33 @@
+{
+	"name":"Prisoner's Resolve",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>11th level, warlock, infernal pact </p><p><b>Benefit: </b>If you fail a saving throw, you can take 10 damage to make another saving throw against the same effect. You can do this only once per effect per round. This damage cannot be reduced in any way. </p><p>Published in Dragon Magazine 381, page(s) 53. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"bgLBm1fcNICq0KQV",
+	"_key":"!items!bgLBm1fcNICq0KQV"
+}

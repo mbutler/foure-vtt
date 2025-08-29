@@ -1,0 +1,33 @@
+{
+	"name":"Remembered Knack",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Revenant, any class-specific multiclassing feat that grants training in a skill </p><p><b>Benefit: </b>You gain training in a skill on the class list of the class associated with your class-specific multiclassing feat. Additionally, you gain a +2 bonus to checks with that skill or the skill you gained training in from taking the class-specific multiclass feat. </p><p>Published in Dragon Magazine 376, page(s) 41. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"IgPtSE8u1DqGamfZ",
+	"_key":"!items!IgPtSE8u1DqGamfZ"
+}

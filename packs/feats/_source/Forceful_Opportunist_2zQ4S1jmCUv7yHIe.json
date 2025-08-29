@@ -1,0 +1,33 @@
+{
+	"name":"Forceful Opportunist",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Fighter, Fighter Weapon Talent class feature </p><p><b>Benefit: </b>Whenever you hit a target with an opportunity attack, you can push the target 1 square and shift into the square the target vacated. </p><p>Published in Dragon Magazine 379, page(s) 62. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"2zQ4S1jmCUv7yHIe",
+	"_key":"!items!2zQ4S1jmCUv7yHIe"
+}

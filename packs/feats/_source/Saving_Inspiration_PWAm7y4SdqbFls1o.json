@@ -1,0 +1,33 @@
+{
+	"name":"Saving Inspiration",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Warlord </p><p><b>Benefit: </b>When you use inspiring word, you can forgo any extra dice of healing granted by the power to instead grant the target a saving throw. </p><p>Published in Martial Power, page(s) 139. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"PWAm7y4SdqbFls1o",
+	"_key":"!items!PWAm7y4SdqbFls1o"
+}

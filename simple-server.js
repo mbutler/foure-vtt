@@ -38,6 +38,55 @@ const db = USE_FIREBASE ? admin.firestore() : null
 app.use(express.json())
 app.use(express.static('public'))
 
+// Serve pack files
+app.use('/packs', express.static('packs'))
+
+// Debug route to test pack file serving
+app.get('/test-pack', (req, res) => {
+  res.json({ 
+    message: 'Pack route working',
+    packsDir: require('fs').existsSync('packs'),
+    powersDir: require('fs').existsSync('packs/powers'),
+    sourceDir: require('fs').existsSync('packs/powers/_source')
+  })
+})
+
+// Get list of all power files for comprehensive search
+app.get('/api/powers/index', (req, res) => {
+  const fs = require('fs')
+  const path = require('path')
+  
+  try {
+    const powersDir = path.join(__dirname, 'packs/powers/_source')
+    const files = fs.readdirSync(powersDir)
+    const powerFiles = files.filter(file => file.endsWith('.json'))
+    
+    // Load basic info from each file to build an index
+    const powerIndex = []
+    powerFiles.forEach(file => {
+      try {
+        const filePath = path.join(powersDir, file)
+        const content = fs.readFileSync(filePath, 'utf8')
+        const powerData = JSON.parse(content)
+        
+        powerIndex.push({
+          fileName: file,
+          name: powerData.name || '',
+          id: powerData._id || '',
+          type: powerData.type || 'power'
+        })
+      } catch (error) {
+        console.warn(`Error reading power file ${file}:`, error.message)
+      }
+    })
+    
+    res.json(powerIndex)
+  } catch (error) {
+    console.error('Error building power index:', error)
+    res.status(500).json({ error: 'Failed to build power index' })
+  }
+})
+
 // Game session management with Firebase sync
 const gameSessions = new Map()
 
@@ -217,6 +266,52 @@ app.post('/api/second-wind', async (req, res) => {
     success: true, 
     gameState: gameState
   })
+})
+
+// Endpoint for using powers
+app.post('/api/use-power', async (req, res) => {
+  const { sessionId = 'default', powerId, targets } = req.body
+  console.log('Use power request:', powerId, 'targets:', targets, 'session:', sessionId)
+  
+  const gameState = getGameState(sessionId)
+  if (!gameState) {
+    return res.status(404).json({ error: 'Game session not found' })
+  }
+  
+  try {
+    // Import powers system
+    const { executePower, EXAMPLE_POWERS } = await import('./src/rules/powers.js')
+    
+    // Find the power
+    const power = EXAMPLE_POWERS[powerId] || Object.values(EXAMPLE_POWERS).find(p => p.id === powerId)
+    
+    if (!power) {
+      return res.status(404).json({ error: 'Power not found' })
+    }
+    
+    // Get current actor
+    const currentActorId = gameState.turn?.order?.[gameState.turn.index]
+    if (!currentActorId) {
+      return res.status(400).json({ error: 'No active actor' })
+    }
+    
+    // Execute the power
+    const result = executePower(gameState, currentActorId, power, targets || [])
+    applyPatches(gameState, result.patches)
+    
+    // Sync to Firestore
+    await syncGameStateToFirestore(sessionId, gameState)
+    
+    console.log('Power used:', powerId, 'by', currentActorId)
+    
+    res.json({ 
+      success: true, 
+      gameState: gameState
+    })
+  } catch (error) {
+    console.error('Use power error:', error)
+    res.status(500).json({ error: 'Failed to use power' })
+  }
 })
 
 // Endpoint to get current game state

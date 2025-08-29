@@ -1,0 +1,33 @@
+{
+	"name":"Far Realm's Blessing [Foulborn Bloodline]",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>21st level, Foulborn Heritage, Psionic Augmentation class feature </p><p><b>Benefit: </b>The first time you become bloodied in an encounter, you regain 1 power point. </p><p>Published in Psionic Power, page(s) 144. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"uMDz7q5ihws89lZL",
+	"_key":"!items!uMDz7q5ihws89lZL"
+}

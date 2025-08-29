@@ -1,0 +1,33 @@
+{
+	"name":"Nomad's Journey (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Whenever you use your blurred step power, you can teleport a number of squares equal to your Dexterity modifier instead of shifting. You must teleport to a square adjacent to the enemy that triggered that power. </p><p>Published in Psionic Power, page(s) 53. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"vU1jrAVlYB9SIiE3",
+	"_key":"!items!vU1jrAVlYB9SIiE3"
+}

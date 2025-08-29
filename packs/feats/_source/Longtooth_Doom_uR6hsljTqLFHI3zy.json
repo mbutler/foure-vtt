@@ -1,0 +1,33 @@
+{
+	"name":"Longtooth Doom",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Longtooth shifter, longtooth shifting racial power, invoker, Covenant of Malediction class feature </p><p><b>Benefit: </b>When you use longtooth shifting, you gain a +2 bonus to damage rolls with invoker attack powers until the end of your next turn. </p><p>Published in Dragon Magazine 387, page(s) 41. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"uR6hsljTqLFHI3zy",
+	"_key":"!items!uR6hsljTqLFHI3zy"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Magnificent Beast (21st level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you use wild shape to change from your humanoid form to beast form, you can change your size to Large. While you are in a Large beast form, you gain a +2 bonus to damage rolls and speed. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"destiny"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"kj9oEXcfyDrTZ8J4",
+	"_key":"!items!kj9oEXcfyDrTZ8J4"
+}

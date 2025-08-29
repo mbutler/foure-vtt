@@ -1,0 +1,33 @@
+{
+	"name":"Fundamental Mastery (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you hit an enemy with an arcane at-will attack power, you deal 3 extra damage of the same type as the at-will power deals. This extra damage increases to 5 at 25th level. </p><p>Published in Dragon Magazine 374, page(s) 22. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"obsawJximOXCTEFg",
+	"_key":"!items!obsawJximOXCTEFg"
+}

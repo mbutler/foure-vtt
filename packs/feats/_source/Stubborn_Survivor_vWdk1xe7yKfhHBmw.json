@@ -1,0 +1,33 @@
+{
+	"name":"Stubborn Survivor",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Human </p><p><b>Benefit: </b>You gain a +2 bonus to saving throws whenever you have no action points remaining. </p><p>Published in Forgotten Realms Player's Guide, page(s) 136. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"vWdk1xe7yKfhHBmw",
+	"_key":"!items!vWdk1xe7yKfhHBmw"
+}

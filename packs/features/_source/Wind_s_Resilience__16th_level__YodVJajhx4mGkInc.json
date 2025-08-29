@@ -1,0 +1,33 @@
+{
+	"name":"Wind's Resilience (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>If an enemy pulls, pushes, or slides an ally within 5 squares of you, you can slide that ally 1 square as a free action after the forced movement. </p><p>Published in Primal Power, page(s) 79. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"YodVJajhx4mGkInc",
+	"_key":"!items!YodVJajhx4mGkInc"
+}

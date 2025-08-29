@@ -1,0 +1,33 @@
+{
+	"name":"Brutal Blades",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Bladeling, razor storm racial power </p><p><b>Benefit: </b>Your unarmed attack gains the off-hand weapon property. </p><p>In addition, the damage dice for your razor storm power increase from d6s to d8s. </p><p>Published in Dragon Magazine 419. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"Dl7UjzZ5gLa0K6tf",
+	"_key":"!items!Dl7UjzZ5gLa0K6tf"
+}

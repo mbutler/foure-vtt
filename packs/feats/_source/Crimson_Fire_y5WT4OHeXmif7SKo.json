@@ -1,0 +1,33 @@
+{
+	"name":"Crimson Fire",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Paladin, warlock, divine challenge power </p><p><b>Benefit: </b>Against a creature marked by your divine challenge and under your Warlock's Curse, you use d10s for your Warlock's Curse damage. </p><p>Published in Dragon Magazine 381, page(s) 86. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"y5WT4OHeXmif7SKo",
+	"_key":"!items!y5WT4OHeXmif7SKo"
+}

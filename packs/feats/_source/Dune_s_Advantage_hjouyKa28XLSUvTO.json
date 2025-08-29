@@ -1,0 +1,33 @@
+{
+	"name":"Dune's Advantage",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Wasteland nomad theme, wasteland fury power </p><p><b>Benefit: </b>When you hit a target granting combat advantage to you with your wasteland fury, the target is dazed until the end of your next turn. </p><p>Published in Dark Sun Campaign Setting, page(s) 107. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"hjouyKa28XLSUvTO",
+	"_key":"!items!hjouyKa28XLSUvTO"
+}

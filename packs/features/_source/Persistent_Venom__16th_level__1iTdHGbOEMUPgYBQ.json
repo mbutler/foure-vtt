@@ -1,0 +1,33 @@
+{
+	"name":"Persistent Venom (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>The poison effect of your Master of Poisons is no longer lost on a miss. Instead the first target hit by the poisoned item suffers the effect. </p><p>Published in Dragon Magazine 379, page(s) 34. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"1iTdHGbOEMUPgYBQ",
+	"_key":"!items!1iTdHGbOEMUPgYBQ"
+}

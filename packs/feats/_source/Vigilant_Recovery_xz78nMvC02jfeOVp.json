@@ -1,0 +1,33 @@
+{
+	"name":"Vigilant Recovery",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Minotaur, Wis 13 </p><p><b>Benefit: </b>When you hit an enemy with an attack, that enemy does not benefit from combat advantage against you until the start of your next turn. </p><p>Published in Dragon Magazine 385, page(s) 22. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"xz78nMvC02jfeOVp",
+	"_key":"!items!xz78nMvC02jfeOVp"
+}

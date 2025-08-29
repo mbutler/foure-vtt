@@ -1,0 +1,33 @@
+{
+	"name":"Breath-Resistant Beast",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Dragonborn, ranger, Beast Mastery class feature </p><p><b>Benefit: </b>Your beast companion gains resist 5 + one-half your level to the damage type of your dragon breath racial power. </p><p>Published in Martial Power, page(s) 132. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"t8YWTpxk72euz1rZ",
+	"_key":"!items!t8YWTpxk72euz1rZ"
+}

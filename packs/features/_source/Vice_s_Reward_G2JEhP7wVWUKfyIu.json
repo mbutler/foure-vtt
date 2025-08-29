@@ -1,0 +1,33 @@
+{
+	"name":"Vice's Reward",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You gain the vice's reward power.</p>\n<p>@UUID[Compendium.dnd-4e-compendium.module-powers.D3zF5wbmWadI6J0l]{Vice's Reward}</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"G2JEhP7wVWUKfyIu",
+	"_key":"!items!G2JEhP7wVWUKfyIu"
+}

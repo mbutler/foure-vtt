@@ -1,0 +1,33 @@
+{
+	"name":"Tiamat",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Type: </b>God </p><p><b>Alignment: </b>Evil </p><p><b>Gender: </b>Female </p><p><b>Sphere: </b>Greed </p><p><b>Dominion: </b>Banehold </p><p><b>Priests: </b>Wyrmkeepers </p><p><b>Adjective: </b>Tiamatan </p><p><b>Domain: </b>Strife, Vengeance </p><p>Tiamat is the evil god of wealth, greed, and envy. She is the patron of chromatic dragons and those whose lust for wealth overrides any other goal or concern. She commands her followers to: </p><p>- Hoard wealth, acquiring much and spending little. Wealth is its own reward. </p><p>- Forgive no slight and leave no wrong unpunished. </p><p>- Take what you desire from others. Those who lack the strength to defend their possessions are not worthy to own them. </p><p>Published in Dungeon Master's Guide, page(s) 163. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"other"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"3bl7UFmILCaiqKJX",
+	"_key":"!items!3bl7UFmILCaiqKJX"
+}

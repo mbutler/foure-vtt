@@ -1,0 +1,33 @@
+{
+	"name":"Adaptable Nature",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Goliath </p><p><b>Benefit: </b>Whenever any creature you can see succeeds on a skill check, you gain a +2 feat bonus to that skill until the end of your next turn. </p><p>Published in Dark Sun Campaign Setting, page(s) 103. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"60txmqaR41BI7yvk",
+	"_key":"!items!60txmqaR41BI7yvk"
+}

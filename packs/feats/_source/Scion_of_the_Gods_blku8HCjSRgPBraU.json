@@ -1,0 +1,33 @@
+{
+	"name":"Scion of the Gods",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Tiefling </p><p><b>Benefit: </b>Gain a +1 feat bonus to your Fortitude and Will defenses. </p><p>Published in Forgotten Realms Player's Guide, page(s) 136. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"blku8HCjSRgPBraU",
+	"_key":"!items!blku8HCjSRgPBraU"
+}

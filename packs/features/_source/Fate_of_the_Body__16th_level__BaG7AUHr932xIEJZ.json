@@ -1,0 +1,33 @@
+{
+	"name":"Fate of the Body (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>As a free action during your turn, you can expend your Fate of the Void bonus to gain an equivalent bonus to speed or to one defense until the end of your next turn. </p><p>Published in Arcane Power, page(s) 93. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"BaG7AUHr932xIEJZ",
+	"_key":"!items!BaG7AUHr932xIEJZ"
+}

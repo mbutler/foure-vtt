@@ -1,0 +1,33 @@
+{
+	"name":"Quick Familiar [Familiar]",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Arcane Familiar </p><p><b>Benefit: </b>Once per turn, you can move your familiar with a minor action instead of a move action. </p><p>Published in Dragon Magazine 374, page(s) 32. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"S8zXiEhB6y5GqJDH",
+	"_key":"!items!S8zXiEhB6y5GqJDH"
+}

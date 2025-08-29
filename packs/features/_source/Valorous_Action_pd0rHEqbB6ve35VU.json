@@ -1,0 +1,33 @@
+{
+	"name":"Valorous Action",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you spend an action point to take an extra action, you also gain a +2 power bonus to attack rolls until the end of your next turn. If at least one bloodied ally is within 5 squares of you when you spend the action point, the bonus increases to +4. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"pd0rHEqbB6ve35VU",
+	"_key":"!items!pd0rHEqbB6ve35VU"
+}

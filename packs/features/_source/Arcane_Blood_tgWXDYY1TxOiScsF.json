@@ -1,0 +1,29 @@
+{
+	"name":"Arcane Blood",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>The essence of your draconic forebears surges through your veins. Born to a legacy of arcane might, you have learned to augment your spells with this gift.<br>&nbsp;&nbsp;&nbsp;&nbsp;<em>Benefits:&nbsp;</em>You gain a +1 racial bonus to the damage rolls of your arcane attack powers. This bonus increases to +2 at 11th level and +3 at 21st level. This benefit replaces Dragonborn Fury.</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"featureType":"race"
+	},
+	"effects":[],
+	"flags":{},
+	"folder":null,
+	"sort":0,
+	"_id":"tgWXDYY1TxOiScsF",
+	"_key":"!items!tgWXDYY1TxOiScsF"
+}

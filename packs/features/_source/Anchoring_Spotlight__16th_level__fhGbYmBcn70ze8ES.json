@@ -1,0 +1,33 @@
+{
+	"name":"Anchoring Spotlight (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you hit an enemy with a ranged basic attack, that enemy cannot willingly teleport until the end of your next turn. </p><p>Published in Dragon Magazine 413. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"fhGbYmBcn70ze8ES",
+	"_key":"!items!fhGbYmBcn70ze8ES"
+}

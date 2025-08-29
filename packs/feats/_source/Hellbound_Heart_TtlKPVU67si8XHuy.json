@@ -1,0 +1,33 @@
+{
+	"name":"Hellbound Heart",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Warlock, Infernal Pact </p><p><b>Benefit: </b>Whenever you spend a healing surge, you gain resist fire equal to 5 + one-half your level and a +2 bonus to your next saving throw before the end of your next turn. If you already have fire resistance, you can instead increase that resistance by 5 until the end of your next turn. </p><p>Published in Dragon Magazine 382, page(s) 52. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"TtlKPVU67si8XHuy",
+	"_key":"!items!TtlKPVU67si8XHuy"
+}

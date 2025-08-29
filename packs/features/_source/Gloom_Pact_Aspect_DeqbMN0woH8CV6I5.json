@@ -1,0 +1,33 @@
+{
+	"name":"Gloom Pact Aspect",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You gain resist 10 necrotic and a +2 bonus to Stealth checks. If you already have necrotic resistance that is equal to or higher than the resistance granted by this feature, that resistance instead increases by 5. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"DeqbMN0woH8CV6I5",
+	"_key":"!items!DeqbMN0woH8CV6I5"
+}

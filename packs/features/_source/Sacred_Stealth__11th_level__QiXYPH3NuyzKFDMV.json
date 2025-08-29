@@ -1,0 +1,33 @@
+{
+	"name":"Sacred Stealth (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you spend an action point to take an extra action, after that action is resolved you can move your speed and make a Stealth check to hide from your target (provided you have superior cover or total concealment from that target when you end your movement). </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"QiXYPH3NuyzKFDMV",
+	"_key":"!items!QiXYPH3NuyzKFDMV"
+}

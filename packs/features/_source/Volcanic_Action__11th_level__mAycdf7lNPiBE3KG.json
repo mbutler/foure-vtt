@@ -1,0 +1,33 @@
+{
+	"name":"Volcanic Action (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you spend an action point to take an extra action, choose fire or thunder. You deal extra damage of that type with your next attack before the end of your next turn. This damage is equal to one-half your level. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"mAycdf7lNPiBE3KG",
+	"_key":"!items!mAycdf7lNPiBE3KG"
+}

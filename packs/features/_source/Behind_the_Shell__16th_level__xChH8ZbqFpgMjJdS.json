@@ -1,0 +1,33 @@
+{
+	"name":"Behind the Shell (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you are in the way of a ranged attack against an ally, that ally has superior cover from your position instead of normal cover. </p><p>Published in Dragon Magazine 385, page(s) 44. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"xChH8ZbqFpgMjJdS",
+	"_key":"!items!xChH8ZbqFpgMjJdS"
+}

@@ -1,0 +1,29 @@
+{
+	"name":"Cast-Iron Mind",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Gold dwarves have developed a resistance to protect against the depredations of aberrant creatures from the Underdark.<br>&nbsp;&nbsp;&nbsp;&nbsp;<em>Benefits:&nbsp;</em>You have a +5 racial bonus to saving throws against ongoing psychic damage. This benefit replaces Cast-Iron Stomach.</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"featureType":"race"
+	},
+	"effects":[],
+	"flags":{},
+	"folder":null,
+	"sort":0,
+	"_id":"sEvlog9u1zHOuCBp",
+	"_key":"!items!sEvlog9u1zHOuCBp"
+}

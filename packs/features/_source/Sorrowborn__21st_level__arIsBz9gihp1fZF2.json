@@ -1,0 +1,33 @@
+{
+	"name":"Sorrowborn (21st level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You gain a +2 bonus to Constitution, a +2 bonus to Dexterity, and a +2 bonus to speed. </p><p>If your origin is not already shadow, your origin changes to shadow, and henceforth you are considered a shadow creature for the purpose of effects that relate to creature origin. </p><p>You also gain darkvision if you do not already have darkvision. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"destiny"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"arIsBz9gihp1fZF2",
+	"_key":"!items!arIsBz9gihp1fZF2"
+}

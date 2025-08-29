@@ -1,0 +1,33 @@
+{
+	"name":"Sorcerous Flux",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>21st level, sorcerer </p><p><b>Benefit: </b>When you attack at least two enemies with a sorcerer power, you can swap the attack rolls against two of the targets after you make all the attack rolls for that power. </p><p>Published in Player's Handbook 2, page(s) 194. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"Vh3wuLM9lWnKXsD5",
+	"_key":"!items!Vh3wuLM9lWnKXsD5"
+}

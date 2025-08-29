@@ -1,0 +1,33 @@
+{
+	"name":"Canny Defense (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>While wearing light armor and not using a shield, you gain a +2 bonus to AC and Reflex. You gain a bonus to your initiative checks equal to your Wisdom modifier. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"RnNzWOJU5MVqS73x",
+	"_key":"!items!RnNzWOJU5MVqS73x"
+}

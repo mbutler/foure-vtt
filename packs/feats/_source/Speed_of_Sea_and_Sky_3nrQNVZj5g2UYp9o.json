@@ -1,0 +1,33 @@
+{
+	"name":"Speed of Sea and Sky",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Genasi, warlord, swiftcurrent or windwalker </p><p><b>Benefit: </b>When you use your swiftcurrent or windwalker racial power, each ally within 5 squares of you gains a +2 bonus to speed until the end of your next turn. </p><p>Published in Martial Power 2, page(s) 139. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"3nrQNVZj5g2UYp9o",
+	"_key":"!items!3nrQNVZj5g2UYp9o"
+}

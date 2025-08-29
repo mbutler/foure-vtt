@@ -1,0 +1,33 @@
+{
+	"name":"Storm Fury (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you first become bloodied in an encounter, you unleash a burst of arcane energy that deals 5 + your Wisdom modifier lightning damage to each enemy within 10 squares of you. </p><p>Published in Player's Handbook, page(s) 170, Class Compendium. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"Y8TwGPauKhflsXoR",
+	"_key":"!items!Y8TwGPauKhflsXoR"
+}

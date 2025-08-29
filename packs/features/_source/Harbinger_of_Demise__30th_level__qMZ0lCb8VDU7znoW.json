@@ -1,0 +1,33 @@
+{
+	"name":"Harbinger of Demise (30th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Enemies that end their turn adjacent to you and have 25 hit points or fewer die. </p><p>Published in Divine Power, page(s) 145. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"destiny"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"qMZ0lCb8VDU7znoW",
+	"_key":"!items!qMZ0lCb8VDU7znoW"
+}

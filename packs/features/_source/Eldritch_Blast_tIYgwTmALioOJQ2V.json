@@ -1,0 +1,33 @@
+{
+	"name":"Eldritch Blast",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>All warlocks know the eldritch blast at-will power. This power can be used as a basic attack. You gain this power as well as another at-will power as determined by your Eldritch Pact.</p>\n<p>@UUID[Compendium.dnd-4e-compendium.module-powers.qa8tLSbNn5OxXRvZ]{Eldritch Blast}</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"tIYgwTmALioOJQ2V",
+	"_key":"!items!tIYgwTmALioOJQ2V"
+}

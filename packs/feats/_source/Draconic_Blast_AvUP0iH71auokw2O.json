@@ -1,0 +1,33 @@
+{
+	"name":"Draconic Blast",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Dragonborn, dragon breath racial power, eldritch blast power </p><p><b>Benefit: </b>You can choose to make your eldritch blast deal the same damage type as your dragon breath. </p><p>Published in Player's Handbook Races: Dragonborn, page(s) 22. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"AvUP0iH71auokw2O",
+	"_key":"!items!AvUP0iH71auokw2O"
+}

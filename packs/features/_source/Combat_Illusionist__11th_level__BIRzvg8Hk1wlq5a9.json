@@ -1,0 +1,33 @@
+{
+	"name":"Combat Illusionist (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You gain one arcane illusion encounter attack power of 7th level or lower from any class of your choice. You cannot choose a power you already know. At 21st level, you can replace this power with an arcane illusion encounter attack power of 13th level or lower from any class of your choice. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"BIRzvg8Hk1wlq5a9",
+	"_key":"!items!BIRzvg8Hk1wlq5a9"
+}

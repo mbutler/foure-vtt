@@ -1,0 +1,33 @@
+{
+	"name":"Archetype's Edge (21st level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You gain a 17th-level encounter attack power from any martial class. Also, whenever you score a critical hit, you regain the use of a martial encounter attack power you have used during this encounter. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"destiny"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"xLA7lwhyWaNZuMIR",
+	"_key":"!items!xLA7lwhyWaNZuMIR"
+}

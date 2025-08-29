@@ -1,0 +1,33 @@
+{
+	"name":"Escaped Thrall Level 5 Feature (5th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Add Deep Speech to the languages you can speak, read, and write. You also gain a +2 power bonus to Dungeoneering checks.<br></p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"theme"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"X6FIg4VNiPu9Q1e0",
+	"_key":"!items!X6FIg4VNiPu9Q1e0"
+}

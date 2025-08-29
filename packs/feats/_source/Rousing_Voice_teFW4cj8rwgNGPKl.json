@@ -1,0 +1,33 @@
+{
+	"name":"Rousing Voice",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Human, bard </p><p><b>Benefit: </b>When an ally within 10 squares of you uses second wind, he or she gains also temporary hit points equal to your Charisma modifier. </p><p>Published in Arcane Power, page(s) 129. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"teFW4cj8rwgNGPKl",
+	"_key":"!items!teFW4cj8rwgNGPKl"
+}

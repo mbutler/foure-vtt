@@ -1,0 +1,33 @@
+{
+	"name":"Draconian Defilement (21st level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you use arcane defiling, your reroll gains a +2 power bonus to the attack roll or a +6 power bonus to the damage roll. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"destiny"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"euwDI7vT1H3lzgUB",
+	"_key":"!items!euwDI7vT1H3lzgUB"
+}

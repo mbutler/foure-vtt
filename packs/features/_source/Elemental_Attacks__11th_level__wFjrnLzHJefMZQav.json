@@ -1,0 +1,33 @@
+{
+	"name":"Elemental Attacks (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Your elemental tempest attack powers deal a type of damage based on your current elemental manifestations. The earthsoul manifestation deals force damage, firesoul deals fire damage, stormsoul deals lightning damage, watersoul deals acid damage, and windsoul deals cold damage. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"wFjrnLzHJefMZQav",
+	"_key":"!items!wFjrnLzHJefMZQav"
+}

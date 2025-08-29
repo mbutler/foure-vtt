@@ -1,0 +1,33 @@
+{
+	"name":"Winter's Reach",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Winterkin Heritage </p><p><b>Benefit: </b>When you use winter's shroud, increase the distance you teleport by a number of squares equal to your Dexterity modifier or your Intelligence modifier. </p><p>Published in Dragon Magazine 384, page(s) 64. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"9apRxFf0X24qPJzv",
+	"_key":"!items!9apRxFf0X24qPJzv"
+}

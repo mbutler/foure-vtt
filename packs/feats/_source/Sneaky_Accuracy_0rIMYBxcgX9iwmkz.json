@@ -1,0 +1,33 @@
+{
+	"name":"Sneaky Accuracy",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Elf, rogue, Sneak Attack class feature </p><p><b>Benefit: </b>If you use your elven accuracy racial power to reroll an attack against an enemy granting you combat advantage and the second roll misses, you do not expend elven accuracy. </p><p>Published in Martial Power, page(s) 139. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"0rIMYBxcgX9iwmkz",
+	"_key":"!items!0rIMYBxcgX9iwmkz"
+}

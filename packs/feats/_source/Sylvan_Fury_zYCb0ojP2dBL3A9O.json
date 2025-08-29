@@ -1,0 +1,33 @@
+{
+	"name":"Sylvan Fury",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Elf, warden, Nature's Wrath class feature </p><p><b>Benefit: </b>Whenever you use your Nature's Wrath class feature, you can shift 1 square, swapping positions with one enemy adjacent to you that is marked by you. </p><p>Published in Dragon Magazine 392. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"zYCb0ojP2dBL3A9O",
+	"_key":"!items!zYCb0ojP2dBL3A9O"
+}

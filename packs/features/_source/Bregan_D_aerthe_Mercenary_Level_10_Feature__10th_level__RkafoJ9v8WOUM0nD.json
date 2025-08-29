@@ -1,0 +1,33 @@
+{
+	"name":"Bregan D'aerthe Mercenary Level 10 Feature (10th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You can use the Bluff skill to feint in combat as a minor action instead of a standard action. Also, while under the effect of your uncertain loyalties power, a creature grants you cover and helps you flank as though it were an ally.</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"theme"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"RkafoJ9v8WOUM0nD",
+	"_key":"!items!RkafoJ9v8WOUM0nD"
+}

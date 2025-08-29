@@ -1,0 +1,33 @@
+{
+	"name":"Paragon of the Wastes",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>The first time each encounter that you or your living zephyr companion becomes bloodied, you can use an immediate reaction to become insubstantial and shift up to 5 squares. You are insubstantial until the start of your next turn. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"l7vI4miCdYP23KUH",
+	"_key":"!items!l7vI4miCdYP23KUH"
+}

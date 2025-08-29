@@ -1,0 +1,33 @@
+{
+	"name":"Shapeshifting Contortionist",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Changeling </p><p><b>Benefit: </b>You can use the escape action as a minor action instead of a move action. </p><p>In addition, you do not grant combat advantage or take a penalty to attack rolls while squeezing. </p><p>Update (11/23/2009) </p><p>In the feat's Prerequisite column, replace \"Doppelganger\" with \"Changeling.\" </p><p>Published in Eberron Player's Guide, page(s) 92. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"Xz8TO4uKCZVLUge6",
+	"_key":"!items!Xz8TO4uKCZVLUge6"
+}

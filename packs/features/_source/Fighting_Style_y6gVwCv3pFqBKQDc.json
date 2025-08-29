@@ -1,0 +1,52 @@
+{
+	"name":"Fighting Style",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Choose one of the following fighting styles and gain its benefit: Archer Fighting Style, Beast Mastery, Two-Blade Fighting Style, Marauder Fighting Style, Hunter Fighting Style.</p>\n<p>@UUID[Compendium.dnd-4e-compendium.module-features.9pYXBvrFWLA04bIZ]{Archer Fighting Style}@UUID[Compendium.dnd-4e-compendium.module-features.K9U5w4yeZLYOdqoM]{Beast Mastery}@UUID[Compendium.dnd-4e-compendium.module-features.aAmHiwBjhTq1W8Pe]{Hunter Fighting Style}@UUID[Compendium.dnd-4e-compendium.module-features.x4HSVaf1voITNF30]{Marauder Fighting Style}@UUID[Compendium.dnd-4e-compendium.module-features.YzP148K5bI2dX9tB]{Two-Blade Fighting Style}</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"descriptionGM":{
+			"value":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":"",
+			"autoanimationHook":""
+		},
+		"class":"",
+		"hitFistLevel":10,
+		"hitPerLevel":5,
+		"surgePerDay":5,
+		"skills":"<i class=\"fas fa-edit\"></i>",
+		"def":{
+			"ac":0,
+			"fort":0,
+			"ref":0,
+			"wil":0
+		},
+		"proficiencies":{
+			"weapons":[],
+			"armour":[]
+		},
+		"requirements":"",
+		"level":null,
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"y6gVwCv3pFqBKQDc",
+	"_key":"!items!y6gVwCv3pFqBKQDc"
+}

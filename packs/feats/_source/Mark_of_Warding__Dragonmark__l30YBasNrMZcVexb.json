@@ -1,0 +1,33 @@
+{
+	"name":"Mark of Warding [Dragonmark]",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Benefit: </b>Whenever one of your powers grants a bonus to a defense, increase that bonus by 1. </p><p>Whenever you mark an enemy, that enemy takes a -3 penalty to attack rolls for attacks that don't target you instead of the normal -2 penalty. </p><p>You can master and perform rituals in the warding category and the Fluid Funds, Knock, and Leomund's Secret Chest rituals as if you had the Ritual Caster feat. </p><p>Published in Eberron Player's Guide, page(s) 92. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"l30YBasNrMZcVexb",
+	"_key":"!items!l30YBasNrMZcVexb"
+}

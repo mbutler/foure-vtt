@@ -1,0 +1,33 @@
+{
+	"name":"Purging Spirit",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>21st level, shaman, healing spirit power </p><p><b>Benefit: </b>When you use healing spirit, each ally adjacent to your spirit companion can make a saving throw. </p><p>Published in Primal Power, page(s) 147. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"vp4KaXW8qmAIfscP",
+	"_key":"!items!vp4KaXW8qmAIfscP"
+}

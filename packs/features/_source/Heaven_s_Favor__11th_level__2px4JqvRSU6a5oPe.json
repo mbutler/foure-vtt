@@ -1,0 +1,33 @@
+{
+	"name":"Heaven's Favor (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Choose one divine class corresponding to a multiclass feat you possess. You gain the class's Channel Divinity feature and all powers associated with that feature. </p><p>In addition, you may use bard implements with any prayers associated with this class that have the implement keyword. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"2px4JqvRSU6a5oPe",
+	"_key":"!items!2px4JqvRSU6a5oPe"
+}

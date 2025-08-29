@@ -1,0 +1,33 @@
+{
+	"name":"Expanded Excision",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Veiled Alliance theme, excise from sight power </p><p><b>Benefit: </b>When you hit with your excise from sight, any character who becomes invisible as a result of the power's effect is also invisible to each enemy adjacent to the target. This invisibility lasts until the end of your next turn. </p><p>Published in Dark Sun Campaign Setting, page(s) 107. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"HjLME1Y57verKqDA",
+	"_key":"!items!HjLME1Y57verKqDA"
+}

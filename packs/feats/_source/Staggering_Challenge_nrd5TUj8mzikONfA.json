@@ -1,0 +1,33 @@
+{
+	"name":"Staggering Challenge",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>11th level, fighter, Combat Challenge class feature </p><p><b>Benefit: </b>When you hit an enemy with a melee basic attack granted by Combat Challenge while you are using a shield, you can knock the target prone instead of dealing damage with the attack. </p><p>Published in Dragon Magazine 378. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"nrd5TUj8mzikONfA",
+	"_key":"!items!nrd5TUj8mzikONfA"
+}

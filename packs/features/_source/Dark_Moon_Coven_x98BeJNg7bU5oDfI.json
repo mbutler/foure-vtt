@@ -1,0 +1,33 @@
+{
+	"name":"Dark Moon Coven",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You gain the dread presence power. </p><p>In addition, you gain training in the Intimidate skill. At level 5, you gain a +2 bonus to Intimidate checks and Stealth checks. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"x98BeJNg7bU5oDfI",
+	"_key":"!items!x98BeJNg7bU5oDfI"
+}

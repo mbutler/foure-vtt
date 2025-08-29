@@ -1,0 +1,33 @@
+{
+	"name":"Flexible Covenant",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Changeling, invoker, Divine Covenant class feature </p><p><b>Benefit: </b>After each extended rest, replace your covenant manifestation with the covenant manifestation from any Divine Covenant of your choice. You gain this covenant manifestation until the end of your next extended rest. </p><p>Published in Dragon Magazine 387, page(s) 41. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"EoqDyM6UeKAHfGtO",
+	"_key":"!items!EoqDyM6UeKAHfGtO"
+}

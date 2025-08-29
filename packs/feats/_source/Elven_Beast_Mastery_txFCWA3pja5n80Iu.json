@@ -1,0 +1,33 @@
+{
+	"name":"Elven Beast Mastery",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Elf, ranger, Beast Mastery class feature </p><p><b>Benefit: </b>Your beast companion ignores difficult terrain when it shifts. </p><p>You can use your elven accuracy racial power to reroll an attack roll you made or one your beast companion made. </p><p>Published in Martial Power, page(s) 135. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"txFCWA3pja5n80Iu",
+	"_key":"!items!txFCWA3pja5n80Iu"
+}

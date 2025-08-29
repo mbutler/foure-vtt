@@ -1,0 +1,33 @@
+{
+	"name":"Shattering Fists (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Your monk unarmed strike and stone fist flurry of blows both deal 2 extra damage. In addition, your monk unarmed strike gains a bonus to damage rolls against objects and creatures that have the construct keyword. The bonus equals your Strength modifier. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"I0ovKLuze3PJ8Cqb",
+	"_key":"!items!I0ovKLuze3PJ8Cqb"
+}

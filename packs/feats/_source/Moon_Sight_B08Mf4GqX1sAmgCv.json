@@ -1,0 +1,33 @@
+{
+	"name":"Moon Sight",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Bard, Virtue of Prescience class feature, must worship Sehanine </p><p><b>Benefit: </b>When you use your Virtue of Prescience, the triggering enemy takes psychic damage equal to your Wisdom modifier. </p><p>Published in Dragon Magazine 386, page(s) 69. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"B08Mf4GqX1sAmgCv",
+	"_key":"!items!B08Mf4GqX1sAmgCv"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Alien Summoning (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Creatures you summon are tainted by the Far Realm and gain a +2 bonus to all defenses and deal 5 extra psychic damage with their attacks. They grant combat advantage to enemies that are immune to fear. </p><p>Published in Psionic Power, page(s) 100. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"UEKhq5AtxQcrS8Tw",
+	"_key":"!items!UEKhq5AtxQcrS8Tw"
+}

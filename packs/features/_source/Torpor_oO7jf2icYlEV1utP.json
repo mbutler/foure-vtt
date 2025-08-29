@@ -1,0 +1,33 @@
+{
+	"name":"Torpor",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Rather than sleep, thri-kreen enter a torpid state. In this state, you remain aware of your surroundings, and you require only 4 hours of torpor (rather than 6 hours of sleep) to gain the benefit of an extended rest.</p>\n<p>&nbsp;</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"race"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"oO7jf2icYlEV1utP",
+	"_key":"!items!oO7jf2icYlEV1utP"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Blood Fury",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>While you're bloodied, you gain a +2 bonus to damage rolls. This increases to a +4 bonus at 21st level.</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"race"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"HKUMCcRna0JWTNs3",
+	"_key":"!items!HKUMCcRna0JWTNs3"
+}

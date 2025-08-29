@@ -1,0 +1,33 @@
+{
+	"name":"Elven Precision",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Elf, elven accuracy racial power </p><p><b>Benefit: </b>When you use the elven accuracy power, you gain a +2 bonus to the new attack roll. </p><p>Published in Player's Handbook, page(s) 194. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"Kah3GqklyIdcSp2X",
+	"_key":"!items!Kah3GqklyIdcSp2X"
+}

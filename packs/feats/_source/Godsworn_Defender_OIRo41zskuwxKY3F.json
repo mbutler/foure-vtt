@@ -1,0 +1,33 @@
+{
+	"name":"Godsworn Defender",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Avenger, must worship Bahamut </p><p><b>Benefit: </b>You gain a +2 feat bonus to Religion checks. In addition, whenever you score a critical hit, one ally you can see gains a +2 bonus to all defenses until the end of your next turn as a godsworn boon. You can benefit from only one godsworn boon as a result of any given critical hit. </p><p>Published in Dragon Magazine 384, page(s) 42. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"OIRo41zskuwxKY3F",
+	"_key":"!items!OIRo41zskuwxKY3F"
+}

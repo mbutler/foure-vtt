@@ -1,0 +1,33 @@
+{
+	"name":"Gift of Life (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you restore hit points to a bloodied target by using a divine healing power, the target regains 1d6 additional hit points. </p><p>Published in Divine Power, page(s) 48. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"AXTuUSe1t4BgmDn9",
+	"_key":"!items!AXTuUSe1t4BgmDn9"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Energy Essence (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>If you hit with an arcane attack power that deals more than one type of damage, you deal 1d6 extra damage. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"UXl5L6ZwP8Q7nRdx",
+	"_key":"!items!UXl5L6ZwP8Q7nRdx"
+}

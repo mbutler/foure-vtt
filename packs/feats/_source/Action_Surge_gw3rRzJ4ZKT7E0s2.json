@@ -1,0 +1,33 @@
+{
+	"name":"Action Surge",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Human </p><p><b>Benefit: </b>You gain a +3 bonus to attack rolls you make during any action you gain by spending an action point. </p><p>Revision (7/28/2008) </p><p>Replace \"gained\" with \"gain\" in Benefits line. </p><p>Published in Player's Handbook, page(s) 193. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"gw3rRzJ4ZKT7E0s2",
+	"_key":"!items!gw3rRzJ4ZKT7E0s2"
+}

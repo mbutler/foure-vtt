@@ -1,0 +1,33 @@
+{
+	"name":"Child of Wind",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Born of the Elements feat </p><p><b>Benefit: </b>Whenever you charge or run and are not wearing heavy armor, you ignore difficult terrain. </p><p>Published in Heroes of the Elemental Chaos, page(s) 143. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"5cM0lbPYmrTGKO9H",
+	"_key":"!items!5cM0lbPYmrTGKO9H"
+}

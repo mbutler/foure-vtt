@@ -1,0 +1,33 @@
+{
+	"name":"Sentinel's Action (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you spend an action point to take an extra action, you or one ally within 5 squares of you can shift up to his or her speed as a free action before or after you take the extra action. During the move, the character ignores difficult terrain. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"UYg1ymnPsF5QBOx3",
+	"_key":"!items!UYg1ymnPsF5QBOx3"
+}

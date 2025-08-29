@@ -1,0 +1,33 @@
+{
+	"name":"Nature's Wrath",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Once during each of your turns, you can mark each adjacent enemy as a free action. This mark lasts until the end of your next turn.</p>\n<p>In addition, you gain the warden's fury and warden's grasp powers. You can use these powers against enemies to prevent them from harming those you protect.</p>\n<p>@UUID[Compendium.dnd-4e-compendium.module-powers.jhLfG4XprlgHaEON]{Warden's Fury}@UUID[Compendium.dnd-4e-compendium.module-powers.CTKAOc7ah54Ul2Vr]{Warden's Grasp}</p>\n<p>Published in Player's Handbook 2, page(s) 152.</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"vQzDVBS3PwGx6aeb",
+	"_key":"!items!vQzDVBS3PwGx6aeb"
+}

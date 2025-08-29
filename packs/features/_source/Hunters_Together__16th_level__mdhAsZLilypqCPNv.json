@@ -1,0 +1,33 @@
+{
+	"name":"Hunters Together (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>The first time you hit an enemy each round, choose one ally. The next ranged attack that ally makes against that enemy before the end of your next turn gains a bonus to the damage roll equal to your Constitution modifier. </p><p>Published in Primal Power, page(s) 110. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"mdhAsZLilypqCPNv",
+	"_key":"!items!mdhAsZLilypqCPNv"
+}

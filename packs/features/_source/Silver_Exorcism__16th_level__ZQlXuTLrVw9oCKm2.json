@@ -1,0 +1,33 @@
+{
+	"name":"Silver Exorcism (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you attack a demon, a devil, a shapechanger, or an undead using a fire or radiant power, you can reroll any damage die roll of 1 or 2. </p><p>Published in Eberron Player's Guide, page(s) 62. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"ZQlXuTLrVw9oCKm2",
+	"_key":"!items!ZQlXuTLrVw9oCKm2"
+}

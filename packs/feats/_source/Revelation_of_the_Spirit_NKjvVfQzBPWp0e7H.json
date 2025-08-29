@@ -1,0 +1,33 @@
+{
+	"name":"Revelation of the Spirit",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>11th level, shaman, Watcher Spirit class feature </p><p><b>Benefit: </b>Enemies hit by your shaman spirit attacks cannot benefit from cover or concealment (though they still benefit from superior cover or total concealment) until the start of your next turn. </p><p>Published in Dragon Magazine 387, page(s) 14. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"NKjvVfQzBPWp0e7H",
+	"_key":"!items!NKjvVfQzBPWp0e7H"
+}

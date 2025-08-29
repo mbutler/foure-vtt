@@ -1,0 +1,33 @@
+{
+	"name":"Painful Wounds (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you make an attack that deals ongoing damage, the target of the attack also takes a -2 penalty to saving throws against that ongoing damage. </p><p>Published in Dark Sun Campaign Setting, page(s) 53. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"hDRKyqQvVOMCfmbI",
+	"_key":"!items!hDRKyqQvVOMCfmbI"
+}

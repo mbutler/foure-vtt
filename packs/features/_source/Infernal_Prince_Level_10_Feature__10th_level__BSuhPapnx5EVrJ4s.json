@@ -1,0 +1,33 @@
+{
+	"name":"Infernal Prince Level 10 Feature (10th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>The first time you become bloodied each encounter, you regain the use of hellfire heart. If you then use hellfire heart on the creature that bloodied you, the power deals 5 extra fire damage.</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"theme"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"BSuhPapnx5EVrJ4s",
+	"_key":"!items!BSuhPapnx5EVrJ4s"
+}

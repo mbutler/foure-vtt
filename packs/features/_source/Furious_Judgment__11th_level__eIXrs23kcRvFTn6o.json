@@ -1,0 +1,33 @@
+{
+	"name":"Furious Judgment (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Whenever an enemy moves away from you willingly, instead of gaining the bonus to damage rolls from Censure of Pursuit you can choose to regain the use of your furious assault racial power. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"eIXrs23kcRvFTn6o",
+	"_key":"!items!eIXrs23kcRvFTn6o"
+}

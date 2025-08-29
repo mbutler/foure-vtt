@@ -1,0 +1,33 @@
+{
+	"name":"Marked Fortunes",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Githzerai, defender role </p><p><b>Benefit: </b>When you use Shifting Fortunes to shift, you can mark each enemy adjacent to you at the end of your shift. </p><p>Published in Dragon Magazine 378. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"r8o0IQBwdyvOx7Vk",
+	"_key":"!items!r8o0IQBwdyvOx7Vk"
+}

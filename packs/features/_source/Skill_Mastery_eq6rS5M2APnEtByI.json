@@ -1,0 +1,33 @@
+{
+	"name":"Skill Mastery",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You gain an additional trained skill, chosen from the following list: Bluff, Dungeoneering, Insight, Intimidate, Perception, and Streetwise.</p>\n<p>Also, during a skill challenge, whenever you roll a natural 20 on a skill check that would contribute one or more successes to the skill challenge, that check automatically succeeds and counts as one additional success.</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"eq6rS5M2APnEtByI",
+	"_key":"!items!eq6rS5M2APnEtByI"
+}

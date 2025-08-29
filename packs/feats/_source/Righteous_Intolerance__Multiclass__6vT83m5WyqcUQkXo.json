@@ -1,0 +1,33 @@
+{
+	"name":"Righteous Intolerance [Multiclass]",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>10th level, Platinum Revelation </p><p><b>Benefit: </b>You can swap one 9th-level or higher daily attack power you know for the righteous intolerance attack power. </p><p>Published in Dragon Magazine 378. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"6vT83m5WyqcUQkXo",
+	"_key":"!items!6vT83m5WyqcUQkXo"
+}

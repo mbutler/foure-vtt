@@ -1,0 +1,33 @@
+{
+	"name":"Shadow Defense (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You gain resist necrotic equal to 5 + one-half your level. </p><p>When you use any swordmage aegis power, this resist value increases by 10, and your melee basic attacks deal 5 extra necrotic damage. These benefits last until the end of your next turn. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"ZoIQd2UOEV0YaTtW",
+	"_key":"!items!ZoIQd2UOEV0YaTtW"
+}

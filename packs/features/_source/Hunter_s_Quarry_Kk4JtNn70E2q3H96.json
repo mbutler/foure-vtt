@@ -1,0 +1,33 @@
+{
+	"name":"Hunter's Quarry",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Once per turn, you can use your Hunter's Quarry power.</p>\n<p>@UUID[Compendium.dnd-4e-compendium.module-powers.0bLNjWvmzzY0djt3]{Hunter's Quarry}</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"Kk4JtNn70E2q3H96",
+	"_key":"!items!Kk4JtNn70E2q3H96"
+}

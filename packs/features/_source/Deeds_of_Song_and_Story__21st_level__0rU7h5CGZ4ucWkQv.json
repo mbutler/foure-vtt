@@ -1,0 +1,33 @@
+{
+	"name":"Deeds of Song and Story (21st level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Your talents have inspired legends. Three times per day, as a free action, you can forgo rolling for success on a skill check, and instead treat the check as if you rolled a 20. You must use this ability before attempting the check. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"destiny"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"0rU7h5CGZ4ucWkQv",
+	"_key":"!items!0rU7h5CGZ4ucWkQv"
+}

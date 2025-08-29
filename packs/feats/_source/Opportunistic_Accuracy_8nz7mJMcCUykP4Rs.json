@@ -1,0 +1,33 @@
+{
+	"name":"Opportunistic Accuracy",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Wis 13, elf, fighter </p><p><b>Benefit: </b>If you use your elven accuracy racial power to reroll an opportunity attack and the second roll misses, you do not expend the power. </p><p>Published in Martial Power, page(s) 138. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"8nz7mJMcCUykP4Rs",
+	"_key":"!items!8nz7mJMcCUykP4Rs"
+}

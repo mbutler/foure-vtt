@@ -1,0 +1,33 @@
+{
+	"name":"Thought Warning",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Kalashtar, Telepathy racial trait, battlemind </p><p><b>Benefit: </b>The first time you drop to 0 power points during an encounter, you and each ally within range of your telepathy can shift 1 square as a free action. </p><p>Published in Psionic Power, page(s) 135. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"bZVk1ANoFUwvRMm2",
+	"_key":"!items!bZVk1ANoFUwvRMm2"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Helpful Hint",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Halfling, psion, send thoughts power </p><p><b>Benefit: </b>Whenever an ally you can see within 20 squares of you fails a saving throw, you can expend your send thoughts as a free action to allow the ally to reroll the saving throw. </p><p>Published in Psionic Power, page(s) 131. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"Ed3M5FkZiXfPmltK",
+	"_key":"!items!Ed3M5FkZiXfPmltK"
+}

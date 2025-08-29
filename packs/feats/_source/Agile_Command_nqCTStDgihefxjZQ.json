@@ -1,0 +1,33 @@
+{
+	"name":"Agile Command",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>11th level, Int 15, warlord, Skirmishing Presence class feature </p><p><b>Benefit: </b>Any ally who starts his or her turn adjacent to you gains a +2 feat bonus to AC and Reflex against opportunity attacks until the end of his or her turn. </p><p>Published in Martial Power 2, page(s) 141. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"nqCTStDgihefxjZQ",
+	"_key":"!items!nqCTStDgihefxjZQ"
+}

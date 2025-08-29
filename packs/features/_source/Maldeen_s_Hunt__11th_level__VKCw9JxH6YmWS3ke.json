@@ -1,0 +1,33 @@
+{
+	"name":"Maldeen's Hunt (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You gain a +5 bonus to Perception checks to track creatures, and you and your allies can cover 5 miles an hour overland. When you end your movement 2 squares from an enemy, you can shift 1 square as a free action. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"VKCw9JxH6YmWS3ke",
+	"_key":"!items!VKCw9JxH6YmWS3ke"
+}

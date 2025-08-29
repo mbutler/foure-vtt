@@ -1,0 +1,33 @@
+{
+	"name":"Quicker Death (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Once per round, when you have combat advantage against a target, you can add your Dexterity modifier to a melee damage roll against that target. </p><p>Published in Martial Power, page(s) 34. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"ZpeSVbqKxyIUduR7",
+	"_key":"!items!ZpeSVbqKxyIUduR7"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Insidious Shroud",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Changeling, assassin, changeling trick power, assassin's shroud power </p><p><b>Benefit: </b>When you use changeling trick and you succeed on the Bluff check, you can use assassin's shroud once against the target even if you have already used it on the target this turn. </p><p>Published in Dragon Magazine 385, page(s) 34. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"DF0OBJEidVjlveK3",
+	"_key":"!items!DF0OBJEidVjlveK3"
+}

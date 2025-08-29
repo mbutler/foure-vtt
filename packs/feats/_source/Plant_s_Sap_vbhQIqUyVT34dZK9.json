@@ -1,0 +1,33 @@
+{
+	"name":"Plant's Sap",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Wilden </p><p><b>Benefit: </b>You do not need to eat. You also do not need to sleep and instead enter a state of inactivity for 4 hours to gain the benefits of an extended rest. While in this state, you are fully aware of your surroundings and notice approaching enemies and other events as normal. </p><p>In addition, you gain a +2 feat bonus to saving throws against ongoing damage. </p><p>Published in Heroes of the Feywild, page(s) 130. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"vbhQIqUyVT34dZK9",
+	"_key":"!items!vbhQIqUyVT34dZK9"
+}

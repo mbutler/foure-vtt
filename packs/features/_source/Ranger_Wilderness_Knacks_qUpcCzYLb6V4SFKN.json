@@ -1,0 +1,33 @@
+{
+	"name":"Ranger Wilderness Knacks",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You gain two of the following abilities of your choice.</p>\n<p>@UUID[Compendium.dnd-4e-compendium.module-features.SigUC97pdxuOo4TY]{Ambush Expertise (Ranger)}@UUID[Compendium.dnd-4e-compendium.module-features.4yOTjheGQaVk19DN]{Beast Empathy (Ranger)}@UUID[Compendium.dnd-4e-compendium.module-features.u3x1vQUcAtWDVEXl]{Mountain Guide (Ranger)}@UUID[Compendium.dnd-4e-compendium.module-features.90XwSNTsgclCu7Af]{Watchful Rest (Ranger)}@UUID[Compendium.dnd-4e-compendium.module-features.PTmWSZBIkgzEXNMs]{Wilderness Tracker (Ranger)}</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"qUpcCzYLb6V4SFKN",
+	"_key":"!items!qUpcCzYLb6V4SFKN"
+}

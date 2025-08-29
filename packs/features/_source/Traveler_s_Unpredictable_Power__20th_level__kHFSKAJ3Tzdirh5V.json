@@ -1,0 +1,33 @@
+{
+	"name":"Traveler's Unpredictable Power (20th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You gain the 20th-level power of any other paragon path for which you qualify or a 19th-level daily attack power from one of your classes. </p><p>Published in Dragon Magazine 382, page(s) 72. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"kHFSKAJ3Tzdirh5V",
+	"_key":"!items!kHFSKAJ3Tzdirh5V"
+}

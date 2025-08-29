@@ -1,0 +1,33 @@
+{
+	"name":"Level 25 Warpriest Daily Power",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You gain one of the following powers of your choice. This new power replaces the daily attack power you gained at 9th level.</p>\n<p>@UUID[Compendium.dnd-4e-compendium.module-powers.s9wYRzJ2M71bu4iT]{Divine Battle Lord}@UUID[Compendium.dnd-4e-compendium.module-powers.BCT2rVa69HjIeK0q]{Subjugating Strike}</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"SWzoEtN1BGa8r4i7",
+	"_key":"!items!SWzoEtN1BGa8r4i7"
+}

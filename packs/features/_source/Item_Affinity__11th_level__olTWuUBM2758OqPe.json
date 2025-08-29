@@ -1,0 +1,33 @@
+{
+	"name":"Item Affinity (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>After an extended rest, you can use three magic item daily powers per day. At 21st level, you can use five magic item daily powers per day. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"olTWuUBM2758OqPe",
+	"_key":"!items!olTWuUBM2758OqPe"
+}

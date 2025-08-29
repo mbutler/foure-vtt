@@ -1,0 +1,49 @@
+{
+	"name":"Level 6 Executioner Utility Power",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You gain a new assassin utility power of your level or lower.</p>\n<p>@UUID[Compendium.dnd-4e-compendium.module-powers.naWQXYT1C847REd5]{Darkness}@UUID[Compendium.dnd-4e-compendium.module-powers.cVzBnTLdC3UFEt8I]{Ghost of the Rooftops}@UUID[Compendium.dnd-4e-compendium.module-powers.ztyZBb4FLsS3hVem]{Vanish}</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":"",
+			"autoanimationHook":""
+		},
+		"class":"",
+		"hitFistLevel":10,
+		"hitPerLevel":5,
+		"surgePerDay":5,
+		"skills":"<i class=\"fas fa-edit\"></i>",
+		"def":{
+			"ac":0,
+			"fort":0,
+			"ref":0,
+			"wil":0
+		},
+		"proficiencies":{
+			"weapons":[],
+			"armour":[]
+		},
+		"requirements":"",
+		"level":null,
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"Lv8NGZ1QS6bYhnpA",
+	"_key":"!items!Lv8NGZ1QS6bYhnpA"
+}

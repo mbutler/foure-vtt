@@ -1,0 +1,33 @@
+{
+	"name":"Tactical Presence (Hybrid)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When an ally you can see spends an action point to make an attack, the ally gains a bonus to the attack roll equal to one-half your Intelligence modifier. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"0UxI9sZ6DS1Yu7qN",
+	"_key":"!items!0UxI9sZ6DS1Yu7qN"
+}

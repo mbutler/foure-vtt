@@ -1,0 +1,33 @@
+{
+	"name":"Extended Teleportation",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Swordmage </p><p><b>Benefit: </b>Whenever you teleport with a swordmage or swordmage paragon path power, add 1 to the distance you can teleport. </p><p>Published in Dragon Magazine 382, page(s) 23. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"zUEwPqVsWBp6Zrd5",
+	"_key":"!items!zUEwPqVsWBp6Zrd5"
+}

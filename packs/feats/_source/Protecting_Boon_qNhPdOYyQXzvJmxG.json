@@ -1,0 +1,33 @@
+{
+	"name":"Protecting Boon",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>21st level, Cha 21, Str 15, paladin, divine mettle power </p><p><b>Benefit: </b>When you use your divine mettle, you can target each ally in the burst. </p><p>Published in Divine Power, page(s) 142. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"qNhPdOYyQXzvJmxG",
+	"_key":"!items!qNhPdOYyQXzvJmxG"
+}

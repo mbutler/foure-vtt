@@ -1,0 +1,33 @@
+{
+	"name":"Longarm Grasp (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>If you're wielding a reach weapon, whenever an enemy within 2 squares of you and marked by you shifts or makes an attack that doesn't include you as a target, you can make a melee basic attack against that enemy as an immediate interrupt. </p><p>Published in Martial Power, page(s) 31. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"jKzJfmpdLAuIo8TX",
+	"_key":"!items!jKzJfmpdLAuIo8TX"
+}

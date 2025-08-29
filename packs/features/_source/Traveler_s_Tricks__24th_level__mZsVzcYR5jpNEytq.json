@@ -1,0 +1,33 @@
+{
+	"name":"Traveler's Tricks (24th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Anytime you roll an 18 or higher when making an attack roll, you can teleport 5 squares as a free action after the attack. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"destiny"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"mZsVzcYR5jpNEytq",
+	"_key":"!items!mZsVzcYR5jpNEytq"
+}

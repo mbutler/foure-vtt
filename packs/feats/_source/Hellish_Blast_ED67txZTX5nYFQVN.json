@@ -1,0 +1,33 @@
+{
+	"name":"Hellish Blast",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Tiefling, warlock, eldritch blast power </p><p><b>Benefit: </b>Whenever you use eldritch blast, you can choose for it to deal fire damage. If you do, it gains the fire keyword and you gain a +1 bonus to the damage roll. The bonus increases to +2 at 11th level and +3 at 21st level. </p><p>Published in Player's Handbook Races: Tiefling, page(s) 26. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"ED67txZTX5nYFQVN",
+	"_key":"!items!ED67txZTX5nYFQVN"
+}

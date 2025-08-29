@@ -1,0 +1,33 @@
+{
+	"name":"Deeds not Words (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you bloody an enemy, reduce an enemy to 0 hit points, or score a critical hit with a melee attack, an ally adjacent to you gains a bonus to damage rolls equal to your Strength modifier until the start of your next turn. </p><p>Published in Divine Power, page(s) 46. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"DZhwyUgk9obPnzdY",
+	"_key":"!items!DZhwyUgk9obPnzdY"
+}

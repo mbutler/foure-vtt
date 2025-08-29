@@ -1,0 +1,33 @@
+{
+	"name":"Sly Hunter",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>11th level, Wis 15 </p><p><b>Benefit: </b>You gain a +3 bonus to damage rolls with bow attacks against any target that has no creature within 3 squares of it. </p><p>Published in Player's Handbook, page(s) 206. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"9FXpjhoBPZHil6bf",
+	"_key":"!items!9FXpjhoBPZHil6bf"
+}

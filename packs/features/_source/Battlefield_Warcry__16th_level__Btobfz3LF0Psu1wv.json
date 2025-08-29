@@ -1,0 +1,33 @@
+{
+	"name":"Battlefield Warcry (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Whenever you first become bloodied in an encounter, you and each ally within 5 squares of you gain a +2 bonus to attack rolls until the end of your next turn. </p><p>Published in Dragon Magazine 386, page(s) 57. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"Btobfz3LF0Psu1wv",
+	"_key":"!items!Btobfz3LF0Psu1wv"
+}

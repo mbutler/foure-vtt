@@ -1,0 +1,33 @@
+{
+	"name":"Shielded Stamina (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>While using a shield, you add its shield bonus to your Fortitude defense. </p><p>Published in Martial Power, page(s) 33. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"U6GfjCNlcTFeAgh2",
+	"_key":"!items!U6GfjCNlcTFeAgh2"
+}

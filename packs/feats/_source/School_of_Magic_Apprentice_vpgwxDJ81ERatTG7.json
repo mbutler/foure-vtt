@@ -1,0 +1,33 @@
+{
+	"name":"School of Magic Apprentice",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Wizard (arcanist), Arcane Implement Mastery feature </p><p><b>Benefit: </b>Choose a school of magic, such as enchantment or evocation. You lose Arcane Implement Mastery and gain the Apprentice Mage benefit associated with that school. </p><p>Published in Class Compendium. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"vpgwxDJ81ERatTG7",
+	"_key":"!items!vpgwxDJ81ERatTG7"
+}

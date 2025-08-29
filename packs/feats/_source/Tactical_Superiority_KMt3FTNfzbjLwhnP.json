@@ -1,0 +1,33 @@
+{
+	"name":"Tactical Superiority",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>11th level, fighter, Combat Superiority class feature </p><p><b>Benefit: </b>Whenever you hit an enemy marked by you with an opportunity attack, that enemy is slowed until the end of your next turn. </p><p>Published in Martial Power 2, page(s) 143. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"KMt3FTNfzbjLwhnP",
+	"_key":"!items!KMt3FTNfzbjLwhnP"
+}

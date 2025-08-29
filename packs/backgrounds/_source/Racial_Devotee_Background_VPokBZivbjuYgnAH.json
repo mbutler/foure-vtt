@@ -1,0 +1,33 @@
+{
+	"name":"Racial Devotee Background",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Type: </b>Racial </p><p><b>Campaign Setting: </b>General </p><p><b>Prerequisite: </b>Changeling </p><p>You have chosen to imitate a race because you idealize the race or think that it best represents your personality. Why did you choose this race? How do you think true members of the race would react if they found out the truth about you? How does it feel to be so close to the race you admire but never really be a part of it? </p><p><i>Associated Skills: </i>History, Insight </p><p>Associated Languages: A language the imitated race speaks. </p><p>Published in Dragon Magazine 386, page(s) 54. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"background"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"VPokBZivbjuYgnAH",
+	"_key":"!items!VPokBZivbjuYgnAH"
+}

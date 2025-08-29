@@ -1,0 +1,33 @@
+{
+	"name":"Envoy to the Fey",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Bard </p><p><b>Benefit: </b>You can speak, read, and write Elven. When you make a Bluff, Diplomacy, Intimidate, or Streetwise check against a fey creature, you can roll twice and use the higher result. </p><p>Published in Dragon Magazine 387, page(s) 25. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"OeFJMVrpaDSiXmqA",
+	"_key":"!items!OeFJMVrpaDSiXmqA"
+}

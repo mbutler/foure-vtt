@@ -1,0 +1,33 @@
+{
+	"name":"Loviatar, Maiden of Pain",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Type: </b>God </p><p><b>Alignment: </b>Evil </p><p><b>Gender: </b>Female </p><p><b>Sphere: </b>Pain </p><p><b>Dominion: </b>Banehold </p><p><b>Priests: </b>Pains </p><p><b>Adjective: </b>Loviatan </p><p><b>Domain: </b>Torment, Vengeance </p><p>Loviatar is the aggressive, domineering and fearless patron of torturers, sadists, and bullies. She has a cold and calculatingly cruel nature and an icebound heart. The Maiden of Pain has an instinct for inflicting both physical and psychological pain, always striking at the biggest chink in her victim's emotional armor. </p><p>Published in Forgotten Realms Campaign Guide, page(s) 80. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"other"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"rCDbW1iZAKN2mOx6",
+	"_key":"!items!rCDbW1iZAKN2mOx6"
+}

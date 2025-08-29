@@ -1,0 +1,33 @@
+{
+	"name":"Saving Action (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you spend an action point to take an extra action, you also make a saving throw against each effect on you that a save can end. If an effect was caused by a devil, you gain a +2 bonus to the saving throw against that effect. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"b5iV7DjuFpUWIvGS",
+	"_key":"!items!b5iV7DjuFpUWIvGS"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Warlock's Sight",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Warlock, Warlock's Curse class feature </p><p><b>Benefit: </b>You don't take the normal -2 penalty to attack rolls if your target has cover or concealment as long as your target is cursed by you. </p><p>Published in Dragon Magazine 384, page(s) 31. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"icupOFgDQ62XhHLY",
+	"_key":"!items!icupOFgDQ62XhHLY"
+}

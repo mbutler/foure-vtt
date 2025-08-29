@@ -1,0 +1,33 @@
+{
+	"name":"Ghostly Vitality",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>21st level, revenant </p><p><b>Benefit: </b>If you drop to 0 or fewer hit points and choose to remain conscious due to Unnatural Vitality, you can take a move action and a minor action in addition to the standard action Unnatural Vitality allows. While you have 0 or fewer hit points, you gain insubstantial. </p><p>Published in Dragon Magazine 376, page(s) 43. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"BUDKLonM35pyvR2X",
+	"_key":"!items!BUDKLonM35pyvR2X"
+}

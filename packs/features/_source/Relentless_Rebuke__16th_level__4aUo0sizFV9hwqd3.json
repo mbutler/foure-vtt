@@ -1,0 +1,33 @@
+{
+	"name":"Relentless Rebuke (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Once per encounter, when an enemy's attack against an ally within 5 squares of you bloodies that ally or drops that ally below 1 hit point, you can make a melee basic attack as an opportunity action. </p><p>Published in Dragon Magazine 400. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"4aUo0sizFV9hwqd3",
+	"_key":"!items!4aUo0sizFV9hwqd3"
+}

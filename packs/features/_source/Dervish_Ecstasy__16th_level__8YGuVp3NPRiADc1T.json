@@ -1,0 +1,33 @@
+{
+	"name":"Dervish Ecstasy (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>If you are bloodied during an encounter, you can use a second Channel Divinity power in that encounter. </p><p>Published in Divine Power, page(s) 21. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"8YGuVp3NPRiADc1T",
+	"_key":"!items!8YGuVp3NPRiADc1T"
+}

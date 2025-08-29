@@ -1,0 +1,33 @@
+{
+	"name":"Flameshield (16th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>While allies are adjacent to you, they gain fire resistance equal to your fire resistance. </p><p>Published in Dark Sun Campaign Setting, page(s) 49. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"x1tYOqJdGAyTFejp",
+	"_key":"!items!x1tYOqJdGAyTFejp"
+}

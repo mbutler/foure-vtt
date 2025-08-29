@@ -1,0 +1,33 @@
+{
+	"name":"Level 1 Apprentice Mage",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Choose a school of magic. You gain the Apprentice Mage benefit associated with that school.</p>\n<p>@UUID[Compendium.dnd-4e-compendium.module-features.1LRHI68jOkNM4n7V]{Enchantment Apprentice}@UUID[Compendium.dnd-4e-compendium.module-features.I4pY3gVXjnWO8wLa]{Evocation Apprentice}@UUID[Compendium.dnd-4e-compendium.module-features.vX0SLwkcmzQ1Zn9Y]{Illusion Apprentice}@UUID[Compendium.dnd-4e-compendium.module-features.XUAIERz5CYuB0J9v]{Necromancy Apprentice}@UUID[Compendium.dnd-4e-compendium.module-features.TAd3WqfovyjKhLIV]{Nethermancy Apprentice}@UUID[Compendium.dnd-4e-compendium.module-features.bJfqeQEAt4CklP1U]{Pyromancy Apprentice}</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"HyIOdTrPJmg2ECqM",
+	"_key":"!items!HyIOdTrPJmg2ECqM"
+}

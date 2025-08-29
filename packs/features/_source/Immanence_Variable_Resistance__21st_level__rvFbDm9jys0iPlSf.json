@@ -1,0 +1,33 @@
+{
+	"name":"Immanence Variable Resistance (21st level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>After the first time you take damage of a particular type during an encounter, you gain resist 20 to that damage type until the end of the encounter. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"destiny"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"rvFbDm9jys0iPlSf",
+	"_key":"!items!rvFbDm9jys0iPlSf"
+}

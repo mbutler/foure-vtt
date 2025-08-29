@@ -1,0 +1,33 @@
+{
+	"name":"Mystic Rapture (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>Each enemy that enters a space within 3 squares of you or that starts its turn there takes a -5 penalty to saving throws against charm effects and a -2 penalty to all other saving throws. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"sDhVgGLcEkidCl08",
+	"_key":"!items!sDhVgGLcEkidCl08"
+}

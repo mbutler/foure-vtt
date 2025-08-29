@@ -1,0 +1,33 @@
+{
+	"name":"Siamorphe, The Divine Right",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Type: </b>Exarch </p><p><b>Alignment: </b>Lawful Good </p><p><b>Gender: </b>Female </p><p><b>Sphere: </b>Nobility </p><p><b>Dominion: </b>Eternal Sun </p><p><b>Priests: </b>Nighborns </p><p><b>Adjective: </b>Siamorphan </p><p>Siamorphe is kind and quiet with individuals, but firm and charismatic when dealing with large groups. Her soft voice is tinged with great wisdom, but she brooks no argument when she gives an order. She likes to think of her duty as one of building a sturdy skeleton of continuity in government through a noble infrastructure so that the body politic can grow and develop properly under the leadership of a royal ruler. </p><p>Published in Forgotten Realms Campaign Guide, page(s) 81. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"other"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"9ykluWXSnAQ3CM01",
+	"_key":"!items!9ykluWXSnAQ3CM01"
+}

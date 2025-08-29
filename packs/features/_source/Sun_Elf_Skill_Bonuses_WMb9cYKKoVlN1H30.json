@@ -1,0 +1,29 @@
+{
+	"name":"Sun Elf Skill Bonuses",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>The complex intrigues of sun elf courts require a subtlety and discernment that sun elves find useful in their relationships.<br>&nbsp;&nbsp;&nbsp;&nbsp;<em>Benefits:&nbsp;</em>You gain a +2 bonus to Bluff checks and Insight checks. This benefit replaces the normal eladrin skill bonuses to Arcana and History.</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"featureType":"race"
+	},
+	"effects":[],
+	"flags":{},
+	"folder":null,
+	"sort":0,
+	"_id":"WMb9cYKKoVlN1H30",
+	"_key":"!items!WMb9cYKKoVlN1H30"
+}

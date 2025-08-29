@@ -1,0 +1,33 @@
+{
+	"name":"Malar, The Beastlord",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Type: </b>Exarch </p><p><b>Alignment: </b>Evil </p><p><b>Gender: </b>Male </p><p><b>Sphere: </b>Beasts </p><p><b>Dominion: </b>Deep Wilds </p><p><b>Priests: </b>Talons </p><p><b>Adjective: </b>Malarite </p><p>Malar is a primordial, savage deity who revels in the hunt and the blood of the kill. Appearing as a sleek and supple catlike beast with blood-spattered ebony fur, Malar delights in instilling fear in his victims, for he can literally smell and taste the essences of their terror. </p><p>Published in Forgotten Realms Campaign Guide, page(s) 81. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"other"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"YNmRXEpwb93FlOsy",
+	"_key":"!items!YNmRXEpwb93FlOsy"
+}

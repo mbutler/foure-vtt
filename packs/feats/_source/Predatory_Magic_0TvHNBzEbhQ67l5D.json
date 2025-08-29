@@ -1,0 +1,33 @@
+{
+	"name":"Predatory Magic",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Razorclaw shifter, any arcane class </p><p><b>Benefit: </b>When you use a close arcane attack power while you are under the effect of your razorclaw shifting racial power, you can shift 1 square as a free action before or after using the power. </p><p>Published in Arcane Power, page(s) 128. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"0TvHNBzEbhQ67l5D",
+	"_key":"!items!0TvHNBzEbhQ67l5D"
+}

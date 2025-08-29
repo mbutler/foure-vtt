@@ -1,0 +1,33 @@
+{
+	"name":"Level 25 Bladesinger Daily Powers",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You add two new wizard encounter attack powers to your spellbook. The powers must be of 23rd level or lower, and the two function as daily attack powers for you.</p>\n<p>@UUID[Compendium.dnd-4e-compendium.module-powers.70xs2dDOM3yz6oPJ]{Chain Lightning}@UUID[Compendium.dnd-4e-compendium.module-powers.ViXhykOnoEGw4P12]{Deceptive Shadows}@UUID[Compendium.dnd-4e-compendium.module-powers.kYK7bAIiCh0FTGru]{Thunderclap}</p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"class"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"rJY0N75QfAnCWltV",
+	"_key":"!items!rJY0N75QfAnCWltV"
+}

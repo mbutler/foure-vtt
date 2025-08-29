@@ -1,0 +1,33 @@
+{
+	"name":"Twilight Dreamers Background",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Campaign Setting: </b>General </p><p>You focus your studies on whatever demonic, diabolical, or aberrant creature you believe imbued you with psionic power. When the natural world falls, you plan to ride the tide of blood alongside your master. </p><p><i>Associated Skills: </i>Arcana, Dungeoneering, Religion </p><p>Published in Psionic Power, page(s) 118. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"background"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"yStd4hV2KJf3gvsq",
+	"_key":"!items!yStd4hV2KJf3gvsq"
+}

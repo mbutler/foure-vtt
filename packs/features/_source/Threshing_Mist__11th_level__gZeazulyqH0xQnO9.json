@@ -1,0 +1,33 @@
+{
+	"name":"Threshing Mist (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When any of your attacks deals both your main weapon and offhand weapon damage to the same target, you can shift 1 square to a square adjacent to the target as a free action. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"gZeazulyqH0xQnO9",
+	"_key":"!items!gZeazulyqH0xQnO9"
+}

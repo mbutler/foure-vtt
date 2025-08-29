@@ -1,0 +1,33 @@
+{
+	"name":"Still Water Background",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Type: </b>Racial </p><p><b>Campaign Setting: </b>General </p><p><b>Prerequisite: </b>Shadar-Kai </p><p>The solution to the crushing boredom afflicting your people was acceptance. You studied beneath an enlightened master who taught you to be as the still waters of an undisturbed pond. When you feel the darkness beckon, your mind calms until the dread passes by. </p><p><i>Associated Skills: </i>Endurance, Insight </p><p>Published in Dragon Magazine 389, page(s) 30. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"background"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"QnaOrxIgyoCZ6ht3",
+	"_key":"!items!QnaOrxIgyoCZ6ht3"
+}

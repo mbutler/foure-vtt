@@ -1,0 +1,33 @@
+{
+	"name":"Dragonborn Vengeance",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Dragonborn, warden </p><p><b>Benefit: </b>You gain a +1 feat bonus to your dragon breath attack rolls when attacking creatures marked by you. </p><p>Published in Dragon Magazine 379, page(s) 45. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"VBd1fJsbO3hCgvoM",
+	"_key":"!items!VBd1fJsbO3hCgvoM"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Warforged Example",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Warforged, paladin </p><p><b>Benefit: </b>When you use your warforged resolve racial power, each ally within 5 squares of you can make a saving throw against one effect that deals ongoing damage and that a save can end. </p><p>Published in Divine Power, page(s) 137. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"CwpgAmPkblxcjaW5",
+	"_key":"!items!CwpgAmPkblxcjaW5"
+}

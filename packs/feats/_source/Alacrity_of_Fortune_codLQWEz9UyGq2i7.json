@@ -1,0 +1,33 @@
+{
+	"name":"Alacrity of Fortune",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>11th level, ardent, Mantle of Clarity class feature </p><p><b>Benefit: </b>Whenever an ally within the radius of your Ardent Mantle makes a save, he or she can shift 1 square as a free action. </p><p>Published in Player's Handbook 3, page(s) 184. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"codLQWEz9UyGq2i7",
+	"_key":"!items!codLQWEz9UyGq2i7"
+}

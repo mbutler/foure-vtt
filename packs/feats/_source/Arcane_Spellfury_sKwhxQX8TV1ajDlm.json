@@ -1,0 +1,33 @@
+{
+	"name":"Arcane Spellfury",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Sorcerer </p><p><b>Benefit: </b>When you hit any enemy with a sorcerer at-will attack power, you gain a +1 bonus to attack rolls against that enemy until the end of your next turn. </p><p>Published in Player's Handbook 2, page(s) 184. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"sKwhxQX8TV1ajDlm",
+	"_key":"!items!sKwhxQX8TV1ajDlm"
+}

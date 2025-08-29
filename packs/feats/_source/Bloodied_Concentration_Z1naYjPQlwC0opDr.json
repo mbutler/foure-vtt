@@ -1,0 +1,33 @@
+{
+	"name":"Bloodied Concentration",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Psion </p><p><b>Benefit: </b>While you are bloodied, you gain a +1 bonus to attack rolls using augmented at-will psion attack powers. </p><p>Published in Psionic Power, page(s) 130. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"Z1naYjPQlwC0opDr",
+	"_key":"!items!Z1naYjPQlwC0opDr"
+}

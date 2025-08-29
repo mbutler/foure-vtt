@@ -1,0 +1,33 @@
+{
+	"name":"Scholar Starting Feature (1st level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You know one additional language chosen from Draconic, Dwarven, and Elven. In addition, you gain the use vulnerability power.<br></p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"theme"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"Hoyh9I2u7qVkC4iW",
+	"_key":"!items!Hoyh9I2u7qVkC4iW"
+}

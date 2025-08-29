@@ -1,0 +1,33 @@
+{
+	"name":"Driving Rain",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>11th level, monk </p><p><b>Benefit: </b>You gain a feat bonus to bull rush attack rolls equal to your ki focus's enhancement bonus. When you hit with a bull rush, you push the target a number of squares equal to your speed, then shift into any unoccupied square adjacent to the target at the end of the push. </p><p>Published in Psionic Power, page(s) 137. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"yHemSLpzTwuOMW8Y",
+	"_key":"!items!yHemSLpzTwuOMW8Y"
+}

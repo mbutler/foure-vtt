@@ -1,0 +1,33 @@
+{
+	"name":"Dwarven Weapon Training",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Dwarf </p><p><b>Benefit: </b>You gain proficiency and a +2 feat bonus to damage rolls with axes and hammers. </p><p>Published in Player's Handbook, page(s) 194. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"7CpUFOPXNT40EoDh",
+	"_key":"!items!7CpUFOPXNT40EoDh"
+}

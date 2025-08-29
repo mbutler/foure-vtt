@@ -1,0 +1,33 @@
+{
+	"name":"Tail Slide",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Tiefling </p><p><b>Benefit: </b>When you shift, you can also slide an ally adjacent to your starting square 1 square. </p><p>Published in Player's Handbook Races: Tiefling, page(s) 26. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"Wgkxwp9OFSUDrM4m",
+	"_key":"!items!Wgkxwp9OFSUDrM4m"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Hobgoblin Beast Companion",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Hobgoblin, ranger, Beast Mastery class feature, hobgoblin discipline racial power </p><p><b>Benefit: </b>When you use hobgoblin discipline and your beast companion is adjacent to you, you can also end one effect a save can end affecting your beast companion. </p><p>In addition, your beast companion gains a +1 feat bonus to all defenses while it is adjacent to you. </p><p>Published in Dragon Magazine 419. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"Vaoi4Sgy5HDzcTOK",
+	"_key":"!items!Vaoi4Sgy5HDzcTOK"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Staff of Travel",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>Constitution 13 </p><p><b>Benefit: </b>When you use a staff to make a divine melee weapon attack, if you hit you can shift 1 square as a free action. </p><p>Published in Dragon Magazine 391. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"o31ZHs8JvBriqPy5",
+	"_key":"!items!o31ZHs8JvBriqPy5"
+}

@@ -1,0 +1,33 @@
+{
+	"name":"Waste Walker (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>You gain a +2 bonus to Endurance checks and Nature checks. </p><p>You gain a bonus to Fortitude against attacks from diseases (including sun sickness) equal to your primary ability modifier. </p><p>Finally, when traveling overland, you and all allies who can see you gain a +2 bonus to speed and need only half the usual survival day requirements. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"50HmS3RjVIQkvdcf",
+	"_key":"!items!50HmS3RjVIQkvdcf"
+}

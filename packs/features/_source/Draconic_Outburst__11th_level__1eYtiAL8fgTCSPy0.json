@@ -1,0 +1,33 @@
+{
+	"name":"Draconic Outburst (11th level)",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p>When you spend an action point to make an attack, each enemy adjacent to you takes damage equal to 5 + your Constitution modifier when you resolve the attack. This damage is the same type you initially chose for your dragon breath racial power. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"path"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"1eYtiAL8fgTCSPy0",
+	"_key":"!items!1eYtiAL8fgTCSPy0"
+}

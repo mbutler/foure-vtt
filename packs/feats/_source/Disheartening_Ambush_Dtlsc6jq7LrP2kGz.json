@@ -1,0 +1,33 @@
+{
+	"name":"Disheartening Ambush",
+	"type":"feature",
+	"img":"icons/svg/mystery-man.svg",
+	"system":{
+		"description":{
+			"value":"<p><b>Prerequisite: </b>11th level, rogue, Sneak Attack class feature </p><p><b>Benefit: </b>Whenever you would deal Sneak Attack damage, you can forgo one die of that damage to give your attack the rattling keyword. </p><p>Published in Martial Power 2, page(s) 142. </p>",
+			"chat":"",
+			"unidentified":""
+		},
+		"source":"",
+		"macro":{
+			"type":"script",
+			"scope":"global",
+			"launchOrder":"off",
+			"command":"",
+			"author":""
+		},
+		"requirements":"",
+		"level":"",
+		"recharge":{
+			"value":null,
+			"charged":false
+		},
+		"featureType":"feat"
+	},
+	"effects":[],
+	"folder":null,
+	"sort":0,
+	"flags":{},
+	"_id":"Dtlsc6jq7LrP2kGz",
+	"_key":"!items!Dtlsc6jq7LrP2kGz"
+}
