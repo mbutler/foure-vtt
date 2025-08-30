@@ -36,6 +36,27 @@
         --status-error: #ef4444;
         --status-dead: #dc2626;
         
+        /* Additional UI Colors */
+        --accent-color: #3b82f6;
+        --accent-border: #1d4ed8;
+        --accent-text: #ffffff;
+        --accent-bg: rgba(59, 130, 246, 0.1);
+        
+        --primary-color: #10b981;
+        --primary-hover: #059669;
+        
+        --danger-color: #ef4444;
+        --danger-bg: rgba(239, 68, 68, 0.1);
+        
+        --button-bg: var(--bg-tertiary);
+        --button-hover: var(--bg-hover);
+        
+        --section-bg: var(--bg-tertiary);
+        --border-color: var(--border-medium);
+        --border-radius: 6px;
+        
+        --text-color: var(--text-primary);
+        
         /* Borders */
         --border-subtle: #333333;
         --border-medium: #444444;
@@ -203,29 +224,475 @@
         display: flex;
         flex-direction: column;
         overflow: hidden;
+        padding: 0.75rem;
+        gap: 0.5rem;
+        font-size: 0.875rem;
       }
 
-      /* Panel Sections */
-      .panel-section {
-        padding: var(--space-md);
-        border-bottom: 1px solid var(--border-subtle);
+      /* 1) Reactive Bar */
+      .reactive-bar {
+        background: var(--accent-color);
+        border: 1px solid var(--accent-border);
+        border-radius: var(--border-radius);
+        padding: 0.5rem;
+        margin-bottom: 0.5rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 0.75rem;
       }
 
-      .panel-section:last-child {
-        border-bottom: none;
+      .reactive-bar.hidden {
+        display: none;
+      }
+
+      .reactive-text {
+        color: var(--accent-text);
+        font-weight: 500;
+      }
+
+      .reactive-controls {
+        display: flex;
+        gap: 0.25rem;
+        align-items: center;
+      }
+
+      .reactive-usage {
+        font-size: 0.625rem;
+        color: var(--text-muted);
+        margin-right: 0.5rem;
+      }
+
+      .reactive-btn {
+        background: var(--button-bg);
+        border: 1px solid var(--border-color);
+        border-radius: 3px;
+        padding: 0.25rem 0.5rem;
+        font-size: 0.625rem;
+        cursor: pointer;
+        color: var(--text-color);
+      }
+
+      .reactive-btn:hover {
+        background: var(--button-hover);
+      }
+
+      /* 2) Actor Header */
+      .actor-header {
+        background: var(--section-bg);
+        border: 1px solid var(--border-color);
+        border-radius: var(--border-radius);
+        padding: 0.75rem;
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+      }
+
+      .actor-identity {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .actor-name {
+        font-weight: 600;
+        font-size: 1rem;
+        color: var(--text-color);
+      }
+
+      .actor-badges {
+        display: flex;
+        gap: 0.25rem;
+      }
+
+      .badge {
+        font-size: 0.625rem;
+        padding: 0.125rem 0.375rem;
+        border-radius: 3px;
+        font-weight: 500;
+        text-transform: uppercase;
+      }
+
+      .badge.bloodied {
+        background: var(--danger-color);
+        color: white;
+      }
+
+      .badge.dying {
+        background: var(--danger-color);
+        color: white;
+      }
+
+      .badge.dead {
+        background: var(--text-muted);
+        color: white;
+      }
+
+      .actor-vital {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .vital-display {
+        display: flex;
+        gap: 0.75rem;
+        font-size: 0.75rem;
+      }
+
+      .vital-item {
+        color: var(--text-color);
+      }
+
+      .vital-value {
+        font-weight: 600;
+      }
+
+      .vital-btn {
+        background: var(--button-bg);
+        border: 1px solid var(--border-color);
+        border-radius: 3px;
+        padding: 0.25rem 0.5rem;
+        font-size: 0.75rem;
+        cursor: pointer;
+        color: var(--text-color);
+      }
+
+      .vital-btn:disabled {
+        opacity: 0.5;
+        cursor: not-allowed;
+      }
+
+      .actor-defenses {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .defense-display {
+        display: flex;
+        gap: 0.75rem;
+        font-size: 0.75rem;
+      }
+
+      .defense-item {
+        color: var(--text-color);
+      }
+
+      .defense-value {
+        font-weight: 600;
+      }
+
+      .defense-chip {
+        font-size: 0.625rem;
+        color: var(--accent-color);
+        background: var(--accent-bg);
+        padding: 0.125rem 0.375rem;
+        border-radius: 3px;
+      }
+
+      /* 3) Action Strip */
+      .action-strip {
+        background: var(--section-bg);
+        border: 1px solid var(--border-color);
+        border-radius: var(--border-radius);
+        padding: 0.75rem;
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+      }
+
+      .action-slots {
+        display: flex;
+        gap: 0.25rem;
+      }
+
+      .action-slot {
+        flex: 1;
+        background: var(--button-bg);
+        border: 1px solid var(--border-color);
+        border-radius: 3px;
+        padding: 0.5rem;
+        cursor: pointer;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.25rem;
+        color: var(--text-color);
+        font-size: 0.75rem;
+      }
+
+      .action-slot:hover {
+        background: var(--button-hover);
+      }
+
+      .action-slot.used {
+        opacity: 0.5;
+        background: var(--text-muted);
+      }
+
+      .action-label {
+        font-weight: 500;
+      }
+
+      .action-remaining {
+        font-size: 0.875rem;
+        font-weight: 600;
+      }
+
+      .action-subchips {
+        display: flex;
+        gap: 0.25rem;
+        justify-content: center;
+      }
+
+      .subchip {
+        background: var(--accent-bg);
+        border: 1px solid var(--accent-border);
+        border-radius: 3px;
+        padding: 0.25rem 0.5rem;
+        font-size: 0.625rem;
+        cursor: pointer;
+        color: var(--accent-color);
+      }
+
+      .subchip:hover {
+        background: var(--accent-color);
+        color: var(--accent-text);
+      }
+
+      .turn-controls {
+        display: flex;
+        gap: 0.25rem;
+      }
+
+      .control-btn {
+        flex: 1;
+        background: var(--button-bg);
+        border: 1px solid var(--border-color);
+        border-radius: 3px;
+        padding: 0.5rem;
+        font-size: 0.75rem;
+        cursor: pointer;
+        color: var(--text-color);
+      }
+
+      .control-btn:hover {
+        background: var(--button-hover);
+      }
+
+      .control-btn.primary {
+        background: var(--primary-color);
+        color: white;
+        font-weight: 500;
+      }
+
+      .control-btn.primary:hover {
+        background: var(--primary-hover);
+      }
+
+      .control-btn.gm-only {
+        opacity: 0.7;
+        font-size: 0.625rem;
+      }
+
+      /* 4) Context Drawer */
+      .context-drawer {
+        background: var(--section-bg);
+        border: 1px solid var(--border-color);
+        border-radius: var(--border-radius);
+        overflow: hidden;
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+      }
+
+      .drawer-toggle {
+        display: flex;
+        border-bottom: 1px solid var(--border-color);
+      }
+
+      .toggle-btn {
+        flex: 1;
+        background: var(--button-bg);
+        border: none;
+        padding: 0.5rem;
+        font-size: 0.75rem;
+        cursor: pointer;
+        color: var(--text-color);
+      }
+
+      .toggle-btn.active {
+        background: var(--accent-color);
+        color: var(--accent-text);
+        font-weight: 500;
+      }
+
+      .drawer-content {
+        display: none;
+        padding: 0.75rem;
         flex: 1;
         overflow-y: auto;
       }
 
-      .panel-section h3 {
-        margin: 0 0 var(--space-sm) 0;
-        font-size: var(--font-size-sm);
-        font-weight: 600;
-        color: var(--text-accent);
-        letter-spacing: -0.025em;
-        text-transform: uppercase;
-        font-size: 11px;
-        letter-spacing: 0.05em;
+      .drawer-content.active {
+        display: flex;
+        flex-direction: column;
+      }
+
+      /* Powers Drawer */
+      .powers-header {
+        margin-bottom: 0.75rem;
+      }
+
+      .power-tabs {
+        display: flex;
+        gap: 0.125rem;
+        margin-bottom: 0.5rem;
+      }
+
+      .tab-btn {
+        flex: 1;
+        background: var(--button-bg);
+        border: 1px solid var(--border-color);
+        border-radius: 3px;
+        padding: 0.25rem;
+        font-size: 0.625rem;
+        cursor: pointer;
+        color: var(--text-color);
+      }
+
+      .tab-btn.active {
+        background: var(--accent-color);
+        color: var(--accent-text);
+        font-weight: 500;
+      }
+
+      .power-filters {
+        display: flex;
+        gap: 0.125rem;
+      }
+
+      .filter-btn {
+        background: var(--accent-bg);
+        border: 1px solid var(--accent-border);
+        border-radius: 3px;
+        padding: 0.125rem 0.25rem;
+        font-size: 0.5rem;
+        cursor: pointer;
+        color: var(--accent-color);
+      }
+
+      .filter-btn.active {
+        background: var(--accent-color);
+        color: var(--accent-text);
+      }
+
+      .power-list {
+        flex: 1;
+        overflow-y: auto;
+      }
+
+      /* Status Drawer */
+      .conditions-section {
+        margin-bottom: 0.75rem;
+      }
+
+      .condition-chips {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.25rem;
+      }
+
+      .condition-chip {
+        background: var(--accent-bg);
+        border: 1px solid var(--accent-border);
+        border-radius: 3px;
+        padding: 0.25rem 0.5rem;
+        font-size: 0.625rem;
+        cursor: pointer;
+        color: var(--accent-color);
+        position: relative;
+      }
+
+      .condition-chip.ongoing {
+        background: var(--danger-bg);
+        border-color: var(--danger-color);
+        color: var(--danger-color);
+      }
+
+      .condition-chip:hover {
+        background: var(--accent-color);
+        color: var(--accent-text);
+      }
+
+      .ongoing-section {
+        margin-bottom: 0.75rem;
+      }
+
+      .ongoing-item {
+        font-size: 0.75rem;
+        color: var(--text-color);
+        margin-bottom: 0.25rem;
+      }
+
+      .movement-flags {
+        margin-bottom: 0.75rem;
+      }
+
+      .flag-item {
+        font-size: 0.75rem;
+        color: var(--text-muted);
+        margin-bottom: 0.25rem;
+      }
+
+      .quick-stats {
+        display: flex;
+        gap: 0.75rem;
+      }
+
+      .stat-item {
+        font-size: 0.75rem;
+        color: var(--text-color);
+      }
+
+      /* 5) Log Peek */
+      .log-peek {
+        background: var(--section-bg);
+        border: 1px solid var(--border-color);
+        border-radius: var(--border-radius);
+        padding: 0.5rem;
+      }
+
+      .log-lines {
+        margin-bottom: 0.5rem;
+      }
+
+      .log-line {
+        font-size: 0.625rem;
+        color: var(--text-color);
+        margin-bottom: 0.125rem;
+        line-height: 1.2;
+      }
+
+      .log-btn {
+        width: 100%;
+        background: var(--button-bg);
+        border: 1px solid var(--border-color);
+        border-radius: 3px;
+        padding: 0.25rem;
+        font-size: 0.625rem;
+        cursor: pointer;
+        color: var(--text-color);
+      }
+
+      .log-btn:hover {
+        background: var(--button-hover);
+      }
+
+      /* Character Import Section */
+      .character-import-section {
+        margin-top: auto;
       }
 
       /* Character Import */
@@ -1042,118 +1509,172 @@
       <div id="stage"></div>
 
       <div id="panel">
-        <div class="panel-section">
-          <h3>Character</h3>
-          <div id="character-import-container"></div>
-          <div class="character-info">
-            <div class="character-header">
-              <div class="character-name">Gandalf the Grey</div>
-              <div class="character-level">Level 5</div>
-            </div>
-            <div class="character-stats">
-              <div class="stat-item">
-                <div class="stat-label">HP</div>
-                <div class="stat-value damaged">32/45</div>
-              </div>
-              <div class="stat-item">
-                <div class="stat-label">Surges</div>
-                <div class="stat-value">8/10</div>
-              </div>
-              <div class="stat-item">
-                <div class="stat-label">AC</div>
-                <div class="stat-value">18</div>
-              </div>
+        <!-- 1) Reactive Bar (only when needed) -->
+        <div id="reactive-bar" class="reactive-bar hidden">
+          <div class="reactive-text">🛑 Immediate: <span class="reactive-actor">Gandalf</span> can use <span class="reactive-power">Shield</span> (vs <span class="reactive-trigger">attack</span>).</div>
+          <div class="reactive-controls">
+            <span class="reactive-usage">1/round</span>
+            <button class="reactive-btn use">Use</button>
+            <button class="reactive-btn skip">Skip</button>
+            <button class="reactive-btn details">Details</button>
+          </div>
+        </div>
+
+        <!-- 2) Actor Header -->
+        <div class="actor-header">
+          <!-- Row A - Identity -->
+          <div class="actor-identity">
+            <div class="actor-name">Gandalf the Grey</div>
+            <div class="actor-badges">
+              <span class="badge bloodied">bloodied</span>
+              <!-- <span class="badge dying">dying</span> -->
+              <!-- <span class="badge dead">dead</span> -->
             </div>
           </div>
           
-          <div class="action-economy">
-            <div class="action-item" id="standard-action">
-              <div class="action-label">Standard</div>
-              <div class="action-status">✓</div>
+          <!-- Row B - Vital -->
+          <div class="actor-vital">
+            <div class="vital-display">
+              <span class="vital-item">HP: <span class="vital-value">27/38</span></span>
+              <span class="vital-item">Temp: <span class="vital-value">3</span></span>
+              <span class="vital-item">Surges: <span class="vital-value">5</span></span>
             </div>
-            <div class="action-item used" id="move-action">
-              <div class="action-label">Move</div>
-              <div class="action-status">✗</div>
-            </div>
-            <div class="action-item" id="minor-action">
-              <div class="action-label">Minor</div>
-              <div class="action-status">✓</div>
-            </div>
+            <button id="second-wind" class="vital-btn" disabled>Second Wind</button>
           </div>
-
-          <div class="quick-actions">
-            <button id="end-turn">End Turn</button>
-            <button id="second-wind">Second Wind</button>
-            <button id="short-rest">Short Rest</button>
-            <button id="long-rest">Long Rest</button>
-            <button id="death-save">Death Save</button>
-          </div>
-
-          <div class="conditions">
-            <div class="condition active">Bloodied</div>
-            <div class="condition negative">Poisoned</div>
-            <div class="condition positive">Blessed</div>
-            <div class="condition">+2 AC</div>
-            <div class="condition">+1 Attack</div>
+          
+          <!-- Row C - Defenses -->
+          <div class="actor-defenses">
+            <div class="defense-display">
+              <span class="defense-item">AC <span class="defense-value">21</span></span>
+              <span class="defense-item">Fort <span class="defense-value">19</span></span>
+              <span class="defense-item">Ref <span class="defense-value">17</span></span>
+              <span class="defense-item">Will <span class="defense-value">18</span></span>
+            </div>
+            <div class="defense-chip">+2 all (Second Wind)</div>
           </div>
         </div>
 
-        <div class="panel-section">
-          <h3>Mode</h3>
-          <div class="mode-buttons">
-            <button id="mode-move" class="active">Move</button>
-            <button id="mode-measure">Measure</button>
-            <button id="mode-target">Target</button>
-            <button id="mode-aura">Aura</button>
+        <!-- 3) Action Strip -->
+        <div class="action-strip">
+          <!-- Row D - Slots -->
+          <div class="action-slots">
+            <button id="standard-action" class="action-slot">
+              <span class="action-label">Standard</span>
+              <span class="action-remaining">1</span>
+            </button>
+            <button id="move-action" class="action-slot used">
+              <span class="action-label">Move</span>
+              <span class="action-remaining">0</span>
+            </button>
+            <button id="minor-action" class="action-slot">
+              <span class="action-label">Minor</span>
+              <span class="action-remaining">1</span>
+            </button>
+          </div>
+          
+          <!-- Subchips -->
+          <div class="action-subchips">
+            <button class="subchip">Shift</button>
+            <!-- <button class="subchip">Stand Up</button> -->
+            <!-- <button class="subchip">Sustain [Minor]</button> -->
+          </div>
+          
+          <!-- Row E - Turn Controls -->
+          <div class="turn-controls">
+            <button id="mode-move" class="control-btn active">Move</button>
+            <button id="mode-measure" class="control-btn">Measure</button>
+            <button id="mode-target" class="control-btn">Target</button>
+            <button id="end-turn" class="control-btn primary">End Turn</button>
           </div>
         </div>
 
-        <div class="panel-section">
-          <h3>Initiative</h3>
-          <div class="initiative">
-            <div class="initiative-header">
-              <span>Order</span>
-              <span>Roll</span>
+        <!-- 4) Context Drawer -->
+        <div class="context-drawer">
+          <!-- Drawer Toggle -->
+          <div class="drawer-toggle">
+            <button class="toggle-btn active" data-drawer="powers">Powers</button>
+            <button class="toggle-btn" data-drawer="status">Status</button>
+          </div>
+
+          <!-- 4A) Powers Drawer -->
+          <div id="powers-drawer" class="drawer-content active">
+            <!-- Header -->
+            <div class="powers-header">
+              <div class="power-tabs">
+                <button class="tab-btn active" data-tab="at-will">At-Will</button>
+                <button class="tab-btn" data-tab="encounter">Encounter</button>
+                <button class="tab-btn" data-tab="daily">Daily</button>
+                <button class="tab-btn" data-tab="utility">Utility</button>
+              </div>
+              <div class="power-filters">
+                <button class="filter-btn active" data-filter="std">Std</button>
+                <button class="filter-btn active" data-filter="move">Move</button>
+                <button class="filter-btn active" data-filter="minor">Minor</button>
+                <button class="filter-btn" data-filter="free">Free</button>
+                <button class="filter-btn" data-filter="immediate">Immediate</button>
+              </div>
             </div>
-            <div class="initiative-list" id="initiative-list">
-              <div class="initiative-item current">
-                <span class="initiative-name">Gandalf</span>
-                <span class="initiative-roll">22</span>
+
+            <!-- Power List -->
+            <div id="powers-container" class="power-list">
+              <div class="powers-list" id="powers-list">
+                <!-- Powers will be populated here -->
               </div>
-              <div class="initiative-item">
-                <span class="initiative-name">Orc Warrior</span>
-                <span class="initiative-roll">18</span>
+            </div>
+          </div>
+
+          <!-- 4B) Status Drawer -->
+          <div id="status-drawer" class="drawer-content">
+            <!-- Conditions -->
+            <div class="conditions-section">
+              <div class="condition-chips">
+                <div class="condition-chip" data-condition="dz">DZ</div>
+                <div class="condition-chip" data-condition="stn">STN</div>
+                <div class="condition-chip" data-condition="imm">IMM</div>
+                <div class="condition-chip" data-condition="slow">SLOW</div>
+                <div class="condition-chip" data-condition="wkn">WKN</div>
+                <div class="condition-chip" data-condition="prn">PRN</div>
+                <div class="condition-chip" data-condition="bln">BLN</div>
+                <div class="condition-chip" data-condition="inv">INV</div>
+                <div class="condition-chip" data-condition="rst">RST</div>
+                <div class="condition-chip" data-condition="mrk">MRK</div>
+                <div class="condition-chip ongoing" data-condition="ongoing">ONGO 5 fire</div>
               </div>
-              <div class="initiative-item">
-                <span class="initiative-name">Aragorn</span>
-                <span class="initiative-roll">15</span>
-              </div>
-              <div class="initiative-item">
-                <span class="initiative-name">Goblin Archer</span>
-                <span class="initiative-roll">12</span>
-              </div>
+            </div>
+
+            <!-- Ongoing & Timers -->
+            <div class="ongoing-section">
+              <div class="ongoing-item">Ongoing 5 fire (save ends)</div>
+              <div class="ongoing-item">Ongoing 3 cold (Eo enemy next)</div>
+            </div>
+
+            <!-- Movement Flags -->
+            <div class="movement-flags">
+              <!-- <div class="flag-item">Speed 0</div> -->
+              <!-- <div class="flag-item">Speed ≤2</div> -->
+              <!-- <div class="flag-item">Cannot shift</div> -->
+            </div>
+
+            <!-- Quick Stats -->
+            <div class="quick-stats">
+              <div class="stat-item">Speed 6</div>
+              <div class="stat-item">Reach 1</div>
+              <div class="stat-item">Senses Low-light</div>
             </div>
           </div>
         </div>
 
-        <div class="panel-section">
-          <h3>Powers</h3>
-          <div id="powers-container">
-            <div class="powers-list" id="powers-list">
-              <!-- Powers will be populated here -->
-            </div>
-            <div class="power-details-panel" id="power-details">
-              <h4 id="power-name"></h4>
-              <div class="power-meta">
-                <span id="power-type"></span>
-                <span id="power-action"></span>
-                <span id="power-target"></span>
-              </div>
-              <div class="power-description" id="power-description"></div>
-              <div class="power-usage" id="power-usage"></div>
-            </div>
+        <!-- 5) Log Peek -->
+        <div class="log-peek">
+          <div class="log-lines">
+            <div class="log-line">🎲 A hits B: d20 13 + 8 = 21 vs AC 19 (hit)</div>
+            <div class="log-line">💥 B takes 9 (fire). Temp 3 → 0, HP 22 → 19</div>
           </div>
+          <button class="log-btn">Open Log</button>
         </div>
+
+        <!-- Character Import (hidden by default, can be toggled) -->
+        <div id="character-import-container" class="character-import-section"></div>
       </div>
 
       <div id="log"></div>

@@ -6,7 +6,7 @@ import { GameLog } from './ui/log.js'
 // Game state
 let G = null
 let selected = null
-let mode = 'move'
+let mode = 'move' // Default to move mode
 let preview = null
 let stage = null
 
@@ -69,10 +69,9 @@ async function init() {
     if (shortRestBtn) shortRestBtn.onclick = handleShortRest
     if (longRestBtn) longRestBtn.onclick = handleLongRest
     if (deathSaveBtn) deathSaveBtn.onclick = handleDeathSave
-    if (modeMoveBtn) modeMoveBtn.onclick = () => setMode('move')
-    if (modeMeasureBtn) modeMeasureBtn.onclick = () => setMode('measure')
-    if (modeTargetBtn) modeTargetBtn.onclick = () => setMode('target')
-    if (modeAuraBtn) modeAuraBtn.onclick = () => setMode('aura')
+    
+    // Mode buttons are now handled in the new sidebar structure
+    // The measure button is in the action strip
     
     // Action economy click handlers
     if (standardActionEl) standardActionEl.onclick = () => toggleAction('standard')
@@ -108,6 +107,9 @@ async function init() {
       gameLog = new GameLog(logEl)
       gameLog.addSystemEntry('Game initialized successfully', 'success')
     }
+    
+    // Initialize sidebar interactions
+    initializeSidebarInteractions()
     
     // Keyboard shortcuts
     document.addEventListener('keydown', handleKeyDown)
@@ -429,10 +431,18 @@ function handleStageClick(event) {
   const y = event.clientY - rect.top
   const pos = stage.worldToCell({ x, y })
   
+  console.log('Stage click:', { mode, selected, pos })
+  
+  // Default to move mode if not set
+  if (!mode) {
+    mode = 'move'
+  }
+  
   if (mode === 'move' && selected) {
+    // Move selected token
     moveToken(selected, pos.x, pos.y, 'walk')
   } else if (mode === 'move') {
-    // Select token
+    // Select token for movement
     const actorId = findActorAt(pos.x, pos.y)
     if (actorId) {
       selected = actorId
@@ -449,6 +459,10 @@ function handleStageClick(event) {
       selected = actorId
       renderAll()
     }
+  } else if (mode === 'measure') {
+    // Measure mode - just show preview
+    preview = { x: pos.x, y: pos.y }
+    renderAll()
   }
 }
 
@@ -484,11 +498,12 @@ function setMode(newMode) {
   selected = null
   preview = null
   
-  // Update UI
-  modeMoveBtn.classList.toggle('active', mode === 'move')
-  modeMeasureBtn.classList.toggle('active', mode === 'measure')
-  modeTargetBtn.classList.toggle('active', mode === 'target')
-  modeAuraBtn.classList.toggle('active', mode === 'aura')
+  // Update mode button states in the new sidebar
+  const modeButtons = document.querySelectorAll('#mode-move, #mode-measure, #mode-target')
+  modeButtons.forEach(btn => {
+    const btnMode = btn.id.replace('mode-', '')
+    btn.classList.toggle('active', btnMode === newMode)
+  })
   
   renderAll()
 }
@@ -730,6 +745,103 @@ function resetCharacterDisplay() {
     powersPanel.actorPowers = new Map()
     powersPanel.update(G)
   }
+}
+
+// Initialize sidebar interactions
+function initializeSidebarInteractions() {
+  // Drawer toggle functionality
+  const toggleBtns = document.querySelectorAll('.toggle-btn')
+  toggleBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      const drawer = btn.dataset.drawer
+      
+      // Update active states
+      toggleBtns.forEach(b => b.classList.remove('active'))
+      btn.classList.add('active')
+      
+      // Show/hide drawer content
+      const drawerContents = document.querySelectorAll('.drawer-content')
+      drawerContents.forEach(content => content.classList.remove('active'))
+      
+      const targetDrawer = document.getElementById(`${drawer}-drawer`)
+      if (targetDrawer) {
+        targetDrawer.classList.add('active')
+      }
+    })
+  })
+
+  // Power tab functionality
+  const tabBtns = document.querySelectorAll('.tab-btn')
+  tabBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      const tab = btn.dataset.tab
+      
+      // Update active states
+      tabBtns.forEach(b => b.classList.remove('active'))
+      btn.classList.add('active')
+      
+      // Filter powers by type (placeholder for now)
+      console.log(`Switched to ${tab} powers`)
+    })
+  })
+
+  // Power filter functionality
+  const filterBtns = document.querySelectorAll('.filter-btn')
+  filterBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      btn.classList.toggle('active')
+      // Filter powers by action type (placeholder for now)
+      console.log(`Toggled ${btn.dataset.filter} filter`)
+    })
+  })
+
+  // Action slot functionality
+  const actionSlots = document.querySelectorAll('.action-slot')
+  actionSlots.forEach(slot => {
+    slot.addEventListener('click', () => {
+      slot.classList.toggle('used')
+      const remainingEl = slot.querySelector('.action-remaining')
+      if (remainingEl) {
+        const current = parseInt(remainingEl.textContent)
+        remainingEl.textContent = slot.classList.contains('used') ? Math.max(0, current - 1) : current + 1
+      }
+    })
+  })
+
+  // Log peek functionality
+  const logBtn = document.querySelector('.log-btn')
+  if (logBtn) {
+    logBtn.addEventListener('click', () => {
+      // Toggle full log visibility (placeholder)
+      console.log('Toggle full log')
+    })
+  }
+
+  // Mode button functionality
+  const modeButtons = document.querySelectorAll('#mode-move, #mode-measure, #mode-target')
+  modeButtons.forEach(btn => {
+    btn.addEventListener('click', () => {
+      const modeType = btn.id.replace('mode-', '')
+      setMode(modeType)
+      
+      // Update active states
+      modeButtons.forEach(b => b.classList.remove('active'))
+      btn.classList.add('active')
+    })
+  })
+
+  // Reactive bar functionality
+  const reactiveBtns = document.querySelectorAll('.reactive-btn')
+  reactiveBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      const action = btn.textContent.toLowerCase()
+      console.log(`Reactive action: ${action}`)
+      
+      if (action === 'skip') {
+        document.getElementById('reactive-bar').classList.add('hidden')
+      }
+    })
+  })
 }
 
 // Start the app

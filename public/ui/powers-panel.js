@@ -205,34 +205,16 @@ export class PowersPanel {
       return
     }
     
-    const type = power.powerType || power.system?.powerType || 'at-will'
-    const action = power.action || power.system?.action || 'Standard'
-    const target = power.target || power.system?.target || 'One creature'
-    const range = power.range || power.system?.range || 'Melee'
-    const description = power.description || power.system?.description || 'No description available.'
-    const damage = power.damage || power.system?.damage
+    this.selectedPowerId = powerId
     
-    this.powerName.textContent = power.name
-    this.powerType.textContent = type
-    this.powerAction.textContent = action
-    this.powerTarget.textContent = target
+    // For now, just log the power details since the details panel was removed
+    console.log('Power selected:', power)
     
-    let descriptionText = description
-    if (damage?.formula) {
-      descriptionText += `\n\nDamage: ${damage.formula}`
-    }
-    
-    this.powerDescription.textContent = descriptionText
-    
-    // Show usage status
-    const canUse = canUsePower(power, this.gameState, this.currentActorId)
-    this.powerUsage.textContent = canUse ? 'Ready to use' : 'Cannot use at this time'
-    
-    this.powerDetails.classList.add('show')
+    // TODO: Implement power details display in the new sidebar structure
+    // This could be a tooltip, modal, or inline expansion
   }
   
   hidePowerDetails() {
-    this.powerDetails.classList.remove('show')
     this.selectedPowerId = null
   }
   
